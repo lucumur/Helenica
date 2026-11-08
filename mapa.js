@@ -281,26 +281,36 @@ ${physicalSVG(D, opts.selectedId)}
       badge.textContent = lvl; badge.title = `Nivel ${lvl} · ${ZL[lvl - 1].que}`;
       main.querySelector('#zi').disabled = k + 1e-9 >= zk(9); main.querySelector('#zo').disabled = k <= 1.001;
     }
-    let viewFrame = 0, wheelBusy = false, wheelDelta = 0, wheelLast = 0;
-    const wheelQueue = [];
-    function setView(v, animate, onDone, duration = 420) {
-      if (viewFrame) { cancelAnimationFrame(viewFrame); viewFrame = 0; }
-      // La navegación directa interrumpe los pasos pendientes de la rueda.
-      if (!onDone) { wheelQueue.length = 0; wheelBusy = false; wheelDelta = 0; }
+    let viewFrame = 0, wheelTarget = null, wheelVelocity = 0, wheelTime = 0;
+    let wheelDelta = 0, wheelLast = 0, wheelDirection = 0, wheelAnchor = null;
+    function stopViewMotion() {
+      if (viewFrame) cancelAnimationFrame(viewFrame);
+      viewFrame = 0; wheelTarget = null; wheelVelocity = 0;
+      wheelDelta = 0; wheelDirection = 0; wheelAnchor = null;
+    }
+    function constrainView(v) {
       const asp = (svg.clientHeight || 600) / (svg.clientWidth || 1000);
       let w = Math.min(W, Math.max(W / zk(9), v[2])), h = w * asp;
       if (h > H) { h = H; w = h / asp; }
       const cx = v[0] + v[2] / 2, cy = v[1] + v[3] / 2;
       let x = cx - w / 2, y = cy - h / 2;
       x = Math.max(Math.min(x, W - w), Math.min(0, W - w)); y = Math.max(Math.min(y, H - h), Math.min(0, H - h));
-      const target = [x, y, w, h];
-      if (!animate) { view = target; apply(); if (onDone) onDone(); return; }
-      const from = [...view], t0 = performance.now();
+      return [x, y, w, h];
+    }
+    function setView(v, animate) {
+      stopViewMotion();
+      const target = constrainView(v);
+      if (!animate) { view = target; apply(); return; }
+      const from = [...view], t0 = performance.now(), duration = 420;
       const step = t => {
-        const p = Math.min(1, (t - t0) / duration), e = 1 - Math.pow(1 - p, 3);
-        view = from.map((a, i) => a + (target[i] - a) * e); apply();
+        const p = Math.min(1, (t - t0) / duration), e = p * p * (3 - 2 * p);
+        const w = Math.exp(Math.log(from[2]) + Math.log(target[2] / from[2]) * e);
+        const h = w * target[3] / target[2];
+        const cx = from[0] + from[2] / 2 + (target[0] + target[2] / 2 - from[0] - from[2] / 2) * e;
+        const cy = from[1] + from[3] / 2 + (target[1] + target[3] / 2 - from[1] - from[3] / 2) * e;
+        view = p === 1 ? target : constrainView([cx - w / 2, cy - h / 2, w, h]); apply();
         if (p < 1) viewFrame = requestAnimationFrame(step);
-        else { viewFrame = 0; if (onDone) onDone(); }
+        else viewFrame = 0;
       };
       viewFrame = requestAnimationFrame(step);
     }
@@ -456,14 +466,36 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
       if (f || s) { e.preventDefault(); if (f) openFeature(f.dataset.feature); else showSite(D.sites[+s.dataset.k].main); }
     });
     svg.addEventListener('pointercancel', up);
-    function nextWheelStep() {
-      const job = wheelQueue.shift();
-      if (!job) { wheelBusy = false; return; }
-      wheelBusy = true;
-      const level = zlevel(W / view[2]), next = Math.max(ZL[0].n, Math.min(ZL[ZL.length - 1].n, level + job.direction));
-      if (next === level) { nextWheelStep(); return; }
-      const f = (W / zk(next)) / view[2], [cx, cy] = toSvg(job.x, job.y);
-      setView([cx - (cx - view[0]) * f, cy - (cy - view[1]) * f, view[2] * f, view[3] * f], true, nextWheelStep, 220);
+    function wheelFrame(t) {
+      const dt = Math.max(0.001, Math.min(0.05, (t - wheelTime) / 1000));
+      wheelTime = t;
+      const requested = W / zk(wheelTarget);
+      const targetWidth = constrainView([view[0], view[1], requested, requested * view[3] / view[2]])[2];
+      const current = Math.log(view[2]), goal = Math.log(targetWidth);
+      // Resorte amortiguado en escala logarítmica: conserva la velocidad al recibir más giros.
+      const omega = 22, error = current - goal, decay = Math.exp(-omega * dt);
+      const temp = (wheelVelocity + omega * error) * dt;
+      let next = goal + (error + temp) * decay;
+      wheelVelocity = Math.max(-3, Math.min(3, (wheelVelocity - omega * temp) * decay));
+      next = current + Math.max(-3 * dt, Math.min(3 * dt, next - current));
+      const settled = Math.abs(next - goal) < 0.0002 && Math.abs(wheelVelocity) < 0.003;
+      const width = settled ? targetWidth : Math.exp(next), f = width / view[2];
+      const [cx, cy] = toSvg(wheelAnchor.x, wheelAnchor.y);
+      view = constrainView([cx - (cx - view[0]) * f, cy - (cy - view[1]) * f, width, view[3] * f]);
+      apply();
+      if (settled) { viewFrame = 0; wheelTarget = null; wheelVelocity = 0; }
+      else viewFrame = requestAnimationFrame(wheelFrame);
+    }
+    function zoomBy(direction, x, y) {
+      const active = wheelTarget !== null;
+      const base = active && direction === wheelDirection ? wheelTarget : zlevel(W / view[2]);
+      if (!active) {
+        if (viewFrame) cancelAnimationFrame(viewFrame);
+        wheelVelocity = 0; wheelTime = performance.now();
+      }
+      wheelTarget = Math.max(ZL[0].n, Math.min(ZL[ZL.length - 1].n, base + direction));
+      wheelDirection = direction; wheelAnchor = { x, y };
+      if (!active) viewFrame = requestAnimationFrame(wheelFrame);
     }
     svg.addEventListener('wheel', e => {
       e.preventDefault();
@@ -471,11 +503,10 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
       const now = performance.now(), delta = e.deltaY * (e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? svg.clientHeight : 1);
       if (now - wheelLast > 180 || Math.sign(delta) !== Math.sign(wheelDelta)) wheelDelta = 0;
       wheelLast = now; wheelDelta += delta;
-      // Una muesca por nivel; agrupar los eventos pequeños de un trackpad.
       if (Math.abs(wheelDelta) < 60) return;
-      if (wheelQueue.length < ZL.length) wheelQueue.push({ direction: wheelDelta < 0 ? 1 : -1, x: e.clientX, y: e.clientY });
+      const direction = wheelDelta < 0 ? 1 : -1;
       wheelDelta = 0;
-      if (!wheelBusy) nextWheelStep();
+      zoomBy(direction, e.clientX, e.clientY);
     }, { passive: false });
     svg.addEventListener('dblclick', e => { const [cx, cy] = toSvg(e.clientX, e.clientY); setView([cx - view[2] * .3, cy - view[3] * .3, view[2] * .6, view[3] * .6], true); });
     function hover(e) {
@@ -493,8 +524,8 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
       tip.innerHTML = html; tip.hidden = false; tip.style.left = `${e.clientX - r.left + 14}px`; tip.style.top = `${e.clientY - r.top + 12}px`;
     }
     svg.addEventListener('pointerleave', () => { tip.hidden = true; });
-    main.querySelector('#zi').onclick = () => setView([view[0] + view[2] * .2, view[1] + view[3] * .2, view[2] * .6, view[3] * .6], true);
-    main.querySelector('#zo').onclick = () => setView([view[0] - view[2] * .333, view[1] - view[3] * .333, view[2] * 1.667, view[3] * 1.667], true);
+    main.querySelector('#zi').onclick = () => { const r = svg.getBoundingClientRect(); zoomBy(1, r.left + r.width / 2, r.top + r.height / 2); };
+    main.querySelector('#zo').onclick = () => { const r = svg.getBoundingClientRect(); zoomBy(-1, r.left + r.width / 2, r.top + r.height / 2); };
     main.querySelector('#zr').onclick = () => setView([0, 0, W, H], true);
     main.querySelector('#l-rv').onchange = e => svg.classList.toggle('no-rv', !e.target.checked);
     main.querySelector('#l-mt').onchange = e => svg.classList.toggle('no-mt', !e.target.checked);

@@ -183,3 +183,8 @@ body.embed main.wrap{padding:14px 0 40px}
 body.peek-docked{padding-right:var(--peek-w)}
 #out .peeked{outline:2px solid var(--accent,#a8461f);outline-offset:-2px}
 @media(max-width:760px){:root{--peek-w:100vw}body.peek-docked{padding-right:0}}
+
+/* icono en listas */
+.li-ic{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;overflow:hidden;font:18px/1 system-ui;vertical-align:-6px;margin-right:8px;flex:none}
+.li-ic img{width:100%;height:100%;object-fit:cover;display:block}
+.li-ic.big{width:44px;height:44px;font-size:30px;margin:0 0 6px;float:none;display:flex}

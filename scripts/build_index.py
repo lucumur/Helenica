@@ -6,7 +6,7 @@ nombres, relaciones inversas (hijos, apariciones en eventos, lugares contenidos)
 y enlaces de retorno. Se regenera solo en GitHub Actions; también puede
 correrse localmente:  python scripts/build_index.py
 """
-import json, os, re, glob, sys
+import json, os, re, glob, sys, base64, urllib.parse
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, 'data')
@@ -51,8 +51,31 @@ def outlinks(obj, acc):
             acc.add(f'{m.group(1)}:{m.group(2)}')
 
 
+ICON_DIR = os.path.join(DATA, 'iconos')
+EXT = {'png': 'png', 'jpeg': 'jpg', 'jpg': 'jpg', 'webp': 'webp', 'gif': 'gif', 'svg+xml': 'svg', 'x-icon': 'ico', 'vnd.microsoft.icon': 'ico'}
+
+
+def icon_ref(col, rid, icon, written):
+    """Icono para el índice: emoji, URL o ruta tal cual; las imágenes data: se vuelcan a data/iconos/ para no inflar el índice."""
+    icon = (icon or '').strip()
+    m = re.match(r'^data:image/([\w.+-]+)(;base64)?,(.*)$', icon, re.S)
+    if not m:
+        return icon or None
+    ext = EXT.get(m.group(1).lower(), 'png')
+    raw = base64.b64decode(m.group(3)) if m.group(2) else urllib.parse.unquote_to_bytes(m.group(3))
+    name = f'{col}--{rid}.{ext}'
+    os.makedirs(ICON_DIR, exist_ok=True)
+    path = os.path.join(ICON_DIR, name)
+    if not os.path.exists(path) or open(path, 'rb').read() != raw:
+        with open(path, 'wb') as fh:
+            fh.write(raw)
+    written.add(name)
+    return f'data/iconos/{name}'
+
+
 def main():
     items = []
+    icons_written = set()
     years = [p['anio'] for p in json.load(open(os.path.join(DATA, 'mapa', 'periodos.json'), encoding='utf-8'))['periodos']]
     rng = {p['id']: (p.get('desde'), p.get('hasta')) for p in json.load(open(os.path.join(DATA, 'tipologia.json'), encoding='utf-8'))['periodos']}
     inr = lambda y, a, b: (a is None or a <= y) and (b is None or y <= b)
@@ -75,6 +98,9 @@ def main():
                 'r': plain(desc), 'img': rec.get('imagen') or None,
                 'out': sorted(links),
             }
+            ic = icon_ref(col, rec['id'], rec.get('icono'), icons_written)
+            if ic:
+                it['ic'] = ic
             if col == 'entes':
                 it.update({'g': rec.get('genero'), 'pa': ids(rec, 'padres'), 'co': ids(rec, 'conyuges'),
                            'hi': ids(rec, 'hijos'), 'asp': ids(rec, 'aspecto_de')})
@@ -126,6 +152,10 @@ def main():
             if cur and cur.get('pt'):
                 it['ptx'] = cur['pt']
                 break
+    if os.path.isdir(ICON_DIR):
+        for f in os.listdir(ICON_DIR):
+            if f not in icons_written:
+                os.remove(os.path.join(ICON_DIR, f))
     out = {'schema_version': 1, 'total': len(items), 'items': items}
     with open(os.path.join(DATA, 'index.json'), 'w', encoding='utf-8') as fh:
         json.dump(out, fh, ensure_ascii=False, separators=(',', ':'))

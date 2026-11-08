@@ -14,7 +14,7 @@
   const href = (c, id) => `ficha.html?c=${c}&id=${encodeURIComponent(id)}`;
   const iconHTML = value => {
     const icon = String(value || '').trim();
-    return /^(https?:\/\/|data:image\/|img\/)/i.test(icon)
+    return /^(https?:\/\/|data:image\/|img\/|data\/iconos\/)/i.test(icon)
       ? `<img src="${esc(icon)}" alt="" onerror="this.replaceWith(document.createTextNode('◇'))">`
       : esc(icon || '＋');
   };
@@ -131,13 +131,14 @@
   const loadAreas = async () => { if (!AREAS) [AREAS, TIPO] = await Promise.all([getJSON('data/areas.json'), getJSON('data/tipologia.json')]); return AREAS; };
   const tName = (k, id) => { const x = TIPO && TIPO[k].find(a => a.id === id); return x ? x.nombre : id; };
   const areaName = id => { const x = AREAS && AREAS.areas.find(a => a.id === id); return x ? x.nombre : id; };
+  const miniIcon = (i, cls = 'li-ic') => i.ic ? `<span class="${cls}" aria-hidden="true">${iconHTML(i.ic)}</span>` : '';
   function cardHTML(i) {
     return `<a class="gcard" href="${href(i.c, i.id)}">${i.img ? `<div class="ph"><img loading="lazy" src="${esc(i.img)}" alt="" onerror="this.parentNode.remove()"></div>` : ''}
-<div class="bd"><div class="nm">${esc(i.n)}${i.alt ? `<small>${esc(i.alt)}</small>` : ''}</div><div>${tagHTML(i.t)}</div>
+<div class="bd">${miniIcon(i, 'li-ic big')}<div class="nm">${esc(i.n)}${i.alt ? `<small>${esc(i.alt)}</small>` : ''}</div><div>${tagHTML(i.t)}</div>
 <div class="rs">${esc(i.r || '')}</div>${i.ar && i.ar.length && AREAS ? `<div class="muted" style="font-size:.75rem;margin-top:6px">${esc(i.ar.map(areaName).join(', '))}${i.cu ? ' · ' + esc(i.cu) : ''}</div>` : (i.cu ? `<div class="muted" style="font-size:.75rem;margin-top:6px">${esc(i.cu)}</div>` : '')}</div></a>`;
   }
   function rowHTML(i) {
-    return `<a class="row" href="${href(i.c, i.id)}"><div class="nm">${esc(i.n)}${i.alt ? `<small>${esc(i.alt)}</small>` : ''}</div>
+    return `<a class="row" href="${href(i.c, i.id)}"><div class="nm">${miniIcon(i)}${esc(i.n)}${i.alt ? `<small>${esc(i.alt)}</small>` : ''}</div>
 <div><div>${tagHTML(i.t)} <span class="muted" style="font-size:.75rem">${COLS[i.c].s}${i.cu ? ' · ' + esc(i.cu) : ''}${i.ar && i.ar.length && AREAS ? ' · ' + esc(i.ar.map(areaName).join(', ')) : ''}</span></div><div class="rs">${esc(i.r || '')}</div></div></a>`;
   }
 
@@ -252,7 +253,7 @@ ${col === 'lugares' ? '<p id="area-desc" class="muted"></p>' : ''}${facetPanel}$
     }
     PEEK.fr.src = `ficha.html?c=${encodeURIComponent(c)}&id=${encodeURIComponent(id)}&embed=1`;
     PEEK.el.querySelector('[data-a=open]').href = href(c, id);
-    PEEK.el.querySelector('.peek-t').textContent = (row && row.querySelector('.nm') ? row.querySelector('.nm').firstChild.textContent : '');
+    PEEK.el.querySelector('.peek-t').textContent = (row && row.querySelector('.nm') ? [...row.querySelector('.nm').childNodes].filter(n => n.nodeType === 3).map(n => n.textContent).join('').trim() : '');
     document.querySelectorAll('#out .peeked').forEach(n => n.classList.remove('peeked')); if (row) row.classList.add('peeked');
     PEEK.show();
   }

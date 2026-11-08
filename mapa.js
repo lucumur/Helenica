@@ -17,12 +17,11 @@
   const TIER_ICON = { chora: 'diamond', nesos: 'diamond', ethnos: 'diamond', 'polis-kome': 'circle', demos: 'small', moira: 'small', oikema: 'small' };
   // Nivel = último umbral alcanzado. k = ancho del atlas / ancho del encuadre.
   const ZL = [
-    { n: 1, k: 1, que: 'Zonas continentales (tier 0) si la fecha las tiene; si no, regiones amplias. Las cinco capitales' },
-    { n: 2, reduccion: 0.7, que: 'Regiones amplias, tier 1' },
-    { n: 3, reduccion: 0.5, que: 'Regiones amplias, tier 1' },
-    { n: 4, reduccion: 0.5, que: 'Argos, Corinto, Esparta, Elis y Orcómeno' },
-    { n: 5, reduccion: 0.5, que: 'Subregiones, demás lugares, cauces y macizos' },
-    { n: 6, reduccion: 0.5, que: 'Islas del Egeo; iconos y nombres de ríos y montes; tope de zoom' },
+    { n: 1, k: 1, que: 'Tier 0: zonas continentales si la fecha las tiene; si no, áreas. Las cinco capitales' },
+    { n: 2, reduccion: 0.75, que: 'Tier 1: áreas y capitales' },
+    { n: 3, reduccion: 0.55, que: 'Tier 2: subregiones con su poder en la fecha' },
+    { n: 4, reduccion: 0.55, que: 'Tier 3: choras y ethne; cauces y macizos' },
+    { n: 5, reduccion: 0.55, que: 'Tier 4: asentamientos, cada isla, iconos y nombres de ríos y montes; tope de zoom' },
   ];
   // Cada porcentaje reduce el ancho visible respecto al nivel anterior.
   for (let i = 1; i < ZL.length; i++) ZL[i].k = ZL[i - 1].k / (1 - ZL[i].reduccion);
@@ -36,8 +35,9 @@
     const km = SCALE_STEPS.find(v => v / kmPerPx >= 70) || 1000;
     return { km, pixels: km / kmPerPx };
   };
+  const siteLevel = s => s.tier === 'chora' || s.tier === 'ethnos' ? 4 : 5;
   const naturalKind = i => (i.t || []).includes('Monte') ? 'monte' : (i.t || []).includes('Río') ? 'rio' : null;
-  // Visibles en todo zoom anterior al nivel 5. El resto de lugares espera a ese nivel.
+  // Visibles en todo nivel. Choras y ethne, desde el nivel 4; asentamientos e islas, desde el 5.
   const CAPITAL = {
     'argos-argolis': 'Argos',
     'qorinthos-korinthia': 'Korinthos',
@@ -168,7 +168,7 @@ ${physicalSVG(D, opts.selectedId)}
   <aside id="panel" class="panel" hidden></aside>
   <div id="tip" class="tip" hidden></div>
 </div>
-<p class="atlas-src">Costa y agua de base: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>. Trazados fluviales: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL). Macizos: <a href="https://doi.org/10.48601/earthenv-t9k2-1407" target="_blank" rel="noopener">GMBA Mountain Inventory v2</a> (CC BY 4.0). Las extensiones son cartográficas y aproximadas; los cauces modernos no reconstruyen sus cambios antiguos. Las fronteras regionales son convencionales. Cauces y extensiones montañosas desde el nivel 5; sus iconos y nombres, desde el nivel 6. El resto de lugares, desde el nivel 5. Cada isla del Egeo, desde el nivel 6. En el nivel 1, las fechas con zonas continentales (tier 0) las muestran en lugar de las áreas.</p>`;
+<p class="atlas-src">Costa y agua de base: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>. Trazados fluviales: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL). Macizos: <a href="https://doi.org/10.48601/earthenv-t9k2-1407" target="_blank" rel="noopener">GMBA Mountain Inventory v2</a> (CC BY 4.0). Las extensiones son cartográficas y aproximadas; los cauces modernos no reconstruyen sus cambios antiguos. Las fronteras regionales son convencionales. Subregiones desde el nivel 3; choras, ethne, cauces y extensiones montañosas desde el nivel 4; asentamientos, cada isla del Egeo e iconos y nombres de ríos y montes, desde el nivel 5. En el nivel 1, las fechas con zonas continentales (tier 0) las muestran en lugar de las áreas.</p>`;
     const svg = main.querySelector('#map'), panel = main.querySelector('#panel'), tip = main.querySelector('#tip');
     const gSites = svg.querySelector('.sites'), gLab = svg.querySelector('.alabels'), gSeas = svg.querySelector('.seas'), gHl = svg.querySelector('.hl');
     let view = [0, 0, W, H], selArea = null, selSite = null, T = '-300';
@@ -205,7 +205,7 @@ ${physicalSVG(D, opts.selectedId)}
       const b = e.target.closest('button'); if (!b) return;
       if (!D.per.periodos.some(p => p.id === b.dataset.t)) return;
       T = b.dataset.t; applyTime();
-      if (T && W / view[2] < zk(5) && !(D.t0[T] && zlevel(W / view[2]) === 1)) fitBox(D.geo.peloponeso.bbox, 0.08);
+      if (T && W / view[2] < zk(3) && !(D.t0[T] && zlevel(W / view[2]) === 1)) fitBox(D.geo.peloponeso.bbox, 0.08);
     });
 
     // etiquetas de área
@@ -230,14 +230,14 @@ ${physicalSVG(D, opts.selectedId)}
     function apply() {
       svg.setAttribute('viewBox', view.join(' '));
       const u = unitsPerPx(), k = W / view[2], scale = scaleBar(u);
-      const lvl = zlevel(k), naturalVisible = lvl >= 5, naturalSitesVisible = lvl >= MAX_ZOOM;
+      const lvl = zlevel(k), naturalVisible = lvl >= 4, naturalSitesVisible = lvl >= MAX_ZOOM;
       const t0on = lvl === 1 && !!(T && D.t0[T]);
       svg.classList.toggle('t0-on', t0on);
       svg.classList.toggle('natural-detail', naturalVisible);
       svg.style.setProperty('--u', u);
       const placed = [], sx = x => (x - view[0]) / u, sy = y => (y - view[1]) / u;
       const fits = b => { for (const p of placed) if (!(b[2] < p[0] || b[0] > p[2] || b[3] < p[1] || b[1] > p[3])) return false; placed.push(b); return true; };
-      const subVisible = s => k + 1e-9 >= zk(s.nivel ?? 5);
+      const subVisible = s => k + 1e-9 >= zk(s.nivel ?? 3);
       svg.querySelectorAll('.z0').forEach(p => { p.style.display = t0on && p.dataset.t0 === T ? 'inline' : 'none'; });
       gZ0.querySelectorAll('.z0l').forEach(g => {
         if (!t0on || g.dataset.t0 !== T) { g.style.display = 'none'; return; }
@@ -249,18 +249,18 @@ ${physicalSVG(D, opts.selectedId)}
       svg.querySelectorAll('.al').forEach(g => {
         if (t0on) { g.style.display = 'none'; return; }
         const mine = Object.values(D.subs).filter(s => s.padre === g.dataset.area);
-        if (mine.length && k >= zk(Math.min(...mine.map(s => s.nivel ?? 5)))) { g.style.display = 'none'; return; }
+        if (mine.length && k >= zk(Math.min(...mine.map(s => s.nivel ?? 3)))) { g.style.display = 'none'; return; }
         const [x, y] = g.getAttribute('transform').match(/translate\(([^)]+)\)/)[1].split(',').map(Number);
         const wpx = (+g.dataset.w * COS * U) / u, name = g.querySelector('.n').textContent;
         g.setAttribute('transform', `translate(${x},${y}) scale(${u})`);
         const tw = name.length * 8.4, show = wpx > name.length * 7.2 && fits([sx(x) - tw / 2, sy(y) - 14, sx(x) + tw / 2, sy(y) + (g.querySelector('.g') ? 18 : 4)]);
         g.style.display = show ? '' : 'none';
-        g.classList.toggle('dim', k >= zk(6));
+        g.classList.toggle('dim', k >= zk(5));
       });
       gSeas.querySelectorAll('.sea-l').forEach(g => {
         const m = g.getAttribute('transform').match(/translate\(([^)]+)\)/)[1].split(',').map(Number);
         g.setAttribute('transform', `translate(${m[0]},${m[1]}) scale(${u})`);
-        const vis = g.classList.contains('big') ? k < 7 : k >= 5, tw = g.textContent.length * 7.5;
+        const vis = g.classList.contains('big') ? k < zk(3) : k >= zk(2), tw = g.textContent.length * 7.5;
         g.style.display = vis && fits([sx(m[0]) - tw / 2, sy(m[1]) - 12, sx(m[0]) + tw / 2, sy(m[1]) + 4]) ? '' : 'none';
       });
       const anySub = Object.values(D.subs).some(subVisible);
@@ -278,15 +278,15 @@ ${physicalSVG(D, opts.selectedId)}
         const [x, y] = P(s.pt);
         g.setAttribute('transform', `translate(${x},${y}) scale(${u})`);
         const natural = s.kind === 'monte' || s.kind === 'rio';
-        g.style.display = (!s.isleBody && (natural ? naturalSitesVisible : (s.capital || (s.isle ? subVisible(s.isle) : k >= zk(5))))) && !g.classList.contains('gone') ? '' : 'none';
+        g.style.display = (!s.isleBody && (natural ? naturalSitesVisible : (s.capital || (s.isle ? subVisible(s.isle) : k >= zk(siteLevel(s)))))) && !g.classList.contains('gone') ? '' : 'none';
         g.classList.remove('lab');
       }
       if (!svg.classList.contains('no-lb')) {
-        nodes.filter(([g, s]) => g.style.display !== 'none' && (g.classList.contains('on') || s.capital || k >= zk(5)))
+        nodes.filter(([g, s]) => g.style.display !== 'none' && (g.classList.contains('on') || s.capital || k >= zk(siteLevel(s))))
           .sort((a, b) => (b[0].classList.contains('on') - a[0].classList.contains('on')) || a[1].rank - b[1].rank)
           .forEach(([g, s]) => { const [x, y] = P(s.pt), X = sx(x), Y = sy(y); if (X < -50 || Y < -20 || X > svg.clientWidth + 50 || Y > svg.clientHeight + 20) return; if (fits([X - 6, Y - 8, X + 10 + s.label.length * 6.6, Y + 8])) g.classList.add('lab'); });
       }
-      svg.classList.toggle('z-hi', k >= zk(5));
+      svg.classList.toggle('z-hi', k >= zk(4));
 
       const pl = gHl.querySelector('.pulse'); if (pl) pl.setAttribute('transform', pl.getAttribute('transform').replace(/scale\([^)]*\)/, `scale(${u})`));
       // escala
@@ -434,7 +434,7 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
       if (pt) { const [x, y] = P(pt); gHl.innerHTML = `<g class="pulse" transform="translate(${x},${y})"><circle r="1"/></g>`; gHl.firstChild.setAttribute('transform', `translate(${x},${y}) scale(${unitsPerPx()})`); }
       gSites.querySelectorAll('.site').forEach(g => g.classList.toggle('on', D.sites[+g.dataset.k] === site)); apply();
       if (move && geometry) fitBox(geometry.bbox, 0.12);
-      else if (move && pt) flyTo(pt, Math.max(W / view[2], i.es === 'chora' || i.es === 'ethnos' ? 10 : 18));
+      else if (move && pt) flyTo(pt, Math.max(W / view[2], zk(i.es === 'chora' || i.es === 'ethnos' ? 4 : 5) * 1.02));
       url({ lugar: i.id });
     }
     function clear() {

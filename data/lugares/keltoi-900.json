@@ -1,0 +1,33 @@
+{
+  "id": "keltoi-900",
+  "nombre": "Keltoi",
+  "nombre_alt": "Celtas",
+  "nombre_griego": "Κελτοί",
+  "endonimo": "Celtae",
+  "endonimo_nota": "César, Bellum Gallicum 1.1: «ipsorum lingua Celtae». Testimonio muy posterior.",
+  "imagen": null,
+  "tipos": [
+    "Zona continental"
+  ],
+  "areas": [
+    "hiperborea"
+  ],
+  "escala": "continental",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Europa central y occidental al norte de los Alpes y de los Pirineos, hasta la llanura panónica: Campos de Urnas tardíos, en transición al Hallstatt (c. 800)."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Κελτοί es el nombre griego más antiguo (Hecateo; Heródoto 2.33, 4.49); Γαλάται se generaliza en el s. III a.C., tras la invasión de 279.\n- Ancestros probables de los celtas históricos; la atribución lingüística para esta fecha es discutida.\n- Aquitania, al sur de la Garona, pertenece a Auskoi."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

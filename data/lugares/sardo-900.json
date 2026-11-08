@@ -1,0 +1,33 @@
+{
+  "id": "sardo-900",
+  "nombre": "Sardō",
+  "nombre_alt": "Cerdeña",
+  "nombre_griego": "Σαρδώ",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido. Fenicio šrdn (estela de Nora, s. IX–VIII), primera atestiguación del nombre; exónimo.",
+  "imagen": null,
+  "tipos": [
+    "Zona continental"
+  ],
+  "areas": [
+    "italia"
+  ],
+  "escala": "continental",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Cerdeña nurágica."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Σαρδώ, tema en -ō (Heródoto 1.170); no hay forma con ā. Nombre griego arcaico alternativo: Ἰχνοῦσσα, «la huella» (Timeo, en Plinio).\n- La relación con los šrdn (shardana) de los Pueblos del Mar es discutida."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

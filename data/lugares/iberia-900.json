@@ -1,0 +1,33 @@
+{
+  "id": "iberia-900",
+  "nombre": "Ibēriā",
+  "nombre_alt": "Iberia",
+  "nombre_griego": "Ἰβηρίᾱ",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Zona continental"
+  ],
+  "areas": [
+    "iberia"
+  ],
+  "escala": "continental",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Península ibérica salvo Tartessos y el Pirineo occidental, con las Baleares: Bronce Final, con Campos de Urnas en el noreste y cultura talayótica en las islas."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Ἴβηρες aparece desde Hecateo; la η podría ser original y no se cambia a ā."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

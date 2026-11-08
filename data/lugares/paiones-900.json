@@ -1,0 +1,33 @@
+{
+  "id": "paiones-900",
+  "nombre": "Paiones",
+  "nombre_alt": "Peonios",
+  "nombre_griego": "Παίονες",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Zona continental"
+  ],
+  "areas": [
+    "macedonia"
+  ],
+  "escala": "continental",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Valle del Axios y la llanura del golfo Termaico, donde más tarde surgirá Macedonia; hacia 900 a.C. no hay reino macedonio."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Los Παίονες del Axios aparecen en la *Ilíada* (2.848). La alternativa homérica para la llanura, Ἠμαθίη (*Il.* 14.226), tiene forma con ā dudosa."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

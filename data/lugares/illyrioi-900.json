@@ -1,0 +1,33 @@
+{
+  "id": "illyrioi-900",
+  "nombre": "Illyrioi",
+  "nombre_alt": "Ilirios",
+  "nombre_griego": "Ἰλλυριοί",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido. En origen, nombre de una sola tribu (Plinio: *Illyrii proprie dicti*).",
+  "imagen": null,
+  "tipos": [
+    "Zona continental"
+  ],
+  "areas": [
+    "grecia-occidental"
+  ],
+  "escala": "continental",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Costa adriática oriental, de Istria al Aoos, con su interior hasta el Sava y Dardania."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- El nombre aparece desde Hecateo; la extensión a todo el grupo es posterior."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

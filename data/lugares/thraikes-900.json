@@ -1,0 +1,33 @@
+{
+  "id": "thraikes-900",
+  "nombre": "Thrāikes",
+  "nombre_alt": "Tracios",
+  "nombre_griego": "Θρᾱ́ϊκες",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Zona continental"
+  ],
+  "areas": [
+    "tracia"
+  ],
+  "escala": "continental",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Tierra de los tracios: del Estrimón al mar Negro y del Egeo norte a los Cárpatos y el Dniéster, con Calcídica, el Quersoneso y Lemnos."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Gentilicio homérico Θρήϊκες (*Il.* 2.844); la tierra, Θρῄκη (*Il.* 20.485). La forma con ā sale de quitar el paso jonio ā > η.\n- En Lemnos, los Σίντιες de Homero; la estela de Lemnos (lengua tirsénica) es posterior."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

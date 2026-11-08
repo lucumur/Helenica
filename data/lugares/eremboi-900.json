@@ -1,0 +1,33 @@
+{
+  "id": "eremboi-900",
+  "nombre": "Eremboi",
+  "nombre_alt": "Árabes",
+  "nombre_griego": "Ἐρεμβοί",
+  "endonimo": "ʿArab",
+  "endonimo_nota": "Asirio Aribi: en Qarqar (853 a.C.) aparece «Gindibu el árabe».",
+  "imagen": null,
+  "tipos": [
+    "Zona continental"
+  ],
+  "areas": [
+    "levante"
+  ],
+  "escala": "continental",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Arabia septentrional y el Hiyaz: pastores de camellos y rutas caravaneras."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Ἐρεμβοί en la *Odisea* (4.84); Estrabón (1.2.34) los identifica con los árabes, identificación antigua pero discutida."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "babylonia-900",
+  "nombre": "Babylōniā",
+  "nombre_alt": "Babilonia",
+  "nombre_griego": "Βαβυλωνίᾱ",
+  "endonimo": "Karduniaš",
+  "endonimo_nota": "Nombre del país desde la época casita, todavía usado por las fuentes asirias del s. IX (*Historia sincrónica*). En la titulatura real, māt Akkadî.",
+  "imagen": null,
+  "tipos": [
+    "Zona continental"
+  ],
+  "areas": [
+    "persia"
+  ],
+  "escala": "continental",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Baja Mesopotamia: Babilonia bajo la dinastía E (Nabû-apla-iddina, c. 888–855), con tribus caldeas (Kaldu) y arameas en el sur."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Βαβυλωνίη en Heródoto; aquí con ā."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

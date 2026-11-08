@@ -1,0 +1,34 @@
+{
+  "id": "auskoi-900",
+  "nombre": "Auskoi†",
+  "nombre_alt": "Aquitanos y vascones (paleovascos)",
+  "nombre_griego": "Αὖσκοι†",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido. La raíz eusk- (euskara, euskaldun) se atestigua en época medieval; su relación con los Ausci es especulativa.",
+  "imagen": null,
+  "tipos": [
+    "Zona continental"
+  ],
+  "areas": [
+    "iberia",
+    "hiperborea"
+  ],
+  "escala": "continental",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Aquitania al sur de la Garona y el Pirineo occidental, a ambos lados de la cordillera: área de la lengua paleovasca (aquitano)."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Nombre reconstruido a partir de los Ausci de Aquitania (César, *Bellum Gallicum* 3.27); de ahí la cruz.\n- Ἀκυιτανοί (Estrabón 4.1.1) y Οὐάσκωνες (Estrabón 3.4.10) son del s. I a.C. y demasiado tardíos para esta fecha.\n- El aquitano es paleovasco (antropónimos y teónimos en inscripciones romanas): establecido. Su extensión hacia 900 a.C. es incierta."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

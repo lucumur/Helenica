@@ -1,0 +1,33 @@
+{
+  "id": "aia-900",
+  "nombre": "Aiā",
+  "nombre_alt": "Cólquide (Aia)",
+  "nombre_griego": "Αἶᾱ",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido. Urarteo Qulḫa (s. VIII), exónimo.",
+  "imagen": null,
+  "tipos": [
+    "Zona continental"
+  ],
+  "areas": [
+    "colquide"
+  ],
+  "escala": "continental",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Cólquide y el Cáucaso: cuenca del Fasis (Rioni) y la costa oriental del mar Negro, con culturas colquídica y de Koban."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Αἶα es el nombre argonáutico y el más antiguo; Κολχίς es posterior. Ver [Aia](lugares:aia-kolchis)."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

@@ -18,14 +18,14 @@
   // Nivel = último umbral alcanzado. k = ancho del atlas / ancho del encuadre.
   const ZL = [
     { n: 0, k: 1, que: 'Áreas, mares grandes, ríos mayores' },
-    { n: 1, k: 2.2, que: 'Marcas de chora, ethnos, monte y río' },
-    { n: 2, k: 2.4, que: 'Subregiones' },
+    { n: 1, k: 2.2, que: 'Regiones amplias, tier 1' },
+    { n: 2, k: 2.4, que: 'Regiones amplias, tier 1' },
     { n: 3, k: 2.5, que: 'Ríos menores' },
-    { n: 4, k: 3.2, que: 'Marcas de polis y kome' },
-    { n: 5, k: 4, que: 'Nombres de chora y ethnos' },
-    { n: 6, k: 4.5, que: 'Nombres de polis y kome' },
-    { n: 7, k: 5, que: 'Mares de las fichas' },
-    { n: 8, k: 7, que: 'Nombres de monte y río; se apagan los mares grandes' },
+    { n: 4, k: 3.2, que: 'Regiones amplias, tier 1' },
+    { n: 5, k: 4, que: 'Regiones amplias, tier 1' },
+    { n: 6, k: 4.5, que: 'Regiones amplias, tier 1' },
+    { n: 7, k: 5, que: 'Solo regiones amplias, tier 1' },
+    { n: 8, k: 7, que: 'Subregiones; nombres de monte y río; se apagan los mares grandes' },
     { n: 9, k: 9, que: 'El nombre de la gran área se atenúa' },
     { n: 10, k: 10, que: 'Encuadre de una chora' },
     { n: 11, k: 18, que: 'Encuadre de una polis' },
@@ -164,7 +164,7 @@
     main.querySelector('.when').addEventListener('click', e => {
       const b = e.target.closest('button'); if (!b) return;
       T = b.dataset.t || null; applyTime();
-      if (T && W / view[2] < zk(2)) fitBox(D.geo.peloponeso.bbox, 0.08);
+      if (T && W / view[2] < zk(8)) fitBox(D.geo.peloponeso.bbox, 0.08);
     });
 
     // etiquetas de área
@@ -189,7 +189,7 @@
       svg.style.setProperty('--u', u);
       const placed = [], sx = x => (x - view[0]) / u, sy = y => (y - view[1]) / u;
       const fits = b => { for (const p of placed) if (!(b[2] < p[0] || b[0] > p[2] || b[3] < p[1] || b[1] > p[3])) return false; placed.push(b); return true; };
-      const subsVisible = k >= zk(2) || !!T;
+      const subsVisible = k >= zk(8);
       svg.querySelectorAll('.al').forEach(g => {
         if (subsVisible && Object.values(D.subs).some(s => s.padre === g.dataset.area)) { g.style.display = 'none'; return; }
         const [x, y] = g.getAttribute('transform').match(/translate\(([^)]+)\)/)[1].split(',').map(Number);
@@ -205,19 +205,19 @@
         const vis = g.classList.contains('big') ? k < zk(8) : k >= zk(7), tw = g.textContent.length * 7.5;
         g.style.display = vis && fits([sx(m[0]) - tw / 2, sy(m[1]) - 12, sx(m[0]) + tw / 2, sy(m[1]) + 4]) ? '' : 'none';
       });
-      const subOn = k >= zk(2) || !!T;
+      const subOn = k >= zk(8);
       svg.classList.toggle('subs-on', subOn);
       gSL.querySelectorAll('.slb').forEach(g => {
         const x = +g.dataset.x, y = +g.dataset.y, name = g.querySelector('.n').textContent;
         g.setAttribute('transform', `translate(${x},${y}) scale(${u})`);
         const tw = Math.max(name.length * 8.6, g.querySelector('.p').textContent.length * 6.4);
-        g.style.display = subOn && k >= zk(2) && fits([sx(x) - tw / 2, sy(y) - 13, sx(x) + tw / 2, sy(y) + 16]) ? '' : 'none';
+        g.style.display = subOn && k >= zk(8) && fits([sx(x) - tw / 2, sy(y) - 13, sx(x) + tw / 2, sy(y) + 16]) ? '' : 'none';
       });
       const nodes = [...gSites.querySelectorAll('.site')].map(g => [g, D.sites[+g.dataset.k]]);
       for (const [g, s] of nodes) {
         const [x, y] = P(s.pt);
         g.setAttribute('transform', `translate(${x},${y}) scale(${u})`);
-        g.style.display = (s.tier === 'polis-kome' ? k >= zk(4) : k >= zk(1)) && !g.classList.contains('gone') ? '' : 'none';
+        g.style.display = k >= zk(8) && !g.classList.contains('gone') ? '' : 'none';
         g.classList.remove('lab');
       }
       if (!svg.classList.contains('no-lb')) {

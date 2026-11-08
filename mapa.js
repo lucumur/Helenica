@@ -160,7 +160,7 @@ ${physicalSVG(D, opts.selectedId)}
     <div class="search"><input id="q" type="search" placeholder="Buscar área o lugar…" autocomplete="off" aria-label="Buscar en el mapa"><div id="qr" class="qr" hidden></div></div>
     <div class="layers"><label><input type="checkbox" id="l-rv" checked> Ríos</label><label><input type="checkbox" id="l-mt" checked> Montes</label><label><input type="checkbox" id="l-pt" checked> Lugares</label><label><input type="checkbox" id="l-lb" checked> Nombres</label></div>
   </div>
-  <div class="ui tc"><div class="when" role="group" aria-label="Fecha">${[['', 'Geografía'], ...D.per.periodos.map(p => [p.id, p.etiqueta])].map(([v, l]) => `<button type="button" data-t="${v}">${l}</button>`).join('')}</div>
+  <div class="ui tc"><div class="when" role="group" aria-label="Fecha">${D.per.periodos.map(p => [p.id, p.etiqueta]).map(([v, l]) => `<button type="button" data-t="${v}">${l}</button>`).join('')}</div>
     <div id="era" class="era" hidden></div></div>
   <div class="ui tr zoom"><b id="zl" title="Nivel de zoom">0</b><button id="zi" title="Acercar">+</button><button id="zo" title="Alejar">−</button><button id="zr" title="Vista completa">⤢</button></div>
   <div class="ui bl"><div class="scale"><span id="sbar"></span><b id="slab"></b></div>
@@ -173,7 +173,7 @@ ${physicalSVG(D, opts.selectedId)}
 <p class="atlas-src">Costa y agua de base: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>. Trazados fluviales: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL). Macizos: <a href="https://doi.org/10.48601/earthenv-t9k2-1407" target="_blank" rel="noopener">GMBA Mountain Inventory v2</a> (CC BY 4.0). Las extensiones son cartográficas y aproximadas; los cauces modernos no reconstruyen sus cambios antiguos. Las fronteras regionales son convencionales. Cauces y extensiones montañosas desde el nivel 8; sus iconos y nombres, desde el nivel 10. El resto de lugares, desde el nivel 8. Cada isla del Egeo, desde el nivel 9.</p>`;
     const svg = main.querySelector('#map'), panel = main.querySelector('#panel'), tip = main.querySelector('#tip');
     const gSites = svg.querySelector('.sites'), gLab = svg.querySelector('.alabels'), gSeas = svg.querySelector('.seas'), gHl = svg.querySelector('.hl');
-    let view = [0, 0, W, H], selArea = null, selSite = null, T = null;
+    let view = [0, 0, W, H], selArea = null, selSite = null, T = '-300';
     const gSL = svg.querySelector('.slabels');
     const OWN = { achaia: 'achaia', elis: 'elis', messenia: 'messenia', lakonia: 'esparta', arkadia: 'arkadia', argolis: 'argos', korinthia: 'corinto' };
     gSL.innerHTML = Object.entries(D.subs).map(([id, s]) => { const [x, y] = P(s.etiqueta); return `<g class="slb" data-sub="${id}" data-x="${x}" data-y="${y}"><text class="n" text-anchor="middle">${esc(s.nombre)}</text><text class="p" text-anchor="middle" dy="13"></text></g>`; }).join('');
@@ -205,7 +205,8 @@ ${physicalSVG(D, opts.selectedId)}
     main.querySelector('#era').addEventListener('click', e => { if (e.target.closest('.emin') || e.target.closest('b')) main.querySelector('#era').classList.toggle('min'); });
     main.querySelector('.when').addEventListener('click', e => {
       const b = e.target.closest('button'); if (!b) return;
-      T = b.dataset.t || null; applyTime();
+      if (!D.per.periodos.some(p => p.id === b.dataset.t)) return;
+      T = b.dataset.t; applyTime();
       if (T && W / view[2] < zk(8)) fitBox(D.geo.peloponeso.bbox, 0.08);
     });
 
@@ -504,7 +505,7 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
     if (sp.get('t') && D.per.periodos.some(p => p.id === sp.get('t'))) T = sp.get('t');
     applyTime();
     if (sbq && D.subs[sbq]) { showSub(sbq); return; }
-    if (T && !lg && !ar && !reg) fitBox(D.geo.peloponeso.bbox, 0.08, false);
+    if (sp.get('t') === T && !lg && !ar && !reg) fitBox(D.geo.peloponeso.bbox, 0.08, false);
     if (lg && byId(lg)) { const i = byId(lg); if (i.es === 'region' && areaOf(i)) showArea(areaOf(i)); else showSite(i); }
     else if (ar && D.areaInfo.has(ar)) showArea(ar);
     else if (reg) { const i = byId(reg); if (i && areaOf(i)) showArea(areaOf(i)); }

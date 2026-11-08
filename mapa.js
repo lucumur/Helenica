@@ -19,13 +19,13 @@
   const ZL = [
     { n: 1, k: 1, que: 'Regiones amplias y las cinco capitales' },
     { n: 2, reduccion: 0.5, que: 'Regiones amplias, tier 1' },
-    { n: 3, reduccion: 0.4, que: 'Regiones amplias, tier 1' },
-    { n: 4, reduccion: 0.4, que: 'Argos, Corinto, Esparta, Elis y Orcómeno' },
+    { n: 3, reduccion: 0.5, que: 'Regiones amplias, tier 1' },
+    { n: 4, reduccion: 0.45, que: 'Argos, Corinto, Esparta, Elis y Orcómeno' },
     { n: 5, reduccion: 0.4, que: 'Subregiones, demás lugares, cauces y macizos' },
-    { n: 6, reduccion: 0.38, que: 'Islas del Egeo, cada una con nombre y capital' },
-    { n: 7, reduccion: 0.3756, que: 'Encuadre de una chora; iconos y nombres de ríos y montes' },
-    { n: 8, reduccion: 0.3756, que: 'Encuadre de una polis' },
-    { n: 9, reduccion: 0.3756, que: 'Tope de zoom' },
+    { n: 6, reduccion: 0.35, que: 'Islas del Egeo, cada una con nombre y capital' },
+    { n: 7, reduccion: 0.35, que: 'Encuadre de una chora; iconos y nombres de ríos y montes' },
+    { n: 8, reduccion: 0.3, que: 'Encuadre de una polis' },
+    { n: 9, reduccion: 0.3, que: 'Tope de zoom' },
   ];
   // Cada porcentaje reduce el ancho visible respecto al nivel anterior.
   for (let i = 1; i < ZL.length; i++) ZL[i].k = ZL[i - 1].k / (1 - ZL[i].reduccion);

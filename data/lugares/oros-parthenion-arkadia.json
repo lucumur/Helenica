@@ -22,5 +22,11 @@
     "militar",
     "natural"
   ],
-  "pertenece_a": []
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "peloponeso",
+      "nombre": "Peloponnēsos"
+    }
+  ]
 }

@@ -1,0 +1,21 @@
+{
+  "id": "creta",
+  "nombre": "Krētē",
+  "nombre_alt": "Creta",
+  "imagen": null,
+  "tipos": [
+    "Región"
+  ],
+  "areas": [
+    "creta"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Creta y sus dependencias insulares; incluye Cnosos y el monte Ida cretense."
+  },
+  "campos": [],
+  "secciones": []
+}

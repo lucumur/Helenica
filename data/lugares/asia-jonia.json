@@ -1,0 +1,21 @@
+{
+  "id": "asia-jonia",
+  "nombre": "Iōnia",
+  "nombre_alt": "Asia Jonia",
+  "imagen": null,
+  "tipos": [
+    "Región"
+  ],
+  "areas": [
+    "asia-jonia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Jonia continental y sus islas asociadas, entre ellas Quíos y Samos. Esmirna se incluye aquí según su etapa jonia."
+  },
+  "campos": [],
+  "secciones": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "epiro",
+  "nombre": "Ēpeiros",
+  "nombre_alt": "Epiro",
+  "imagen": null,
+  "tipos": [
+    "Región"
+  ],
+  "areas": [
+    "epiro"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Molosia, Tesprotia y Caonia; incluye el santuario de Dodona."
+  },
+  "campos": [],
+  "secciones": []
+}

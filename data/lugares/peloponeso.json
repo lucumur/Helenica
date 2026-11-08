@@ -1,0 +1,21 @@
+{
+  "id": "peloponeso",
+  "nombre": "Peloponnēsos",
+  "nombre_alt": "Peloponeso",
+  "imagen": null,
+  "tipos": [
+    "Región"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Argólide, Corintia, Sicionia, Acaya, Élide, Arcadia, Mesenia y Laconia."
+  },
+  "campos": [],
+  "secciones": []
+}

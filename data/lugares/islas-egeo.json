@@ -1,0 +1,26 @@
+{
+  "id": "islas-egeo",
+  "nombre": "Islas del Egeo",
+  "nombre_alt": null,
+  "imagen": null,
+  "tipos": [
+    "Región"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Cícladas, Espóradas y otras islas septentrionales del Egeo. Las islas vinculadas a Eólide, Jonia o Dóride asiática se agrupan con sus respectivas áreas."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Criterio de delimitación",
+      "texto": "Esta ficha representa una gran agrupación geográfica del catálogo de Helénica. Su denominación organiza la navegación y no implica una unidad política antigua."
+    }
+  ]
+}

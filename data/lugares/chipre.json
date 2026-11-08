@@ -1,0 +1,21 @@
+{
+  "id": "chipre",
+  "nombre": "Kypros",
+  "nombre_alt": "Chipre",
+  "imagen": null,
+  "tipos": [
+    "Región"
+  ],
+  "areas": [
+    "chipre"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "La isla de Chipre, sus reinos y sus ciudades."
+  },
+  "campos": [],
+  "secciones": []
+}

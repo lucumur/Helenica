@@ -21,5 +21,11 @@
   "funciones": [
     "natural"
   ],
-  "pertenece_a": []
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "euboia",
+      "nombre": "Euboia"
+    }
+  ]
 }

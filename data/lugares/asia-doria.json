@@ -1,0 +1,21 @@
+{
+  "id": "asia-doria",
+  "nombre": "Dōris asiática",
+  "nombre_alt": "Asia Doria",
+  "imagen": null,
+  "tipos": [
+    "Región"
+  ],
+  "areas": [
+    "asia-doria"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Dóride asiática y sus islas asociadas, entre ellas Cos y Rodas; incluye Halicarnaso y Cnido."
+  },
+  "campos": [],
+  "secciones": []
+}

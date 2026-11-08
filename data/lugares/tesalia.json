@@ -1,0 +1,21 @@
+{
+  "id": "tesalia",
+  "nombre": "Thessalia",
+  "nombre_alt": "Tesalia",
+  "imagen": null,
+  "tipos": [
+    "Región"
+  ],
+  "areas": [
+    "tesalia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Regiones tesalias y territorios periféricos, incluidos Ftiótide, Magnesia y el Pelión."
+  },
+  "campos": [],
+  "secciones": []
+}

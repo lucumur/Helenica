@@ -74,7 +74,10 @@ Las 14 áreas de Hélade y entorno son: Peloponeso, Grecia Central, Grecia Occid
 - Calcídica y Olinto se agrupan en Tracia para el marco arcaico y clásico (Tucídides, *Historia* 1.58–59). El Quersoneso Tracio es otra península, junto al Helesponto. La expansión macedonia posterior se explica en las fichas y no cambia automáticamente su área.
 - Lesbos y Ténedos pertenecen a Asia Eolia; Quíos y Samos, a Asia Jonia; Cos y Rodas, a Asia Doria. Halicarnaso se agrupa en Asia Doria. Evitar duplicarlos en Islas del Egeo.
 - Anatolia conserva los lugares que no pertenecen a esas tres áreas costeras (por ejemplo, Troya, el Ida frigio, Pérgamo y Lagina). No asignar todo lugar anatolio a Jonia.
-- Las nuevas áreas pueden no tener fichas todavía; el selector las muestra con un recuento de cero.
+- Cada una de las 14 áreas de Hélade y entorno tiene también una ficha de lugar con `tipos: ["Región"]` (o Región entre sus tipos) y `escala: "region"`, que corresponde al tier 1. Reutilizar las fichas existentes: `euboia`, `makedonia` y `tracia`; para las otras once, el id de ficha coincide con el id de área. No crear duplicados con el nombre español.
+- Las subregiones de tier 2 (`chora`/`ethnos`) sin contenedor previo se enlazan a su región mediante `pertenece_a`; conservar los contenedores ya documentados.
+- Grecia Central, Grecia Occidental e Islas del Egeo conservan sus denominaciones editoriales; no inventar un nombre antiguo para la agrupación.
+- El selector también muestra cualquier área que todavía no tenga fichas, con un recuento de cero.
 
 Tipología de lugares (`data/tipologia.json`, tres ejes):
 

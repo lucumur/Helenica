@@ -1,0 +1,26 @@
+{
+  "id": "grecia-occidental",
+  "nombre": "Grecia Occidental",
+  "nombre_alt": null,
+  "imagen": null,
+  "tipos": [
+    "Región"
+  ],
+  "areas": [
+    "grecia-occidental"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Etolia, Acarnania y las islas del mar Jónico. Agrupación geográfica para la navegación."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Criterio de delimitación",
+      "texto": "Esta ficha representa una gran agrupación geográfica del catálogo de Helénica. Su denominación organiza la navegación y no implica una unidad política antigua."
+    }
+  ]
+}

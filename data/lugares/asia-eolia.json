@@ -1,0 +1,21 @@
+{
+  "id": "asia-eolia",
+  "nombre": "Aiolis",
+  "nombre_alt": "Asia Eolia",
+  "imagen": null,
+  "tipos": [
+    "Región"
+  ],
+  "areas": [
+    "asia-eolia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Eólide continental y sus islas asociadas, entre ellas Lesbos y Ténedos."
+  },
+  "campos": [],
+  "secciones": []
+}

@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "grupos": [
+    {
+      "id": "helade",
+      "nombre": "Hélade",
+      "descripcion": "Regiones nativas del mundo griego."
+    },
+    {
+      "id": "extranjera",
+      "nombre": "Tierras extranjeras",
+      "descripcion": "Regiones bárbaras o lejanas para los griegos."
+    },
+    {
+      "id": "mitica",
+      "nombre": "Geografía mítica",
+      "descripcion": "Inframundo y lugares sin localización real."
+    }
+  ],
+  "areas": [
+    {
+      "id": "peloponeso",
+      "nombre": "Peloponeso",
+      "grupo": "helade",
+      "descripcion": "Argólide, Corintia, Arcadia, Laconia, Mesenia, Élide, Acaya y Sición."
+    },
+    {
+      "id": "atica",
+      "nombre": "Ática",
+      "grupo": "helade",
+      "descripcion": "Atenas, su Acrópolis, el Ática rural y Eleusis."
+    },
+    {
+      "id": "beocia",
+      "nombre": "Beocia",
+      "grupo": "helade",
+      "descripcion": "Tebas, Áulide y los ríos Asopo e Ismeno."
+    },
+    {
+      "id": "eubea",
+      "nombre": "Eubea",
+      "grupo": "helade",
+      "descripcion": "Calcis, Eretria, Histiea, Caristo y el estrecho del Euripo."
+    },
+    {
+      "id": "grecia-central",
+      "nombre": "Grecia Central (Fócide, Lócride, Delfos)",
+      "grupo": "helade",
+      "descripcion": "Fócide, Lócride, Etolia y el santuario de Delfos."
+    },
+    {
+      "id": "tesalia",
+      "nombre": "Tesalia",
+      "grupo": "helade",
+      "descripcion": "Llanuras tesalias y el Pelión; Trica."
+    },
+    {
+      "id": "macedonia",
+      "nombre": "Macedonia y Calcídica",
+      "grupo": "helade",
+      "descripcion": "Macedonia, Calcídica y Olinto."
+    },
+    {
+      "id": "islas-egeo",
+      "nombre": "Islas del Egeo",
+      "grupo": "helade",
+      "descripcion": "Cícladas (Delos, Siros, Míconos), Dodecaneso y demás islas."
+    },
+    {
+      "id": "creta",
+      "nombre": "Creta",
+      "grupo": "helade",
+      "descripcion": "Creta minoica y el monte Ida."
+    },
+    {
+      "id": "jonia-anatolia",
+      "nombre": "Jonia y Anatolia",
+      "grupo": "helade",
+      "descripcion": "Jonia, Eólide, Tróade, Caria, Frigia y Pérgamo."
+    },
+    {
+      "id": "tracia",
+      "nombre": "Tracia",
+      "grupo": "extranjera",
+      "descripcion": "Tierra de los tracios al norte del Egeo: Hebro, Estrimón."
+    },
+    {
+      "id": "libya",
+      "nombre": "Libia",
+      "grupo": "extranjera",
+      "descripcion": "África del norte al oeste de Egipto, Cirenaica y Numidia."
+    },
+    {
+      "id": "italia",
+      "nombre": "Italia",
+      "grupo": "extranjera",
+      "descripcion": "Magna Grecia, Sicilia, Etruria y el Lacio."
+    },
+    {
+      "id": "iberia",
+      "nombre": "Iberia",
+      "grupo": "extranjera",
+      "descripcion": "La península ibérica; Tartesos y Eriteia."
+    },
+    {
+      "id": "hiperborea",
+      "nombre": "Hiperbórea (Europa del norte)",
+      "grupo": "extranjera",
+      "descripcion": "Más allá del Bóreas: Europa del norte en la geografía mítica."
+    },
+    {
+      "id": "sauromatia",
+      "nombre": "Sauromatia (estepa póntica)",
+      "grupo": "extranjera",
+      "descripcion": "Estepa al este del Tanais (Don): la actual Rusia meridional."
+    },
+    {
+      "id": "escitia",
+      "nombre": "Escitia",
+      "grupo": "extranjera",
+      "descripcion": "Estepa al norte del Ponto Euxino."
+    },
+    {
+      "id": "colquide",
+      "nombre": "Cólquide",
+      "grupo": "extranjera",
+      "descripcion": "Costa oriental del Ponto: Aia, el vellocino de oro."
+    },
+    {
+      "id": "egipto",
+      "nombre": "Egipto",
+      "grupo": "extranjera",
+      "descripcion": "El valle del Nilo y el Delta."
+    },
+    {
+      "id": "levante",
+      "nombre": "Fenicia y Levante",
+      "grupo": "extranjera",
+      "descripcion": "Fenicia, Siria y Palestina."
+    },
+    {
+      "id": "persia",
+      "nombre": "Persia y Asia",
+      "grupo": "extranjera",
+      "descripcion": "Media, Persia y el interior de Asia."
+    },
+    {
+      "id": "aithiopia",
+      "nombre": "Etiopía",
+      "grupo": "extranjera",
+      "descripcion": "Los confines del sur, más allá de Egipto."
+    },
+    {
+      "id": "inframundo",
+      "nombre": "Inframundo",
+      "grupo": "mitica",
+      "descripcion": "El Hades y sus regiones: Érebo, Tártaro, Elíseos, ríos infernales."
+    },
+    {
+      "id": "geografia-mitica",
+      "nombre": "Geografía mítica",
+      "grupo": "mitica",
+      "descripcion": "Lugares sin localización real o utópicos."
+    }
+  ]
+}

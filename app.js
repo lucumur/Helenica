@@ -119,27 +119,37 @@
     });
   }
 
+  let AREAS = null;
+  const loadAreas = async () => AREAS || (AREAS = await getJSON('data/areas.json'));
+  const areaName = id => { const x = AREAS && AREAS.areas.find(a => a.id === id); return x ? x.nombre : id; };
   function rowHTML(i) {
     return `<a class="row" href="${href(i.c, i.id)}"><div class="nm">${esc(i.n)}${i.alt ? `<small>${esc(i.alt)}</small>` : ''}</div>
-<div><div>${tagHTML(i.t)} <span class="muted" style="font-size:.75rem">${COLS[i.c].s}${i.cu ? ' · ' + esc(i.cu) : ''}</span></div><div class="rs">${esc(i.r || '')}</div></div></a>`;
+<div><div>${tagHTML(i.t)} <span class="muted" style="font-size:.75rem">${COLS[i.c].s}${i.cu ? ' · ' + esc(i.cu) : ''}${i.ar && i.ar.length && AREAS ? ' · ' + esc(i.ar.map(areaName).join(', ')) : ''}</span></div><div class="rs">${esc(i.r || '')}</div></div></a>`;
   }
 
   // ---- listas ----
   async function list(col) {
     header(col);
     const I = await loadIndex();
+    if (col === 'lugares') await loadAreas();
     const all = I.items.filter(i => i.c === col).sort((a, b) => fold(a.n).localeCompare(fold(b.n)));
     const tipos = [...new Set(all.flatMap(i => i.t || []))].sort((a, b) => a.localeCompare(b));
-    const st = { q: '', t: new Set() };
+    const st = { q: '', t: new Set(), a: new URLSearchParams(location.search).get('area') || '' };
+    const areaPanel = col !== 'lugares' ? '' : `<div id="areas">${AREAS.grupos.map(g => `<div class="area-grp"><span class="area-lbl">${esc(g.nombre)}</span>${AREAS.areas.filter(x => x.grupo === g.id).map(x => { const n = all.filter(i => (i.ar || []).includes(x.id)).length; return `<button class="chip area${n ? '' : ' empty'}" data-a="${x.id}" title="${esc(x.descripcion)}">${esc(x.nombre)} <span class="muted">${n}</span></button>`; }).join('')}</div>`).join('')}<p id="area-desc" class="muted"></p></div>`;
     $('main').innerHTML = `
 <section class="hero compact"><p class="eyebrow">${all.length} fichas</p><h1>${COLS[col].p}</h1><p>${COLS[col].d}</p></section>
 <div class="tool-row"><input type="search" id="q" placeholder="Filtrar por nombre o descripción…" autocomplete="off">
 <button class="btn edit-only" id="new">+ Nueva ficha</button></div>
-<div class="chips" id="chips">${tipos.map(t => `<button class="chip" data-t="${esc(t)}">${esc(t)} <span class="muted">${all.filter(i => (i.t || []).includes(t)).length}</span></button>`).join('')}</div>
+${areaPanel}<div class="chips" id="chips">${tipos.map(t => `<button class="chip" data-t="${esc(t)}">${esc(t)} <span class="muted">${all.filter(i => (i.t || []).includes(t)).length}</span></button>`).join('')}</div>
 <nav class="alphabet" id="abc"></nav><div id="out"></div>`;
     const draw = () => {
       const v = fold(st.q);
-      const rows = all.filter(i => (!v || fold(`${i.n} ${i.alt || ''} ${i.r || ''}`).includes(v)) && (!st.t.size || (i.t || []).some(t => st.t.has(t))));
+      const rows = all.filter(i => (!v || fold(`${i.n} ${i.alt || ''} ${i.r || ''}`).includes(v)) && (!st.t.size || (i.t || []).some(t => st.t.has(t))) && (!st.a || (i.ar || []).includes(st.a)));
+      if (col === 'lugares') {
+        document.querySelectorAll('.chip.area').forEach(b => b.classList.toggle('on', b.dataset.a === st.a));
+        const ar = AREAS.areas.find(x => x.id === st.a);
+        $('#area-desc').innerHTML = ar ? `<strong>${esc(ar.nombre)}</strong> — ${esc(ar.descripcion)} · ${rows.length} lugares` : '';
+      }
       const groups = new Map();
       for (const i of rows) { const f0 = fold(i.n).replace(/^[^a-z0-9]+/, '')[0] || '#'; const L = /[a-z]/.test(f0) ? f0.toUpperCase() : '#'; if (!groups.has(L)) groups.set(L, []); groups.get(L).push(i); }
       const ordered = [...groups].sort((a, b) => a[0] === '#' ? 1 : b[0] === '#' ? -1 : a[0].localeCompare(b[0]));
@@ -151,6 +161,12 @@
     $('#chips').addEventListener('click', e => {
       const b = e.target.closest('.chip'); if (!b) return;
       const t = b.dataset.t; st.t.has(t) ? st.t.delete(t) : st.t.add(t); b.classList.toggle('on'); draw();
+    });
+    if (col === 'lugares') $('#areas').addEventListener('click', e => {
+      const b = e.target.closest('.chip.area'); if (!b) return;
+      st.a = st.a === b.dataset.a ? '' : b.dataset.a;
+      const u = new URL(location.href); st.a ? u.searchParams.set('area', st.a) : u.searchParams.delete('area'); history.replaceState(null, '', u);
+      draw();
     });
     $('#new').addEventListener('click', () => window.HEL_EDIT && window.HEL_EDIT.create(col));
     draw();
@@ -209,12 +225,13 @@ ${dd('Elementos', md(val(r.elementos)))}${dd('Problema', md(val(r.problema)))}${
         attrs = `<div class="series"><span>${prev ? `← <a href="${href('eventos', prev.id)}">${esc(prev.n)}</a>` : ''}</span><span class="muted">${esc(r.serie.nombre)} · ${r.serie.orden}/${ser.length}</span><span>${next ? `<a href="${href('eventos', next.id)}">${esc(next.n)}</a> →` : ''}</span></div>` + attrs;
       }
     } else if (col === 'lugares') {
+      await loadAreas();
       const chain = []; let cur = K, guard = 0;
       while (guard++ < 12) { const it = I.by.get(cur); const up = it && ((it.pe && it.pe[0]) || it.en); if (!up || chain.includes(up)) break; chain.unshift(up); cur = up; }
       mark(chain);
       const contiene = mark(I.cont.get(K)), evs = mark(I.evDo.get(K));
       const tt = (r.campos || []).find(c => c.clave === 'T🏷️');
-      attrs = `<dl class="attr">${dd('Tipo', tagHTML(r.tipos) + (tt ? ' · ' + inline(tt.texto.replace(/^- /gm, '').replace(/\n/g, ' · ')) : ''))}${dd('Pertenece a', chain.map(k => linkKey(k)).join(' › '))}</dl>`;
+      attrs = `<dl class="attr">${dd('Tipo', tagHTML(r.tipos) + (tt ? ' · ' + inline(tt.texto.replace(/^- /gm, '').replace(/\n/g, ' · ')) : ''))}${dd('Área', (r.areas || []).map(x => `<a href="lugares.html?area=${encodeURIComponent(x)}">${esc(areaName(x))}</a>`).join(', '))}${dd('Pertenece a', chain.map(k => linkKey(k)).join(' › '))}</dl>`;
       if (contiene.length) side += `<div class="box"><h3>Contiene</h3>${listKeys(contiene)}</div>`;
       if (evs.length) side += `<div class="box"><h3>Eventos aquí</h3>${listKeys(evs)}</div>`;
     } else if (col === 'objetos') {

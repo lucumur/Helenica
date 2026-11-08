@@ -50,6 +50,9 @@
   "tipos": [
     "Barrio"
   ],
+  "areas": [
+    "atica"
+  ],
   "pertenece_a": [],
   "contenido_en": {
     "tana": "0iYjGYISCSgv",

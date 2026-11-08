@@ -19,5 +19,8 @@
   "tipos": [
     "Edificio sagrado"
   ],
+  "areas": [
+    "atica"
+  ],
   "pertenece_a": []
 }

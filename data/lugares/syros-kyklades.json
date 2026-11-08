@@ -96,5 +96,8 @@
     "Chora",
     "Isla"
   ],
+  "areas": [
+    "islas-egeo"
+  ],
   "pertenece_a": []
 }

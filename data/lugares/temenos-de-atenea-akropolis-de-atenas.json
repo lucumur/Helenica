@@ -82,6 +82,9 @@
   "tipos": [
     "Santuario"
   ],
+  "areas": [
+    "atica"
+  ],
   "pertenece_a": [
     {
       "tana": "50oPv0Ts0sbu",

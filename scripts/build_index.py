@@ -84,6 +84,7 @@ def main():
                     it['se'] = rec['serie']
             elif col == 'lugares':
                 it['pe'] = ids(rec, 'pertenece_a')
+                it['ar'] = rec.get('areas') or []
             if rec.get('contenido_en', {}).get('id'):
                 it['en'] = f"{rec['contenido_en']['col']}:{rec['contenido_en']['id']}"
             items.append(it)

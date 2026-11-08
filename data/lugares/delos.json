@@ -26,6 +26,9 @@
   "tipos": [
     "Ciudad"
   ],
+  "areas": [
+    "islas-egeo"
+  ],
   "pertenece_a": [],
   "contenido_en": {
     "tana": "GfYRe1REOaLg",

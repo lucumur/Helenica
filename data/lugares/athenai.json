@@ -13,5 +13,8 @@
   "tipos": [
     "Ciudad"
   ],
+  "areas": [
+    "atica"
+  ],
   "pertenece_a": []
 }

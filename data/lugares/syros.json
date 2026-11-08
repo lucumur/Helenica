@@ -15,5 +15,8 @@
     "Ciudad",
     "Isla"
   ],
+  "areas": [
+    "islas-egeo"
+  ],
   "pertenece_a": []
 }

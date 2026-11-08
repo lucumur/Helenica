@@ -13,5 +13,8 @@
   "tipos": [
     "Casa"
   ],
+  "areas": [
+    "peloponeso"
+  ],
   "pertenece_a": []
 }

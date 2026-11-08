@@ -13,6 +13,10 @@ SLUG = re.compile(r'^[a-z0-9]+(?:-[a-z0-9]+)*$')
 LINK = re.compile(r'\]\((entes|eventos|lugares|objetos):([a-z0-9-]+)\)')
 
 errors, warns, known, recs = [], [], set(), []
+try:
+    AREAS = {a['id'] for a in json.load(open(os.path.join(DATA, 'areas.json'), encoding='utf-8'))['areas']}
+except Exception as e:
+    AREAS = set(); errors.append(f'data/areas.json: no se pudo leer ({e})')
 for col in COLS:
     for path in glob.glob(os.path.join(DATA, col, '*.json')):
         rel = os.path.relpath(path, ROOT)
@@ -27,6 +31,9 @@ for col in COLS:
             errors.append(f'{rel}: el id "{rid}" no coincide con el nombre del archivo')
         if not rec.get('nombre'):
             errors.append(f'{rel}: falta "nombre"')
+        for a in rec.get('areas') or []:
+            if a not in AREAS:
+                errors.append(f'{rel}: área "{a}" no definida en data/areas.json')
         known.add(f'{col}:{rid}'); recs.append((rel, rec))
 
 def scan(obj, rel):

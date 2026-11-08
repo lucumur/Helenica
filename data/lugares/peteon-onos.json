@@ -76,6 +76,9 @@
   "tipos": [
     "Lugar"
   ],
+  "areas": [
+    "beocia"
+  ],
   "pertenece_a": [
     {
       "tana": "HNRcbao5wr4Q",

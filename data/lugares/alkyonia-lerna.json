@@ -44,6 +44,9 @@
   "tipos": [
     "Lugar"
   ],
+  "areas": [
+    "peloponeso"
+  ],
   "pertenece_a": [
     {
       "tana": "e30B_D73-DJ3",

@@ -9,6 +9,7 @@ data/entes/<id>.json     dioses, héroes, ninfas, reyes, bestias, epítetos, pue
 data/eventos/<id>.json   relatos míticos, festividades, ritos, hechos históricos
 data/lugares/<id>.json   regiones, poleis, santuarios, ríos, montes, fuentes…
 data/objetos/<id>.json   armas, atributos divinos, agalmata, objetos rituales
+data/areas.json          grandes áreas geográficas (Hélade, tierras extranjeras, geografía mítica)
 data/index.json          GENERADO — no editar a mano
 ```
 
@@ -62,7 +63,9 @@ Metadatos: `nombre`, `nombre_alt`, `tipos` (Deidad, Héroe, Realeza, Ninfa, Best
 
 **Eventos** — `tipo` (Mítico, Histórico, Festividad / rito, Culto / misterios, Rito), `descripcion`, `cuando`, `agentes_activos`, `agentes_pasivos`, `donde`, `elementos`, `problema`, `desenlace`, `serie` (`{ "nombre": "Doce Labores de Heracles", "orden": 1 }` para navegar anterior/siguiente).
 
-**Lugares** — `tipos`, `pertenece_a` (lista de refs al lugar contenedor; arma la ruta Región › Chora › Polis), `campos`.
+**Lugares** — `tipos`, `areas` (lista de ids de gran área, normalmente una), `pertenece_a` (lista de refs al lugar contenedor; arma la ruta Región › Chora › Polis), `campos`.
+
+Las grandes áreas se definen en `data/areas.json` (`id`, `nombre`, `grupo`, `descripcion`), en tres grupos: `helade` (Peloponeso, Ática, Beocia, Eubea, Grecia Central, Tesalia, Macedonia y Calcídica, Islas del Egeo, Creta, Jonia y Anatolia), `extranjera` (Tracia, Libia, Italia, Iberia, Hiperbórea, Sauromatia, Escitia, Cólquide, Egipto, Fenicia y Levante, Persia y Asia, Etiopía) y `mitica` (Inframundo, Geografía mítica). Un lugar nuevo debe llevar un id de área existente; para agregar un área nueva, añádela primero en `data/areas.json`. El validador rechaza áreas no definidas.
 
 **Objetos** — `tipos`, `campos`.
 

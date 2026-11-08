@@ -13,5 +13,8 @@
   "tipos": [
     "Lugar"
   ],
+  "areas": [
+    "atica"
+  ],
   "pertenece_a": []
 }

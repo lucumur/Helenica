@@ -50,5 +50,8 @@
   "tipos": [
     "Lugar"
   ],
+  "areas": [
+    "inframundo"
+  ],
   "pertenece_a": []
 }

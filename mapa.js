@@ -44,10 +44,10 @@
   // Visibles en todo zoom anterior al nivel 8. El resto de lugares espera a ese nivel.
   const CAPITAL = {
     'argos-argolis': 'Argos',
-    'qorinthos-korinthia': 'Corinto',
-    'esparta-laconia': 'Esparta',
-    'elis-peloponnesos': 'Elis',
-    'orkhomenos-arkadia': 'Orcómeno',
+    'qorinthos-korinthia': 'Korinthos',
+    'esparta-laconia': 'Spartē',
+    'elis-peloponnesos': 'Ēlis',
+    'orkhomenos-arkadia': 'Orchomenos',
   };
 
   let DATA = null;
@@ -112,6 +112,8 @@
     return DATA;
   }
 
+  // Nombre griego del área (el de su ficha de región) si difiere del nombre español de navegación.
+  const greekName = (info, rf) => rf && rf.n && fold(rf.n) !== fold(info.nombre || '') ? rf.n.split(',')[0].trim() : '';
   const tierName = (D, id) => (D.tipo.escalas.find(x => x.id === id) || {}).nombre || id;
   const areaOf = i => (i.ar || [])[0];
   const physicalPath = f => f.tipo === 'rio' ? f.lineas.map(line).join('') : f.poligonos.map(polyPath).join('');
@@ -186,7 +188,7 @@ ${physicalSVG(D, opts.selectedId)}
         svg.querySelector(`.sb[data-sub="${id}"]`).setAttribute('fill', pw ? pw.color : s.color);
         svg.querySelector(`.sbh[data-sub="${id}"]`).classList.toggle('on', !!(st && st.poder !== OWN[id]));
         const lab = gSL.querySelector(`[data-sub="${id}"] .p`);
-        lab.textContent = st && st.poder !== OWN[id] && pw ? `bajo ${pw.nombre.split(' —')[0]}` : (s.capital ? s.capital.nombre : '');
+        lab.textContent = st && st.poder !== OWN[id] && pw ? `bajo ${pw.nombre.split(' —')[0]}` : (s.capital && fold(s.capital.nombre) !== fold(s.nombre) ? s.capital.nombre : '');
       }
       const era = main.querySelector('#era');
       if (p) {
@@ -210,8 +212,8 @@ ${physicalSVG(D, opts.selectedId)}
     // etiquetas de área
     gLab.innerHTML = Object.entries(D.geo).map(([id, a]) => {
       const [x, y] = P(a.etiqueta), info = D.areaInfo.get(id) || {}, rf = D.regionFicha[id];
-      const gr = rf && rf.n && fold(rf.n) !== fold(info.nombre) ? rf.n : '';
-      return `<g class="al${info.grupo === 'helade' ? ' hel' : ''}" data-area="${id}" data-w="${a.bbox[2] - a.bbox[0]}" transform="translate(${x},${y})"><text class="n" text-anchor="middle">${esc(info.nombre || id)}</text>${gr ? `<text class="g" text-anchor="middle" dy="14">${esc(gr)}</text>` : ''}</g>`;
+      const gr = greekName(info, rf);
+      return `<g class="al${info.grupo === 'helade' ? ' hel' : ''}" data-area="${id}" data-w="${a.bbox[2] - a.bbox[0]}" transform="translate(${x},${y})"><text class="n" text-anchor="middle">${esc(gr || info.nombre || id)}</text>${gr ? `<text class="g" text-anchor="middle" dy="14">${esc(info.nombre)}</text>` : ''}</g>`;
     }).join('');
     gSeas.innerHTML = D.seas.map(i => { const [x, y] = P(i.pt); return `<g class="sea-l" transform="translate(${x},${y})"><text text-anchor="middle">${esc(i.alt || i.n)}</text></g>`; }).join('')
       + [['Mar Egeo', [25.2, 38.9]], ['Mar Jónico', [19.2, 37.6]], ['Ponto Euxino', [34.5, 43.3]], ['Mar Mediterráneo', [18.5, 34.6]], ['Propóntide', [28.0, 40.72]], ['Mar Adriático', [16.0, 42.6]], ['Mar Tirreno', [12.0, 39.6]]]
@@ -316,7 +318,7 @@ ${physicalSVG(D, opts.selectedId)}
       const counts = D.tipo.escalas.map(e => [e, inArea.filter(i => i.es === e.id).length]).filter(([, n]) => n);
       panel.innerHTML = `<button class="x" aria-label="Cerrar">×</button>
 <p class="eyebrow"><span class="sw" style="background:${D.color[id]}"></span>${esc(info.grupo === 'helade' ? 'Hélade' : info.grupo === 'mitica' ? 'Geografía mítica' : 'Tierra extranjera')}</p>
-<h2>${esc(info.nombre)}</h2>${rf && fold(rf.n) !== fold(info.nombre) ? `<p class="gr">${esc(rf.n)}</p>` : ''}
+<h2>${esc(greekName(info, rf) || info.nombre)}</h2>${greekName(info, rf) ? `<p class="gr">${esc(info.nombre)}</p>` : ''}
 <p>${esc(info.descripcion || '')}</p>
 <div class="acts">${rf ? `<a class="btn" href="${ficha('lugares', rf.id)}">Ficha de la región ↗</a>` : ''}<a class="btn ghost" href="lugares.html?area=${encodeURIComponent(id)}">${inArea.length} lugares en la lista ↗</a></div>
 ${counts.length ? `<div class="tiers">${counts.map(([e, n]) => `<span><b>${n}</b> ${esc(e.nombre)}</span>`).join('')}</div>` : ''}
@@ -343,7 +345,7 @@ ${!geo ? '<p class="muted">Sin localización terrestre: no aparece sobre el mapa
       const rows = D.per.periodos.map(p => { const st = p.subregiones[id] || {}, pw = D.poder[st.poder] || {}; return `<li class="${p.id === T ? 'on' : ''}"><button type="button" class="tt" data-t="${p.id}">${esc(p.etiqueta)}</button><span><i style="background:${pw.color || '#ccc'}"></i><b>${esc(pw.nombre || '—')}</b>${st.nota ? ` — ${esc(st.nota)}` : ''}</span></li>`; }).join('');
       panel.innerHTML = `<button class="x" aria-label="Cerrar">×</button>
 <p class="eyebrow"><span class="sw" style="background:${s.color}"></span>Subregión · <button type="button" class="lnk" data-area="${s.padre}">${esc((D.areaInfo.get(s.padre) || {}).nombre || s.padre)}</button></p>
-<h2>${esc(s.nombre)}</h2>${s.griego ? `<p class="gr">${esc(s.griego)}</p>` : ''}${s.nota ? `<p>${esc(s.nota)}</p>` : ''}
+<h2>${esc(s.nombre)}</h2>${s.nombre_es ? `<p class="gr">${esc(s.nombre_es)}</p>` : ''}${s.nota ? `<p>${esc(s.nota)}</p>` : ''}
 ${fi ? `<div class="acts"><a class="btn" href="${ficha('lugares', fi.id)}">Ficha ↗</a></div>` : ''}
 <h3>A través del tiempo</h3><ul class="tl">${rows}</ul>
 ${cho.length ? `<h3>Choras, montes y ríos</h3><ul>${cho.map(i => listLink(i)).join('')}</ul>` : ''}

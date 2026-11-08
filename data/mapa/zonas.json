@@ -1361,7 +1361,7 @@
  "subzonas": [
   {
    "id": "achaia",
-   "nombre": "Acaya",
+   "nombre": "Achaïa",
    "griego": "Achaïa",
    "padre": "peloponeso",
    "ficha": "aquea-region-peloponeso",
@@ -1414,11 +1414,12 @@
      21.3,
      38.5
     ]
-   ]
+   ],
+   "nombre_es": "Acaya"
   },
   {
    "id": "elis",
-   "nombre": "Élide",
+   "nombre": "Ēlis",
    "griego": "Ēlis",
    "padre": "peloponeso",
    "nota": "Incluye Pisátide (Olimpia) y Trifilia.",
@@ -1475,11 +1476,12 @@
      20.5,
      37.3
     ]
-   ]
+   ],
+   "nombre_es": "Élide"
   },
   {
    "id": "messenia",
-   "nombre": "Mesenia",
+   "nombre": "Messēnia",
    "griego": "Messēnia",
    "padre": "peloponeso",
    "ficha": "messenia-peloponnesos",
@@ -1540,11 +1542,12 @@
      21.3,
      36.3
     ]
-   ]
+   ],
+   "nombre_es": "Mesenia"
   },
   {
    "id": "lakonia",
-   "nombre": "Laconia",
+   "nombre": "Lakōnikē",
    "griego": "Lakōnikē",
    "padre": "peloponeso",
    "ficha": "laconia-peloponeso",
@@ -1606,11 +1609,12 @@
      22.1,
      35.9
     ]
-   ]
+   ],
+   "nombre_es": "Laconia"
   },
   {
    "id": "argolis",
-   "nombre": "Argólide",
+   "nombre": "Argolis",
    "griego": "Argolis",
    "padre": "peloponeso",
    "nota": "Llanura de Argos, Nemea y Cleonas, y la Acté (Epidauro, Trecén, Hermíone, Metana).",
@@ -1683,11 +1687,12 @@
      22.9,
      37.47
     ]
-   ]
+   ],
+   "nombre_es": "Argólide"
   },
   {
    "id": "korinthia",
-   "nombre": "Corintia",
+   "nombre": "Korinthia",
    "griego": "Korinthia",
    "padre": "peloponeso",
    "ficha": "korinthia-peloponnesos",
@@ -1749,11 +1754,12 @@
      22.6,
      38.04
     ]
-   ]
+   ],
+   "nombre_es": "Corintia"
   },
   {
    "id": "arkadia",
-   "nombre": "Arcadia",
+   "nombre": "Arkadia",
    "griego": "Arkadia",
    "padre": "peloponeso",
    "ficha": "arkadia-peloponnesos",
@@ -1846,23 +1852,25 @@
      21.82,
      37.85
     ]
-   ]
+   ],
+   "nombre_es": "Arcadia"
   },
   {
    "id": "keos",
-   "nombre": "Ceos",
+   "nombre": "Kéōs",
    "griego": "Kéōs",
    "padre": "islas-egeo",
    "ficha": "keos-kyklades",
    "nivel": 9,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
-    "nombre": "Yulis",
+    "nombre": "Ioulis",
     "punto": [
      24.344,
      37.662
     ],
-    "ficha": "ioulis-keos"
+    "ficha": "ioulis-keos",
+    "nombre_es": "Yulis"
    },
    "poligono": [
     [
@@ -1933,23 +1941,25 @@
      24.289,
      37.645
     ]
-   ]
+   ],
+   "nombre_es": "Ceos"
   },
   {
    "id": "kythnos",
-   "nombre": "Citnos",
+   "nombre": "Kýthnos",
    "griego": "Kýthnos",
    "padre": "islas-egeo",
    "ficha": "kythnos-kyklades",
    "nivel": 9,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
-    "nombre": "Citnos",
+    "nombre": "Kýthnos",
     "punto": [
      24.395,
      37.417
     ],
-    "ficha": "kythnos-polis"
+    "ficha": "kythnos-polis",
+    "nombre_es": "Citnos"
    },
    "poligono": [
     [
@@ -2044,23 +2054,25 @@
      24.469,
      37.427
     ]
-   ]
+   ],
+   "nombre_es": "Citnos"
   },
   {
    "id": "seriphos",
-   "nombre": "Serifos",
+   "nombre": "Sériphos",
    "griego": "Sériphos",
    "padre": "islas-egeo",
    "ficha": "seriphos-kyklades",
    "nivel": 9,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
-    "nombre": "Serifos",
+    "nombre": "Sériphos",
     "punto": [
      24.516,
      37.156
     ],
-    "ficha": "seriphos-polis"
+    "ficha": "seriphos-polis",
+    "nombre_es": "Serifos"
    },
    "poligono": [
     [
@@ -2167,23 +2179,25 @@
      24.532,
      37.186
     ]
-   ]
+   ],
+   "nombre_es": "Serifos"
   },
   {
    "id": "siphnos",
-   "nombre": "Sifnos",
+   "nombre": "Síphnos",
    "griego": "Síphnos",
    "padre": "islas-egeo",
    "ficha": "siphnos-kyklades",
    "nivel": 9,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
-    "nombre": "Sifnos",
+    "nombre": "Síphnos",
     "punto": [
      24.746,
      36.974
     ],
-    "ficha": "siphnos-polis"
+    "ficha": "siphnos-polis",
+    "nombre_es": "Sifnos"
    },
    "poligono": [
     [
@@ -2250,23 +2264,25 @@
      24.669,
      36.978
     ]
-   ]
+   ],
+   "nombre_es": "Sifnos"
   },
   {
    "id": "melos",
-   "nombre": "Melos",
+   "nombre": "Mēlos",
    "griego": "Mēlos",
    "padre": "islas-egeo",
    "ficha": "melos-kyklades",
    "nivel": 9,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
-    "nombre": "Melos",
+    "nombre": "Mēlos",
     "punto": [
      24.426,
      36.737
     ],
-    "ficha": "melos-polis"
+    "ficha": "melos-polis",
+    "nombre_es": "Melos"
    },
    "poligono": [
     [
@@ -2381,23 +2397,25 @@
      24.485,
      36.665
     ]
-   ]
+   ],
+   "nombre_es": "Melos"
   },
   {
    "id": "kimolos",
-   "nombre": "Kimolos",
+   "nombre": "Kímōlos",
    "griego": "Kímōlos",
    "padre": "islas-egeo",
    "ficha": "kimolos-kyklades",
    "nivel": 9,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
-    "nombre": "Kimolos",
+    "nombre": "Kímōlos",
     "punto": [
      24.573,
      36.793
     ],
-    "ficha": "kimolos-polis"
+    "ficha": "kimolos-polis",
+    "nombre_es": "Kimolos"
    },
    "poligono": [
     [
@@ -2440,23 +2458,25 @@
      24.586,
      36.836
     ]
-   ]
+   ],
+   "nombre_es": "Kimolos"
   },
   {
    "id": "pholegandros",
-   "nombre": "Folégandros",
+   "nombre": "Pholegandros",
    "griego": "Pholegandros",
    "padre": "islas-egeo",
    "ficha": "pholegandros-kyklades",
    "nivel": 9,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
-    "nombre": "Folégandros",
+    "nombre": "Pholegandros",
     "punto": [
      24.92,
      36.628
     ],
-    "ficha": "pholegandros-polis"
+    "ficha": "pholegandros-polis",
+    "nombre_es": "Folégandros"
    },
    "poligono": [
     [
@@ -2495,7 +2515,8 @@
      24.841,
      36.665
     ]
-   ]
+   ],
+   "nombre_es": "Folégandros"
   },
   {
    "id": "sikinos",
@@ -2753,19 +2774,20 @@
   },
   {
    "id": "tenos",
-   "nombre": "Tinos",
+   "nombre": "Tēnos",
    "griego": "Tēnos",
    "padre": "islas-egeo",
    "ficha": "tenos-kyklades",
    "nivel": 9,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
-    "nombre": "Tinos",
+    "nombre": "Tēnos",
     "punto": [
      25.165,
      37.547
     ],
-    "ficha": "tenos-polis"
+    "ficha": "tenos-polis",
+    "nombre_es": "Tinos"
    },
    "poligono": [
     [
@@ -2884,23 +2906,25 @@
      24.998,
      37.682
     ]
-   ]
+   ],
+   "nombre_es": "Tinos"
   },
   {
    "id": "syros",
-   "nombre": "Siros",
+   "nombre": "Syros",
    "griego": "Syros",
    "padre": "islas-egeo",
    "ficha": "syros-kyklades",
    "nivel": 9,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
-    "nombre": "Hermópolis",
+    "nombre": "Syros",
     "punto": [
      24.94,
      37.445
     ],
-    "ficha": "palaeo-hermoupolis"
+    "ficha": "palaeo-hermoupolis",
+    "nombre_es": "Hermópolis"
    },
    "poligono": [
     [
@@ -2975,23 +2999,25 @@
      24.868,
      37.415
     ]
-   ]
+   ],
+   "nombre_es": "Siros"
   },
   {
    "id": "mykonos",
-   "nombre": "Miconos",
+   "nombre": "Mykonos",
    "griego": "Mykonos",
    "padre": "islas-egeo",
    "ficha": "mykonos-kyklades",
    "nivel": 9,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
-    "nombre": "Miconos",
+    "nombre": "Mykonos",
     "punto": [
      25.33,
      37.445
     ],
-    "ficha": "chora-mykonos"
+    "ficha": "chora-mykonos",
+    "nombre_es": "Miconos"
    },
    "poligono": [
     [
@@ -3074,7 +3100,8 @@
      25.322,
      37.471
     ]
-   ]
+   ],
+   "nombre_es": "Miconos"
   },
   {
    "id": "paros",
@@ -3332,19 +3359,20 @@
   },
   {
    "id": "oliaros",
-   "nombre": "Oliaros",
+   "nombre": "Ōliaros",
    "griego": "Ōliaros",
    "padre": "islas-egeo",
    "ficha": "oliaros-kyklades",
    "nivel": 9,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
-    "nombre": "Oliaros",
+    "nombre": "Ōliaros",
     "punto": [
      25.081,
      37.04
     ],
-    "ficha": "oliaros-polis"
+    "ficha": "oliaros-polis",
+    "nombre_es": "Oliaros"
    },
    "poligono": [
     [
@@ -3387,7 +3415,8 @@
      25.073,
      37.042
     ]
-   ]
+   ],
+   "nombre_es": "Oliaros"
   },
   {
    "id": "ios",
@@ -3470,19 +3499,20 @@
   },
   {
    "id": "amorgos",
-   "nombre": "Amorgos",
+   "nombre": "Amorgós",
    "griego": "Amorgós",
    "padre": "islas-egeo",
    "ficha": "amorgos-kyklades",
    "nivel": 9,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
-    "nombre": "Minoa",
+    "nombre": "Minōa",
     "punto": [
      25.863,
      36.827
     ],
-    "ficha": "minoa-amorgos"
+    "ficha": "minoa-amorgos",
+    "nombre_es": "Minoa"
    },
    "poligono": [
     [
@@ -3613,23 +3643,25 @@
      26.016,
      36.889
     ]
-   ]
+   ],
+   "nombre_es": "Amorgos"
   },
   {
    "id": "thera",
-   "nombre": "Tera",
+   "nombre": "Thēra",
    "griego": "Thēra",
    "padre": "islas-egeo",
    "ficha": "thera-kyklades",
    "nivel": 9,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
-    "nombre": "Tera",
+    "nombre": "Thēra",
     "punto": [
      25.479,
      36.363
     ],
-    "ficha": "thera-polis"
+    "ficha": "thera-polis",
+    "nombre_es": "Tera"
    },
    "poligono": [
     [
@@ -3712,23 +3744,25 @@
      25.465,
      36.342
     ]
-   ]
+   ],
+   "nombre_es": "Tera"
   },
   {
    "id": "anaphe",
-   "nombre": "Anafi",
+   "nombre": "Anaphē",
    "griego": "Anaphē",
    "padre": "islas-egeo",
    "ficha": "anaphe-kyklades",
    "nivel": 9,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
-    "nombre": "Anafi",
+    "nombre": "Anaphē",
     "punto": [
      25.767,
      36.351
     ],
-    "ficha": "anaphe-polis"
+    "ficha": "anaphe-polis",
+    "nombre_es": "Anafi"
    },
    "poligono": [
     [
@@ -3771,23 +3805,25 @@
      25.818,
      36.364
     ]
-   ]
+   ],
+   "nombre_es": "Anafi"
   },
   {
    "id": "donousa",
-   "nombre": "Donusa",
+   "nombre": "Donousa",
    "griego": "Donousa",
    "padre": "islas-egeo",
    "ficha": "donousa-kyklades",
    "nivel": 9,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
-    "nombre": "Donusa",
+    "nombre": "Donousa",
     "punto": [
      25.812,
      37.106
     ],
-    "ficha": "donousa-polis"
+    "ficha": "donousa-polis",
+    "nombre_es": "Donusa"
    },
    "poligono": [
     [
@@ -3826,23 +3862,25 @@
      25.842,
      37.11
     ]
-   ]
+   ],
+   "nombre_es": "Donusa"
   },
   {
    "id": "skiathos",
-   "nombre": "Esciatos",
+   "nombre": "Skiathos",
    "griego": "Skiathos",
    "padre": "islas-egeo",
    "ficha": "skiathos-sporades",
    "nivel": 9,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
-    "nombre": "Esciatos",
+    "nombre": "Skiathos",
     "punto": [
      23.49,
      39.162
     ],
-    "ficha": "skiathos-polis"
+    "ficha": "skiathos-polis",
+    "nombre_es": "Esciatos"
    },
    "poligono": [
     [
@@ -3897,23 +3935,25 @@
      23.504,
      39.194
     ]
-   ]
+   ],
+   "nombre_es": "Esciatos"
   },
   {
    "id": "peparethos",
-   "nombre": "Peparetos",
+   "nombre": "Peparethos",
    "griego": "Peparethos",
    "padre": "islas-egeo",
    "ficha": "peparethos-sporades",
    "nivel": 9,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
-    "nombre": "Peparetos",
+    "nombre": "Peparethos",
     "punto": [
      23.727,
      39.122
     ],
-    "ficha": "peparethos-polis"
+    "ficha": "peparethos-polis",
+    "nombre_es": "Peparetos"
    },
    "poligono": [
     [
@@ -3996,23 +4036,25 @@
      23.614,
      39.208
     ]
-   ]
+   ],
+   "nombre_es": "Peparetos"
   },
   {
    "id": "ikos",
-   "nombre": "Icos",
+   "nombre": "Ikos",
    "griego": "Ikos",
    "padre": "islas-egeo",
    "ficha": "ikos-sporades",
    "nivel": 9,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
-    "nombre": "Icos",
+    "nombre": "Ikos",
     "punto": [
      23.864,
      39.145
     ],
-    "ficha": "ikos-polis"
+    "ficha": "ikos-polis",
+    "nombre_es": "Icos"
    },
    "poligono": [
     [
@@ -4071,23 +4113,25 @@
      23.94,
      39.28
     ]
-   ]
+   ],
+   "nombre_es": "Icos"
   },
   {
    "id": "skyros",
-   "nombre": "Esciros",
+   "nombre": "Skyros",
    "griego": "Skyros",
    "padre": "islas-egeo",
    "ficha": "skyros-sporades",
    "nivel": 9,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
-    "nombre": "Esciros",
+    "nombre": "Skyros",
     "punto": [
      24.563,
      38.904
     ],
-    "ficha": "skyros-polis"
+    "ficha": "skyros-polis",
+    "nombre_es": "Esciros"
    },
    "poligono": [
     [
@@ -4246,23 +4290,25 @@
      24.65,
      38.768
     ]
-   ]
+   ],
+   "nombre_es": "Esciros"
   },
   {
    "id": "lemnos",
-   "nombre": "Lemnos",
+   "nombre": "Lēmnos",
    "griego": "Lēmnos",
    "padre": "islas-egeo",
    "ficha": "lemnos-egeo",
    "nivel": 9,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
-    "nombre": "Mirina",
+    "nombre": "Myrina",
     "punto": [
      25.061,
      39.879
     ],
-    "ficha": "myrina-lemnos"
+    "ficha": "myrina-lemnos",
+    "nombre_es": "Mirina"
    },
    "poligono": [
     [
@@ -4561,23 +4607,25 @@
      25.389,
      39.92
     ]
-   ]
+   ],
+   "nombre_es": "Lemnos"
   },
   {
    "id": "thasos",
-   "nombre": "Tasos",
+   "nombre": "Thasos",
    "griego": "Thasos",
    "padre": "islas-egeo",
    "ficha": "thasos-egeo",
    "nivel": 9,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
-    "nombre": "Tasos",
+    "nombre": "Thasos",
     "punto": [
      24.71,
      40.778
     ],
-    "ficha": "thasos-polis"
+    "ficha": "thasos-polis",
+    "nombre_es": "Tasos"
    },
    "poligono": [
     [
@@ -4704,23 +4752,25 @@
      24.766,
      40.67
     ]
-   ]
+   ],
+   "nombre_es": "Tasos"
   },
   {
    "id": "samothrake",
-   "nombre": "Samotracia",
+   "nombre": "Samothrakē",
    "griego": "Samothrakē",
    "padre": "islas-egeo",
    "ficha": "samothrake-egeo",
    "nivel": 9,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
-    "nombre": "Samotracia",
+    "nombre": "Samothrakē",
     "punto": [
      25.529,
      40.504
     ],
-    "ficha": "samothrake-polis"
+    "ficha": "samothrake-polis",
+    "nombre_es": "Samotracia"
    },
    "poligono": [
     [
@@ -4787,7 +4837,8 @@
      25.444,
      40.482
     ]
-   ]
+   ],
+   "nombre_es": "Samotracia"
   },
   {
    "id": "imbros",
@@ -4902,19 +4953,20 @@
   },
   {
    "id": "psyra",
-   "nombre": "Psara",
+   "nombre": "Psyra",
    "griego": "Psyra",
    "padre": "islas-egeo",
    "ficha": "psyra-egeo",
    "nivel": 9,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
-    "nombre": "Psara",
+    "nombre": "Psyra",
     "punto": [
      25.562,
      38.54
     ],
-    "ficha": "psyra-polis"
+    "ficha": "psyra-polis",
+    "nombre_es": "Psara"
    },
    "poligono": [
     [
@@ -4977,7 +5029,8 @@
      25.561,
      38.535
     ]
-   ]
+   ],
+   "nombre_es": "Psara"
   },
   {
    "id": "patmos",
@@ -5080,19 +5133,20 @@
   },
   {
    "id": "astypalaia",
-   "nombre": "Astipalea",
+   "nombre": "Astypalaia",
    "griego": "Astypalaia",
    "padre": "islas-egeo",
    "ficha": "astypalaia-egeo",
    "nivel": 9,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
-    "nombre": "Astipalea",
+    "nombre": "Astypalaia",
     "punto": [
      26.353,
      36.548
     ],
-    "ficha": "astypalaia-polis"
+    "ficha": "astypalaia-polis",
+    "nombre_es": "Astipalea"
    },
    "poligono": [
     [
@@ -5219,23 +5273,25 @@
      26.416,
      36.575
     ]
-   ]
+   ],
+   "nombre_es": "Astipalea"
   },
   {
    "id": "kasos",
-   "nombre": "Casos",
+   "nombre": "Kasos",
    "griego": "Kasos",
    "padre": "islas-egeo",
    "ficha": "kasos-egeo",
    "nivel": 9,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
-    "nombre": "Casos",
+    "nombre": "Kasos",
     "punto": [
      26.923,
      35.416
     ],
-    "ficha": "kasos-polis"
+    "ficha": "kasos-polis",
+    "nombre_es": "Casos"
    },
    "poligono": [
     [
@@ -5286,23 +5342,25 @@
      26.877,
      35.349
     ]
-   ]
+   ],
+   "nombre_es": "Casos"
   },
   {
    "id": "delos",
-   "nombre": "Delos",
+   "nombre": "Dēlos",
    "griego": "Dēlos",
    "padre": "islas-egeo",
-   "ficha": "delos",
+   "ficha": "delos-nesos",
    "nivel": 9,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
-    "nombre": "Delos",
+    "nombre": "Dēlos",
     "punto": [
      25.268,
      37.4
     ],
-    "ficha": "delos"
+    "ficha": "delos",
+    "nombre_es": "Delos"
    },
    "poligono": [
     [
@@ -5342,7 +5400,8 @@
      37.4
     ]
    ],
-   "sintetica": true
+   "sintetica": true,
+   "nombre_es": "Delos"
   }
  ]
 }

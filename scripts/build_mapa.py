@@ -111,7 +111,7 @@ def main():
         taken = g if taken is None else unary_union([taken, g])
         main_part = max(list(g.geoms) if hasattr(g, 'geoms') else [g], key=lambda p: p.area)
         lab = polylabel(main_part, tolerance=0.005)
-        keep = {k: sz[k] for k in ('nombre', 'griego', 'padre', 'ficha', 'nota', 'nivel') if sz.get(k) not in (None, '')}
+        keep = {k: sz[k] for k in ('nombre', 'nombre_es', 'griego', 'padre', 'ficha', 'nota', 'nivel') if sz.get(k) not in (None, '')}
         if sz.get('capital'):
             keep['capital'] = sz['capital']
         subs[sz['id']] = keep

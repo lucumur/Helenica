@@ -9,6 +9,8 @@ data/entes/<id>.json     dioses, héroes, ninfas, reyes, bestias, epítetos, pue
 data/eventos/<id>.json   relatos míticos, festividades, ritos, hechos históricos
 data/lugares/<id>.json   regiones, poleis, santuarios, ríos, montes, fuentes…
 data/objetos/<id>.json   armas, atributos divinos, agalmata, objetos rituales
+data/mapa/regiones.json  catálogo del mapa: coordenadas, notas e ids de fichas
+data/mapa/costas.geojson  costa geográfica de Natural Earth (dominio público)
 data/areas.json          grandes áreas geográficas (Hélade, tierras extranjeras, geografía mítica)
 data/tipologia.json      escalas, formas de asentamiento, funciones y periodos de los lugares
 data/index.json          GENERADO — no editar a mano
@@ -103,3 +105,7 @@ Para agregar un tipo nuevo de cualquier eje, añádelo primero a `data/tipologia
 - Distinguir lo establecido de lo controvertido o inferido; citar autor y obra cuando la versión dependa de la fuente.
 - Nombres: forma griega transliterada en `nombre` y forma española en `nombre_alt` (`Hēraklēs` / `Heracles`).
 - No borrar contenido importado de Tana sin indicación expresa.
+
+## Mapa regional
+
+`mapa.html`, `mapa.js` y `mapa.css` muestran las fichas de tier 1. Al crear una ficha regional, añadir su id a `fichas` en `data/mapa/regiones.json`. Las coordenadas son un punto de referencia `[longitud, latitud]`, no una delimitación territorial. Conservar los números de los puntos existentes. Los lugares míticos llevan `tipo: "mitica"` y `coordenadas: null`; no inventar posiciones para Hades, Katokosmos o Hiperbórea. Tracia y Thrakē comparten punto y conservan sus dos fichas. Las costas proceden de Natural Earth, según la atribución del README.

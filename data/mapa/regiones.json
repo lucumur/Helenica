@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "descripcion": "Puntos de referencia aproximados, no capitales ni fronteras históricas. Coordenadas en orden longitud, latitud. Las fichas míticas no tienen coordenadas.",
+  "lugares": [
+    {
+      "id": "peloponeso",
+      "nombre": "Peloponeso",
+      "numero": 1,
+      "coordenadas": [
+        22.2,
+        37.45
+      ],
+      "fichas": [
+        "peloponeso"
+      ],
+      "tipo": "region"
+    },
+    {
+      "id": "grecia-central",
+      "nombre": "Grecia Central",
+      "numero": 2,
+      "coordenadas": [
+        22.8,
+        38.5
+      ],
+      "fichas": [
+        "grecia-central"
+      ],
+      "tipo": "region",
+      "desplazamiento": [
+        -20,
+        -20
+      ]
+    },
+    {
+      "id": "grecia-occidental",
+      "nombre": "Grecia Occidental",
+      "numero": 3,
+      "coordenadas": [
+        21.25,
+        38.7
+      ],
+      "fichas": [
+        "grecia-occidental"
+      ],
+      "tipo": "region"
+    },
+    {
+      "id": "tesalia",
+      "nombre": "Tesalia",
+      "numero": 4,
+      "coordenadas": [
+        22.3,
+        39.6
+      ],
+      "fichas": [
+        "tesalia"
+      ],
+      "tipo": "region"
+    },
+    {
+      "id": "epiro",
+      "nombre": "Epiro",
+      "numero": 5,
+      "coordenadas": [
+        20.7,
+        39.7
+      ],
+      "fichas": [
+        "epiro"
+      ],
+      "tipo": "region"
+    },
+    {
+      "id": "macedonia",
+      "nombre": "Macedonia",
+      "numero": 6,
+      "coordenadas": [
+        22.4,
+        40.65
+      ],
+      "fichas": [
+        "makedonia"
+      ],
+      "tipo": "region"
+    },
+    {
+      "id": "tracia",
+      "nombre": "Tracia",
+      "numero": 7,
+      "coordenadas": [
+        25.5,
+        41.2
+      ],
+      "fichas": [
+        "tracia",
+        "thrake"
+      ],
+      "tipo": "region",
+      "nota": "Las fichas Tracia y Thrakē comparten este punto de referencia. Calcídica se agrupa aquí para el marco arcaico y clásico."
+    },
+    {
+      "id": "eubea",
+      "nombre": "Eubea",
+      "numero": 8,
+      "coordenadas": [
+        23.7,
+        38.65
+      ],
+      "fichas": [
+        "euboia"
+      ],
+      "tipo": "region"
+    },
+    {
+      "id": "islas-egeo",
+      "nombre": "Islas del Egeo",
+      "numero": 9,
+      "coordenadas": [
+        25.2,
+        37.2
+      ],
+      "fichas": [
+        "islas-egeo"
+      ],
+      "tipo": "region"
+    },
+    {
+      "id": "creta",
+      "nombre": "Creta",
+      "numero": 10,
+      "coordenadas": [
+        24.9,
+        35.15
+      ],
+      "fichas": [
+        "creta"
+      ],
+      "tipo": "region"
+    },
+    {
+      "id": "chipre",
+      "nombre": "Chipre",
+      "numero": 11,
+      "coordenadas": [
+        33.2,
+        35.05
+      ],
+      "fichas": [
+        "chipre"
+      ],
+      "tipo": "region"
+    },
+    {
+      "id": "asia-jonia",
+      "nombre": "Asia Jonia",
+      "numero": 12,
+      "coordenadas": [
+        27.15,
+        38.0
+      ],
+      "fichas": [
+        "asia-jonia"
+      ],
+      "tipo": "region"
+    },
+    {
+      "id": "asia-eolia",
+      "nombre": "Asia Eolia",
+      "numero": 13,
+      "coordenadas": [
+        26.95,
+        39.25
+      ],
+      "fichas": [
+        "asia-eolia"
+      ],
+      "tipo": "region"
+    },
+    {
+      "id": "asia-doria",
+      "nombre": "Asia Doria",
+      "numero": 14,
+      "coordenadas": [
+        27.6,
+        36.9
+      ],
+      "fichas": [
+        "asia-doria"
+      ],
+      "tipo": "region"
+    },
+    {
+      "id": "libya",
+      "nombre": "Libia",
+      "numero": 15,
+      "coordenadas": [
+        22.0,
+        31.9
+      ],
+      "fichas": [
+        "libya"
+      ],
+      "tipo": "region",
+      "nota": "El punto señala la costa de Cirenaica como referencia de una región mucho más extensa. Libia no equivale exclusivamente al país moderno."
+    },
+    {
+      "id": "mar-alcionio",
+      "nombre": "Mar Alcionio",
+      "numero": 16,
+      "coordenadas": [
+        22.95,
+        38.12
+      ],
+      "fichas": [
+        "alkyonis-mar-alcionio-peiraion"
+      ],
+      "tipo": "mar"
+    },
+    {
+      "id": "golfo-mesenio",
+      "nombre": "Golfo Mesenio",
+      "numero": 17,
+      "coordenadas": [
+        22.05,
+        36.85
+      ],
+      "fichas": [
+        "kolpos-messeniakos"
+      ],
+      "tipo": "mar",
+      "desplazamiento": [
+        -16,
+        12
+      ]
+    },
+    {
+      "id": "hades",
+      "nombre": "Hades",
+      "tipo": "mitica",
+      "coordenadas": null,
+      "fichas": [
+        "hades"
+      ],
+      "nota": "Reino mítico de los muertos. Se presenta fuera del mapa geográfico, sin atribuirle una coordenada terrestre."
+    },
+    {
+      "id": "katokosmos",
+      "nombre": "Katokosmos",
+      "tipo": "mitica",
+      "coordenadas": null,
+      "fichas": [
+        "katokosmos"
+      ],
+      "nota": "Ficha del mundo inferior, presentada sin una localización geográfica fija."
+    },
+    {
+      "id": "hiperborea",
+      "nombre": "Hiperbórea",
+      "tipo": "mitica",
+      "coordenadas": null,
+      "fichas": [
+        "hyperborea-asia"
+      ],
+      "nota": "Tierra mítica más allá de Bóreas. Su localización varía según la tradición; este atlas no la identifica con un territorio moderno."
+    }
+  ]
+}

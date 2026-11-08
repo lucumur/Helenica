@@ -85,7 +85,7 @@
     document.body.insertAdjacentHTML('afterbegin', `
 <header class="page-header"><div class="wrap">
   <div class="brand"><a href="index.html">ΕΛΛΗΝΙΚΑ</a></div>
-  <nav class="site-nav" aria-label="Navegación principal"><a href="index.html"${active === 'home' ? ' class="on"' : ''}>Inicio</a>${nav}
+  <nav class="site-nav" aria-label="Navegación principal"><a href="index.html"${active === 'home' ? ' class="on"' : ''}>Inicio</a>${nav}<a href="mapa.html"${active === 'mapa' ? ' class="on"' : ''}>Mapa</a>
     <button type="button" id="edit-toggle" title="Modo edición (token de GitHub)">✎ Editar</button></nav>
 </div></header>`);
     document.body.insertAdjacentHTML('beforeend', `<footer class="page-footer"><div class="wrap">Helénica · mitología y cultura griega. Contenido importado de Tana y editable en <a href="https://github.com/${REPO}">GitHub</a>.</div></footer>`);
@@ -108,6 +108,7 @@
 <section class="hero"><p class="eyebrow">Repositorio de mitología griega</p><h1>Helénica</h1>
 <p>Entes, eventos, lugares y objetos del mundo helénico, con sus genealogías, epítetos, cultos y fuentes.</p></section>
 <section class="cards">${Object.entries(COLS).map(([c, v]) => `<a class="card" href="${c}.html"><span class="count">${n(c)}</span><h2>${v.p}</h2><p>${v.d}</p></a>`).join('')}</section>
+<p class="atlas-entry"><a class="btn ghost" href="mapa.html">Explorar el mapa de regiones →</a></p>
 <section style="margin-top:34px" class="tool-row"><input type="search" id="q" placeholder="Buscar en todo el repositorio…" autocomplete="off"></section>
 <div id="res" class="list"></div>`;
     const q = $('#q'), res = $('#res');
@@ -151,7 +152,7 @@
 <section class="hero compact"><p class="eyebrow">${all.length} fichas</p><h1>${COLS[col].p}</h1><p>${COLS[col].d}</p></section>
 <div class="tool-row"><input type="search" id="q" placeholder="Filtrar por nombre o descripción…" autocomplete="off">${areaPanel}
 <span class="seg" id="vista"><button type="button" data-v="tabla">☰ Tabla</button><button type="button" data-v="fichas">▦ Fichas</button></span>
-<button class="btn edit-only" id="new">+ Nueva ficha</button></div>
+${col === 'lugares' ? '<a class="btn ghost" href="mapa.html">Ver mapa ↗</a>' : ''}<button class="btn edit-only" id="new">+ Nueva ficha</button></div>
 ${col === 'lugares' ? '<p id="area-desc" class="muted"></p>' : ''}${facetPanel}<div class="chips" id="chips">${tipos.map(t => `<button class="chip" data-t="${esc(t)}">${esc(t)} <span class="muted">${all.filter(i => (i.t || []).includes(t)).length}</span></button>`).join('')}</div>
 <nav class="alphabet" id="abc"></nav><div id="out"></div>`;
     const draw = () => {
@@ -260,7 +261,7 @@ ${dd('Elementos', md(val(r.elementos)))}${dd('Problema', md(val(r.problema)))}${
       attrs = `<dl class="attr">${dd('Tipo', tagHTML(r.tipos) + (tt ? ' · ' + inline(tt.texto.replace(/^- /gm, '').replace(/\n/g, ' · ')) : ''))}${dd('Escala', r.escala ? (() => { const x = TIPO.escalas.find(y => y.id === r.escala); return `<a href="lugares.html?escala=${r.escala}">${x && x.tier ? `Tier ${x.tier} · ` : ''}${esc(tName('escalas', r.escala))}</a>`; })() : '')}
 ${dd('Forma', (r.forma || []).length ? `<ul class="md">${r.forma.map(x => { const p = x.periodo && TIPO.periodos.find(y => y.id === x.periodo); return `<li><a href="lugares.html?forma=${encodeURIComponent(x.tipo)}">${esc(tName('formas', x.tipo))}</a>${p || x.fechas ? ` <span class="muted">— ${esc(p ? p.nombre : '')}${x.fechas ? (p ? ', ' : '') + esc(x.fechas) : ''}</span>` : ''}${x.nota ? `<br><span style="font-size:.9rem">${inline(x.nota)}</span>` : ''}</li>`; }).join('')}</ul>` : '')}
 ${dd('Funciones', (r.funciones || []).map(x => `<a class="tag" style="text-decoration:none" href="lugares.html?funcion=${x}">${esc(tName('funciones', x))}</a>`).join(' '))}
-${dd('Área', (r.areas || []).map(x => `<a href="lugares.html?area=${encodeURIComponent(x)}">${esc(areaName(x))}</a>`).join(', '))}${dd('Pertenece a', chain.map(k => linkKey(k)).join(' › '))}</dl>`;
+${dd('Mapa', r.escala === 'region' ? `<a href="mapa.html?region=${encodeURIComponent(r.id)}">Localizar esta región ↗</a>` : '')}${dd('Área', (r.areas || []).map(x => `<a href="lugares.html?area=${encodeURIComponent(x)}">${esc(areaName(x))}</a>`).join(', '))}${dd('Pertenece a', chain.map(k => linkKey(k)).join(' › '))}</dl>`;
       if (contiene.length) side += `<div class="box"><h3>Contiene</h3>${listKeys(contiene)}</div>`;
       if (evs.length) side += `<div class="box"><h3>Eventos aquí</h3>${listKeys(evs)}</div>`;
     } else if (col === 'objetos') {
@@ -303,7 +304,7 @@ ${L('Hijos', [...new Set(hi)])}${L('Hermanos', he.slice(0, 30))}</div></div>`;
 
   window.HEL = { COLS, REPO, loadIndex, md, getJSON };
   const page = document.body.dataset.page;
-  const run = page === 'home' ? home : page === 'ficha' ? ficha : () => list(page);
+  const run = page === 'home' ? home : page === 'ficha' ? ficha : page === 'mapa' ? async () => { header('mapa'); await window.HEL_MAP.init(); } : () => list(page);
   const go = () => run().catch(e => { $('main').innerHTML = `<p class="notice">Error: ${esc(e.message)}</p>`; console.error(e); });
   document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', go) : go();
 })();

@@ -108,3 +108,7 @@ button.chip.area.empty{opacity:.45}
 .gcard .nm{font:600 1.12rem var(--serif)}
 .gcard .nm small{display:block;font:400 .86rem var(--serif);color:var(--muted)}
 .gcard .rs{font-size:.84rem;color:var(--muted);display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+
+/* Acceso al atlas desde Inicio y Lugares. */
+a.btn{text-decoration:none;display:inline-block}
+.atlas-entry{margin:24px 0 0}

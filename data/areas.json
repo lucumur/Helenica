@@ -3,8 +3,8 @@
   "grupos": [
     {
       "id": "helade",
-      "nombre": "Hélade",
-      "descripcion": "Regiones nativas del mundo griego."
+      "nombre": "Hélade y entorno",
+      "descripcion": "Grandes áreas del mundo griego y su entorno egeo. Las áreas geográficas no equivalen a fronteras políticas ni a una identidad étnica uniforme."
     },
     {
       "id": "extranjera",
@@ -22,19 +22,43 @@
       "id": "peloponeso",
       "nombre": "Peloponeso",
       "grupo": "helade",
-      "descripcion": "Argólide, Corintia, Arcadia, Laconia, Mesenia, Élide, Acaya y Sición."
+      "descripcion": "Argólide, Corintia, Sicionia, Acaya, Élide, Arcadia, Mesenia y Laconia."
     },
     {
-      "id": "atica",
-      "nombre": "Ática",
+      "id": "grecia-central",
+      "nombre": "Grecia Central",
       "grupo": "helade",
-      "descripcion": "Atenas, su Acrópolis, el Ática rural y Eleusis."
+      "descripcion": "Ática, Megáride, Beocia, Fócide, Dóride y Lócride; incluye Delfos. Agrupación geográfica para la navegación."
     },
     {
-      "id": "beocia",
-      "nombre": "Beocia",
+      "id": "grecia-occidental",
+      "nombre": "Grecia Occidental",
       "grupo": "helade",
-      "descripcion": "Tebas, Áulide y los ríos Asopo e Ismeno."
+      "descripcion": "Etolia, Acarnania y las islas del mar Jónico. Agrupación geográfica para la navegación."
+    },
+    {
+      "id": "tesalia",
+      "nombre": "Tesalia",
+      "grupo": "helade",
+      "descripcion": "Regiones tesalias y territorios periféricos, incluidos Ftiótide, Magnesia y el Pelión."
+    },
+    {
+      "id": "epiro",
+      "nombre": "Epiro",
+      "grupo": "helade",
+      "descripcion": "Molosia, Tesprotia y Caonia; incluye el santuario de Dodona."
+    },
+    {
+      "id": "macedonia",
+      "nombre": "Macedonia",
+      "grupo": "helade",
+      "descripcion": "Territorios macedonios. Para la navegación arcaica y clásica, Calcídica se incluye en Tracia; la expansión posterior del reino no determina esta agrupación."
+    },
+    {
+      "id": "tracia",
+      "nombre": "Tracia",
+      "grupo": "helade",
+      "descripcion": "Territorios tracios del norte del Egeo, incluida Calcídica en el marco arcaico y clásico, y el Quersoneso Tracio junto al Helesponto. Son penínsulas distintas. Referencias: Tucídides, Historia 1.58–59 y 2.99."
     },
     {
       "id": "eubea",
@@ -43,46 +67,46 @@
       "descripcion": "Calcis, Eretria, Histiea, Caristo y el estrecho del Euripo."
     },
     {
-      "id": "grecia-central",
-      "nombre": "Grecia Central (Fócide, Lócride, Delfos)",
-      "grupo": "helade",
-      "descripcion": "Fócide, Lócride, Etolia y el santuario de Delfos."
-    },
-    {
-      "id": "tesalia",
-      "nombre": "Tesalia",
-      "grupo": "helade",
-      "descripcion": "Llanuras tesalias y el Pelión; Trica."
-    },
-    {
-      "id": "macedonia",
-      "nombre": "Macedonia y Calcídica",
-      "grupo": "helade",
-      "descripcion": "Macedonia, Calcídica y Olinto."
-    },
-    {
       "id": "islas-egeo",
       "nombre": "Islas del Egeo",
       "grupo": "helade",
-      "descripcion": "Cícladas (Delos, Siros, Míconos), Dodecaneso y demás islas."
+      "descripcion": "Cícladas, Espóradas y otras islas septentrionales del Egeo. Las islas vinculadas a Eólide, Jonia o Dóride asiática se agrupan con sus respectivas áreas."
     },
     {
       "id": "creta",
       "nombre": "Creta",
       "grupo": "helade",
-      "descripcion": "Creta minoica y el monte Ida."
+      "descripcion": "Creta y sus dependencias insulares; incluye Cnosos y el monte Ida cretense."
     },
     {
-      "id": "jonia-anatolia",
-      "nombre": "Jonia y Anatolia",
+      "id": "chipre",
+      "nombre": "Chipre",
       "grupo": "helade",
-      "descripcion": "Jonia, Eólide, Tróade, Caria, Frigia y Pérgamo."
+      "descripcion": "La isla de Chipre, sus reinos y sus ciudades."
     },
     {
-      "id": "tracia",
-      "nombre": "Tracia",
+      "id": "asia-jonia",
+      "nombre": "Asia Jonia",
+      "grupo": "helade",
+      "descripcion": "Jonia continental y sus islas asociadas, entre ellas Quíos y Samos. Esmirna se incluye aquí según su etapa jonia."
+    },
+    {
+      "id": "asia-eolia",
+      "nombre": "Asia Eolia",
+      "grupo": "helade",
+      "descripcion": "Eólide continental y sus islas asociadas, entre ellas Lesbos y Ténedos."
+    },
+    {
+      "id": "asia-doria",
+      "nombre": "Asia Doria",
+      "grupo": "helade",
+      "descripcion": "Dóride asiática y sus islas asociadas, entre ellas Cos y Rodas; incluye Halicarnaso y Cnido."
+    },
+    {
+      "id": "anatolia",
+      "nombre": "Anatolia",
       "grupo": "extranjera",
-      "descripcion": "Tierra de los tracios al norte del Egeo: Hebro, Estrimón."
+      "descripcion": "Tróade, Misia, Lidia, Caria interior, Licia, Frigia, Paflagonia, Capadocia y Cilicia. Las comunidades agrupadas en Asia Jonia, Asia Eolia y Asia Doria se clasifican en sus áreas respectivas."
     },
     {
       "id": "libya",

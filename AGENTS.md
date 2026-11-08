@@ -66,7 +66,15 @@ Metadatos: `nombre`, `nombre_alt`, `tipos` (Deidad, Héroe, Realeza, Ninfa, Best
 
 **Lugares** — `tipos` (naturaleza física: Monte, Río, Santuario…), `areas` (lista de ids de gran área, normalmente una), `escala`, `forma`, `funciones`, `pertenece_a` (lista de refs al lugar contenedor; arma la ruta Región › Chora › Polis), `campos`.
 
-Las grandes áreas se definen en `data/areas.json` (`id`, `nombre`, `grupo`, `descripcion`), en tres grupos: `helade` (Peloponeso, Ática, Beocia, Eubea, Grecia Central, Tesalia, Macedonia y Calcídica, Islas del Egeo, Creta, Jonia y Anatolia), `extranjera` (Tracia, Libia, Italia, Iberia, Hiperbórea, Sauromatia, Escitia, Cólquide, Egipto, Fenicia y Levante, Persia y Asia, Etiopía) y `mitica` (Inframundo, Geografía mítica). Un lugar nuevo debe llevar un id de área existente; para agregar un área nueva, añádela primero en `data/areas.json`. El validador rechaza áreas no definidas.
+Las grandes áreas se definen en `data/areas.json` (`id`, `nombre`, `grupo`, `descripcion`), en tres grupos: `helade` (Hélade y entorno), `extranjera` y `mitica`. El catálogo vigente es la fuente de verdad. Un lugar nuevo debe llevar un id de área existente; para agregar un área nueva, añádela primero en `data/areas.json`. El validador rechaza áreas no definidas.
+
+Las 14 áreas de Hélade y entorno son: Peloponeso, Grecia Central, Grecia Occidental, Tesalia, Epiro, Macedonia, Tracia, Eubea, Islas del Egeo, Creta, Chipre, Asia Jonia, Asia Eolia y Asia Doria. Son agrupaciones de navegación, distintas de la escala/tier de una ficha y de las fronteras políticas de cada época.
+
+- Ática y Beocia se agrupan en Grecia Central; Etolia, Acarnania y las islas del Jónico, en Grecia Occidental.
+- Calcídica y Olinto se agrupan en Tracia para el marco arcaico y clásico (Tucídides, *Historia* 1.58–59). El Quersoneso Tracio es otra península, junto al Helesponto. La expansión macedonia posterior se explica en las fichas y no cambia automáticamente su área.
+- Lesbos y Ténedos pertenecen a Asia Eolia; Quíos y Samos, a Asia Jonia; Cos y Rodas, a Asia Doria. Halicarnaso se agrupa en Asia Doria. Evitar duplicarlos en Islas del Egeo.
+- Anatolia conserva los lugares que no pertenecen a esas tres áreas costeras (por ejemplo, Troya, el Ida frigio, Pérgamo y Lagina). No asignar todo lugar anatolio a Jonia.
+- Las nuevas áreas pueden no tener fichas todavía; el selector las muestra con un recuento de cero.
 
 Tipología de lugares (`data/tipologia.json`, tres ejes):
 

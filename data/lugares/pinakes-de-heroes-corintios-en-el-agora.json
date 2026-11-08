@@ -28,6 +28,11 @@
   "areas": [
     "peloponeso"
   ],
+  "escala": "componente",
+  "forma": [],
+  "funciones": [
+    "civico"
+  ],
   "pertenece_a": [],
   "contenido_en": {
     "tana": "6y_4oapuM7G2",

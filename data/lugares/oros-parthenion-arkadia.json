@@ -16,5 +16,11 @@
   "areas": [
     "peloponeso"
   ],
+  "escala": "sitio",
+  "forma": [],
+  "funciones": [
+    "militar",
+    "natural"
+  ],
   "pertenece_a": []
 }

@@ -42,5 +42,16 @@
   "areas": [
     "macedonia"
   ],
+  "escala": "asentamiento",
+  "forma": [
+    {
+      "tipo": "kome",
+      "periodo": "geometrico",
+      "fechas": "1000–800 a.C."
+    }
+  ],
+  "funciones": [
+    "residencial"
+  ],
   "pertenece_a": []
 }

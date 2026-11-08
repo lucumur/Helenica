@@ -29,5 +29,16 @@
   "areas": [
     "peloponeso"
   ],
+  "escala": "asentamiento",
+  "forma": [
+    {
+      "tipo": "multinucleado",
+      "periodo": "geometrico",
+      "nota": "Núcleos dispersos alrededor de manantiales, antes de un centro unificado."
+    }
+  ],
+  "funciones": [
+    "residencial"
+  ],
   "pertenece_a": []
 }

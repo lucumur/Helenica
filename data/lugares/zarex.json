@@ -16,5 +16,10 @@
   "areas": [
     "eubea"
   ],
+  "escala": "asentamiento",
+  "forma": [],
+  "funciones": [
+    "residencial"
+  ],
   "pertenece_a": []
 }

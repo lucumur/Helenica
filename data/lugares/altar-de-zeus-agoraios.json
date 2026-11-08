@@ -28,6 +28,12 @@
   "areas": [
     "atica"
   ],
+  "escala": "componente",
+  "forma": [],
+  "funciones": [
+    "sagrado",
+    "civico"
+  ],
   "pertenece_a": [],
   "contenido_en": {
     "tana": "jQSRByUXzrC1",

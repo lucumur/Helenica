@@ -16,7 +16,7 @@
     eventos: n => ({ id: '', nombre: n, nombre_alt: null, tipo: 'Mítico', imagen: null, descripcion: empty(), cuando: empty(),
       agentes_activos: empty(), agentes_pasivos: empty(), donde: empty(), elementos: empty(), problema: empty(), desenlace: empty(),
       campos: [], secciones: [], fuentes: [] }),
-    lugares: n => ({ id: '', nombre: n, nombre_alt: null, tipos: ['Lugar'], areas: [], imagen: null, pertenece_a: [],
+    lugares: n => ({ id: '', nombre: n, nombre_alt: null, tipos: ['Lugar'], areas: [], escala: 'asentamiento', forma: [], funciones: [], imagen: null, pertenece_a: [],
       campos: [{ clave: 'D🪪', etiqueta: 'Descripción', texto: '', refs: [] }], secciones: [], fuentes: [] }),
     objetos: n => ({ id: '', nombre: n, nombre_alt: null, tipos: ['Objeto'], imagen: null,
       campos: [{ clave: 'D📝', etiqueta: 'Descripción', texto: '', refs: [] }], secciones: [], fuentes: [] }),

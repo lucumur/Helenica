@@ -116,6 +116,46 @@
   "areas": [
     "macedonia"
   ],
+  "escala": "asentamiento",
+  "forma": [
+    {
+      "tipo": "kome",
+      "periodo": "geometrico",
+      "fechas": "1000–800 a.C.",
+      "nota": "Núcleo no residencial, campamentos y aldeas estacionales dispersas."
+    },
+    {
+      "tipo": "mononucleado-difuso",
+      "periodo": "arcaico",
+      "fechas": "750–500 a.C.",
+      "nota": "Colonia calcídica: núcleo en la colina sur con 4–6 komai satélites dependientes."
+    },
+    {
+      "tipo": "polis-sinecizada",
+      "periodo": "clasico",
+      "fechas": "432–348 a.C.",
+      "nota": "Sinecismo de 432 (Tucídides 1.58); trama hipodámica en la colina norte."
+    },
+    {
+      "tipo": "polis-amurallada",
+      "periodo": "helenistico",
+      "fechas": "316–168 a.C.",
+      "nota": "Reocupación reducida a la colina norte, circuito de murallas reducido, sin autonomía."
+    },
+    {
+      "tipo": "kome",
+      "periodo": "romano",
+      "fechas": "168 a.C.–300 d.C.",
+      "nota": "Ocupación dispersa sin autonomía dentro de la trama arruinada."
+    },
+    {
+      "tipo": "kome",
+      "periodo": "tardoantiguo",
+      "fechas": "300–500 d.C.",
+      "nota": "Ruina habitada marginalmente; aldea informal."
+    }
+  ],
+  "funciones": [],
   "pertenece_a": [
     {
       "tana": "TGCdyQmNYIbi",

@@ -81,6 +81,11 @@
   "areas": [
     "beocia"
   ],
+  "escala": "asentamiento",
+  "forma": [],
+  "funciones": [
+    "portuario"
+  ],
   "pertenece_a": [
     {
       "tana": "HNRcbao5wr4Q",

@@ -17,6 +17,11 @@ try:
     AREAS = {a['id'] for a in json.load(open(os.path.join(DATA, 'areas.json'), encoding='utf-8'))['areas']}
 except Exception as e:
     AREAS = set(); errors.append(f'data/areas.json: no se pudo leer ({e})')
+try:
+    _T = json.load(open(os.path.join(DATA, 'tipologia.json'), encoding='utf-8'))
+    ESC, FOR, FUN, PER = ({x['id'] for x in _T[k]} for k in ('escalas', 'formas', 'funciones', 'periodos'))
+except Exception as e:
+    ESC = FOR = FUN = PER = set(); errors.append(f'data/tipologia.json: no se pudo leer ({e})')
 for col in COLS:
     for path in glob.glob(os.path.join(DATA, col, '*.json')):
         rel = os.path.relpath(path, ROOT)
@@ -34,6 +39,17 @@ for col in COLS:
         for a in rec.get('areas') or []:
             if a not in AREAS:
                 errors.append(f'{rel}: área "{a}" no definida en data/areas.json')
+        if col == 'lugares':
+            if rec.get('escala') and rec['escala'] not in ESC:
+                errors.append(f'{rel}: escala "{rec["escala"]}" no definida en data/tipologia.json')
+            for fo in rec.get('forma') or []:
+                if fo.get('tipo') not in FOR:
+                    errors.append(f'{rel}: forma "{fo.get("tipo")}" no definida en data/tipologia.json')
+                if fo.get('periodo') and fo['periodo'] not in PER:
+                    errors.append(f'{rel}: periodo "{fo["periodo"]}" no definido en data/tipologia.json')
+            for fu in rec.get('funciones') or []:
+                if fu not in FUN:
+                    errors.append(f'{rel}: función "{fu}" no definida en data/tipologia.json')
         known.add(f'{col}:{rid}'); recs.append((rel, rec))
 
 def scan(obj, rel):

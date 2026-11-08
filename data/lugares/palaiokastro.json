@@ -16,5 +16,13 @@
   "areas": [
     "islas-egeo"
   ],
+  "escala": "asentamiento",
+  "forma": [
+    {
+      "tipo": "polis",
+      "nota": "Polis antigua que se sinecizó con Míconos (s. III a.C.)."
+    }
+  ],
+  "funciones": [],
   "pertenece_a": []
 }

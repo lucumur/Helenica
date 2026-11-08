@@ -32,5 +32,10 @@
   "areas": [
     "jonia-anatolia"
   ],
+  "escala": "sitio",
+  "forma": [],
+  "funciones": [
+    "hidraulico"
+  ],
   "pertenece_a": []
 }

@@ -57,6 +57,11 @@
   "areas": [
     "macedonia"
   ],
+  "escala": "asentamiento",
+  "forma": [],
+  "funciones": [
+    "residencial"
+  ],
   "pertenece_a": [],
   "contenido_en": {
     "tana": "HcaGQBfC_sLV",

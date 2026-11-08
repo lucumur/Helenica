@@ -34,5 +34,11 @@
   "areas": [
     "peloponeso"
   ],
+  "escala": "componente",
+  "forma": [],
+  "funciones": [
+    "militar",
+    "hidraulico"
+  ],
   "pertenece_a": []
 }

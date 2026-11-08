@@ -85,6 +85,9 @@ def main():
             elif col == 'lugares':
                 it['pe'] = ids(rec, 'pertenece_a')
                 it['ar'] = rec.get('areas') or []
+                it['es'] = rec.get('escala')
+                it['fo'] = sorted({x.get('tipo') for x in rec.get('forma') or [] if x.get('tipo')})
+                it['fu'] = rec.get('funciones') or []
             if rec.get('contenido_en', {}).get('id'):
                 it['en'] = f"{rec['contenido_en']['col']}:{rec['contenido_en']['id']}"
             items.append(it)

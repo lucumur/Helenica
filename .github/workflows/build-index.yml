@@ -8,6 +8,7 @@ on:
       - 'data/lugares/**'
       - 'data/objetos/**'
       - 'data/areas.json'
+      - 'data/tipologia.json'
       - 'scripts/**'
       - '.github/workflows/build-index.yml'
   workflow_dispatch:

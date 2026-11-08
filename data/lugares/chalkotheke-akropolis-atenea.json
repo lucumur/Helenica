@@ -22,5 +22,10 @@
   "areas": [
     "atica"
   ],
+  "escala": "componente",
+  "forma": [],
+  "funciones": [
+    "funerario"
+  ],
   "pertenece_a": []
 }

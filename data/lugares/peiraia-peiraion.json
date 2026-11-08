@@ -16,6 +16,11 @@
   "areas": [
     "peloponeso"
   ],
+  "escala": "asentamiento",
+  "forma": [],
+  "funciones": [
+    "residencial"
+  ],
   "pertenece_a": [],
   "contenido_en": {
     "tana": "slhLmjZQBFmM",

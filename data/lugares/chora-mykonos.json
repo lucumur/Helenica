@@ -16,5 +16,15 @@
   "areas": [
     "islas-egeo"
   ],
+  "escala": "asentamiento",
+  "forma": [
+    {
+      "tipo": "polis-sinecizada",
+      "periodo": "helenistico",
+      "fechas": "s. III a.C.",
+      "nota": "Sinecismo de la Dipolis (Ps.-Escílax)."
+    }
+  ],
+  "funciones": [],
   "pertenece_a": []
 }

@@ -42,6 +42,17 @@
   "areas": [
     "macedonia"
   ],
+  "escala": "asentamiento",
+  "forma": [
+    {
+      "tipo": "kome",
+      "periodo": "arcaico",
+      "fechas": "750–500 a.C."
+    }
+  ],
+  "funciones": [
+    "residencial"
+  ],
   "pertenece_a": [],
   "contenido_en": {
     "tana": "HcaGQBfC_sLV",

@@ -16,5 +16,10 @@
   "areas": [
     "peloponeso"
   ],
+  "escala": "componente",
+  "forma": [],
+  "funciones": [
+    "espectaculos"
+  ],
   "pertenece_a": []
 }

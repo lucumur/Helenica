@@ -67,5 +67,10 @@
   "areas": [
     "islas-egeo"
   ],
+  "escala": "sitio",
+  "forma": [],
+  "funciones": [
+    "sagrado"
+  ],
   "pertenece_a": []
 }

@@ -18,5 +18,10 @@
   "areas": [
     "islas-egeo"
   ],
+  "escala": "asentamiento",
+  "forma": [],
+  "funciones": [
+    "portuario"
+  ],
   "pertenece_a": []
 }

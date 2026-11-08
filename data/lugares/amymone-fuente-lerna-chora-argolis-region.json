@@ -21,6 +21,11 @@
   "areas": [
     "peloponeso"
   ],
+  "escala": "sitio",
+  "forma": [],
+  "funciones": [
+    "hidraulico"
+  ],
   "pertenece_a": [],
   "contenido_en": {
     "tana": "BPmEWjakjBne",

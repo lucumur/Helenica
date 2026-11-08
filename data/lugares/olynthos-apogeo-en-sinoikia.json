@@ -119,6 +119,15 @@
   "areas": [
     "macedonia"
   ],
+  "escala": "asentamiento",
+  "forma": [
+    {
+      "tipo": "polis-sinecizada",
+      "periodo": "clasico",
+      "fechas": "450–348 a.C."
+    }
+  ],
+  "funciones": [],
   "pertenece_a": [
     {
       "tana": "TGCdyQmNYIbi",

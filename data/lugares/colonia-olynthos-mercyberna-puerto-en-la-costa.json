@@ -41,6 +41,12 @@
   "areas": [
     "macedonia"
   ],
+  "escala": "componente",
+  "forma": [],
+  "funciones": [
+    "portuario",
+    "epineion"
+  ],
   "pertenece_a": [],
   "contenido_en": {
     "tana": "HcaGQBfC_sLV",

@@ -41,5 +41,10 @@
   "areas": [
     "peloponeso"
   ],
+  "escala": "componente",
+  "forma": [],
+  "funciones": [
+    "civico"
+  ],
   "pertenece_a": []
 }

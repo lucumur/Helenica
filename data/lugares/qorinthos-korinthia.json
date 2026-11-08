@@ -41,5 +41,15 @@
   "areas": [
     "peloponeso"
   ],
+  "escala": "asentamiento",
+  "forma": [
+    {
+      "tipo": "multinucleado",
+      "periodo": "geometrico",
+      "fechas": "1000–800 a.C.",
+      "nota": "Ver Asentamiento de aldeas, Corinto Geométrica."
+    }
+  ],
+  "funciones": [],
   "pertenece_a": []
 }

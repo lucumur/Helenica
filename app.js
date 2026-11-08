@@ -120,7 +120,9 @@
   }
 
   let AREAS = null;
-  const loadAreas = async () => AREAS || (AREAS = await getJSON('data/areas.json'));
+  let TIPO = null;
+  const loadAreas = async () => { if (!AREAS) [AREAS, TIPO] = await Promise.all([getJSON('data/areas.json'), getJSON('data/tipologia.json')]); return AREAS; };
+  const tName = (k, id) => { const x = TIPO && TIPO[k].find(a => a.id === id); return x ? x.nombre : id; };
   const areaName = id => { const x = AREAS && AREAS.areas.find(a => a.id === id); return x ? x.nombre : id; };
   function rowHTML(i) {
     return `<a class="row" href="${href(i.c, i.id)}"><div class="nm">${esc(i.n)}${i.alt ? `<small>${esc(i.alt)}</small>` : ''}</div>
@@ -134,21 +136,27 @@
     if (col === 'lugares') await loadAreas();
     const all = I.items.filter(i => i.c === col).sort((a, b) => fold(a.n).localeCompare(fold(b.n)));
     const tipos = [...new Set(all.flatMap(i => i.t || []))].sort((a, b) => a.localeCompare(b));
-    const st = { q: '', t: new Set(), a: new URLSearchParams(location.search).get('area') || '' };
+    const QP = new URLSearchParams(location.search);
+    const st = { q: '', t: new Set(), a: QP.get('area') || '', es: QP.get('escala') || '', fo: QP.get('forma') || '', fu: QP.get('funcion') || '' };
+    const FACETS = [['es', 'escala', 'escalas', 'Escala', i => [i.es]], ['fo', 'forma', 'formas', 'Forma', i => i.fo || []], ['fu', 'funcion', 'funciones', 'Función', i => i.fu || []]];
+    const facetPanel = col !== 'lugares' ? '' : `<div id="facets">${FACETS.map(([k, qp, tk, lbl, get]) => `<div class="area-grp"><span class="area-lbl">${lbl}</span>${TIPO[tk].map(x => { const n = all.filter(i => get(i).includes(x.id)).length; return n ? `<button class="chip area" data-k="${k}" data-v="${x.id}" title="${esc(x.descripcion || '')}">${esc(x.nombre)} <span class="muted">${n}</span></button>` : ''; }).join('')}</div>`).join('')}</div>`;
     const areaPanel = col !== 'lugares' ? '' : `<div id="areas">${AREAS.grupos.map(g => `<div class="area-grp"><span class="area-lbl">${esc(g.nombre)}</span>${AREAS.areas.filter(x => x.grupo === g.id).map(x => { const n = all.filter(i => (i.ar || []).includes(x.id)).length; return `<button class="chip area${n ? '' : ' empty'}" data-a="${x.id}" title="${esc(x.descripcion)}">${esc(x.nombre)} <span class="muted">${n}</span></button>`; }).join('')}</div>`).join('')}<p id="area-desc" class="muted"></p></div>`;
     $('main').innerHTML = `
 <section class="hero compact"><p class="eyebrow">${all.length} fichas</p><h1>${COLS[col].p}</h1><p>${COLS[col].d}</p></section>
 <div class="tool-row"><input type="search" id="q" placeholder="Filtrar por nombre o descripción…" autocomplete="off">
 <button class="btn edit-only" id="new">+ Nueva ficha</button></div>
-${areaPanel}<div class="chips" id="chips">${tipos.map(t => `<button class="chip" data-t="${esc(t)}">${esc(t)} <span class="muted">${all.filter(i => (i.t || []).includes(t)).length}</span></button>`).join('')}</div>
+${areaPanel}${facetPanel}<div class="chips" id="chips">${tipos.map(t => `<button class="chip" data-t="${esc(t)}">${esc(t)} <span class="muted">${all.filter(i => (i.t || []).includes(t)).length}</span></button>`).join('')}</div>
 <nav class="alphabet" id="abc"></nav><div id="out"></div>`;
     const draw = () => {
       const v = fold(st.q);
-      const rows = all.filter(i => (!v || fold(`${i.n} ${i.alt || ''} ${i.r || ''}`).includes(v)) && (!st.t.size || (i.t || []).some(t => st.t.has(t))) && (!st.a || (i.ar || []).includes(st.a)));
+      const rows = all.filter(i => (!v || fold(`${i.n} ${i.alt || ''} ${i.r || ''}`).includes(v)) && (!st.t.size || (i.t || []).some(t => st.t.has(t))) && (!st.a || (i.ar || []).includes(st.a))
+        && (col !== 'lugares' || FACETS.every(([k, , , , get]) => !st[k] || get(i).includes(st[k]))));
       if (col === 'lugares') {
-        document.querySelectorAll('.chip.area').forEach(b => b.classList.toggle('on', b.dataset.a === st.a));
+        document.querySelectorAll('#areas .chip.area').forEach(b => b.classList.toggle('on', b.dataset.a === st.a));
+        document.querySelectorAll('#facets .chip.area').forEach(b => b.classList.toggle('on', st[b.dataset.k] === b.dataset.v));
         const ar = AREAS.areas.find(x => x.id === st.a);
-        $('#area-desc').innerHTML = ar ? `<strong>${esc(ar.nombre)}</strong> — ${esc(ar.descripcion)} · ${rows.length} lugares` : '';
+        const parts = [ar ? `<strong>${esc(ar.nombre)}</strong> — ${esc(ar.descripcion)}` : '', ...FACETS.filter(([k]) => st[k]).map(([k, , tk]) => { const x = TIPO[tk].find(y => y.id === st[k]); return x ? `<strong>${esc(x.nombre)}</strong>${x.descripcion ? ' — ' + esc(x.descripcion) : ''}` : ''; })].filter(Boolean);
+        $('#area-desc').innerHTML = parts.length ? parts.join('<br>') + ` · ${rows.length} lugares` : '';
       }
       const groups = new Map();
       for (const i of rows) { const f0 = fold(i.n).replace(/^[^a-z0-9]+/, '')[0] || '#'; const L = /[a-z]/.test(f0) ? f0.toUpperCase() : '#'; if (!groups.has(L)) groups.set(L, []); groups.get(L).push(i); }
@@ -166,6 +174,13 @@ ${areaPanel}<div class="chips" id="chips">${tipos.map(t => `<button class="chip"
       const b = e.target.closest('.chip.area'); if (!b) return;
       st.a = st.a === b.dataset.a ? '' : b.dataset.a;
       const u = new URL(location.href); st.a ? u.searchParams.set('area', st.a) : u.searchParams.delete('area'); history.replaceState(null, '', u);
+      draw();
+    });
+    if (col === 'lugares') $('#facets').addEventListener('click', e => {
+      const b = e.target.closest('.chip.area'); if (!b) return;
+      const [k, qp] = FACETS.find(f => f[0] === b.dataset.k);
+      st[k] = st[k] === b.dataset.v ? '' : b.dataset.v;
+      const u = new URL(location.href); st[k] ? u.searchParams.set(qp, st[k]) : u.searchParams.delete(qp); history.replaceState(null, '', u);
       draw();
     });
     $('#new').addEventListener('click', () => window.HEL_EDIT && window.HEL_EDIT.create(col));
@@ -231,7 +246,10 @@ ${dd('Elementos', md(val(r.elementos)))}${dd('Problema', md(val(r.problema)))}${
       mark(chain);
       const contiene = mark(I.cont.get(K)), evs = mark(I.evDo.get(K));
       const tt = (r.campos || []).find(c => c.clave === 'T🏷️');
-      attrs = `<dl class="attr">${dd('Tipo', tagHTML(r.tipos) + (tt ? ' · ' + inline(tt.texto.replace(/^- /gm, '').replace(/\n/g, ' · ')) : ''))}${dd('Área', (r.areas || []).map(x => `<a href="lugares.html?area=${encodeURIComponent(x)}">${esc(areaName(x))}</a>`).join(', '))}${dd('Pertenece a', chain.map(k => linkKey(k)).join(' › '))}</dl>`;
+      attrs = `<dl class="attr">${dd('Tipo', tagHTML(r.tipos) + (tt ? ' · ' + inline(tt.texto.replace(/^- /gm, '').replace(/\n/g, ' · ')) : ''))}${dd('Escala', r.escala ? `<a href="lugares.html?escala=${r.escala}">${esc(tName('escalas', r.escala))}</a>` : '')}
+${dd('Forma', (r.forma || []).length ? `<ul class="md">${r.forma.map(x => { const p = x.periodo && TIPO.periodos.find(y => y.id === x.periodo); return `<li><a href="lugares.html?forma=${encodeURIComponent(x.tipo)}">${esc(tName('formas', x.tipo))}</a>${p || x.fechas ? ` <span class="muted">— ${esc(p ? p.nombre : '')}${x.fechas ? (p ? ', ' : '') + esc(x.fechas) : ''}</span>` : ''}${x.nota ? `<br><span style="font-size:.9rem">${inline(x.nota)}</span>` : ''}</li>`; }).join('')}</ul>` : '')}
+${dd('Funciones', (r.funciones || []).map(x => `<a class="tag" style="text-decoration:none" href="lugares.html?funcion=${x}">${esc(tName('funciones', x))}</a>`).join(' '))}
+${dd('Área', (r.areas || []).map(x => `<a href="lugares.html?area=${encodeURIComponent(x)}">${esc(areaName(x))}</a>`).join(', '))}${dd('Pertenece a', chain.map(k => linkKey(k)).join(' › '))}</dl>`;
       if (contiene.length) side += `<div class="box"><h3>Contiene</h3>${listKeys(contiene)}</div>`;
       if (evs.length) side += `<div class="box"><h3>Eventos aquí</h3>${listKeys(evs)}</div>`;
     } else if (col === 'objetos') {

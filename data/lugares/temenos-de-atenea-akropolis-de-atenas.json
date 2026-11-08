@@ -85,6 +85,11 @@
   "areas": [
     "atica"
   ],
+  "escala": "componente",
+  "forma": [],
+  "funciones": [
+    "sagrado"
+  ],
   "pertenece_a": [
     {
       "tana": "50oPv0Ts0sbu",

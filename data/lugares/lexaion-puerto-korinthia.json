@@ -16,5 +16,11 @@
   "areas": [
     "peloponeso"
   ],
+  "escala": "asentamiento",
+  "forma": [],
+  "funciones": [
+    "portuario",
+    "epineion"
+  ],
   "pertenece_a": []
 }

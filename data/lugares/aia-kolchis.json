@@ -16,5 +16,10 @@
   "areas": [
     "colquide"
   ],
+  "escala": "asentamiento",
+  "forma": [],
+  "funciones": [
+    "residencial"
+  ],
   "pertenece_a": []
 }

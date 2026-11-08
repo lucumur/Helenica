@@ -16,5 +16,10 @@
   "areas": [
     "eubea"
   ],
+  "escala": "componente",
+  "forma": [],
+  "funciones": [
+    "civico"
+  ],
   "pertenece_a": []
 }

@@ -18,5 +18,11 @@
   "areas": [
     "peloponeso"
   ],
+  "escala": "componente",
+  "forma": [],
+  "funciones": [
+    "sagrado",
+    "hidraulico"
+  ],
   "pertenece_a": []
 }

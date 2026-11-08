@@ -29,5 +29,11 @@
   "areas": [
     "peloponeso"
   ],
+  "escala": "sitio",
+  "forma": [],
+  "funciones": [
+    "sagrado",
+    "residencial"
+  ],
   "pertenece_a": []
 }

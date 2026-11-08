@@ -77,6 +77,11 @@
   "areas": [
     "peloponeso"
   ],
+  "escala": "componente",
+  "forma": [],
+  "funciones": [
+    "militar"
+  ],
   "pertenece_a": [
     {
       "tana": "6y_4oapuM7G2",

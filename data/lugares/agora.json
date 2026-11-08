@@ -16,5 +16,10 @@
   "areas": [
     "islas-egeo"
   ],
+  "escala": "componente",
+  "forma": [],
+  "funciones": [
+    "civico"
+  ],
   "pertenece_a": []
 }

@@ -34,5 +34,11 @@
   "areas": [
     "peloponeso"
   ],
+  "escala": "componente",
+  "forma": [],
+  "funciones": [
+    "sagrado",
+    "militar"
+  ],
   "pertenece_a": []
 }

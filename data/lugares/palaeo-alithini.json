@@ -16,5 +16,10 @@
   "areas": [
     "islas-egeo"
   ],
+  "escala": "asentamiento",
+  "forma": [],
+  "funciones": [
+    "residencial"
+  ],
   "pertenece_a": []
 }

@@ -23,5 +23,10 @@
   "areas": [
     "peloponeso"
   ],
+  "escala": "componente",
+  "forma": [],
+  "funciones": [
+    "militar"
+  ],
   "pertenece_a": []
 }

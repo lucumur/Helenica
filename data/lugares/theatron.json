@@ -16,5 +16,10 @@
   "areas": [
     "eubea"
   ],
+  "escala": "componente",
+  "forma": [],
+  "funciones": [
+    "espectaculos"
+  ],
   "pertenece_a": []
 }

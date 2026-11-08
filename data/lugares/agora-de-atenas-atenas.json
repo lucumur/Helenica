@@ -53,6 +53,12 @@
   "areas": [
     "atica"
   ],
+  "escala": "componente",
+  "forma": [],
+  "funciones": [
+    "civico",
+    "residencial"
+  ],
   "pertenece_a": [],
   "contenido_en": {
     "tana": "0iYjGYISCSgv",

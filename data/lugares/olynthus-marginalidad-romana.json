@@ -59,6 +59,15 @@
   "areas": [
     "macedonia"
   ],
+  "escala": "asentamiento",
+  "forma": [
+    {
+      "tipo": "kome",
+      "periodo": "romano",
+      "fechas": "168 a.C.–300 d.C."
+    }
+  ],
+  "funciones": [],
   "pertenece_a": [],
   "contenido_en": {
     "tana": "Lu72xqUyooVW",

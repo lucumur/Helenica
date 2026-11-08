@@ -16,6 +16,15 @@
   "areas": [
     "peloponeso"
   ],
+  "escala": "asentamiento",
+  "forma": [
+    {
+      "tipo": "phrourion"
+    }
+  ],
+  "funciones": [
+    "militar"
+  ],
   "pertenece_a": [],
   "contenido_en": {
     "tana": "slhLmjZQBFmM",

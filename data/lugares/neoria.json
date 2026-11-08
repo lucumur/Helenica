@@ -16,5 +16,11 @@
   "areas": [
     "peloponeso"
   ],
+  "escala": "componente",
+  "forma": [],
+  "funciones": [
+    "portuario",
+    "productivo"
+  ],
   "pertenece_a": []
 }

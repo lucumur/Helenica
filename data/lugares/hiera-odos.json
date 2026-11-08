@@ -16,5 +16,10 @@
   "areas": [
     "eubea"
   ],
+  "escala": "componente",
+  "forma": [],
+  "funciones": [
+    "comunicacion"
+  ],
   "pertenece_a": []
 }

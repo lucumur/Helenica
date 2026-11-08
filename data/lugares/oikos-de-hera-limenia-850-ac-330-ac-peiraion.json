@@ -103,5 +103,11 @@
   "areas": [
     "peloponeso"
   ],
+  "escala": "componente",
+  "forma": [],
+  "funciones": [
+    "sagrado",
+    "portuario"
+  ],
   "pertenece_a": []
 }

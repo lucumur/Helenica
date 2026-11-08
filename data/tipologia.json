@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "escalas": [
+    {
+      "id": "region",
+      "nombre": "Región",
+      "descripcion": "Gran región de referencia conocida por nombre, aunque no tenga nombre helénico propio (Peloponeso, Eubea, Tracia)."
+    },
+    {
+      "id": "chora",
+      "nombre": "Chora",
+      "descripcion": "Entidad regional dominada por un centro que reclama sus bordes y límites (Korinthia, Karystia, Laconia)."
+    },
+    {
+      "id": "ethnos",
+      "nombre": "Ethnos",
+      "descripcion": "Región de un pueblo sin un centro dominante; liga o koinon (Arcadia, Acaya)."
+    },
+    {
+      "id": "asentamiento",
+      "nombre": "Asentamiento",
+      "descripcion": "Lugar habitado; su forma se describe por periodos."
+    },
+    {
+      "id": "componente",
+      "nombre": "Componente",
+      "descripcion": "Parte de un asentamiento: acrópolis, ágora, barrio, muralla, puerta, edificio."
+    },
+    {
+      "id": "sitio",
+      "nombre": "Sitio",
+      "descripcion": "Lugar fuera de un asentamiento: santuario extraurbano, tumba, cueva, monte, río, fuente, cabo."
+    }
+  ],
+  "formas": [
+    {
+      "id": "kome",
+      "nombre": "Kome / asentamiento disperso",
+      "descripcion": "Vive gente, más o menos dispersa; étnico, de un solo grupo."
+    },
+    {
+      "id": "hieropolis",
+      "nombre": "Hieropolis",
+      "descripcion": "Recinto de la élite o recinto sagrado, sin pueblo en el sitio."
+    },
+    {
+      "id": "anaktoron",
+      "nombre": "Anaktoron (palacio)",
+      "descripcion": "Centro palacial (micénico) con dependencias administrativas."
+    },
+    {
+      "id": "polis",
+      "nombre": "Polis (sin precisar)",
+      "descripcion": "Polis cuya morfología aún no se ha determinado."
+    },
+    {
+      "id": "polis-amurallada",
+      "nombre": "Polis amurallada",
+      "descripcion": "Asentamiento de élite amurallado; puede o no tener pueblo, hieropolis o acrópolis."
+    },
+    {
+      "id": "teichos",
+      "nombre": "Amurallamiento sin élite (tipo Gla)",
+      "descripcion": "Recinto fortificado sin residencia de élite."
+    },
+    {
+      "id": "phrourion",
+      "nombre": "Phrourion (fortaleza / guarnición)",
+      "descripcion": "Fuerte con guarnición que controla un paso o frontera."
+    },
+    {
+      "id": "multinucleado",
+      "nombre": "Multinucleado (katà kōmas)",
+      "descripcion": "Sin murallas ni hieropolis/acrópolis definida; varios centros de casas de caudillos o reyes."
+    },
+    {
+      "id": "mononucleado-difuso",
+      "nombre": "Mononucleado difuminado",
+      "descripcion": "Un asentamiento central \"capital\" y aldeas aledañas claramente inferiores que se sienten parte de él."
+    },
+    {
+      "id": "polis-sinecizada",
+      "nombre": "Polis con sinecismo (synoikismos)",
+      "descripcion": "Los núcleos se unifican en un pueblo dividido en barrios; nobleza entre pares con rey u oligarquía; normalmente con muralla exterior."
+    }
+  ],
+  "funciones": [
+    {
+      "id": "sagrado",
+      "nombre": "Sagrado"
+    },
+    {
+      "id": "funerario",
+      "nombre": "Funerario"
+    },
+    {
+      "id": "civico",
+      "nombre": "Cívico"
+    },
+    {
+      "id": "comercial",
+      "nombre": "Comercial"
+    },
+    {
+      "id": "portuario",
+      "nombre": "Portuario"
+    },
+    {
+      "id": "epineion",
+      "nombre": "Epineion (puerto de una polis)"
+    },
+    {
+      "id": "emporion",
+      "nombre": "Emporion"
+    },
+    {
+      "id": "apoikia",
+      "nombre": "Apoikia (colonia)"
+    },
+    {
+      "id": "perioikis",
+      "nombre": "Perioikis (dependiente)"
+    },
+    {
+      "id": "militar",
+      "nombre": "Militar"
+    },
+    {
+      "id": "residencial",
+      "nombre": "Residencial"
+    },
+    {
+      "id": "elite",
+      "nombre": "Élite"
+    },
+    {
+      "id": "hidraulico",
+      "nombre": "Hidráulico"
+    },
+    {
+      "id": "espectaculos",
+      "nombre": "Espectáculos y atletismo"
+    },
+    {
+      "id": "productivo",
+      "nombre": "Productivo"
+    },
+    {
+      "id": "comunicacion",
+      "nombre": "Comunicación (vía, paso)"
+    },
+    {
+      "id": "natural",
+      "nombre": "Natural"
+    }
+  ],
+  "periodos": [
+    {
+      "id": "micenico",
+      "nombre": "Micénico",
+      "fechas": "ca. 1600–1100 a.C."
+    },
+    {
+      "id": "geometrico",
+      "nombre": "Geométrico",
+      "fechas": "ca. 1000–750 a.C."
+    },
+    {
+      "id": "arcaico",
+      "nombre": "Arcaico",
+      "fechas": "ca. 750–480 a.C."
+    },
+    {
+      "id": "clasico",
+      "nombre": "Clásico",
+      "fechas": "480–323 a.C."
+    },
+    {
+      "id": "helenistico",
+      "nombre": "Helenístico",
+      "fechas": "323–146 a.C."
+    },
+    {
+      "id": "romano",
+      "nombre": "Romano",
+      "fechas": "146 a.C.–ca. 300 d.C."
+    },
+    {
+      "id": "tardoantiguo",
+      "nombre": "Tardoantiguo y bizantino temprano",
+      "fechas": "ca. 300–1000 d.C."
+    },
+    {
+      "id": "medieval",
+      "nombre": "Medieval",
+      "fechas": "1000–1460"
+    },
+    {
+      "id": "otomano",
+      "nombre": "Otomano y veneciano",
+      "fechas": "1460–1821"
+    },
+    {
+      "id": "moderno",
+      "nombre": "Moderno",
+      "fechas": "1821–"
+    }
+  ]
+}

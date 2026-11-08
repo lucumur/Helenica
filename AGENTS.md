@@ -10,6 +10,7 @@ data/eventos/<id>.json   relatos míticos, festividades, ritos, hechos históric
 data/lugares/<id>.json   regiones, poleis, santuarios, ríos, montes, fuentes…
 data/objetos/<id>.json   armas, atributos divinos, agalmata, objetos rituales
 data/areas.json          grandes áreas geográficas (Hélade, tierras extranjeras, geografía mítica)
+data/tipologia.json      escalas, formas de asentamiento, funciones y periodos de los lugares
 data/index.json          GENERADO — no editar a mano
 ```
 
@@ -63,9 +64,24 @@ Metadatos: `nombre`, `nombre_alt`, `tipos` (Deidad, Héroe, Realeza, Ninfa, Best
 
 **Eventos** — `tipo` (Mítico, Histórico, Festividad / rito, Culto / misterios, Rito), `descripcion`, `cuando`, `agentes_activos`, `agentes_pasivos`, `donde`, `elementos`, `problema`, `desenlace`, `serie` (`{ "nombre": "Doce Labores de Heracles", "orden": 1 }` para navegar anterior/siguiente).
 
-**Lugares** — `tipos`, `areas` (lista de ids de gran área, normalmente una), `pertenece_a` (lista de refs al lugar contenedor; arma la ruta Región › Chora › Polis), `campos`.
+**Lugares** — `tipos` (naturaleza física: Monte, Río, Santuario…), `areas` (lista de ids de gran área, normalmente una), `escala`, `forma`, `funciones`, `pertenece_a` (lista de refs al lugar contenedor; arma la ruta Región › Chora › Polis), `campos`.
 
 Las grandes áreas se definen en `data/areas.json` (`id`, `nombre`, `grupo`, `descripcion`), en tres grupos: `helade` (Peloponeso, Ática, Beocia, Eubea, Grecia Central, Tesalia, Macedonia y Calcídica, Islas del Egeo, Creta, Jonia y Anatolia), `extranjera` (Tracia, Libia, Italia, Iberia, Hiperbórea, Sauromatia, Escitia, Cólquide, Egipto, Fenicia y Levante, Persia y Asia, Etiopía) y `mitica` (Inframundo, Geografía mítica). Un lugar nuevo debe llevar un id de área existente; para agregar un área nueva, añádela primero en `data/areas.json`. El validador rechaza áreas no definidas.
+
+Tipología de lugares (`data/tipologia.json`, tres ejes):
+
+- `escala` (una): `region` (gran región de referencia), `chora` (entidad regional dominada por un centro que reclama sus bordes), `ethnos` (región de un pueblo sin centro dominante), `asentamiento`, `componente` (parte de un asentamiento: acrópolis, ágora, barrio, muralla, edificio), `sitio` (fuera de asentamiento: santuario extraurbano, tumba, monte, río…). La acrópolis es siempre `componente`.
+- `forma` (solo asentamientos; lista con periodo, porque la forma cambia en el tiempo):
+  ```json
+  "forma": [
+    { "tipo": "multinucleado", "periodo": "geometrico", "fechas": "1000–800 a.C.", "nota": "…" },
+    { "tipo": "polis-sinecizada", "periodo": "clasico" }
+  ]
+  ```
+  Tipos: `kome`, `hieropolis`, `anaktoron`, `polis`, `polis-amurallada`, `teichos` (amurallamiento sin élite, tipo Gla), `phrourion`, `multinucleado` (katà kōmas), `mononucleado-difuso`, `polis-sinecizada`. Periodos: `micenico`, `geometrico`, `arcaico`, `clasico`, `helenistico`, `romano`, `tardoantiguo`, `medieval`, `otomano`, `moderno`. Asignar forma solo cuando lo sustente una fuente o el propio texto de la ficha.
+- `funciones` (varias): `sagrado`, `funerario`, `civico`, `comercial`, `portuario`, `epineion`, `emporion`, `apoikia`, `perioikis`, `militar`, `residencial`, `elite`, `hidraulico`, `espectaculos`, `productivo`, `comunicacion`, `natural`.
+
+Para agregar un tipo nuevo de cualquier eje, añádelo primero a `data/tipologia.json` (id, nombre, descripción); el validador rechaza valores no definidos.
 
 **Objetos** — `tipos`, `campos`.
 

@@ -87,7 +87,7 @@ dialog .bar{display:flex;gap:8px;justify-content:space-between;align-items:cente
 dialog .msg{font-size:.85rem;color:var(--muted)}
 @media(max-width:900px){.ficha{grid-template-columns:1fr}.ficha aside{position:static;order:-1}.attr{grid-template-columns:1fr}.row{grid-template-columns:1fr}}
 @media(max-width:700px){.page-header .wrap{flex-direction:column;align-items:flex-start;padding:10px 0}}
-#areas{margin:0 0 18px;display:grid;gap:8px}
+#areas,#facets{margin:0 0 12px;display:grid;gap:8px}
 .area-grp{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
 .area-lbl{font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:var(--accent);min-width:150px}
 button.chip.area{background:var(--paper);border-color:var(--line);font-size:.82rem;padding:4px 11px}

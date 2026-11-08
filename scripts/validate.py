@@ -88,6 +88,43 @@ try:
 except Exception as e:
     errors.append(f'data/mapa/zonas.json: no se pudo leer ({e})')
 
+# Physical overlays must stay tied to real place records and explicit sources.
+try:
+    physical = json.load(open(os.path.join(DATA, 'mapa', 'fisico.json'), encoding='utf-8'))
+    physical_ids, physical_places = set(), set()
+    for f in physical['accidentes']:
+        label = f'data/mapa/fisico.json ({f.get("id")})'
+        if not SLUG.fullmatch(f.get('id', '')) or f['id'] in physical_ids:
+            errors.append(f'{label}: id inválido o duplicado')
+        physical_ids.add(f['id'])
+        if f.get('tipo') not in ('rio', 'monte') or f.get('fuente') not in physical['fuentes']:
+            errors.append(f'{label}: tipo o fuente inválidos'); continue
+        if not f.get('lugares'):
+            errors.append(f'{label}: falta ficha vinculada')
+        for place in f['lugares']:
+            if f'lugares:{place}' not in known or place in physical_places:
+                errors.append(f'{label}: ficha inexistente o asignada a dos geometrías ({place})')
+            physical_places.add(place)
+        lines = f['lineas'] if f['tipo'] == 'rio' else [ring for poly in f['poligonos'] for ring in poly]
+        if not lines:
+            errors.append(f'{label}: geometría vacía')
+        for line in lines:
+            if len(line) < (2 if f['tipo'] == 'rio' else 4):
+                errors.append(f'{label}: trazado demasiado corto')
+            if f['tipo'] == 'monte' and line[0] != line[-1]:
+                errors.append(f'{label}: anillo sin cerrar')
+        coords = [pt for line in lines for pt in line] + [f['punto']]
+        box = f['bbox']
+        if len(box) != 4 or not all(type(x) in (int, float) and math.isfinite(x) for x in box) or not (box[0] < box[2] and box[1] < box[3]):
+            errors.append(f'{label}: bbox inválida'); continue
+        for pt in coords:
+            if not (len(pt) == 2 and all(type(x) in (int, float) and math.isfinite(x) for x in pt)
+                    and -30 <= pt[0] <= 80 and 0 <= pt[1] <= 70
+                    and box[0] - .00001 <= pt[0] <= box[2] + .00001 and box[1] - .00001 <= pt[1] <= box[3] + .00001):
+                errors.append(f'{label}: coordenada inválida o fuera de su bbox'); break
+except Exception as e:
+    errors.append(f'data/mapa/fisico.json: no se pudo validar ({e})')
+
 for w in warns[:200]: print('AVISO', w)
 for e in errors: print('ERROR', e)
 print(f'{len(recs)} fichas · {len(errors)} errores · {len(warns)} avisos')

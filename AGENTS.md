@@ -114,6 +114,7 @@ Para agregar un tipo nuevo de cualquier eje, añádelo primero a `data/tipologia
 
 `mapa.html` (con `mapa.js` y `mapa.css`) dibuja un atlas propio en SVG, sin librerías externas. Cada ficha de lugar también muestra un mini-mapa.
 
+- **Niveles de zoom:** diez niveles, del 0 al 9; se fusionaron los antiguos 0–1, 2–3 y 4–5. `subzonas[].nivel` en `zonas.json` usa la numeración actual (islas: nivel 6).
 - **Rueda del ratón:** avanzar o retroceder un nivel numérico por paso, con animación y anclaje bajo el cursor. Los pasos rápidos se procesan consecutivamente; agrupar los deltas pequeños de trackpad. Arrastrar o navegar directamente cancela la animación y los pasos pendientes.
 
 - **Puntos:** un lugar se ubica con `"geo": { "punto": [longitud, latitud], "precision": "aprox" }` dentro de su ficha. Las choras, ethne y poleis/komai con punto aparecen en el mapa según el zoom. Un edificio o recinto puede llevar el punto de su sitio con `"precision": "heredada", "de": "Corinto"`; esos no se dibujan como marcadores propios, solo sirven para el mini-mapa.
@@ -125,5 +126,5 @@ Para agregar un tipo nuevo de cualquier eje, añádelo primero a `data/tipologia
 - **Vigencia de lugares:** `geo.desde` / `geo.hasta` (años, negativos = a.C.) ocultan el punto en las fechas en que el lugar no existía (p. ej. Mesene `desde: -369`).
 - `data/mapa/rios.json` y `lagos.json` vienen de Natural Earth y no se editan.
 - **Accidentes físicos:** `data/mapa/fisico.json` contiene cauces (listas de líneas) y extensiones de macizos (polígonos con huecos) vinculados a fichas mediante `lugares`. Fuentes, licencias y limitaciones en `data/mapa/FUENTES_FISICAS.md`; regeneración con `scripts/build_fisico.py`. No sustituir una geometría faltante por un círculo, una cuenca hidrográfica o un macizo distinto. Las fichas conservan sus puntos originales.
-- **Zoom de accidentes:** cauces de ríos y extensiones de macizos aparecen desde el **nivel 8**. Sus iconos y nombres, incluidos los de tier 4 (`polis-kome`), aparecen desde el **nivel 10**. Usar el nivel numérico mostrado por el mapa (`zlevel`), independientemente de la barra de escala y del tamaño de la ventana; al seleccionar una ficha con geometría se resalta y encuadra su extensión completa, aunque necesite una vista más alejada. Los controles Ríos y Montes también ocultan sus respectivos contornos e iconos.
+- **Zoom de accidentes:** cauces de ríos y extensiones de macizos aparecen desde el **nivel 5**. Sus iconos y nombres, incluidos los de tier 4 (`polis-kome`), aparecen desde el **nivel 7**. Usar el nivel numérico mostrado por el mapa (`zlevel`), independientemente de la barra de escala y del tamaño de la ventana; al seleccionar una ficha con geometría se resalta y encuadra su extensión completa, aunque necesite una vista más alejada. Los controles Ríos y Montes también ocultan sus respectivos contornos e iconos.
 

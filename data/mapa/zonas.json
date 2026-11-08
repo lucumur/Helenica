@@ -1861,7 +1861,7 @@
    "griego": "Kéōs",
    "padre": "islas-egeo",
    "ficha": "keos-kyklades",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Ioulis",
@@ -1950,7 +1950,7 @@
    "griego": "Kýthnos",
    "padre": "islas-egeo",
    "ficha": "kythnos-kyklades",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Kýthnos",
@@ -2063,7 +2063,7 @@
    "griego": "Sériphos",
    "padre": "islas-egeo",
    "ficha": "seriphos-kyklades",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Sériphos",
@@ -2188,7 +2188,7 @@
    "griego": "Síphnos",
    "padre": "islas-egeo",
    "ficha": "siphnos-kyklades",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Síphnos",
@@ -2273,7 +2273,7 @@
    "griego": "Mēlos",
    "padre": "islas-egeo",
    "ficha": "melos-kyklades",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Mēlos",
@@ -2406,7 +2406,7 @@
    "griego": "Kímōlos",
    "padre": "islas-egeo",
    "ficha": "kimolos-kyklades",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Kímōlos",
@@ -2467,7 +2467,7 @@
    "griego": "Pholegandros",
    "padre": "islas-egeo",
    "ficha": "pholegandros-kyklades",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Pholegandros",
@@ -2524,7 +2524,7 @@
    "griego": "Síkinos",
    "padre": "islas-egeo",
    "ficha": "sikinos-kyklades",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Síkinos",
@@ -2575,7 +2575,7 @@
    "griego": "Andros",
    "padre": "islas-egeo",
    "ficha": "andros-kyklades",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Andros",
@@ -2778,7 +2778,7 @@
    "griego": "Tēnos",
    "padre": "islas-egeo",
    "ficha": "tenos-kyklades",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Tēnos",
@@ -2915,7 +2915,7 @@
    "griego": "Syros",
    "padre": "islas-egeo",
    "ficha": "syros-kyklades",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Syros",
@@ -3008,7 +3008,7 @@
    "griego": "Mykonos",
    "padre": "islas-egeo",
    "ficha": "mykonos-kyklades",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Mykonos",
@@ -3109,7 +3109,7 @@
    "griego": "Paros",
    "padre": "islas-egeo",
    "ficha": "paros-kyklades",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Paros",
@@ -3240,7 +3240,7 @@
    "griego": "Naxos",
    "padre": "islas-egeo",
    "ficha": "naxos-kyklades",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Naxos",
@@ -3363,7 +3363,7 @@
    "griego": "Ōliaros",
    "padre": "islas-egeo",
    "ficha": "oliaros-kyklades",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Ōliaros",
@@ -3424,7 +3424,7 @@
    "griego": "Ios",
    "padre": "islas-egeo",
    "ficha": "ios-kyklades",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Ios",
@@ -3503,7 +3503,7 @@
    "griego": "Amorgós",
    "padre": "islas-egeo",
    "ficha": "amorgos-kyklades",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Minōa",
@@ -3652,7 +3652,7 @@
    "griego": "Thēra",
    "padre": "islas-egeo",
    "ficha": "thera-kyklades",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Thēra",
@@ -3753,7 +3753,7 @@
    "griego": "Anaphē",
    "padre": "islas-egeo",
    "ficha": "anaphe-kyklades",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Anaphē",
@@ -3814,7 +3814,7 @@
    "griego": "Donousa",
    "padre": "islas-egeo",
    "ficha": "donousa-kyklades",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Donousa",
@@ -3871,7 +3871,7 @@
    "griego": "Skiathos",
    "padre": "islas-egeo",
    "ficha": "skiathos-sporades",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Skiathos",
@@ -3944,7 +3944,7 @@
    "griego": "Peparethos",
    "padre": "islas-egeo",
    "ficha": "peparethos-sporades",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Peparethos",
@@ -4045,7 +4045,7 @@
    "griego": "Ikos",
    "padre": "islas-egeo",
    "ficha": "ikos-sporades",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Ikos",
@@ -4122,7 +4122,7 @@
    "griego": "Skyros",
    "padre": "islas-egeo",
    "ficha": "skyros-sporades",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Skyros",
@@ -4299,7 +4299,7 @@
    "griego": "Lēmnos",
    "padre": "islas-egeo",
    "ficha": "lemnos-egeo",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Myrina",
@@ -4616,7 +4616,7 @@
    "griego": "Thasos",
    "padre": "islas-egeo",
    "ficha": "thasos-egeo",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Thasos",
@@ -4761,7 +4761,7 @@
    "griego": "Samothrakē",
    "padre": "islas-egeo",
    "ficha": "samothrake-egeo",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Samothrakē",
@@ -4846,7 +4846,7 @@
    "griego": "Imbros",
    "padre": "islas-egeo",
    "ficha": "imbros-egeo",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Imbros",
@@ -4957,7 +4957,7 @@
    "griego": "Psyra",
    "padre": "islas-egeo",
    "ficha": "psyra-egeo",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Psyra",
@@ -5038,7 +5038,7 @@
    "griego": "Patmos",
    "padre": "islas-egeo",
    "ficha": "patmos-egeo",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Patmos",
@@ -5137,7 +5137,7 @@
    "griego": "Astypalaia",
    "padre": "islas-egeo",
    "ficha": "astypalaia-egeo",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Astypalaia",
@@ -5282,7 +5282,7 @@
    "griego": "Kasos",
    "padre": "islas-egeo",
    "ficha": "kasos-egeo",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Kasos",
@@ -5351,7 +5351,7 @@
    "griego": "Dēlos",
    "padre": "islas-egeo",
    "ficha": "delos-nesos",
-   "nivel": 9,
+   "nivel": 6,
    "nota": "Polis insular. Territorio propio, no depende de otra isla.",
    "capital": {
     "nombre": "Dēlos",

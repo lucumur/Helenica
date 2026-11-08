@@ -1,0 +1,86 @@
+{
+  "id": "aietes",
+  "tana_id": "TKem0hZ_qlIH",
+  "nombre": "Aiētēs",
+  "nombre_alt": "Eetes",
+  "titulo_tana": "Aiētēs (Eetes)",
+  "etiquetas_tana": [
+    "Heroe"
+  ],
+  "imagen": null,
+  "padres": {
+    "texto": "- [Ēélios (Helios, el Sol)](entes:eelios)\n- [Antiopē (Antiope)](entes:antiope)",
+    "refs": [
+      {
+        "tana": "Y6husC9yitRG",
+        "nombre": "Ēélios (Helios, el Sol)",
+        "col": "entes",
+        "id": "eelios"
+      },
+      {
+        "tana": "UTGK2BMCYuXm",
+        "nombre": "Antiopē (Antiope)",
+        "col": "entes",
+        "id": "antiope"
+      }
+    ]
+  },
+  "conyuges": {
+    "texto": "[EIduia (Idía)](entes:eiduia)",
+    "refs": [
+      {
+        "tana": "UVvM37iOWE6l",
+        "nombre": "EIduia (Idía)",
+        "col": "entes",
+        "id": "eiduia"
+      }
+    ]
+  },
+  "hijos": {
+    "texto": "- [Medéia (Medea)](entes:medeia) hija, o nieta, pero sucesora directa.\n- [Chalkiopē (Calciope)](entes:chalkiope) hija suya\n- [Apsyrtos (Absirto)](entes:apsyrtos)",
+    "refs": [
+      {
+        "tana": "U8_7DB6U8aoN",
+        "nombre": "Medéia (Medea)",
+        "col": "entes",
+        "id": "medeia"
+      },
+      {
+        "tana": "3dhfqIsz78CG",
+        "nombre": "Chalkiopē (Calciope)",
+        "col": "entes",
+        "id": "chalkiope"
+      },
+      {
+        "tana": "d6hOZSN5f4W1",
+        "nombre": "Apsyrtos (Absirto)",
+        "col": "entes",
+        "id": "apsyrtos"
+      }
+    ]
+  },
+  "residencias": {
+    "texto": "- [Ephyra, Korinthia](lugares:ephyra-korinthia) territorio que se le otorgó al nacer\n- [Aia, Kolchis](lugares:aia-kolchis) pueblo que fundó",
+    "refs": [
+      {
+        "tana": "dZPoih3iZ9QJ",
+        "nombre": "Ephyra, Korinthia",
+        "col": "lugares",
+        "id": "ephyra-korinthia"
+      },
+      {
+        "tana": "sbcLjuedBK3A",
+        "nombre": "Aia, Kolchis",
+        "col": "lugares",
+        "id": "aia-kolchis"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

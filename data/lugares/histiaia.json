@@ -1,0 +1,142 @@
+{
+  "id": "histiaia",
+  "tana_id": "RDd7Gg82bx6p",
+  "nombre": "Histiaia",
+  "nombre_alt": "Hellopia, Euboia (Chora)",
+  "titulo_tana": "Histiaia / Hellopia, Euboia (Chora)",
+  "etiquetas_tana": [
+    "chora"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Centro Principal",
+      "etiqueta": "Centro Principal",
+      "texto": "- [Histiaia (Polis Portuaria)](lugares:histiaia-2) ⭐\n  - Aristos: Hippotai (Caballeros)\n  - la polis se organizaba en seis phylai. De ellas se conservan los nombres de cuatro: Poseideion, Pallene y Mekistos\n  - [Ōreos (Demos)](lugares:oreos)\n    - acropolis maritima\n    - $ 🚢 carpintería de ribera y cabotaje\n    - Canal de Oreos\n  - Ellopia (Demos)\n    - antiguamente [Hellopía (Paleo-Chora)](lugares:hellopia)\n  - [Heraion, Histiaia](lugares:heraion-histiaia)\n- [Kērinthos (Poleidion-Puerto)](lugares:kerinthos)\n- [Dîon (Poleidion)](lugares:dion)\n- [Orobiai (Kome)](lugares:orobiai)\n  - [Apóllōn Selinountios (Oraculo)](lugares:apollon-selinountios)\n- [Elymnion (Kome)](lugares:elymnion)",
+      "refs": [
+        {
+          "tana": "aggPJeFOsdMb",
+          "nombre": "Histiaia (Polis Portuaria)",
+          "col": "lugares",
+          "id": "histiaia-2"
+        },
+        {
+          "tana": "ly93G2urIqhe",
+          "nombre": "Ōreos (Demos)",
+          "col": "lugares",
+          "id": "oreos"
+        },
+        {
+          "tana": "vVmhQyFiMeJN",
+          "nombre": "Ellopia (Demos)"
+        },
+        {
+          "tana": "KcxE-mF6Jm3F",
+          "nombre": "Heraion, Histiaia",
+          "col": "lugares",
+          "id": "heraion-histiaia"
+        },
+        {
+          "tana": "u64qD9E1Xrh6",
+          "nombre": "Kērinthos (Poleidion-Puerto)",
+          "col": "lugares",
+          "id": "kerinthos"
+        },
+        {
+          "tana": "PnvJlSSm-F5o",
+          "nombre": "Dîon (Poleidion)",
+          "col": "lugares",
+          "id": "dion"
+        },
+        {
+          "tana": "USX2-o7X5fRM",
+          "nombre": "Orobiai (Kome)",
+          "col": "lugares",
+          "id": "orobiai"
+        },
+        {
+          "tana": "l4hLU3WQVpaX",
+          "nombre": "Elymnion (Kome)",
+          "col": "lugares",
+          "id": "elymnion"
+        }
+      ]
+    },
+    {
+      "clave": "Rios y Montes",
+      "etiqueta": "Rios y Montes",
+      "texto": "- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-08-22T02%3A42%3A35.776Z-image.png?alt=media&token=e5259188-0397-4f3d-8635-1cb76c856ee8)\n- [Histiaia (Pedion)](lugares:histiaia-3)\n  - $🍇 Vino\n  - $🌾 Grano\n  - $ 🐑 Lana y ganado (pastos de montaña)\n  - $🏺 \"rica en viñedos\"\n- [Kallas (Potamos)](lugares:kallas)\n- [Telēthrion (Oros)](lugares:telethrion)\n  - $🌿 plantas medicinales\n  - Drymos (Hylē)\n- [Artemision (Akra)](lugares:artemision-2) N\n  - [🦌 Artemis Proseoia](lugares:artemis-proseoia)\n- [Lichades (Nesoi)](lugares:lichades)\n  - islotes del estrecho; leyenda de Lichas, el heraldo arrojado por Heracles\n- [Costa de Elopia](lugares:costa-de-elopia)\n  - [Aidēpsos (Kome Thermai)](lugares:aidepsos)\n    - $ 💧 termas terapéuticas\n    - [Thermai de Heracles](lugares:thermai-de-heracles)",
+      "refs": [
+        {
+          "tana": "yeaDxnXw4bEo",
+          "nombre": "Histiaia (Pedion)",
+          "col": "lugares",
+          "id": "histiaia-3"
+        },
+        {
+          "tana": "r0IU1DspQ2iT",
+          "nombre": "Kallas (Potamos)",
+          "col": "lugares",
+          "id": "kallas"
+        },
+        {
+          "tana": "zHq6lffjRW1T",
+          "nombre": "Telēthrion (Oros)",
+          "col": "lugares",
+          "id": "telethrion"
+        },
+        {
+          "tana": "lQQId5PlExsu",
+          "nombre": "Artemision (Akra)",
+          "col": "lugares",
+          "id": "artemision-2"
+        },
+        {
+          "tana": "8QfFiORva_za",
+          "nombre": "🦌 Artemis Proseoia",
+          "col": "lugares",
+          "id": "artemis-proseoia"
+        },
+        {
+          "tana": "4krXYZWMSliY",
+          "nombre": "Lichades (Nesoi)",
+          "col": "lugares",
+          "id": "lichades"
+        },
+        {
+          "tana": "TwTKTxdV6yVx",
+          "nombre": "Costa de Elopia",
+          "col": "lugares",
+          "id": "costa-de-elopia"
+        }
+      ]
+    },
+    {
+      "clave": "Region",
+      "etiqueta": "Region",
+      "texto": "- [Euboia (Synchora)](lugares:euboia)\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-08-22T18%3A36%3A59.372Z-image.png?alt=media&token=13bfd7c7-2547-4542-b053-7c7ba297e260)",
+      "refs": [
+        {
+          "tana": "V3DYW5HUkMow",
+          "nombre": "Euboia (Synchora)",
+          "col": "lugares",
+          "id": "euboia"
+        }
+      ]
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Poblacion:",
+      "texto": "- 🟠 Sustrato Arcaico Orîta, Nativo\n- 🟡 Sustrato Etnico Hellopio (Tesalio-Eolico) segun Estrabón, llegados via el golfo Pagaseo.\n- 🟡 Sustrato Etnico Perrhebio (Tesalio-Eolico)\n- 🔵 Base Jonia Eubea: a diferencia del sur, que se sentian driopes, en Histiea ya estaban totalmente ionizados"
+    },
+    {
+      "titulo": "Mitologia",
+      "texto": "- [Hellops (Hélope)](entes:hellops) es hijo de Ion\n- [Histiaia (Ninfa)](entes:histiaia) hija de Hirieo, hijo de Poseidon y Alcione.\n- su etimologia vinculada a ἱστία (\"hogar\", raíz de Hestia) o ἱστός (\"mástil\");"
+    }
+  ],
+  "tipos": [
+    "Chora"
+  ],
+  "pertenece_a": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "hygeia",
+  "tana_id": "WVGwOWEsFJfd",
+  "nombre": "Hygeia",
+  "nombre_alt": "Salud",
+  "titulo_tana": "Hygeia = Salud",
+  "etiquetas_tana": [
+    "Deidad",
+    "O",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Daemon Olimpico",
+    "refs": [
+      {
+        "tana": "vFju1Dr36EOL",
+        "nombre": "Daemon Olimpico"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

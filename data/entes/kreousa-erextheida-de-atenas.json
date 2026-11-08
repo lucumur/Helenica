@@ -1,0 +1,30 @@
+{
+  "id": "kreousa-erextheida-de-atenas",
+  "tana_id": "TerhY5MrfzR3",
+  "nombre": "Kreousa Erex8eida de Atenas",
+  "nombre_alt": null,
+  "titulo_tana": "Kreousa Erex8eida de Atenas",
+  "etiquetas_tana": [
+    "F",
+    "Regio"
+  ],
+  "imagen": null,
+  "padres": {
+    "texto": "[Erex8eus Pandionidēs* de Atenas](entes:erextheus-pandionides-de-atenas)",
+    "refs": [
+      {
+        "tana": "BtAWGrynAAy6",
+        "nombre": "Erex8eus Pandionidēs* de Atenas",
+        "col": "entes",
+        "id": "erextheus-pandionides-de-atenas"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Realeza"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

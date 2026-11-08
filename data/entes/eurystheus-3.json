@@ -1,0 +1,39 @@
+{
+  "id": "eurystheus-3",
+  "tana_id": "cft4UrQiJvN0",
+  "nombre": "Eurystheus",
+  "nombre_alt": "Euristeo",
+  "titulo_tana": "Eurystheus = Euristeo",
+  "etiquetas_tana": [
+    "O",
+    "Regio",
+    "M"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "- Raza Micenica\n- Nobleza",
+    "refs": [
+      {
+        "tana": "gTd0HNezog8H",
+        "nombre": "Raza Micenica"
+      },
+      {
+        "tana": "0TjIgPdjRUql",
+        "nombre": "Nobleza"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Realeza"
+  ],
+  "genero": "M",
+  "cultura": "Helénica",
+  "contenido_en": {
+    "tana": "a7VZwadSe0tV",
+    "nombre": "Eurystheus (Rey de Argolis)",
+    "col": "entes",
+    "id": "eurystheus-2"
+  }
+}

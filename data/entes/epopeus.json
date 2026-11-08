@@ -1,0 +1,22 @@
+{
+  "id": "epopeus",
+  "tana_id": "dOzoPgzn1h1F",
+  "nombre": "Epōpéus",
+  "nombre_alt": "Epopeo",
+  "titulo_tana": "Epōpéus (Epopeo)",
+  "etiquetas_tana": [
+    "Heroe"
+  ],
+  "imagen": null,
+  "epitetos": {
+    "texto": "- Epopeus = del pajaro Epops (abubilla)\n- Epopeus = (lit) sobrevisor",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

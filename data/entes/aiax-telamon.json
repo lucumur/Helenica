@@ -1,0 +1,23 @@
+{
+  "id": "aiax-telamon",
+  "tana_id": "AXUPpQP9r1Y8",
+  "nombre": "Aiax Telamon",
+  "nombre_alt": null,
+  "titulo_tana": "Aiax Telamon",
+  "etiquetas_tana": [
+    "M"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- ****: rival por las armas de aquiles"
+    }
+  ],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

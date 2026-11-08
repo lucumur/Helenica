@@ -1,0 +1,34 @@
+{
+  "id": "sacrificio-de-animales-para-los-dioses-en-la-grecia-antigua",
+  "tana_id": "YY7bif_egwZy",
+  "nombre": "Sacrificio de Animales para los Dioses en la Grecia Antigua",
+  "nombre_alt": null,
+  "titulo_tana": "Sacrificio de Animales para los Dioses en la Grecia Antigua",
+  "etiquetas_tana": [
+    "Evento"
+  ],
+  "imagen": null,
+  "agentes_activos": {
+    "texto": "Hiereus = Sacerdote",
+    "refs": []
+  },
+  "cuando": {
+    "texto": "por la mañana",
+    "refs": []
+  },
+  "elementos": {
+    "texto": "sacrificio de un Buey Blanco",
+    "refs": []
+  },
+  "problema": {
+    "texto": "se destazaba boca arriba desde la garganta, cabeza hacia atras",
+    "refs": []
+  },
+  "desenlace": {
+    "texto": "partes sacras a los Dioses, resto se comia",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "tipo": "Rito"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "apollon-patroos",
+  "tana_id": "2WYoa60zA89l",
+  "nombre": "Apollôn Patrōos",
+  "nombre_alt": "Apolo Paternal",
+  "titulo_tana": "Apollôn Patrōos = Apolo Paternal",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "asociaciones": {
+    "texto": "- Era el dios de la **fratría y la transmisión de la ciudadanía**, garantizando la continuidad de los linajes legítimos.\n- [Estatua Apollon Kitharōidós (el Citarista), de Euphranor](objetos:estatua-apollon-kitharoidos-el-citarista-de-euphranor)",
+    "refs": [
+      {
+        "tana": "M3DW50DQtqbS",
+        "nombre": "Estatua Apollon Kitharōidós (el Citarista), de Euphranor",
+        "col": "objetos",
+        "id": "estatua-apollon-kitharoidos-el-citarista-de-euphranor"
+      }
+    ]
+  },
+  "culto": {
+    "texto": "Se le ofrecía un **buey en las Targelias**",
+    "refs": []
+  },
+  "atributos": {
+    "texto": "- Citara o Lira\n- Plectro\n- Vestimenta Elaborada\n- Entronizado, benevolente",
+    "refs": []
+  },
+  "campos": [
+    {
+      "clave": "Funcion",
+      "etiqueta": "Funcion",
+      "texto": "- Protector de Familias, Tribus y Fratrias\n- Padre de Ion, ancestro de los [Jonios](entes:jonios)",
+      "refs": [
+        {
+          "tana": "c2my3rSISmgG",
+          "nombre": "Jonios",
+          "col": "entes",
+          "id": "jonios"
+        }
+      ]
+    },
+    {
+      "clave": "Ente",
+      "etiqueta": "Ente",
+      "texto": "[Apollôn = Apolo](entes:apollon)",
+      "refs": [
+        {
+          "tana": "9OYZLA3QegGP",
+          "nombre": "Apollôn = Apolo",
+          "col": "entes",
+          "id": "apollon"
+        }
+      ]
+    },
+    {
+      "clave": "Lugar",
+      "etiqueta": "Lugar",
+      "texto": "[Templo de Apolo Patroos (Atenas)](lugares:templo-de-apolo-patroos)",
+      "refs": [
+        {
+          "tana": "0iYjGYISCSgv",
+          "nombre": "Templo de Apolo Patroos (Atenas)",
+          "col": "lugares",
+          "id": "templo-de-apolo-patroos"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "9OYZLA3QegGP",
+    "nombre": "Apollôn",
+    "col": "entes",
+    "id": "apollon"
+  },
+  "contenido_en": {
+    "tana": "0iYjGYISCSgv",
+    "nombre": "Templo de Apolo Patroos (Atenas)",
+    "col": "lugares",
+    "id": "templo-de-apolo-patroos"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "altar-de-triglifos-y-metopas-del-heraion",
+  "tana_id": "xgBOiquXXV8-",
+  "nombre": "Altar de Triglifos y Metopas del Heraion",
+  "nombre_alt": null,
+  "titulo_tana": "Altar de Triglifos y Metopas del Heraion",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "altar alargado que da al este del templo, en el área del puerto, al oeste de donde luego se construirá la estoa en L. Mide unos **25 × 4 m**, muy alargado, del tipo de altar corrido para sacrificio múltiple.",
+      "refs": []
+    },
+    {
+      "clave": "Teorias",
+      "etiqueta": "Teorias",
+      "texto": "el friso decoraba **los cuatro lados**, y quedan restos de al menos siete escalones de una escalinata mayor al norte. Un altar con escalinata y decoración en las cuatro caras es un altar pensado para ser **rodeado y visto desde todos los ángulos**, no adosado.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

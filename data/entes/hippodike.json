@@ -1,0 +1,29 @@
+{
+  "id": "hippodike",
+  "tana_id": "eP0WhFu3U9Iy",
+  "nombre": "Hippodikē",
+  "nombre_alt": "Hipódice",
+  "titulo_tana": "Hippodikē = Hipódice",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

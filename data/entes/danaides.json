@@ -1,0 +1,364 @@
+{
+  "id": "danaides",
+  "tana_id": "yYwhAKG-htAx",
+  "nombre": "Danaides",
+  "nombre_alt": "Ninfas Danaides",
+  "titulo_tana": "Danaides = Ninfas Danaides",
+  "etiquetas_tana": [
+    "O",
+    "Grupo"
+  ],
+  "imagen": null,
+  "hijos": {
+    "texto": "- [Aktaia = Actea](entes:aktaia)\n- [Adiantē = Adiante](entes:adiante)\n- [Aditē = Ádite](entes:adite)\n- [Agauē = Ágave](entes:agaue)\n- [Amymonē = Amímone](entes:amymone)\n- [Anaksibia = Anaxibia](entes:anaksibia)\n- [Antheleia = Antelia](entes:antheleia)\n- [Automatē = Autómate](entes:automate)\n- [Autonoē = Autónoe](entes:autonoe)\n- [Brykē = Brice](entes:bryke)\n- [Asteria = Asteria](entes:asteria)\n- [Kameirô = Camiró](entes:kameiro)\n- [Kelainô = Celenó](entes:kelaino)\n- [Chrysippē = Crísipe](entes:chrysippe)\n- [Kleitē = Clite](entes:kleite)\n- [Kleodōra = Cleodora](entes:kleodora)\n- [Kallidikē = Calídice](entes:kallidike)\n- [Kleopatra = Cleopatra](entes:kleopatra)\n- [Kleopatra (II) = Cleopatra](entes:kleopatra-ii)\n- [Dioksippē = Dioxipe](entes:dioksippe)\n- [Dōriōn = Dorión](entes:dorion)\n- [Elektra = Electra](entes:elektra)\n- [Eratō = Erató](entes:erato)\n- [Euippē = Evipe](entes:euippe)\n- [Evippē (II) = Evipe](entes:evippe-ii)\n- [Eurydikē = Euridice](entes:eurydike)\n- [Hippodameia = Hipodamia](entes:hippodameia)\n- [Glaukē = Glauce](entes:glauke)\n- [Glaukippē = Glaucipe](entes:glaukippe)\n- [Gorgē = Gorge](entes:gorge)\n- [Gorgophonē = Gorgofone](entes:gorgophone)\n- [Hippodikē = Hipódice](entes:hippodike)\n- [Hippomedousa = Hipomedusa](entes:hippomedousa)\n- [Hippothoē = Hipotoe](entes:hippothoe)\n- [Hyperippē = Hiperipe](entes:hyperippe)\n- [Hypermnestra = Hipermnestra](entes:hypermnestra)\n- [Ialysē = Yalise](entes:ialyse)\n- [Iphimedousa = Ifimedusa](entes:iphimedousa)\n- [Lindē = Linde](entes:linde)\n- [Mnestra = Mnestra](entes:mnestra)\n- [Nelô = Nelo](entes:nelo)\n- [Okypetē = Ocipete](entes:okypete)\n- [Oimē = Eme](entes:oime)\n- [Peirenē (Pirene)](entes:peirene)\n- [Phartis = Fartis](entes:phartis)\n- [Phylodameia = Filodamia](entes:phylodameia)\n- [Physadeia = Fisadia](entes:physadeia)\n- [Podarkē = Podarce](entes:podarke)\n- [Pylargē = Pilarge](entes:pylarge)\n- [Rhodē = Rode](entes:rhode)\n- [Rhodeia = Rodia](entes:rhodeia)\n- [Skaia = Escea](entes:skaia)\n- [Sidē = Side](entes:side)\n- [Sthenelē = Esténele](entes:sthenele)\n- [Stygnē = Estigne](entes:stygne)\n- [Theanô = Teanó](entes:theano)",
+    "refs": [
+      {
+        "tana": "-JW6J8wt5ZGj",
+        "nombre": "Aktaia = Actea",
+        "col": "entes",
+        "id": "aktaia"
+      },
+      {
+        "tana": "2UvbMxUoDLbA",
+        "nombre": "Adiantē = Adiante",
+        "col": "entes",
+        "id": "adiante"
+      },
+      {
+        "tana": "UDLINgm2DTAB",
+        "nombre": "Aditē = Ádite",
+        "col": "entes",
+        "id": "adite"
+      },
+      {
+        "tana": "Qi3zQCRg1bWo",
+        "nombre": "Agauē = Ágave",
+        "col": "entes",
+        "id": "agaue"
+      },
+      {
+        "tana": "vRg_AXk4Fo82",
+        "nombre": "Amymonē = Amímone",
+        "col": "entes",
+        "id": "amymone"
+      },
+      {
+        "tana": "4vpnpewgJPPm",
+        "nombre": "Anaksibia = Anaxibia",
+        "col": "entes",
+        "id": "anaksibia"
+      },
+      {
+        "tana": "KaK-Z4K7_n56",
+        "nombre": "Antheleia = Antelia",
+        "col": "entes",
+        "id": "antheleia"
+      },
+      {
+        "tana": "de7ajaw4LBEi",
+        "nombre": "Automatē = Autómate",
+        "col": "entes",
+        "id": "automate"
+      },
+      {
+        "tana": "RAOsjtdWzyEQ",
+        "nombre": "Autonoē = Autónoe",
+        "col": "entes",
+        "id": "autonoe"
+      },
+      {
+        "tana": "ftvhimnDfM4X",
+        "nombre": "Brykē = Brice",
+        "col": "entes",
+        "id": "bryke"
+      },
+      {
+        "tana": "B7cRMfCYa_uv",
+        "nombre": "Asteria = Asteria",
+        "col": "entes",
+        "id": "asteria"
+      },
+      {
+        "tana": "s3B-ImW-Jp80",
+        "nombre": "Kameirô = Camiró",
+        "col": "entes",
+        "id": "kameiro"
+      },
+      {
+        "tana": "J2b60TUnP4QQ",
+        "nombre": "Kelainô = Celenó",
+        "col": "entes",
+        "id": "kelaino"
+      },
+      {
+        "tana": "kwOBhwAfrVM2",
+        "nombre": "Chrysippē = Crísipe",
+        "col": "entes",
+        "id": "chrysippe"
+      },
+      {
+        "tana": "eaze9Bf7Ao38",
+        "nombre": "Kleitē = Clite",
+        "col": "entes",
+        "id": "kleite"
+      },
+      {
+        "tana": "amdqZpFjX4cI",
+        "nombre": "Kleodōra = Cleodora",
+        "col": "entes",
+        "id": "kleodora"
+      },
+      {
+        "tana": "AoZDyU_JimDA",
+        "nombre": "Kallidikē = Calídice",
+        "col": "entes",
+        "id": "kallidike"
+      },
+      {
+        "tana": "AoWMIPNk0Qin",
+        "nombre": "Kleopatra = Cleopatra",
+        "col": "entes",
+        "id": "kleopatra"
+      },
+      {
+        "tana": "VS8gHZxmiELZ",
+        "nombre": "Kleopatra (II) = Cleopatra",
+        "col": "entes",
+        "id": "kleopatra-ii"
+      },
+      {
+        "tana": "v4E1TIhkV46Q",
+        "nombre": "Dioksippē = Dioxipe",
+        "col": "entes",
+        "id": "dioksippe"
+      },
+      {
+        "tana": "kIjXJbOeglZz",
+        "nombre": "Dōriōn = Dorión",
+        "col": "entes",
+        "id": "dorion"
+      },
+      {
+        "tana": "WXCgse4BlTw0",
+        "nombre": "Elektra = Electra",
+        "col": "entes",
+        "id": "elektra"
+      },
+      {
+        "tana": "n3vkIFzZ00-E",
+        "nombre": "Eratō = Erató",
+        "col": "entes",
+        "id": "erato"
+      },
+      {
+        "tana": "I4-3PJ-K9uff",
+        "nombre": "Euippē = Evipe",
+        "col": "entes",
+        "id": "euippe"
+      },
+      {
+        "tana": "ACfg0GwI27xy",
+        "nombre": "Evippē (II) = Evipe",
+        "col": "entes",
+        "id": "evippe-ii"
+      },
+      {
+        "tana": "X7Y5IgKg0EKx",
+        "nombre": "Eurydikē = Euridice",
+        "col": "entes",
+        "id": "eurydike"
+      },
+      {
+        "tana": "XFPQDtN9o0Ob",
+        "nombre": "Hippodameia = Hipodamia",
+        "col": "entes",
+        "id": "hippodameia"
+      },
+      {
+        "tana": "v377SIlC9oWL",
+        "nombre": "Glaukē = Glauce",
+        "col": "entes",
+        "id": "glauke"
+      },
+      {
+        "tana": "DmpGnOx299Nk",
+        "nombre": "Glaukippē = Glaucipe",
+        "col": "entes",
+        "id": "glaukippe"
+      },
+      {
+        "tana": "YQ7UhwwESipl",
+        "nombre": "Gorgē = Gorge",
+        "col": "entes",
+        "id": "gorge"
+      },
+      {
+        "tana": "7GqTELrKNWAs",
+        "nombre": "Gorgophonē = Gorgofone",
+        "col": "entes",
+        "id": "gorgophone"
+      },
+      {
+        "tana": "eP0WhFu3U9Iy",
+        "nombre": "Hippodikē = Hipódice",
+        "col": "entes",
+        "id": "hippodike"
+      },
+      {
+        "tana": "5RN2oeoKZ042",
+        "nombre": "Hippomedousa = Hipomedusa",
+        "col": "entes",
+        "id": "hippomedousa"
+      },
+      {
+        "tana": "-nAbGMdQ5wFX",
+        "nombre": "Hippothoē = Hipotoe",
+        "col": "entes",
+        "id": "hippothoe"
+      },
+      {
+        "tana": "W4MIhp24GybS",
+        "nombre": "Hyperippē = Hiperipe",
+        "col": "entes",
+        "id": "hyperippe"
+      },
+      {
+        "tana": "14eMsAg3v-mU",
+        "nombre": "Hypermnestra = Hipermnestra",
+        "col": "entes",
+        "id": "hypermnestra"
+      },
+      {
+        "tana": "rVzYMhN-60Dy",
+        "nombre": "Ialysē = Yalise",
+        "col": "entes",
+        "id": "ialyse"
+      },
+      {
+        "tana": "zgRg9Y1X4jta",
+        "nombre": "Iphimedousa = Ifimedusa",
+        "col": "entes",
+        "id": "iphimedousa"
+      },
+      {
+        "tana": "2ttABseby7WO",
+        "nombre": "Lindē = Linde",
+        "col": "entes",
+        "id": "linde"
+      },
+      {
+        "tana": "7O-4a-ym9Fn1",
+        "nombre": "Mnestra = Mnestra",
+        "col": "entes",
+        "id": "mnestra"
+      },
+      {
+        "tana": "DCTtWd6IdxqB",
+        "nombre": "Nelô = Nelo",
+        "col": "entes",
+        "id": "nelo"
+      },
+      {
+        "tana": "k9sDF4QDOJAj",
+        "nombre": "Okypetē = Ocipete",
+        "col": "entes",
+        "id": "okypete"
+      },
+      {
+        "tana": "SZgvE0D-KFap",
+        "nombre": "Oimē = Eme",
+        "col": "entes",
+        "id": "oime"
+      },
+      {
+        "tana": "EjFLEfoPjamY",
+        "nombre": "Peirenē (Pirene)",
+        "col": "entes",
+        "id": "peirene"
+      },
+      {
+        "tana": "jckeputEFL1B",
+        "nombre": "Phartis = Fartis",
+        "col": "entes",
+        "id": "phartis"
+      },
+      {
+        "tana": "YJRxBl7RaLPL",
+        "nombre": "Phylodameia = Filodamia",
+        "col": "entes",
+        "id": "phylodameia"
+      },
+      {
+        "tana": "40T4YY97EGeJ",
+        "nombre": "Physadeia = Fisadia",
+        "col": "entes",
+        "id": "physadeia"
+      },
+      {
+        "tana": "QeDO5fvCkx0k",
+        "nombre": "Podarkē = Podarce",
+        "col": "entes",
+        "id": "podarke"
+      },
+      {
+        "tana": "eg7H_S-j3G1u",
+        "nombre": "Pylargē = Pilarge",
+        "col": "entes",
+        "id": "pylarge"
+      },
+      {
+        "tana": "4sx2panHTiR6",
+        "nombre": "Rhodē = Rode",
+        "col": "entes",
+        "id": "rhode"
+      },
+      {
+        "tana": "vX0aAVuwS7IG",
+        "nombre": "Rhodeia = Rodia",
+        "col": "entes",
+        "id": "rhodeia"
+      },
+      {
+        "tana": "q9MOqcUIRS03",
+        "nombre": "Skaia = Escea",
+        "col": "entes",
+        "id": "skaia"
+      },
+      {
+        "tana": "CAfl6OAX2Pi1",
+        "nombre": "Sidē = Side",
+        "col": "entes",
+        "id": "side"
+      },
+      {
+        "tana": "7W4tC7JeUtNC",
+        "nombre": "Sthenelē = Esténele",
+        "col": "entes",
+        "id": "sthenele"
+      },
+      {
+        "tana": "cdYhprkXLiTn",
+        "nombre": "Stygnē = Estigne",
+        "col": "entes",
+        "id": "stygne"
+      },
+      {
+        "tana": "aiz8ldbkTwPg",
+        "nombre": "Theanô = Teanó",
+        "col": "entes",
+        "id": "theano"
+      }
+    ]
+  },
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "Semidioses Acuaticos",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Grupo"
+  ],
+  "genero": null
+}

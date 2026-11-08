@@ -1,0 +1,25 @@
+{
+  "id": "ofiouxos",
+  "tana_id": "qpsXa-bWECy6",
+  "nombre": "Ofiouxos",
+  "nombre_alt": "Viperifero",
+  "titulo_tana": "Ofiouxos = Viperifero",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": null,
+  "contenido_en": {
+    "tana": "vYT6Rr7Q8l96",
+    "nombre": "Asklēpiós = Asclepio",
+    "col": "entes",
+    "id": "asklepios"
+  }
+}

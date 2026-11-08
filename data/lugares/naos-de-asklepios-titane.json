@@ -1,0 +1,42 @@
+{
+  "id": "naos-de-asklepios-titane",
+  "tana_id": "1ESDhyIIKRuD",
+  "nombre": "Naos de Asklepios, Titanē",
+  "nombre_alt": null,
+  "titulo_tana": "Naos de Asklepios, Titanē",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Culto",
+      "etiqueta": "Culto",
+      "texto": "- ❤️‍🔥 Culto Erogeno\n- ✝️ Culto Sanador",
+      "refs": [
+        {
+          "tana": "11Z_ZqHjHXMn",
+          "nombre": "❤️‍🔥 Culto Erogeno"
+        }
+      ]
+    },
+    {
+      "clave": "Deidad",
+      "etiqueta": "Deidad",
+      "texto": "- [Aphroditē, Huesped de Asklepios](objetos:aphrodite-huesped-de-asklepios)",
+      "refs": [
+        {
+          "tana": "9epEG6Cc_jKu",
+          "nombre": "Aphroditē, Huesped de Asklepios",
+          "col": "objetos",
+          "id": "aphrodite-huesped-de-asklepios"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

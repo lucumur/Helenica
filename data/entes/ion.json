@@ -1,0 +1,64 @@
+{
+  "id": "ion",
+  "tana_id": "9JHgNZAhekpQ",
+  "nombre": "Iōn",
+  "nombre_alt": "Jon",
+  "titulo_tana": "Iōn = Jon",
+  "etiquetas_tana": [
+    "O",
+    "Heroe",
+    "M"
+  ],
+  "imagen": null,
+  "padres": {
+    "texto": "- [Kreousa Erex8eida de Atenas](entes:kreousa-erextheida-de-atenas)\n- [3ou8os Hellenidēs de F8ia](entes:3outhos-hellenides-de-fthia)\n- [Apollôn = Apolo](entes:apollon)",
+    "refs": [
+      {
+        "tana": "TerhY5MrfzR3",
+        "nombre": "Kreousa Erex8eida de Atenas",
+        "col": "entes",
+        "id": "kreousa-erextheida-de-atenas"
+      },
+      {
+        "tana": "x2rAoqPVgIPS",
+        "nombre": "3ou8os Hellenidēs de F8ia",
+        "col": "entes",
+        "id": "3outhos-hellenides-de-fthia"
+      },
+      {
+        "tana": "9OYZLA3QegGP",
+        "nombre": "Apollôn = Apolo",
+        "col": "entes",
+        "id": "apollon"
+      }
+    ]
+  },
+  "epitetos": {
+    "texto": "Iāwōn = Jon (reconstruccion)",
+    "refs": []
+  },
+  "eventos": {
+    "texto": "Nacimiento Clandestino, con Abandono en una cueva y recuperacion posterior",
+    "refs": []
+  },
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "Raza Atica",
+    "refs": [
+      {
+        "tana": "9X7lITcMQxPX",
+        "nombre": "Raza Atica"
+      }
+    ]
+  },
+  "asociaciones": {
+    "texto": "- Considerado ancestro de todos los Jonios\n- Fungiendo como legitimacion mitica de las migraciones griegas, y la admixtura ocurrida en Atenas con foraneos y locales.",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe"
+  ],
+  "genero": "M"
+}

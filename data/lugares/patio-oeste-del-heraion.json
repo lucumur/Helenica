@@ -1,0 +1,30 @@
+{
+  "id": "patio-oeste-del-heraion",
+  "tana_id": "uImt8F9bPQCN",
+  "nombre": "Patio Oeste del Heraion",
+  "nombre_alt": null,
+  "titulo_tana": "Patio Oeste del Heraion",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "área poligonal de unos 25 × 25 m **excavada en buena parte en la roca viva** junto a la cala. Pórticos en los lados oeste y sur, con pilares de madera y piedra.",
+      "refs": []
+    },
+    {
+      "clave": "Teorias",
+      "etiqueta": "Teorias",
+      "texto": "- Se ha propuesto también \"patio oeste\", que es descriptivo y neutro. Hoy se lo describe como un **pentágono irregular identificado inicialmente como ágora**. Yo usaría \"patio oeste\" en tu ficha y dejaría \"ágora\" como sinónimo histórico marcado.\n- una tradición lo data en el s. VI, contemporáneo del templo, con destrucción en el s. IV y sustitución funcional por la estoa en L. Otra lo hace **en uso continuo entre c. 540 y 146 a.C.**,",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

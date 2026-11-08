@@ -1,0 +1,29 @@
+{
+  "id": "kallidike",
+  "tana_id": "AoZDyU_JimDA",
+  "nombre": "Kallidikē",
+  "nombre_alt": "Calídice",
+  "titulo_tana": "Kallidikē = Calídice",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

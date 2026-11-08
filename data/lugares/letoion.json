@@ -1,0 +1,70 @@
+{
+  "id": "letoion",
+  "tana_id": "eMXZurR9XyBr",
+  "nombre": "Lētôion",
+  "nombre_alt": "Letoneo",
+  "titulo_tana": "Lētôion (Letoneo)",
+  "etiquetas_tana": [
+    "hieron"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "H🔼",
+      "etiqueta": "Pertenece a",
+      "texto": "Temenos de Apolo, Delos",
+      "refs": [
+        {
+          "tana": "o7GK_wlqejIX",
+          "nombre": "Temenos de Apolo, Delos"
+        }
+      ]
+    },
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Santuario",
+      "refs": [
+        {
+          "tana": "ciyIodWTppl6",
+          "nombre": "Santuario"
+        }
+      ]
+    },
+    {
+      "clave": "S🀄",
+      "etiqueta": "Símbolos",
+      "texto": "- [Phoinix Lētoûs (Palmera de Letó)](lugares:phoinix-letous)\n- **prado blando:** \"ciñó con sus brazos la palmera y apoyó las rodillas en el prado blando\" — el gesto del parto fijado en el paisaje (Himno Homérico a Apolo)\n- **El Ἰνωπός (Inopos):** el arroyuelo que baja del Cinto hacia el Lago Sagrado, junto al cual se localiza la tradición del alumbramiento (la \"Casa del Inopos\" marca el lugar en el sitio)\n- **ἄλσος (bosque sagrado)**",
+      "refs": [
+        {
+          "tana": "qYaYf3WOyM7E",
+          "nombre": "Phoinix Lētoûs (Palmera de Letó)",
+          "col": "lugares",
+          "id": "phoinix-letous"
+        }
+      ]
+    },
+    {
+      "clave": "H📜",
+      "etiqueta": "Historia y mito",
+      "texto": "- Como se honraba a Leto\n  - **La λοχεία (el alumbramiento) como evento central:**\n    - el Letoon conmemoraba el **parto de los gemelos**: Leto como **madre y κουροτρόφος (nutridora)**, protectora de parturientas y niños.\n    - El culto delio la emparenta directamente con **Eileithyia** (la partera divina a quien Hera retuvo y a quien Iris fue a buscar) y con el Artemision vecino: el \"eje del parto\" de la isla.\n  - **La isla de oro:**\n    - el himno canta que al nacer Apolo **Delos se volvió dorada**; el Letoon era el lugar donde esa teofanía se recordaba como fundación de la sacralidad insular.\n  - **Veneración de la palmera:**\n    - tocar, atar cintas y llevar ramas de la palmera de Leto era el gesto devocional por excelencia; la palmera se volvió el **símbolo visual de Delos** (y, de ahí, del símbolo de la victoria, el \"phoenix\").\n  - **Festivales:**\n    - las fiestas de Leto se conocen por su nombre , **Λητῷα (Letoa)**,\n    - en Delos, su culto se integraba en el ciclo de las **Delias** y en el calendario sacrificial del santuario, donde la madre recibía ofrendas junto a los gemelos\n  - **Ofrendas femeninas:**\n    - como diosa de la maternidad perseguida y triunfante, Leto recibía dedicatorias de mujeres (telas, cabellos, exvotos de parto), en paralelo a las ofrendas de las muchachas en las tumbas hiperbóreas del Artemision.",
+      "refs": []
+    },
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "Leto era honrada como la madre divina que, tras su largo sufrimiento, encontró refugio en Delos y dio a luz a los gemelos. Su culto tenía un tono más maternal y protector, asociado a la fertilidad y al nacimiento",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Santuario"
+  ],
+  "pertenece_a": [
+    {
+      "tana": "o7GK_wlqejIX",
+      "nombre": "Temenos de Apolo, Delos"
+    }
+  ]
+}

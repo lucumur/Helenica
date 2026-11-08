@@ -1,0 +1,29 @@
+{
+  "id": "kameiro",
+  "tana_id": "s3B-ImW-Jp80",
+  "nombre": "Kameirô",
+  "nombre_alt": "Camiró",
+  "titulo_tana": "Kameirô = Camiró",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

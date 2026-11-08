@@ -1,0 +1,28 @@
+{
+  "id": "amymone-fuente-lerna-chora-argolis-region",
+  "tana_id": "SuhMUfl8H6GA",
+  "nombre": "Amymonē (Fuente), Lerna (Chora), Argolis (Región)",
+  "nombre_alt": null,
+  "titulo_tana": "Amymonē (Fuente), Lerna (Chora), Argolis (Región)",
+  "etiquetas_tana": [
+    "Lugar"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-08-11T00%3A41%3A03.714Z-image.png?alt=media&token=d33dd048-0b9d-4d3d-8e54-0874ccb07013",
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-08-11T00%3A41%3A03.714Z-image.png?alt=media&token=d33dd048-0b9d-4d3d-8e54-0874ccb07013)",
+      "texto": "- **Descripcion:** Poseidon se acerca a Amymone con Cupido\n- **Lugar:** Casa de Dionisio, Paphos, Kypros #Lugar"
+    }
+  ],
+  "tipos": [
+    "Lugar"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "BPmEWjakjBne",
+    "nombre": "Segundo Athlos: Matar a la Hidra de Lerna (Argolis)",
+    "col": "eventos",
+    "id": "segundo-athlos-matar-a-la-hidra-de-lerna"
+  }
+}

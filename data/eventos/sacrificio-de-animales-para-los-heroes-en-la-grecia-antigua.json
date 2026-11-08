@@ -1,0 +1,39 @@
+{
+  "id": "sacrificio-de-animales-para-los-heroes-en-la-grecia-antigua",
+  "tana_id": "cYyD1hJy2f6c",
+  "nombre": "Sacrificio de Animales para los Heroes en la Grecia Antigua",
+  "nombre_alt": null,
+  "titulo_tana": "Sacrificio de Animales para los Heroes en la Grecia Antigua",
+  "etiquetas_tana": [
+    "Evento"
+  ],
+  "imagen": null,
+  "agentes_activos": {
+    "texto": "Hiereus = Sacerdote",
+    "refs": [
+      {
+        "tana": "BY1PzFeJZ-7E",
+        "nombre": "Hiereus = Sacerdote"
+      }
+    ]
+  },
+  "cuando": {
+    "texto": "por la noche",
+    "refs": []
+  },
+  "elementos": {
+    "texto": "Sacrificio de un Carnero negro o un Cerdo negro",
+    "refs": []
+  },
+  "problema": {
+    "texto": "se incineraba todo el animal en el hoyo",
+    "refs": []
+  },
+  "desenlace": {
+    "texto": "todo se incineraba",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "tipo": "Rito"
+}

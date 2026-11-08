@@ -1,0 +1,30 @@
+{
+  "id": "complejo-de-hestiatoria-de-demeter-y-kore-acrocorinto",
+  "tana_id": "XhT00IXx2zyJ",
+  "nombre": "Complejo de Hestiatoria de Dēmētēr y Korē, Acrocorinto",
+  "nombre_alt": "Fase III",
+  "titulo_tana": "Complejo de Hestiatoria de Dēmētēr y Korē, Acrocorinto (Fase III)",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "- Culto ctónico comensal (Apogeo 🟢)\n- reunión ritual\n- estructura cultual",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "- decenas de salas de banquete escalonadas en tres terrazas\n- cocinas y baños (comer en presencia de la diosa)\n- área teatral con losas de caliza dura\n- salas de comida sin muros\n- terraza superior con templo elaborado\n- Edificio A en extremo norte del área teatral (fin de IV a.C.)",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

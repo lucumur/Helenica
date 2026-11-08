@@ -1,0 +1,22 @@
+{
+  "id": "terremotos-365-375",
+  "tana_id": "NjrCjKhYrOWF",
+  "nombre": "Terremotos 365/375",
+  "nombre_alt": null,
+  "titulo_tana": "Terremotos 365/375",
+  "etiquetas_tana": [
+    "Evento"
+  ],
+  "imagen": null,
+  "tipo_tana": {
+    "texto": "Evento destructivo",
+    "refs": []
+  },
+  "descripcion": {
+    "texto": "Daños mayores en Corintia. ⬤",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "tipo": "Histórico"
+}

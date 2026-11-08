@@ -1,0 +1,33 @@
+{
+  "id": "minotauro",
+  "tana_id": "F0Dz1F7mzTot",
+  "nombre": "Minotauro",
+  "nombre_alt": null,
+  "titulo_tana": "Minotauro",
+  "etiquetas_tana": [
+    "O",
+    "Hibrido",
+    "M"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "- Raza Cretense\n- Toro",
+    "refs": [
+      {
+        "tana": "lkT_0l3yNP3M",
+        "nombre": "Raza Cretense"
+      },
+      {
+        "tana": "MG5O4RiQQfWf",
+        "nombre": "Toro"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Híbrido"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

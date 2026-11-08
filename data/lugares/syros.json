@@ -1,0 +1,19 @@
+{
+  "id": "syros",
+  "tana_id": "rPCU0LbjsARZ",
+  "nombre": "Syros",
+  "nombre_alt": "Siro (Isla)",
+  "titulo_tana": "Syros = Siro (Isla)",
+  "etiquetas_tana": [
+    "isla",
+    "Ciudad"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ciudad",
+    "Isla"
+  ],
+  "pertenece_a": []
+}

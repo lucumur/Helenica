@@ -1,0 +1,24 @@
+{
+  "id": "aphrodite-ourania-hoplismene-la-celestial-guerrera-de-kyther",
+  "tana_id": "6JKTZMl5wq0Z",
+  "nombre": "Aphroditē Ourania Hoplismenē (La Celestial Guerrera) de Kythera",
+  "nombre_alt": null,
+  "titulo_tana": "Aphroditē Ourania Hoplismenē (La Celestial Guerrera) de Kythera",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "5XM9zBiTodu_",
+    "nombre": "Aphroditē",
+    "col": "entes",
+    "id": "aphrodite"
+  }
+}

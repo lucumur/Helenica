@@ -1,0 +1,24 @@
+{
+  "id": "athana-chalkioikos",
+  "tana_id": "hBmMSsiCwWQI",
+  "nombre": "Athānā Chalkioikos",
+  "nombre_alt": "la de casa de bronce",
+  "titulo_tana": "Athānā Chalkioikos (la de casa de bronce)",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "fcRIRYT-Xczt",
+    "nombre": "Athēnē",
+    "col": "entes",
+    "id": "athene"
+  }
+}

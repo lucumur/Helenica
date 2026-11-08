@@ -1,0 +1,17 @@
+{
+  "id": "pylai-teneatikai",
+  "tana_id": "0jZIIS12Xkge",
+  "nombre": "Pylai Teneatikai",
+  "nombre_alt": "Puertas Teneaticas",
+  "titulo_tana": "Pylai Teneatikai (Puertas Teneaticas)",
+  "etiquetas_tana": [
+    "puerta"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Puerta"
+  ],
+  "pertenece_a": []
+}

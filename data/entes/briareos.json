@@ -1,0 +1,18 @@
+{
+  "id": "briareos",
+  "tana_id": "RKXbNwVerr3k",
+  "nombre": "Briareos",
+  "nombre_alt": "Briareo",
+  "titulo_tana": "Briareos (Briareo)",
+  "etiquetas_tana": [
+    "Heroe"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

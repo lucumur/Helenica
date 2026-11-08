@@ -1,0 +1,62 @@
+{
+  "id": "menelaos-atreides",
+  "tana_id": "b90YygxYRuf_",
+  "nombre": "Menelaos Atreidēs",
+  "nombre_alt": "Menelao",
+  "titulo_tana": "Menelaos Atreidēs = Menelao",
+  "etiquetas_tana": [
+    "O",
+    "Heroe",
+    "Regio",
+    "M"
+  ],
+  "imagen": null,
+  "epitetos": {
+    "texto": "- [Arēifilos Menélaos = Menelao el que ama la guerra](entes:areifilos-menelaos)\n- [Atreos huiós = el hijo de Atreo](entes:atreos-huios)\n- [Kosmētōr lāōn = Dirigente de Tropas](entes:kosmetor-laon)",
+    "refs": [
+      {
+        "tana": "meTLORtsDzoo",
+        "nombre": "Arēifilos Menélaos = Menelao el que ama la guerra",
+        "col": "entes",
+        "id": "areifilos-menelaos"
+      },
+      {
+        "tana": "XKdpFCP4vISf",
+        "nombre": "Atreos huiós = el hijo de Atreo",
+        "col": "entes",
+        "id": "atreos-huios"
+      },
+      {
+        "tana": "_FCx85cPUdta",
+        "nombre": "Kosmētōr lāōn = Dirigente de Tropas",
+        "col": "entes",
+        "id": "kosmetor-laon"
+      }
+    ]
+  },
+  "especie": {
+    "texto": "- Hombre Mitico\n- Raza Micenica\n- Nobleza",
+    "refs": [
+      {
+        "tana": "4nLtt4PtloNK",
+        "nombre": "Hombre Mitico"
+      },
+      {
+        "tana": "gTd0HNezog8H",
+        "nombre": "Raza Micenica"
+      },
+      {
+        "tana": "0TjIgPdjRUql",
+        "nombre": "Nobleza"
+      }
+    ]
+  },
+  "cultura": "Helénica",
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe",
+    "Realeza"
+  ],
+  "genero": "M"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "3-aldeas-estacionales-de-la-llanura-costera-de-olynthos-1000",
+  "tana_id": "lxp5t79YWqfO",
+  "nombre": "(3) Aldeas Estacionales de la Llanura Costera de Olynthos (1000-800aC)",
+  "nombre_alt": null,
+  "titulo_tana": "(3) Aldeas Estacionales de la Llanura Costera de Olynthos (1000-800aC)",
+  "etiquetas_tana": [
+    "Lugar",
+    "sub-un"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "Aldeas Estacionals de Octubre a Mayo para cosecha de cereales",
+      "refs": []
+    },
+    {
+      "clave": "H🏘️",
+      "etiqueta": "Habitantes",
+      "texto": "50-150 habitantes cada aldea. en total 150 a 450 habitantes.",
+      "refs": []
+    },
+    {
+      "clave": "O⚖️",
+      "etiqueta": "Organización y cultos",
+      "texto": "Aldeas compuestas por casas de tapia, renovadas cada 10-15 años",
+      "refs": []
+    },
+    {
+      "clave": "S🀄",
+      "etiqueta": "Símbolos",
+      "texto": "Funcion: cultivo de cebada y trigo menor",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Subunidad"
+  ],
+  "pertenece_a": []
+}

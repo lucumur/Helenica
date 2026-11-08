@@ -1,0 +1,23 @@
+{
+  "id": "penelope",
+  "tana_id": "X4MaM5B4MzoE",
+  "nombre": "Penelopē",
+  "nombre_alt": "Pénelope",
+  "titulo_tana": "Penelopē (Pénelope)",
+  "etiquetas_tana": [
+    "F"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": ":",
+      "texto": "- Hija de Icario de Esparta\n- Esposa Canonica"
+    }
+  ],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

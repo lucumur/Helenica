@@ -1,0 +1,17 @@
+{
+  "id": "pylai-kenchreatikai",
+  "tana_id": "C4UaAmHLt2_w",
+  "nombre": "Pylai Kenchreatikai",
+  "nombre_alt": "Puertas de Cencreas",
+  "titulo_tana": "Pylai Kenchreatikai (Puertas de Cencreas)",
+  "etiquetas_tana": [
+    "puerta"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Puerta"
+  ],
+  "pertenece_a": []
+}

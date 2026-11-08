@@ -1,0 +1,22 @@
+{
+  "id": "edictos-de-teodosio",
+  "tana_id": "KQtATqtVBria",
+  "nombre": "Edictos de Teodosio",
+  "nombre_alt": null,
+  "titulo_tana": "Edictos de Teodosio",
+  "etiquetas_tana": [
+    "Evento"
+  ],
+  "imagen": null,
+  "tipo_tana": {
+    "texto": "Evento legal",
+    "refs": []
+  },
+  "cuando": {
+    "texto": "391–392: cierre legal de templos paganos. ⬤",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "tipo": "Histórico"
+}

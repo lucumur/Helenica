@@ -1,0 +1,23 @@
+{
+  "id": "limne-gorgopis-peiraion",
+  "tana_id": "qrZk2RtHfCed",
+  "nombre": "Limnē Gorgôpis, Peiraion",
+  "nombre_alt": null,
+  "titulo_tana": "Limnē Gorgôpis, Peiraion",
+  "etiquetas_tana": [
+    "lago"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Lago"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "slhLmjZQBFmM",
+    "nombre": "Peiraion, Korinthia (850ac - 146ac)",
+    "col": "lugares",
+    "id": "peiraion-korinthia"
+  }
+}

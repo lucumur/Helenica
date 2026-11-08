@@ -1,0 +1,21 @@
+{
+  "id": "estatuas-varias-poteidaion",
+  "tana_id": "qL5p2aBK7CJj",
+  "nombre": "Estatuas Varias, Poteidaion",
+  "nombre_alt": null,
+  "titulo_tana": "Estatuas Varias, Poteidaion",
+  "etiquetas_tana": [
+    "agalma"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- ****: imágenes de **Galene** (la Calma), **Thalassa** (el Mar), un caballo semejante a un cetáceo del pecho en adelante, **Ino**, Belerofonte y el caballo Pegaso."
+    }
+  ],
+  "tipos": [
+    "Agalma (estatua de culto)"
+  ]
+}

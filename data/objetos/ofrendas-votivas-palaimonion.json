@@ -1,0 +1,23 @@
+{
+  "id": "ofrendas-votivas-palaimonion",
+  "tana_id": "IFBPcIyqCjg2",
+  "nombre": "Ofrendas Votivas, Palaimonion",
+  "nombre_alt": null,
+  "titulo_tana": "Ofrendas Votivas, Palaimonion",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "- 8. **Lámparas de terracota** — en cantidad masiva, tipo propio del Palemonion, publicadas por Broneer. **Se depositaban, no solo se usaban**   9. **Antorchas** — la presencia de antorchas y numerosas lámparas señala la importancia de la luz en el ritual   10. **Vasos cerámicos** — las fosas aparecieron llenas de huesos animales carbonizados, lámparas y vasos\n- **Monedas coloniales corintias** — Melicertes sobre delfín bajo un pino; el Palemonion como edificio",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ]
+}

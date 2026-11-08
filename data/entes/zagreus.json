@@ -1,0 +1,79 @@
+{
+  "id": "zagreus",
+  "tana_id": "jFORY0Ot0hZ1",
+  "nombre": "Zagreus",
+  "nombre_alt": "Zagreo",
+  "titulo_tana": "Zagreus = Zagreo",
+  "etiquetas_tana": [
+    "O",
+    "Deidad",
+    "M"
+  ],
+  "imagen": null,
+  "padres": {
+    "texto": "- [Zéus (Zeus)](entes:zeus)\n- [Persephonē = Persefone](entes:persephone)",
+    "refs": [
+      {
+        "tana": "Yz-NkVaNbFNa",
+        "nombre": "Zéus (Zeus)",
+        "col": "entes",
+        "id": "zeus"
+      },
+      {
+        "tana": "S6r5slBzcoTP",
+        "nombre": "Persephonē = Persefone",
+        "col": "entes",
+        "id": "persephone"
+      }
+    ]
+  },
+  "descripcion": {
+    "texto": "su nombre significa \"santo cazador\"",
+    "refs": []
+  },
+  "atributos": {
+    "texto": "- Dios de la Caza\n- Dios del Renacimiento",
+    "refs": []
+  },
+  "fallecimiento": {
+    "texto": "Desmembrado por los Titanes",
+    "refs": []
+  },
+  "especie": {
+    "texto": "Dios Ctonico",
+    "refs": [
+      {
+        "tana": "RGWcAdE8Sft5",
+        "nombre": "Dios Ctonico"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Origen y Nacimiento de Zagreus",
+      "texto": "- Zagreus es presentado como el hijo de **Zeus** y **Perséfone**. Zeus, enamorado de Perséfone, desciende al inframundo en la forma de una serpiente o un dragón y la fecunda, engendrando a Zagreus. Este nacimiento es extraordinario, ya que desde su concepción, Zagreus está destinado a ser un dios de gran poder.\n- Zeus tiene grandes planes para Zagreus. Lo reconoce como su hijo legítimo y lo nombra su heredero, dándole autoridad sobre todo el universo, incluso por encima de los otros dioses olímpicos. Para marcar su poder, Zeus le entrega su rayo, el símbolo de su soberanía, y lo corona como rey."
+    },
+    {
+      "titulo": "Los Titanes y la Conspiración",
+      "texto": "- Sin embargo, el ascenso de Zagreus genera envidia y celos entre las fuerzas primordiales del universo. Hera, la celosa esposa de Zeus, trama un plan para destruir al niño divino. Con la ayuda de los Titanes, criaturas poderosas que habían sido encarceladas por Zeus después de la Titanomaquia, Hera organiza un complot para asesinar a Zagreus.\n- Los Titanes, disfrazados y armados con juguetes y objetos brillantes para atraer al joven Zagreus, se acercan a él mientras juega en el monte Ida. Utilizan estos juguetes para distraerlo y ganarse su confianza."
+    },
+    {
+      "titulo": "El Desmembramiento de Zagreus",
+      "texto": "- Una vez que Zagreus está bajo su influencia, los Titanes lo atacan y lo despedazan brutalmente. Durante el ataque, Zagreus, intentando escapar, se transforma en varias criaturas: un león, un toro, una serpiente, e incluso un dragón, pero finalmente es capturado y descuartizado.\n- Los Titanes cocinan y devoran la mayor parte de su cuerpo, simbolizando la destrucción del poder divino y la corrupción de la pureza. Sin embargo, el corazón de Zagreus es rescatado por Atenea, Hermes o Rhea (según la versión) y llevado de vuelta a Zeus."
+    },
+    {
+      "titulo": "Resurreccion y Renacimiento",
+      "texto": "- Zeus, lleno de ira y dolor, destruye a los Titanes con su rayo, convirtiéndolos en cenizas. De estas cenizas surge la raza humana, que lleva en su esencia tanto la maldad de los Titanes como la divinidad de Zagreus.\n- Con el corazón de Zagreus, Zeus genera un nuevo ser divino, **Dionisio**. Así, Zagreus renace en la forma de Dionisio, el dios del vino, el éxtasis, y la vida cíclica. Este renacimiento simboliza la victoria de la vida sobre la muerte, y de la divinidad sobre la corrupción."
+    },
+    {
+      "titulo": "Significado y Legado",
+      "texto": "- En la versión de Nono, como en otras tradiciones órficas, Zagreus no es solo una víctima trágica, sino un símbolo del ciclo eterno de muerte y renacimiento. Su historia está profundamente conectada con los rituales órficos, que enseñan la purificación del alma y la eventual liberación del ciclo de la vida y la muerte.\n- Zagreus, a través de su desmembramiento y resurrección como Dionisio, encarna la idea de que la divinidad y la pureza pueden ser destruidas, pero nunca completamente aniquiladas. Su mito también tiene un fuerte componente esotérico, relacionado con los Misterios Órficos, donde los iniciados creían que, al seguir los rituales y enseñanzas, podrían experimentar un renacimiento espiritual similar al de Zagreus.\n- En resumen, la versión de Nono de Panópolis presenta a Zagreus como una figura poderosa y trágica, cuyo destino está marcado por la traición, la destrucción y, finalmente, la resurrección divina, convirtiéndose en un símbolo central del ciclo de vida, muerte, y renacimiento en la mitología griega."
+    }
+  ],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

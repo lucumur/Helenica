@@ -1,0 +1,60 @@
+{
+  "id": "polydeukes",
+  "tana_id": "MXL9aDAMr88M",
+  "nombre": "Polydeukes",
+  "nombre_alt": "Pollux",
+  "titulo_tana": "Polydeukes = Pollux",
+  "etiquetas_tana": [
+    "O",
+    "Deidad",
+    "M"
+  ],
+  "imagen": null,
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "Semi-Dios",
+    "refs": [
+      {
+        "tana": "OAecMhlJD8LA",
+        "nombre": "Semi-Dios"
+      }
+    ]
+  },
+  "epitetos": {
+    "texto": "- Pux Polydeukes = El Boxeador Polydeukes\n- Dioskouroi (junto con su hermano) = Los niños de Zeus\n- Pultuce = Polydeukes en Etruria",
+    "refs": []
+  },
+  "padres": {
+    "texto": "- [Zéus (Zeus)](entes:zeus) = Su Padre Divino\n- [Tyndareos = Tindareo](entes:tyndareos) = Su padre Mortal\n- [Leda = Leda](entes:leda)",
+    "refs": [
+      {
+        "tana": "Yz-NkVaNbFNa",
+        "nombre": "Zéus (Zeus)",
+        "col": "entes",
+        "id": "zeus"
+      },
+      {
+        "tana": "8DrZ9dBoBCR3",
+        "nombre": "Tyndareos = Tindareo",
+        "col": "entes",
+        "id": "tyndareos"
+      },
+      {
+        "tana": "VTISlcrk1XRV",
+        "nombre": "Leda = Leda",
+        "col": "entes",
+        "id": "leda"
+      }
+    ]
+  },
+  "asociaciones": {
+    "texto": "- (dual) Amuleto en Espejos\n  - de suerte por su naturaleza dual, donde uno es mortal y el otro inmortal\n- (dual) Ayudantes de la Humanidad\n- (dual) Patrones de los Viajeros y Navegantes\n  - invocados para vientos favorables o protección\n- (singulo) Patron de los Boxeadores",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": "M"
+}

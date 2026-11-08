@@ -1,0 +1,77 @@
+{
+  "id": "ate",
+  "tana_id": "ZKcAnfcGOY-E",
+  "nombre": "Atē",
+  "nombre_alt": "Diosa",
+  "titulo_tana": "Atē (Diosa)",
+  "etiquetas_tana": [
+    "O",
+    "Deidad",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Dios Olimpico",
+    "refs": []
+  },
+  "atributos": {
+    "texto": "- liparoplokamos: la de trenzas aceitadas (muy aseadas con aceites, signo de lujo y cuidado)\n  - _λίπαρος_ es un adjetivo de campo semántico oleoso-brillante: la piel bien cuidada, el cuero cabelludo aceitado, la superficie que refleja luz. En el mundo homérico este rasgo no es decorativo — es señal de naturaleza divina activa. Los dioses tienen λιπαρά casi por definición; los muertos y los enfermos la pierden. Las trenzas (_πλόκαμος_ en plural implica trenzas elaboradas, no cabello suelto) indican además una diosa que se _arregla_, que tiene presencia formal. No es una fuerza caótica de aspecto salvaje. Es, en apariencia, una diosa en plena dignidad.\n- apalopous: la de pies suaves\n  - _ἁπαλός_ es \"suave, tierno, delicado\" — el mismo adjetivo que se aplica a la piel de niños, a pétalos de flores, a la carne de los jóvenes. En contexto de movimiento significa que sus pies no hacen ruido, no pesan, no dejan huella. Es la delicadeza de algo que llega sin que lo notes.\n  - Esto es morfológicamente coherente con su función: el daño de Ἄτη es precisamente que no se siente llegar. Un pie _ἁπαλός_ es un pie que no avisa.\n- ou pilnatai: la que no toca el suelo / no vuela pero camina en otro plano\n  - _πίλναται_ es forma de _πελάζω_, \"acercarse, tocar\". La negación establece que Ἄτη _jamás toca el suelo_. No es metáfora de velocidad — es afirmación ontológica sobre su modo de existir en el espacio.\n  - Los dioses homéricos que no tocan el suelo son específicamente los que se mueven _entre_ el mundo divino y el humano sin pertenecer plenamente a ninguno. Hermes tiene sandalias aladas. Iris vuela. Ἄτη no vuela — camina, pero sobre otro plano. Este detalle sugiere que en la teología arcaica subyacente Ἄτη podría haber tenido un estatus liminal, ni olímpica plena ni ctónica, sino algo que opera en la interfaz.\n- kat andrwn kraata bainei: la que camina sobre cabezas de hombres\n  - _κράατα_ es forma épica de κεφαλαί, cabezas. Ἄτη literalmente pisa sobre las cabezas humanas. La imagen combina dos lecturas simultáneas que el poeta explota conscientemente:\n  - — Física: camina sobre lo más alto del cuerpo porque sus pies suaves no llegan al suelo desde arriba.\n  - — Funcional: entra por la cabeza, el lugar de la φρήν y el νόος. El daño no es corporal sino cognitivo, y el punto de entrada es anatómicamente preciso.\n- wkeia: la veloz\n  - En el Canto IX el contraste con las Oraciones establece que Ἄτη es rápida, sana de pies (_ἀρτίπους_), y llega antes que cualquier posibilidad de reparación. Las Λιταί siguen sus pasos como sanadoras tras ella — cojean, están arrugadas y torcen los ojos, mientras que Ἄτη es fuerte y sana de pies, y por eso adelanta a todas. <a href=\"https://www.theoi.com/Daimon/Ate.html\"></a>\n- Ἄτη es **bella** — cabello lustroso y elaborado, pies suaves y delicados, cuerpo sano y veloz. Es, en apariencia, una diosa en perfecto estado olímpico.\n- Ἄτη es **destructiva** — _οὐλομένη_ (v.91), el mismo epíteto que la _μῆνις_ de Aquiles en el primer verso del poema: \"funesta, maldita, que trae ruina\".\n- Hay un rasgo que Homero omite y que su omisión es elocuente: **no tiene armas, no tiene atributos, no tiene símbolo**\n  - Las diosas homéricas activas tienen objetos: Atenea tiene égida y lanza, Ártemis tiene arco, Afrodita tiene ceñidor. Ἄτη no lleva nada. Su instrumento es ella misma — o más exactamente, su mera presencia sobre tu cabeza.",
+    "refs": []
+  },
+  "cultura": "Helénica",
+  "asociaciones": {
+    "texto": "- Ate es considerada hija de Zeus, y la mayor de las Diosas.\n  - En la _Ilíada_ misma, Zeus la trata como una diosa que ha estado mucho tiempo en el Olimpo (hasta que El la expulsa).\n- Mecanismo de Accion: Nublar la mente → hacer que la persona tome decisiones irreflexivas y autodestructivas → provocar la ruina\n- Alcance: Afecta tanto a dioses como a hombres (incluso engañó a Zeus)",
+    "refs": []
+  },
+  "descripcion": {
+    "texto": "Personificación de la ceguera mental (ἄτη), la infatuación, la locura impulsiva y la ruina que sigue a esa ceguera",
+    "refs": []
+  },
+  "residencias": {
+    "texto": "- [_Λειμών Ἄτης_ — el prado de Ἄτη](lugares:el-prado-de)",
+    "refs": [
+      {
+        "tana": "k1HY5xQh1tsm",
+        "nombre": "_Λειμών Ἄτης_ — el prado de Ἄτη",
+        "col": "lugares",
+        "id": "el-prado-de"
+      }
+    ]
+  },
+  "hijos": {
+    "texto": "Πειθώ / Pithó, la Persuasión (Diosa)",
+    "refs": []
+  },
+  "padres": {
+    "texto": "[Zéus (Zeus)](entes:zeus)",
+    "refs": [
+      {
+        "tana": "Yz-NkVaNbFNa",
+        "nombre": "Zéus (Zeus)",
+        "col": "entes",
+        "id": "zeus"
+      }
+    ]
+  },
+  "titulos": {
+    "texto": "Primogenito (Titulo Familiar)",
+    "refs": []
+  },
+  "posesiones": {
+    "texto": "- [Tropaion de Ate, en Tebas](objetos:tropaion-de-ate-en-tebas) / Unico objeto que existe referencia como cultual fisico que tuvo Ate.\n  - \"A trophy to Ate (Ruin or Folly) now stands at the gate where they [the brothers Eteokles (Eteocles) and Polyneikes (Polynices)] struck each other and where, having conquered them both, the divine power [the Erinys] stayed its hand.\"",
+    "refs": [
+      {
+        "tana": "oe_tHyBcAOB1",
+        "nombre": "Tropaion de Ate, en Tebas",
+        "col": "objetos",
+        "id": "tropaion-de-ate-en-tebas"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": "F"
+}

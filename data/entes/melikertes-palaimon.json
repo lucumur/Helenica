@@ -1,0 +1,30 @@
+{
+  "id": "melikertes-palaimon",
+  "tana_id": "LUgKrxLFtvg6",
+  "nombre": "Melikertēs Palaimōn",
+  "nombre_alt": null,
+  "titulo_tana": "Melikertēs Palaimōn",
+  "etiquetas_tana": [
+    "Heroe"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "El santuario en Istmia",
+      "etiqueta": "El santuario en Istmia",
+      "texto": "templo con imágenes de Poseidón, Leucotea y el propio Palemón; además, un **adyton subterráneo** (\"Santo de los Santos\", con descenso subterráneo) donde se creía que Palemón estaba oculto — rasgo de culto ctónico-misterico poco común para una divinidad tan joven en la genealogía mítica. Dato notable: **quien jurara en falso en ese lugar, fuera corintio o extranjero, no podía escapar de su juramento** — función de garante de veracidad, patrón que comparte con otros santuarios de juramento del mundo griego. Junto a él, un altar arcaico dedicado a los **Cíclopes**.",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- **La Narrativa Mitológica: La Transición**\n- El mito, ya consolidado en la época arcaica (y magistralmente recogido por Píndaro en sus _Ístmicas_ a principios del s. V a.C.), narra lo siguiente:\n- **Fase Mortal (Melicertes):** Era un niño, hijo de Atamante (rey de Orcómeno) e Ino. Perseguidos por la locura enviada por Hera, Ino se arroja al mar desde las rocas de Megara abrazando al niño.\n- **Fase de Transición:** El niño es rescatado por un delfín y llevado a la costa del Istmo de Corinto.\n- **Fase Heroica/Divina (Palaimón):** Sísifo, el fundador mítico de Corinto, encuentra el cadáver (o al niño, según versiones más suavizadas), le da sepultura y establece los **Juegos Ístmicos** en su honor. En este momento, el niño deja de ser llamado Melicertes y es venerado como **Palaimó**\n- ----\n- El Mito\n- : Ἰνώ (Inó), hija de Cadmo, cría al infante Dioniso; Hera, indignada, enloquece a su esposo Atamante, quien mata a su propio hijo mayor Learco creyendo que es un ciervo. Inó, para salvar a su otro hijo Melicertes de la misma locura, se arroja con él al mar desde la Roca Molúride (entre Mégara y Corinto). Ambos se transforman en divinidades marinas: Inó en **Λευκοθέα** (Leucotea, \"la diosa blanca\" — ya mencionada por Homero, dato de antigüedad literaria real), Melicertes en **Παλαίμων** (Palaímōn, \"el luchador\").\n- **El anclaje corintio específico** (Pausanias II.1.3, ya citado antes): un delfín lleva el cuerpo del niño hasta la costa del Istmo, donde lo halla su tío **Sísifo** —de nuevo Sísifo, ahora no como fundador sino como quien establece el culto—, quien le da sepultura y funda en su honor los **Juegos Ístmicos**. Esto es un dato de peso mayor de lo que parece a primera vista: **el propio origen mítico de los Juegos Ístmicos, uno de los cuatro grandes juegos panhelénicos, queda atado genealógicamente al ciclo de Sísifo** — el mismo linaje fundacional que ya trabajamos con Πάγασος y Βελλεροφόντης.\n- ------\n- **Posible sustrato fenicio** — dato que vale la pena que registres con cautela: existe debate académico no resuelto sobre si el culto de Melicertes tiene origen fenicio (vinculación posible con Melqart, divinidad tiria), introducido por navegantes fenicios en el Egeo y adaptado luego al marco helénico. Para los griegos mismos, la figura ya aparece como natural de Beocia (vía el linaje de Cadmo/Ino), así que si hay sustrato fenicio, está completamente asimilado y helenizado ya en época arcaica-clásica."
+    }
+  ],
+  "tipos": [
+    "Héroe"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

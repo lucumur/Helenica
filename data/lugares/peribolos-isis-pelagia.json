@@ -1,0 +1,30 @@
+{
+  "id": "peribolos-isis-pelagia",
+  "tana_id": "rhJURt0GU1Aa",
+  "nombre": "Períbolos Isis Pelagia",
+  "nombre_alt": null,
+  "titulo_tana": "Períbolos Isis Pelagia",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "Culto náutico egipcio",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Ligada a Cencreas; Apuleyo s. II. ◐",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

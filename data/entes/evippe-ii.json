@@ -1,0 +1,29 @@
+{
+  "id": "evippe-ii",
+  "tana_id": "ACfg0GwI27xy",
+  "nombre": "Evippē (II)",
+  "nombre_alt": "Evipe",
+  "titulo_tana": "Evippē (II) = Evipe",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

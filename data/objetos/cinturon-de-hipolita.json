@@ -1,0 +1,36 @@
+{
+  "id": "cinturon-de-hipolita",
+  "tana_id": "tkRBGbtkXm9c",
+  "nombre": "Cinturon de Hipolita",
+  "nombre_alt": null,
+  "titulo_tana": "Cinturon de Hipolita",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "[Hippolytē = Hipolita](entes:hippolyte)",
+      "refs": [
+        {
+          "tana": "cbhmmGlk83PE",
+          "nombre": "Hippolytē = Hipolita",
+          "col": "entes",
+          "id": "hippolyte"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ],
+  "contenido_en": {
+    "tana": "3vXdtE8djxmB",
+    "nombre": "Athlos Noveno: Robar el Cinturon de Hipolita (Amazonia)",
+    "col": "eventos",
+    "id": "athlos-noveno-robar-el-cinturon-de-hipolita"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "kleite",
+  "tana_id": "eaze9Bf7Ao38",
+  "nombre": "Kleitē",
+  "nombre_alt": "Clite",
+  "titulo_tana": "Kleitē = Clite",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

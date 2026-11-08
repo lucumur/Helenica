@@ -1,0 +1,36 @@
+{
+  "id": "delos",
+  "tana_id": "wcNIG0ff7yft",
+  "nombre": "Dēlos",
+  "nombre_alt": "Delos",
+  "titulo_tana": "Dēlos = Delos",
+  "etiquetas_tana": [
+    "Ciudad"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Estado Isla",
+      "refs": []
+    },
+    {
+      "clave": "H🔼",
+      "etiqueta": "Pertenece a",
+      "texto": "Islas Cicladas",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Ciudad"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "GfYRe1REOaLg",
+    "nombre": "Apollon Aleksikakos= El que protege contra el mal",
+    "col": "entes",
+    "id": "apollon-aleksikakos"
+  }
+}

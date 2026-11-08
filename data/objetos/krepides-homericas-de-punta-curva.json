@@ -1,0 +1,35 @@
+{
+  "id": "krepides-homericas-de-punta-curva",
+  "tana_id": "USzbmqESCriF",
+  "nombre": "Krēpides Homéricas de Punta Curva",
+  "nombre_alt": "Botas",
+  "titulo_tana": "Krēpides Homéricas de Punta Curva (Botas)",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Vestimenta",
+      "refs": []
+    },
+    {
+      "clave": "M🪵",
+      "etiqueta": "Material",
+      "texto": "Cuero",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Sandalias con cordones entrecruzados que suben por las pantorrilles,",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ]
+}

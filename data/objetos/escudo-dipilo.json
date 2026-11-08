@@ -1,0 +1,40 @@
+{
+  "id": "escudo-dipilo",
+  "tana_id": "Es4Gjfz9ZamM",
+  "nombre": "Escudo Dipilo",
+  "nombre_alt": null,
+  "titulo_tana": "Escudo Dipilo",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-09-22T12%3A24%3A30.789Z-image.png?alt=media&token=0588cd2a-1da7-481a-af84-1eb80ae52737",
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Armadura",
+      "refs": [
+        {
+          "tana": "DyK_R7RRd3QV",
+          "nombre": "Armadura"
+        }
+      ]
+    },
+    {
+      "clave": "M🪵",
+      "etiqueta": "Material",
+      "texto": "Marco de mimbre cubierto de cuero repujado",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "representaba la transicion hacia escudos mas flexibles y pequeños",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ]
+}

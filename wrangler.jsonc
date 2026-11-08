@@ -1,0 +1,10 @@
+{
+  // Sitio estático servido por Cloudflare Workers (static assets), sin paso de build.
+  "name": "helenica",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": ".",
+    // Servir los .html tal cual (sin redirigir ficha.html → /ficha), igual que en Conlang.
+    "html_handling": "none"
+  }
+}

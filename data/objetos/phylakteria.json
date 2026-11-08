@@ -1,0 +1,21 @@
+{
+  "id": "phylakteria",
+  "tana_id": "rn1MV9NdeDB_",
+  "nombre": "Phylaktēria",
+  "nombre_alt": "banda filacteria",
+  "titulo_tana": "Phylaktēria = banda filacteria",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- banda en la cabeza como simbolo sagrado"
+    }
+  ],
+  "tipos": [
+    "Objeto"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "temenos-de-melikertes-palaimon-isthmia",
+  "tana_id": "MVDBfQr8W1Wg",
+  "nombre": "Témenos de Melikertēs Palaimōn, Isthmia",
+  "nombre_alt": null,
+  "titulo_tana": "Témenos de Melikertēs Palaimōn, Isthmia",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "- Dominios\n  - Salvacion en el mar y proteccion del naufrago\n    - **Descripcion:** Como jinete del delfín es patrono de los navegantes y los protege del naufragio; agrupado con los Dioscuros y Leucótea, todos \"salvadores de naves\"\n  - Garantía de juramentos\n    - **Descripcion:** El adyton: quien jura allí en falso, corintio o extranjero, no tiene escapatoria\n  - Patronazgo agonístico funerario\n    - **Descripcion:** Los Juegos Ístmicos como juegos fúnebres instituidos por Sísifo en su honor; la corona de pino leída como signo de duelo\n  - Umbral vida/muerte\n    - **Descripcion:** Rito de _enagismós_, fosa, nocturnidad, ocultamiento subterráneo\n  - Iniciación\n    - **Descripcion:** Presencia de iniciados; la posible iniciación de Marco Aurelio en el culto de Palemón",
+      "refs": []
+    },
+    {
+      "clave": "A⚡",
+      "etiqueta": "Poderes",
+      "texto": "- Celebraciones\n  - Fundacion de los Juegos (Mitico)\n    - **Descripcion:** Sísifo halla el cuerpo traído a tierra por un delfín, le da sepultura en el Istmo e instituye los juegos en su honor. Los Ístmicos son, en su autocomprensión, **funeral perpetuado**.\n  - Corona como signo de Luto (Mitico)\n    - **Descripcion:** pino, con interregno de apio, restitución del pino en época romana. Pausanias vincula la corona ístmica de pino y la nemea de apio a los _sufrimientos_ de Palemón y Arquémoro.",
+      "refs": []
+    },
+    {
+      "clave": "S🧩",
+      "etiqueta": "Subunidades / partes",
+      "texto": "- Elementos\n  - [Adyton Juramentario, Palaimonion](lugares:adyton-juramentario-palaimonion)\n  - [Estatua de Melicertes-Palemon yacente sobre un delfin](objetos:estatua-de-melicertes-palemon-yacente-sobre-un-delfin)\n  - [Estatua de Melicertes-Palemon estante sobre un delfin](objetos:estatua-de-melicertes-palemon-estante-sobre-un-delfin)\n  - [Estatuas Honorarias](objetos:estatuas-honorarias)\n  - [Bothroi Treis, Palaimonion](lugares:bothroi-treis-palaimonion)\n  - [Enagistērion, Palaimonion](lugares:enagisterion-palaimonion)\n  - [Monopteron (Templo Circular), Palaimonion](lugares:monopteron-templo-circular-palaimonion)\n  - [Hiera Eisodos (Entrada Sacra), Palaimonion](lugares:hiera-eisodos-entrada-sacra-palaimonion)\n  - [Ofrendas Votivas, Palaimonion](objetos:ofrendas-votivas-palaimonion)\n  - [Estadio Arcaico Reutilizado](lugares:estadio-arcaico-reutilizado)",
+      "refs": [
+        {
+          "tana": "V3FJAYYswjMP",
+          "nombre": "Adyton Juramentario, Palaimonion",
+          "col": "lugares",
+          "id": "adyton-juramentario-palaimonion"
+        },
+        {
+          "tana": "cAXqec4CZ_-r",
+          "nombre": "Estatua de Melicertes-Palemon yacente sobre un delfin",
+          "col": "objetos",
+          "id": "estatua-de-melicertes-palemon-yacente-sobre-un-delfin"
+        },
+        {
+          "tana": "N6L2ldBLUJPN",
+          "nombre": "Estatua de Melicertes-Palemon estante sobre un delfin",
+          "col": "objetos",
+          "id": "estatua-de-melicertes-palemon-estante-sobre-un-delfin"
+        },
+        {
+          "tana": "75LwQJEHvETy",
+          "nombre": "Estatuas Honorarias",
+          "col": "objetos",
+          "id": "estatuas-honorarias"
+        },
+        {
+          "tana": "w_h-C_WIjKiC",
+          "nombre": "Bothroi Treis, Palaimonion",
+          "col": "lugares",
+          "id": "bothroi-treis-palaimonion"
+        },
+        {
+          "tana": "foJ5M-GoO-Lr",
+          "nombre": "Enagistērion, Palaimonion",
+          "col": "lugares",
+          "id": "enagisterion-palaimonion"
+        },
+        {
+          "tana": "_rEx50tbs3m4",
+          "nombre": "Monopteron (Templo Circular), Palaimonion",
+          "col": "lugares",
+          "id": "monopteron-templo-circular-palaimonion"
+        },
+        {
+          "tana": "QRktlNd7B7eI",
+          "nombre": "Hiera Eisodos (Entrada Sacra), Palaimonion",
+          "col": "lugares",
+          "id": "hiera-eisodos-entrada-sacra-palaimonion"
+        },
+        {
+          "tana": "IFBPcIyqCjg2",
+          "nombre": "Ofrendas Votivas, Palaimonion",
+          "col": "objetos",
+          "id": "ofrendas-votivas-palaimonion"
+        },
+        {
+          "tana": "ApelvQ-_3jvW",
+          "nombre": "Estadio Arcaico Reutilizado",
+          "col": "lugares",
+          "id": "estadio-arcaico-reutilizado"
+        }
+      ]
+    },
+    {
+      "clave": "A🪪",
+      "etiqueta": "Alias / fases",
+      "texto": "- Melikertēs = su nombre de mortal\n- Palaimōn = \"el luchador\", su nombre apoteosico",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

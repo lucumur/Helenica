@@ -1,0 +1,19 @@
+{
+  "id": "admete",
+  "tana_id": "vhrz78RcPPi3",
+  "nombre": "Admetē",
+  "nombre_alt": "Estenelide-Perseida",
+  "titulo_tana": "Admetē (Estenelide-Perseida)",
+  "etiquetas_tana": [
+    "F",
+    "O"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

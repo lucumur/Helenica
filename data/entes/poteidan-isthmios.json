@@ -1,0 +1,24 @@
+{
+  "id": "poteidan-isthmios",
+  "tana_id": "Rueb7PslCjIj",
+  "nombre": "Poteidan Isthmios",
+  "nombre_alt": "Poseidon del Istmo",
+  "titulo_tana": "Poteidan Isthmios (Poseidon del Istmo)",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "3YpxU2Z2OWNY",
+    "nombre": "Poseidáōn",
+    "col": "entes",
+    "id": "poseidaon"
+  }
+}

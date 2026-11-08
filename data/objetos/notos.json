@@ -1,0 +1,35 @@
+{
+  "id": "notos",
+  "tana_id": "PwJzvxxk3c5M",
+  "nombre": "Notos",
+  "nombre_alt": "Viento del Sur",
+  "titulo_tana": "Notos (Viento del Sur)",
+  "etiquetas_tana": [
+    "Objeto",
+    "griego"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Clima",
+      "refs": []
+    },
+    {
+      "clave": "A⚡",
+      "etiqueta": "Poderes",
+      "texto": "- extiende una neblina sobre los picos de las montañas\n  - Il.3.10 εὖτ᾽ ὄρεος κορυφῇσι Νότος κατέχευεν ὀμίχλην",
+      "refs": [
+        {
+          "tana": "fZB7wZL97L_6",
+          "nombre": "Il.3.10 εὖτ᾽ ὄρεος κορυφῇσι Νότος κατέχευεν ὀμίχλην"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ]
+}

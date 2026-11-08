@@ -1,0 +1,30 @@
+{
+  "id": "peirene-fuente-pirene-corinto",
+  "tana_id": "gInGqhJPJ9rx",
+  "nombre": "Peirēnē (Fuente Pirene), Corinto",
+  "nombre_alt": null,
+  "titulo_tana": "Peirēnē (Fuente Pirene), Corinto",
+  "etiquetas_tana": [
+    "fons"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Función",
+      "etiqueta": "Función",
+      "texto": "Hidrica - Civica",
+      "refs": []
+    },
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "- Manantial con cámaras de captación desde época arcaica;\n- monumentalizada varias veces hasta la fase romana de Herodes Ático.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Fuente"
+  ],
+  "pertenece_a": []
+}

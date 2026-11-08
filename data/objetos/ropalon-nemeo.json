@@ -1,0 +1,64 @@
+{
+  "id": "ropalon-nemeo",
+  "tana_id": "unALSSadBznB",
+  "nombre": "Rópalon Nemeo",
+  "nombre_alt": null,
+  "titulo_tana": "Rópalon Nemeo",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Arma",
+      "refs": []
+    },
+    {
+      "clave": "M🪵",
+      "etiqueta": "Material",
+      "texto": "Madera de olivo silvestre (ἀγριέλαιος) de Nemea",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Maza rústica de madera sin desbastar, autofabricada o arrancada de raíz por Heracles",
+      "refs": []
+    },
+    {
+      "clave": "A⚡",
+      "etiqueta": "Poderes",
+      "texto": "- Aturdir al León de Nemea antes de estrangularlo (Trabajo I);\n- rematar a Orto, el perro de Gerión (Trabajo X);\n- usado por Ónfale en la inversión ritual de Lidia mientras Heracles viste de mujer",
+      "refs": []
+    },
+    {
+      "clave": "P📊",
+      "etiqueta": "Propiedades",
+      "texto": "- Arma contundente necesaria porque la piel del León de Nemea era impenetrable\n- capacidad de arraigar y retoñar si se separa de su dueño (episodio de los Cércopes)",
+      "refs": []
+    },
+    {
+      "clave": "L🗺️",
+      "etiqueta": "Ubicación",
+      "texto": "Nemea / Cleonas (origen); mito de los Cércopes",
+      "refs": []
+    },
+    {
+      "clave": "Destino",
+      "etiqueta": "Destino",
+      "texto": "**Cércopes**: al serle robado y escondido, el garrote **arraiga y retoña**, convirtiéndose en árbol",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- Es el arma primordial de Heracles, anterior a cualquier armamento \"civilizado\", lo que lo distingue de héroes como Aquiles o Áyax que usan lanza y espada."
+    }
+  ],
+  "tipos": [
+    "Objeto"
+  ]
+}

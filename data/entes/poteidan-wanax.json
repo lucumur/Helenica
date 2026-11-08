@@ -1,0 +1,24 @@
+{
+  "id": "poteidan-wanax",
+  "tana_id": "4tOUFJkOjv9T",
+  "nombre": "Poteidan Wanax",
+  "nombre_alt": "Amo Poseidon",
+  "titulo_tana": "Poteidan Wanax (Amo Poseidon)",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "3YpxU2Z2OWNY",
+    "nombre": "Poseidáōn",
+    "col": "entes",
+    "id": "poseidaon"
+  }
+}

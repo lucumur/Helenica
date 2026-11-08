@@ -1,0 +1,36 @@
+{
+  "id": "myrmeks",
+  "tana_id": "eltINq-Ec5hg",
+  "nombre": "Myrmēks",
+  "nombre_alt": "Mirmex",
+  "titulo_tana": "Myrmēks (Mirmex)",
+  "etiquetas_tana": [
+    "Bestia"
+  ],
+  "imagen": null,
+  "descripcion": {
+    "texto": "quien cava, acarrea tierra a la roca, vive en lo excavado",
+    "refs": []
+  },
+  "fuentes": [
+    {
+      "titulo": ". Müller, _FHG_ I, _Hecataei fragmenta_ 90 = Esteban de Bizancio s.v. Κόρινθος:",
+      "url": null
+    },
+    {
+      "titulo": "_Corinthus, urbs intra Isthmum Peloponnesi, Hec. Eadem vocabatur Ephyra ab Ephyra filia Myrmecis, uxoris Epimethei. Cf. Schol. Apollon. IV, 1212._",
+      "url": null
+    }
+  ],
+  "nacimiento": {
+    "texto": "- Heródoto 7.183 llama Μύρμηξ a un **arrecife sumergido** entre Magnesia y Escíatos, que los persas marcaron con una columna de piedra porque hundía barcos. Si el término tenía uso náutico —y para eso hay un solo testimonio, que puede ser nombre propio y no apelativo—, entonces un Mírmex en la genealogía de una ciudad de dos puertos deja de ser un chiste zoológico y pasa a ser un accidente de la costa.\n- Sería la misma clase de fenómeno que Buno: la entidad geográfica o cultual existe primero, el antepasado se fabrica después para explicarla. Con la ventaja añadida de que Hecateo era autor de una _Periodos Ges_, un texto de navegación costera. Un cartógrafo de periplos que recoge un nombre de escollo y lo convierte en padre epónimo es exactamente lo que su método produciría.",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Bestia"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

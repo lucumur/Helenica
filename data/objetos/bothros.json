@@ -1,0 +1,17 @@
+{
+  "id": "bothros",
+  "tana_id": "XkHskyPpdyJm",
+  "nombre": "Bothros",
+  "nombre_alt": "Pozo para ofrendas",
+  "titulo_tana": "Bothros = Pozo para ofrendas",
+  "etiquetas_tana": [
+    "Objeto",
+    "griego"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ]
+}

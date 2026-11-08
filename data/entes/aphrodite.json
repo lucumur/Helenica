@@ -1,0 +1,34 @@
+{
+  "id": "aphrodite",
+  "tana_id": "5XM9zBiTodu_",
+  "nombre": "Aphroditē",
+  "nombre_alt": "Afrodita",
+  "titulo_tana": "Aphroditē (Afrodita)",
+  "etiquetas_tana": [
+    "Deidad",
+    "F"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-04-07T18%3A43%3A13.919Z-image.png?alt=media&token=cc621179-5c7e-45fc-a233-b7e14680c1aa",
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "Dios Olimpico",
+    "refs": [
+      {
+        "tana": "ITeremftDCmK",
+        "nombre": "Dios Olimpico"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": "F",
+  "contenido_en": {
+    "tana": "sSHWkSAuoqKj",
+    "nombre": "Cuarto Athlos: Capturar el Jabali de Erymanthos (Arcadia)",
+    "col": "eventos",
+    "id": "cuarto-athlos-capturar-el-jabali-de-erymanthos"
+  }
+}

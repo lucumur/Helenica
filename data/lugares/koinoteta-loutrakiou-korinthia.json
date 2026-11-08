@@ -1,0 +1,23 @@
+{
+  "id": "koinoteta-loutrakiou-korinthia",
+  "tana_id": "QtHd-QE6xArR",
+  "nombre": "Koinotēta Loutrakiou, Korinthía",
+  "nombre_alt": "1912-1928",
+  "titulo_tana": "Koinotēta Loutrakiou, Korinthía (1912-1928)",
+  "etiquetas_tana": [
+    "demos"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Demos"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "slhLmjZQBFmM",
+    "nombre": "Peiraion, Korinthia (850ac - 146ac)",
+    "col": "lugares",
+    "id": "peiraion-korinthia"
+  }
+}

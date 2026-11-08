@@ -1,0 +1,129 @@
+{
+  "id": "lechaion-korinthos",
+  "tana_id": "UGSYtO0L0gGR",
+  "nombre": "Léchaion, Kórinthos",
+  "nombre_alt": "Lequeo",
+  "titulo_tana": "Léchaion, Kórinthos (Lequeo)",
+  "etiquetas_tana": [
+    "puerto"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-03-06T21%3A35%3A14.379Z-image.png?alt=media&token=f82a39b6-837c-460f-86e8-ed2777a2369b",
+  "fuentes": [
+    {
+      "titulo": "Rothaus, OJA 14 (1995); Princeton Enc. s.v. Lechaion (Perseus); Odysseus/Culture.gr Lechaion harbour; Xen. Hell. 4.4–4.5; Polyb. 5; Paus. 2.2.3; Eliot, Hesperia 37 (1968); Salmon, Wealthy Corinth",
+      "url": null
+    }
+  ],
+  "campos": [
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "Limēn occidental de Kórinthos en el Golfo de Corinto (≈3 km / 12 stades al N de la polis). Puerto dependiente, no polis aparte: comunica Corinto con el Mediterráneo occidental, el golfo y la Grecia central. Sistema de puerto exterior (dos moles) + puerto interior artificial (cothon excavado), unidos por canal; área combinada ≈150.000 m² / ≈10 ha. Único cothon conocido del mundo griego.",
+      "refs": []
+    },
+    {
+      "clave": "E🌱",
+      "etiqueta": "Etimología",
+      "texto": "Léchaion ← Léches, hijo mítico de Poseidón y Peirēnē (Paus. 2.2.3); epónimo del emporio occidental",
+      "refs": []
+    },
+    {
+      "clave": "E🕰️",
+      "etiqueta": "Época",
+      "texto": "- Arcaica (799–600 aC)\n  - Uso portuario ligado a la expansión comercial corintia hacia occidente (s. VII) y a la colonización\n  - Hipótesis fuerte (Rothaus / analogía Diolkos ≈600): primera fase de obras bajo los Baquíadas / Periandro — dragado de zona pantanosa, moles de poros del puerto exterior, posible inicio del cothon interior\n  - Cementerio arcaico (s. VI) al E del puerto = límite aproximado del ámbito funcional griego\n  - Sin evidencia prehistórica clara en el sitio del puerto\n- Clasica (599–300 aC)\n  - Puerto plenamente operativo; neōria / astilleros (Xen. Hell. 4.4.12: combates desde techos de sheds y muros)\n  - Makrà teíchē (muros largos dobles) unen Léchaion con Kórinthos; control militar del emporio = control de la polis\n  - 392–390 aC (Guerra de Corinto): batallas en los muros largos y el puerto; Esparta, Beocia, Atenas; Praxitas derriba tramos de los makrà teíchē; base espartana de razias\n  - 368 aC: Epaminondas fuerza trincheras/palizadas que cruzan el Istmo de Kenchreái a Léchaion (Diod. 15.68)\n  - 345–343 aC: exportación epigráfica de piedra \"pros\" desde Corinto a Delfos vía Léchaion → Krisa\n  - Cementerio clásico–helenístico (s. VI–IV) al E (Eliot 1968)\n- Helenistica (299 aC – 146 aC)\n  - 218–217 aC: Filipo V usa Léchaion como base (entrenamiento de falanges; desembarco hacia Argos; mitad de flota arrastrada por el Diolkos desde Kenchreái, Polyb. 5)\n  - Sigue siendo emporio occidental dependiente de Corinto hasta la destrucción de la polis por L. Mummius (146 aC)\n  - Tras 146: interrupción del marco corintio griego; no documentamos aquí la reconstrucción romana (44 aC+)",
+      "refs": []
+    },
+    {
+      "clave": "H🏘️",
+      "etiqueta": "Habitantes",
+      "texto": "Suburbio portuario dependiente de Kórinthos (modelo tipo Peiraieús, pero más cercano y menos autónomo). Tripulaciones, estibadores, artesanos de neōria; pocas residencias densas (cf. Strabón más tarde: \"pocas casas\" — reflejo de un patrón ya griego de campos abiertos entre polis y limēn)",
+      "refs": []
+    },
+    {
+      "clave": "Co🧭",
+      "etiqueta": "Coordenadas",
+      "texto": "- Norte: Golfo de Corinto / mar abierto\n- Sur: llanura agrícola y vía hacia Kórinthos (luego Lechaion Road)\n- Este–Oeste: makrà teíchē; paso ístmico hacia Kenchreái / Attikē\n- Vinculado al Diolkos para tránsito entre golfos",
+      "refs": []
+    },
+    {
+      "clave": "H🔼",
+      "etiqueta": "Pertenece a",
+      "texto": "[Qórinthos, Korinthia (Corinto)](lugares:qorinthos-korinthia)",
+      "refs": [
+        {
+          "tana": "0XxZ5RAWadzh",
+          "nombre": "Qórinthos, Korinthia (Corinto)",
+          "col": "lugares",
+          "id": "qorinthos-korinthia"
+        }
+      ]
+    },
+    {
+      "clave": "S🧩",
+      "etiqueta": "Subunidades / partes",
+      "texto": "- [Neōria (Astilleros)](lugares:neoria)\n- Puerto exterior (moles E y O)\n- Puerto interior / cothon + canal de entrada\n- Ámbito del hieròn de Poseidón (bronce: Paus. 2.2.3 — testimonio posterior; culto marino del emporio)",
+      "refs": [
+        {
+          "tana": "LYdBR7MoCDSI",
+          "nombre": "Neōria (Astilleros)",
+          "col": "lugares",
+          "id": "neoria"
+        }
+      ]
+    },
+    {
+      "clave": "O⚖️",
+      "etiqueta": "Organización y cultos",
+      "texto": "Emporio estatal corintio. Muros largos = integración defensiva con la polis. Neōria para flota. No hay evidencia clara de muralla propia aparte de los makrà teíchē (debate Wiseman vs lectura de Xenofonte como refugio en los muros largos).",
+      "refs": []
+    },
+    {
+      "clave": "S🀄",
+      "etiqueta": "Símbolos",
+      "texto": "- Moles de poros; cothon dragado (montículos de arena/grava = Vounolukiu)\n- Poseidón liménios (hieron + ágalma de bronce en tradición posterior)\n- Posible Aphroditē (Plut. Mor. 146D — ambientación literaria en Periandro; plausible para un puerto)",
+      "refs": []
+    },
+    {
+      "clave": "H📜",
+      "etiqueta": "Historia y mito",
+      "texto": "De pantano costero a limēn monumental en la Corinto arcaica; auge militar–comercial clásico (muros largos, neōria, Guerra de Corinto); base macedónica helenística; corte en 146 aC con la destrucción de Kórinthos.",
+      "refs": []
+    },
+    {
+      "clave": "Pr⏪",
+      "etiqueta": "Antecesor",
+      "texto": "- Pantano costero sin uso portuario documentado antes del s. VII/VI\n- [Neōria (Astilleros)](lugares:neoria)",
+      "refs": [
+        {
+          "tana": "LYdBR7MoCDSI",
+          "nombre": "Neōria (Astilleros)",
+          "col": "lugares",
+          "id": "neoria"
+        }
+      ]
+    },
+    {
+      "clave": "Po⏩",
+      "etiqueta": "Sucesor",
+      "texto": "Tras 146 aC el sitio queda fuera del marco de la Corinto griega destruida; refundación romana y obras claudianas = etapa posterior (no rellenada aquí)",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-03-06T21%3A35%3A14.379Z-image.png?alt=media&token=f82a39b6-837c-460f-86e8-ed2777a2369b)"
+    }
+  ],
+  "tipos": [
+    "Puerto"
+  ],
+  "pertenece_a": [
+    {
+      "tana": "0XxZ5RAWadzh",
+      "nombre": "Qórinthos, Korinthia (Corinto)",
+      "col": "lugares",
+      "id": "qorinthos-korinthia"
+    }
+  ]
+}

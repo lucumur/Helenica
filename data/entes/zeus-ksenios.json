@@ -1,0 +1,42 @@
+{
+  "id": "zeus-ksenios",
+  "tana_id": "8ODK_HGVqHdn",
+  "nombre": "Zeus Ksenios",
+  "nombre_alt": "Zeus Hospitalario",
+  "titulo_tana": "Zeus Ksenios = Zeus Hospitalario",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "asociaciones": {
+    "texto": "- En la Antigua Grecia, la **hospitalidad (ξενία, xenía)** era una obligación sagrada, y Zeus era el dios que **garantizaba que los huéspedes fueran tratados con respeto y justicia**.\n- Romper las normas de la hospitalidad (como maltratar o traicionar a un huésped) era visto como una grave **ofensa contra Zeus**.",
+    "refs": []
+  },
+  "campos": [
+    {
+      "clave": "Ente",
+      "etiqueta": "Ente",
+      "texto": "[Zéus (Zeus)](entes:zeus)",
+      "refs": [
+        {
+          "tana": "Yz-NkVaNbFNa",
+          "nombre": "Zéus (Zeus)",
+          "col": "entes",
+          "id": "zeus"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "Yz-NkVaNbFNa",
+    "nombre": "Zéus",
+    "col": "entes",
+    "id": "zeus"
+  }
+}

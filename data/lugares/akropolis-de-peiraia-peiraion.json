@@ -1,0 +1,23 @@
+{
+  "id": "akropolis-de-peiraia-peiraion",
+  "tana_id": "pi2pv4YMkCwe",
+  "nombre": "Akropolis de Peiraia, Peiraion",
+  "nombre_alt": null,
+  "titulo_tana": "Akropolis de Peiraia, Peiraion",
+  "etiquetas_tana": [
+    "akra"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Cabo"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "slhLmjZQBFmM",
+    "nombre": "Peiraion, Korinthia (850ac - 146ac)",
+    "col": "lugares",
+    "id": "peiraion-korinthia"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "onfalos-de-marmol",
+  "tana_id": "kkg9OnaPx-Qy",
+  "nombre": "Onfalos de Marmol",
+  "nombre_alt": null,
+  "titulo_tana": "Onfalos de Marmol",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ],
+  "contenido_en": {
+    "tana": "0iYjGYISCSgv",
+    "nombre": "Templo de Apolo Patroos (Atenas)",
+    "col": "lugares",
+    "id": "templo-de-apolo-patroos"
+  }
+}

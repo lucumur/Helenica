@@ -1,0 +1,23 @@
+{
+  "id": "cerynitis-achaia",
+  "tana_id": "SZP3-9pITm9B",
+  "nombre": "Cerynitis, Achaia",
+  "nombre_alt": "Región",
+  "titulo_tana": "Cerynitis, Achaia (Región)",
+  "etiquetas_tana": [
+    "Rio"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Río"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "WpBb2l06zZsT",
+    "nombre": "Tercer Athlos: Atrapar a la Cierva de Cerynea (Aquea)",
+    "col": "eventos",
+    "id": "tercer-athlos-atrapar-a-la-cierva-de-cerynea"
+  }
+}

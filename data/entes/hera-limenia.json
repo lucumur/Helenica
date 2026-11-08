@@ -1,0 +1,24 @@
+{
+  "id": "hera-limenia",
+  "tana_id": "Ai6ImXvahPdH",
+  "nombre": "Hēra Liménia",
+  "nombre_alt": "del Puerto",
+  "titulo_tana": "Hēra Liménia (del Puerto)",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "fEfLas105lfz",
+    "nombre": "Hêra",
+    "col": "entes",
+    "id": "hera"
+  }
+}

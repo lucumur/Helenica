@@ -1,0 +1,17 @@
+{
+  "id": "limne-hiera",
+  "tana_id": "zPD48IeZemwm",
+  "nombre": "Limnē Hierã",
+  "nombre_alt": "Lago Sagrado",
+  "titulo_tana": "Limnē Hierã (Lago Sagrado)",
+  "etiquetas_tana": [
+    "lago"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Lago"
+  ],
+  "pertenece_a": []
+}

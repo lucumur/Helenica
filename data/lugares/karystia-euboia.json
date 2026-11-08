@@ -1,0 +1,116 @@
+{
+  "id": "karystia-euboia",
+  "tana_id": "lpcbviuSMlQs",
+  "nombre": "Karystia, Euboia",
+  "nombre_alt": null,
+  "titulo_tana": "Karystia, Euboia",
+  "etiquetas_tana": [
+    "chora"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Region",
+      "etiqueta": "Region",
+      "texto": "- [Euboia (Synchora)](lugares:euboia)\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-08-22T03%3A20%3A50.230Z-image.png?alt=media&token=4c967fad-4922-4a12-bb9d-4ba1b7daefda)",
+      "refs": [
+        {
+          "tana": "V3DYW5HUkMow",
+          "nombre": "Euboia (Synchora)",
+          "col": "lugares",
+          "id": "euboia"
+        }
+      ]
+    },
+    {
+      "clave": "Centro Principal",
+      "etiqueta": "Centro Principal",
+      "texto": "- 🏙️Kárystos (Pólis) ⭐\n  - $ 🪨Marmol Cipollino\n  - $🧵 Asbesto / Amianto (lino vivo)\n  - 🥊 **Glauco**, boxeador,\n  - Drymonia (helos)\n    - [🍇 Dionysos Dēmotelēs](lugares:dionysos-demoteles)\n      - \"el bueno para el pueblo\"\n- [Dystos (Kome)](lugares:dystos)\n- [Zarēx (Kome)](lugares:zarex)\n  - [☀️ Apollōn Delios (+ Estatua)](lugares:apollon-delios)\n- [Styra (Kome)](lugares:styra)\n- [Marmarion (Puerto)](lugares:marmarion-2)\n  - [☀️Apollōn Marmarinos](lugares:apollon-marmarinos)\n  - $ ⚓ fletes marítimos pesados y logística lítica\n  - 🚠ruta maritima hacia Halas Arafēnidas, kome Atica\n- [Marmarion (Cantera)](lugares:marmarion)",
+      "refs": [
+        {
+          "tana": "pmfrk6kfgVx2",
+          "nombre": "🏙️Kárystos (Pólis)"
+        },
+        {
+          "tana": "i5CbF3llV8as",
+          "nombre": "Drymonia (helos)"
+        },
+        {
+          "tana": "JqgQBBiT4zG3",
+          "nombre": "Dystos (Kome)",
+          "col": "lugares",
+          "id": "dystos"
+        },
+        {
+          "tana": "v8xBDGmOhO9n",
+          "nombre": "Zarēx (Kome)",
+          "col": "lugares",
+          "id": "zarex"
+        },
+        {
+          "tana": "qfkgPmiSbLZR",
+          "nombre": "Styra (Kome)",
+          "col": "lugares",
+          "id": "styra"
+        },
+        {
+          "tana": "xVCaay4wSHZZ",
+          "nombre": "Marmarion (Puerto)",
+          "col": "lugares",
+          "id": "marmarion-2"
+        },
+        {
+          "tana": "HqJ0-yQXjaEK",
+          "nombre": "Marmarion (Cantera)",
+          "col": "lugares",
+          "id": "marmarion"
+        }
+      ]
+    },
+    {
+      "clave": "Rios y Montes",
+      "etiqueta": "Rios y Montes",
+      "texto": "- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-08-20T05%3A33%3A28.525Z-image.png?alt=media&token=f1dccde0-c6df-40b9-9041-41bbef08fad9)\n- [Ochē (Oros)](lugares:oche)\n  - 👰 Sitio Nupcial de Zeus-Hera (Ocheia)\n- [Kaphēreus (Akra)](lugares:kaphereus)\n  - 🔦Faro Nautico\n  - **Nauplio**, padre de Palamedes, en venganza por la muerte injusta de su hijo en Troya, **encendió fuegos falsos en Cafareo** para hacer naufragar a la flota griega que regresaba de Troya, simulando ser las señales de un puerto seguro\n- [Geraistós (Akra)](lugares:geraistos)\n- [Petalioi (Nesoi)](lugares:petalioi)\n  - refugio de piratas y pescadores",
+      "refs": [
+        {
+          "tana": "oIeyEphl5qH6",
+          "nombre": "Ochē (Oros)",
+          "col": "lugares",
+          "id": "oche"
+        },
+        {
+          "tana": "4OhgMWjDhM5X",
+          "nombre": "Kaphēreus (Akra)",
+          "col": "lugares",
+          "id": "kaphereus"
+        },
+        {
+          "tana": "-b3ELr8ha94M",
+          "nombre": "Geraistós (Akra)",
+          "col": "lugares",
+          "id": "geraistos"
+        },
+        {
+          "tana": "cCu70yWnOm0y",
+          "nombre": "Petalioi (Nesoi)",
+          "col": "lugares",
+          "id": "petalioi"
+        }
+      ]
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Poblacion:",
+      "texto": "- ⚪ Sustrato Arcaico Abante (segun Homero)\n- 🟢 Sustrato Etnico Driope, (KaRuTo, evidencia micenica) que llegaron al ser expulsados por los dorios de la region central de Dryopis. fundadora de komai, poleis y demoi de la region, base poblacional.\n- 🔵 Base Jonia Eubea, con los que se mestizaron con los dryopes basales: para el 500 todos los pueblos de Karystos eran Jonio-Driopes\n- 🟦 Inmigracion Jonia Atica 🦉: Styra tenia mayoria Jonia Atica y siguieron llegando durante los siglos población atica a la region."
+    },
+    {
+      "titulo": "Mitologia",
+      "texto": "- [Karystos (Caristo)](entes:karystos) = hijo de [Cheirōn (Quirón)](entes:cheiron) y [Chariklő](entes:chariklo)\n- Al adoptar a un hijo de Quirón como fundador, los caristios (y sus vecinos dríopes) estaban \"importando\" el prestigio religioso de los santuarios tesalios para santuarizar su propio paisaje montañoso y salvaje."
+    }
+  ],
+  "tipos": [
+    "Chora"
+  ],
+  "pertenece_a": []
+}

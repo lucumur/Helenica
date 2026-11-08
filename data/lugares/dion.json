@@ -1,0 +1,32 @@
+{
+  "id": "dion",
+  "tana_id": "PnvJlSSm-F5o",
+  "nombre": "Dîon",
+  "nombre_alt": "Poleidion",
+  "titulo_tana": "Dîon (Poleidion)",
+  "etiquetas_tana": [
+    "acropolis"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "[Kēnaion (Akra)](tana:i3VcRt47Ip0i) NW",
+      "texto": "- Cabo-Refugio con Altar\n- [⚡ Zeus Kēnaios (Hieron)](lugares:zeus-kenaios)"
+    },
+    {
+      "titulo": null,
+      "texto": "- [Aθēnai Diades (Polis)](lugares:athenai-diades)\n  - ⚙️ Fondeadero"
+    }
+  ],
+  "tipos": [
+    "Acrópolis"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "RDd7Gg82bx6p",
+    "nombre": "Histiaia / Hellopia, Euboia (Chora)",
+    "col": "lugares",
+    "id": "histiaia"
+  }
+}

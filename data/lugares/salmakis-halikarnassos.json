@@ -1,0 +1,33 @@
+{
+  "id": "salmakis-halikarnassos",
+  "tana_id": "h5RvdqmnhgMR",
+  "nombre": "Salmakis, Halikarnassos",
+  "nombre_alt": null,
+  "titulo_tana": "Salmakis, Halikarnassos",
+  "etiquetas_tana": [
+    "Manantial"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "- Cuerpo de Agua\n- Antigua Villa",
+      "refs": [
+        {
+          "tana": "tvPBPJ9Eok1o",
+          "nombre": "Cuerpo de Agua"
+        },
+        {
+          "tana": "utquP9yuN_06",
+          "nombre": "Antigua Villa"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Fuente"
+  ],
+  "pertenece_a": []
+}

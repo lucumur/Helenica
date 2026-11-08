@@ -1,0 +1,24 @@
+{
+  "id": "apollon-paieon",
+  "tana_id": "HromkN0eq9tL",
+  "nombre": "Apollon Paieōn",
+  "nombre_alt": "Apolo el Paeonio",
+  "titulo_tana": "Apollon Paieōn = Apolo el Paeonio",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "9OYZLA3QegGP",
+    "nombre": "Apollôn",
+    "col": "entes",
+    "id": "apollon"
+  }
+}

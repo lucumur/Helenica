@@ -1,0 +1,64 @@
+{
+  "id": "artemision",
+  "tana_id": "Wmq6fWLEj_0t",
+  "nombre": "Artemision",
+  "nombre_alt": "Santuario Artemisio",
+  "titulo_tana": "Artemision (Santuario Artemisio)",
+  "etiquetas_tana": [
+    "hieron"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-08-23T18%3A24%3A24.054Z-image.png?alt=media&token=36f159be-4972-4cef-821c-4d590191a0a9",
+  "fuentes": [
+    {
+      "titulo": "https://www.persee.fr/doc/crai_0065-0536_2012_num_156_1_93432",
+      "url": "https://www.persee.fr/doc/crai_0065-0536_2012_num_156_1_93432"
+    }
+  ],
+  "campos": [
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "Un edificio rectangular casi cuadrado de modestas dimensiones, de muros de gneis, con techo a dos aguas, posibles columnas internas axiales, un altar perpendicular delante y un pequeño temenos delimitado por un pórtico en ángulo. No era un gran templo períptero, sino un edificio cultual relativamente sencillo, coherente con el carácter aún no monumental del santuario délico en época arcaica.",
+      "refs": []
+    },
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Santuario",
+      "refs": [
+        {
+          "tana": "ciyIodWTppl6",
+          "nombre": "Santuario"
+        }
+      ]
+    },
+    {
+      "clave": "H🔼",
+      "etiqueta": "Pertenece a",
+      "texto": "Temenos de Apolo, Delos",
+      "refs": []
+    },
+    {
+      "clave": "O⚖️",
+      "etiqueta": "Organización y cultos",
+      "texto": "- **Planta y dimensiones**\n  - Naos casi cuadrado: aproximadamente **8,60–8,70 m** (N-S) × **9,60–9,63 m** (E-O) en medidas exteriores.\n  - Muros de mampostería de gneis local.\n  - Orientación este-oeste (fachada principal al este, como es habitual).\n- **Elevación probable**\n  - Techo a doble vertiente (se conserva evidencia de frontón).\n  - Interior: las inscripciones de inventarios del siglo IV a.C. mencionan objetos de plata clavados en columnas y en el dintel, lo que indica la existencia de  columnas internas .\n    - Hipótesis más aceptada: una **columna axial** (o posiblemente cuatro columnas dispuestas de forma homotética).\n    - Algunos autores (Mazarakis Ainian) propusieron dos filas de cuatro columnas; otros (Gruben) una solución anfipróstila. La solución más prudente es una columnata interior axial que sostuviera la cumbrera.\n- **Alzado exterior**\n  - Probablemente un edificio sencillo, sin peristilo completo.\n  - Posible pronaos añadido en una fase secundaria (mencionado en cuentas del siglo III a.C., pero la adición podría ser anterior).\n  - Material: gneis local en los muros; posibles elementos de mármol en la fachada o el entablamento (bloques moldurados arcaicos recuperados en la zona).\n- **Altar**\n  - Altar arcaico asociado, orientado perpendicularmente al eje del templo (solución frecuente en Delos).\n  - Datado estilísticamente hacia el tercer cuarto del siglo VI a.C. (Étienne).\n- Elementos del entorno inmediato (hacia 500 a.C.)\n  - **Pozo** sagrado dentro del temenos.\n  - **Pórtico en ángulo** (stoa en L) que delimitaba parte del espacio.\n  - Proximidad a las tumbas de las Vírgenes Hiperbóreas (_Sema_ y _Theke_), situadas “detrás” o “a la izquierda” del Artemision según Heródoto.\n  - El conjunto formaba un pequeño temenos autónomo en el ángulo noroeste del santuario de Apolo.\n- Para reconstruir el Artemision arcaico se combinan:\n  - Los muros del naos conservados _in situ_ (englobados después por el templo helenístico).\n  - Los bloques moldurados arcaicos (epikranitis jónicas, fragmentos de ovas y de tore) encontrados en la zona.\n  - Los inventarios del siglo IV a.C. que describen el interior (columnas, dintel, ofrendas clavadas).\n  - La comparación con otros templos cicládicos de planta casi cuadrada y con los templos de Artemisa de la misma época.\n  - La orientación respecto al Keraton (altar de los cuernos de Apolo) y al lago sagrado.",
+      "refs": []
+    },
+    {
+      "clave": "M🗺️",
+      "etiqueta": "Entorno",
+      "texto": "- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-08-23T18%3A18%3A24.784Z-image.png?alt=media&token=0fdee8ee-663e-4c8b-8544-faad5c66159a)\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-08-23T18%3A18%3A43.161Z-image.png?alt=media&token=242ec261-7eb4-4bc7-bffe-78ed0a23013a)\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-08-23T18%3A19%3A03.440Z-image.png?alt=media&token=904b5de9-a82a-4ddf-9d20-248f3ee9d014)\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-08-23T18%3A19%3A50.719Z-image.png?alt=media&token=11ff5c3a-28b2-435c-85f9-de795b0042d4)\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-08-23T18%3A20%3A13.188Z-image.png?alt=media&token=5020e91a-4d4b-4541-95b5-76c4d949ad8c)",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Su Evolucion",
+      "texto": "- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-08-23T18%3A24%3A24.054Z-image.png?alt=media&token=36f159be-4972-4cef-821c-4d590191a0a9)"
+    }
+  ],
+  "tipos": [
+    "Santuario"
+  ],
+  "pertenece_a": []
+}

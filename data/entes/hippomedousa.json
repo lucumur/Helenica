@@ -1,0 +1,29 @@
+{
+  "id": "hippomedousa",
+  "tana_id": "5RN2oeoKZ042",
+  "nombre": "Hippomedousa",
+  "nombre_alt": "Hipomedusa",
+  "titulo_tana": "Hippomedousa = Hipomedusa",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

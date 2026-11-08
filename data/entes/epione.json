@@ -1,0 +1,43 @@
+{
+  "id": "epione",
+  "tana_id": "AAJ3YvkQ9ulQ",
+  "nombre": "Epione",
+  "nombre_alt": "Misericordiosa",
+  "titulo_tana": "Epione = Misericordiosa",
+  "etiquetas_tana": [
+    "Deidad",
+    "O",
+    "F"
+  ],
+  "imagen": null,
+  "fuentes": [
+    {
+      "titulo": "Pausanias, Description of Greece 2. 29. 1 (trans. Jones) (Greek travelogue C2nd A.D.) :\"[In the city of Epidauros in Argolis] is a precinct of Asklepios (Asclepius), with images of the god himself and Epione. Epione, they say, was the wife of Asklepios.\"",
+      "url": null
+    },
+    {
+      "titulo": "Suidas s.v. Epione (trans. Suda On Line) (Byzantine Greek lexicon C10th A.D.) :\"Epione : wife of Asklepios (Asclepius), and daughters named Hygeia, Aigle (Aegle), Iaso, Akeso (Aceso), Panakeia (Panacea).\"",
+      "url": null
+    },
+    {
+      "titulo": "Epione y Asclepio en marmol, 400aC",
+      "url": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-03-10T16%3A24%3A10.520Z-image.png?alt=media&token=abea3e04-b618-431c-b172-11082b4d2ecc"
+    }
+  ],
+  "especie": {
+    "texto": "Daemon Olimpico",
+    "refs": [
+      {
+        "tana": "vFju1Dr36EOL",
+        "nombre": "Daemon Olimpico"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

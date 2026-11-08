@@ -1,0 +1,225 @@
+{
+  "id": "aphrodite-ourania-hoplismene-la-celestial-armada-de-acrocori",
+  "tana_id": "mu0KrljuOE4v",
+  "nombre": "Aphroditē Ourania Hoplismenē (La Celestial Armada) de Acrocorinto",
+  "nombre_alt": null,
+  "titulo_tana": "Aphroditē Ourania Hoplismenē (La Celestial Armada) de Acrocorinto",
+  "etiquetas_tana": [
+    "Epiteto",
+    "agalma"
+  ],
+  "imagen": null,
+  "fuentes": [
+    {
+      "titulo": "PRIMARIAS (por antigüedad):",
+      "url": null
+    },
+    {
+      "titulo": "— Píndaro fr. 122 Snell, vía Ateneo 13.573f — s. V aC, la más antigua",
+      "url": null
+    },
+    {
+      "titulo": "— Simónides, epigrama de la tablilla, vía Ateneo 13.573c — s. V aC",
+      "url": null
+    },
+    {
+      "titulo": "— Eurípides fr. sin obra identificada, vía Estrabón 8.6.21",
+      "url": null
+    },
+    {
+      "titulo": "— Estrabón 8.6.20-21; 12.4.36 — época de Augusto",
+      "url": null
+    },
+    {
+      "titulo": "— Ateneo 13.573c-f — s. II-III dC",
+      "url": null
+    },
+    {
+      "titulo": "— Pausanias 2.5.1 (imágenes), 2.4.6-7 (subida) — s. II dC",
+      "url": null
+    },
+    {
+      "titulo": "— Numismática: cuños de Tiberio, Claudio, Marco Aurelio",
+      "url": null
+    },
+    {
+      "titulo": "BIBLIOGRAFÍA:",
+      "url": null
+    },
+    {
+      "titulo": "— Pirenne-Delforge, L'Aphrodite grecque (Kernos Suppl. 4, 1994)",
+      "url": null
+    },
+    {
+      "titulo": "— Budin, The Myth of Sacred Prostitution in Antiquity (Cambridge 2008)",
+      "url": null
+    },
+    {
+      "titulo": "— Murphy-O'Connor, St. Paul's Corinth — argumento arquitectónico",
+      "url": null
+    },
+    {
+      "titulo": "— Conzelmann, \"Corinth and the Cults\", HTR 60 (1967) — posición minoritaria",
+      "url": null
+    }
+  ],
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "- Epiteto\n- Culto",
+      "refs": [
+        {
+          "tana": "bLpN2Rh2u6Il",
+          "nombre": "Epiteto"
+        },
+        {
+          "tana": "T-tAiQFerOF2",
+          "nombre": "Culto"
+        }
+      ]
+    },
+    {
+      "clave": "Ente",
+      "etiqueta": "Ente",
+      "texto": "[Aphroditē (Afrodita)](entes:aphrodite)",
+      "refs": [
+        {
+          "tana": "5XM9zBiTodu_",
+          "nombre": "Aphroditē (Afrodita)",
+          "col": "entes",
+          "id": "aphrodite"
+        }
+      ]
+    },
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "- Funciones\n  - Receptora de votos de éxito personal\n    - ****:\n      - Jenofonte de Corinto hace voto **antes de competir en Olimpia** (464).\n      - Nota lo importante: el voto es por **victoria atlética**, no por asuntos amorosos.\n      - La diosa concede éxito en la empresa, y lo prometido son hetairas. Función distinta de \"patrona de hetairas\": ahí ellas son el _objeto_ del voto, aquí ella es quien concede\n  - Intercesora en crisis panhelénica\n    - ****: Guerras Médicas: las hetairas rezaron **por la salvación de Grecia**, no solo de Corinto. La ciudad dedicó tablilla con sus nombres y epigrama atribuido a Simónides. El alcance excede lo poliádico\n  - Madre de los Erotes\n    - ****:\n      - Píndaro la llama ματέρ' Ἐρώτων οὐρανίαν.\n      - Converge de forma independiente con el agalma de Eros en 2.5.1, seis siglos después. Función generativa, no solo erótica\n  - **entidad económica propietaria**\n    - ****: riqueza del santuario, hierodulas",
+      "refs": []
+    },
+    {
+      "clave": "M🪵",
+      "etiqueta": "Material",
+      "texto": "Inferencia: imagen escultórica convencional, mármol o bronce. Y con el corte del 146 aC, lo que Pausanias ve es casi con seguridad REPOSICIÓN ROMANA post-44 aC.",
+      "refs": []
+    },
+    {
+      "clave": "L🗺️",
+      "etiqueta": "Ubicación",
+      "texto": "[Naos de Aphroditē, Akrokórinthos](lugares:naos-de-aphrodite-akrokorinthos)",
+      "refs": [
+        {
+          "tana": "KdHeJ0ikfMes",
+          "nombre": "Naos de Aphroditē, Akrokórinthos",
+          "col": "lugares",
+          "id": "naos-de-aphrodite-akrokorinthos"
+        }
+      ]
+    },
+    {
+      "clave": "P⏪",
+      "etiqueta": "Antecesor",
+      "texto": "- [Aphroditē Ourania (La Celestial)](entes:aphrodite-ourania)\n  - implica Dominio de los Cielos y su Residencia en la Cumbre, en contraposicion a Pandemos, la del pueblo. (Platon, Symposium 180d)\n- [Aphroditē Hoplismenē (La Armada)](entes:aphrodite-hoplismene)\n  - implica entidad Poliadica, aunque no es diosa belica\n  - **Hipótesis A (sustrato oriental guerrero):** Herencia de Ishtar/Astarté, que en Mesopotamia y el Levante es simultáneamente diosa del amor Y de la guerra — sin la separación de funciones que los griegos tienden a asignar a divinidades distintas (Afrodita/Atenea/Ares). Esta hipótesis es la que yo priorizaría dado el patrón migratorio del culto vía Chipre.\n  - **Hipótesis B (Flamant/Pirenne-Delforge):** lectura política — Afrodita armada como protectora militar de la ciudad, patrona de la defensa de Acrocorinto (que era, después de todo, una fortificación estratégica, no solo un santuario).",
+      "refs": [
+        {
+          "tana": "0qosgWfrL9oQ",
+          "nombre": "Aphroditē Ourania (La Celestial)",
+          "col": "entes",
+          "id": "aphrodite-ourania"
+        },
+        {
+          "tana": "wh0l5lIhmrh-",
+          "nombre": "Aphroditē Hoplismenē (La Armada)",
+          "col": "entes",
+          "id": "aphrodite-hoplismene"
+        }
+      ]
+    },
+    {
+      "clave": "A⚡",
+      "etiqueta": "Poderes",
+      "texto": "- Ritos y Tradiciones\n  - Quema de incienso por las hetairas\n    - ****: Píndaro fr. 122: quemáis las **rubias lágrimas del fresco incienso** (χλωρᾶς λιβάνου ξανθὰ δάκρη). Es el **único acto ritual concreto atestiguado** en todo el santuario — sabemos qué quemaban y quién. El λίβανος es importación arábigo-levantina, coherente con la red que trae el epíteto\n  - Plegaria colectiva en crisis\n    - ****: Súplica de las mujeres corintias en las Guerras Médicas, con alcance panhelénico (por la salvación de Grecia, no solo de Corinto)\n  - Dedicación de tablilla votiva con nómina\n    - ****:\n      - La ciudad inscribe los nombres de las hetairas participantes, con epigrama. Es **exvoto epigráfico oficial**, tipo bien conocido\n      - **El caso de las Guerras Médicas** es el ejemplo público de esa misma mecánica: Ateneo (13.573c) recoge que las hetairas corintias rezaron por la salvación de Grecia y que la ciudad dedicó una tablilla conmemorativa en el templo con sus nombres, acompañada de un epigrama atribuido a **Simónides**\n  - Voto condicional (δεκάτη)\n    - ****:\n      - Mecánica estándar: prometer porción del éxito si se concede lo pedido. Lo singular de Corinto es la **naturaleza de lo prometido: personas**\n      - **Ateneo 13.573c-d** da la costumbre como general en Corinto: particulares prometen a la diosa que si se cumple lo pedido, llevarán _hetairai_. Y añade el dato del uso público: involucrar tantas prostitutas como sea posible en súplicas colectivas.\n  - Institución permanente de cientos de hieródulas propiedad del templo\n    - ****: . Un cuerpo de 100-200 mujeres asociadas al santuario, ejerciendo en la ciudad baja, con obligaciones rituales periódicas, es logísticamente viable y no requiere ningún edificio grande.\n  - Prostitución ritual sagrada como acto de culto en el santuario\n    - ****:\n      - **Escenario C: la fama es real y antigua, pero el contenido de la fama se fue transformando.** Es decir: lo que sí era famoso y antiguo era la **asociación estructural** entre Corinto, Afrodita y las hetairas — una ciudad portuaria riquísima, con diosa poliádica erótica, donde las cortesanas tenían estatus ritual público reconocido. Eso es Grado A desde el s. V a.C. Lo que se añade después es la _lectura_ de esa asociación como \"prostitución sagrada institucionalizada\", que es una categoría formada por analogía con estereotipos griegos sobre el Oriente (Heródoto sobre Babilonia) y consolidada por Estrabón.\n      - La diferencia con tus dos opciones: no hace falta que hubiera una institución arcaica que se perdió, ni que hubiera continuidad ininterrumpida. Basta con que hubiera **una realidad social-ritual continua** (hetairas con función cultual reconocida) sobre la que se sedimentó una **interpretación institucional posterior**.",
+      "refs": []
+    },
+    {
+      "clave": "A👤",
+      "etiqueta": "Creador",
+      "texto": "\"he venido tras dejar Acrocorinto, bañada por todas partes, sacra colina de Afrodita\". - Euripides",
+      "refs": []
+    },
+    {
+      "clave": "Relaciones",
+      "etiqueta": "Relaciones",
+      "texto": "[Aphroditē Ourania Hoplismenē (La Celestial Guerrera) de Kythera](entes:aphrodite-ourania-hoplismene-la-celestial-guerrera-de-kyther) = variante similar, sin hetairas",
+      "refs": [
+        {
+          "tana": "6JKTZMl5wq0Z",
+          "nombre": "Aphroditē Ourania Hoplismenē (La Celestial Guerrera) de Kythera",
+          "col": "entes",
+          "id": "aphrodite-ourania-hoplismene-la-celestial-guerrera-de-kyther"
+        }
+      ]
+    },
+    {
+      "clave": "P📊",
+      "etiqueta": "Propiedades",
+      "texto": "- Elementos Caracteristicos\n  - Desnudez y sensualidad\n    - ****:\n      - La diosa aparece parcialmente desnuda, NO con armadura completa.\n        - La desnudez parcial con atributo marcial es la combinación diagnóstica del tipo.\n  - El Escudo-Espejo\n    - ****:\n      - Escudo sostenido ante sí y usado como espejo. Es el escudo de ARES\n      - unifica erotismo y defensa en un solo gesto. Lo que la imagen dice es que LA BELLEZA ES EL ARMA, no que la diosa tenga dos departamentos separados. Afrodita desarma a Ares seduciéndolo; el escudo en sus manos es TROFEO.\n    - **Problematica:**\n      - Solo atestiguado en cuños de la Corinto romana\n      - Podría ser desarrollo helenístico o romano, no rasgo arcaico conservador\n      - Consecuencia taxonómica: es el único candidato a rasgo derivado exclusivo que uniría a Citera y Corinto como grupo real, y de él no hay confirmación citeria. Sin ese dato comparten etiqueta, no linaje\n      - Caveat: los cuños  en flan de ~20 mm que obliga a reducir a emblema. Documentan el tipo iconográfico, no el mobiliario del naos\n  - Armada pero no guerrera\n    - ****:\n      - Distinción por contraste:\n        - Afrodita Areia y Enoplios (Esparta, Paus. 3.17.5): armadas, sin indicio de que el arma sea ornamento\n        - Atenea: armada y combatiente\n        - Acrocorinto: armada, no combate, arma como objeto de vanidad\n        - Acrocorinto hace un movimiento adicional: SUBORDINA lo marcial a lo erótico. El arma no es capacidad, es atributo de poder sobre quien la porta.\n    - **Problematica:**\n      - Hipótesis sobre el origen del armamento:\n        - **A. Sustrato oriental** — Ishtar y Astarté funden amor y guerra sin la separación funcional que los griegos reparten entre Afrodita, Atenea y Ares. Anat guerrera en textos ugaríticos; Astarté con carro y caballos en fuentes egipcias; iconografía de Qudshu con armas\n        - **B. Lectura política** (Flamant / Pirenne-Delforge) — protectora militar de una fortificación de 575 m, la más fuerte del Peloponeso. La iconografía responde al sitio\n      - Problema cladístico: si el armamento es ancestral y está atestiguado en el Levante, Citera y Corinto no lo comparten por parentesco, lo retienen mientras Pafos y Ascalón lo perdieron. Retención conjunta no define grupo\n  - Se alimenta de adoración femenina.\n    - ****:\n      - Hetairas dedicadas por voto (Píndaro / Ateneo 13.573)\n      - Mujeres corintias suplicando en las Guerras Médicas\n      - Tablilla con los nombres de las hetairas dedicada en el templo, con epigrama atribuido a Simónides\n      - Las _hieródulai_ de Estrabón, con el término abarcando funcionarias religiosas, no solo cortesanas\n    - **Problematica:**\n      - Ausencia correlativa: no hay sacerdocio masculino atestiguado, ni sacerdote nombrado, ni familia sacerdotal\n      - Contraste con Pafos, mismo epíteto y estructura inversa: sacerdocio masculino dinástico (solo un descendiente de Cíniras es consultado), víctimas machos preferidas, prohibición de derramar sangre. Opuestos punto por punto\n      - Simetría invertida con Sición: ambas servidas solo por mujeres, con régimen sexual opuesto — Sición por célibes (neocoros vitalicia, loutróforo virgen anual), Acrocorinto por hetairas",
+      "refs": []
+    },
+    {
+      "clave": "A🌱",
+      "etiqueta": "Origen",
+      "texto": "Segun la leyenda Corintia, despues de que Helios dominara exclusivamente el Acrocorinto despues de la reparticion con Poseidon, este le entrega pacificamente la \"corona\" a Afrodita",
+      "refs": []
+    },
+    {
+      "clave": "U👥",
+      "etiqueta": "Usuarios",
+      "texto": "- Devotos\n  - **La polis como cuerpo cívico**\n    - ****:\n      - Afrodita era **la divinidad protectora de la ciudad de Corinto** — no una diosa más.\n      - La ciudad dedicó la tablilla conmemorativa con epigrama de Simónides. No es devoción privada: es **acto oficial de la polis**\n    - **Evidencia:** **Grado A por inferencia fuerte**\n  - **Mujeres corintias en contexto de crisis colectiva**\n    - **Evidencia:** **Grado B, tradicion atestiguada**\n    - ****:\n      - Durante las Guerras Médicas, las mujeres corintias suplicaron a Afrodita ayuda para el bando griego.\n      - Esto encaja perfectamente con el epíteto Hoplismene: **la diosa armada es a quien se acude en emergencia militar de la polis**, no una divinidad de asuntos privados.\n      - La propia autora de esa fuente lo formula bien: la deidad era poderosa contra enemigos naturales y humanos, sirviendo no solo necesidades individuales sino las de toda la polis, consolidando la identidad corintia.\n  - **Individuos con votos privados**\n    - **Evidencia:** **Grado A, Píndaro fr. 122**\n    - ****: Jenofonte de Corinto, vencedor olímpico del 464, es el caso documentado: aristócrata que hace voto privado a Afrodita antes de competir. Esto indica que el santuario recibía **exvotos de particulares de élite** por éxito personal (atlético, comercial, marítimo).\n  - **Navegantes y comerciantes**\n    - **Evidencia:** **Grado C, inferencia tipologica**\n    - ****: Plausible dado el doble puerto y la visibilidad de Acrocorinto desde el mar, pero sin atestación directa para este santuario específico.\n  - Atletas y competidores\n    - ****: Jenofonte de Corinto hace voto **antes de competir en Olimpia** (464). Es el único devoto individual con nombre. Lo notable: el voto es por **victoria atlética**, no por asunto amoroso — y lo prometido son personas\n  - Las hetairas como cuerpo ritual reconocido\n    - ****: Distinto de \"patrona de hetairas\": aquí ellas son **agentes**, no objeto. Tres niveles: dedicadas por voto ajeno; rezando colectivamente en crisis; con sus nombres en tablilla oficial de la ciudad\n  - Forasteros en contexto festivo\n    - ****: Estrabón 12.4.36: por la multitud de cortesanas consagradas a Afrodita, los forasteros acudían en gran número y **celebraban fiesta**. Marco festivo y de afluencia, no de servicio sexual litúrgico",
+      "refs": []
+    },
+    {
+      "clave": "H🔼",
+      "etiqueta": "Pertenece a",
+      "texto": "- Triada del Acrocorinto (Helios + Afrodita + Eros)\n  - [Aphroditē Hoplismenē (La Armada), Acrocorinto](objetos:aphrodite-hoplismene-la-armada-acrocorinto)\n  - [Helios (Agalma), Acrocorinto](objetos:helios-agalma-acrocorinto)\n  - [Eros con Arco (Agalma), Acrocorinto](objetos:eros-con-arco-agalma-acrocorinto)",
+      "refs": [
+        {
+          "tana": "VWenSpXP0LEK",
+          "nombre": "Aphroditē Hoplismenē (La Armada), Acrocorinto",
+          "col": "objetos",
+          "id": "aphrodite-hoplismene-la-armada-acrocorinto"
+        },
+        {
+          "tana": "7bYZ0VYTXI08",
+          "nombre": "Helios (Agalma), Acrocorinto",
+          "col": "objetos",
+          "id": "helios-agalma-acrocorinto"
+        },
+        {
+          "tana": "qBS29gF0FnIY",
+          "nombre": "Eros con Arco (Agalma), Acrocorinto",
+          "col": "objetos",
+          "id": "eros-con-arco-agalma-acrocorinto"
+        }
+      ]
+    },
+    {
+      "clave": "H📈",
+      "etiqueta": "Historia",
+      "texto": "- Si la Ourania Hoplismene es tipo fenicio-citerio importado, entonces la tríada de la cumbre no es necesariamente familia solar arcaica — podría ser una instalación posterior sobre un lugar que ya era de Helios, con Helios sobreviviendo como agalma del dueño anterior.\n- Las dos hipótesis no son incompatibles en el tiempo, pero sí hay que ordenarlas:\n  - **Si Helios es primero** (900) y la Ourania fenicia llega después (orientalizante, VIII-VII), entonces el agalma de Helios en el templo es residuo del culto desplazado, y el mito de cesión registra esa sustitución. Eros sería añadido griego posterior.\n  - **Si la pareja es original**, hay que explicar por qué el tipo iconográfico coincide punto por punto con Citera, que tiene ruta fenicia documentada y ningún Helios.",
+      "refs": []
+    },
+    {
+      "clave": "A🪪",
+      "etiqueta": "Alias / fases",
+      "texto": "Aphroditē Hoplismenē; Afrodita Armada de Acrocorinto; \"madre celeste de los Erotes\" (Píndaro); Venus Armata",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Agalma (estatua de culto)",
+    "Epíteto"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "keryneia-achaia",
+  "tana_id": "4DEbWYN4-bUx",
+  "nombre": "Kerýneia, Achaia",
+  "nombre_alt": "Liga",
+  "titulo_tana": "Kerýneia, Achaia (Liga)",
+  "etiquetas_tana": [
+    "Ciudad"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ciudad"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "WpBb2l06zZsT",
+    "nombre": "Tercer Athlos: Atrapar a la Cierva de Cerynea (Aquea)",
+    "col": "eventos",
+    "id": "tercer-athlos-atrapar-a-la-cierva-de-cerynea"
+  }
+}

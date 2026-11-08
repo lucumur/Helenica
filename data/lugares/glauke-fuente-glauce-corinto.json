@@ -1,0 +1,30 @@
+{
+  "id": "glauke-fuente-glauce-corinto",
+  "tana_id": "mbTL453ifmX1",
+  "nombre": "Glaukē (Fuente Glauce), Corinto",
+  "nombre_alt": null,
+  "titulo_tana": "Glaukē (Fuente Glauce), Corinto",
+  "etiquetas_tana": [
+    "fons"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Función",
+      "etiqueta": "Función",
+      "texto": "Hidrica",
+      "refs": []
+    },
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "Fuente tallada en un bloque de roca al oeste del templo de Apolo, con cisternas internas.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Fuente"
+  ],
+  "pertenece_a": []
+}

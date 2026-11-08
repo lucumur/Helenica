@@ -1,0 +1,46 @@
+{
+  "id": "hieron-de-athana-hippia-y-poteidan-damaios",
+  "tana_id": "z-YnYlY54013",
+  "nombre": "Hieron de Athānā Hippia y Poteidān Damaios",
+  "nombre_alt": null,
+  "titulo_tana": "Hieron de Athānā Hippia y Poteidān Damaios",
+  "etiquetas_tana": [
+    "hieron"
+  ],
+  "imagen": null,
+  "fuentes": [
+    {
+      "titulo": "Píndaro, _Olímpica_ 13; Pausanias 1.30.4, 2.4.1-3, 5.15.5-6, 8.25.4-7; _Iliada_ 6.152-202.",
+      "url": null
+    },
+    {
+      "titulo": "Ventris, M. & Chadwick, J., _Documents in Mycenaean Greek_, 2ª ed. (Cambridge, 1973).",
+      "url": null
+    },
+    {
+      "titulo": "Yalouris, N., \"Athena als Herrin der Pferde\", _Museum Helveticum_ 7 (1950).",
+      "url": null
+    },
+    {
+      "titulo": "Detienne, M. & Vernant, J.-P., _Les ruses de l'intelligence. La mètis des Grecs_ (París, 1974), cap. sobre Atenea, el freno y el barco.",
+      "url": null
+    },
+    {
+      "titulo": "Ajootian, A., comunicaciones CAMWS 2008 y 2020 sobre la Atenea del Odeón.",
+      "url": null
+    }
+  ],
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "- Santuario",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Santuario"
+  ],
+  "pertenece_a": []
+}

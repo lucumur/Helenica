@@ -1,0 +1,46 @@
+{
+  "id": "persephone",
+  "tana_id": "S6r5slBzcoTP",
+  "nombre": "Persephonē",
+  "nombre_alt": "Persefone",
+  "titulo_tana": "Persephonē = Persefone",
+  "etiquetas_tana": [
+    "O",
+    "Deidad",
+    "F"
+  ],
+  "imagen": null,
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "Dios Ctonico",
+    "refs": [
+      {
+        "tana": "RGWcAdE8Sft5",
+        "nombre": "Dios Ctonico"
+      }
+    ]
+  },
+  "padres": {
+    "texto": "- [Zéus (Zeus)](entes:zeus)\n- [Dēmētēr = Démeter](entes:demeter)",
+    "refs": [
+      {
+        "tana": "Yz-NkVaNbFNa",
+        "nombre": "Zéus (Zeus)",
+        "col": "entes",
+        "id": "zeus"
+      },
+      {
+        "tana": "CRkXuyVKm_z4",
+        "nombre": "Dēmētēr = Démeter",
+        "col": "entes",
+        "id": "demeter"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": "F"
+}

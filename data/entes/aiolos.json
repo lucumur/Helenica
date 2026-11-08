@@ -1,0 +1,18 @@
+{
+  "id": "aiolos",
+  "tana_id": "SFb7XNVrpMYY",
+  "nombre": "Aiolos",
+  "nombre_alt": "Eolo",
+  "titulo_tana": "Aiolos (Eolo)",
+  "etiquetas_tana": [
+    "Heroe"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

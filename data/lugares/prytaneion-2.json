@@ -1,0 +1,17 @@
+{
+  "id": "prytaneion-2",
+  "tana_id": "I0feGSfs5OpW",
+  "nombre": "Prytaneion",
+  "nombre_alt": "Pritaneo de Syros",
+  "titulo_tana": "Prytaneion (Pritaneo de Syros)",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

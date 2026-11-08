@@ -1,0 +1,29 @@
+{
+  "id": "kleopatra",
+  "tana_id": "AoWMIPNk0Qin",
+  "nombre": "Kleopatra",
+  "nombre_alt": "Cleopatra",
+  "titulo_tana": "Kleopatra = Cleopatra",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

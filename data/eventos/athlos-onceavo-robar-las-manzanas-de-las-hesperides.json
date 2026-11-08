@@ -1,0 +1,18 @@
+{
+  "id": "athlos-onceavo-robar-las-manzanas-de-las-hesperides",
+  "tana_id": "pyW1bRFLAdUT",
+  "nombre": "Athlos Onceavo: Robar las Manzanas de las Hesperides (Iberia)",
+  "nombre_alt": null,
+  "titulo_tana": "Athlos Onceavo: Robar las Manzanas de las Hesperides (Iberia)",
+  "etiquetas_tana": [
+    "Evento"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipo": "Mítico",
+  "serie": {
+    "nombre": "Doce Labores de Heracles",
+    "orden": 11
+  }
+}

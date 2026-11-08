@@ -1,0 +1,37 @@
+{
+  "id": "akropolis-athenai",
+  "tana_id": "50oPv0Ts0sbu",
+  "nombre": "Akrópolis, Athēnai",
+  "nombre_alt": null,
+  "titulo_tana": "Akrópolis, Athēnai",
+  "etiquetas_tana": [
+    "hieron"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-09-11T19%3A16%3A04.875Z-image.png?alt=media&token=81aab4f8-a2f3-4fe9-a1a2-6063d5357688",
+  "campos": [
+    {
+      "clave": "S🧩",
+      "etiqueta": "Subunidades / partes",
+      "texto": "- [Témenos de Atenea, Akrópolis de Atenas](lugares:temenos-de-atenea-akropolis-de-atenas)\n- Propileos = Entrada monumental, de mnesikles 437-432aC\n- Templo Dorico Mayor (Partenon Convencional) Iktinos y Kalikrates 447-432aC\n- Templo de Atenea Nike = Kalikrates, bastion suroeste de los propileos 420aC\n- Templo de las Cariatides 406 aC\n- Cimientos Dorpfeld (archaios neos?, erechtheion real?)\n- Pandroseion\n- Kekropion\n- Altas de Athene Polias  - al este del templo de las cariatides.\n- [Chalkothēkē, Akrópolis Atenea](lugares:chalkotheke-akropolis-atenea)\n- Brauroneion - Artemis Brauronia\n- Arrephorion -\n- Olivo Sagrado\n- Muralla Ciclopea",
+      "refs": [
+        {
+          "tana": "sfUAOTSSkHm6",
+          "nombre": "Témenos de Atenea, Akrópolis de Atenas",
+          "col": "lugares",
+          "id": "temenos-de-atenea-akropolis-de-atenas"
+        },
+        {
+          "tana": "gYwz6D4nZzHe",
+          "nombre": "Chalkothēkē, Akrópolis Atenea",
+          "col": "lugares",
+          "id": "chalkotheke-akropolis-atenea"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Santuario"
+  ],
+  "pertenece_a": []
+}

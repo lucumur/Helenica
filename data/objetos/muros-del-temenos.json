@@ -1,0 +1,21 @@
+{
+  "id": "muros-del-temenos",
+  "tana_id": "uNI3nJbcKYsU",
+  "nombre": "Muros del Temenos",
+  "nombre_alt": null,
+  "titulo_tana": "Muros del Temenos",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- ****: Con propileos norte y este en la fase arcaica; ampliado y con nuevas estoas en época romana"
+    }
+  ],
+  "tipos": [
+    "Objeto"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "apollon-pythios",
+  "tana_id": "SYrofaOjJMbt",
+  "nombre": "Apollôn Pythios",
+  "nombre_alt": "El Oraculo",
+  "titulo_tana": "Apollôn Pythios = El Oraculo",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "atributos": {
+    "texto": "- [Tripode Delfico](objetos:tripode-delfico)\n- [Onfalos (Piedra Sagrada)](objetos:onfalos)\n- Serpiente Pitón\n- Oracular, Semidesnudo con expresion severa\n- [Phylaktēria = banda filacteria](objetos:phylakteria)",
+    "refs": [
+      {
+        "tana": "6ZROcL3_7pHH",
+        "nombre": "Tripode Delfico",
+        "col": "objetos",
+        "id": "tripode-delfico"
+      },
+      {
+        "tana": "ydULaTlRXO3d",
+        "nombre": "Onfalos (Piedra Sagrada)",
+        "col": "objetos",
+        "id": "onfalos"
+      },
+      {
+        "tana": "rn1MV9NdeDB_",
+        "nombre": "Phylaktēria = banda filacteria",
+        "col": "objetos",
+        "id": "phylakteria"
+      }
+    ]
+  },
+  "culto": {
+    "texto": "Primicias Agricolas (aparchai), Laurel (Dafne) y Libaciones de Hidromiel (melikraton)",
+    "refs": []
+  },
+  "campos": [
+    {
+      "clave": "Ente",
+      "etiqueta": "Ente",
+      "texto": "[Apollôn = Apolo](entes:apollon)",
+      "refs": [
+        {
+          "tana": "9OYZLA3QegGP",
+          "nombre": "Apollôn = Apolo",
+          "col": "entes",
+          "id": "apollon"
+        }
+      ]
+    },
+    {
+      "clave": "Funcion",
+      "etiqueta": "Funcion",
+      "texto": "- Oraculo y Sabiduria\n- Representaba la conexion con Delfos",
+      "refs": []
+    },
+    {
+      "clave": "Lugar",
+      "etiqueta": "Lugar",
+      "texto": "Templo Pythion, Atenas",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "9OYZLA3QegGP",
+    "nombre": "Apollôn",
+    "col": "entes",
+    "id": "apollon"
+  }
+}

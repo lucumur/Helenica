@@ -1,0 +1,27 @@
+{
+  "id": "destruccion-por-mumio",
+  "tana_id": "0S6HUoyvFHz6",
+  "nombre": "Destrucción por Mumio",
+  "nombre_alt": null,
+  "titulo_tana": "Destrucción por Mumio",
+  "etiquetas_tana": [
+    "Evento"
+  ],
+  "imagen": null,
+  "tipo_tana": {
+    "texto": "Evento destructivo",
+    "refs": [
+      {
+        "tana": "C3FvQerkgQNV",
+        "nombre": "Evento destructivo"
+      }
+    ]
+  },
+  "cuando": {
+    "texto": "146: murallas derribadas; culto cívico interrumpido. ⬤",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "tipo": "Histórico"
+}

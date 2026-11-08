@@ -1,0 +1,24 @@
+{
+  "id": "bouleuterion-corinto-helenistica",
+  "tana_id": "8hP7Bsie7gOL",
+  "nombre": "Bouleuterion, Corinto Helenistica",
+  "nombre_alt": null,
+  "titulo_tana": "Bouleuterion, Corinto Helenistica",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "Politica",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

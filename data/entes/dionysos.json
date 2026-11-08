@@ -1,0 +1,240 @@
+{
+  "id": "dionysos",
+  "tana_id": "KYqlICdmSaZv",
+  "nombre": "Dionysos",
+  "nombre_alt": "Dionisio",
+  "titulo_tana": "Dionysos (Dionisio)",
+  "etiquetas_tana": [
+    "O",
+    "Deidad",
+    "M"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-04-07T18%3A43%3A36.367Z-image.png?alt=media&token=564e0691-cb91-4e34-8694-54f4ff9343d8",
+  "descripcion": {
+    "texto": "Dios Griego del Vino y Fertilidad",
+    "refs": []
+  },
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "Dios Olimpico",
+    "refs": []
+  },
+  "epitetos": {
+    "texto": "- Nombres Tracios\n  - [Dionysos (Dionisio)](entes:dionysos) (Prestamo Tracio) Nombre adoptado por los Romanos\n  - Iakhos\n- sobre su aspecto\n  - Adoneus (latinizada forma de Adonis) en Roma, Estado Romano (Metropolis)\n  - Andrógynos (el de forma femenina y masculina)\n  - Bassareus (el vestido con piel de zorro) en [Thrakē (Nacion)](lugares:thrake)\n  - Melanaigis (el de piel de cabra negra)\n- sobre sus origenes\n  - Bougenēs (el que nació de una vaca) en [Lerna, Argolis (Region)](lugares:lerna-argolis-2)\n  - Dimētōr (el de dos madres)\n  - Enorchēs (el que esta en los testiculos)\n  - Evios, Evastēr (el de Evai)\n  - Nysios (por fundar la ciudad de Nysa)\n  - Semeleios (el hijo de la Tierra)\n- sobre su divinidad\n  - Aisymnētēs (el designado, el gobernador) en [Aroē, Achaia (Polis)](lugares:aroe-achaia)\n  - Mystēs (el de los Misterios)\n  - Taurophagos (el que come toros) en sus rituales se le ofrecia toros\n  - Isodaitēs (el que reparte a partes iguales)\n- sobre su Rusticidad\n  - Akrōreitēs (habitante de la montaña) en [Sikyôn, Asopia (Polis)](lugares:sikyon-asopia)\n  - Agrios (Silvestre) en [Makedonía (Estado)](lugares:makedonia)\n  - Bromios (el que brama)\n  - Chthonios (el terrenal)\n  - Endendros (el que esta dentro de los arboles)\n  - Erikryptos (el que se esconde bien)\n  - Kemēlios (el de los cervatillos)\n  - Ōmadios (el que come carne cruda)\n- sobre la agricultura\n  - Liknitēs (el que usa la criba)\n  - Kistophoros (el que lleva canastas)\n  - Sykitēs (el de los higos)\n- sobre el alcohol, vino y las vides\n  - Akratophoros (el que da vino sin diluir, el que embriaga) en [Phigaleia, Arcadia (Demos)](lugares:phigaleia-arcadia)\n  - Braitēs (el de la Cerveza) en [Thrakē (Nacion)](lugares:thrake)\n  - Lēnaios (el de la prensa de uva)\n  - Oineus (el del vino)\n  - Perikionios (el que sube por las columnas) la Vid personificada\n  - Skyllitas (el de las ramas de vid)\n  - Theoinos (dios del vino)\n  - Thyllophoros (el envuelto en hojas de vid)\n- sobre su fuerza y Belicidad\n  - Aigobólos (el que dispara a cabras) en [Potniai, Boiōtia (Polis)](lugares:potniai-boiotia)\n  - Brīseus (el que prevalece) en [Smyrna, Iōnía (Polis)](lugares:smyrna-ionia)\n  - Eridromos (El que corre excelente)\n  - Anthrōporraistēs (destructor de hombres) en [Tenedos (Isla-Polis)](lugares:tenedos)\n  - Indoletēs (asesino de Indios)\n- sobre su liberalidad\n  - Eleutherios (el liberador)\n  - Choiropsalas (el que toca las vulvas)\n  - Phallēn (el del Falo)\n  - Pseudanor (el falso hombre) por su bisexualidad\n  - Dithyrambos (el que canta versos de 4 iambos)",
+    "refs": [
+      {
+        "tana": "KYqlICdmSaZv",
+        "nombre": "Dionysos (Dionisio)",
+        "col": "entes",
+        "id": "dionysos"
+      },
+      {
+        "tana": "GZUqi0eq9AAN",
+        "nombre": "Roma, Estado Romano (Metropolis)"
+      },
+      {
+        "tana": "NQQV1ah69A5O",
+        "nombre": "Thrakē (Nacion)",
+        "col": "lugares",
+        "id": "thrake"
+      },
+      {
+        "tana": "e30B_D73-DJ3",
+        "nombre": "Lerna, Argolis (Region)",
+        "col": "lugares",
+        "id": "lerna-argolis-2"
+      },
+      {
+        "tana": "tVx4CtrT8Rl_",
+        "nombre": "Aroē, Achaia (Polis)",
+        "col": "lugares",
+        "id": "aroe-achaia"
+      },
+      {
+        "tana": "XLYqPFSnZv6g",
+        "nombre": "Sikyôn, Asopia (Polis)",
+        "col": "lugares",
+        "id": "sikyon-asopia"
+      },
+      {
+        "tana": "b4OAQLwjRxnV",
+        "nombre": "Makedonía (Estado)",
+        "col": "lugares",
+        "id": "makedonia"
+      },
+      {
+        "tana": "Nbq0iBaR0b72",
+        "nombre": "Phigaleia, Arcadia (Demos)",
+        "col": "lugares",
+        "id": "phigaleia-arcadia"
+      },
+      {
+        "tana": "sV3wrHt4vq1r",
+        "nombre": "Potniai, Boiōtia (Polis)",
+        "col": "lugares",
+        "id": "potniai-boiotia"
+      },
+      {
+        "tana": "0yQaZ13HCb3H",
+        "nombre": "Smyrna, Iōnía (Polis)",
+        "col": "lugares",
+        "id": "smyrna-ionia"
+      },
+      {
+        "tana": "FKDrsH2MHOsC",
+        "nombre": "Tenedos (Isla-Polis)",
+        "col": "lugares",
+        "id": "tenedos"
+      }
+    ]
+  },
+  "asociaciones": {
+    "texto": "[Thyrsos (Baculo)](objetos:thyrsos) =",
+    "refs": [
+      {
+        "tana": "09A8yJgMnEkC",
+        "nombre": "Thyrsos (Baculo)",
+        "col": "objetos",
+        "id": "thyrsos"
+      }
+    ]
+  },
+  "eventos": {
+    "texto": "- [Dionysia (Festival)](eventos:dionysia)\n- [Haloa (Festival)](eventos:haloa)\n- [Askolia (Festival)](eventos:askolia)\n- [Lēnaia (Festival)](eventos:lenaia)\n- [Anthestēria (Festival)](eventos:anthesteria)\n- [Misterios Dionisiacos (Culto)](eventos:misterios-dionisiacos)\n- [Misterios Eleusinios (Culto)](eventos:misterios-eleusinios)",
+    "refs": [
+      {
+        "tana": "uDtZinBQYwD_",
+        "nombre": "Dionysia (Festival)",
+        "col": "eventos",
+        "id": "dionysia"
+      },
+      {
+        "tana": "ksyuLZV4ujkg",
+        "nombre": "Haloa (Festival)",
+        "col": "eventos",
+        "id": "haloa"
+      },
+      {
+        "tana": "FxzVw9BV7cJ0",
+        "nombre": "Askolia (Festival)",
+        "col": "eventos",
+        "id": "askolia"
+      },
+      {
+        "tana": "sv1N5294VFFW",
+        "nombre": "Lēnaia (Festival)",
+        "col": "eventos",
+        "id": "lenaia"
+      },
+      {
+        "tana": "yNrSKuj0gEBj",
+        "nombre": "Anthestēria (Festival)",
+        "col": "eventos",
+        "id": "anthesteria"
+      },
+      {
+        "tana": "xp10PCPHZ3Vo",
+        "nombre": "Misterios Dionisiacos (Culto)",
+        "col": "eventos",
+        "id": "misterios-dionisiacos"
+      },
+      {
+        "tana": "Tt690HCnUP19",
+        "nombre": "Misterios Eleusinios (Culto)",
+        "col": "eventos",
+        "id": "misterios-eleusinios"
+      }
+    ]
+  },
+  "nacimiento": {
+    "texto": "- Concebido en [Camara de Semele, Thēbai, Boiōtia (Mansion)](lugares:camara-de-semele-thebai-boiotia)\n- Nacido en [Monte Nysa, Utopico](lugares:monte-nysa-utopico)",
+    "refs": [
+      {
+        "tana": "F_c98GZhLMcN",
+        "nombre": "Camara de Semele, Thēbai, Boiōtia (Mansion)",
+        "col": "lugares",
+        "id": "camara-de-semele-thebai-boiotia"
+      },
+      {
+        "tana": "qKRDyrItpINa",
+        "nombre": "Monte Nysa, Utopico",
+        "col": "lugares",
+        "id": "monte-nysa-utopico"
+      }
+    ]
+  },
+  "contrincantes": {
+    "texto": "[Zagreus = Zagreo](entes:zagreus)",
+    "refs": [
+      {
+        "tana": "jFORY0Ot0hZ1",
+        "nombre": "Zagreus = Zagreo",
+        "col": "entes",
+        "id": "zagreus"
+      }
+    ]
+  },
+  "titulos": {
+    "texto": "Dionisio",
+    "refs": []
+  },
+  "fuentes": [
+    {
+      "titulo": "Nonnus Dionysiaca and Late-Antique Discourse on Warfare",
+      "url": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-08-13T16%3A40%3A17.798Z-pkpadmin%2C%2BKauf.pdf?alt=media&token=649adb88-e963-4f97-be54-45122d99a434"
+    },
+    {
+      "titulo": "The Appearance of the Gods in the Dionysiaca of Nonnus",
+      "url": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-08-13T16%3A47%3A33.908Z-pkpadmin%2C%2B1281-5161-1-CE.pdf?alt=media&token=9259188b-cfd3-4a7f-b40f-107e72b8c70a"
+    }
+  ],
+  "conyuges": {
+    "texto": "[Ariadnē = Ariadna](entes:ariadne)",
+    "refs": [
+      {
+        "tana": "rdHsb4BOWDLQ",
+        "nombre": "Ariadnē = Ariadna",
+        "col": "entes",
+        "id": "ariadne"
+      }
+    ]
+  },
+  "padres": {
+    "texto": "- [Persephonē = Persefone](entes:persephone)\n- [Zéus (Zeus)](entes:zeus)\n- [Semelē = Semele](entes:semele)",
+    "refs": [
+      {
+        "tana": "S6r5slBzcoTP",
+        "nombre": "Persephonē = Persefone",
+        "col": "entes",
+        "id": "persephone"
+      },
+      {
+        "tana": "Yz-NkVaNbFNa",
+        "nombre": "Zéus (Zeus)",
+        "col": "entes",
+        "id": "zeus"
+      },
+      {
+        "tana": "GNviY-9I40Fk",
+        "nombre": "Semelē = Semele",
+        "col": "entes",
+        "id": "semele"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Etimologia",
+      "texto": "- Forma Micenica = Diwonuso (1300aC)\n- Forma Reconstruida con los Dialectos = Diwosnûsos\n- Elemento nûso\n  - Monte Nysa? Donde nacio segun un mito, nutrido por las Nysiades?\n  - Snusos = \"yerno de Zeus\" ? de snusos nuera?\n- Origen Pre-Griego probable"
+    },
+    {
+      "titulo": "Origenes",
+      "texto": "- Records mas Antiguos\n  - Palacio de Nestor, Pylos (Epoca Micenica ~ 1300aC) = \"Diwonusojo\" (\"de Dionisio\")\n  - Pylos (Epoca Micenica ~ 1300aC) = \"Eleuther\" (\"el Liberto\")\n    - probable nombre de Dionisio ( Dionysos Eleutheros)\n  - Es probable que ya en esta epoca estuvieran asentados todas las bases de la religion Dionisiaca"
+    }
+  ],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": "M"
+}

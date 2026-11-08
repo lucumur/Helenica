@@ -1,0 +1,30 @@
+{
+  "id": "fuente-oracular",
+  "tana_id": "EhB8hnbZkKq6",
+  "nombre": "Fuente Oracular",
+  "nombre_alt": null,
+  "titulo_tana": "Fuente Oracular",
+  "etiquetas_tana": [
+    "fons"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Función",
+      "etiqueta": "Función",
+      "texto": "Oracular",
+      "refs": []
+    },
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "Muro de triglifos y túnel oculto bajo el suelo del recinto, interpretado como dispositivo de oráculo.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Fuente"
+  ],
+  "pertenece_a": []
+}

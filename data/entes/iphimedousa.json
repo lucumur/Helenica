@@ -1,0 +1,29 @@
+{
+  "id": "iphimedousa",
+  "tana_id": "zgRg9Y1X4jta",
+  "nombre": "Iphimedousa",
+  "nombre_alt": "Ifimedusa",
+  "titulo_tana": "Iphimedousa = Ifimedusa",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

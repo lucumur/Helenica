@@ -1,0 +1,23 @@
+{
+  "id": "muros-bajos-temenos-oikos-de-hera",
+  "tana_id": "tqbPHajdMOnZ",
+  "nombre": "Muros Bajos (Temenos), Oikos de Hera",
+  "nombre_alt": null,
+  "titulo_tana": "Muros Bajos (Temenos), Oikos de Hera",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "El edificio estaba dentro de un recinto (témenos) delimitado por un muro bajo. No era un edificio exento como un templo clásico.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ]
+}

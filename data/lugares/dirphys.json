@@ -1,0 +1,17 @@
+{
+  "id": "dirphys",
+  "tana_id": "IlkkUEoMMROT",
+  "nombre": "Dirphys",
+  "nombre_alt": "Oros",
+  "titulo_tana": "Dirphys (Oros)",
+  "etiquetas_tana": [
+    "oros"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Monte"
+  ],
+  "pertenece_a": []
+}

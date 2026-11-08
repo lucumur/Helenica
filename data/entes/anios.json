@@ -1,0 +1,20 @@
+{
+  "id": "anios",
+  "tana_id": "2FtOzIRdRezF",
+  "nombre": "Anios",
+  "nombre_alt": "Anio",
+  "titulo_tana": "Anios (Anio)",
+  "etiquetas_tana": [
+    "H",
+    "Heroe"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe",
+    "Mortal"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

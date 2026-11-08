@@ -1,0 +1,18 @@
+{
+  "id": "chthonios",
+  "tana_id": "qloc8EaVMAkU",
+  "nombre": "Chthonios",
+  "nombre_alt": "Ctonio",
+  "titulo_tana": "Chthonios (Ctonio)",
+  "etiquetas_tana": [
+    "Heroe"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

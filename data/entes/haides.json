@@ -1,0 +1,50 @@
+{
+  "id": "haides",
+  "tana_id": "h42xeeR1WAbh",
+  "nombre": "Hāidēs",
+  "nombre_alt": "Hades",
+  "titulo_tana": "Hāidēs = Hades",
+  "etiquetas_tana": [
+    "O",
+    "Deidad",
+    "M"
+  ],
+  "imagen": null,
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "- Dios Olimpico\n- Dios Ctonico",
+    "refs": [
+      {
+        "tana": "ITeremftDCmK",
+        "nombre": "Dios Olimpico"
+      },
+      {
+        "tana": "RGWcAdE8Sft5",
+        "nombre": "Dios Ctonico"
+      }
+    ]
+  },
+  "padres": {
+    "texto": "- [Kronos = Crono](entes:kronos)\n- [Rhea](entes:rhea)",
+    "refs": [
+      {
+        "tana": "wJ-80h8HgEnG",
+        "nombre": "Kronos = Crono",
+        "col": "entes",
+        "id": "kronos"
+      },
+      {
+        "tana": "rwObw0nWCwnl",
+        "nombre": "Rhea",
+        "col": "entes",
+        "id": "rhea"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": "M"
+}

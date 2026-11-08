@@ -1,0 +1,76 @@
+{
+  "id": "tauros-kres",
+  "tana_id": "MO4fEpTX-zfX",
+  "nombre": "Tauros Kres",
+  "nombre_alt": "Toro de Creta",
+  "titulo_tana": "Tauros Kres = Toro de Creta",
+  "etiquetas_tana": [
+    "O",
+    "Bestia",
+    "M"
+  ],
+  "imagen": null,
+  "padres": {
+    "texto": "[Poseidáōn (Poseidón)](entes:poseidaon)",
+    "refs": [
+      {
+        "tana": "3YpxU2Z2OWNY",
+        "nombre": "Poseidáōn (Poseidón)",
+        "col": "entes",
+        "id": "poseidaon"
+      }
+    ]
+  },
+  "conyuges": {
+    "texto": "[Pasiphae = Pasifae](entes:pasiphae)",
+    "refs": [
+      {
+        "tana": "R-voVvKBZ0Y9",
+        "nombre": "Pasiphae = Pasifae",
+        "col": "entes",
+        "id": "pasiphae"
+      }
+    ]
+  },
+  "hijos": {
+    "texto": "[Minotauro](entes:minotauro)",
+    "refs": [
+      {
+        "tana": "F0Dz1F7mzTot",
+        "nombre": "Minotauro",
+        "col": "entes",
+        "id": "minotauro"
+      }
+    ]
+  },
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "- Bestia\n- Toro",
+    "refs": [
+      {
+        "tana": "MWq5bPfXL3LM",
+        "nombre": "Bestia"
+      },
+      {
+        "tana": "MG5O4RiQQfWf",
+        "nombre": "Toro"
+      }
+    ]
+  },
+  "descripcion": {
+    "texto": "Un hermoso toro blanco traido por Poseidon",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Bestia"
+  ],
+  "genero": "M",
+  "contenido_en": {
+    "tana": "kPCnbMPV7RDq",
+    "nombre": "Athlos Septimo: Capturar el Toro de Creta (Creta)",
+    "col": "eventos",
+    "id": "athlos-septimo-capturar-el-toro-de-creta"
+  }
+}

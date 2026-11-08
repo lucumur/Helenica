@@ -1,0 +1,87 @@
+{
+  "id": "aulis-boiotia",
+  "tana_id": "ewo5TSTseQIJ",
+  "nombre": "Aulís, Boiōtia",
+  "nombre_alt": "Aulide",
+  "titulo_tana": "Aulís, Boiōtia (Aulide)",
+  "etiquetas_tana": [
+    "Lugar",
+    "demos",
+    "puerto"
+  ],
+  "imagen": null,
+  "fuentes": [
+    {
+      "titulo": "Diana Taurica",
+      "url": null,
+      "tana": "SL4BjSIXTu4X"
+    },
+    {
+      "titulo": "ifigenia en Aulide - Opera",
+      "url": "http://www.kareol.es/obras/ifigeniaulide/acte1.htm"
+    }
+  ],
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "- Asentamiento Proto-Urbano\n- Puerto Maritimo",
+      "refs": [
+        {
+          "tana": "YwMChrWf1ZoT",
+          "nombre": "Asentamiento Proto-Urbano"
+        },
+        {
+          "tana": "eY81NJeal1Ob",
+          "nombre": "Puerto Maritimo"
+        }
+      ]
+    },
+    {
+      "clave": "Co🧭",
+      "etiqueta": "Coordenadas",
+      "texto": "en el **estrecho de Euripo**, el canal que separa Grecia de la isla de Eubea.",
+      "refs": []
+    },
+    {
+      "clave": "H📜",
+      "etiqueta": "Historia y mito",
+      "texto": "el **lugar donde se reunió la flota griega** antes de zarpar hacia Troya.",
+      "refs": []
+    },
+    {
+      "clave": "H🔼",
+      "etiqueta": "Pertenece a",
+      "texto": "Βοιωτία / Beocia",
+      "refs": [
+        {
+          "tana": "HNRcbao5wr4Q",
+          "nombre": "Βοιωτία / Beocia"
+        }
+      ]
+    },
+    {
+      "clave": "S🧩",
+      "etiqueta": "Subunidades / partes",
+      "texto": "Santuario de Artemis en Aulide",
+      "refs": []
+    },
+    {
+      "clave": "S🀄",
+      "etiqueta": "Símbolos",
+      "texto": "El epíteto **πετρήεσσαν** (\"rocosa/peñascosa\") refleja la **geografía real** de la región",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Demos",
+    "Puerto"
+  ],
+  "pertenece_a": [
+    {
+      "tana": "HNRcbao5wr4Q",
+      "nombre": "Βοιωτία / Beocia"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "hera-akraia",
+  "tana_id": "KyYVebs82lPv",
+  "nombre": "Hēra Akráia",
+  "nombre_alt": "del Promontorio",
+  "titulo_tana": "Hēra Akráia (del Promontorio)",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Ente",
+      "etiqueta": "Ente",
+      "texto": "[Hêra (Hera)](entes:hera)",
+      "refs": [
+        {
+          "tana": "fEfLas105lfz",
+          "nombre": "Hêra (Hera)",
+          "col": "entes",
+          "id": "hera"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "fEfLas105lfz",
+    "nombre": "Hêra",
+    "col": "entes",
+    "id": "hera"
+  }
+}

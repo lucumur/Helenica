@@ -1,0 +1,23 @@
+{
+  "id": "laxesis",
+  "tana_id": "PJc79IEH7pRl",
+  "nombre": "Laxesis",
+  "nombre_alt": "Laxesis",
+  "titulo_tana": "Laxesis = Laxesis",
+  "etiquetas_tana": [
+    "O",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Moira",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

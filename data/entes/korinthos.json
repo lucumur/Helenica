@@ -1,0 +1,18 @@
+{
+  "id": "korinthos",
+  "tana_id": "hbqlxvZpAEAr",
+  "nombre": "Kórinthos",
+  "nombre_alt": "Corinto",
+  "titulo_tana": "Kórinthos (Corinto)",
+  "etiquetas_tana": [
+    "Heroe"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

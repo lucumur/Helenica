@@ -1,0 +1,29 @@
+{
+  "id": "okypete",
+  "tana_id": "k9sDF4QDOJAj",
+  "nombre": "Okypetē",
+  "nombre_alt": "Ocipete",
+  "titulo_tana": "Okypetē = Ocipete",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

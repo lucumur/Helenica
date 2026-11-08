@@ -1,0 +1,38 @@
+{
+  "id": "diomedes-2",
+  "tana_id": "oeK-2LuuP50o",
+  "nombre": "Diomedes",
+  "nombre_alt": "Rey de Tracia",
+  "titulo_tana": "Diomedes (Rey de Tracia)",
+  "etiquetas_tana": [
+    "X"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Posibles",
+      "etiqueta": "Posibles",
+      "texto": "- [Diomedes = Diomedes](entes:diomedes)",
+      "refs": [
+        {
+          "tana": "PdvJd03SWAnd",
+          "nombre": "Diomedes = Diomedes",
+          "col": "entes",
+          "id": "diomedes"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Mortal"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "contenido_en": {
+    "tana": "8KViC_rIn2K0",
+    "nombre": "Octavo Athlos: Robar las Yeguas de Diomedes (Tracia)",
+    "col": "eventos",
+    "id": "octavo-athlos-robar-las-yeguas-de-diomedes"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "penteskouphia-korinthos",
+  "tana_id": "cSf8fO4EsfWN",
+  "nombre": "Penteskouphia, Kórinthos",
+  "nombre_alt": "Barrio de Alfareros",
+  "titulo_tana": "Penteskouphia, Kórinthos (Barrio de Alfareros)",
+  "etiquetas_tana": [
+    "demos"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Culto",
+      "etiqueta": "Culto",
+      "texto": "- 🌊 Culto Marino\n- ♊ Culto Consorcial",
+      "refs": [
+        {
+          "tana": "zn7hlpKs3bvV",
+          "nombre": "🌊 Culto Marino"
+        }
+      ]
+    },
+    {
+      "clave": "Deidad",
+      "etiqueta": "Deidad",
+      "texto": "- [Poteidan Wanax (Amo Poseidon)](entes:poteidan-wanax)\n- [Akoitis Amphitritē (La Consorte Anfitrite)](entes:akoitis-amphitrite)",
+      "refs": [
+        {
+          "tana": "4tOUFJkOjv9T",
+          "nombre": "Poteidan Wanax (Amo Poseidon)",
+          "col": "entes",
+          "id": "poteidan-wanax"
+        },
+        {
+          "tana": "HlYHVB0Ly_Bj",
+          "nombre": "Akoitis Amphitritē (La Consorte Anfitrite)",
+          "col": "entes",
+          "id": "akoitis-amphitrite"
+        }
+      ]
+    },
+    {
+      "clave": "Cultos",
+      "etiqueta": "Cultos",
+      "texto": "[🔱 Poseidón y Amphitrite, Penteskouphia (pinakes)](lugares:poseidon-y-amphitrite-penteskouphia) — sin templo: depósito de pinakes a Poseidón y Amphitrite (barrio alfarero)",
+      "refs": [
+        {
+          "tana": "fpX6lDcKS091",
+          "nombre": "🔱 Poseidón y Amphitrite, Penteskouphia (pinakes)",
+          "col": "lugares",
+          "id": "poseidon-y-amphitrite-penteskouphia"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Demos"
+  ],
+  "pertenece_a": []
+}

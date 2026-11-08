@@ -1,0 +1,40 @@
+{
+  "id": "escudo-beocio",
+  "tana_id": "A7HAlx_uapdI",
+  "nombre": "Escudo Beocio",
+  "nombre_alt": null,
+  "titulo_tana": "Escudo Beocio",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-09-22T12%3A26%3A40.815Z-image.png?alt=media&token=d2f8fa10-a16b-4db6-a31b-88180e2fb6b4",
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Armadura",
+      "refs": [
+        {
+          "tana": "DyK_R7RRd3QV",
+          "nombre": "Armadura"
+        }
+      ]
+    },
+    {
+      "clave": "M🪵",
+      "etiqueta": "Material",
+      "texto": "marco de mimbre cubierto en capas de piel",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "transicion hacia escudos mas circulares",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ]
+}

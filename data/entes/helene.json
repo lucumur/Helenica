@@ -1,0 +1,32 @@
+{
+  "id": "helene",
+  "tana_id": "57NMjQywxeWQ",
+  "nombre": "Helénē",
+  "nombre_alt": "Helena de Troya",
+  "titulo_tana": "Helénē = Helena de Troya",
+  "etiquetas_tana": [
+    "O",
+    "griego"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "- Raza Laconia\n- Nobleza",
+    "refs": [
+      {
+        "tana": "L1evr9GDJObc",
+        "nombre": "Raza Laconia"
+      },
+      {
+        "tana": "0TjIgPdjRUql",
+        "nombre": "Nobleza"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

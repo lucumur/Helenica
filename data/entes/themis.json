@@ -1,0 +1,19 @@
+{
+  "id": "themis",
+  "tana_id": "ethe3aaZAr94",
+  "nombre": "Themis",
+  "nombre_alt": "Temis",
+  "titulo_tana": "Themis (Temis)",
+  "etiquetas_tana": [
+    "Deidad",
+    "O"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

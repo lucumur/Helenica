@@ -1,0 +1,23 @@
+{
+  "id": "perachora-gordus-2",
+  "tana_id": "vp-gi9a7rCeA",
+  "nombre": "Perachōra, Gördüs",
+  "nombre_alt": "1460-1687",
+  "titulo_tana": "Perachōra, Gördüs (1460-1687)",
+  "etiquetas_tana": [
+    "chora"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Chora"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "slhLmjZQBFmM",
+    "nombre": "Peiraion, Korinthia (850ac - 146ac)",
+    "col": "lugares",
+    "id": "peiraion-korinthia"
+  }
+}

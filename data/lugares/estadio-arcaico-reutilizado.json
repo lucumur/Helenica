@@ -1,0 +1,24 @@
+{
+  "id": "estadio-arcaico-reutilizado",
+  "tana_id": "ApelvQ-_3jvW",
+  "nombre": "Estadio Arcaico Reutilizado",
+  "nombre_alt": null,
+  "titulo_tana": "Estadio Arcaico Reutilizado",
+  "etiquetas_tana": [
+    "ruinas"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "el recinto se instala sobre el extremo noroeste del estadio abandonado. El suelo mismo es un objeto reutilizado",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Ruinas"
+  ],
+  "pertenece_a": []
+}

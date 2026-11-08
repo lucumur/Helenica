@@ -1,0 +1,47 @@
+{
+  "id": "leon-de-nemea",
+  "tana_id": "LMLrULijLqtL",
+  "nombre": "León de Nemea",
+  "nombre_alt": null,
+  "titulo_tana": "León de Nemea",
+  "etiquetas_tana": [
+    "O",
+    "Bestia",
+    "H"
+  ],
+  "imagen": null,
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "Bestia",
+    "refs": [
+      {
+        "tana": "MWq5bPfXL3LM",
+        "nombre": "Bestia"
+      }
+    ]
+  },
+  "contrincantes": {
+    "texto": "[Hēraklēs (Hercules)](entes:herakles)",
+    "refs": [
+      {
+        "tana": "viTfkThjup-A",
+        "nombre": "Hēraklēs (Hercules)",
+        "col": "entes",
+        "id": "herakles"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Bestia",
+    "Mortal"
+  ],
+  "genero": null,
+  "contenido_en": {
+    "tana": "kIvGY8GfKDCK",
+    "nombre": "Primer Athlos: Matar al Leon de Nemea (Argolis)",
+    "col": "eventos",
+    "id": "primer-athlos-matar-al-leon-de-nemea"
+  }
+}

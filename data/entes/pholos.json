@@ -1,0 +1,30 @@
+{
+  "id": "pholos",
+  "tana_id": "1-uga1M9uUQh",
+  "nombre": "Pholos",
+  "nombre_alt": "Folo",
+  "titulo_tana": "Pholos = Folo",
+  "etiquetas_tana": [
+    "O",
+    "Hibrido",
+    "M"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Centauro",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Híbrido"
+  ],
+  "genero": "M",
+  "cultura": "Helénica",
+  "contenido_en": {
+    "tana": "sSHWkSAuoqKj",
+    "nombre": "Cuarto Athlos: Capturar el Jabali de Erymanthos (Arcadia)",
+    "col": "eventos",
+    "id": "cuarto-athlos-capturar-el-jabali-de-erymanthos"
+  }
+}

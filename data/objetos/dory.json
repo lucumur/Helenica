@@ -1,0 +1,29 @@
+{
+  "id": "dory",
+  "tana_id": "GUg7al-M4bVF",
+  "nombre": "Dory",
+  "nombre_alt": "Geométrica",
+  "titulo_tana": "Dory (Geométrica)",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-09-25T00%3A06%3A25.052Z-image.png?alt=media&token=85d13279-7585-425a-b582-eae7a4d64374",
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Lanza pesada de fresno de 2.5 metros con moharra de bronce o hierro forjado",
+      "refs": []
+    },
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "tanto para el combate cuerpo a cuerpo como para ser arrojada, siguiendo los patrones homéricos donde vemos a los héroes alternando entre ambos usos.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "kirke",
+  "tana_id": "T6jd9aMDqbq-",
+  "nombre": "Kirkē",
+  "nombre_alt": "Circe",
+  "titulo_tana": "Kirkē (Circe)",
+  "etiquetas_tana": [
+    "F"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": ":",
+      "texto": "- Union Temporal en Eea\n- segun Hesiodo, de ella nace Telegono, Latino y Agrio"
+    }
+  ],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

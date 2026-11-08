@@ -1,0 +1,20 @@
+{
+  "id": "zarex",
+  "tana_id": "9wtFlZndi_I6",
+  "nombre": "Zarēx",
+  "nombre_alt": "Heroe",
+  "titulo_tana": "Zarēx (Heroe)",
+  "etiquetas_tana": [
+    "H",
+    "Heroe"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe",
+    "Mortal"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

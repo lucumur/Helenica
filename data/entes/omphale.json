@@ -1,0 +1,40 @@
+{
+  "id": "omphale",
+  "tana_id": "1v2RiDlvvyYZ",
+  "nombre": "Omphalē",
+  "nombre_alt": "Ónfale",
+  "titulo_tana": "Omphalē = Ónfale",
+  "etiquetas_tana": [
+    "Regio",
+    "O"
+  ],
+  "imagen": null,
+  "nacimiento": {
+    "texto": "Reina de Lidia",
+    "refs": []
+  },
+  "hijos": {
+    "texto": "- Agelaos: el que reune el pueblo // ancestro de la dinastía lidia de la que descendía Creso.\n- Lamos\n- Cleodeo\n- Tyrsēnos: eponimo tirreno // inventor de la trompeta; emigró a Italia y se asoció con los tirrenos/etruscos",
+    "refs": []
+  },
+  "campos": [
+    {
+      "clave": "Vinculo",
+      "etiqueta": "Vinculo",
+      "texto": "- Ama\n- Heracles vendido como esclavo tras matar a Ífito en un ataque de locura; sirve su condena bajo las órdenes de ella, invirtiendo roles de género (ella viste la leontea y porta el garrote, él viste de mujer)",
+      "refs": []
+    },
+    {
+      "clave": "Destino",
+      "etiqueta": "Destino",
+      "texto": "Ónfale lo liberó (o lo despidió con regalos). Heracles regresó a Grecia. La relación se cierra como un episodio de humillación y fecundidad oriental que legó una dinastía real a Lidia.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Realeza"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

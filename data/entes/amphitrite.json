@@ -1,0 +1,19 @@
+{
+  "id": "amphitrite",
+  "tana_id": "izLgrAmuSynH",
+  "nombre": "Amphitrite",
+  "nombre_alt": "Anfitrite",
+  "titulo_tana": "Amphitrite (Anfitrite)",
+  "etiquetas_tana": [
+    "Deidad",
+    "O"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

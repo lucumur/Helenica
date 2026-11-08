@@ -1,0 +1,67 @@
+{
+  "id": "parthenon-akropolis-atenea",
+  "tana_id": "gKulCaq23b9p",
+  "nombre": "Parthenôn, Akrópolis Atenea",
+  "nombre_alt": null,
+  "titulo_tana": "Parthenôn, Akrópolis Atenea",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Templo",
+      "refs": [
+        {
+          "tana": "-Bt4McJT-Z2E",
+          "nombre": "Templo"
+        }
+      ]
+    },
+    {
+      "clave": "A🪪",
+      "etiqueta": "Alias / fases",
+      "texto": "- Hekatompedos, o Hekatompedon (El Centipedo)\n  - refiriendose a sus columnas. nombre con el que fue bautizado al construirse.",
+      "refs": []
+    },
+    {
+      "clave": "S🧩",
+      "etiqueta": "Subunidades / partes",
+      "texto": "- Pronaos = Portico Este\n- Parthenôn = Cella Oeste\n  - una teoria dice que el Parthenon era la habitacion donde las arrephoroi, un grupo de cuatro doncellas (adolescentes virgenes) servian a Atena anualmente, le tejian uun peplos que se presentaba en las Panateneas",
+      "refs": []
+    },
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "❌ No tenia funcion cultica a su patrona Atenea Polias, por lo que no era realmente un templo convencional.",
+      "refs": []
+    },
+    {
+      "clave": "H🔼",
+      "etiqueta": "Pertenece a",
+      "texto": "[Témenos de Atenea, Akrópolis de Atenas](lugares:temenos-de-atenea-akropolis-de-atenas)",
+      "refs": [
+        {
+          "tana": "sfUAOTSSkHm6",
+          "nombre": "Témenos de Atenea, Akrópolis de Atenas",
+          "col": "lugares",
+          "id": "temenos-de-atenea-akropolis-de-atenas"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": [
+    {
+      "tana": "sfUAOTSSkHm6",
+      "nombre": "Témenos de Atenea, Akrópolis de Atenas",
+      "col": "lugares",
+      "id": "temenos-de-atenea-akropolis-de-atenas"
+    }
+  ]
+}

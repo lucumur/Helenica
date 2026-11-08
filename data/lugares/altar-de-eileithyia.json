@@ -1,0 +1,17 @@
+{
+  "id": "altar-de-eileithyia",
+  "tana_id": "o7xwY16MuF9Z",
+  "nombre": "Altar de Eileithyia",
+  "nombre_alt": null,
+  "titulo_tana": "Altar de Eileithyia",
+  "etiquetas_tana": [
+    "hieron"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Santuario"
+  ],
+  "pertenece_a": []
+}

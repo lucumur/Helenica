@@ -1,0 +1,51 @@
+{
+  "id": "artemis-patroa",
+  "tana_id": "-Qbw_swm7fD8",
+  "nombre": "Artemis Patrōa",
+  "nombre_alt": "Artemisa Paternal",
+  "titulo_tana": "Artemis Patrōa = Artemisa Paternal",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Ente",
+      "etiqueta": "Ente",
+      "texto": "[Artemis (Artemisa)](entes:artemis)",
+      "refs": [
+        {
+          "tana": "ClxufXBnr4Yy",
+          "nombre": "Artemis (Artemisa)",
+          "col": "entes",
+          "id": "artemis"
+        }
+      ]
+    },
+    {
+      "clave": "Lugar",
+      "etiqueta": "Lugar",
+      "texto": "[Sikyôn, Asopia (Polis)](lugares:sikyon-asopia)",
+      "refs": [
+        {
+          "tana": "XLYqPFSnZv6g",
+          "nombre": "Sikyôn, Asopia (Polis)",
+          "col": "lugares",
+          "id": "sikyon-asopia"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "ClxufXBnr4Yy",
+    "nombre": "Artemis",
+    "col": "entes",
+    "id": "artemis"
+  }
+}

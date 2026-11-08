@@ -1,0 +1,40 @@
+{
+  "id": "axaioi",
+  "tana_id": "5wdhE6F2NQBA",
+  "nombre": "Axaioi",
+  "nombre_alt": "Aqueos",
+  "titulo_tana": "Axaioi = Aqueos",
+  "etiquetas_tana": [
+    "Gentes"
+  ],
+  "imagen": null,
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "Helenica",
+    "refs": [
+      {
+        "tana": "dB53-VNiYUdj",
+        "nombre": "Helenica"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "acciones",
+      "texto": "- kanxalēi, ekanxalōse = reir fuerte"
+    },
+    {
+      "titulo": "adjetivos",
+      "texto": "- komoõn = ondeante, de melena larga"
+    },
+    {
+      "titulo": null,
+      "texto": "- [komoōntes Axaiói = los Aqueos de Melenas Largas](entes:komoontes-axaioi)"
+    }
+  ],
+  "tipos": [
+    "Pueblo"
+  ],
+  "genero": null
+}

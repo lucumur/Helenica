@@ -1,0 +1,18 @@
+{
+  "id": "chalkis",
+  "tana_id": "_QCDPpY5RpKw",
+  "nombre": "Chalkis",
+  "nombre_alt": "Nymphe",
+  "titulo_tana": "Chalkis (Nymphe)",
+  "etiquetas_tana": [
+    "nymphe"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

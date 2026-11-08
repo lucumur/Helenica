@@ -1,0 +1,20 @@
+{
+  "id": "theoi-olympioi",
+  "tana_id": "vMgf5X3P4g7I",
+  "nombre": "Theoi Olympioi",
+  "nombre_alt": "Dioses Olimpicos",
+  "titulo_tana": "Theoi Olympioi = Dioses Olimpicos",
+  "etiquetas_tana": [
+    "Grupo",
+    "Deidad"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad",
+    "Grupo"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

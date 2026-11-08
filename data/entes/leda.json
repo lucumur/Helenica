@@ -1,0 +1,33 @@
+{
+  "id": "leda",
+  "tana_id": "VTISlcrk1XRV",
+  "nombre": "Leda",
+  "nombre_alt": "Leda",
+  "titulo_tana": "Leda = Leda",
+  "etiquetas_tana": [
+    "O",
+    "Regio",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "- Raza Laconia\n- Nobleza",
+    "refs": [
+      {
+        "tana": "L1evr9GDJObc",
+        "nombre": "Raza Laconia"
+      },
+      {
+        "tana": "0TjIgPdjRUql",
+        "nombre": "Nobleza"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Realeza"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

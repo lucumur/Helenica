@@ -1,0 +1,29 @@
+{
+  "id": "hermes",
+  "tana_id": "ZGI0FTYvn9jz",
+  "nombre": "Hermes",
+  "nombre_alt": "Hermes",
+  "titulo_tana": "Hermes (Hermes)",
+  "etiquetas_tana": [
+    "O",
+    "Deidad",
+    "M"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-04-07T18%3A45%3A32.810Z-image.png?alt=media&token=ad3ccb62-5912-4fc5-aaa3-6c1935154224",
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "Dios Olimpico",
+    "refs": [
+      {
+        "tana": "ITeremftDCmK",
+        "nombre": "Dios Olimpico"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": "M"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "th",
+  "tana_id": "ji3Gzdpb3B-y",
+  "nombre": "Πειθώ",
+  "nombre_alt": "Pithó, la Persuasión (Diosa)",
+  "titulo_tana": "Πειθώ / Pithó, la Persuasión (Diosa)",
+  "etiquetas_tana": [],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "contenido_en": {
+    "tana": "ZKcAnfcGOY-E",
+    "nombre": "Atē (Diosa)",
+    "col": "entes",
+    "id": "ate"
+  }
+}

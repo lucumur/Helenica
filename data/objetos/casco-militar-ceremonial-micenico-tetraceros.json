@@ -1,0 +1,28 @@
+{
+  "id": "casco-militar-ceremonial-micenico-tetraceros",
+  "tana_id": "6EULr55_YcRE",
+  "nombre": "Casco Militar-Ceremonial Micenico Tetraceros",
+  "nombre_alt": null,
+  "titulo_tana": "Casco Militar-Ceremonial Micenico Tetraceros",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-09-27T18%3A35%3A03.341Z-image.png?alt=media&token=714793c4-a58d-4d50-9a51-f802526389fc",
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "La estructura general con refuerzos metálicos y plumaje abundante corresponde efectivamente a hallazgos arqueológicos micénicos, donde los cascos ceremoniales y de alta jerarquía mostraban elaboración considerable.",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Explicacion de casco usado por Aquiles",
+      "texto": "- Los príncipes y reyes intercambiaban regalos ceremoniales constantemente, especialmente armamento elaborado, como parte de sus redes diplomáticas y alianzas militares. Un casco de estilo micénico clásico en manos de un príncipe tesalio podría representar perfectamente un regalo de alianza, botín de guerra, o herencia familiar que conectara a Aquiles con tradiciones artesanales de diferentes regiones del mundo griego."
+    }
+  ],
+  "tipos": [
+    "Objeto"
+  ]
+}

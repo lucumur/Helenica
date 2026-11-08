@@ -1,0 +1,24 @@
+{
+  "id": "monopteron-templo-circular-palaimonion",
+  "tana_id": "_rEx50tbs3m4",
+  "nombre": "Monopteron (Templo Circular), Palaimonion",
+  "nombre_alt": null,
+  "titulo_tana": "Monopteron (Templo Circular), Palaimonion",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "conocido por las monedas coloniales: **cúpula decorada con dos delfines, seis columnas exteriores, y en el interior el Palemón yacente sobre delfín junto a un pino; todo el edificio entre dos pinos**. Bronces de 161‑180 d.C.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

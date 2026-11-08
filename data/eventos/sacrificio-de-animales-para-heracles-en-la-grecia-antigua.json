@@ -1,0 +1,35 @@
+{
+  "id": "sacrificio-de-animales-para-heracles-en-la-grecia-antigua",
+  "tana_id": "6KDREDH-ipuB",
+  "nombre": "Sacrificio de Animales para Heracles en la Grecia Antigua",
+  "nombre_alt": null,
+  "titulo_tana": "Sacrificio de Animales para Heracles en la Grecia Antigua",
+  "etiquetas_tana": [
+    "Evento"
+  ],
+  "imagen": null,
+  "agentes_activos": {
+    "texto": "Hiereus = Sacerdote",
+    "refs": [
+      {
+        "tana": "BY1PzFeJZ-7E",
+        "nombre": "Hiereus = Sacerdote"
+      }
+    ]
+  },
+  "elementos": {
+    "texto": "Sacrificio de un Cordero",
+    "refs": []
+  },
+  "problema": {
+    "texto": "se destazaba boca arriba desde la garganta, cabeza hacia atras",
+    "refs": []
+  },
+  "desenlace": {
+    "texto": "partes sacras a los Dioses, resto se comia",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "tipo": "Rito"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "orchestra",
+  "tana_id": "wYDCxvPXi3SC",
+  "nombre": "Orchestra",
+  "nombre_alt": "Espacio para Teatro",
+  "titulo_tana": "Orchestra (Espacio para Teatro)",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

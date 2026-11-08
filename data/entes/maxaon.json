@@ -1,0 +1,54 @@
+{
+  "id": "maxaon",
+  "tana_id": "Q98lsXE7wY6h",
+  "nombre": "Maxaon",
+  "nombre_alt": "Macaón",
+  "titulo_tana": "Maxaon = Macaón",
+  "etiquetas_tana": [
+    "M",
+    "O",
+    "Daemon"
+  ],
+  "imagen": null,
+  "fuentes": [
+    {
+      "titulo": "Homer, Iliad 4. 217 ff (trans. Lattimore) (Greek epic C8th B.C.) :\"When he [the healer Makhaon (Machaon)] saw the wound where the bitter arrow was driven, he sucked the blood and in skill laid healing medicines on it that Kheiron (Chiron) in friendship long ago had given his father [Asklepios (Asclepius)].\"",
+      "url": null
+    },
+    {
+      "titulo": "\"They who held Trikke (Tricca) [in Thessaly] and the terraced place of Ithome, and Oikhalia (Oechalia) . . . of these in turn the leaders were two sons of Asklepios (Asclepius), good healers both themselves, Podaleirios (Podalirius) and Makhaon (Machaon).\"",
+      "url": null
+    },
+    {
+      "titulo": "Greek Lyric V Anonymous, Fragments 939 (Inscription from Erythrai) (trans. Campbell) (B.C.) :\"By him [Asklepios (Asclepius)] were fathered Makhaon (Machaon) and Podaleirios (Podalirus) and Iaso (Healer)--_ie Paian!_--and fair-eyed Aigle (Aegle, Radiance) and Panakea (Panacea, Cure-all), children of Epione, along with Hygieia (Health), all-glorious, undefiled.\"",
+      "url": null
+    }
+  ],
+  "padres": {
+    "texto": "[Asklēpiós = Asclepio](entes:asklepios)",
+    "refs": [
+      {
+        "tana": "vYT6Rr7Q8l96",
+        "nombre": "Asklēpiós = Asclepio",
+        "col": "entes",
+        "id": "asklepios"
+      }
+    ]
+  },
+  "especie": {
+    "texto": "Daemon Olimpico",
+    "refs": [
+      {
+        "tana": "vFju1Dr36EOL",
+        "nombre": "Daemon Olimpico"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Daimon"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

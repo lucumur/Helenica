@@ -1,0 +1,35 @@
+{
+  "id": "adonis",
+  "tana_id": "lShWSmEIPNMx",
+  "nombre": "Adōnis",
+  "nombre_alt": "Adonis",
+  "titulo_tana": "Adōnis = Adonis",
+  "etiquetas_tana": [
+    "O",
+    "Heroe",
+    "M"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Heroe",
+    "refs": [
+      {
+        "tana": "fdfrmwQATZAR",
+        "nombre": "Heroe"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe"
+  ],
+  "genero": "M",
+  "cultura": "Helénica",
+  "contenido_en": {
+    "tana": "sSHWkSAuoqKj",
+    "nombre": "Cuarto Athlos: Capturar el Jabali de Erymanthos (Arcadia)",
+    "col": "eventos",
+    "id": "cuarto-athlos-capturar-el-jabali-de-erymanthos"
+  }
+}

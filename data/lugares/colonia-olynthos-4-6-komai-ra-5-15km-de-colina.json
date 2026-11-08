@@ -1,0 +1,49 @@
+{
+  "id": "colonia-olynthos-4-6-komai-ra-5-15km-de-colina",
+  "tana_id": "h3wqI9mq5Kkz",
+  "nombre": "(Colonia Olynthos) 4-6 Komai: Ra 5-15km de Colina",
+  "nombre_alt": null,
+  "titulo_tana": "(Colonia Olynthos) 4-6 Komai: Ra 5-15km de Colina",
+  "etiquetas_tana": [
+    "Lugar",
+    "sub-un"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "Aldeas Agropecuarias Satelites, Dependientes en construccion, comercio, religion, ataques y defensa del nucleo Central",
+      "refs": []
+    },
+    {
+      "clave": "H🏘️",
+      "etiqueta": "Habitantes",
+      "texto": "100-300habitantes c/u",
+      "refs": []
+    },
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Grupo de Aldeas Agropecuarias",
+      "refs": []
+    },
+    {
+      "clave": "O⚖️",
+      "etiqueta": "Organización y cultos",
+      "texto": "- Stolos\n- Spartolos, ...(demas nombres reales perdidos)\n- a) Komai de Llanura Costera: 2,000 Ha de Calidad Alta para Trigo / Cebada\n- b) Komai de Colinas Interiores 1,500 Ha de Calidad Media para Cebada/Vid/Olivo\n- algo de granjeo de cerdos, para sacrificios, y consumo cerdo ocasional 🐖\n- algo de crianza de asnos y mulas para trasporte de carga 🐴",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Subunidad"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "HcaGQBfC_sLV",
+    "nombre": "Olynthos - Colonia Calcidica (750-500aC)",
+    "col": "lugares",
+    "id": "olynthos-colonia-calcidica"
+  }
+}

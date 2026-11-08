@@ -1,0 +1,23 @@
+{
+  "id": "altar-de-apolo-pythios",
+  "tana_id": "jr5HxEOfSmdI",
+  "nombre": "Altar de Apolo Pythios",
+  "nombre_alt": "Acropolis de Atenas",
+  "titulo_tana": "Altar de Apolo Pythios (Acropolis de Atenas)",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "9OYZLA3QegGP",
+    "nombre": "Apollôn = Apolo",
+    "col": "entes",
+    "id": "apollon"
+  }
+}

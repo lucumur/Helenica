@@ -1,0 +1,17 @@
+{
+  "id": "agora-simple",
+  "tana_id": "hUTq6gGLtiqD",
+  "nombre": "Agora Simple",
+  "nombre_alt": "Eretria",
+  "titulo_tana": "Agora Simple (Eretria)",
+  "etiquetas_tana": [
+    "plaza"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Plaza"
+  ],
+  "pertenece_a": []
+}

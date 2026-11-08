@@ -1,0 +1,29 @@
+{
+  "id": "kleodora",
+  "tana_id": "amdqZpFjX4cI",
+  "nombre": "Kleodōra",
+  "nombre_alt": "Cleodora",
+  "titulo_tana": "Kleodōra = Cleodora",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "mousai",
+  "tana_id": "ny6U0odfg8rM",
+  "nombre": "Mousai",
+  "nombre_alt": "Las Musas",
+  "titulo_tana": "Mousai (Las Musas)",
+  "etiquetas_tana": [],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "contenido_en": {
+    "tana": "Kcf4gBY2yBzt",
+    "nombre": "Mousai Olympiades",
+    "col": "entes",
+    "id": "mousai-olympiades"
+  }
+}

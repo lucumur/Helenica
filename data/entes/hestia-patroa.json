@@ -1,0 +1,44 @@
+{
+  "id": "hestia-patroa",
+  "tana_id": "tvull0271nUY",
+  "nombre": "Hestia Patroa",
+  "nombre_alt": "Vesta Paterna",
+  "titulo_tana": "Hestia Patroa = Vesta Paterna",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Ente",
+      "etiqueta": "Ente",
+      "texto": "[Hestia (Hestia)](entes:hestia)",
+      "refs": [
+        {
+          "tana": "9_OCfJqZTh_D",
+          "nombre": "Hestia (Hestia)",
+          "col": "entes",
+          "id": "hestia"
+        }
+      ]
+    },
+    {
+      "clave": "Funcion",
+      "etiqueta": "Funcion",
+      "texto": "Proteccion del Fuego Perpetuo",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "9_OCfJqZTh_D",
+    "nombre": "Hestia",
+    "col": "entes",
+    "id": "hestia"
+  }
+}

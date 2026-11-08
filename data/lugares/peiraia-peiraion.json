@@ -1,0 +1,23 @@
+{
+  "id": "peiraia-peiraion",
+  "tana_id": "xqJ0aYgE9pqH",
+  "nombre": "Peiraia, Peiraion",
+  "nombre_alt": null,
+  "titulo_tana": "Peiraia, Peiraion",
+  "etiquetas_tana": [
+    "kome"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Aldea"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "slhLmjZQBFmM",
+    "nombre": "Peiraion, Korinthia (850ac - 146ac)",
+    "col": "lugares",
+    "id": "peiraion-korinthia"
+  }
+}

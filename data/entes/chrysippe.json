@@ -1,0 +1,29 @@
+{
+  "id": "chrysippe",
+  "tana_id": "kwOBhwAfrVM2",
+  "nombre": "Chrysippē",
+  "nombre_alt": "Crísipe",
+  "titulo_tana": "Chrysippē = Crísipe",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

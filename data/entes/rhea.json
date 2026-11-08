@@ -1,0 +1,39 @@
+{
+  "id": "rhea",
+  "tana_id": "rwObw0nWCwnl",
+  "nombre": "Rhea",
+  "nombre_alt": null,
+  "titulo_tana": "Rhea",
+  "etiquetas_tana": [
+    "O",
+    "F"
+  ],
+  "imagen": null,
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "Dios Titanide",
+    "refs": [
+      {
+        "tana": "-XUWw3z-CGtK",
+        "nombre": "Dios Titanide"
+      }
+    ]
+  },
+  "padres": {
+    "texto": "[Ouranos = Urano](entes:ouranos)",
+    "refs": [
+      {
+        "tana": "hsKMgolM5yGQ",
+        "nombre": "Ouranos = Urano",
+        "col": "entes",
+        "id": "ouranos"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": "F"
+}

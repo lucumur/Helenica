@@ -1,0 +1,20 @@
+{
+  "id": "aristaios",
+  "tana_id": "unKdBwSHhzfl",
+  "nombre": "Aristaios",
+  "nombre_alt": "Aristeo",
+  "titulo_tana": "Aristaios (Aristeo)",
+  "etiquetas_tana": [
+    "theidion",
+    "H"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Mortal",
+    "Semidiós"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

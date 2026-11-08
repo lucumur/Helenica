@@ -1,0 +1,25 @@
+{
+  "id": "atreos-huios",
+  "tana_id": "XKdpFCP4vISf",
+  "nombre": "Atreos huiós",
+  "nombre_alt": "el hijo de Atreo",
+  "titulo_tana": "Atreos huiós = el hijo de Atreo",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": null,
+  "contenido_en": {
+    "tana": "b90YygxYRuf_",
+    "nombre": "Menelaos Atreidēs = Menelao",
+    "col": "entes",
+    "id": "menelaos-atreides"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "adiante",
+  "tana_id": "2UvbMxUoDLbA",
+  "nombre": "Adiantē",
+  "nombre_alt": "Adiante",
+  "titulo_tana": "Adiantē = Adiante",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "descripcion": {
+    "texto": "\"la incontrolable\" (un rio caudaloso)",
+    "refs": []
+  },
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

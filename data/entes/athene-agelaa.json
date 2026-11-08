@@ -1,0 +1,38 @@
+{
+  "id": "athene-agelaa",
+  "tana_id": "UZDHBLc1mE5J",
+  "nombre": "Athēnē Agelaa",
+  "nombre_alt": "la del ganado",
+  "titulo_tana": "Athēnē Agelaa = la del ganado",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Ente",
+      "etiqueta": "Ente",
+      "texto": "[Athēnē = Atenea](entes:athene)",
+      "refs": [
+        {
+          "tana": "fcRIRYT-Xczt",
+          "nombre": "Athēnē = Atenea",
+          "col": "entes",
+          "id": "athene"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "fcRIRYT-Xczt",
+    "nombre": "Athēnē",
+    "col": "entes",
+    "id": "athene"
+  }
+}

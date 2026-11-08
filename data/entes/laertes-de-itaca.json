@@ -1,0 +1,21 @@
+{
+  "id": "laertes-de-itaca",
+  "tana_id": "7BR9GqItfvM2",
+  "nombre": "Laertes de Itaca",
+  "nombre_alt": null,
+  "titulo_tana": "Laertes de Itaca",
+  "etiquetas_tana": [
+    "M",
+    "Heroe",
+    "Regio"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe",
+    "Realeza"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

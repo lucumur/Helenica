@@ -1,0 +1,30 @@
+{
+  "id": "temenos-votivo-y-oikoi-arcaicos-de-demeter-acrocorinto",
+  "tana_id": "w0SKUGycA4T5",
+  "nombre": "Temenos Votivo y Oikoi Arcaicos de Dēmētēr, Acrocorinto",
+  "nombre_alt": "Fase I-II",
+  "titulo_tana": "Temenos Votivo y Oikoi Arcaicos de Dēmētēr, Acrocorinto (Fase I-II)",
+  "etiquetas_tana": [
+    "hieron"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "- Culto ctónico incipiente\n- culto ctónico comensal",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "- depósitos votivos al aire libre (kalathiskoi de vaso-cesta para Deméter)\n- aterrazamiento de la ladera norte\n- salas de comida\n- santuario pequeño",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Santuario"
+  ],
+  "pertenece_a": []
+}

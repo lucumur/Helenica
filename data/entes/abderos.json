@@ -1,0 +1,29 @@
+{
+  "id": "abderos",
+  "tana_id": "c5MwJLzFkqyc",
+  "nombre": "Abderos",
+  "nombre_alt": "Abdero",
+  "titulo_tana": "Abderos = Abdero",
+  "etiquetas_tana": [
+    "O",
+    "M"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Raza Locrida",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": "M",
+  "cultura": "Helénica",
+  "contenido_en": {
+    "tana": "8KViC_rIn2K0",
+    "nombre": "Octavo Athlos: Robar las Yeguas de Diomedes (Tracia)",
+    "col": "eventos",
+    "id": "octavo-athlos-robar-las-yeguas-de-diomedes"
+  }
+}

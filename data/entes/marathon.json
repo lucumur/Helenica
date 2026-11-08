@@ -1,0 +1,18 @@
+{
+  "id": "marathon",
+  "tana_id": "sI9kiVlCTcGd",
+  "nombre": "Marathôn",
+  "nombre_alt": "Maratón",
+  "titulo_tana": "Marathôn (Maratón)",
+  "etiquetas_tana": [
+    "Heroe"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

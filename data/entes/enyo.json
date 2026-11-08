@@ -1,0 +1,19 @@
+{
+  "id": "enyo",
+  "tana_id": "8T06WblIr09M",
+  "nombre": "Enyo",
+  "nombre_alt": "Enio",
+  "titulo_tana": "Enyo (Enio)",
+  "etiquetas_tana": [
+    "Deidad",
+    "F"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

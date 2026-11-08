@@ -1,0 +1,30 @@
+{
+  "id": "apollon-aleksikakos",
+  "tana_id": "TIR3LHJdI3PK",
+  "nombre": "Apollon Aleksikakos",
+  "nombre_alt": "Estatua",
+  "titulo_tana": "Apollon Aleksikakos (Estatua)",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Hecha por [Kalamis](entes:kalamis)",
+      "refs": [
+        {
+          "tana": "fyQD9nP3J0pQ",
+          "nombre": "Kalamis",
+          "col": "entes",
+          "id": "kalamis"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "geraneia-peiraion",
+  "tana_id": "c4Pgc3CO5sW1",
+  "nombre": "Geráneia, Peiraion",
+  "nombre_alt": null,
+  "titulo_tana": "Geráneia, Peiraion",
+  "etiquetas_tana": [
+    "oros"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Monte"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "slhLmjZQBFmM",
+    "nombre": "Peiraion, Korinthia (850ac - 146ac)",
+    "col": "lugares",
+    "id": "peiraion-korinthia"
+  }
+}

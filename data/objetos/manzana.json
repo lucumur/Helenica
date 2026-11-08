@@ -1,0 +1,21 @@
+{
+  "id": "manzana",
+  "tana_id": "SB2t7kuYkody",
+  "nombre": "Manzana",
+  "nombre_alt": "Mēlon",
+  "titulo_tana": "Manzana (Mēlon)",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- Unas manzanas de oro, evocadas como procedentes del jardín de las Hespérides en el verso órfico. Las manzanas (mêla) son citadas tanto por Clemente como Arnobio y otros. En la mitología griega las manzanas doradas simbolizan la **tentación** y el **premio codiciado** (como en el mito de la Discordia o los trabajos de Hércules). Que los Titanes ofrezcan estos frutos brillantes sugiere una trampa de atracción por la belleza y la promesa de **inmortalidad o poder** (pues las Hespérides guardaban los frutos de la vida). En contexto órfico, la manzana puede representar el **deseo** que ata el alma al mundo. Clemente señala un detalle interesante: en los rituales de Deméter las mujeres evitaban comer granadas caídas al suelo porque creían que de la sangre de Dioniso nacieron las granadas​. Esto vincula el _fruto tentador_ con la sangre derramada del dios. Así, las manzanas (u otras frutas) en los _juguetes_ refuerzan la idea de **tentación mortal** y pueden relacionarse con la fecundidad cíclica de la tierra que distrae al espíritu. Académicos modernos destacan la elección de manzanas de oro como indicativo de **riqueza ilusoria** que pierde al inocente Dioniso​"
+    }
+  ],
+  "tipos": [
+    "Objeto"
+  ]
+}

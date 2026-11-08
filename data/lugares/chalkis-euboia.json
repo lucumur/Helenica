@@ -1,0 +1,136 @@
+{
+  "id": "chalkis-euboia",
+  "tana_id": "bLVXNeaE2OMi",
+  "nombre": "Chalkis, Euboia",
+  "nombre_alt": "Chora",
+  "titulo_tana": "Chalkis, Euboia (Chora)",
+  "etiquetas_tana": [
+    "chora"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Region",
+      "etiqueta": "Region",
+      "texto": "- [Euboia (Synchora)](lugares:euboia)\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-08-19T22%3A25%3A12.595Z-image.png?alt=media&token=3f416dda-4952-4bf2-a23e-06fb7ae87bb6)\n- El ave con estrella como simbolo calcidico en sus vasijas\n- [Hêra (Hera)](entes:hera)",
+      "refs": [
+        {
+          "tana": "V3DYW5HUkMow",
+          "nombre": "Euboia (Synchora)",
+          "col": "lugares",
+          "id": "euboia"
+        },
+        {
+          "tana": "fEfLas105lfz",
+          "nombre": "Hêra (Hera)",
+          "col": "entes",
+          "id": "hera"
+        }
+      ]
+    },
+    {
+      "clave": "Rios y Montes",
+      "etiqueta": "Rios y Montes",
+      "texto": "- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-08-19T21%3A50%3A44.651Z-image.png?alt=media&token=1a177894-5f9b-470e-8dd7-356e9f64193f)\n- ⌛ Estrecho de Euripos\n  - [Bous Aulē (Establo de la Vaca)](lugares:bous-aule)\n    - cueva donde Io diera luz a [Epaphos (Épafo)](entes:epaphos) tras convertirse en novilla.\n- [Lēlas (Potamos)](lugares:lelas)\n- [🌳 Lēlantion (pedion)](lugares:lelantion)\n- [Dirphys (Oros)](lugares:dirphys)\n  - [🐄 Santuario de Hēra Dirphya](lugares:santuario-de-hera-dirphya)\n- [Aigai (Oros)](lugares:aigai)",
+      "refs": [
+        {
+          "tana": "nTgfeRanZIH5",
+          "nombre": "Bous Aulē (Establo de la Vaca)",
+          "col": "lugares",
+          "id": "bous-aule"
+        },
+        {
+          "tana": "ooz7SGScKJ8G",
+          "nombre": "Lēlas (Potamos)",
+          "col": "lugares",
+          "id": "lelas"
+        },
+        {
+          "tana": "HC1aN2c0wICu",
+          "nombre": "🌳 Lēlantion (pedion)",
+          "col": "lugares",
+          "id": "lelantion"
+        },
+        {
+          "tana": "IlkkUEoMMROT",
+          "nombre": "Dirphys (Oros)",
+          "col": "lugares",
+          "id": "dirphys"
+        },
+        {
+          "tana": "dotxtD6R8N43",
+          "nombre": "Aigai (Oros)",
+          "col": "lugares",
+          "id": "aigai"
+        }
+      ]
+    },
+    {
+      "clave": "Centro Principal",
+      "etiqueta": "Centro Principal",
+      "texto": "- 🏙️ Chalkis (Polis) ⭐\n  - 🧱 Murallas Arcaicas\n  - [Puerto del Euripo](lugares:puerto-del-euripo) la \"instalación\" suprema: el canal de mareas caprichosas que la ciudad controlaba; base de la flota colonial.\n  - 🈸Agora\n  - 🏛️ Gran Templo Dorico de dedicacion desconocida\n  - [🔱 Poseidôn Ptórθios (Naos)](lugares:poseidon-ptorthios)\n  - 🏗️ Taller de Chalkis especializado en vasijas tipo skyphoi\n    - $🏺 Ceramica y Anforas\n  - [Kánēthos (Colina)](lugares:kanethos)\n    - Barrio de Chalkis, que funcionaba como puerto de embarque.\n- [Diakreis (Diacres)](lugares:diakreis)\n  - demos costero, evidenciado en una inscripcion de tributo ateniense\n- [Aulís, Boiōtia (Aulide)](lugares:aulis-boiotia)\n  - aunque realmente en Beocia, se comportaba como la parte continental del puerto de Chalkis\n- [Aigai, Chalkis](lugares:aigai-chalkis)\n  - desaparecido como poblacion ya en teimpos de estrabon.\n  - [🔱 Poseidôn Aigeus (Naos)](lugares:poseidon-aigeus)\n  - [🌬️ Aigaion (Naos a Egeo/Briareo)](lugares:aigaion-naos-a-egeo)\n- [Argoura, Chalkis](lugares:argoura-chalkis)\n  - [👰 Templo de Hera, Argoura](lugares:templo-de-hera-argoura)",
+      "refs": [
+        {
+          "tana": "fRwPmsNTXNdw",
+          "nombre": "🏙️ Chalkis (Polis)"
+        },
+        {
+          "tana": "opt98SNJGFVd",
+          "nombre": "Puerto del Euripo",
+          "col": "lugares",
+          "id": "puerto-del-euripo"
+        },
+        {
+          "tana": "PVCC8q-gD17b",
+          "nombre": "🔱 Poseidôn Ptórθios (Naos)",
+          "col": "lugares",
+          "id": "poseidon-ptorthios"
+        },
+        {
+          "tana": "KhYU8SnX_6aP",
+          "nombre": "Kánēthos (Colina)",
+          "col": "lugares",
+          "id": "kanethos"
+        },
+        {
+          "tana": "-UWVpkrRX07t",
+          "nombre": "Diakreis (Diacres)",
+          "col": "lugares",
+          "id": "diakreis"
+        },
+        {
+          "tana": "ewo5TSTseQIJ",
+          "nombre": "Aulís, Boiōtia (Aulide)",
+          "col": "lugares",
+          "id": "aulis-boiotia"
+        },
+        {
+          "tana": "dCut6CR5BSbR",
+          "nombre": "Aigai, Chalkis",
+          "col": "lugares",
+          "id": "aigai-chalkis"
+        },
+        {
+          "tana": "pt0-APHB1UXZ",
+          "nombre": "Argoura, Chalkis",
+          "col": "lugares",
+          "id": "argoura-chalkis"
+        }
+      ]
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Población:",
+      "texto": "- 🟠 Sustrato **Curetes** — según tradición, hijos de la propia ninfa Chalcis,\n- **🟡 Sustrato Abantes** (Ἄβαντες) —de **origen tracio** (según Aristóteles), liderados por **Abas, hijo de Poseidón y Aretusa**\n- 🔵🔵 Base Jonia : colonos atenienses **antes** de la Guerra de Troya , y **después** de la guerra,\n- 💙 Inmigracion jonia atica posterior\n- 👑 Aristocracia: Hippobotai (criadores de caballos) oligarquia regente\n- 🎏DIaspora: Naxos, Catana, Leontini, Zancle, Regio, Cumas, la Calcidica, Eubea de Sicilia"
+    },
+    {
+      "titulo": "Mitologia",
+      "texto": "- [Chalkis (Nymphe)](entes:chalkis) ― hija de [Asōpos Phliasios (Asopo Fliasio)](lugares:asopos-phliasios) y Metope, raptada por Poseidon desde Beocia hasta Euboia. Madre de los Kourētes (Curetes) y Korybantes (Coribantes)\n- [Abas (Abante)](entes:abas) , hijo de Poseidon y [Arethousa (Aretusa)](entes:arethousa) , padre de [Kánēthos (Caneto)](entes:kanethos) y Chalcodonte, abuelo de [Elephenōr (Elefenor)](entes:elephenor) rey de los eubeos, lider en la iliada.\n- [Pandōros (Pandoro)](entes:pandoros) lider Jonio Atico que segun la tradicion dio la base jonia anterior a la guerra de Troya. hijo de Erecteo\n- [Kothos (Coto)](entes:kothos) que junto a sus hermanos [Hellops (Hélope)](entes:hellops) y [Aïklos (Aiclo)](entes:aiklos) trajeron colonos desde Jonia Atica a Eubea, posterior a Troya\n- [Chalkodōn (Calcodonte)](entes:chalkodon) aliado de Heracles contra Elide, caudillo troyano pretendiente de Helena\n- [Makrís (Mácride)](entes:makris) Ninfa nodriza de Dioniso, expulsada de Eubea por Hera, reforzando su dominio\n- [Iő (Ío)](entes:io) sacerdotisa Euboica de Hera, transformada en vaca blanca, novilla, por zeus.Hija de [Inachos (ínaco)](entes:inachos) y [Melia](entes:melia)\n- [Aristaios (Aristeo)](entes:aristaios) divinidad menor de agricultura y pastoreo, hijo de [Cheirōn (Quirón)](entes:cheiron) y [Cyrene (Cirene)](entes:cyrene) , inventor de la apicultura."
+    }
+  ],
+  "tipos": [
+    "Chora"
+  ],
+  "pertenece_a": []
+}

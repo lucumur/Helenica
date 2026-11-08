@@ -1,0 +1,25 @@
+{
+  "id": "kastor",
+  "tana_id": "BP0aZRy9Kwqj",
+  "nombre": "Kastor",
+  "nombre_alt": "Castor (Dios)",
+  "titulo_tana": "Kastor / Castor (Dios)",
+  "etiquetas_tana": [
+    "O",
+    "Deidad"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "contenido_en": {
+    "tana": "DCsfLn7ATClf",
+    "nombre": "Entrenamiento de Heracles Efebo",
+    "col": "eventos",
+    "id": "entrenamiento-de-heracles-efebo"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "rhodeia",
+  "tana_id": "vX0aAVuwS7IG",
+  "nombre": "Rhodeia",
+  "nombre_alt": "Rodia",
+  "titulo_tana": "Rhodeia = Rodia",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

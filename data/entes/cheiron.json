@@ -1,0 +1,20 @@
+{
+  "id": "cheiron",
+  "tana_id": "HrNvcwyGXhQQ",
+  "nombre": "Cheirōn",
+  "nombre_alt": "Quirón",
+  "titulo_tana": "Cheirōn (Quirón)",
+  "etiquetas_tana": [
+    "H",
+    "centauro"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Centauro",
+    "Mortal"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

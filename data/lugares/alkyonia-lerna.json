@@ -1,0 +1,61 @@
+{
+  "id": "alkyonia-lerna",
+  "tana_id": "Cgm0LEIYUVKg",
+  "nombre": "Alkyonia, Lerna",
+  "nombre_alt": "Cienega",
+  "titulo_tana": "Alkyonia, Lerna (Cienega)",
+  "etiquetas_tana": [
+    "Lugar"
+  ],
+  "imagen": null,
+  "fuentes": [
+    {
+      "titulo": "Limni Alkyonia",
+      "url": null
+    }
+  ],
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Cienega",
+      "refs": [
+        {
+          "tana": "hJahZ8c4dIaL",
+          "nombre": "Cienega"
+        }
+      ]
+    },
+    {
+      "clave": "H🔼",
+      "etiqueta": "Pertenece a",
+      "texto": "[Lerna, Argolis (Region)](lugares:lerna-argolis-2)",
+      "refs": [
+        {
+          "tana": "e30B_D73-DJ3",
+          "nombre": "Lerna, Argolis (Region)",
+          "col": "lugares",
+          "id": "lerna-argolis-2"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Lugar"
+  ],
+  "pertenece_a": [
+    {
+      "tana": "e30B_D73-DJ3",
+      "nombre": "Lerna, Argolis (Region)",
+      "col": "lugares",
+      "id": "lerna-argolis-2"
+    }
+  ],
+  "contenido_en": {
+    "tana": "e30B_D73-DJ3",
+    "nombre": "Lerna, Argolis (Region)",
+    "col": "lugares",
+    "id": "lerna-argolis-2"
+  }
+}

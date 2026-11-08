@@ -1,0 +1,29 @@
+{
+  "id": "agaue",
+  "tana_id": "Qi3zQCRg1bWo",
+  "nombre": "Agauē",
+  "nombre_alt": "Ágave",
+  "titulo_tana": "Agauē = Ágave",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

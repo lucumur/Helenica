@@ -1,0 +1,29 @@
+{
+  "id": "eurydike",
+  "tana_id": "X7Y5IgKg0EKx",
+  "nombre": "Eurydikē",
+  "nombre_alt": "Euridice",
+  "titulo_tana": "Eurydikē = Euridice",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

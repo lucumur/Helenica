@@ -1,0 +1,30 @@
+{
+  "id": "foro-romano-corinto-reconstruida",
+  "tana_id": "FffML4uORdXJ",
+  "nombre": "Foro Romano, Corinto Reconstruida",
+  "nombre_alt": null,
+  "titulo_tana": "Foro Romano, Corinto Reconstruida",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "Civica",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Reorganiza el ágora griega tras la refundación del 44 aC, en dos niveles.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

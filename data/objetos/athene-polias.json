@@ -1,0 +1,61 @@
+{
+  "id": "athene-polias",
+  "tana_id": "J_NDY-orpZhs",
+  "nombre": "Athēnē Poliás",
+  "nombre_alt": "Atenea Civica",
+  "titulo_tana": "Athēnē Poliás (Atenea Civica)",
+  "etiquetas_tana": [
+    "Epiteto",
+    "agalma"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "- Tutela del asty, tesoro público, sinecismo, continuidad del linaje autóctono.\n- Es a quien se llama hē theós en los decretos.",
+      "refs": []
+    },
+    {
+      "clave": "P📊",
+      "etiqueta": "Propiedades",
+      "texto": "- **Tiene lámpara perpetua.** La de Calímaco, de oro, que Pausanias describe: se llena una vez al año y arde día y noche, con una palmera de bronce como chimenea.\n- **Tiene una serpiente doméstica.** El οἰκουρὸς ὄφις, guardián de la casa, al que se le deja una torta de miel al mes. En 480 no la tocó, y los atenienses entendieron que la diosa había abandonado la ciudad y evacuaron.\n- **Tiene un Olivo Sagrado y un manantial salado** a metros, en el mismo recinto.",
+      "refs": []
+    },
+    {
+      "clave": "A⚡",
+      "etiqueta": "Poderes",
+      "texto": "- **Se le teje un peplo (Panathenaia).** Las _ergastinai_ lo trabajan durante nueve meses; las _arrephoroi_ lo empiezan. Se le entrega en las Panateneas. Ninguna otra Atenea griega tiene guardarropa.\n- **Se le baña (** **Plynteria y Kallynteria)**, los _Praxiergidai_ le quitan las ropas, la velan, y la llevan a Falero a lavarla en el mar. El día es ἀποφράς, nefasto: el templo se cierra, no se hace negocio. Alcibíades tuvo la mala suerte de volver del exilio ese día, y todos lo leyeron como presagio.\n- Arrhephoria\n- Skira (la sacerdotisa baja con el sacerdote de Poseidón).",
+      "refs": []
+    },
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Xoanon (Estatua de Madera)",
+      "refs": []
+    },
+    {
+      "clave": "M🪵",
+      "etiqueta": "Material",
+      "texto": "- Madera de Olivo Antiguo, de tamaño humano o menor.\n- El xóanon de madera de olivo del Erecteion la tradición decía caído del cielo (διιπετές).\n- El escoliasta de Demóstenes lo distingue de Promachos (bronce) y de Parthenos (oro-marfil): “el que fue desde el principio, de madera de olivo, el llamado de Atenea Polias”.",
+      "refs": []
+    },
+    {
+      "clave": "U👥",
+      "etiqueta": "Usuarios",
+      "texto": "- Hieroi\n  - Sacerdotisa vitalicia de los Eteobútadas. Arréforas.",
+      "refs": []
+    },
+    {
+      "clave": "L🗺️",
+      "etiqueta": "Ubicación",
+      "texto": "Cella este del Erecteion (antes, templo arcaico de Polias).",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Agalma (estatua de culto)",
+    "Epíteto"
+  ]
+}

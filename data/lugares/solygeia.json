@@ -1,0 +1,37 @@
+{
+  "id": "solygeia",
+  "tana_id": "XtGUWwW5Nzu1",
+  "nombre": "Solygeia",
+  "nombre_alt": "Soligia",
+  "titulo_tana": "Solygeia (Soligia)",
+  "etiquetas_tana": [
+    "demos"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Co🧭",
+      "etiqueta": "Coordenadas",
+      "texto": "en [Oros Solygeios (Soligio)](lugares:oros-solygeios)",
+      "refs": [
+        {
+          "tana": "bTtsZzNmB-Lk",
+          "nombre": "Oros Solygeios (Soligio)",
+          "col": "lugares",
+          "id": "oros-solygeios"
+        }
+      ]
+    },
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "los dorios ocuparon esta colina para hacer guerra contra los eolios de Corinto (Guerra doria-eolia)",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Demos"
+  ],
+  "pertenece_a": []
+}

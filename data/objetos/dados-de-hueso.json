@@ -1,0 +1,48 @@
+{
+  "id": "dados-de-hueso",
+  "tana_id": "SJ7iCwFnEuxu",
+  "nombre": "Dados de Hueso",
+  "nombre_alt": "Astragalos -Knuckles-",
+  "titulo_tana": "Dados de Hueso (Astragalos -Knuckles-)",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "fuentes": [
+    {
+      "titulo": "Clemente y Arnobio lo mencionan primero en sus listas​. el Papiro de Gurôb confirma su presencia (plural “astragaloi”) entre los objetos sagrados​",
+      "url": null
+    }
+  ],
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Un hueso de tobillo (generalmente de animal) usado como dado o ficha en juegos de azar infantiles. En el mito es presentado al niño Dionisio como juguete trivial.",
+      "refs": []
+    },
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "- Simbólicamente, los **astragalos** representan el azar del juego y quizás, alegóricamente, el destino fragmentario del dios.\n- Algunos intérpretes sugieren que también alude a la práctica de la **adivinación** por astrágalos (sorteando la voluntad divina), lo que en contexto órfico podría subrayar la idea de **fortuna engañosa** que distrae al alma.",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Clemente",
+      "texto": "- In the quotation from Klímîs of Alæxándreia, we have the \"limb-moving rattles,\" at least that is the translation given. The Greek from which this translator renders this is _παίγνια καμπεσίγυια_, which is obscure; _καμπεσίγυια_ is \"limb-moving,\" but _παίγνια_ is \"play, sport, or game,\" so perhaps this may be a then-common moniker for the knuckle-bone game, the knuckle-bone being one of the components of the limbs. It has also been translated as a \"doll with moving limbs.\" [Muñeco Articulado (paignia kampesognia)](objetos:muneco-articulado)"
+    },
+    {
+      "titulo": "Platon",
+      "texto": "- “Let us look at the matter thus: May we not conceive each of us living being s to be a puppet of the Gods, either their plaything only, or created with a purpose – which of the two we cannot certainly know? But we do know, that these affections in us are like cords and strings, which pull us different and opposite ways, and to opposite actions; and herein lies the difference between virtue and vice. According to the argument there is one among these cords which every man ought to grasp and never let go, but to pull with it against all the rest; and this is the sacred and golden cord of reason, called by us the common law of the State; there are others which are hard and of iron, but this one is soft because golden; and there are several other kinds. Now we ought always to co-operate with the lead of the best, which is law. For inasmuch as reason is beautiful and gentle, and not violent, her rule must needs have ministers in order to help the golden principle in vanquishing the other principles. And thus the moral of the tale about our being puppets will not have been lost, and the meaning of the expression ‘superior or inferior to a man's self’ will become clearer; and the individual, attaining to right reason in this matter of pulling the strings of the puppet, should live according to its rule; while the city, receiving the same from some God or from one who has knowledge of these things, should embody it in a law, to be her guide in her dealings with herself and with other states. In this way virtue and vice will be more clearly distinguished by us. And when they have become clearer, education and other institutions will in like manner become clearer; and in particular that question of convivial entertainment, which may seem, perhaps, to have been a very trifling matter, and to have taken a great many more words than were necessary.”\n  - ¿No podemos concebir que cada uno de nosotros, seres vivos, sea una marioneta de los dioses, ya sea simplemente su juguete o creado con un propósito –de lo cual no podemos saber con certeza cuál de las dos posibilidades es la verdadera? Pero sí sabemos que estos afectos en nosotros son como cuerdas e hilos, que nos arrastran en direcciones diferentes y opuestas, y hacia acciones contrarias; y en ello reside la diferencia entre la virtud y el vicio. Según este argumento, existe una de estas cuerdas que cada hombre debe asir y nunca soltar, sino utilizarla para tirar contra todas las demás; y ésta es la sagrada y dorada cuerda de la razón, que nosotros llamamos la ley común del Estado; hay otras que son duras y de hierro, pero ésta es suave porque es dorada; y existen otros tipos. Ahora debemos siempre cooperar con la guía de lo mejor, que es la ley. Pues, en la medida en que la razón es bella y gentil, y no violenta, su dominio necesita necesariamente contar con ministros para ayudar al principio dorado a vencer a los otros principios. Y así no se habrá perdido la moraleja del relato acerca de que somos marionetas, y se aclarará el significado de la expresión ‘superior o inferior a uno mismo’; y el individuo, alcanzando la razón correcta en este asunto de tirar de las cuerdas de la marioneta, debería vivir de acuerdo a su mandato; mientras que la ciudad, recibiendo lo mismo de algún Dios o de alguien que posea conocimiento de estas cosas, debería encarnarlo en una ley, que le sirva de guía en sus tratos consigo misma y con otros estados. De esta manera, distinguiremos con mayor claridad entre la virtud y el vicio. Y cuando ello se aclare, la educación y otras instituciones se volverán, de manera similar, más claras; y en particular, aquella cuestión del entretenimiento convivencial, que quizá parezca, tal vez, haber sido un asunto muy trivial y que ha requerido muchas más palabras de las necesarias.”"
+    },
+    {
+      "titulo": null,
+      "texto": "- Arnobio\n- It is evident from the abundant archeological evidence that these were popular toys in antiquity. Not only have sets of knucklebones been excavated, but the knucklebone game itself- played by children, women, and men- was often depicted in painting and sculpture. Knucklebones have been referred to as toys with moving limbs or puppets, which the baby Dionysus must have found engaging."
+    }
+  ],
+  "tipos": [
+    "Objeto"
+  ]
+}

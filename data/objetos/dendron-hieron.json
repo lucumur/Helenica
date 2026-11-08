@@ -1,0 +1,47 @@
+{
+  "id": "dendron-hieron",
+  "tana_id": "QziS0a-q8_CP",
+  "nombre": "dendron hierón",
+  "nombre_alt": "arbol sagrado",
+  "titulo_tana": "dendron hierón = arbol sagrado",
+  "etiquetas_tana": [
+    "griego",
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "M🪵",
+      "etiqueta": "Material",
+      "texto": "- elaia = olivo el mas comun\n- moría = olivo sagrado publico\n- drys = encino las familias arcadias\n- kypárissos = ciprés las familias cretenses",
+      "refs": [
+        {
+          "tana": "vvqPfv_5yauT",
+          "nombre": "elaia = olivo"
+        },
+        {
+          "tana": "Moea1WhhOoEL",
+          "nombre": "moría = olivo sagrado publico"
+        },
+        {
+          "tana": "la3BcE1nZzXF",
+          "nombre": "drys = encino"
+        },
+        {
+          "tana": "I93Wr9A24xBF",
+          "nombre": "kypárissos = ciprés"
+        }
+      ]
+    },
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Objeto Sacro",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ]
+}

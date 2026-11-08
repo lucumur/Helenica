@@ -1,0 +1,29 @@
+{
+  "id": "dioksippe",
+  "tana_id": "v4E1TIhkV46Q",
+  "nombre": "Dioksippē",
+  "nombre_alt": "Dioxipe",
+  "titulo_tana": "Dioksippē = Dioxipe",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "alkaios-2",
+  "tana_id": "jOPPE3FjkSRu",
+  "nombre": "Alkaios",
+  "nombre_alt": null,
+  "titulo_tana": "Alkaios",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- Nombre de Nacimiento de [Hēraklēs (Hercules)](entes:herakles)"
+    }
+  ],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": null
+}

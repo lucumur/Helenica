@@ -1,0 +1,23 @@
+{
+  "id": "eros-con-arco-agalma-acrocorinto",
+  "tana_id": "qBS29gF0FnIY",
+  "nombre": "Eros con Arco (Agalma), Acrocorinto",
+  "nombre_alt": null,
+  "titulo_tana": "Eros con Arco (Agalma), Acrocorinto",
+  "etiquetas_tana": [
+    "agalma"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "- ¿culto propio o subordinado?\n  - Pausanias (2.5.1, mismo pasaje) menciona la imagen de Eros junto a la de Afrodita Ourania y Hoplismene en el mismo recinto de Acrocorinto.\n  - La cuestión de si Eros tenía culto _autónomo_ (con oferendas, sacerdocio, festival propio) o era estrictamente satélite iconográfico de Afrodita es importante distinguirla:\n  - En Corinto **no hay evidencia** de un culto independiente de Eros comparable al de Tespias (donde Eros sí tiene festival propio, los Erotidia, con agón musical — Pausanias 9.27.5).\n  - El patrón corintio parece ser el más común en el mundo griego: Eros como _parhedros_ (divinidad acompañante) dentro del recinto de su madre, sin sacerdocio ni fiesta diferenciada documentada. Esto es coherente con la jerarquía teológica estándar",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Agalma (estatua de culto)"
+  ]
+}

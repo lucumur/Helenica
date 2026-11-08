@@ -1,0 +1,17 @@
+{
+  "id": "tenedos",
+  "tana_id": "FKDrsH2MHOsC",
+  "nombre": "Tenedos",
+  "nombre_alt": "Isla-Polis",
+  "titulo_tana": "Tenedos (Isla-Polis)",
+  "etiquetas_tana": [
+    "Lugar"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Lugar"
+  ],
+  "pertenece_a": []
+}

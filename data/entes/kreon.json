@@ -1,0 +1,32 @@
+{
+  "id": "kreon",
+  "tana_id": "_xqcmu-t2R-c",
+  "nombre": "Kreôn",
+  "nombre_alt": "Creonte",
+  "titulo_tana": "Kreôn = Creonte",
+  "etiquetas_tana": [
+    "M",
+    "O"
+  ],
+  "imagen": null,
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "- Raza Tebana\n- Nobleza",
+    "refs": [
+      {
+        "tana": "L7UGizleg3d6",
+        "nombre": "Raza Tebana"
+      },
+      {
+        "tana": "0TjIgPdjRUql",
+        "nombre": "Nobleza"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": "M"
+}

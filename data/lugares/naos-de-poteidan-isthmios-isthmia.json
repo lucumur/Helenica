@@ -1,0 +1,97 @@
+{
+  "id": "naos-de-poteidan-isthmios-isthmia",
+  "tana_id": "bQeN1c4rJ-Pp",
+  "nombre": "Naos de Poteidãn Isthmios, Isthmia",
+  "nombre_alt": null,
+  "titulo_tana": "Naos de Poteidãn Isthmios, Isthmia",
+  "etiquetas_tana": [
+    "hieron"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "A🪪",
+      "etiqueta": "Alias / fases",
+      "texto": "- Poseidôn = forma epica y atica\n- Poteidãn = forma dialectal propia de corinto.\n- Anax Isthmios = Señor del Istmo. a veces solo asi es nombrado aqui.",
+      "refs": []
+    },
+    {
+      "clave": "S🧩",
+      "etiqueta": "Subunidades / partes",
+      "texto": "- Elementos\n  - [Altar Largo, Poteidaion](lugares:altar-largo-poteidaion)\n  - [Muros del Temenos](objetos:muros-del-temenos)\n  - [Bosque de Pinos](lugares:bosque-de-pinos)\n  - [Trirreme Fenicia de Salamina](objetos:trirreme-fenicia-de-salamina)\n  - [Poseidon de Bronce de Siete Codos (479aC)](objetos:poseidon-de-bronce-de-siete-codos)\n  - [Grupo crisoelefantino de Herodes Ático](objetos:grupo-crisoelefantino-de-herodes-atico)\n  - [Estatuas Varias, Poteidaion](objetos:estatuas-varias-poteidaion)\n  - [Altar de los Ciclopes, Poteidaion](objetos:altar-de-los-ciclopes-poteidaion)\n  - [Tumba de Sisifo y Neleo, Poteidaion](lugares:tumba-de-sisifo-y-neleo-poteidaion)",
+      "refs": [
+        {
+          "tana": "YYgKlr-quNBA",
+          "nombre": "Altar Largo, Poteidaion",
+          "col": "lugares",
+          "id": "altar-largo-poteidaion"
+        },
+        {
+          "tana": "uNI3nJbcKYsU",
+          "nombre": "Muros del Temenos",
+          "col": "objetos",
+          "id": "muros-del-temenos"
+        },
+        {
+          "tana": "YV45bY5zQlVI",
+          "nombre": "Bosque de Pinos",
+          "col": "lugares",
+          "id": "bosque-de-pinos"
+        },
+        {
+          "tana": "BytRDtnx0jd7",
+          "nombre": "Trirreme Fenicia de Salamina",
+          "col": "objetos",
+          "id": "trirreme-fenicia-de-salamina"
+        },
+        {
+          "tana": "DLumNXN0i_lI",
+          "nombre": "Poseidon de Bronce de Siete Codos (479aC)",
+          "col": "objetos",
+          "id": "poseidon-de-bronce-de-siete-codos"
+        },
+        {
+          "tana": "L-YTkapj2Ivd",
+          "nombre": "Grupo crisoelefantino de Herodes Ático",
+          "col": "objetos",
+          "id": "grupo-crisoelefantino-de-herodes-atico"
+        },
+        {
+          "tana": "qL5p2aBK7CJj",
+          "nombre": "Estatuas Varias, Poteidaion",
+          "col": "objetos",
+          "id": "estatuas-varias-poteidaion"
+        },
+        {
+          "tana": "bgWbaBKhQPKX",
+          "nombre": "Altar de los Ciclopes, Poteidaion",
+          "col": "objetos",
+          "id": "altar-de-los-ciclopes-poteidaion"
+        },
+        {
+          "tana": "gfMElY1UpHSd",
+          "nombre": "Tumba de Sisifo y Neleo, Poteidaion",
+          "col": "lugares",
+          "id": "tumba-de-sisifo-y-neleo-poteidaion"
+        }
+      ]
+    },
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "- Dominios\n  - Soberanía sobre el Istmo como territorio\n    - ****: El arbitraje de Briáreo: el Istmo y sus alrededores para Poseidón, la altura sobre la ciudad para Helios. Calímaco lo formula seco: el Istmo es de Poseidón\n  - Garantía del paso entre dos mares\n    - ****: Posición del santuario sobre la ruta terrestre, no sobre ninguna orilla; proximidad al Diolkos\n  - Victoria naval\n    - ****: Recibe el diezmo naval de las Guerras Médicas: una trirreme fenicia de Salamina y un Poseidón de bronce de siete codos con el botín de Platea\n  - Espacio político neutral\n  - Patronazgo de los Juegos Istmicos",
+      "refs": []
+    },
+    {
+      "clave": "A⚡",
+      "etiqueta": "Poderes",
+      "texto": "- Celebraciones\n  - **Bienales**, en los años 1.º y 3.º de cada olimpíada, en **primavera**, **tres días** de duración.\n  - **Apertura:** sacrificio a Poseidón y banquete para los fieles. Este es el punto que hay que contrastar con el rito de Palemón: **aquí se come**.\n  - Pruebas atléticas en la pista, musicales en el teatro.\n  - **Corona de pino**, con interregno de apio y restitución del pino en época romana.\n  - **Proedría ateniense:** derecho hereditario de asiento preferente, medido por la superficie de la vela de la nave sagrada.\n  - Presidencia corintia, salvo 146‑44 a.C.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Santuario"
+  ],
+  "pertenece_a": []
+}

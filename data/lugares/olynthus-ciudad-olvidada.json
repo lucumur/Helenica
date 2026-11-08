@@ -1,0 +1,55 @@
+{
+  "id": "olynthus-ciudad-olvidada",
+  "tana_id": "JTCJe2dJWjfM",
+  "nombre": "Olynthus - Ciudad Olvidada",
+  "nombre_alt": "300-500dC",
+  "titulo_tana": "Olynthus - Ciudad Olvidada (300-500dC)",
+  "etiquetas_tana": [
+    "Lugar",
+    "Fase"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "- **ruina habitada marginalmente / **aldea informal sin estatus administrativo.**\n- Patrón: familias campesinas ocupando casas antiguas parcialmente colapsadas, uso agrícola de ruinas (corrales, almacenes).",
+      "refs": []
+    },
+    {
+      "clave": "S🀄",
+      "etiqueta": "Símbolos",
+      "texto": "- Sin evidencia de cristianizacion (no hay basilicas)\n- Probable uso agricola de ruinas, con algunos pobladores residuales\n- Ausencia de ceramica romana tardia\n- Sin producción cerámica local, sin necrópolis organizada, sin inscripciones",
+      "refs": []
+    },
+    {
+      "clave": "H🏘️",
+      "etiqueta": "Habitantes",
+      "texto": "- Población estimada <100 habitantes (comparar: 10,000+ época clásica).\n- Griego Koine",
+      "refs": []
+    },
+    {
+      "clave": "H📜",
+      "etiqueta": "Historia y mito",
+      "texto": "Aunque para empezar el siglo V dC aun se ve algun uso agricola residual infimo, con el comienzo del Imperio de Oriente, y las invasiones eslavas del siglo VI el toponimo de Olynthos quedó totalmente olvidado, no redescubierto hasta 1856.",
+      "refs": []
+    },
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Ruinas Habitadas",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Fase histórica"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "Lu72xqUyooVW",
+    "nombre": "Olynthos / Olinto",
+    "col": "lugares",
+    "id": "olynthos"
+  }
+}

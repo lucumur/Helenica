@@ -1,0 +1,18 @@
+{
+  "id": "bounos",
+  "tana_id": "HM5GmEE5MmvW",
+  "nombre": "Bounos",
+  "nombre_alt": "Buno",
+  "titulo_tana": "Bounos (Buno)",
+  "etiquetas_tana": [
+    "Heroe"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

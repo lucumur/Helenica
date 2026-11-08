@@ -1,0 +1,17 @@
+{
+  "id": "hiera-odos",
+  "tana_id": "7dnAlgM6iX4R",
+  "nombre": "Hierã Odós",
+  "nombre_alt": "Via Sacra",
+  "titulo_tana": "Hierã Odós (Via Sacra)",
+  "etiquetas_tana": [
+    "Lugar"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Lugar"
+  ],
+  "pertenece_a": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": "bosque-de-pinos",
+  "tana_id": "YV45bY5zQlVI",
+  "nombre": "Bosque de Pinos",
+  "nombre_alt": null,
+  "titulo_tana": "Bosque de Pinos",
+  "etiquetas_tana": [
+    "bosque"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- ****: El templo está a la sombra de un bosque de pinos, dice Estrabón. **El pino es el árbol del santuario y de la corona**"
+    }
+  ],
+  "tipos": [
+    "Bosque"
+  ],
+  "pertenece_a": []
+}

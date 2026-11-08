@@ -1,0 +1,19 @@
+{
+  "id": "althaea",
+  "tana_id": "7QJu4VxxkMPh",
+  "nombre": "Althaea",
+  "nombre_alt": null,
+  "titulo_tana": "Althaea",
+  "etiquetas_tana": [
+    "F",
+    "O"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

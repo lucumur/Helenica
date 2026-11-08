@@ -1,0 +1,18 @@
+{
+  "id": "epaphos",
+  "tana_id": "6B2guQNpX50O",
+  "nombre": "Epaphos",
+  "nombre_alt": "Épafo",
+  "titulo_tana": "Epaphos (Épafo)",
+  "etiquetas_tana": [
+    "Heroe"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

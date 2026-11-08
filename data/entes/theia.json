@@ -1,0 +1,18 @@
+{
+  "id": "theia",
+  "tana_id": "C69T3tNWyS8X",
+  "nombre": "Theia",
+  "nombre_alt": "Tia",
+  "titulo_tana": "Theia (Tia)",
+  "etiquetas_tana": [
+    "Deidad"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

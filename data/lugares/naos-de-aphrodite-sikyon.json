@@ -1,0 +1,58 @@
+{
+  "id": "naos-de-aphrodite-sikyon",
+  "tana_id": "vQeBnV3bOfbK",
+  "nombre": "Naos de Aphroditē, Sikyôn",
+  "nombre_alt": null,
+  "titulo_tana": "Naos de Aphroditē, Sikyôn",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Culto",
+      "etiqueta": "Culto",
+      "texto": "- ❤️‍🔥 Culto Erogeno\n- 👰 Culto Gamico",
+      "refs": [
+        {
+          "tana": "11Z_ZqHjHXMn",
+          "nombre": "❤️‍🔥 Culto Erogeno"
+        },
+        {
+          "tana": "b3KLkhmeX41S",
+          "nombre": "👰 Culto Gamico"
+        }
+      ]
+    },
+    {
+      "clave": "Deidad",
+      "etiqueta": "Deidad",
+      "texto": "- [Aphroditē \"Paideros\" (del cercado)](entes:aphrodite-paideros)\n- [Aphroditē de Canaco (Agalma)](objetos:aphrodite-de-canaco)\n- [Antiopē (Agalma), Sikyôn](objetos:antiope-agalma-sikyon)",
+      "refs": [
+        {
+          "tana": "kpmbSgWvysGY",
+          "nombre": "Aphroditē \"Paideros\" (del cercado)",
+          "col": "entes",
+          "id": "aphrodite-paideros"
+        },
+        {
+          "tana": "vbhsI3lHuqf-",
+          "nombre": "Aphroditē de Canaco (Agalma)",
+          "col": "objetos",
+          "id": "aphrodite-de-canaco"
+        },
+        {
+          "tana": "4OGCVmHg2dGE",
+          "nombre": "Antiopē (Agalma), Sikyôn",
+          "col": "objetos",
+          "id": "antiope-agalma-sikyon"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

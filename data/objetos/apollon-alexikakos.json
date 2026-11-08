@@ -1,0 +1,41 @@
+{
+  "id": "apollon-alexikakos",
+  "tana_id": "gbf4yjbTPCXP",
+  "nombre": "Apollon Alexikakos",
+  "nombre_alt": "Estatua",
+  "titulo_tana": "Apollon Alexikakos (Estatua)",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "M🪵",
+      "etiqueta": "Material",
+      "texto": "Marmol del [Pentelikon, Attikē (Monte)](lugares:pentelikon-attike)",
+      "refs": [
+        {
+          "tana": "JN5SQkLdfGKQ",
+          "nombre": "Pentelikon, Attikē (Monte)",
+          "col": "lugares",
+          "id": "pentelikon-attike"
+        }
+      ]
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- Se erigió a Apolo en [Athēnai = Atenas](lugares:athenai)  en agradecimiento por detener una plaga en el siglo V aC\n- Una Copia suya"
+    }
+  ],
+  "tipos": [
+    "Objeto"
+  ],
+  "contenido_en": {
+    "tana": "GfYRe1REOaLg",
+    "nombre": "Apollon Aleksikakos= El que protege contra el mal",
+    "col": "entes",
+    "id": "apollon-aleksikakos"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "hera-euboia",
+  "tana_id": "vAL2W5ZX1vsI",
+  "nombre": "Hēra Euboia",
+  "nombre_alt": null,
+  "titulo_tana": "Hēra Euboia",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "fEfLas105lfz",
+    "nombre": "Hêra",
+    "col": "entes",
+    "id": "hera"
+  }
+}

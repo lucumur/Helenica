@@ -1,0 +1,29 @@
+{
+  "id": "asteria",
+  "tana_id": "B7cRMfCYa_uv",
+  "nombre": "Asteria",
+  "nombre_alt": "Asteria",
+  "titulo_tana": "Asteria = Asteria",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

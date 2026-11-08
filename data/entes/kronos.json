@@ -1,0 +1,34 @@
+{
+  "id": "kronos",
+  "tana_id": "wJ-80h8HgEnG",
+  "nombre": "Kronos",
+  "nombre_alt": "Crono",
+  "titulo_tana": "Kronos = Crono",
+  "etiquetas_tana": [
+    "O",
+    "M"
+  ],
+  "imagen": null,
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "Dios Titanide",
+    "refs": []
+  },
+  "padres": {
+    "texto": "[Ouranos = Urano](entes:ouranos)",
+    "refs": [
+      {
+        "tana": "hsKMgolM5yGQ",
+        "nombre": "Ouranos = Urano",
+        "col": "entes",
+        "id": "ouranos"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": "M"
+}

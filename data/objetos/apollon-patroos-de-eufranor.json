@@ -1,0 +1,22 @@
+{
+  "id": "apollon-patroos-de-eufranor",
+  "tana_id": "Mldcd2YENgpQ",
+  "nombre": "Apollon Patroos de Eufranor",
+  "nombre_alt": "Estatua de Marmol",
+  "titulo_tana": "Apollon Patroos de Eufranor (Estatua de Marmol)",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ],
+  "contenido_en": {
+    "tana": "0iYjGYISCSgv",
+    "nombre": "Templo de Apolo Patroos (Atenas)",
+    "col": "lugares",
+    "id": "templo-de-apolo-patroos"
+  }
+}

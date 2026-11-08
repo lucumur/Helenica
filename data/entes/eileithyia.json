@@ -1,0 +1,24 @@
+{
+  "id": "eileithyia",
+  "tana_id": "GXQ9i-IAWjEX",
+  "nombre": "Eileithyia",
+  "nombre_alt": "Ilitia",
+  "titulo_tana": "Eileithyia (Ilitia)",
+  "etiquetas_tana": [
+    "Deidad",
+    "O"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Datos asociados",
+      "texto": "- **Relacion:** Hija de Zeus, Nacida de Hera"
+    }
+  ],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

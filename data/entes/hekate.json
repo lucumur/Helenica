@@ -1,0 +1,92 @@
+{
+  "id": "hekate",
+  "tana_id": "lJwkbfGG__1o",
+  "nombre": "Hekatē",
+  "nombre_alt": "Hecate",
+  "titulo_tana": "Hekatē = Hecate",
+  "etiquetas_tana": [
+    "Deidad",
+    "O",
+    "F"
+  ],
+  "imagen": null,
+  "asociaciones": {
+    "texto": "- **Antorchas:** Representan su papel como guía en la oscuridad y en los rituales mágicos.\n- **Llaves:** Simbolizan su poder para abrir las puertas del conocimiento oculto y del mundo de los muertos.\n- **Perros negros:** Se le asociaba con estos animales, que eran vistos como guardianes espirituales.\n- **Serpientes:** Representan la sabiduría y la conexión con la magia ancestral.\n- **Luna creciente:** Asociada con su aspecto nocturno y su relación con los ciclos de la naturaleza.",
+    "refs": []
+  },
+  "residencias": {
+    "texto": "- [Lagina, Caria](lugares:lagina-caria) = Centro de su culto originario\n- [Eleusis, Atica](lugares:eleusis-atica) = Centro de los Misterios Eleusinos, donde se vinculó la Diosa Hecate con la resurrecion eleusina\n- [Tracia](lugares:tracia) = Region donde su culto se ligo a la necromancia y magia chamanica\n- Alejandria, Egipto = Su culto se sincretizo con Isis y adquirio un papel central en rituales magicos.",
+    "refs": [
+      {
+        "tana": "EWYTO7cJv617",
+        "nombre": "Lagina, Caria",
+        "col": "lugares",
+        "id": "lagina-caria"
+      },
+      {
+        "tana": "p6VyYeArc9Jd",
+        "nombre": "Eleusis, Atica",
+        "col": "lugares",
+        "id": "eleusis-atica"
+      },
+      {
+        "tana": "-yUVeOOtWRrk",
+        "nombre": "Tracia",
+        "col": "lugares",
+        "id": "tracia"
+      },
+      {
+        "tana": "O2BMBU_nZcsb",
+        "nombre": "Alejandria, Egipto"
+      }
+    ]
+  },
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "Dios Ctonico",
+    "refs": [
+      {
+        "tana": "RGWcAdE8Sft5",
+        "nombre": "Dios Ctonico"
+      }
+    ]
+  },
+  "nacimiento": {
+    "texto": "Hécate es una de las deidades más enigmáticas de la mitología griega. Su culto parece tener un origen **anatolio**, específicamente en la región de **Caria** (actual Turquía), donde era adorada como una diosa protectora y de la fertilidad.",
+    "refs": []
+  },
+  "atributos": {
+    "texto": "los griegos, quienes le atribuyeron una naturaleza **dual y ambivalente**, conectándola con la magia, la noche y el inframundo.",
+    "refs": []
+  },
+  "fuentes": [
+    {
+      "titulo": "Encrucijadas en el Mundo Grecorromano",
+      "url": null,
+      "tana": "vHYaiVKubDKO"
+    },
+    {
+      "titulo": "Retrato de Hecate",
+      "url": "https://www.jstor.org/stable/294128?searchText=&searchUri=%2Faction%2FdoBasicSearch%3FQuery%3Dhekate%2Bpriest%26so%3Drel&ab_segments=0%2Fbasic_search_gsv2%2Fcontrol&searchKey=&refreqid=fastly-default%3A7ab1ef0399c6dbd67e3f9bf8767c78f8&initiator=recommender&seq=1"
+    },
+    {
+      "titulo": "The Running Maiden From Eleusis",
+      "url": "https://www.jstor.org/stable/505689?searchText=&searchUri=%2Faction%2FdoBasicSearch%3FQuery%3Dhekate%2Bpriest%26so%3Drel&ab_segments=0%2Fbasic_search_gsv2%2Fcontrol&searchKey=&refreqid=fastly-default%3A7ab1ef0399c6dbd67e3f9bf8767c78f8&initiator=recommender&seq=1"
+    },
+    {
+      "titulo": "Investigacion de GPT",
+      "url": "https://en.wikipedia.org/wiki/Hecate#:~:text=%E1%BC%99%CE%BA%CE%B1%CF%84%CF%8C%CF%82%20Hekatos%2C%20an%20obscure%20epithet,and%20the%20night%20would%20have\""
+    }
+  ],
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- Hecate pertenecia al Panteon de Dioses del Inframundo.\n- Habia sido adoptada desde la cultura Caria Anatolia por los griegos Jonios y para el siglo V su culto se consolidó en Atenas, integrandose con los Misterios Eleusinos donde se creia en la resurrección de las almas, los fantasmas y la comunicación con los muertos.\n- Sus sacerdotisas, las Hekatidai, se vestian de color azafran, haciendo rituales nocturnos de danzas con antorchas y canticos entre las entrecrucijadas o en los cementerios para invocar a seres queridos fallecidos o hacer adivinacion.\n- Se le daba ofrendas en los caminos en Y, donde se pensaba que se perdian las almas errantes y que Hecate llegaba a tranquilizarlas. Era comun poner una estatuilla suya en las casas para proteger que entraran espectros malignos"
+    }
+  ],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": "F"
+}

@@ -1,0 +1,35 @@
+name: Validar y regenerar índice
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/entes/**'
+      - 'data/eventos/**'
+      - 'data/lugares/**'
+      - 'data/objetos/**'
+      - 'scripts/**'
+      - '.github/workflows/build-index.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: build-index
+  cancel-in-progress: false
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validar fichas
+        run: python scripts/validate.py
+      - name: Regenerar data/index.json
+        run: python scripts/build_index.py
+      - name: Commit del índice si cambió
+        run: |
+          if git diff --quiet -- data/index.json; then echo "Índice sin cambios"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add data/index.json
+          git commit -m "Regenerar índice"
+          git pull --rebase origin main
+          git push

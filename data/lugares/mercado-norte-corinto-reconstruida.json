@@ -1,0 +1,30 @@
+{
+  "id": "mercado-norte-corinto-reconstruida",
+  "tana_id": "Mt9tCLQ-Hiwr",
+  "nombre": "Mercado Norte, Corinto Reconstruida",
+  "nombre_alt": null,
+  "titulo_tana": "Mercado Norte, Corinto Reconstruida",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "Mercado",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Patio con tiendas perimetrales, romano.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

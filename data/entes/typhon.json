@@ -1,0 +1,30 @@
+{
+  "id": "typhon",
+  "tana_id": "pcTiMQOSr29d",
+  "nombre": "Typhon",
+  "nombre_alt": "Tifon",
+  "titulo_tana": "Typhon = Tifon",
+  "etiquetas_tana": [
+    "O",
+    "Bestia",
+    "H"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Bestia",
+    "refs": [
+      {
+        "tana": "MWq5bPfXL3LM",
+        "nombre": "Bestia"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Bestia",
+    "Mortal"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

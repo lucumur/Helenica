@@ -1,0 +1,172 @@
+{
+  "id": "eretria-euboia",
+  "tana_id": "zFLUFY1_lQIg",
+  "nombre": "Eretria, Euboia",
+  "nombre_alt": "Chora",
+  "titulo_tana": "Eretria, Euboia (Chora)",
+  "etiquetas_tana": [
+    "chora"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Region",
+      "etiqueta": "Region",
+      "texto": "- [Euboia (Synchora)](lugares:euboia)\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-08-19T22%3A37%3A57.239Z-image.png?alt=media&token=4263198c-dac2-490a-a6d3-1ca9b86efbae)",
+      "refs": [
+        {
+          "tana": "V3DYW5HUkMow",
+          "nombre": "Euboia (Synchora)",
+          "col": "lugares",
+          "id": "euboia"
+        }
+      ]
+    },
+    {
+      "clave": "Centro Principal",
+      "etiqueta": "Centro Principal",
+      "texto": "- [Eretria (Polis)](lugares:eretria) ⭐\n  - 🧱 Muralla Geometrica + Puerta Oeste\n  - [Tholos (Eretria)](lugares:tholos)\n  - [Theatron (Eretria)](lugares:theatron)\n  - [Agora Simple (Eretria)](lugares:agora-simple)\n  - [☀️ Apóllōn Daphnēphoros](lugares:apollon-daphnephoros)\n  - [👩‍🍼 Altar de Eileithyia](lugares:altar-de-eileithyia)\n  - [💐 Thesmophorion de Dēmēter](lugares:thesmophorion-de-demeter)\n  - 🚤 Potencia Naval\n  - 🏘️ Kymē (Demos)\n    - dio a la colonia italica de Cumae\n- [🏰Parthenion (phrourion)](lugares:parthenion)\n- Aiglēpheira (Kome)\n- Tēleidai (Kome)\n- [Porthmos (Puerto)](lugares:porthmos)\n- 🏙️ Grynchai (Poleidion)\n- 🛐 Amárynthos (hierón)\n  - Santuario Pan-Eubeo\n  - [🏹Artemis Amarysia](lugares:artemis-amarysia)\n  - Culto a [Narkittos (Heroe)](entes:narkittos) ancestro de los Narkittides. considerado hijo de Amarynthos\n  - [Amárynthos (Heroe)](entes:amarynthos) cazador de Artemis",
+      "refs": [
+        {
+          "tana": "GdGFBPx4ZnE8",
+          "nombre": "Eretria (Polis)",
+          "col": "lugares",
+          "id": "eretria"
+        },
+        {
+          "tana": "tTI_t6ijBY_y",
+          "nombre": "Tholos (Eretria)",
+          "col": "lugares",
+          "id": "tholos"
+        },
+        {
+          "tana": "5Ct7yI_PIE4g",
+          "nombre": "Theatron (Eretria)",
+          "col": "lugares",
+          "id": "theatron"
+        },
+        {
+          "tana": "hUTq6gGLtiqD",
+          "nombre": "Agora Simple (Eretria)",
+          "col": "lugares",
+          "id": "agora-simple"
+        },
+        {
+          "tana": "B4RHvmsiXaC6",
+          "nombre": "☀️ Apóllōn Daphnēphoros",
+          "col": "lugares",
+          "id": "apollon-daphnephoros"
+        },
+        {
+          "tana": "o7xwY16MuF9Z",
+          "nombre": "👩‍🍼 Altar de Eileithyia",
+          "col": "lugares",
+          "id": "altar-de-eileithyia"
+        },
+        {
+          "tana": "GLAEgALvt4YL",
+          "nombre": "💐 Thesmophorion de Dēmēter",
+          "col": "lugares",
+          "id": "thesmophorion-de-demeter"
+        },
+        {
+          "tana": "g4JByh0R92qH",
+          "nombre": "🏘️ Kymē (Demos)"
+        },
+        {
+          "tana": "IFyU-feepGUT",
+          "nombre": "🏰Parthenion (phrourion)",
+          "col": "lugares",
+          "id": "parthenion"
+        },
+        {
+          "tana": "KIzmej03fUzh",
+          "nombre": "Aiglēpheira (Kome)"
+        },
+        {
+          "tana": "w8LuI2NGXZ5K",
+          "nombre": "Tēleidai (Kome)"
+        },
+        {
+          "tana": "sC_STjKwXd8K",
+          "nombre": "Porthmos (Puerto)",
+          "col": "lugares",
+          "id": "porthmos"
+        },
+        {
+          "tana": "ywF1lxFVraO9",
+          "nombre": "🏙️ Grynchai (Poleidion)"
+        },
+        {
+          "tana": "2Qd-xC_41Qyt",
+          "nombre": "🛐 Amárynthos (hierón)"
+        }
+      ]
+    },
+    {
+      "clave": "Rios y Montes",
+      "etiqueta": "Rios y Montes",
+      "texto": "- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-08-19T22%3A38%3A12.251Z-image.png?alt=media&token=efe47217-7466-49e6-8cb3-1dd1b8cc40e6)\n- [boudōros (potamos)](lugares:boudoros)\n  - ⛵Afluente  Kēreus\n  - ⛵Afluente Nēleus\n  - con la leyenda popular de que las ovejas que bebían de uno se volvían blancas, y del otro, negras.\n- [Kōtylaion (Oros)](lugares:kotylaion)\n- [Olympos Euboias (Oros)](lugares:olympos-euboias)\n- [Vega Costera Amarynthia](lugares:vega-costera-amarynthia)\n- [🌳 Lēlantion (pedion)](lugares:lelantion)\n- [🌐 Tamynai (Chōra)](lugares:tamynai)\n  - $ 🐑 Lana\n  - [☀️ Apóllōn en Támynais](lugares:apollon-en-tamynais)\n- 🐊 Dystos (helos)\n- 🌐 Oichalia (chōra)",
+      "refs": [
+        {
+          "tana": "19PcW9Y7IARa",
+          "nombre": "boudōros (potamos)",
+          "col": "lugares",
+          "id": "boudoros"
+        },
+        {
+          "tana": "UJhVuxxMsAJ5",
+          "nombre": "Kōtylaion (Oros)",
+          "col": "lugares",
+          "id": "kotylaion"
+        },
+        {
+          "tana": "nOAl8kJCNmrU",
+          "nombre": "Olympos Euboias (Oros)",
+          "col": "lugares",
+          "id": "olympos-euboias"
+        },
+        {
+          "tana": "6t9x3whLVP0L",
+          "nombre": "Vega Costera Amarynthia",
+          "col": "lugares",
+          "id": "vega-costera-amarynthia"
+        },
+        {
+          "tana": "HC1aN2c0wICu",
+          "nombre": "🌳 Lēlantion (pedion)",
+          "col": "lugares",
+          "id": "lelantion"
+        },
+        {
+          "tana": "KbXRHSnWwvyX",
+          "nombre": "🌐 Tamynai (Chōra)",
+          "col": "lugares",
+          "id": "tamynai"
+        },
+        {
+          "tana": "XxEbV_hbHbKQ",
+          "nombre": "🐊 Dystos (helos)"
+        },
+        {
+          "tana": "m464q_LdNhqG",
+          "nombre": "🌐 Oichalia (chōra)"
+        }
+      ]
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Poblacion",
+      "texto": "- 🟠🟡 Sustrato Arcaico Kourētes y Abantes\n- 🔵 Base Jonia, aliados naturales de Atenas\n- 💙 Inmigracion Jonica Atica extensa\n- 👑 Aristocracia: Hippeis, criadores de caballos de la Lelantina\n- 🎏 Phylai: Mekistides, Oreonides, Abantides, Narkittides, Admetides\n- 🌱 Diaspora: Pithecusas y Cumae"
+    },
+    {
+      "titulo": "Mitología:",
+      "texto": "- **[Eretrieus (Eretrieo)](entes:eretrieus)** (1) heroe hijo de Faeton, un Titan. // (2)  heroe que provenia de [Makistos, Triphylia (Elide)](lugares:makistos-triphylia)\n- etimologia: el nombre ES un oficio — \"ciudad de los remeros\" (erétēs)\n- Nombres antiguos (Estrabón): Melaneïs y Arotria  — el tríptico resume las tres almas de la chora: el remo (mar), el arado (Arotria, \"tierra labrada\", cereal lelantino) y la tierra/lana oscura (Melaneïs, \"la negra\").\n- [Aïklos (Aiclo)](entes:aiklos) hermano de [Kothos (Coto)](entes:kothos) (fundador supuesto de Calcide) y de [Hellops (Hélope)](entes:hellops) , heroes jonicos."
+    }
+  ],
+  "tipos": [
+    "Chora"
+  ],
+  "pertenece_a": []
+}

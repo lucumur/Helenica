@@ -1,0 +1,29 @@
+{
+  "id": "linde",
+  "tana_id": "2ttABseby7WO",
+  "nombre": "Lindē",
+  "nombre_alt": "Linde",
+  "titulo_tana": "Lindē = Linde",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

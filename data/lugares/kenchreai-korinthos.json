@@ -1,0 +1,110 @@
+{
+  "id": "kenchreai-korinthos",
+  "tana_id": "m2wfFP4QVSnR",
+  "nombre": "Kenchreái, Kórinthos",
+  "nombre_alt": "Cencreas",
+  "titulo_tana": "Kenchreái, Kórinthos (Cencreas)",
+  "etiquetas_tana": [
+    "puerto"
+  ],
+  "imagen": null,
+  "fuentes": [
+    {
+      "titulo": "Princeton Enc. s.v. Kenchreai (Perseus/Scranton); kenchreai.org (ASCSA); Scranton–Ramage, Hesperia 36 (1967); Kenchreai I Topography; Paus. 2.2.3; Polyb. 5; Diod. 15.68",
+      "url": null
+    }
+  ],
+  "campos": [
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "- Limēn oriental de Kórinthos en el Golfo Sarónico (≈11 km E del centro de la polis; ≈4 km S del Poseidaion de Isthmia). Emporio hacia el Egeo y Oriente; pareja funcional de Léchaion (occidente).\n- Nombre epónimo: Kenchrias, hijo de Poseidón y Peirēnē (Paus. 2.2.3).\n- El puerto griego (arcaico–helenístico) se sitúa sobre todo en la llanura aluvial triangular hoy colmatada tierra adentro, al O de la cala romana visible; la cala con moles sumergidos es sobre todo fase posterior.",
+      "refs": []
+    },
+    {
+      "clave": "E🌱",
+      "etiqueta": "Etimología",
+      "texto": "Kenchreái ← Kenchrias (Κεγχρίας), hijo mítico de Poseidón y Peirēnē; \"cencreas\" = mijo / grano (etimología popular posible)",
+      "refs": []
+    },
+    {
+      "clave": "E🕰️",
+      "etiqueta": "Época",
+      "texto": "- Arcaica (799–600 aC)\n  - Ocupación / uso portuario desde finales del s. VI (Late Archaic) documentado por el proyecto americano (kenchreai.org): emporio griego tierra adentro en la llanura aluvial\n  - Función: salida corintia al Sarónico y al Egeo; complemento del Diolkos y de Léchaion\n  - Arquitectura monumental del limēn aún poco excavada (el foco arqueológico clásico ha sido la costa romana)\n- Clasica (599–300 aC)\n  - Puerto griego activo en la llanura aluvial (borde N y terreno alto al N con habitación antigua)\n  - Complejos en el extremo NE del ámbito portuario: fases desde quizá s. IV aC (hipótesis Santuario de Aphroditē — Paus. 2.2.3: naos + ágalma de piedra; continuidad cultual posible ya en época helenística/clásica)\n  - 368 aC: línea defensiva ístmica de trincheras/palizadas entre Kenchreái y Léchaion (Diod. 15.68)\n  - Referencias literarias griegas escasas pero el emporio es nodo comercial hacia Atenas, las islas y Asia\n- Helenistica (299 aC – 146 aC)\n  - Continuidad del puerto interior aluvial (Late Archaic–Hellenistic ≈ finales s. VI–I aC según excavaciones americanas)\n  - 217 aC: Filipo V ancla en Kenchreái; parte de la flota por Malea, parte arrastrada por el Diolkos hacia Léchaion (Polyb. 5.101 / 5.17–28 contexto)\n  - Masonería helenística (sillería) detectada en sondeos; Aphroditē en el extremo NE posible ya en esta fase\n  - 146 aC: destrucción de Kórinthos corta el marco político del emporio; no documentamos aquí la cala romana con moles, Isis, almacenes (44 aC+)",
+      "refs": []
+    },
+    {
+      "clave": "H🏘️",
+      "etiqueta": "Habitantes",
+      "texto": "Comunidad portuaria dependiente de Kórinthos: marineros, comerciantes del Egeo/Oriente, personal de muelle; habitación en alto al N de la llanura. Menos \"suburbio amurallado\" que Léchaion (sin makrà teíchē documentados hacia la polis).",
+      "refs": []
+    },
+    {
+      "clave": "Co🧭",
+      "etiqueta": "Coordenadas",
+      "texto": "- Este / Sur: Golfo Sarónico\n- Oeste: llanura hacia el Istmo y Kórinthos\n- Norte: acantilado / bluff; camino Isthmia → Kenchreái (Artemis xóanon antiguo en la ruta, Paus. 2.2.3)\n- Pareja con Léchaion vía Diolkos e Istmo",
+      "refs": []
+    },
+    {
+      "clave": "H🔼",
+      "etiqueta": "Pertenece a",
+      "texto": "[Qórinthos, Korinthia (Corinto)](lugares:qorinthos-korinthia)",
+      "refs": [
+        {
+          "tana": "0XxZ5RAWadzh",
+          "nombre": "Qórinthos, Korinthia (Corinto)",
+          "col": "lugares",
+          "id": "qorinthos-korinthia"
+        }
+      ]
+    },
+    {
+      "clave": "S🧩",
+      "etiqueta": "Subunidades / partes",
+      "texto": "- Limēn griego (llanura aluvial, hoy colmatada)\n- Ámbito de Aphroditē (NE; naos + piedra — Paus.; posible desde clásico/helenístico)\n- En tradición posterior (no rellenada aquí): Poseidón de bronce sobre el espigón; Asklēpiós e Isis en el otro extremo del limēn",
+      "refs": []
+    },
+    {
+      "clave": "O⚖️",
+      "etiqueta": "Organización y cultos",
+      "texto": "Emporio estatal corintio hacia el Este. Sin muros largos propios tipo Léchaion. Integrado en la defensa ístmica (línea Kenchreái–Léchaion en 368). Trasiego con Diolkos para cruzar al Golfo de Corinto.",
+      "refs": []
+    },
+    {
+      "clave": "S🀄",
+      "etiqueta": "Símbolos",
+      "texto": "- Aphroditē limenía (naos + ágalma de piedra)\n- Pareja mítica Kenchrias / Léches con Poseidón–Peirēnē\n- (Romanos, fuera de alcance ahora: Poseidón de bronce en el mole — el de Culto Marino)",
+      "refs": []
+    },
+    {
+      "clave": "H📜",
+      "etiqueta": "Historia y mito",
+      "texto": "Emporio oriental corintio desde el Late Archaic en la llanura aluvial; auge clásico–helenístico como puerta al Egeo; uso por Filipo V; corte en 146. La cala con moles que se ve hoy es sobre todo el limēn romano posterior — no confundir con el puerto griego tierra adentro.",
+      "refs": []
+    },
+    {
+      "clave": "Pr⏪",
+      "etiqueta": "Antecesor",
+      "texto": "Antes del Late Archaic el limēn griego documentado es tenue; el foco excavado visible es romano",
+      "refs": []
+    },
+    {
+      "clave": "Po⏩",
+      "etiqueta": "Sucesor",
+      "texto": "Tras 146 aC, fuera del marco de Corinto destruida; refundación romana desplaza/añade cala con moles al E (no documentada en esta ficha)",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Puerto"
+  ],
+  "pertenece_a": [
+    {
+      "tana": "0XxZ5RAWadzh",
+      "nombre": "Qórinthos, Korinthia (Corinto)",
+      "col": "lugares",
+      "id": "qorinthos-korinthia"
+    }
+  ]
+}

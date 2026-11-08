@@ -1,0 +1,39 @@
+{
+  "id": "thyrsos",
+  "tana_id": "09A8yJgMnEkC",
+  "nombre": "Thyrsos",
+  "nombre_alt": "Baculo",
+  "titulo_tana": "Thyrsos (Baculo)",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-08-12T00%3A59%3A05.860Z-image.png?alt=media&token=caa5ca20-c727-46bf-8655-050ee67abaa4",
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Instrumento",
+      "refs": []
+    },
+    {
+      "clave": "M🪵",
+      "etiqueta": "Material",
+      "texto": "Tallo de Hinojo Gigante coronado con Piña de Pino, envuelto en Listones en la punta, y en todo el baculo Enredadera y hojas de vid.",
+      "refs": [
+        {
+          "tana": "TQAXUEbeOmvE",
+          "nombre": "Hinojo Gigante"
+        }
+      ]
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- Etimologia = probablemente \"vid\" de lengua Troyana, comparar el Luvio Tuwarsa \"vid\""
+    }
+  ],
+  "tipos": [
+    "Objeto"
+  ]
+}

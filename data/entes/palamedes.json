@@ -1,0 +1,23 @@
+{
+  "id": "palamedes",
+  "tana_id": "tt9as1Zbqu3k",
+  "nombre": "Palamedes",
+  "nombre_alt": null,
+  "titulo_tana": "Palamedes",
+  "etiquetas_tana": [
+    "M"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- ****: en tradicion posthomerica, odiseo lo hace ejecutar por venganza tras haber sido forzado a unirse a la expedicion troyana mediante un engaño que palamedes desenmascaro"
+    }
+  ],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

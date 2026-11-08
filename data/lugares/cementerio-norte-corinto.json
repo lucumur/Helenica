@@ -1,0 +1,31 @@
+{
+  "id": "cementerio-norte-corinto",
+  "tana_id": "5CgAETTWkbjY",
+  "nombre": "Cementerio Norte, Corinto",
+  "nombre_alt": null,
+  "titulo_tana": "Cementerio Norte, Corinto",
+  "etiquetas_tana": [
+    "Lugar",
+    "tumba"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "- Necrópolis en la llanura al norte;\n- tumbas desde el Geométrico hasta época clásica.\n- Principal fuente de cerámica fechada temprana.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Tumba"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "0XxZ5RAWadzh",
+    "nombre": "Qórinthos, Korinthia (Corinto)",
+    "col": "lugares",
+    "id": "qorinthos-korinthia"
+  }
+}

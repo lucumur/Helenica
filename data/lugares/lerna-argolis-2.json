@@ -1,0 +1,134 @@
+{
+  "id": "lerna-argolis-2",
+  "tana_id": "e30B_D73-DJ3",
+  "nombre": "Lerna, Argolis",
+  "nombre_alt": "Region",
+  "titulo_tana": "Lerna, Argolis (Region)",
+  "etiquetas_tana": [
+    "Lugar"
+  ],
+  "imagen": null,
+  "fuentes": [
+    {
+      "titulo": "Geografia (Strabo)",
+      "url": null
+    },
+    {
+      "titulo": "Lerna (Maicar.com)",
+      "url": "https://www.maicar.com/GML/Lerna.html"
+    },
+    {
+      "titulo": "Strabo sobre Lerna",
+      "url": "http://www.amazon.com/exec/obidos/ASIN/0674990552/carlosparada-20\""
+    },
+    {
+      "titulo": "Unveiling the Hidden Face of Antiquity: Mysteries and Cryptic Cults",
+      "url": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-08-11T03%3A10%3A37.918Z-Dionysus_Katabasis_and_the_Mysteries_of.pdf?alt=media&token=e28b77e6-bf15-443c-97bf-224a111c3a3f"
+    },
+    {
+      "titulo": "Archeologic Site of Lerna (Argolis Culture)",
+      "url": "https://www.argolisculture.gr/en/list-of-monuments/archaeological-site-of-lerna-house-of-tiles-stone-enclosure/"
+    }
+  ],
+  "campos": [
+    {
+      "clave": "H🔼",
+      "etiqueta": "Pertenece a",
+      "texto": "Argolis (Region)",
+      "refs": []
+    },
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Region Historica",
+      "refs": []
+    },
+    {
+      "clave": "H📜",
+      "etiqueta": "Historia y mito",
+      "texto": "- Pre-Griegos = Veneraban el lugar, se desconoce con que proposito.\n- Epoca Micenica = Se honraba como un punto de entrada al Inframundo\n- Siglo XIX = aun quedaba una laguna pequeña\n- Actualidad = seca / no existe.",
+      "refs": []
+    },
+    {
+      "clave": "S🧩",
+      "etiqueta": "Subunidades / partes",
+      "texto": "- [Lerna, Argolis (Demos)](lugares:lerna-argolis)\n- [Alkyonia, Lerna (Cienega)](lugares:alkyonia-lerna)\n- [Amymonē (Fuente), Lerna (Chora), Argolis (Región)](lugares:amymone-fuente-lerna-chora-argolis-region)\n- Amphiaraos, Lerna (Fuente)\n- [Pontinos, Lerna (Monte)](lugares:pontinos-lerna)\n- [Pontinos, Lerna (Rio)](lugares:pontinos-lerna-2)\n- [Naos de Athēna Saitis, Monte Pontinos (Templo)](lugares:naos-de-athena-saitis-monte-pontinos)\n- Apobathmoi, Lerna (Puerto)",
+      "refs": [
+        {
+          "tana": "O4tYm6cQa-Bk",
+          "nombre": "Lerna, Argolis (Demos)",
+          "col": "lugares",
+          "id": "lerna-argolis"
+        },
+        {
+          "tana": "Cgm0LEIYUVKg",
+          "nombre": "Alkyonia, Lerna (Cienega)",
+          "col": "lugares",
+          "id": "alkyonia-lerna"
+        },
+        {
+          "tana": "SuhMUfl8H6GA",
+          "nombre": "Amymonē (Fuente), Lerna (Chora), Argolis (Región)",
+          "col": "lugares",
+          "id": "amymone-fuente-lerna-chora-argolis-region"
+        },
+        {
+          "tana": "hDvNylyK-bCs",
+          "nombre": "Amphiaraos, Lerna (Fuente)"
+        },
+        {
+          "tana": "e-G3iZCeEc_E",
+          "nombre": "Pontinos, Lerna (Monte)",
+          "col": "lugares",
+          "id": "pontinos-lerna"
+        },
+        {
+          "tana": "fu4-T2NNkFlB",
+          "nombre": "Pontinos, Lerna (Rio)",
+          "col": "lugares",
+          "id": "pontinos-lerna-2"
+        },
+        {
+          "tana": "iAmn4_vN8sgG",
+          "nombre": "Naos de Athēna Saitis, Monte Pontinos (Templo)",
+          "col": "lugares",
+          "id": "naos-de-athena-saitis-monte-pontinos"
+        },
+        {
+          "tana": "mmj9b6ddqiIK",
+          "nombre": "Apobathmoi, Lerna (Puerto)"
+        }
+      ]
+    },
+    {
+      "clave": "M🗺️",
+      "etiqueta": "Entorno",
+      "texto": "- Imagen\n  - ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-08-11T08%3A17%3A52.082Z-image.png?alt=media&token=61077f9c-2b2b-4022-8c99-301e6d20c103)",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Titulos",
+      "texto": "- Euhydros Argos = Argos la bien irrigada\n  - Calidad del Agua\n    - \"The dinner being slow in coming, a discussion arose concerning water—which was the sweetest? Some praised the water of Lerna, others, again, the water of Peirene …\" (Athenaeus, _<a href=\"http://www.amazon.com/exec/obidos/ASIN/0674992474/carlosparada-20\">Deipnosophistae</a>_ 4.156e).\n      - **Autor:** Athenaeus\n      - **Fuente:** Deipnosophistae 4.156e\n- Polydipsios Argos = Argos la sedienta de agua\n- Lerna de Enfermedades (por las limpias que se hacen en sus aguas) (Strabo)\n- Hydrocharēs Lerna = Lerna agraciada por las aguas"
+    },
+    {
+      "titulo": "Dioses y Heroes Venerados",
+      "texto": "- Pyronia\n  - Existian unas Ceremonias Antiguas donde traian los Argivos fuego del Santuario de [Artemisa Pyronia](entes:artemisa-pyronia) , desde el [Monte Krathis, Arkadia](lugares:monte-krathis-arkadia)\n- [Poseidáōn (Poseidón)](entes:poseidaon) y [Amymonē = Amímone](entes:amymone) = se unen y engendran a [Nauplios = Nauplio ](entes:nauplios) quien funda [Nauplia, Argolis](lugares:nauplia-argolis)\n  - Además, para ayudarla, el dios golpea la roca con su tridente y hace aparecer una nueva fuente. De este modo, salva a los habitantes de la sequía que él mismo había provocado para vengarse por la privación de sus derechos sobre la ciudad de Argos.\n- [Danaides = Ninfas Danaides](entes:danaides) = Era un lugar muy pantanoso y lleno de cienegas, por lo que se creia habitado por ninfas, entre ellas [Amymonē = Amímone](entes:amymone)\n  - Se decia que Danaos, el principe Libio. llega al puerto de Apobathmoi, Lerna (Puerto) al sur de Lerna y funda el el [Naos de Athēna Saitis, Monte Pontinos (Templo)](lugares:naos-de-athena-saitis-monte-pontinos) en la cima del [Pontinos, Lerna (Monte)](lugares:pontinos-lerna) , ya que la diosa lo ayudó a escapar de Egipto.\n  - Sus hijas las [Danaides = Ninfas Danaides](entes:danaides) sumergen las cabezas de sus maridos asesinados en las aguas de la laguna que es una de las entradas al Inframundo\n- [Dionysos (Dionisio)](entes:dionysos)\n  - Protegia la gran fertilidad de esta tierra por lo que se realizaban ritos nocturnos anuales en honor suyo\n  - [Dionysos (Dionisio)](entes:dionysos) entra desde aqui al [Katokosmos](lugares:katokosmos) para traer a su madre [Semelē = Semele](entes:semele) a la tierra,  a inicios de la primavera\n  - [Dionysos (Dionisio)](entes:dionysos) es asesinado aqui por [Perseus = Perseo](entes:perseus)  porque se oponia a su culto\n- [Dēmētēr = Démeter](entes:demeter)\n  - [Hāidēs = Hades](entes:haides) entra por aqui al [Katokosmos](lugares:katokosmos) cuando rapto a [Persephonē = Persefone](entes:persephone)\n  - Se celebraban los [Misterios Lerneos](eventos:misterios-lerneos)  consagrados a Demeter\n    - En Lerna [Hāidēs = Hades](entes:haides) descendio al Inframundo cuando raptó a [Persephonē = Persefone](entes:persephone) , por lo que Los misterios Lerneos de Demeter eran celebrados aqui"
+    },
+    {
+      "titulo": "Ceremonias",
+      "texto": "- Se hacian limpias en sus aguas (Strabo)"
+    }
+  ],
+  "tipos": [
+    "Lugar"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "BPmEWjakjBne",
+    "nombre": "Segundo Athlos: Matar a la Hidra de Lerna (Argolis)",
+    "col": "eventos",
+    "id": "segundo-athlos-matar-a-la-hidra-de-lerna"
+  }
+}

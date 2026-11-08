@@ -1,0 +1,41 @@
+{
+  "id": "kothon",
+  "tana_id": "8hVXlDzP8VXz",
+  "nombre": "kōthōn",
+  "nombre_alt": "Copa Espartana",
+  "titulo_tana": "kōthōn = Copa Espartana",
+  "etiquetas_tana": [
+    "Objeto",
+    "griego"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-03-29T22%3A24%3A09.766Z-image.png?alt=media&token=792f59db-5523-449c-a774-99e5b402ad90",
+  "fuentes": [
+    {
+      "titulo": "ejemplares del siglo VaC en el museo britanico",
+      "url": null
+    }
+  ],
+  "campos": [
+    {
+      "clave": "M🪵",
+      "etiqueta": "Material",
+      "texto": "ceramica",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "copa con borde interno para filtrar sedimentos",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-03-29T22%3A24%3A23.370Z-image.png?alt=media&token=f782e9d5-447f-42e0-89da-21713042e36a)"
+    }
+  ],
+  "tipos": [
+    "Objeto"
+  ]
+}

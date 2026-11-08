@@ -1,0 +1,38 @@
+{
+  "id": "hipolita",
+  "tana_id": "m1YWwiM-9F-I",
+  "nombre": "Hipólita",
+  "nombre_alt": "Reina de Themyscira",
+  "titulo_tana": "Hipólita (Reina de Themyscira)",
+  "etiquetas_tana": [
+    "X"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Posibles",
+      "etiqueta": "Posibles",
+      "texto": "- [Hippolytē = Hipolita](entes:hippolyte)",
+      "refs": [
+        {
+          "tana": "cbhmmGlk83PE",
+          "nombre": "Hippolytē = Hipolita",
+          "col": "entes",
+          "id": "hippolyte"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Mortal"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "contenido_en": {
+    "tana": "3vXdtE8djxmB",
+    "nombre": "Athlos Noveno: Robar el Cinturon de Hipolita (Amazonia)",
+    "col": "eventos",
+    "id": "athlos-noveno-robar-el-cinturon-de-hipolita"
+  }
+}

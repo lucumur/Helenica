@@ -1,0 +1,66 @@
+{
+  "id": "olynthus-marginalidad-romana",
+  "tana_id": "RAWinZhkpgyL",
+  "nombre": "Olynthus - Marginalidad Romana",
+  "nombre_alt": "168aC -300dC",
+  "titulo_tana": "Olynthus - Marginalidad Romana (168aC -300dC)",
+  "etiquetas_tana": [
+    "Lugar",
+    "Fase"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "H📜",
+      "etiqueta": "Historia y mito",
+      "texto": "- Despues de la conquista del Reino Mecedonio, Olynthus se integra al Distrito de Anfipolis (Livio 45.29)\n- Olynthus durante epoca romana pierde autonomia, importancia y continua solamente como poblacion limitada sin mejoras durante siglos.\n- Causas de Abandono Progresivo\n  - Invasiones góticas 253-268 d.C. ocasionan colapso economico y abandono progresivo\n    - Evidencia: monedas Galieno (última circulación masiva)\n  - Desplazamiento ruta comercial a Tesalónica\n  - Migraciones campo-ciudad (Tesalónica, Filipos)\n  - Pérdida autonomía, sin incentivos urbanos",
+      "refs": []
+    },
+    {
+      "clave": "H🔼",
+      "etiqueta": "Pertenece a",
+      "texto": "Distrito de Anfipolis",
+      "refs": []
+    },
+    {
+      "clave": "S🀄",
+      "etiqueta": "Símbolos",
+      "texto": "- Ocupación dispersa, sin autonomía, viviendo aun en el Grid Hipodamico enruinado.\n- **Evidencia arquitectura romana:**\n  - **Ausente:** Sin edificios públicos romanos identificados (foro, termas, basílica)\n  - **Limitada:** Reparaciones menores casas helenísticas\n  - **Interpretación:** Olynthos = asentamiento rural menor, no ciudad\n  - Sin veteranos, sin inscripciones latinas > no era Colonia Romana (como Dion en las peninsulas flegras)\n  - Sin magistrados romanos atestiguados > no era Municipium (como Tessalonica)\n- **Inscripciones romanas:**\n  - **Total recuperado:** 3 inscripciones latinas fragmentarias\n    - **IG X 2.1, 79:** Dedicación a emperador (nombre perdido), s. II d.C.\n    - **IG X 2.1, 80:** Estela funeraria soldado (LEG X?), s. I d.C.\n    - **Fragmento inédito:** Miliario Via Egnatia (30 km sur Olynthos)\n  - **Conclusión epigráfica:** Producción epigráfica mínima confirma marginalidad urbana.",
+      "refs": []
+    },
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "- **Marginalidad romana:** Olynthos nunca recuperó estatus ciudad bajo Roma.\n- Ocupación dispersa (vicus rural), ausencia monumentalización, producción epigráfica mínima.\n- NO pirámide estratificada, sino **comunidad semi-campesina indiferenciada** con mínimas diferencias riqueza.",
+      "refs": []
+    },
+    {
+      "clave": "O⚖️",
+      "etiqueta": "Organización y cultos",
+      "texto": "- Evidencia Ausencia de Elite\n  - ❌ Sin inscripciones latinas magistrados\n  - ❌ Sin edificios públicos romanos (foro, termas, basílica)\n  - ❌ Sin villa rustica aristocrática (vs. Filipos, Dion)\n  - ❌ Sin producción epigráfica (3 inscripciones vs. 800+ Tesalónica)\n  - ❌ Sin acuñación (ni imperial local)\n- Olynthus Republicana-Imperial (168aC-100dC) = Vicus Declinante (Aldea Drececiente)\n  - **Composicion:**\n    - Republicana = 500-1,000 habitantes, en Colina Norte 15-20%\n      - E1 Propietarios Modestos (15-20 familias) con 10-30Ha, Ingreso $375D anuales (el costo de un esclavo)\n      - E2 Campesinos (60-90 familias) con 2-8Ha, Ingreso $210D anuales (penetes)\n      - E3 Jornaleros (10-20 familias) sin tierras, Ingreso $100D anuales\n    - Imperial = 200-400 habitantes, 8-12%\n    - Siglo III = Caserio de 100-200 habitantes dispersos > Ruinas Ocupadas por 5 o 10 familias en pobreza\n  - **Cultura:**\n    - **Koiné ática:** 100% (universal)\n    - **Latín:** 10-20% (veteranos, funcional mínimo)\n  - **Origenes:**\n    - **Descendientes colonos helenísticos:** 60% (familias κληροῦχοι 316 a.C. que sobrevivieron)\n    - **Veteranos itálicos (post-168):** 20% (licenciados legiones Macedonia)\n    - **Comerciantes retirados:** 10% (Tesalónica → retiro rural)\n    - **Griegos continentales:** 10% (Beocia, Fócide, oportunismo tierras baratas)\n  - **Derechos:**\n    - **Peregrini dediticii** (no-ciudadanos romanos hasta 212 d.C. Constitutio Antoniniana)\n      - Post-212: Ciudadanía romana universal pero sin beneficios prácticos (Olynthos marginal)\n    - **Justicia:** Recurso tribunal itinerante (conventus Tesalónica, visita anual)\n    - **Sin representación:** No magistrados locales, no curia municipal\n    - **Asociación informal:** Probable κοινὸν κωμητῶν (asociación aldeanos), NO formalizado\n  - **Posesiones:**\n    - Tierras registradas censo provincial (Tesalónica)\n    - Sin ager publicus local (no colonia, no municipium)\n    - **Época republicana (168-27 a.C.):** 1-2 esclavos/familia (30% familias)\n  - **Obligaciones:**\n    - **Tributum soli (impuesto territorial):** 10-15% producción agrícola\n    - **Annona civica (requisiciones grano):** Ocasional (guerra, crisis)\n    - **Munera (corveas):** Via Egnatia mantenimiento (10-15 días/año)\n  - **Militar:**\n    - **Exclusión servicio regular**\n    - Veteranos\n      - 10-15% familias estrato = veteranos licenciados\n      - **Sin privilegios:** No tierras ager publicus (Olynthos sin asignaciones coloniales)\n      - **Armamento conservado:** Gladius, scutum (personal, no uso activo)\n  - **Religioso:**\n    - Cultos Practicados\n      - Zeus Olympios (proteccion de cosechas)\n      - Demeter-Kore (fertilidad)\n      - Dionysios (vendimia)\n      - Di Manes (Ancestros)\n      - Fortuna (Suerte)\n      - ❌ Culto imperial (sin altar Augusto, vs. Tesalónica Sebasteion)\n      - ❌ Capitolio (Júpiter-Juno-Minerva, inexistente)\n      - ❌ Mitra (militar, sin guarnición)\n    - **Dionisia:** Mantenidas (mínimas), sin teatro (ruinoso)\n    - **Cosechas:** Sacrificios comunales (oveja, cabra) compartidos\n  - **Residencia:**\n    - **Ruinas casas helenísticas:** Ocupación selectiva bloques A-B (central colina norte)\n    - **Campo circundante:** 30% familias en granjas dispersas (2-5 km ciudad)\n  - **Vestimenta:**\n    - **Hombres:**\n      - **Túnica lana** (tunica romana, NO chitón griego largo): Rodilla, sin mangas\n      - **Paenula** (capa semicircular romana, invierno): Lana burda\n      - **Caligae** (sandalias militares, veteranos): Cuero claveteado\n      - **Pies descalzos** (mayoría, verano)\n    - **Mujeres:**\n      - **Túnica larga:** Tobillo (similar stola romana, pero sin calidad)\n      - **Palla** (manto, equivalente himation griego): Exterior\n      - **Sin joyas:** Pobreza (vs. fibulas bronce época helenística)\n  - **Actividades:**\n    - Educacion\n      - **Alfabetización básica koine (lectura y aritmetica):** 20-30% varones (vs. 40-50% helenística)\n        - **Magister itinerante:** Visita estacional (primavera/otoño), pago 15-25 dr/año\n    - Ausencia actividades \"romanas\" típicas (termas, anfiteatro, foro) = **marginalidad cultural**.\n    - Vida cotidiana más próxima **aldea griega helenística empobrecida** que vicus romano.",
+      "refs": [
+        {
+          "tana": "fAYudGDYkFA3",
+          "nombre": "Olynthus Republicana-Imperial (168aC-100dC) = Vicus Declinante (Aldea Drececiente)"
+        }
+      ]
+    },
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Comunidad Agropecuaria",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Fase histórica"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "Lu72xqUyooVW",
+    "nombre": "Olynthos / Olinto",
+    "col": "lugares",
+    "id": "olynthos"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "pan",
+  "tana_id": "7EEIKm56PnJ9",
+  "nombre": "Pan",
+  "nombre_alt": "Fauno",
+  "titulo_tana": "Pan (Fauno)",
+  "etiquetas_tana": [
+    "Deidad",
+    "O"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

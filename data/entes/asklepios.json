@@ -1,0 +1,389 @@
+{
+  "id": "asklepios",
+  "tana_id": "vYT6Rr7Q8l96",
+  "nombre": "Asklēpiós",
+  "nombre_alt": "Asclepio",
+  "titulo_tana": "Asklēpiós = Asclepio",
+  "etiquetas_tana": [
+    "Deidad",
+    "O",
+    "M"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-03-08T03%3A43%3A20.066Z-image.png?alt=media&token=393d1131-f1df-414d-a7d5-1d90919e917e",
+  "epitetos": {
+    "texto": "- [Aesculapius](entes:aesculapius)\n- [Paiān](entes:paian)\n- [Ofiouxos = Viperifero](entes:ofiouxos)\n- Variantes\n  - Asklāpiós\n  - Asxlapiós\n  - Askalapiós\n  - Aisxlabiós\n  - Aiglapiós",
+    "refs": [
+      {
+        "tana": "f0rggdz8Swat",
+        "nombre": "Aesculapius",
+        "col": "entes",
+        "id": "aesculapius"
+      },
+      {
+        "tana": "-E7HCL9gbNXq",
+        "nombre": "Paiān",
+        "col": "entes",
+        "id": "paian"
+      },
+      {
+        "tana": "qpsXa-bWECy6",
+        "nombre": "Ofiouxos = Viperifero",
+        "col": "entes",
+        "id": "ofiouxos"
+      },
+      {
+        "tana": "T865FHfE0CmV",
+        "nombre": "Asklāpiós"
+      },
+      {
+        "tana": "cS3fNowEQTlJ",
+        "nombre": "Asxlapiós"
+      },
+      {
+        "tana": "LJGkDhIUK013",
+        "nombre": "Askalapiós"
+      },
+      {
+        "tana": "vwAgKoyK8o_j",
+        "nombre": "Aisxlabiós"
+      },
+      {
+        "tana": "ySVbs4kHYIPt",
+        "nombre": "Aiglapiós"
+      }
+    ]
+  },
+  "padres": {
+    "texto": "- [Apollôn = Apolo](entes:apollon)\n- [Korōnís = Corónide](entes:koronis)\n- [Flegyas = Flegias](entes:flegyas) = su abuelo, padre de Coronide. Rey de [Trikka, Thessalia](lugares:trikka-thessalia)\n- [Lapithes = Lápita](entes:lapithes) = ancestro de Flegias, hijo de Apolo.",
+    "refs": [
+      {
+        "tana": "9OYZLA3QegGP",
+        "nombre": "Apollôn = Apolo",
+        "col": "entes",
+        "id": "apollon"
+      },
+      {
+        "tana": "Px_BRu_nh2MQ",
+        "nombre": "Korōnís = Corónide",
+        "col": "entes",
+        "id": "koronis"
+      },
+      {
+        "tana": "ON7RVxKX1WP1",
+        "nombre": "Flegyas = Flegias](tana:lb052eW7vUwS) = su abuelo, padre de Coronide. Rey de [Trikka, Thessalia",
+        "col": "lugares",
+        "id": "trikka-thessalia"
+      },
+      {
+        "tana": "VJj167EKTwPS",
+        "nombre": "Lapithes = Lápita",
+        "col": "entes",
+        "id": "lapithes"
+      }
+    ]
+  },
+  "residencias": {
+    "texto": "- Tricca = uno de los pueblos que reclamaba como origen de Asclepio\n- Epidauro = el principal lugar de veneracion en Grecia de Asclepio.\n  - [Asklēpeion de Epidauros](lugares:asklepeion-de-epidauros)\n  - [Asklēpios Criselefantino de Epidauro](lugares:asklepios-criselefantino-de-epidauro)\n  - [Alameda del Asklēpeion de Epidauro](lugares:alameda-del-asklepeion-de-epidauro) = donde se tenia prohibido morir y que las mujeres parieran.",
+    "refs": [
+      {
+        "tana": "qw0py_t4Tk1s",
+        "nombre": "Asklēpeion de Epidauros",
+        "col": "lugares",
+        "id": "asklepeion-de-epidauros"
+      },
+      {
+        "tana": "BtxS0ziSP9XN",
+        "nombre": "Asklēpios Criselefantino de Epidauro",
+        "col": "lugares",
+        "id": "asklepios-criselefantino-de-epidauro"
+      },
+      {
+        "tana": "Ck-p6RVaVDsU",
+        "nombre": "Alameda del Asklēpeion de Epidauro",
+        "col": "lugares",
+        "id": "alameda-del-asklepeion-de-epidauro"
+      }
+    ]
+  },
+  "especie": {
+    "texto": "Heroe",
+    "refs": [
+      {
+        "tana": "fdfrmwQATZAR",
+        "nombre": "Heroe"
+      }
+    ]
+  },
+  "cultura": "Helénica",
+  "descripcion": {
+    "texto": "Semidios de la Medicina",
+    "refs": []
+  },
+  "conyuges": {
+    "texto": "- [Hygeia = Salud](entes:hygeia) = solo en los himnos orficos\n- [Epione = Misericordiosa](entes:epione) = la mas comun esposa",
+    "refs": [
+      {
+        "tana": "WVGwOWEsFJfd",
+        "nombre": "Hygeia = Salud",
+        "col": "entes",
+        "id": "hygeia"
+      },
+      {
+        "tana": "AAJ3YvkQ9ulQ",
+        "nombre": "Epione = Misericordiosa",
+        "col": "entes",
+        "id": "epione"
+      }
+    ]
+  },
+  "hijos": {
+    "texto": "- asklēpiadēs = Hijo de Asclepio / médico\n- Los 2 hijos segun Homero\n  - [Maxaon = Macaón](entes:maxaon) = \"el de las batallas\", era medico de guerra, extraia flechas, curaba heridas, hacia amputaciones y tratamientos fisicos.\n  - [Podaleirios = Podalirio](entes:podaleirios) = \"el que alivia los pies\" era el medico diagnostico y clinico que daba remedios y hacia masajes.\n- Las 5 Hijas semidiosas\n  - [Hygeia = Salud](entes:hygeia)\n  - [Iasó = Jasona](entes:iaso) = la restauracion\n  - [Aigle = Egle](entes:aigle) = El brillo sanador\n  - [Panakeia = Panacea](entes:panakeia) = La que cura todas las cosas\n  - [Akesõ = Acesona](entes:akeso) = la aplicación\n- Los hijos segun los mitos\n  - [Telesphoros = Telesforo](entes:telesphoros) = Niño dios de la Sanacion.\n  - [Ianiskos = Janisco](entes:ianiskos)\n  - [Alexenor](entes:alexenor)\n  - [Aratos = Arato](entes:aratos)",
+    "refs": [
+      {
+        "tana": "k6_GQ-TK0v_P",
+        "nombre": "asklēpiadēs = Hijo de Asclepio / médico"
+      },
+      {
+        "tana": "Q98lsXE7wY6h",
+        "nombre": "Maxaon = Macaón",
+        "col": "entes",
+        "id": "maxaon"
+      },
+      {
+        "tana": "V6S7Kf46HXBE",
+        "nombre": "Podaleirios = Podalirio",
+        "col": "entes",
+        "id": "podaleirios"
+      },
+      {
+        "tana": "WVGwOWEsFJfd",
+        "nombre": "Hygeia = Salud",
+        "col": "entes",
+        "id": "hygeia"
+      },
+      {
+        "tana": "tGUb9p40s38Y",
+        "nombre": "Iasó = Jasona",
+        "col": "entes",
+        "id": "iaso"
+      },
+      {
+        "tana": "l859w9HM_Aip",
+        "nombre": "Aigle = Egle",
+        "col": "entes",
+        "id": "aigle"
+      },
+      {
+        "tana": "N5VhacHVg2wg",
+        "nombre": "Panakeia = Panacea",
+        "col": "entes",
+        "id": "panakeia"
+      },
+      {
+        "tana": "f7HltmlRN6y0",
+        "nombre": "Akesõ = Acesona",
+        "col": "entes",
+        "id": "akeso"
+      },
+      {
+        "tana": "TJGwgbqaZ7lc",
+        "nombre": "Telesphoros = Telesforo",
+        "col": "entes",
+        "id": "telesphoros"
+      },
+      {
+        "tana": "NEtbuwijSQOf",
+        "nombre": "Ianiskos = Janisco",
+        "col": "entes",
+        "id": "ianiskos"
+      },
+      {
+        "tana": "6gizCuikRQnu",
+        "nombre": "Alexenor",
+        "col": "entes",
+        "id": "alexenor"
+      },
+      {
+        "tana": "7o7BOxnQHyWo",
+        "nombre": "Aratos = Arato",
+        "col": "entes",
+        "id": "aratos"
+      }
+    ]
+  },
+  "nacimiento": {
+    "texto": "- Agsklap*- segun Robert Beekes\n- Tiene 3 historias de nacimientos como mortal: es probable de sincretismos con heroes locales.\n- Al tener sincretismos con dioses forasteros, tambien es posible su origen totalmente mitico.",
+    "refs": [
+      {
+        "tana": "M4OjqpoTCPOn",
+        "nombre": "Robert Beekes"
+      }
+    ]
+  },
+  "asociaciones": {
+    "texto": "- El baculo con la serpiente enredada\n- El Asclepeion, un templo de sanacion.\n  - [Asklēpeion de Tricca](lugares:asklepeion-de-tricca) el mas antiguo\n  - [Asklēpeion de Bethesda](lugares:asklepeion-de-bethesda) encontrado en 1964\n  - [Asklēpeion de Kōs](lugares:asklepeion-de-kos) donde estudiaba Hipocrates\n  - [Asklēpeion de Gortys](lugares:asklepeion-de-gortys) = con aguas termales, mencionado por Pausanias\n  - [Asklēpeion de Pergamon](lugares:asklepeion-de-pergamon) = el mas popular en Asia\n  - [Asklēpeion de Epidauros](lugares:asklepeion-de-epidauros) = el mas popular de la antiguedad\n  - [Asklēpeion de Athenai](lugares:asklepeion-de-athenai) = desde el siglo VaC\n  - [Asklēpeion de Lambaesis](lugares:asklepeion-de-lambaesis) = en Argelia, Africa en tiempos romanos\n  - Otros mas = en Rodas, en Paros, en Delos, Egina, en Esmirna, en Efeso, en Panfilia, en Laodicea, en Hierapolis, en Agrigento, en Velia, en Cumas, en Crotona, en Cirene, en Cartago, en Alejandria, en  Beirut, en Ampurias, en Roma, en Lyon\n  - Otors: en Celaenae cerca de Patrae, en Cyllene, en Gerenia, en Titane cerca de Sicyon, en Caus en Arcadia, en Sicyon, en Thelpusa, en Mesenia, en Argos, en Aegion, en Pellene, en Asopos, en Lebene de Creta, en Smyrna, en Balagrae, en Ambracia\n- Ritos en las Asclepea\n  - RItos de Purificacion\n    - el suplicante daba una ofrenda o sacrificio al dios, segun que es lo que estuviera pidiendole, y pasaba la noche en el Abaton, la parte mas sagrada del santuario. cualquier sueño que tuviera lo tenia que reportar al sacerdote que iba a hacer un proceso de interpretacion.\n  - Perros sagrados\n    - algunos templos ofrecian este rito donde se limpiaban las heridas por medio de lenguetazos de los perros sagrados.\n  - Serpientes esculapias\n    - en honor a asclepio, algunos templos usaban un tipo de serpiente no venenosa, y estas rondaban libremente por los dormitorios donde los enfermos dormian.\n- El juramento hipocratico\n  - en principio empezaba con \"Juro por Apolo el Medico y por Asclepio y por Higia y Panacea y todos los dioses...\"\n- Las Epidauria era un festival en Atenas en honor a Asclepio\n- Las serpientes\n  - Las serpientes **mudan de piel**, lo que se interpretaba como un **símbolo de renacimiento y regeneración**. Esto encaja con la idea de la curación y la longevidad.\n  - Ovidio (_Metamorfosis_, XV.622-744) menciona que cuando Asclepio es invocado en Roma, **llega en forma de serpiente**, reforzando su vínculo con la medicina.\n  - se creia que las serpientes eran guardianes de las fuentes con aguas curativas.",
+    "refs": [
+      {
+        "tana": "1RRDjSkBmGuJ",
+        "nombre": "Asklēpeion de Tricca",
+        "col": "lugares",
+        "id": "asklepeion-de-tricca"
+      },
+      {
+        "tana": "Jule2ZK441ZR",
+        "nombre": "Asklēpeion de Bethesda",
+        "col": "lugares",
+        "id": "asklepeion-de-bethesda"
+      },
+      {
+        "tana": "Bxy3ift_PPJZ",
+        "nombre": "Asklēpeion de Kōs",
+        "col": "lugares",
+        "id": "asklepeion-de-kos"
+      },
+      {
+        "tana": "RkTWRzMuqZ0F",
+        "nombre": "Asklēpeion de Gortys",
+        "col": "lugares",
+        "id": "asklepeion-de-gortys"
+      },
+      {
+        "tana": "hx70swE-AGEW",
+        "nombre": "Asklēpeion de Pergamon",
+        "col": "lugares",
+        "id": "asklepeion-de-pergamon"
+      },
+      {
+        "tana": "qw0py_t4Tk1s",
+        "nombre": "Asklēpeion de Epidauros",
+        "col": "lugares",
+        "id": "asklepeion-de-epidauros"
+      },
+      {
+        "tana": "RnRdiGaBfxNw",
+        "nombre": "Asklēpeion de Athenai",
+        "col": "lugares",
+        "id": "asklepeion-de-athenai"
+      },
+      {
+        "tana": "4YZnnc2MLFf3",
+        "nombre": "Asklēpeion de Lambaesis",
+        "col": "lugares",
+        "id": "asklepeion-de-lambaesis"
+      }
+    ]
+  },
+  "eventos": {
+    "texto": "- Mito del Nacimiento\n  - Apollo y la [Korōnís = Corónide](entes:koronis) eran amantes pero ella le fue infiel con [Ischys de Arkadia](entes:ischys-de-arkadia) , hijo de Kaineus, y se fue a vivir con el. Apolo es informado de esto por un cuervo que la vigilaba. Enterandose de esto, el mismo mata a Ischys, pero  manda a sus hermana Artemisa a matarla, haciendolo en su casa en [Lakereia, Thessalia](lugares:lakereia-thessalia) .  fue lanzada a una pira funeraria pero Apolo rescató al bebé realizandole una cesarea.\n  - Al rescatarla, la llevó a su Templo en [Delphoi = Delfos](lugares:delphoi) , asistiendolo la matrona [Laxesis = Laxesis](entes:laxesis) . Apolo lo nombró Asklapios segun un apodo de Corónide de la niñez, Aegle, o segun un nombre pelasgico que significa \"nacido de cesarea\"\n  - El Mito Argolide decia que Corónide habia dado a luz durante una expedicion de su padre Flegias al Peloponeso, en Epidauro, y que aqui lo abandonó en el monte Tittheion / Myrtion. Aqui fue alimentado por una cabra y cuidado por un perro hasta que fue encontrado por el pastor [Aresthanas de Argolida](entes:aresthanas-de-argolida) quien vio al pequeño envuelto en un aura. Por esto fue llamado por los Dorios Aiglaēr\n  - El mito Espartano decia que habia nacido de la princesa Arsinoe hija de Leucipo en Messenia.\n- Crianza\n  - fue enviado a vivir con [Kheirōn = Quirón](entes:kheiron) quien lo instruyó en la medicina, volviendose tan experto que pudo devolver la vida a su padre [Ischys de Arkadia](entes:ischys-de-arkadia) .\n- Obtencion de Poderes\n  - Atenea le dio la sangre de Medusa\n    - Habia recibido de Atenea la sangre de la Gorgona (Medusa), de las venas del corazon que irrigan la parte derecha del cuerpo,\n  - Revive a Glauco con las hierbas que le da una serpiente.\n    - Se le habia ordenado devolver la vida a Glauco, encerrandolo hasta que no lo hiciera. alli se le aparecio una serpiente a la que mató. despues llegando otra con una hierba que la revivió. utilizando esa hierba para revivir a Glauco\n  - Revive a Glauco con las hierbas que le da una serpiente y luego es asesinado por Zeus\n    - Una vez estaba en la casa de Glauco a quien iba a curar, y mientras estaba absorto en pensamiento vino una serpiente que se le enredó en su báculo, a la que mató. despues se le acercó otra con una hierba reviviendo a la primera serpiente. Al intentar utilizar este poder sobre Glauco Zeus lo mata con un rayo.\n- Aventuras y Milagros\n  - Se volvio famoso de que podia devolver la vida a los muertos. Se volvio mejor medico que Cheiron y Apolo.\n  - Devuelve la vida a su padre Ischys\n  - Revivio a Tindareo, Capaneo, Glauco, Himeneo, Licurgo entre otros famosos.\n  - Habia sido parte de la expedicion de los Argonautas cuando fueron a Calidonia.\n- El Inventor de la Medicina\n  - Homer, Iliad 4. 217 ff (trans. Lattimore) (Greek epic C8th B.C.) :\n  - \"In skill laid healing medicines on it that Kheiron (Chiron) in friendship long ago had given [Asklepios (Asclepius)].\"\n  - Pindar, Pythian Ode 3. 5 ff (trans. Conway) (Greek lyric C5th B.C.) :\n  - \"Gentle Asklepios (Asclepius), that craftsman of new health for weary limbs and banisher of pain, the godlike healer of all mortal sickness.\"\n  - Pindar, Pythian Ode 3. 45 ff :\n  - \"He [Apollon] took the child [Asklepios (Asclepius)] the the Magnetian Kentauros (Centaur) [Kheiron (Chiron)], that he teeach im to be a healer for mankind of all their maladies and ills. All then who came to him [Asklepios], some plagues with sores of festering growths, some wounded by the stokes of weapons of bright bronze, of by the slinger's shot of stone, others with limbs ravaged by summer's fiery heat or by the winter's cold, to each for every various ill he made the remedy, and gave deliverance from pain, some with the gently songs of incantation others he cured with soothing draughts of medicines, or wrapped their limbs around with doctored salves, and some he made whole with the surgeon's knife.\"\n  - Plato, Republic 599c (trans. Shorey) (Greek philosopher C4th B.C.) :\n  - \"To have restored to health as Asklepios (Asclepius) did, or what disciples of the medical art he left after him as Asklepios did his descendants.\"\n  - Diodorus Siculus, Library of History 4. 71. 3 (trans. Oldfather) (Greek historian C1st B.C.) :\n  - \"Asklepios (Asclepius) was the son of Apollon and Koronis (Coronis), and since he excelled in natural ability and sagacity of mind, he devoted himself to the science of healing and made many discoveries which contribute to the health of mankind. And so far did he advance along the road of fame that, to the amazement of all, he healed many sick whose lives had been despaired of, and for this reason it was believed that he had brought back to life many who had died.\"\n  - Diodorus Siculus, Library of History 5. 74. 6 :\n  - \"To Apollon and Koronis (Coronis) was born Asklepios (Asclepius), who learned from his father many matters which pertain to the healing art, and then went on to discover the art of surgery and the preparations of drugs and the strength to be found in roots, and, speaking generally, he introduced such advances into the healing art that he is honoured as if he were its source and founder.\"\n  - Aelian, On Animals 10. 49 (trans. Scholfield) (Greek natural history C2nd A.D.) :\n  - \"The god [Apollon] can not only save life but is also the begetter of Asklepios (Asclepius), man's saviour and champion against diseases.\"\n  - Philostratus, Life of Apollonius of Tyana 3. 44 (trans. Conybeare) (Greek biography C1st to C2nd A.D.) :\n  - \"Iarkhos (Iarchus) [an Indian sage] led back the argument to the subject of divination and among the many blessings which that art had conferred upon mankind, he declared the gift of healing to be the most important. ‘For,’ said he, ‘the wise Asklepiades (Asclepiades) [i.e. the ancient guild of doctors reputedly descended from Asklepios (Asclepius)] would have never attained to this branch of science, if Asklepios had not been the son of Apollon; and as such had not in accordance with the latter's responses and oracles concocted and adapted different drugs to different diseases; these he not only handed on to his own sons, but he taught his companions what herbs must be applied to running wounds, and what to inflamed and dry wounds, and in what doses to administer liquid drugs for drinking by means of which dropsical patients are drained and bleeding is checked, and diseases of decay and the cavities due to their ravages are put an end to. And who,’ he said, ‘can deprive the art of divination of the credit of discovering simples which heal the bites of venomous creatures, and in particular of using the virus itself as a cure for many diseases? For I do not think that men without the forecasts of a prophetic wisdom would ever have ventured to mingle with medicines that save life these most deadly of poisons.’\"\n  - Pseudo-Hyginus, Fabulae 274 (trans. Grant) (Roman mythographer C2nd A.D.) :\n  - \"Inventors and their inventions . . . Asclepius, son of Apollo, began the art of clinical medicine.\"\n  - Cicero, De Natura Deorum 3. 21 (trans. Rackham) (Roman rhetorician C1st B.C.) :\n  - \"Of the various Aeculapii the first is the son of Apollo, and is worshipped by the Arcadians; he is reputed to have invented the probe and to have been the first surgeon to employ splints. The second is the brother of the second Mercurius [Hermes]; he is said to have been struck by lightning and buried at Cynosura. The third is the son of Arsippus and Arsinoe, and is said to have first invented the use of purges and the extraction of teeth; this tomb and grove are shown in Arcadia, not far from the river Lusius.\"\n  - Suidas s.v. Asklepiades (trans. Suda On Line) (Byzantine Greek lexicon C10th A.D.) :\n  - \"Asklepiades (Asclepiades) : Also ‘Asklepieian/Asklepeian drug’, but ‘Asklepepian temple’. Also Asklepiadai, the doctors, from Asklepios (Asclepius). He [derived his name] from keeping bodies tough (_askele_) and gentle (_epia_). Asklepios, the patron of medicine, could heal Pauson and Iros and any other hopeless case.\"\n  - Suidas s.v. Aigle :\n  - \"Aigle (Aegle, Radiance) : Selene the moon is also so called, and Asklepios (Asclepius).\"\n  - Suidas s.v. Saou :\n  - \"_Saou_ (Save) : Preserve, protect. In the _Epigrams_: ‘[Phoibos (Phoebus) gave mankind Asklepios (Asclepius) and Plato :] the latter, that [he may save] his soul; the former, that he may save his body.’\"\n- El levanta-muertos\n  - Hesiod, Catalogues of Women Fragment 90 (trans. Evelyn-White) (Greek epic C8th or 7th B.C.) :\n  - \"And the father of men and gods [Zeus] was wrath, and from Olympos he smote the son of Leto [Asklepios (Asclepius)] with a lurid thunderbolt and killed him, arousing the anger of Phoibos (Phoebus) [Apollon].\"\n  - Pindar, Pythian Ode 3. 54 ff (trans. Conway) (Greek lyric C5th B.C.) :\n  - \"[Asklepios (Asclepius)] a healer for mankind of all their maladies and ills . . . And yet to profit even the skills of wisdom yield themselves captive. For a lordly bribe, gold flashing in the hand, even this man [Asklepios] was tempted to bring back to life one whom the jaws of death had seized already. With fierce hands swiftly the son of Kronos (Cronus) [Zeus] loosed his anger on these two; his blazing bolt stripped from them both their breath of life, and hurled them to their fate.\"\n  - Stesichorus, Fragment 147 (from Sextus Empricicus, Against the Professors) (trans. Campbell, Vol. Greek Lyric III) (C7th to 6th B.C.) :\n  - \"It is said Asklepios (Asclepius) was enticed by gold to raise up the dead Hippolytos (Hippolytus); others say he raised Tyndareus, others Kapaneus (Capaneus), others Glaukos (Glaucus), the Orphics Hymenaios (Hymenaeus), while Stesikhoros (Stesichorus) speaks of Kapaneus and Lykourgos (Lycurgus).\"\n  - Philodemus, On Piety (trans. Campbell, Vol. Greek Lyric IV Stesichorus Frag 147 & Cinesias Frag 774) (C7th to 6th B.C.) :\n  - \"Zeus killed Asklepios (Asclepius) with his thunderbolt, according to the author of the _Naupactica_ [Greek epic C6th-5th B.C.] and Telestes in his _Asklepios_ [Greek poet C5th B.C.] and Kinesias (Cinesias) the lyric poet [C5th B.C.], because he raised Hippolytos from the dead at Artemis' request; according to Stesikhoros [lyric poet C6th-5th B.C.] in his _Eriphyle_, it was because he raised Kapaneos (Capaneus) and Lykourgos (Lycurgus).\"\n  - Aeschylus, Agamemnon 1017 ff (trans. Weir Smyth) (Greek tragedy C5th B.C.) :\n  - \"But a man's blood, once it has first fallen by murder to earth in a dark tide--who by magic spell shall call it back? Even he [Asklepios (Asclepius)] who possessed the skill to raise from the dead--did not Zeus make an end of him as warning?\"\n  - Plato, Republic 408b (trans. Shorey) (Greek philosopher C4th B.C.) :\n  - \"The tragedians and Pindaros (Pindar) affirm that Asklepios (Asclepius), though he was the son of Apollon, was bribed by gold to heal a man already at the point of death, and that for this cause he was struck by the lightning. But we in accordance with the aforesaid principles refuse to believe both statements, but if he was the son of a god he was not avaricious, we will insist, and if he was greedy of gain he was not the son of a god.”\n  - Pseudo-Apollodorus, Bibliotheca 3. 121 (trans. Aldrich) (Greek mythographer C2nd A.D.) :\n  - \"As a surgeon Asklepios (Asclepius) became so skilled in his profession that he not only saved lived but even revived the dead; for he had received from Athena the blood that had coursed though the Gorgon's veins, the left-side portion of which he used to destroy people, but that on the right he used for their preservation, which is how he could revive those who had died. Zeus was afraid that men might learn the art of medicine from Asklepios and help each other out, so he hit him with a thunderbolt. This angered Apollon, who slew the Kyklopes (Cyclopes), for they designed the thunderbolt for Zeus.\"\n  - Apollonius Rhodius, Argonautica 4. 610 ff (trans. Rieu) (Greek epic C3rd B.C.) :\n  - \"The Keltoi (Celts), however, have another tale about these amber drops that are carried down the current [of the river Eridanos of Northern Europe]. They say they are the many tears that Apollon shed for his son Asklepios (Asclepius) when he visited the sacred people of the North. He was banished from the bright sky by his father Zeus, whom he blamed for having killed this son of his, who was borne by the Lady Koronis (Coronis) in splendid Lakereia (Laceria) at the mouth of the Amyros (Amyrus).\"\n  - Diodorus Siculus, Library of History 4. 71. 3 (trans. Oldfather) (Greek historian C1st B.C.) :\n  - \"Asklepios (Asclepius) was the son of Apollon and Koronis (Coronis), and since he excelled in natural ability and sagacity of mind, he devoted himself to the science of healing and made many discoveries which contribute to the health of mankind. And so far did he advance along the road of fame that, to the amazement of all, he healed many sick whose lives had been despaired of, and for this reason it was believed that he had brought back to life many who had died. Consequently, the myth goes on to say, Haides brought accusation against Asklepios, charging him before Zeus of acting to the detriment of his own province, for, he said, the number of the dead was steadily diminishing, now that men were being healed by Asklepios. So Zeus, in indignation, slew Asklepios with his thunderbolt, but Apollon, indignant at the slaying of Asklepios, murdered the Kyklopes (Cyclopes) who had forged the thunderbolt for Zeus; but at the death of the Kyklopes Zeus was again indignant and laid a command upon Apollon that he should serve as a labourer for a human being and that this should be the punishment he should receive from him for his crimes. To Asklepios, we are told further, sons were born, Makhaon (Machaon) and Podaleirios (Podalirus), who also developed the healing art and accompanied Agamemnon in the expedition against Troy.\"\n  - Pausanias, Description of Greece 2. 26. 1 (trans. Jones) (Greek travelogue C2nd A.D.) :\n  - \"[In the temple of Asklepios (Asclepius) at Epidauros] is an old slab, which declares that Hippolytos (Hippolytus) dedicated twenty horses to the god. The Arikians (Aricians) tell a tale that agrees with the inscription on this slab, that when Hippolytos was killed, owing to the curses of Theseus, Asklepios (Asclepius) raised him from the dead. On coming to life again he refused to forgive his father; rejecting his prayers, he want to the Arikians in Italy.That Asklepios was considered a god from the first, and did not receive the title only in the course of time. I infer from several signs, including the evidence of Homer, who makes Agamemnon say about Makhaon (Machaon):--‘Talthybios (Talthybius), with all speed go summon me hither Makhaon, mortal son of Asklepios.’ As who should say, ‘human son of a god.’\"\n  - Pseudo-Hyginus, Fabulae 49 (trans. Grant) (Roman mythographer C2nd A.D.) :\n  - \"Aesculapius [Asclepius], son of Apollo, is daid to have restored life either to Glaucus, son of Minos, or to Hippolytus, and Jupiter [Zeus] because of this truck him with a thunderbolt. Apollo, not being able to injure Jupiter, killed the ones who had made the thunderbolt, that is the Cyclopes. On account of this deed Apollo was given in servitude to Admetus, King of Thessaly.\"\n  - Pseudo-Hyginus, Fabulae 224 :\n  - \"Mortals who were made immortal . . . Asclepius, son of Apollo and Coronis.\"\n  - Pseudo-Hyginus, Fabulae 251 :\n  - \"Those sho, by permission of the Parcae [Moirai, Fates], returned from the lower world . . . Asclepius, son of Apollo and Coronis.\"\n  - Pseudo-Hyginus, Astronomica 2. 14 :\n  - \"[Constellation Opiuchus :] The Serpent-Holder. Many astronomers have imagined that he is Aesculapius [Asclepius], whom Jupiter [Zeus], for the sake of Apollo, put among the stars. For when Aesculapius was among men, he so fare excelled the rest in the art of medicine that it wasn't enough for him to have healed men's diseases unless he could also bring back the dead to life. He is said most recently, according to Eratosthenes [Greek writer C3rd B.C.] to have restored to life Hippolytus who had been killed by the injustice of his stepmother and the ignorance of his father. Some have said that by his skill Glaucus, son of Minos, lived again. Because of this, as for a sin, Jove struck and burned his house with a thunderbolt, but because of his skill, and since Apollo was his father, put him among the constellations holding a snake.\n  - Certain people have said that he holds the snake for the following reason. [N.B. The following myth is usually told of the seer Polyidos rather than Asclepius.] When he was commanded to restore Glaucus, and was confined in a secret prison, while meditating what he should do, staff in hand, a snake is said to have crept on to his staff. Distracted in mind, Aesculapius killed it, striking it again and again with his staff as it tried to flee. Later, it is said, another snake came there, bringing an herb in its mouth, and placed it on its head. When it had done this, both fled from the place. Where upon Aesculapius, using the same herb, brought Glaucus, too, back to life.\n  - And so the snake is put in the guardianship of Aesculapius and among the stars as well. Following his example, his descendants passed the knowledge on to others, so that doctors make use of snakes.\"\n  - Pseudo-Hyginus, Astronomica 2. 15 :\n  - \"Eratosthenes [Greek writer C3rd B.C.] says about the [constellation] Arrow, that with this Apollo killed the Cyclopes who forged the thunderbolt by which Aesculapius [Asclepius] died. Apollo had buried this arrow in the Hyperborean mountain, but when Jupiter [Zeus] pardoned his on, it was borne by the wind and brought to Apollo along with the grain which at that time was growing. Many point out that for this reason it is among the constellations.\"\n  - Ovid, Metamorphoses 2. 644 ff (trans. Melville) (Roman epic C1st B.C. to C1st A.D.) :\n  - \"[Asclepius] healer of the world. Often men shall owe health and life, and yours shall be the right to win again departed souls, and, though you dare this once in heaven's despite, Jove's [Zeus'] bolt will thwart that gift a second time. You, now divine, shall be a lifeless corpse, and from a corpse become divine again, and twice you shall renew your destiny.\" [N.B. Asklepios was deified after death through the intercession of Apollon.]\n  - Ovid, Fasti 6. 735 ff (trans.Boyle) (Roman poetry C1st B.C. to C1st A.D.) :\n  - \"The youth [Acslepius] blasted by ancestral bolts [of Zeus] soars from earth [i.e. rising as the constellation Ophiuchus] and flings his hands coiled with double snakes . . .\n  - Phaedra's love [for her stepson Hippolytos] is famous; Theseus' crime is famous : that credulous man cursed his son [Hippolytos] to death . . . [Poseidon answered Theseus' prayers and Hippolytos is cast to his death from the chariot.]\n  - Diana [Artemis] howled indignation. ‘There's no cause to grieve.’ Coronides [i.e. Asklepios (Asclepius) son of Koronis (Coronis)] says. ‘I'll restore the pious youth to life, unwounded, and the grisly fates will yield to my art.’ At once he takes some herbs from an ivory box. They worked before on the ghost of Glaucus, when an augur resorted to herbs he'd noticed, and a serpent used the help of a serpent. He daubed his breast three times, thrice spoke healing words. The youth raised his drooping head from the ground. The grove and recesses of Dictynna's [Artemis'] wood hide him : he is Virbius of Aricia's lake. Clymenus [Haides] and Clotho resent the threads of life respun and death's royal rights diminished. Jove [Zeus] feared the precedent and aimed his thunderbolt at the man who employed excessive art. Phoebus [Apollon], you whined. He is a god; smile at your father, who, for your sake, undoes his prohibitions [i.e. when he obtains immortality for Asklepios].\"\n  - Propertius, Elegies 2. 1 (trans. Goold) (Roman elegy C1st B.C.) :\n  - \"Medicine can cure all human pains . . . the god of Epidaurus [Asclepius] by his Cretan herbs restored the lifeless Androgeon to his father's [Minos of Crete's] hearth.\"\n  - Cicero, De Natura Deorum 2. 24 (trans. Rackham) (Roman rhetorician C1st B.C.) :\n  - \"Human experience moreover and general custom have made it a practise to confer the deification of renown and gratitude upon distinguished benefactors. This is the origin of Hercules [Herakles], of Castor and Pollux [the Dioskouroi (Dioscuri)], of Aesculapius [Asklepios] . . . And these benefactors were duly deemed divine, as being both supremely good and immortal, because their souls survived and enjoyed eternal life.\"\n  - Cicero, De Natura Deorum 3. 15 :\n  - \"In Greece they worship a number of deified human beings, Alabandus at Alabanda, Tennes at Tenedos, Leucothea, formerly Ino, and her son Palaemon throughout the whole of Greece, as also Hercules [Herakles], Aesculapius [Asklepios], the sons of Tyndareus [the Dioskouroi (Dioscuri)].\"\n  - Cicero, De Natura Deorum 3. 18 :\n  - \"If you call Apollo, Vulcanus [Hephaistos (Hephaestus)], Mercurius [Hermes] and the rest gods, will you have doubts about Hercules [Herakles], Aesculapius [Asklepios], Liber [Dionysos], Castor and Pollux [the Dioskouroi (Dioscuri)]? But these are worshipped just as much as those, and indeed in some places very much more than they. Are we then to deem these gods, the sons of mortal mothers?\"\n- La serpiente enrollada\n  - Pseudo-Hyginus, Astronomica 2. 14 (trans. Grant) (Roman mythographer C2nd A.D.) :\n  - \"Certain people have said that he [Asklepios (Asclepius)] holds the snake for the following reason. When he was commanded to restore Glaucus, and was confined in a secret prison, while meditating what he should do, staff in hand, a snake is said to have crept on to his staff. Distracted in mind, Aesculapius killed it, striking it again and again with his staff as it tried to flee. Later, it is said, another snake came there, bringing an herb in its mouth, and placed it on its head. When it had done this, both fled from the place. Where upon Aesculapius, using the same herb, brought Glaucus, too, back to life. And so the snake is put in the guardianship of Aesculapius and among the stars as well. Following his example, his descendants passed the knowledge on to others, so that doctors make use of snakes.\" [N.B. The seer Polyidos rather than Asklepios is usually credited with the revival of Glaukos.]\n  - Apuleius, The Golden Ass 1. 4 ff (trans. Walsh) (Roman novel C2nd A.D.) :\n  - \"The noble serpent clinging in its slippery embrace to the Physician-God's [Asklepios' (Asclepius')] staff, the one he carries all knotty with half-amputated branches.\"\n- Fallecimiento\n  - Hades lo denuncia con Zeus por quitarle sus almas.\n  - Esto iba en contra del orden natural por lo que Zeus lo destruye mandando un relampago para acabar con su vida.\n- Inmortalidad en el Cielo\n  - despues de eso, Asclepio es colocado en las estrellas como la constelacion de Ofiuco (Constelacion) . elevandolo en calidad de Dios.\n- Himnos\n  - Homeric Hymn 16 to Asclepius (trans. Evelyn-White) (Greek epic C7th to 4th B.C.) :\n  - \"I begin to sing of Asklepios (Asclepius), son of Apollon and healer of sicknesses. In the Dotian plain fair Koronis (Coronis), daughter of King Phlegyas, bare him, a great joy to men, a soother of cruel pangs. and so hail to you, lord: in my song I make my prayer to thee!\"\n  - Greek Lyric V Anonymous, Fragments 939 (Inscription from Erythrai) (trans. Campbell) (B.C.) :\n  - \"Sing, youths, of Paian (Paean), skill-famed, Leto's son, Far-shooter--_ie Paian!_--who fathered a great joy for mortals when he mingled in love with Koronis (Coronis) in the land of the Phlegyai--_ie Paian!_--, Asklepios (Asclepius), the most famous god--_ie Paian!_\n  - By him were fathered Makhaon (Machaon) and Podaleirios (Podalirus) and Iaso (Healer)--_ie Paian!_--and fair-eyed Aigle (Aegle, Radiance) and Panakea (Panacea, Cure-all), children of Epione, along with Hygieia (Health), all-glorious, undefiled; ie Paian! Asklepios, the most famous god--_ie Paian!_\n  - Greetings I give you: graciously visit our widespaced city--_ie Paian!_--and grant that we look on the sun's light in joy, approved with the help of Hygieia, all-glorious, undefiled : _ie Paian!_--Asklepios, the most famous god--_ie Paian!_\"\n  - Greek Lyric V Anonymous, Fragments 937 (Inscription from the shrine of Asclepius at Epidaurus) :\n  - \"High-skilled Asklepios (Asclepius); and summon the two Dioskouroi and the august Kharites (Charites, Graces) and glorious Mousai (Muses) and kindly Moirai (Moirae, Fates) and unwearied Helios (Sun) and Selene (Moon) at her full and all the signs with which heaven is crowned. Greetings, all you immortal gods everlasting and immortal goddesses!\"\n  - Hippocrates, The Hippocratic Oath (Greek physician C5th to 4th B.C.) :\n  - \"I swear by Apollon the physician, and Asklepios (Asclepius), and Hygeia, and Panakeia (Panacea), and all the gods and goddesses, that, according to my ability and judgment, I will keep this Oath and this stipulation . . . \"\n  - Orphic Hymn 67 to Asclepius (trans. Taylor) (Greek hymns C3rd B.C. to 2nd A.D.) :\n  - \"To Asklepios (Asclepius), Fumigation from Manna. Great Asklepios, skilled to heal mankind, all-ruling Paian (Paean), and physician kind; whose arts medicinal can alone assuage diseases dire, and stop their dreadful rage. Strong, lenient God, regard my suppliant prayer, bring gentle health, adorned with lovely hair; convey the means of mitigating pain, and raging deadly pestilence restrain. O power all-flourishing, abundant, bright, Apollon's honoured offspring, God of light; husband of blameless Hygeia (Health), the constant foe of dread disease, the minister of woe: come, blessed saviour, human health defend, and to the mortal life afford a prosperous end.\"",
+    "refs": [
+      {
+        "tana": "Px_BRu_nh2MQ",
+        "nombre": "Korōnís = Corónide",
+        "col": "entes",
+        "id": "koronis"
+      },
+      {
+        "tana": "qQiWcuNaEBJZ",
+        "nombre": "Ischys de Arkadia",
+        "col": "entes",
+        "id": "ischys-de-arkadia"
+      },
+      {
+        "tana": "t0t41uxTxLXD",
+        "nombre": "Lakereia, Thessalia",
+        "col": "lugares",
+        "id": "lakereia-thessalia"
+      },
+      {
+        "tana": "2SockgIhY5j9",
+        "nombre": "Delphoi = Delfos",
+        "col": "lugares",
+        "id": "delphoi"
+      },
+      {
+        "tana": "PJc79IEH7pRl",
+        "nombre": "Laxesis = Laxesis",
+        "col": "entes",
+        "id": "laxesis"
+      },
+      {
+        "tana": "DgQHRJR-4HxQ",
+        "nombre": "Aresthanas de Argolida",
+        "col": "entes",
+        "id": "aresthanas-de-argolida"
+      },
+      {
+        "tana": "L9kQlCyGnfqv",
+        "nombre": "Kheirōn = Quirón",
+        "col": "entes",
+        "id": "kheiron"
+      },
+      {
+        "tana": "PxuKhHiKjuLv",
+        "nombre": "Ofiuco (Constelacion)"
+      }
+    ]
+  },
+  "fuentes": [
+    {
+      "titulo": "Homēros / Homero (Chios)",
+      "url": null
+    },
+    {
+      "titulo": "Historia segun Pindaro",
+      "url": null
+    },
+    {
+      "titulo": "Sophocles, Fragment (trans. Campbell, Vol. Greek Lyric IV) (C5th B.C.) :",
+      "url": null
+    },
+    {
+      "titulo": "Isyllus, Hymn to Asclepius (trans. Frazer, Vol. Apollodorus) (Greek poet C4th or 3rd B.C.) :",
+      "url": null
+    },
+    {
+      "titulo": "Pseudo-Apollodorus, Bibliotheca 3. 118 (trans. Aldrich) (Greek mythographer C2nd A.D.) :",
+      "url": null
+    },
+    {
+      "titulo": "Pausanias, Description of Greece 2. 26. 1 - 7 (trans. Jones) (Greek travelogue C2nd A.D.) :",
+      "url": null
+    },
+    {
+      "titulo": "Pseudo-Hyginus, Fabulae 202 (trans. Grant) (Roman mythographer C2nd A.D.) :",
+      "url": null
+    },
+    {
+      "titulo": "Ovid, Metamorphoses 2. 620 ff (trans. Melville) (Roman epic C1st B.C. to C1st A.D.) :",
+      "url": null
+    },
+    {
+      "titulo": "Cicero, De Natura Deorum 3. 21 (trans. Rackham) (Roman rhetorician C1st B.C.) :",
+      "url": null
+    }
+  ],
+  "contrincantes": {
+    "texto": "- Sincretismos\n  - Kneph = Dios greco-egipcio, Dios primordial y serpentino, vinculado con el aliento de la vida.\n  - Eshmun / 𐤀𐤔𐤌𐤍 = Dios fenicio de la Sanacion equiparado a Asclepio",
+    "refs": [
+      {
+        "tana": "BrBD_OMCaThb",
+        "nombre": "Kneph"
+      },
+      {
+        "tana": "kKHZZboeSNhA",
+        "nombre": "Eshmun / 𐤀𐤔𐤌𐤍"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-03-08T03%3A43%3A20.066Z-image.png?alt=media&token=393d1131-f1df-414d-a7d5-1d90919e917e)"
+    }
+  ],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": "M"
+}

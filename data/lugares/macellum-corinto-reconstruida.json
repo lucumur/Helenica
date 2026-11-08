@@ -1,0 +1,30 @@
+{
+  "id": "macellum-corinto-reconstruida",
+  "tana_id": "JEXvgz3HrkDj",
+  "nombre": "Macellum, Corinto Reconstruida",
+  "nombre_alt": null,
+  "titulo_tana": "Macellum, Corinto Reconstruida",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "Mercado de Carne - Pescado",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "sobre la via del lequeo, identificado por inscripcion latina",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

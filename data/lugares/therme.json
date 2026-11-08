@@ -1,0 +1,17 @@
+{
+  "id": "therme",
+  "tana_id": "NybOYNtkdhKI",
+  "nombre": "Thermē",
+  "nombre_alt": "Terme",
+  "titulo_tana": "Thermē (Terme)",
+  "etiquetas_tana": [
+    "puerto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Puerto"
+  ],
+  "pertenece_a": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "lelantion",
+  "tana_id": "HC1aN2c0wICu",
+  "nombre": "Lēlantion",
+  "nombre_alt": "pedion",
+  "titulo_tana": "Lēlantion (pedion)",
+  "etiquetas_tana": [
+    "pedion"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- $🐴 Cria de Caballos\n- $ 🐮 ganado bovino blanco\n- $ 🍷Vino\n- $🌾 Cebada\n- $ 🥉🔪 Cobre y Hierro\n- ⛏️ minas de hierro mencionadas por Estrabon\n- $ ⛲ Manantiales Medicinales"
+    }
+  ],
+  "tipos": [
+    "Llanura"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "bLVXNeaE2OMi",
+    "nombre": "Chalkis, Euboia (Chora)",
+    "col": "lugares",
+    "id": "chalkis-euboia"
+  }
+}

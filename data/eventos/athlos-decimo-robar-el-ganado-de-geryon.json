@@ -1,0 +1,18 @@
+{
+  "id": "athlos-decimo-robar-el-ganado-de-geryon",
+  "tana_id": "HJc8YKW4SL9Z",
+  "nombre": "Athlos Decimo: Robar el Ganado de Geryon (Iberia)",
+  "nombre_alt": null,
+  "titulo_tana": "Athlos Decimo: Robar el Ganado de Geryon (Iberia)",
+  "etiquetas_tana": [
+    "Evento"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipo": "Mítico",
+  "serie": {
+    "nombre": "Doce Labores de Heracles",
+    "orden": 10
+  }
+}

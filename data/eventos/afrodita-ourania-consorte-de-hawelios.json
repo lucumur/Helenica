@@ -1,0 +1,34 @@
+{
+  "id": "afrodita-ourania-consorte-de-hawelios",
+  "tana_id": "nXlzwGdvFOCC",
+  "nombre": "Afrodita Ourania consorte de Hawelios",
+  "nombre_alt": null,
+  "titulo_tana": "Afrodita Ourania consorte de Hawelios",
+  "etiquetas_tana": [
+    "culto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Teoria",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- **reencuadra la tríada de la cumbre**.\n- La lectura estándar trata las tres imágenes de 2.5.1 —Afrodita armada, Helios, Eros con arco— como tres dedicatorias independientes. Tu lectura las trata como **grupo familiar: padre, madre, hijo**."
+    },
+    {
+      "titulo": "Argumentos a favor:",
+      "texto": "- Una tríada padre-madre-hijo en un mismo _naos_ es estructura **no olímpica**. La religión olímpica organiza por función y competencia, no por familia nuclear cohabitando un templo. Las tríadas familiares son característica del Próximo Oriente y de estratos pre-olímpicos.\n- **La \"cesión\" de Acrocorinto de Helios a Afrodita se explica mejor como dote o unión que como transferencia de propiedad.** Los mitos de cesión pacífica son sospechosos por definición; un matrimonio racionalizado como donación es transformación esperable cuando la teología original deja de entenderse.\n- Explica los elementos únicos que ya documentamos: el polos anatolio en Sición, la exclusión del cerdo, la Afrodita armada. Son rasgos que no encajan en la Afrodita panhelénica pero sí en una Gran Diosa regional con consorte solar."
+    },
+    {
+      "titulo": null,
+      "texto": "- Y hay un indicio negativo que quiero señalar porque juega a tu favor: **en el mito panhelénico, Helios y Afrodita son enemigos**. Helios es quien delata el adulterio de Afrodita con Ares (_Od._ 8.270-271), y por eso —en tradición recogida por autores posteriores— Afrodita maldice a todo el linaje de Helios: Pasífae, Circe, Medea, todas marcadas por amores monstruosos o destructivos.\n- Una hostilidad mitológica **específica y sistemática** entre dos divinidades que comparten templo en Corinto es rara. En mitología, la enemistad suele ser residuo de una relación anterior reinterpretada, no ausencia de relación. Que el linaje corintio descienda de Helios _y_ que Afrodita sea la poliada _y_ que el mito panhelénico los enfrente es la clase de tensión que se produce cuando una tradición local sobrevive dentro de un sistema que ya no la admite."
+    }
+  ],
+  "tipo": "Culto / misterios"
+}

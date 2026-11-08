@@ -1,0 +1,29 @@
+{
+  "id": "physadeia",
+  "tana_id": "40T4YY97EGeJ",
+  "nombre": "Physadeia",
+  "nombre_alt": "Fisadia",
+  "titulo_tana": "Physadeia = Fisadia",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

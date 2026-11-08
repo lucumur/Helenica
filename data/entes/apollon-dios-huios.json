@@ -1,0 +1,38 @@
+{
+  "id": "apollon-dios-huios",
+  "tana_id": "P2cR3DeLCrKQ",
+  "nombre": "Apollōn Dios Huiós",
+  "nombre_alt": "Apolo el Hijo de Zeus",
+  "titulo_tana": "Apollōn Dios Huiós = Apolo el Hijo de Zeus",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Ente",
+      "etiqueta": "Ente",
+      "texto": "[Apollôn = Apolo](entes:apollon)",
+      "refs": [
+        {
+          "tana": "9OYZLA3QegGP",
+          "nombre": "Apollôn = Apolo",
+          "col": "entes",
+          "id": "apollon"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "9OYZLA3QegGP",
+    "nombre": "Apollôn",
+    "col": "entes",
+    "id": "apollon"
+  }
+}

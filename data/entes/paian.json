@@ -1,0 +1,25 @@
+{
+  "id": "paian",
+  "tana_id": "-E7HCL9gbNXq",
+  "nombre": "Paiān",
+  "nombre_alt": null,
+  "titulo_tana": "Paiān",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": null,
+  "contenido_en": {
+    "tana": "vYT6Rr7Q8l96",
+    "nombre": "Asklēpiós = Asclepio",
+    "col": "entes",
+    "id": "asklepios"
+  }
+}

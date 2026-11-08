@@ -1,0 +1,156 @@
+{
+  "id": "hermaphroditos",
+  "tana_id": "ZU1b5OK1RZFZ",
+  "nombre": "Hermaphroditos",
+  "nombre_alt": "Hermafrodito",
+  "titulo_tana": "Hermaphroditos = Hermafrodito",
+  "etiquetas_tana": [
+    "Deidad",
+    "O",
+    "H"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-02-08T11%3A17%3A14.387Z-image.png?alt=media&token=b7ea0fe6-6199-467e-8add-930965766002",
+  "descripcion": {
+    "texto": "Dios andrógino",
+    "refs": []
+  },
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "- Dios Ctonico\n- Atlantiada (Descendiente de Atlas)\n- Erota (Descendiente de Afrodita)",
+    "refs": [
+      {
+        "tana": "RGWcAdE8Sft5",
+        "nombre": "Dios Ctonico"
+      },
+      {
+        "tana": "q_exNQvhkjxM",
+        "nombre": "Atlantiada (Descendiente de Atlas)"
+      },
+      {
+        "tana": "_BJmAZUxNaqc",
+        "nombre": "Erota (Descendiente de Afrodita)"
+      }
+    ]
+  },
+  "padres": {
+    "texto": "- [Aphroditē (Afrodita)](entes:aphrodite)\n- [Hermes (Hermes)](entes:hermes)\n- Salmacis quien lo crió en Halicarnaso segun fuentes locales",
+    "refs": [
+      {
+        "tana": "5XM9zBiTodu_",
+        "nombre": "Aphroditē (Afrodita)",
+        "col": "entes",
+        "id": "aphrodite"
+      },
+      {
+        "tana": "ZGI0FTYvn9jz",
+        "nombre": "Hermes (Hermes)",
+        "col": "entes",
+        "id": "hermes"
+      },
+      {
+        "tana": "AgUCc9m3Z1ij",
+        "nombre": "Salmacis"
+      }
+    ]
+  },
+  "epitetos": {
+    "texto": "- Atlantiada, por pertenecer a los descendientes de Atlas: Hermes es nieto de Atlas.\n- [Aphroditos](entes:aphroditos) Versión de Afrodita Transgenero, Dios arcaico del que viene el posterior Hermaphroditos",
+    "refs": [
+      {
+        "tana": "p09aeX_QyBUA",
+        "nombre": "Aphroditos",
+        "col": "entes",
+        "id": "aphroditos"
+      }
+    ]
+  },
+  "asociaciones": {
+    "texto": "- Afeminamiento\n- Dualidad Sexual\n- Trasvestismo\n- Transexualidad",
+    "refs": []
+  },
+  "atributos": {
+    "texto": "Figura de apariencia femenina, con su pelo estilizado a la manera de mujer, vestidos de mujer, con genitales masculinos.",
+    "refs": []
+  },
+  "nacimiento": {
+    "texto": "- [Salmakis, Halikarnassos](lugares:salmakis-halikarnassos) segun evidencias locales.\n- [Ida, Frigia](lugares:ida-frigia) segun los Romanos\n- En la inscripción de 1995 donde se menciona que Hermafrodito fue criado por la ninfa de Salmacis, se menciona tambien el monte Ida pero para el nacimiento de Zeus, en lugar de la creencia griega general de su nacimiento en [Ida, Creta](lugares:ida-creta)",
+    "refs": [
+      {
+        "tana": "h5RvdqmnhgMR",
+        "nombre": "Salmakis, Halikarnassos",
+        "col": "lugares",
+        "id": "salmakis-halikarnassos"
+      },
+      {
+        "tana": "ljXmKHPmVSUv",
+        "nombre": "Ida, Frigia",
+        "col": "lugares",
+        "id": "ida-frigia"
+      },
+      {
+        "tana": "mKryM8zmVYP3",
+        "nombre": "Ida, Creta",
+        "col": "lugares",
+        "id": "ida-creta"
+      }
+    ]
+  },
+  "conyuges": {
+    "texto": "Salmacis",
+    "refs": []
+  },
+  "fuentes": [
+    {
+      "titulo": "Pride of Halikarnassos",
+      "url": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-02-08T11%3A23%3A26.537Z-Pride%20of%20Halikarnassos.pdf?alt=media&token=391222e8-830b-4239-bd6c-2c52301f7523"
+    },
+    {
+      "titulo": "HERMAPHRODITUS (Dictionary of Greek and Roman Biography and Mythology)",
+      "url": null
+    },
+    {
+      "titulo": "Hermaphroditus, Metamorphoses 4.28",
+      "url": null
+    },
+    {
+      "titulo": "Hermaproditus, Libreria de Historia",
+      "url": null
+    },
+    {
+      "titulo": "Fabulae 271",
+      "url": null
+    },
+    {
+      "titulo": "De Natura Deorum 3.21",
+      "url": "https://www.theoi.com/Gallery/S30.1.html\""
+    },
+    {
+      "titulo": "La Fuente de Salmacis (SDU.DK)",
+      "url": "https://www.sdu.dk/en/om-sdu/institutter-centre/iks/forskning/forskningsprojekter/halikarnassos/halikarnassos-gl/sites_and_places/salmakis-fountain"
+    },
+    {
+      "titulo": "Romano- The Invention of Marriage: Hermaphroditus 2009 ",
+      "url": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-02-08T11%3A39%3A02.948Z-Romano-InventionMarriageHermaphroditus-2009.pdf?alt=media&token=b021a551-2316-4870-b823-8c2520a143b8"
+    },
+    {
+      "titulo": "The Marriage Maker",
+      "url": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-02-08T11%3A56%3A43.994Z-The%20Marriage%20Maker.pdf?alt=media&token=e2479bb2-73f2-48ff-a6db-ed9613ee5edc"
+    }
+  ],
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "![en Pompeya se encuentra este fresco, con Salmacis, Hermafrodito y Eros](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-02-08T11%3A17%3A14.387Z-image.png?alt=media&token=b7ea0fe6-6199-467e-8add-930965766002)",
+      "texto": "- **Descripcion:** Salmacis y [Hermaphroditos = Hermafrodito](entes:hermaphroditos)"
+    },
+    {
+      "titulo": null,
+      "texto": "- ![Eros resembling hermaphrodite, Apulian red-figure lekythos C4th B.C., <a href=\"http://risdmuseum.org/\">Rhode Island School of Design Museum</a>](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-02-08T11%3A30%3A11.344Z-image.png?alt=media&token=07f07742-bff0-4460-9a20-42d1203c368c)\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-02-08T11%3A40%3A36.354Z-image.png?alt=media&token=18bcf97d-4b83-42a2-bc0e-13ead38803f8)"
+    }
+  ],
+  "tipos": [
+    "Deidad",
+    "Mortal"
+  ],
+  "genero": null
+}

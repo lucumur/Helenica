@@ -1,0 +1,40 @@
+{
+  "id": "escudo-diciclo-micenico",
+  "tana_id": "MyTzTuIMTn5n",
+  "nombre": "Escudo Diciclo Micenico",
+  "nombre_alt": null,
+  "titulo_tana": "Escudo Diciclo Micenico",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-09-22T12%3A22%3A23.112Z-image.png?alt=media&token=f5f95f08-11c7-4f10-bf99-804b3475161d",
+  "campos": [
+    {
+      "clave": "M🪵",
+      "etiqueta": "Material",
+      "texto": "Hecho de madera cubierto de cuero animal",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Su figura talvez ayudaba a balancear el peso del escudo meintras ofrecia flexibilidad en batalla",
+      "refs": []
+    },
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Armadura",
+      "refs": [
+        {
+          "tana": "DyK_R7RRd3QV",
+          "nombre": "Armadura"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ]
+}

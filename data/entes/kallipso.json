@@ -1,0 +1,23 @@
+{
+  "id": "kallipso",
+  "tana_id": "oA27-H05SurN",
+  "nombre": "Kallipsō",
+  "nombre_alt": "Calipso",
+  "titulo_tana": "Kallipsō (Calipso)",
+  "etiquetas_tana": [
+    "F"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": ":",
+      "texto": "- Union en Ogygia\n- en la Telegonia tambien tiene a Nausítoo y Nausínoo"
+    }
+  ],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

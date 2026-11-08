@@ -1,0 +1,30 @@
+{
+  "id": "peribolos-de-apolo-corinto-reconstruida",
+  "tana_id": "OLFXdTRh3Ry5",
+  "nombre": "Peribolos de Apolo, Corinto Reconstruida",
+  "nombre_alt": null,
+  "titulo_tana": "Peribolos de Apolo, Corinto Reconstruida",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "Civica - Cultual",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Patio porticado junto a la vía del Lequeo.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

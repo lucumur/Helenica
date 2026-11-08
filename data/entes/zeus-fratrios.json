@@ -1,0 +1,38 @@
+{
+  "id": "zeus-fratrios",
+  "tana_id": "VBfBelE_Ahsu",
+  "nombre": "Zeus Fratrios",
+  "nombre_alt": "Zeus Fraterno",
+  "titulo_tana": "Zeus Fratrios = Zeus Fraterno",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Ente",
+      "etiqueta": "Ente",
+      "texto": "[Zéus (Zeus)](entes:zeus)",
+      "refs": [
+        {
+          "tana": "Yz-NkVaNbFNa",
+          "nombre": "Zéus (Zeus)",
+          "col": "entes",
+          "id": "zeus"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "Yz-NkVaNbFNa",
+    "nombre": "Zéus",
+    "col": "entes",
+    "id": "zeus"
+  }
+}

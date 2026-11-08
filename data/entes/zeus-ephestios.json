@@ -1,0 +1,44 @@
+{
+  "id": "zeus-ephestios",
+  "tana_id": "2zVlZRUErphO",
+  "nombre": "Zeus Ephestios",
+  "nombre_alt": "el del hogar",
+  "titulo_tana": "Zeus Ephestios = el del hogar",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Ente",
+      "etiqueta": "Ente",
+      "texto": "[Zéus (Zeus)](entes:zeus)",
+      "refs": [
+        {
+          "tana": "Yz-NkVaNbFNa",
+          "nombre": "Zéus (Zeus)",
+          "col": "entes",
+          "id": "zeus"
+        }
+      ]
+    },
+    {
+      "clave": "Funcion",
+      "etiqueta": "Funcion",
+      "texto": "- Advocacion domestica que custodia el espacio interior del hogar\n- Proteccion del Fuego Perpetuo",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "Yz-NkVaNbFNa",
+    "nombre": "Zéus",
+    "col": "entes",
+    "id": "zeus"
+  }
+}

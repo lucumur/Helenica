@@ -1,0 +1,33 @@
+{
+  "id": "thargelia",
+  "tana_id": "k3JXZ8xe7OqW",
+  "nombre": "thargēlia",
+  "nombre_alt": "Festival Agrario a Apolo y Artemisa",
+  "titulo_tana": "thargēlia = Festival Agrario a Apolo y Artemisa",
+  "etiquetas_tana": [
+    "Evento",
+    "griego"
+  ],
+  "imagen": null,
+  "tipo_tana": {
+    "texto": "Celebracion",
+    "refs": [
+      {
+        "tana": "LA0VcJpv0Rry",
+        "nombre": "Celebracion"
+      }
+    ]
+  },
+  "cuando": {
+    "texto": "en el mes thargēlion = Mes Agrario Ateniense (Mayo) el dia 6 y 7",
+    "refs": [
+      {
+        "tana": "hY311neqWU4z",
+        "nombre": "thargēlion = Mes Agrario Ateniense (Mayo)"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipo": "Festividad / rito"
+}

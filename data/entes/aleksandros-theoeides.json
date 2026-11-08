@@ -1,0 +1,25 @@
+{
+  "id": "aleksandros-theoeides",
+  "tana_id": "HClJtowDMoe9",
+  "nombre": "Aleksandros Theoeides",
+  "nombre_alt": "Alejandro el semajante a un Dios",
+  "titulo_tana": "Aleksandros Theoeides = Alejandro el semajante a un Dios",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": null,
+  "contenido_en": {
+    "tana": "C92fsAq4VDrJ",
+    "nombre": "Paris Alexander = Alejandro de Troya",
+    "col": "entes",
+    "id": "paris-alexander"
+  }
+}

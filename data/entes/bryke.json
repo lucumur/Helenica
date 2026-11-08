@@ -1,0 +1,29 @@
+{
+  "id": "bryke",
+  "tana_id": "ftvhimnDfM4X",
+  "nombre": "Brykē",
+  "nombre_alt": "Brice",
+  "titulo_tana": "Brykē = Brice",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

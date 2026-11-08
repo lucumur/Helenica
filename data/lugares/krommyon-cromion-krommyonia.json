@@ -1,0 +1,31 @@
+{
+  "id": "krommyon-cromion-krommyonia",
+  "tana_id": "AFBgMDMF8f36",
+  "nombre": "Krómmyōn (Cromión), Krommyonia",
+  "nombre_alt": null,
+  "titulo_tana": "Krómmyōn (Cromión), Krommyonia",
+  "etiquetas_tana": [
+    "demos"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "S🧩",
+      "etiqueta": "Subunidades / partes",
+      "texto": "[Hys Krommyonia (Faea, la Cerda de Cromión)](entes:hys-krommyonia)",
+      "refs": [
+        {
+          "tana": "72Vlg8PGrd0-",
+          "nombre": "Hys Krommyonia (Faea, la Cerda de Cromión)",
+          "col": "entes",
+          "id": "hys-krommyonia"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Demos"
+  ],
+  "pertenece_a": []
+}

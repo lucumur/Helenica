@@ -1,0 +1,18 @@
+{
+  "id": "kalamis",
+  "tana_id": "fyQD9nP3J0pQ",
+  "nombre": "Kalamis",
+  "nombre_alt": null,
+  "titulo_tana": "Kalamis",
+  "etiquetas_tana": [
+    "M"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "akrokorinthos-korinthia",
+  "tana_id": "dVkbszFyAwoN",
+  "nombre": "Akrokórinthos, Korinthia",
+  "nombre_alt": "Acrocorinto",
+  "titulo_tana": "Akrokórinthos, Korinthia (Acrocorinto)",
+  "etiquetas_tana": [
+    "acropolis"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Ciudadela",
+      "refs": [
+        {
+          "tana": "iITE1MGa3cNL",
+          "nombre": "Ciudadela"
+        }
+      ]
+    },
+    {
+      "clave": "H🏘️",
+      "etiqueta": "Habitantes",
+      "texto": "**para 500aC:** sacerdotes, quizá una pequeña guarnición y, en fiestas o crisis, refugiados. No era un barrio residencial.",
+      "refs": []
+    },
+    {
+      "clave": "O⚖️",
+      "etiqueta": "Organización y cultos",
+      "texto": "- Hacia 500 a.C. el Akrokorinthos era un paisaje sagrado estratificado: en la cumbre, un santuario modesto pero prestigioso de Afrodita (protectora de la ciudad y del comercio); en la ladera, un santuario activo de Deméter y Kore con banquete ritual; en todo el macizo, agua, muralla arcaica y función de último reducto. No era un barrio poblado ni un palacio. La “prostitución sagrada” de mil heteras es una imagen posterior y probablemente inflada; lo histórico es la participación de las heteras en el culto cívico y la fama de Corinto como ciudad de Afrodita y de _peithō_.\n- **Culto Afrodisio de Hétairas:** en la cima un modesto Naos de Aphroditē Ourania, protectora de la ciudad. Es un Templo que era famoso por sus hétairai (siervas) que hacian bailes o se prostituian en nombre de la Diosa Afrodita. este ultimo punto, aunque controversial y no totalmente comprobado, era por lo que siglos despues su culto fuese criticado.\n- **Culto Heliaco de Sacrificios:** tras los recintos de la cima, se encontraban los Aelíou Bōmoi .Corinto fue, junto con Rodas, uno de los dos grandes centros de culto solar del mundo griego; la tradición sostiene que el peñón perteneció primero a Helios, cuando Briareo arbitró el poder de los Dioses, dejando Helios como dueño de la Acropolis, y entregado después por él mismo a Afrodita.\n- **Culto Demetrio Agrícola con Banquetes:** en la ladera septentrional, sobre terrazas escalonadas, el santuario de Dēmētēr y Kórē con sus hestiatoria para el banquete ritual. Culto ligado a los misterios de la fertilidad y el ciclo agrícola.\n- **Función Acuífera:** dentro del recinto amurallado brota la fuente de Ánō Peirḗnē, manantial que la tradición liga a Sísifo y al río Asopo. Sin este suministro propio de agua, ninguna de las otras funciones del peñón sería sostenible ante un asedio prolongado.\n- **Función Defensiva:** el Akrokorinthos es refugio natural antes que fortaleza construida, con barrancos que protegen tres de sus flancos y un único acceso practicable por el oeste. La primera muralla se levanta a finales del siglo VII a.C. bajo los tiranos Cipsélidas, convirtiendo esa defensibilidad natural en la última línea de resistencia del sur de Grecia.",
+      "refs": []
+    },
+    {
+      "clave": "S🧩",
+      "etiqueta": "Subunidades / partes",
+      "texto": "- …\n  - [🌿 Hieron de Demeter en Acrocorinto](lugares:hieron-de-demeter-en-acrocorinto)\n  - [Murallas de Acrocorinto](lugares:murallas-de-acrocorinto)",
+      "refs": [
+        {
+          "tana": "1qDjWWHJQWX-",
+          "nombre": "🌿 Hieron de Demeter en Acrocorinto",
+          "col": "lugares",
+          "id": "hieron-de-demeter-en-acrocorinto"
+        },
+        {
+          "tana": "rU67-ug7F4kf",
+          "nombre": "Murallas de Acrocorinto",
+          "col": "lugares",
+          "id": "murallas-de-acrocorinto"
+        }
+      ]
+    },
+    {
+      "clave": "H🔼",
+      "etiqueta": "Pertenece a",
+      "texto": "[Korinthia, Peloponnesos](lugares:korinthia-peloponnesos)",
+      "refs": [
+        {
+          "tana": "6y_4oapuM7G2",
+          "nombre": "Korinthia, Peloponnesos",
+          "col": "lugares",
+          "id": "korinthia-peloponnesos"
+        }
+      ]
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Historia de Akrokorinthos",
+      "texto": "- Eventos\n  - **Helenístico (323–146 a.C.):**\n    - [Toma de Arato de Sición](eventos:toma-de-arato-de-sicion)\n    - [Destrucción por Mumio](eventos:destruccion-por-mumio)\n  - **Hiato y colonia romana (146 a.C.–ca. 300 d.C.):**\n    - [Hiato 146–44](eventos:hiato-146-44)\n      - **F⚙️:** Abandono\n      - **D📝:** Sin culto cívico, guarnición ni mantenimiento. ⬤\n    - Resurrecciones / reapertura griega (post-44)\n    - Visita de Pausanias a Acrocorinto\n      - **F⚙️:** Evento\n      - **D📝:** ca. 160–175 d.C.; terminus ante quem de su lista topográfica. ⬤\n  - **Antigüedad tardía y bizantino temprano (ca. 300–1000 d.C.):**\n    - [Terremotos 365/375](eventos:terremotos-365-375)\n    - [Edictos de Teodosio](eventos:edictos-de-teodosio)\n    - [Saqueo de Corinto por Alarico](eventos:saqueo-de-corinto-por-alarico)\n    - Fin de los doce recintos\n      - **F⚙️:** Abandono cultual\n      - **D📝:** Horizonte 365–396; inferencia del final del paganismo, no cierre estratigráfico local. ◐\n- Defensa\n  - **Geométrico (ca. 1000–750 a.C.):**\n    - [Murallas de Acrocorinto](lugares:murallas-de-acrocorinto)\n      - **F⚙️:** Control y disuasión\n      - **D📝:** Fase geométrica: cierre del collado occidental; piedra seca/empalizada; sin torres ni puerta monumental. ○/◐\n  - **Arcaico (ca. 700–480 a.C.):**\n    - [Murallas de Acrocorinto](lugares:murallas-de-acrocorinto)\n      - **F⚙️:** Amurallamiento cívico\n      - **D📝:** circuito ciudad–Lequeo. ⬤/◐\n  - **Clásico (ca. 480–323 a.C.):**\n    - [Murallas de Acrocorinto](lugares:murallas-de-acrocorinto)\n      - **F⚙️:** Amurallamiento cívico\n      - **D📝:** Fase clásica / s. IV: circuito mayor; conecta ciudad, ciudadela y puerto. ⬤\n  - **Helenístico (323–146 a.C.):**\n    - [Murallas de Acrocorinto](lugares:murallas-de-acrocorinto)\n      - **F⚙️:** Amurallamiento militar\n      - **D📝:** Fase helenística: refuerzo de circuito y puertas; torres; guarnición macedonia. ⬤\n  - **Antigüedad tardía y bizantino temprano (ca. 300–1000 d.C.):**\n    - [Murallas de Acrocorinto](lugares:murallas-de-acrocorinto)\n      - **F⚙️:** Amurallamiento defensivo\n      - **D📝:** Fase justinianea (s. VI): refortificación ante invasiones. ⬤\n  - **Hiato y colonia romana (146 a.C.–ca. 300 d.C.):**\n    - [Murallas de Acrocorinto](lugares:murallas-de-acrocorinto)\n      - **F⚙️:** Amurallamiento colonial\n      - **D📝:** Fase colonial: muralla rehecha (César), 44 a.C.; reutiliza material de 146. ⬤\n- Funcion Militar  / Administrativa\n  - **Geométrico (ca. 1000–750 a.C.):**\n    - Refugio de altura\n      - el peñón como refugio ocasional, no polis amurallada. ◐\n  - **Helenístico (323–146 a.C.):**\n    - Acrocorinto: de paisaje sagrado a llave militar\n      - **F⚙️:** Transición estructural\n      - **D📝:** Acrocorinto cambia de naturaleza: de paisaje sagrado a llave militar.\n    - Guarnición macedonia\n      - **F⚙️:** Cuartel permanente\n      - **D📝:** Desde 338, con Demetrias y Calcis, «cadenas/grilletes de Grecia». ⬤\n    - Cuartel y almacenes\n      - **F⚙️:** Logística militar\n      - **D📝:** Infraestructura de guarnición. ◐\n  - **Antigüedad tardía y bizantino temprano (ca. 300–1000 d.C.):**\n    - Hexamilion\n      - **F⚙️:** Amurallamiento regional\n      - **D📝:** Prim. s. V (horizonte teodosiano); Acrocorinto otra vez refugio del Istmo (fecha dinástica fina discutible). ⬤/◐\n    - Kastro Corintio\n    - Refugio de población\n      - **F⚙️:** Uso defensivo activo\n      - **D📝:** Ante eslavos/ávaros: el peñón es fortaleza más que santuario. ◐\n    - Sede del estratego\n      - **F⚙️:** Función administrativa\n      - **D📝:** Papel en Hellas / Peloponeso (matiz: Corinto–Acrocorinto como eje, no literalizar «capital del thema» sin matiz). ◐\n- Fuente Hidrica\n  - **Geométrico (ca. 1000–750 a.C.):**\n    - [Manantial de Anō Peirēnē, Akrokórinthos](lugares:manantial-de-ano-peirene-akrokorinthos)\n      - **F⚙️:** Fuente vital\n      - **D📝:** Manantial intramuros; condición de cualquier asedio o ocupación. ⬤\n  - **Clásico (ca. 480–323 a.C.):**\n    - Cisternas de la ciudadela\n      - **F⚙️:** Almacenamiento hídrico\n      - **D📝:** Ampliación cuando la ocupación estable aumenta. ◐\n  - **Helenístico (323–146 a.C.):**\n    - Ampliación de cisternas\n      - **F⚙️:** Almacenamiento hídrico\n      - **D📝:** Tropa permanente no puede depender solo del manantial. ◐\n  - **Hiato y colonia romana (146 a.C.–ca. 300 d.C.):**\n    - Cisterna/obra de Anō Peirēnē\n      - **F⚙️:** Fuente monumentalizada\n      - **D📝:** Cámara y captación. ◐\n  - **Antigüedad tardía y bizantino temprano (ca. 300–1000 d.C.):**\n    - Anō Peirēnē en uso continuo\n      - **F⚙️:** Fuente\n      - **D📝:** Nunca abandonada hasta época otomana. ⬤\n    - Cisterna Subterranea Bizantina\n      - Almacenamiento Hidrico\n- Culto Solar\n  - **Geométrico (ca. 1000–750 a.C.):**\n    - [☀️ Bōmoi de Hawélios, Acrocorinto](lugares:bomoi-de-hawelios-acrocorinto)\n      - Altares sin Templo\n      - Continuidad propuesta en la cumbre\n  - **Arcaico (ca. 700–480 a.C.):**\n    - [☀️ Bōmoi de Hawélios, Acrocorinto](lugares:bomoi-de-hawelios-acrocorinto)\n      - **F⚙️:** Culto solar\n      - **D📝:** Altares de Helios; el peñón sigue marcado como suyo en la tradición. ◐\n  - **Hiato y colonia romana (146 a.C.–ca. 300 d.C.):**\n    - [☀️ Bōmoi de Hawélios, Acrocorinto](lugares:bomoi-de-hawelios-acrocorinto)\n      - **F⚙️:** Culto solar residual\n      - **D📝:** Siguen como altares; no se monumentalizan en la larga duración (argumento de silencio). ◐\n  - **Antigüedad tardía y bizantino temprano (ca. 300–1000 d.C.):**\n- Culto Comensal / Funebre\n  - **Geométrico (ca. 1000–750 a.C.):**\n    - [Oikoi Pre-Cultuales, Acrocorinto (Fase 0)](lugares:oikoi-pre-cultuales-acrocorinto) .\n      - **F⚙️:** Sin función religiosa\n      - **D📝:** Elementos: Enocoes, Escifos, Kalathiskoi (habitación viva, banquetes?)\n  - **Arcaico (ca. 700–480 a.C.):**\n    - [🌿 Temenos Votivo y Oikoi Arcaicos de Dēmētēr, Acrocorinto (Fase I-II)](lugares:temenos-votivo-y-oikoi-arcaicos-de-demeter-acrocorinto)\n      - **F⚙️:** Culto ctónico incipiente\n      - **D📝:**\n        - depósitos votivos al aire libre (kalathiskoi de vaso-cesta para Deméter)\n        - aterrazamiento de la ladera norte\n        - salas de comida\n        - santuario pequeño\n  - **Clásico (ca. 480–323 a.C.):**\n    - [🌾🍽️ Complejo de Hestiatoria de Dēmētēr y Korē, Acrocorinto (Fase III)](lugares:complejo-de-hestiatoria-de-demeter-y-kore-acrocorinto)\n      - **F⚙️:**\n        - Culto ctónico comensal (Apogeo 🟢)\n        - Reunion Ritual\n        - Estructura Cultual\n      - **D📝:**\n        - decenas de salas de banquete escalonadas en tres terrazas\n        - cocinas y baños (comer en presencia de la diosa)\n        - área teatral con losas de caliza dura\n        - salas de comida sin muros\n        - terraza superior con templo elaborado\n        - Edificio A en extremo norte del área teatral (fin de IV a.C.)\n  - **Helenístico (323–146 a.C.):** [🌾 Templo con Propileo de Dēmētēr y Korē, Acrocorinto (Fase IV)](lugares:templo-con-propileo-de-demeter-y-kore-acrocorinto)\n  - **Hiato y colonia romana (146 a.C.–ca. 300 d.C.):**\n    - [🌿 Hieron de Demeter en Acrocorinto](lugares:hieron-de-demeter-en-acrocorinto)\n      - **F⚙️:** Culto ctónico reducido\n      - **D📝:** Fase romana: naós sin comedores; continuidad nominal. ⬤\n  - **Antigüedad tardía y bizantino temprano (ca. 300–1000 d.C.):**\n    - [Cementerio Tardorromano, Acrocorinto (Fase VI)](lugares:cementerio-tardorromano-acrocorinto)\n- Culto Genealogico / Gamico\n  - **Arcaico (ca. 700–480 a.C.):**\n    - [👰 Hierón de Hēra Bounaia (la de la Colina)](lugares:hieron-de-hera-bounaia)\n      - **F⚙️:** Culto genealógico/local\n      - **D📝:** Hēra Bounaia; presencia arcaica posible, atestación plena pausaniana. ◐\n  - **Hiato y colonia romana (146 a.C.–ca. 300 d.C.):**\n    - [👰 Hierón de Hēra Bounaia (la de la Colina)](lugares:hieron-de-hera-bounaia)\n      - **F⚙️:** Culto genealógico\n      - **D📝:** Vigente s. II d.C. ⬤\n- Culto Poliadico / Erotico\n  - **Geométrico (ca. 1000–750 a.C.):**\n    - Área cultual de cumbre pre-templo\n      - **F⚙️:** Culto poliádico (proyectado)\n      - **D📝:** Altar al aire libre bajo la futura Afrodita; sin evidencia material directa; continuidad de lugar. ○\n  - **Arcaico (ca. 700–480 a.C.):**\n    - [♀️ Santuario y Altar de Aphroditē Ourania, Akrokórinthos](lugares:santuario-y-altar-de-aphrodite-ourania-akrokorinthos)\n      - **F⚙️:** Culto poliádico afrodisio\n      - **D📝:** Santuario/altar de Ourania en cumbre; fase pre-naós monumental. ◐\n  - **Clásico (ca. 480–323 a.C.):**\n    - [♀️ Naós de Aphroditē Ouranía Hoplismenē, Akrokórinthos](lugares:naos-de-aphrodite-ourania-hoplismene-akrokorinthos)\n      - **F⚙️:** Culto poliádico\n      - **D📝:** Naós de Ourania Hoplismenē: el culto de cumbre se consolida; el edificio monumental está mejor documentado en fase posterior — no confundir culto con fábrica clásica segura. ◐\n  - **Hiato y colonia romana (146 a.C.–ca. 300 d.C.):**\n    - Naós Aphroditē Hoplismenē (fase romana)\n      - **F⚙️:** Culto poliádico armado\n      - **D📝:** Tríada Afrodita armada + Helios + Eros; el antiguo dueño del peñón queda dentro de la casa de la diosa. ⬤\n  - **Antigüedad tardía y bizantino temprano (ca. 300–1000 d.C.):**\n    - Basílica cristiana en la cumbre\n      - **F⚙️:** Culto cristiano\n      - **D📝:** Sobre el ámbito de Afrodita; siglos después mezquita. ◐\n    - Obispado de Corinto\n      - Sede Eclesiastica\n      - El obispo es metropolitano del Peloponeso y de Acaya. En **431** es el único obispo del Peloponeso presente en concilio; en **680**, el único representante de Grecia.\n- Cultos Menores\n  - **Arcaico (ca. 700–480 a.C.):**\n    - [🗝️ Abaton de Anankē y Bía](lugares:abaton-de-ananke-y-bia)\n      - **F⚙️:** Culto abstracto vedado\n      - **D📝:** Único culto conocido de Anankē; ἄβατον; procedencia y fecha fundacional indeterminables (Pausanias s. II d.C.). ○\n    - [🎎 Hierón de las Moirai](lugares:hieron-de-las-moirai)\n      - **F⚙️:** Culto abstracto\n      - **D📝:** Imágenes no expuestas; rasgo arcaizante ≠ prueba de fundación arcaica. ○\n  - **Clásico (ca. 480–323 a.C.):**\n    - Continuidad de recintos menores\n      - **F⚙️:** Continuidad cultual incierta\n      - **D📝:** Moirai, Anankē-Bía, Hēra Bounaia, Mētēr: no demostrable si seguían activos en este tramo. ○\n  - **Hiato y colonia romana (146 a.C.–ca. 300 d.C.):**\n    - Hierón Anankē y Bía\n      - **F⚙️:** Culto abstracto vedado\n      - **D📝:** Vigente s. II d.C. ⬤\n    - Naós de las Moirai\n      - **F⚙️:** Culto abstracto\n      - **D📝:** Imágenes no a la vista (como las vio Pausanias). ⬤\n    - [Sisypheion, Akrokórinthos](lugares:sisypheion-akrokorinthos)\n      - **F⚙️:** Santuario heroico/local\n      - **D📝:** Sisypheion. ◐\n- Cultos Egipcios y Orientales\n  - **Hiato y colonia romana (146 a.C.–ca. 300 d.C.):**\n    - [🪄🌊 Períbolos Isis Pelagia](lugares:peribolos-isis-pelagia)\n    - 🪄 Períbolos Isis Aigyptia\n      - **F⚙️:** Culto egipcio\n      - **D📝:** Segunda Isis en el ascenso. ◐\n    - Períbolos de Sarapis\n      - **F⚙️:** Culto egipcio\n      - **D📝:** ◐\n    - Períbolos Sarapis «en Canopo»\n      - **F⚙️:** Culto egipcio canópico\n      - **D📝:** Prob. s. I–II d.C. ◐\n    - Naós de Mētēr Theōn (Cybele)\n      - **F⚙️:** Culto anatolio\n      - **D📝:** Estela y trono vacío (rasgo anatolio). ⬤"
+    }
+  ],
+  "tipos": [
+    "Acrópolis"
+  ],
+  "pertenece_a": [
+    {
+      "tana": "6y_4oapuM7G2",
+      "nombre": "Korinthia, Peloponnesos",
+      "col": "lugares",
+      "id": "korinthia-peloponnesos"
+    }
+  ]
+}

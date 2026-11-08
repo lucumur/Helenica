@@ -1,0 +1,22 @@
+{
+  "id": "toma-de-arato-de-sicion",
+  "tana_id": "mkLUnW2kNjvo",
+  "nombre": "Toma de Arato de Sición",
+  "nombre_alt": null,
+  "titulo_tana": "Toma de Arato de Sición",
+  "etiquetas_tana": [
+    "Evento"
+  ],
+  "imagen": null,
+  "tipo_tana": {
+    "texto": "Evento Politico-Militar",
+    "refs": []
+  },
+  "cuando": {
+    "texto": "243: asalto nocturno, Liga Aquea; 224/223: retorno macedonio. ⬤",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "tipo": "Histórico"
+}

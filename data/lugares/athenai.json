@@ -1,0 +1,17 @@
+{
+  "id": "athenai",
+  "tana_id": "un6zVhJJw1tG",
+  "nombre": "Athēnai",
+  "nombre_alt": "Atenas",
+  "titulo_tana": "Athēnai = Atenas",
+  "etiquetas_tana": [
+    "Ciudad"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ciudad"
+  ],
+  "pertenece_a": []
+}

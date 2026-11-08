@@ -1,0 +1,35 @@
+{
+  "id": "pinakes-de-heroes-corintios-en-el-agora",
+  "tana_id": "fUxN57ac1CYL",
+  "nombre": "Pinakes de Heroes Corintios en el Agora",
+  "nombre_alt": null,
+  "titulo_tana": "Pinakes de Heroes Corintios en el Agora",
+  "etiquetas_tana": [
+    "Lugar"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "H📜",
+      "etiqueta": "Historia y mito",
+      "texto": "- La secuencia dinástica completa — de Sísifo a los Baquíadas\n- Pausanias, citando al poeta épico corintio **Εὔμηλος** (Eumelos, s. VIII aC, él mismo un Baquíada, autor de la perdida _Corinthíaca_), da la línea completa:\n  - **Descendientes de Σίσυφος** reinan en Corinto — la dinastía sisífea que ya venimos trabajando.\n  - Invasión doria/de los Heraclidas: **Δωρίδας** e **Ὑανθίδας**, últimos príncipes de la línea sisífea, abdican en favor de **Ἀλήτης** (Alétēs), descendiente de Heracles — el punto exacto donde el linaje eólico-sisífeo cede formalmente ante el linaje heraclida/dorio.\n  - Sucesores de Aletes gobiernan cinco generaciones.\n  - La corona pasa a la familia de los **Βακχιάδαι**, así llamados por **Βάκχις** (Bákchis), hijo de **Πρύμνις** (Prýmnis) — que retienen el poder cinco generaciones más como reyes, y después como **πρυτάνεις** (prytáneis) anuales elegidos siempre de la propia línea Baquíada, hasta la revolución que instala a Cípselo\n- .\n- **Eumelo de Corinto** — poeta épico Baquíada (s. VIII aC), autor de la _Corinthíaca_ (perdida, usada por Pausanias como fuente), y de una _Europía_, una _Titanomaquia_, y un _Regreso de Troya_. Es el eslabón que fija literariamente el mito corintio en época arcaica temprana — el propio establishment aristocrático produciendo su propia épica de legitimación.\n- **Arquías de Corinto** (Ἀρχίας) — Baquíada, oikista de Siracusa; los mitos fundacionales de Corcira, Siracusa y Mégara Hiblea contienen detalle considerable sobre los Baquíadas y sus expediciones.\n- **Filólao de Corinto** — Baquíada, legislador (νομοθέτης) en Tebas, dato que muestra la exportación de know-how institucional baquíada más allá de la propia polis.\n- **Demarato de Corinto** — Baquíada exiliado que, según Estrabón, llegó a gobernar en Tarquinia (Etruria) — y cuyo hijo, dato que no está en este extracto pero es célebre, sería nada menos que Lucio Tarquinio Prisco, rey de Roma. Vale la pena que sepas que este hilo existe, aunque no lo desarrollo aquí sin verificarlo primero si te interesa.\n- **Cípselo** — hijo de **Eetión** y **Labda**, esta última mujer del propio clan Baquíada (pero coja, γ excluida de matrimonio dentro del clan por ese defecto, casada fuera con Eetión — el detalle que la tradición usa para explicar cómo un \"medio-Baquíada\" pudo derrocar a los suyos).",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- **Πίνακες (Pinakes) o Relieves de Héroes:** Corinto fue un centro de producción masiva de placas de terracota o piedra caliza blanda que representaban al héroe."
+    }
+  ],
+  "tipos": [
+    "Lugar"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "6y_4oapuM7G2",
+    "nombre": "Korinthia, Peloponnesos",
+    "col": "lugares",
+    "id": "korinthia-peloponnesos"
+  }
+}

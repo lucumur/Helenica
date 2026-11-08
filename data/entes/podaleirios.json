@@ -1,0 +1,43 @@
+{
+  "id": "podaleirios",
+  "tana_id": "V6S7Kf46HXBE",
+  "nombre": "Podaleirios",
+  "nombre_alt": "Podalirio",
+  "titulo_tana": "Podaleirios = Podalirio",
+  "etiquetas_tana": [
+    "Daemon",
+    "O",
+    "M"
+  ],
+  "imagen": null,
+  "fuentes": [
+    {
+      "titulo": "Lycophron, Alexandra 1047 ff (trans. Mair) (Greek poet C3rd B.C.) :\"[Asklepios' (Asclepius') sons Podaleirios (Podalirus) and Makhaon (Machaon) fought in the Trojan War :] One of two brothers [i.e. Podaleirios] shall have an alien soil [i.e. Kolophon (Colophon) in Asia Minor] over his bones and to men sleeping in sheepskins on his tomb he shall declare in dreams his unerring message for all. And healer of diseased shall he be called by the Daunians, when they wash the sick with the waters of Althainos (Althaenus) and invoke the son of Epios (Epius) [Asklepios] to come to their aid, that he may come gracious unto men and flocks.\"",
+      "url": null
+    },
+    {
+      "titulo": "Diodorus Siculus, Library of History 4. 71. 3 (trans. Oldfather) (Greek historian C1st B.C.) :\"To Asklepios (Asclepius), we are told further, sons were born, Makhaon (Machaon) and Podaleirios (Podalirus) , who also developed the healing art and accompanied Agamemnon in the expedition against Troy.\"",
+      "url": null
+    },
+    {
+      "titulo": "Quintus Smyrnaeus, Fall of Troy 8. 462 ff (trans. Way) (Greek epic C4th A.D.) :\"Podaleirios (Podalirus), godlike in his power to heal. Swifter than thought he made him [Philoktetes (Philoctetes) infected by a snake bite] whole and sound; for deftly on the wound he spread his salves, calling on his physician-father's name [Asklepios (Asclepius)]. And soon the Akhaians (Achaeans) shouted all for joy, all praising with one voice Asklepios' son.\"",
+      "url": null
+    }
+  ],
+  "especie": {
+    "texto": "Daemon Olimpico",
+    "refs": [
+      {
+        "tana": "vFju1Dr36EOL",
+        "nombre": "Daemon Olimpico"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Daimon"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

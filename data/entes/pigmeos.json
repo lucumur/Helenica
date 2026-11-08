@@ -1,0 +1,26 @@
+{
+  "id": "pigmeos",
+  "tana_id": "jEpgcBumyIpL",
+  "nombre": "Pigmeos",
+  "nombre_alt": null,
+  "titulo_tana": "Pigmeos",
+  "etiquetas_tana": [
+    "Gentes"
+  ],
+  "imagen": null,
+  "descripcion": {
+    "texto": "Hombres tan pequeños como un puño",
+    "refs": []
+  },
+  "especie": {
+    "texto": "Semi-Hombres",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Pueblo"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

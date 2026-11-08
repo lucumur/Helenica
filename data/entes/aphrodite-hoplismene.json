@@ -1,0 +1,24 @@
+{
+  "id": "aphrodite-hoplismene",
+  "tana_id": "wh0l5lIhmrh-",
+  "nombre": "Aphroditē Hoplismenē",
+  "nombre_alt": "La Armada",
+  "titulo_tana": "Aphroditē Hoplismenē (La Armada)",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "5XM9zBiTodu_",
+    "nombre": "Aphroditē",
+    "col": "entes",
+    "id": "aphrodite"
+  }
+}

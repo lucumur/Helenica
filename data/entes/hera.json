@@ -1,0 +1,145 @@
+{
+  "id": "hera",
+  "tana_id": "fEfLas105lfz",
+  "nombre": "Hêra",
+  "nombre_alt": "Hera",
+  "titulo_tana": "Hêra (Hera)",
+  "etiquetas_tana": [
+    "Deidad"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-04-07T19%3A03%3A23.975Z-image.png?alt=media&token=c5333f57-2792-4487-bd2f-592b5ef973c4",
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "Dios Olimpico",
+    "refs": [
+      {
+        "tana": "ITeremftDCmK",
+        "nombre": "Dios Olimpico"
+      }
+    ]
+  },
+  "descripcion": {
+    "texto": "Hija de Crono y Rea, hermana y esposa de Zeus, reina del Olimpo. Diosa del matrimonio legítimo y la soberanía conyugal. Su unión con Zeus (_hieros gamos_) la convierte en garante del orden dinástico olímpico, no en rival genealógica. Perseguida por los amoríos de Zeus, responde con celos e ira dirigida casi siempre contra las amantes y su descendencia —Heracles es su blanco más constante— más que contra Zeus mismo. Madre de Ares, Hefesto, Hebe, Ilitía. En la Ilíada, favorece decididamente a los aqueos contra Troya, motivada por el Juicio de Paris.",
+    "refs": []
+  },
+  "padres": {
+    "texto": "- [Kronos = Crono](entes:kronos)\n- [Rhea](entes:rhea)",
+    "refs": [
+      {
+        "tana": "wJ-80h8HgEnG",
+        "nombre": "Kronos = Crono",
+        "col": "entes",
+        "id": "kronos"
+      },
+      {
+        "tana": "rwObw0nWCwnl",
+        "nombre": "Rhea",
+        "col": "entes",
+        "id": "rhea"
+      }
+    ]
+  },
+  "conyuges": {
+    "texto": "[Zéus (Zeus)](entes:zeus)",
+    "refs": [
+      {
+        "tana": "Yz-NkVaNbFNa",
+        "nombre": "Zéus (Zeus)",
+        "col": "entes",
+        "id": "zeus"
+      }
+    ]
+  },
+  "hijos": {
+    "texto": "- [Hephaistos (Hefesto)](entes:hephaistos)\n- [Ares (Ares)](entes:ares)\n- [Hêbê = Hebe](entes:hebe)\n- [Eileithyia (Ilitia)](entes:eileithyia)",
+    "refs": [
+      {
+        "tana": "1z6pux6Ahl2z",
+        "nombre": "Hephaistos (Hefesto)",
+        "col": "entes",
+        "id": "hephaistos"
+      },
+      {
+        "tana": "1eKOHrH6LiAl",
+        "nombre": "Ares (Ares)",
+        "col": "entes",
+        "id": "ares"
+      },
+      {
+        "tana": "FxRDdkqPqnzn",
+        "nombre": "Hêbê = Hebe",
+        "col": "entes",
+        "id": "hebe"
+      },
+      {
+        "tana": "GXQ9i-IAWjEX",
+        "nombre": "Eileithyia (Ilitia)",
+        "col": "entes",
+        "id": "eileithyia"
+      }
+    ]
+  },
+  "epitetos": {
+    "texto": "- Epitetos\n  - βοῶπις πότνια\n    - **Significado:** Soberana de ojos bovinos\n    - **Origen:** Homerico\n    - **Funcionalidad:** Aspecto\n    - **Notas:** El epíteto más frecuente de Hera en la Ilíada, típicamente en cierre de verso.\n  - λευκώλενος Ἥρη\n    - **Significado:** Hera de codos blancos\n    - **Origen:** Homerico\n    - **Funcionalidad:** Aspecto\n    - **Notas:** Muy frecuente en Homero. Marca estatus: piel clara = mujer de alto rango que no trabaja expuesta al sol. Rasgo estético-social,\n  - Λευκόπηχυς\n    - **Significado:** Hera de brazos Blancos\n    - **Origen:** Homerico\n    - **Funcionalidad:** Aspecto\n  - πρέσβα θεά θυγάτηρ μεγάλοιο Κρόνοιο\n    - **Significado:** Hija Mayor del Magno Crono\n    - **Origen:** Homerico\n    - **Funcionalidad:** Legitimidad\n  - Ἥρη Σαμία\n    - **Significado:** Hera de Samos\n    - **Origen:** Templo Heraion de la Isla de Samos\n    - **Funcionalidad:** Legitimidad de Origen\n  - Hera Imbraia\n    - **Origen:** Rio Imbrasos, en la Isla de Samos\n    - **Funcionalidad:** Legitimidad de Origen\n    - **Significado:** Hera del rio Imbrasos\n  - Ἥρη Ἀργεία\n    - **Significado:** Hera Argiva\n    - **Origen:** Panhelenica\n    - **Funcionalidad:** Legitmidad de Origen\n  - Ἥρη Ἀταυρώτη\n    - **Significado:** Hera No Montada por el Toro\n    - **Notas:** Fuente: léxico bizantino Suda; sin confirmación de ciudad/santuario específico de culto activo.\n    - **Funcionalidad:** Funcion Virginal\n  - Ἥρη Παρθένος\n    - **Significado:** Hera la Doncella\n    - **Funcionalidad:** Funcion Virginal\n  - Ἥρη Νυμφευομένη\n    - **Significado:** Hera la Comprometida\n    - **Origen:**\n      - Platea (Beocia)\n      - Estatua Sentada\n    - **Funcionalidad:** Funcion Matrimonial (Patrona de las Novias)\n  - Ἥρη Τελεία\n    - **Significado:** Hera Consumada\n    - **Origen:**\n      - Argolis (Nauplion)\n      - Estatua Suya\n    - **Funcionalidad:** Funcion Matrimonial\n    - **Notas:** La matrona por excelencia — mujer que alcanzó el τέλος, el punto culminante de la vida femenina griega según esa cosmovisión: el matrimonio. En Atenas, Aristófanes la llama guardiana de \"las llaves del matrimonio\" (_Tesmoforiantes_ 973).\n  - Ἥρη Ἀνθεία\n    - **Significado:** Hera Floral\n    - **Origen:** Argolis\n    - **Notas:** Confirmado por Pausanias: templo en Argos. Compartido con Afrodita en Cnosos. Vinculada a las Horas y a la floración — capa de sustrato agrario-estacional,\n    - **Funcionalidad:** Funcion Estacional\n  - **Ἥρη Ζυγία**\n    - **Significado:** Hera Conyugal\n    - **Origen:** Panhelenica\n    - **Funcionalidad:** Funcion Matrimonial\n    - **Notas:** Guardiana del vínculo conyugal como atadura formal —el yugo como imagen del lazo matrimonial—, epíteto panhelénico sin localización cultual única destacada.\n  - Ἥρη Γαμηλία\n    - **Significado:** Hera Nupcial\n    - **Origen:** Ateniense\n    - **Funcionalidad:** Funcion Matrimonal\n    - **Notas:** . Ligada al mes ateniense Gamelión, dedicado a las bodas.\n  - **Ἥρη Ἀκραία**\n    - **Significado:** Hera de la Acropolis\n    - **Origen:** Patrona de Corinto\n    - **Funcionalidad:** Funcion Protectora\n  - Ἥρη Αἰγοφάγος\n    - **Significado:** Hera Caprivora\n    - **Origen:** Espartana\n  - Ὑπερχειρία\n    - **Significado:** Hera de la Sobremano\n    - **Origen:** Espartana\n    - **Funcionalidad:** Funcion Protectora\n    - **Notas:** El santuario fue erigido para detener las inundaciones del Eurotas, y segun la tradicion cumplia su funcion cesando las inundaciones\n  - Hera Aleksandros\n    - **Significado:** Hera Defensora de Hombres\n    - **Origen:** Templo de Adrasto, Sicyon (Achaea)\n    - **Funcionalidad:** Funcion Porectora\n  - **Ἥρη Ἡνιόχη**\n    - **Significado:** Sujetadora de las Riendas\n    - **Funcionalidad:** Regalidad\n    - **Origen:** **Lebadea, Beocia,** sede del célebre **oráculo de Trofonio**\n    - **Notas:**\n      - Se sabe que en esta ciudad se celebraba un festival que incluía carreras de caballos.\n      - Hera también funciona literalmente como auriga en la Ilíada (Il. 8.392) — esto significa que Henioche no es epíteto puramente cultual-local sin anclaje en la épica: hay una escena homérica donde Hera efectivamente conduce el carro\n  - Παμβασίλεια\n    - **Significado:** Reina de Todo\n    - **Origen:** Orfico\n    - **Funcionalidad:** Regalidad\n  - Παγκρατής\n    - **Significado:** Todo Poderosa\n    - **Origen:** Orfico\n    - **Funcionalidad:** Regalidad\n  - Παντογένεθλος\n    - **Significado:** Todo Creadora\n    - **Origen:** Orfico\n    - **Funcionalidad:** Regalidad\n  - Πολυώνυμος\n    - **Significado:** la de muchos apodos\n    - **Origen:** Orfico\n    - **Funcionalidad:** Gloriosidad\n  - Δῖος σύλλεκτρος μάκαιρα\n    - **Significado:** Bendita Concubina Zeusina\n    - **Origen:** Orfico\n    - **Funcionalidad:** Funcion de Consorte\n  - ζωογόνος θεά\n    - **Significado:** Creadora de Vida\n    - **Origen:** Orfico\n    - **Funcionalidad:** Divinidad\n  - **Καλλιστέφανος**\n    - **Significado:** la de Bella Corona\n    - **Origen:** Orfico\n    - **Funcionalidad:** Regalidad\n  - Ἀνέμων Τροφός\n    - **Significado:** Nodriza de los Vientos\n    - **Origen:** Orfico\n    - **Funcionalidad:** Divinidad - Climatica\n  - Μήτηρ Ὄμβρων\n    - **Significado:** Madre de las Tormentas\n    - **Origen:** Orfico\n    - **Funcionalidad:** Divinidad - Climatica\n  - Ἠερόμορφος\n    - **Significado:** Con Forma de Viento\n    - **Origen:** Orfico\n    - **Funcionalidad:** Divinidad - Climatica",
+    "refs": []
+  },
+  "asociaciones": {
+    "texto": "- Sequito\n  - [Iris (Iris)](entes:iris)\n  - Pavorreal",
+    "refs": [
+      {
+        "tana": "y3PwrtQAToDB",
+        "nombre": "Iris (Iris)",
+        "col": "entes",
+        "id": "iris"
+      }
+    ]
+  },
+  "posesiones": {
+    "texto": "- [Krēdemnon (Velo)](objetos:kredemnon)\n- [Kestos Himas](objetos:kestos-himas)",
+    "refs": [
+      {
+        "tana": "fqPrBw2gqV1T",
+        "nombre": "Krēdemnon (Velo)",
+        "col": "objetos",
+        "id": "kredemnon"
+      },
+      {
+        "tana": "8ebvtNFdc_jW",
+        "nombre": "Kestos Himas",
+        "col": "objetos",
+        "id": "kestos-himas"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Corte Olimpica de Hera",
+      "texto": "- el **δῶμα** (palacio) de Hera en el Olimpo — específicamente el tipo de espacio que Homero describe como χάλκεον οὖδας (suelo de bronce, _Il._ 1.426) un espacio _supra-terreno_, situado literalmente sobre las nubes: fórmula homérica de Zeus como νεφεληγερέτα, siendo el como un lugar que trasciende el clima humano (Od. 6.42-46)"
+    },
+    {
+      "titulo": "Hera (centro, velo, pavo real)",
+      "texto": "- **Vestido blanco + κρήδεμνον:** marca αἰδώς y estatus de esposa legítima — θεά πρέσβα.\n- El κρήδεμνον (velo) es un marcador de estatus matrimonial y de **αἰδώς** (pudor/honra) — Hera como θεά πρέσβα, la diosa \"venerable\" por excelencia, la única de las Olímpicas cuyo estatus de esposa legítima de Zeus estructura su identidad completa.\n- **Pavo real:** atributo **tardío** (Ovidio, Met. 1.722-723), Aunque su animal antiguo real es una vaca."
+    },
+    {
+      "titulo": "Iris (alas)",
+      "texto": "- Ἄγγελος de Hera y Zeus (Il. 3.121; 18.166-202). Su presencia es funcional: ejecuta la voluntad de Hera fuera del Olimpo. Alas = atributo constante desde época arcaica (Hesíodo, Teog. 265-269)."
+    },
+    {
+      "titulo": "Hebe (jarra)",
+      "texto": "- Hija de Hera y Zeus (Teog. 922), personifica ἥβη. Escancia néctar a los dioses (Il. 4.2-3) — la vasija es precisa. Doble vínculo con Hera: genealógico y de servicio en su banquete."
+    },
+    {
+      "titulo": "Peinados",
+      "texto": "- Recogidos/trenzados = σωφροσύνη, decoro divino. Cabello suelto en iconografía griega se asocia más a ménades o duelo, no a divinidades de corte.\n- Iris tiene una lógica distinta: es mensajera, figura en movimiento constante entre el Olimpo y la tierra, el pelo \"al viento\" refuerza visualmente el desplazamiento veloz"
+    },
+    {
+      "titulo": "Adjetivos para Hera",
+      "texto": "- **βοῶπις:** \"de ojos de vaca\", epíteto más antiguo de Hera (Il. 1.551, 568). No es insulto — marca majestad, ligado a culto ganadero pre-olímpico (Samos, Heraion de Argos).\n- **λευκώλενος:** \"de blancos brazos\", registro ⚪ Épico Común compartido con mujeres nobles mortales — no exclusivo de Hera, marca estatus/clase.\n- **πρέσβα θεά θυγάτηρ μεγάλοιο Κρόνοιο:** fórmula genealógica-honorífica (Il. 4.59, 5.721, 21.479), reafirma precedencia titánica frente a Zeus, típica en contextos de negociación/conflicto.\n- **Ἀλεξάνδρα (Aleksandra)**  [Sicyon] — \"la que protege a los hombres\" (de ἀλέξω + ἀνήρ).\n- **Ἠνιόχη (Ēniokhē)** [Beocia] — \"la que conduce las riendas\"\n- **Ὑπερχειρία (Hyperkheiria) [Esparta] — \"la de mano dominante\"**\n- Παγκρατής Πανβασίλεια [Orfico] **— \"Todo Poderosa, Reina de Todo\"**"
+    }
+  ],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": null
+}

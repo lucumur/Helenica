@@ -1,0 +1,39 @@
+{
+  "id": "hippolyte",
+  "tana_id": "cbhmmGlk83PE",
+  "nombre": "Hippolytē",
+  "nombre_alt": "Hipolita",
+  "titulo_tana": "Hippolytē = Hipolita",
+  "etiquetas_tana": [
+    "O",
+    "Regio",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "- Raza Amazona\n- Nobleza",
+    "refs": [
+      {
+        "tana": "zDsL18MO3gOf",
+        "nombre": "Raza Amazona"
+      },
+      {
+        "tana": "0TjIgPdjRUql",
+        "nombre": "Nobleza"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Realeza"
+  ],
+  "genero": "F",
+  "cultura": "Helénica",
+  "contenido_en": {
+    "tana": "m1YWwiM-9F-I",
+    "nombre": "Hipólita (Reina de Themyscira)",
+    "col": "entes",
+    "id": "hipolita"
+  }
+}

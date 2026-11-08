@@ -1,0 +1,37 @@
+{
+  "id": "idomeneus",
+  "tana_id": "eaVTYOpjGdrE",
+  "nombre": "Idomeneus",
+  "nombre_alt": "Idomeneo",
+  "titulo_tana": "Idomeneus = Idomeneo",
+  "etiquetas_tana": [
+    "O",
+    "Regio",
+    "M"
+  ],
+  "imagen": null,
+  "descripcion": {
+    "texto": "Rey de Creta en la Iliada",
+    "refs": []
+  },
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "Nobleza",
+    "refs": [
+      {
+        "tana": "0TjIgPdjRUql",
+        "nombre": "Nobleza"
+      }
+    ]
+  },
+  "epitetos": {
+    "texto": "Idomeneus",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Realeza"
+  ],
+  "genero": "M"
+}

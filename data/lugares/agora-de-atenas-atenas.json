@@ -1,0 +1,60 @@
+{
+  "id": "agora-de-atenas-atenas",
+  "tana_id": "jQSRByUXzrC1",
+  "nombre": "Agora de Atenas, Atenas",
+  "nombre_alt": null,
+  "titulo_tana": "Agora de Atenas, Atenas",
+  "etiquetas_tana": [
+    "Barrio"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-03-17T18%3A30%3A23.041Z-image.png?alt=media&token=57344ef6-4c64-47ef-b604-72f174d9d30d",
+  "campos": [
+    {
+      "clave": "M🗺️",
+      "etiqueta": "Entorno",
+      "texto": "![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-03-17T18%3A27%3A41.761Z-image.png?alt=media&token=c0ee9031-c80e-4dd8-bc88-d20e4a1736f0)",
+      "refs": []
+    },
+    {
+      "clave": "S🧩",
+      "etiqueta": "Subunidades / partes",
+      "texto": "- [Templo de Ares (Atenas)](lugares:templo-de-ares)\n- [Templo de Zeus Agoraios (Atenas) #](lugares:templo-de-zeus-agoraios-atenas)\n- [Altar de Zeus Agoraios (Atenas)](lugares:altar-de-zeus-agoraios)",
+      "refs": [
+        {
+          "tana": "7fbM1Kx53_YV",
+          "nombre": "Templo de Ares (Atenas)",
+          "col": "lugares",
+          "id": "templo-de-ares"
+        },
+        {
+          "tana": "w8zFu7AxnbZk",
+          "nombre": "Templo de Zeus Agoraios (Atenas) #",
+          "col": "lugares",
+          "id": "templo-de-zeus-agoraios-atenas"
+        },
+        {
+          "tana": "EOHgyFEs3b1-",
+          "nombre": "Altar de Zeus Agoraios (Atenas)",
+          "col": "lugares",
+          "id": "altar-de-zeus-agoraios"
+        }
+      ]
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-03-17T18%3A30%3A23.041Z-image.png?alt=media&token=57344ef6-4c64-47ef-b604-72f174d9d30d)\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-03-17T18%3A30%3A36.617Z-image.png?alt=media&token=11963807-603f-4e20-a3e3-ab27683b9f83)\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-03-17T18%3A31%3A07.723Z-image.png?alt=media&token=03471761-4539-4485-b2a9-059e33de62a0)"
+    }
+  ],
+  "tipos": [
+    "Barrio"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "0iYjGYISCSgv",
+    "nombre": "Templo de Apolo Patroos (Atenas)",
+    "col": "lugares",
+    "id": "templo-de-apolo-patroos"
+  }
+}

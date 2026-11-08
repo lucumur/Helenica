@@ -1,0 +1,23 @@
+{
+  "id": "templo-de-zeus-agoraios-atenas",
+  "tana_id": "w8zFu7AxnbZk",
+  "nombre": "Templo de Zeus Agoraios (Atenas) #",
+  "nombre_alt": null,
+  "titulo_tana": "Templo de Zeus Agoraios (Atenas) #",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "jQSRByUXzrC1",
+    "nombre": "Agora de Atenas, Atenas",
+    "col": "lugares",
+    "id": "agora-de-atenas-atenas"
+  }
+}

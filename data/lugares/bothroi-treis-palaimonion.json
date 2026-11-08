@@ -1,0 +1,24 @@
+{
+  "id": "bothroi-treis-palaimonion",
+  "tana_id": "w_h-C_WIjKiC",
+  "nombre": "Bothroi Treis, Palaimonion",
+  "nombre_alt": null,
+  "titulo_tana": "Bothroi Treis, Palaimonion",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Pozos para sacrificios nocturnos de toros negros",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

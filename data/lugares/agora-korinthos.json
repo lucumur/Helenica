@@ -1,0 +1,42 @@
+{
+  "id": "agora-korinthos",
+  "tana_id": "pzFxYJPqi4Oz",
+  "nombre": "Agora, Kórinthos",
+  "nombre_alt": null,
+  "titulo_tana": "Agora, Kórinthos",
+  "etiquetas_tana": [
+    "Lugar"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Culto",
+      "etiqueta": "Culto",
+      "texto": "❤️‍🔥 Culto Erogeno",
+      "refs": [
+        {
+          "tana": "11Z_ZqHjHXMn",
+          "nombre": "❤️‍🔥 Culto Erogeno"
+        }
+      ]
+    },
+    {
+      "clave": "Deidad",
+      "etiqueta": "Deidad",
+      "texto": "[Aphroditē (Hermogenes de Kythera)](objetos:aphrodite)",
+      "refs": [
+        {
+          "tana": "UyYsB5saTBqy",
+          "nombre": "Aphroditē (Hermogenes de Kythera)",
+          "col": "objetos",
+          "id": "aphrodite"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Lugar"
+  ],
+  "pertenece_a": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "kleonai-argolis",
+  "tana_id": "HXJnO9nMnxR5",
+  "nombre": "Kleônai, Argolis",
+  "nombre_alt": "Polis",
+  "titulo_tana": "Kleônai, Argolis (Polis)",
+  "etiquetas_tana": [
+    "Lugar"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Lugar"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "kIvGY8GfKDCK",
+    "nombre": "Primer Athlos: Matar al Leon de Nemea (Argolis)",
+    "col": "eventos",
+    "id": "primer-athlos-matar-al-leon-de-nemea"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "naos-de-hera-akraia-650ac-146-ac-perachora",
+  "tana_id": "d_sn9PC4fTDU",
+  "nombre": "Naos de Hēra Akraia (650aC - 146 aC), Perachōra",
+  "nombre_alt": null,
+  "titulo_tana": "Naos de Hēra Akraia (650aC - 146 aC), Perachōra",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Templo",
+      "refs": [
+        {
+          "tana": "-Bt4McJT-Z2E",
+          "nombre": "Templo"
+        }
+      ]
+    },
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "asociado a [Hēra Akráia (del Promontorio)](entes:hera-akraia)",
+      "refs": [
+        {
+          "tana": "KyYVebs82lPv",
+          "nombre": "Hēra Akráia (del Promontorio)",
+          "col": "entes",
+          "id": "hera-akraia"
+        }
+      ]
+    },
+    {
+      "clave": "T🏁",
+      "etiqueta": "Destino",
+      "texto": "- finales de 400 aC, el santuario entra en decadencia.\n- 146 a. C.: la destrucción de Corinto por L. Mummius.\n  - La evidencia arqueológica indica que el gran santuario de Peracora prácticamente deja de funcionar entonces.\n  - Treccani incluso lo caracteriza como el «golpe letal» al santuario",
+      "refs": []
+    },
+    {
+      "clave": "A🌱",
+      "etiqueta": "Origen",
+      "texto": "ca. 525 a. C.: construcción de la abside por los Baquiadas",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "- Dórico, planta rectangular alargada de **10,30 × 31 m**, siglo VI, junto al puerto bajo la roca del faro de Melangavi.\n- Rasgos internos poco habituales que conviene registrar:\n  - **Un muro que dividía el extremo oeste de la cella.**\n  - **Una pantalla o mampara delante de la estatua de culto.**",
+      "refs": []
+    },
+    {
+      "clave": "Teorias",
+      "etiqueta": "Teorias",
+      "texto": "- Esa combinación (compartimento occidental cerrado + barrera visual ante el ídolo) es rara y merece atención. Implica **gradación del acceso visual**: no todo el que entra ve lo mismo. una distinción entre el que ofrenda y el que oficia.\n- La planta inusual del templo, combinada con su ubicación sobre los restos de la estructura absidal, lo convierte en pieza de referencia para el estudio del desarrollo del templo griego como forma arquitectónica y cultual.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

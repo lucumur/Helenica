@@ -1,0 +1,19 @@
+{
+  "id": "palaeo-hermoupolis",
+  "tana_id": "V9VOt0YPds_9",
+  "nombre": "Palaeo-Hermoupolis",
+  "nombre_alt": null,
+  "titulo_tana": "Palaeo-Hermoupolis",
+  "etiquetas_tana": [
+    "puerto",
+    "Polis"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Polis",
+    "Puerto"
+  ],
+  "pertenece_a": []
+}

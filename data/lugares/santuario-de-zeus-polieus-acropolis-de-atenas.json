@@ -1,0 +1,24 @@
+{
+  "id": "santuario-de-zeus-polieus-acropolis-de-atenas",
+  "tana_id": "04Nfy0HUcKBy",
+  "nombre": "Santuario de Zeus Polieus, Acrópolis de Atenas",
+  "nombre_alt": null,
+  "titulo_tana": "Santuario de Zeus Polieus, Acrópolis de Atenas",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Recinto trapezoidal tallado en la roca (c. 500 a.C., reordenado en el tercer cuarto del V). Dentro: mesita-altar de bronce, un naískos pequeño orientado al norte, foso de cenizas, corral para los bueyes.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

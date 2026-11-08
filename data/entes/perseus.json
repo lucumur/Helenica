@@ -1,0 +1,33 @@
+{
+  "id": "perseus",
+  "tana_id": "MntOIdhHV73i",
+  "nombre": "Perseus",
+  "nombre_alt": "Perseo",
+  "titulo_tana": "Perseus = Perseo",
+  "etiquetas_tana": [
+    "O",
+    "Heroe",
+    "M"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "- Raza Atica\n- Heroe",
+    "refs": [
+      {
+        "tana": "9X7lITcMQxPX",
+        "nombre": "Raza Atica"
+      },
+      {
+        "tana": "fdfrmwQATZAR",
+        "nombre": "Heroe"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

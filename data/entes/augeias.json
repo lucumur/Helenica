@@ -1,0 +1,35 @@
+{
+  "id": "augeias",
+  "tana_id": "gxISaWyMJjT5",
+  "nombre": "Augeias",
+  "nombre_alt": "Augias",
+  "titulo_tana": "Augeias = Augias",
+  "etiquetas_tana": [
+    "O",
+    "Regio",
+    "M"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Nobleza",
+    "refs": [
+      {
+        "tana": "0TjIgPdjRUql",
+        "nombre": "Nobleza"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Realeza"
+  ],
+  "genero": "M",
+  "cultura": "Helénica",
+  "contenido_en": {
+    "tana": "WB89TTp2uHc4",
+    "nombre": "Quinto Athlos: Limpiar los Establos de Augias (Elis)",
+    "col": "eventos",
+    "id": "quinto-athlos-limpiar-los-establos-de-augias"
+  }
+}

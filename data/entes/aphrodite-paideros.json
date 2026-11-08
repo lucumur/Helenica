@@ -1,0 +1,61 @@
+{
+  "id": "aphrodite-paideros",
+  "tana_id": "kpmbSgWvysGY",
+  "nombre": "Aphroditē \"Paideros\"",
+  "nombre_alt": "del cercado",
+  "titulo_tana": "Aphroditē \"Paideros\" (del cercado)",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "- Pausanias 2.10.4–6:\n  - Recinto de Afrodita. A la entrada, **Antíope** (los sicionios se la apropian como antepasada).\n  - Entran solo la _neokoros_ (ya no se acuesta con hombre) y una virgen **loutrophóros** de un año.\n  - Los demás rezan desde el umbral.\n  - Imagen sentada de **Cánaco**, oro y marfil, _pólos_, amapola y manzana.\n  - No se queman cerdos. Enebro. Con los muslos, una hoja de **paíderos**, planta que —dice él— no crece fuera de ese cercado.\n- Eso es Afrodita de _pólis_ interior, de fruto y de prohibición. No hay hetairas en esa ficha.",
+      "refs": []
+    },
+    {
+      "clave": "P📊",
+      "etiqueta": "Propiedades",
+      "texto": "Imagen sentada de Cánaco: _pólos_, amapola, manzana. Recinto que no se pisa. Entran la _neokoros_ (ya sin hombre) y la virgen **loutrophóros** de un año. El resto reza desde el umbral. No hay cerdo. Hay enebro y una hoja de _paíderos_, planta que —dice él— no nace fuera de esa cerca. A la puerta, Antíope.",
+      "refs": []
+    },
+    {
+      "clave": "M🪵",
+      "etiqueta": "Material",
+      "texto": "Criselefantina",
+      "refs": []
+    },
+    {
+      "clave": "A👤",
+      "etiqueta": "Creador",
+      "texto": "- Pausanias 2.10.5 lo dice: La Afrodita sentada de Sición la hizo **Cánaco el sicionio**, el mismo que hizo el Apolo de Dídima para los milesios y el Apolo Ismenio para los tebanos. Imagen de oro y marfil, sentada, _pólos_, amapola y manzana.\n- Cánaco de Sición es un bronceísta y crisoelefantino de finales del VI / comienzos del V. El Apolo de Dídima (el _Philesios_) era famoso: bronce, ciervo en una mano. Plinio y otros lo recuerdan. Suele distinguirse un Cánaco «el Viejo» de un homónimo más tardío; Pausanias, al citar Dídima y el Ismenio juntos, apunta al primero.",
+      "refs": []
+    },
+    {
+      "clave": "A⚡",
+      "etiqueta": "Poderes",
+      "texto": "- **Pausanias 2.10.5-6**, secuencia exacta del ritual sicionio:\n  - Se sacrifican víctimas, excepto cerdos\n    - Esto es significativo: el cerdo es la víctima estándar de Deméter y de purificaciones ctónicas, y es común en muchos cultos griegos. Su exclusión aquí es una prohibición deliberada.\n    - El paralelo obvio es el **tabú del cerdo en cultos de Afrodita de origen chipriota-levantino** — hay tradición antigua (recogida en Ateneo y otros) de que en Chipre el cerdo estaba vedado a Afrodita, vinculado al mito de Adonis muerto por un jabalí. Esto es uno de los indicios más citados del sustrato oriental del culto afrodisíaco, y su aparición en Sición sugiere transmisión real, no coincidencia.\n  - Se queman los muslos para la diosa sobre leña de enebro (ἄρκευθος)\n    - Se queman los muslos para la diosa; el resto se ofrece aparte. Esto es el esquema hesiódico estándar (Prometeo en Mecone: huesos y grasa a los dioses, carne a los hombres), así que aquí Sición no innova — la anomalía está en el combustible y en la víctima excluida, no en el reparto.\n    - **Leña de enebro (ἄρκευθος).** Especificación ritual de combustible. El enebro es aromático al arder, con uso purificatorio documentado en el Mediterráneo oriental y el Levante. No es la leña sacrificial griega por defecto.\n  - **Mientras arden los muslos, se añade a la ofrenda una hoja de παιδέρως**\n    - Pausanias entonces describe la planta: crece en las partes abiertas del recinto y en ningún otro lugar, ni en Sicionia ni en ninguna otra tierra; hojas como las de encina pero más pequeñas que las del roble común y mayores que las de la coscoja, un lado oscuro y el otro blanco, parecidas al follaje del álamo blanco\n    - Paideros (\"que ama a los niños\") planta de recinto no identificada, probablemente variedad de acanto.\n      - **Lo que hace notable el dato de Pausanias:** afirma que la planta es **endémica absoluta de ese recinto** — no crece en ninguna otra parte del mundo.\n        - Esto es un tópos de santuario: la planta exclusiva como marca de la sacralidad del lugar (paralelos: el olivo de la Acrópolis ateniense, la palmera de Delos).\n        - Que Pausanias se moleste en describir la morfología foliar con tanto detalle —comparando con encina, roble, coscoja y álamo blanco— sugiere que él mismo la vio y no pudo identificarla con ninguna planta conocida.\n        - **La descripción del bicolor (un lado oscuro, otro blanco) es el detalle más sugerente.** Ese contraste es precisamente el rasgo del álamo blanco (_Populus alba_), árbol con carga ctónica en religión griega — asociado a Perséfone y al descenso al Hades. Que la ofrenda vegetal a Afrodita tenga ese rasgo cromático dual encaja con lo que ya vimos en Melainis: capas ctónicas dentro del culto afrodisíaco, no separables limpiamente de las celestes.\n        - **Lo que no sabemos:** por qué esa hoja, qué significaba, si el nombre παιδέρως es antiguo o una etimología popular posterior derivada del contexto erótico del santuario. Pausanias no lo explica y no hay otra fuente sobre esta planta en ese recinto.",
+      "refs": []
+    },
+    {
+      "clave": "U👥",
+      "etiqueta": "Usuarios",
+      "texto": "- El acceso restringido — el elemento más singular\n  - Solo entran dos mujeres: la **νεωκόρος** (neokóros, \"guardiana del templo\"), quien tras su nombramiento no puede tener relaciones sexuales, y una virgen llamada **λουτροφόρος** (loutrophóros, \"portadora del baño\"), cuyo oficio dura un año.\n  - Todos los demás contemplan a la diosa desde la entrada y rezan desde ahí.\n  - **a) La celibatura de la neokóros es vitalicia, la de la loutrophoros es temporal.** Pausanias especifica \"tras su nombramiento\" (ἐπεὶ ἂν ἀποδειχθῇ) para la primera, y \"un año\" para la segunda. Es decir: dos regímenes de pureza distintos coexistiendo en el mismo santuario. La virginidad anual rotativa es figura común (paralelo: las _arrēphoroi_ atenienses); el celibato permanente de una mujer adulta es más raro.\n  - **b) Es una Afrodita servida por castidad.** Esto es la paradoja que hace el santuario notable, y es simétricamente opuesta a la imagen popular de Corinto. En Sición, la diosa del deseo se sirve mediante abstinencia. El patrón no es único —Pausanias registra sacerdocios célibes para varias divinidades— pero sí es el contraste más agudo dentro del culto afrodisíaco.\n  - **c) La restricción de visión.** Que \"todos los demás\" (πάντες, gramaticalmente inclusivo — no solo varones) vean a la diosa desde el umbral y recen desde ahí implica que la imagen era **visible pero inaccesible**. Esto es arquitectónicamente informativo: la puerta del _naos_ debía quedar abierta o el templo tener línea de visión directa al _agalma_. No es un culto de misterio con ocultamiento; es un culto de distancia regulada.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "5XM9zBiTodu_",
+    "nombre": "Aphroditē",
+    "col": "entes",
+    "id": "aphrodite"
+  }
+}

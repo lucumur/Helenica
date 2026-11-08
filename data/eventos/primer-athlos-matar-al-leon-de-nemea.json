@@ -1,0 +1,126 @@
+{
+  "id": "primer-athlos-matar-al-leon-de-nemea",
+  "tana_id": "kIvGY8GfKDCK",
+  "nombre": "Primer Athlos: Matar al Leon de Nemea (Argolis)",
+  "nombre_alt": null,
+  "titulo_tana": "Primer Athlos: Matar al Leon de Nemea (Argolis)",
+  "etiquetas_tana": [
+    "Evento"
+  ],
+  "imagen": null,
+  "agentes_activos": {
+    "texto": "- [Hēraklēs (Hercules)](entes:herakles)\n- [Molorchos](entes:molorchos)\n- [León de Nemea](entes:leon-de-nemea)",
+    "refs": [
+      {
+        "tana": "viTfkThjup-A",
+        "nombre": "Hēraklēs (Hercules)",
+        "col": "entes",
+        "id": "herakles"
+      },
+      {
+        "tana": "6s_b2VVNSoYK",
+        "nombre": "Molorchos",
+        "col": "entes",
+        "id": "molorchos"
+      },
+      {
+        "tana": "LMLrULijLqtL",
+        "nombre": "León de Nemea",
+        "col": "entes",
+        "id": "leon-de-nemea"
+      }
+    ]
+  },
+  "cuando": {
+    "texto": "aprox 1250 aC",
+    "refs": []
+  },
+  "elementos": {
+    "texto": "- [Rópalon Nemeo](objetos:ropalon-nemeo)\n- [Espada de Bronce Heráclide](objetos:espada-de-bronce-heraclide)\n- [Capa Leontea](objetos:capa-leontea)",
+    "refs": [
+      {
+        "tana": "unALSSadBznB",
+        "nombre": "Rópalon Nemeo",
+        "col": "objetos",
+        "id": "ropalon-nemeo"
+      },
+      {
+        "tana": "1_pXm3Aznfug",
+        "nombre": "Espada de Bronce Heráclide",
+        "col": "objetos",
+        "id": "espada-de-bronce-heraclide"
+      },
+      {
+        "tana": "QQNAfry1HB7a",
+        "nombre": "Capa Leontea",
+        "col": "objetos",
+        "id": "capa-leontea"
+      }
+    ]
+  },
+  "donde": {
+    "texto": "- [Nemea, Argolis (Demos)](lugares:nemea-argolis)\n- [Kleônai, Argolis (Polis)](lugares:kleonai-argolis)\n- [Trêtos, Argolis (Pasaje)](lugares:tretos-argolis)",
+    "refs": [
+      {
+        "tana": "QGAtQpHKpHzo",
+        "nombre": "Nemea, Argolis (Demos)",
+        "col": "lugares",
+        "id": "nemea-argolis"
+      },
+      {
+        "tana": "HXJnO9nMnxR5",
+        "nombre": "Kleônai, Argolis (Polis)",
+        "col": "lugares",
+        "id": "kleonai-argolis"
+      },
+      {
+        "tana": "mZ-pXCFgfZG-",
+        "nombre": "Trêtos, Argolis (Pasaje)",
+        "col": "lugares",
+        "id": "tretos-argolis"
+      }
+    ]
+  },
+  "fuentes": [
+    {
+      "titulo": "https://mythopedia.com/topics/nemean-lion",
+      "url": "https://mythopedia.com/topics/nemean-lion"
+    },
+    {
+      "titulo": "https://www.theoi.com/Ther/LeonNemeios.html",
+      "url": "https://www.theoi.com/Ther/LeonNemeios.html"
+    },
+    {
+      "titulo": "From Bowman to Clubman: Herakles and Olympia",
+      "url": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-06-16T00%3A57%3A00.652Z-Cohen-BowmanClubmanHerakles-1994%20(1"
+    },
+    {
+      "titulo": "The Heroic Athlete in Ancient Greece by David J Lunt",
+      "url": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-04-21T15%3A44%3A22.088Z-Lunt-HeroicAthleteAncient-2009.pdf?alt=media&token=8d15889b-97b2-4af4-a1ff-42138e5d26d5"
+    }
+  ],
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Preparacion",
+      "texto": "- Llega a la ciudad de Cleonai, donde lo recibe Molorchos, con quien hace un pacto de hacerle un sacrificio en honor a el si no regresa despues de 30 dias vivo. no regreso en la fecha indicada\n- \"el exuberante suelo de Nemea, donde Hera armada de blanco amamantó al León come-ovejas de rugidos graves, en el primero de los trabajos gloriosos de Herakles\"  *-- Bacchylides, Fragment 9 :*\n- \"Lo habia desatado la Consorte de Zeus de mecha corta para arruinar Argos, y como un trabajo dificil para el ilegitimo hijo de Zeus\"*-- Callimachus, Fragment 108 (from Scholiast on Pindar's Nemean Ode 10. 1) :*"
+    },
+    {
+      "titulo": "Lucha con Herakles",
+      "texto": "- Intento usar su garrote, su espada y sus flechas pero de poco le sirvieron.\n  - \"mira la mano rompecuellos que el nieto de Perseo pone con toda su habilidad sobre el león come-hombres, pues el refulgiente bronce de su espada se rehusa a perforar su inalcanzable cuerpo\" *-**-Bacchylides, Fragment 13 (trans. Campbell, Vol. Greek Lyric IV) (Greek lyric C5th B.C.) :*\n- Espero a que entrara a la cueva, y despues bloqueó una de las dos entradas y entró por la primera. Ahi adentro lo azuzó para que saliera\n  - Algunos Vasos antiguos pintan a hercules rompiendole su mandibula, como Sanson.\n- Perdió un dedo en la batalla. (Ptolem. Heph. 2.)\n- Ayuda Divina\n  - Athênā lo ayudo, indicandole que solo con las garras del propio leon podia cortar su piel.\n  - Despues de cortar su piel, la utilizó como capa que le ayudaba  como armadura."
+    },
+    {
+      "titulo": "Regreso",
+      "texto": "- Regresa con [Molorchos](entes:molorchos) y  hacen un sacrificio en honor a Zeus Soter.\n- Regresa hasta Tiryns con el Leon sobre sus hombros, y asustado por su fuerza descomunal huye y le ordena en el futuro entregar sus hazañas afuera de las puertas de la ciudad."
+    },
+    {
+      "titulo": "Galeria de Heracles con el Leon de Nemea",
+      "texto": "- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-08-04T01%3A45%3A58.042Z-image.png?alt=media&token=e0704652-443f-46f5-bb42-c195119939ab)\n  - **Autor:** Tarjei Vassbotn\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-08-04T01%3A46%3A07.484Z-image.png?alt=media&token=628184de-a3c4-4bff-a935-4f8545da5285)\n  - **Autor:** Tarjei Vassbotn\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-08-04T01%3A46%3A38.994Z-image.png?alt=media&token=0af4f435-ac8d-4b97-99d3-4f2464e944be)\n  - **Autor:** Don Polo\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-08-04T01%3A46%3A51.918Z-image.png?alt=media&token=cb50f85e-d280-475d-8087-ed924ef1e87c)\n  - **Autor:** Don Polo\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-08-04T01%3A47%3A24.424Z-image.png?alt=media&token=0240fc83-ae89-41e5-967f-a606d8d2a202)\n  - **Autor:** Tomas Lopez\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-08-04T01%3A47%3A41.158Z-image.png?alt=media&token=62fe7afd-913e-41d3-80a7-fa65c2bf5579)\n  - **Autor:** Brage Bang Bjørkmo\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-08-04T01%3A47%3A54.582Z-image.png?alt=media&token=4d8fd23a-a1e4-420e-92d1-3d095d8eb64d)\n  - **Autor:** Ruben Castro Redondo"
+    }
+  ],
+  "tipo": "Mítico",
+  "serie": {
+    "nombre": "Doce Labores de Heracles",
+    "orden": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "athlos-doceavo-capturar-el-perro-cerbero",
+  "tana_id": "M8ZdvcvTTi_g",
+  "nombre": "Athlos Doceavo: Capturar el Perro Cerbero (Hades)",
+  "nombre_alt": null,
+  "titulo_tana": "Athlos Doceavo: Capturar el Perro Cerbero (Hades)",
+  "etiquetas_tana": [
+    "Evento"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipo": "Mítico",
+  "serie": {
+    "nombre": "Doce Labores de Heracles",
+    "orden": 12
+  }
+}

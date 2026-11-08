@@ -1,0 +1,24 @@
+{
+  "id": "athene-fratria",
+  "tana_id": "8aiQcqWIN42V",
+  "nombre": "A8ēnē Fratria",
+  "nombre_alt": "Atenea Fraternal",
+  "titulo_tana": "A8ēnē Fratria = Atenea Fraternal",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "fcRIRYT-Xczt",
+    "nombre": "Athēnē",
+    "col": "entes",
+    "id": "athene"
+  }
+}

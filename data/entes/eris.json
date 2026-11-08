@@ -1,0 +1,19 @@
+{
+  "id": "eris",
+  "tana_id": "HZLhyRf1pyoZ",
+  "nombre": "Eris",
+  "nombre_alt": "Discordia",
+  "titulo_tana": "Eris (Discordia)",
+  "etiquetas_tana": [
+    "Deidad",
+    "O"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

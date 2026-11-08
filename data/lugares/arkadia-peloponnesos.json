@@ -1,0 +1,159 @@
+{
+  "id": "arkadia-peloponnesos",
+  "tana_id": "-hatOnFTxzuj",
+  "nombre": "Arkadia, Peloponnesos",
+  "nombre_alt": null,
+  "titulo_tana": "Arkadia, Peloponnesos",
+  "etiquetas_tana": [
+    "chora"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Centro Principal",
+      "etiqueta": "Centro Principal",
+      "texto": "- [Tegea, Arkadia](lugares:tegea-arkadia)\n  - [Garea, Arkadia](lugares:garea-arkadia) , [Phylakē, Arkadia](lugares:phylake-arkadia) , [Karyai, Arkadia](lugares:karyai-arkadia) , [Korytheia, Arkadia](lugares:korytheia-arkadia) , [Potachidai, Arkadia](lugares:potachidai-arkadia) , [Oion, Arkadia](lugares:oion-arkadia) , [Manthyrea, Arkadia](lugares:manthyrea-arkadia) , [Echeuētheia, Arkadia](lugares:echeuetheia-arkadia) , [Apheidantes, Arkadia](lugares:apheidantes-arkadia)\n- [Mantinéa, Arkadia](lugares:mantinea-arkadia)\n- [Orkhomenós, Arkadia](lugares:orkhomenos-arkadia)\n- [Aséa, Arkadia](lugares:asea-arkadia)\n- [Górtys, Arkadia](lugares:gortys-arkadia)",
+      "refs": [
+        {
+          "tana": "2x9EueLnGQC-",
+          "nombre": "Tegea, Arkadia",
+          "col": "lugares",
+          "id": "tegea-arkadia"
+        },
+        {
+          "tana": "FQSAuKBc3_ne",
+          "nombre": "Mantinéa, Arkadia",
+          "col": "lugares",
+          "id": "mantinea-arkadia"
+        },
+        {
+          "tana": "7Auvd6tlKesc",
+          "nombre": "Orkhomenós, Arkadia",
+          "col": "lugares",
+          "id": "orkhomenos-arkadia"
+        },
+        {
+          "tana": "tEQ_H3s5zWuD",
+          "nombre": "Aséa, Arkadia",
+          "col": "lugares",
+          "id": "asea-arkadia"
+        },
+        {
+          "tana": "DvhNkUdC6bjP",
+          "nombre": "Górtys, Arkadia",
+          "col": "lugares",
+          "id": "gortys-arkadia"
+        }
+      ]
+    },
+    {
+      "clave": "Montes y Rios",
+      "etiqueta": "Montes y Rios",
+      "texto": "- [Oros Lykaion (Monte liceo)](lugares:oros-lykaion)\n- [Oros Parthenion, Arkadia](lugares:oros-parthenion-arkadia) : epifania de Pan\n- [Oros Erymanthos, Arkadia](lugares:oros-erymanthos-arkadia)\n- [Oros Mainalon, Arkadia](lugares:oros-mainalon-arkadia)\n- [Orē Aroania, Arkadia](lugares:ore-aroania-arkadia)\n- [Nônakris, Arkadia](lugares:nonakris-arkadia)\n- [Cascada de Styx (de Nônakris), Arkadia](lugares:cascada-de-styx-de-nonakris-arkadia)\n- [Fuentes de Asea, Arkadia](lugares:fuentes-de-asea-arkadia)\n- [Ladōn, Arkadia](lugares:ladon-arkadia-2)\n- [Erymanthos, Arkadia](lugares:erymanthos-arkadia)",
+      "refs": [
+        {
+          "tana": "69zhvSC-W35i",
+          "nombre": "Oros Lykaion (Monte liceo)",
+          "col": "lugares",
+          "id": "oros-lykaion"
+        },
+        {
+          "tana": "2zU5FfOkl6XG",
+          "nombre": "Oros Parthenion, Arkadia",
+          "col": "lugares",
+          "id": "oros-parthenion-arkadia"
+        },
+        {
+          "tana": "-lBZV214NojX",
+          "nombre": "Oros Erymanthos, Arkadia",
+          "col": "lugares",
+          "id": "oros-erymanthos-arkadia"
+        },
+        {
+          "tana": "PfUFf5g0Ktd_",
+          "nombre": "Oros Mainalon, Arkadia",
+          "col": "lugares",
+          "id": "oros-mainalon-arkadia"
+        },
+        {
+          "tana": "d0KLC6tYsL5_",
+          "nombre": "Orē Aroania, Arkadia",
+          "col": "lugares",
+          "id": "ore-aroania-arkadia"
+        },
+        {
+          "tana": "cOH0UKQ1qVRS",
+          "nombre": "Nônakris, Arkadia",
+          "col": "lugares",
+          "id": "nonakris-arkadia"
+        },
+        {
+          "tana": "i2u9lWTkP59q",
+          "nombre": "Cascada de Styx (de Nônakris), Arkadia",
+          "col": "lugares",
+          "id": "cascada-de-styx-de-nonakris-arkadia"
+        },
+        {
+          "tana": "vI1VorvRMVYT",
+          "nombre": "Fuentes de Asea, Arkadia",
+          "col": "lugares",
+          "id": "fuentes-de-asea-arkadia"
+        },
+        {
+          "tana": "Z8ScNQQvvCo5",
+          "nombre": "Ladōn, Arkadia",
+          "col": "lugares",
+          "id": "ladon-arkadia-2"
+        },
+        {
+          "tana": "yxdIKci2k8aR",
+          "nombre": "Erymanthos, Arkadia",
+          "col": "lugares",
+          "id": "erymanthos-arkadia"
+        }
+      ]
+    },
+    {
+      "clave": "Puertos y Rios",
+      "etiqueta": "Puertos y Rios",
+      "texto": "El sistema cárstico explica tres filas a la vez: los ζέρεθρα como áreas religiosas, la agricultura inundable y ríos que \"viajan\" bajo tierra entre regiones (Alfeo, Erasino). Ninguna otra región del Peloponeso tiene esa hidrografía.",
+      "refs": []
+    },
+    {
+      "clave": "Religiosas",
+      "etiqueta": "Religiosas",
+      "texto": "- [Lykosoura, Arkadia](lugares:lykosoura-arkadia) : santuario de despoina\n- [Kyllēnē, Arkadia](lugares:kyllene-arkadia) : nacimiento de Hermes\n- [Zerethra de Estinfalo y Feneo (sumideros carsticos)](lugares:zerethra-de-estinfalo-y-feneo)\n  - [Stymphalos, Arkadia](lugares:stymphalos-arkadia)\n  - [Pheneós, Arkadia](lugares:pheneos-arkadia)",
+      "refs": [
+        {
+          "tana": "pW8LLUHuh5I-",
+          "nombre": "Lykosoura, Arkadia",
+          "col": "lugares",
+          "id": "lykosoura-arkadia"
+        },
+        {
+          "tana": "UWgVN8DDIIrD",
+          "nombre": "Kyllēnē, Arkadia",
+          "col": "lugares",
+          "id": "kyllene-arkadia"
+        },
+        {
+          "tana": "x3RJONWeTh3m",
+          "nombre": "Zerethra de Estinfalo y Feneo (sumideros carsticos)",
+          "col": "lugares",
+          "id": "zerethra-de-estinfalo-y-feneo"
+        }
+      ]
+    },
+    {
+      "clave": "Agropecuaria",
+      "etiqueta": "Agropecuaria",
+      "texto": "Asnos Arcadios",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Chora"
+  ],
+  "pertenece_a": []
+}

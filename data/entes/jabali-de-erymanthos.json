@@ -1,0 +1,34 @@
+{
+  "id": "jabali-de-erymanthos",
+  "tana_id": "F2gl3JKGp1ix",
+  "nombre": "Jabali de Erymanthos",
+  "nombre_alt": null,
+  "titulo_tana": "Jabali de Erymanthos",
+  "etiquetas_tana": [
+    "O",
+    "H"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Bestia",
+    "refs": [
+      {
+        "tana": "MWq5bPfXL3LM",
+        "nombre": "Bestia"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Mortal"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "contenido_en": {
+    "tana": "sSHWkSAuoqKj",
+    "nombre": "Cuarto Athlos: Capturar el Jabali de Erymanthos (Arcadia)",
+    "col": "eventos",
+    "id": "cuarto-athlos-capturar-el-jabali-de-erymanthos"
+  }
+}

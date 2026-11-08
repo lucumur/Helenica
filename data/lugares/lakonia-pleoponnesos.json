@@ -1,0 +1,161 @@
+{
+  "id": "lakonia-pleoponnesos",
+  "tana_id": "qHjrhRlkMw-v",
+  "nombre": "Lakonia, Pleoponnesos",
+  "nombre_alt": null,
+  "titulo_tana": "Lakonia, Pleoponnesos",
+  "etiquetas_tana": [
+    "chora"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Centro Principal",
+      "etiqueta": "Centro Principal",
+      "texto": "- [Sparta, Lakonia](lugares:sparta-lakonia)\n- Acropolis de Esparta: colina baja sin fortificar con [Athānā Chalkioikos (la de casa de bronce)](entes:athana-chalkioikos)\n- Acropolis de facto: [Therapnē, Lakonia](lugares:therapne-lakonia)",
+      "refs": [
+        {
+          "tana": "GQk1zVD19PNx",
+          "nombre": "Sparta, Lakonia",
+          "col": "lugares",
+          "id": "sparta-lakonia"
+        },
+        {
+          "tana": "hBmMSsiCwWQI",
+          "nombre": "Athānā Chalkioikos (la de casa de bronce)",
+          "col": "entes",
+          "id": "athana-chalkioikos"
+        },
+        {
+          "tana": "Z-g6azh8spIW",
+          "nombre": "Therapnē, Lakonia",
+          "col": "lugares",
+          "id": "therapne-lakonia"
+        }
+      ]
+    },
+    {
+      "clave": "Religiosas",
+      "etiqueta": "Religiosas",
+      "texto": "- [Cueva de Tenaro, Lakonia](lugares:cueva-de-tenaro-lakonia) : entrada al Hades con asilo de Poseidón\n- [Cumbre del Taleton, Lakonia](lugares:cumbre-del-taleton-lakonia) : sacrificio de caballos a Helios\n- [Kaiadas, Lakonia](lugares:kaiadas-lakonia) : cima de ejecucion\n- [Platanistas, Lakonia](lugares:platanistas-lakonia) , isla de platanos para el combate de efecots\n- [Choros del Agora, Sparta](lugares:choros-del-agora-sparta) : danza de las gimnopedias",
+      "refs": [
+        {
+          "tana": "xKIJEtqLf-hR",
+          "nombre": "Cueva de Tenaro, Lakonia",
+          "col": "lugares",
+          "id": "cueva-de-tenaro-lakonia"
+        },
+        {
+          "tana": "_yde9KD5RlJS",
+          "nombre": "Cumbre del Taleton, Lakonia",
+          "col": "lugares",
+          "id": "cumbre-del-taleton-lakonia"
+        },
+        {
+          "tana": "fPFL9q3raIvj",
+          "nombre": "Kaiadas, Lakonia",
+          "col": "lugares",
+          "id": "kaiadas-lakonia"
+        },
+        {
+          "tana": "iiG2y8ahfl_J",
+          "nombre": "Platanistas, Lakonia",
+          "col": "lugares",
+          "id": "platanistas-lakonia"
+        },
+        {
+          "tana": "kW-w4hQTjcF4",
+          "nombre": "Choros del Agora, Sparta",
+          "col": "lugares",
+          "id": "choros-del-agora-sparta"
+        }
+      ]
+    },
+    {
+      "clave": "Montes y Rios",
+      "etiqueta": "Montes y Rios",
+      "texto": "- [Taygetos, Lakonia](lugares:taygetos-lakonia) : colindando con Mesenia\n- [Parnôn, Lakonia](lugares:parnon-lakonia) : colindando con Cinuria\n- [Porfido verde de Croceas](objetos:porfido-verde-de-croceas)\n- [Rosso antico del Tenaro](objetos:rosso-antico-del-tenaro)\n- [Hierro del Taigeto](objetos:hierro-del-taigeto)",
+      "refs": [
+        {
+          "tana": "w5LafsdRRfSc",
+          "nombre": "Taygetos, Lakonia",
+          "col": "lugares",
+          "id": "taygetos-lakonia"
+        },
+        {
+          "tana": "8UA5ZgWQG5WI",
+          "nombre": "Parnôn, Lakonia",
+          "col": "lugares",
+          "id": "parnon-lakonia"
+        },
+        {
+          "tana": "4LyufGYnckYC",
+          "nombre": "Porfido verde de Croceas",
+          "col": "objetos",
+          "id": "porfido-verde-de-croceas"
+        },
+        {
+          "tana": "dZf8I4KNW4VX",
+          "nombre": "Rosso antico del Tenaro",
+          "col": "objetos",
+          "id": "rosso-antico-del-tenaro"
+        },
+        {
+          "tana": "eMo1tVyyjTGr",
+          "nombre": "Hierro del Taigeto",
+          "col": "objetos",
+          "id": "hierro-del-taigeto"
+        }
+      ]
+    },
+    {
+      "clave": "Agropecuaria",
+      "etiqueta": "Agropecuaria",
+      "texto": "- [Perros Laconios](objetos:perros-laconios)\n- [Caballos Laconios](objetos:caballos-laconios)",
+      "refs": [
+        {
+          "tana": "oVxX8sIaxrrG",
+          "nombre": "Perros Laconios",
+          "col": "objetos",
+          "id": "perros-laconios"
+        },
+        {
+          "tana": "etRY90HqNUnn",
+          "nombre": "Caballos Laconios",
+          "col": "objetos",
+          "id": "caballos-laconios"
+        }
+      ]
+    },
+    {
+      "clave": "Puertos y Rios",
+      "etiqueta": "Puertos y Rios",
+      "texto": "- [Gition, Lakonia](lugares:gition-lakonia)\n- [Cabo Tenaro, Lakonia](lugares:cabo-tenaro-lakonia)\n- [Epidauro Limera, Lakonia](lugares:epidauro-limera-lakonia)",
+      "refs": [
+        {
+          "tana": "7D6Ts5qXtNNV",
+          "nombre": "Gition, Lakonia",
+          "col": "lugares",
+          "id": "gition-lakonia"
+        },
+        {
+          "tana": "vIu1o_I2Se9u",
+          "nombre": "Cabo Tenaro, Lakonia",
+          "col": "lugares",
+          "id": "cabo-tenaro-lakonia"
+        },
+        {
+          "tana": "Hv-rGBrviIGu",
+          "nombre": "Epidauro Limera, Lakonia",
+          "col": "lugares",
+          "id": "epidauro-limera-lakonia"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Chora"
+  ],
+  "pertenece_a": []
+}

@@ -1,0 +1,19 @@
+{
+  "id": "iris",
+  "tana_id": "y3PwrtQAToDB",
+  "nombre": "Iris",
+  "nombre_alt": "Iris",
+  "titulo_tana": "Iris (Iris)",
+  "etiquetas_tana": [
+    "Deidad",
+    "O"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

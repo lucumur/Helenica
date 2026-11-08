@@ -1,0 +1,85 @@
+{
+  "id": "peteon-onos",
+  "tana_id": "a32BlO_UszFj",
+  "nombre": "Peteôn, -ônos",
+  "nombre_alt": "Peteón",
+  "titulo_tana": "Peteôn, -ônos / Peteón",
+  "etiquetas_tana": [
+    "Lugar"
+  ],
+  "imagen": null,
+  "fuentes": [
+    {
+      "titulo": "**Pausanias** (9.24.4): Menciona ruinas cerca de Acrefias, posiblemente Peteón",
+      "url": null
+    },
+    {
+      "titulo": "Declive marcado pero NO abandono total como Eleón",
+      "url": null
+    }
+  ],
+  "campos": [
+    {
+      "clave": "E🌱",
+      "etiqueta": "Etimología",
+      "texto": "Incierta, posiblemente de _Petomai_ (volar) o relacionado con \"hojas\".",
+      "refs": []
+    },
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Asentamiento Rural",
+      "refs": [
+        {
+          "tana": "5PHeuvmMBOHD",
+          "nombre": "Asentamiento Rural"
+        }
+      ]
+    },
+    {
+      "clave": "Co🧭",
+      "etiqueta": "Coordenadas",
+      "texto": "Cerca del lago Hylike y en la ruta hacia Anthedon (costa norte).",
+      "refs": []
+    },
+    {
+      "clave": "M🗺️",
+      "etiqueta": "Entorno",
+      "texto": "![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-01-05T23%3A25%3A29.497Z-image.png?alt=media&token=d68b8c35-2434-4b59-89d7-72a6ebbb0d13)",
+      "refs": []
+    },
+    {
+      "clave": "H📜",
+      "etiqueta": "Historia y mito",
+      "texto": "Asentamiento menor que eventualmente cayó bajo el control de Tebas.",
+      "refs": []
+    },
+    {
+      "clave": "S🀄",
+      "etiqueta": "Símbolos",
+      "texto": "Hogar ancestral de Menesteo (quien lideró a los atenienses en Troya; su padre Peteos era de aquí antes de ir a Atenas).",
+      "refs": []
+    },
+    {
+      "clave": "H🔼",
+      "etiqueta": "Pertenece a",
+      "texto": "Βοιωτία / Beocia",
+      "refs": [
+        {
+          "tana": "HNRcbao5wr4Q",
+          "nombre": "Βοιωτία / Beocia"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Lugar"
+  ],
+  "pertenece_a": [
+    {
+      "tana": "HNRcbao5wr4Q",
+      "nombre": "Βοιωτία / Beocia"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "monte-krathis-arkadia",
+  "tana_id": "9PU1CmhCNWzi",
+  "nombre": "Monte Krathis, Arkadia",
+  "nombre_alt": null,
+  "titulo_tana": "Monte Krathis, Arkadia",
+  "etiquetas_tana": [
+    "Lugar"
+  ],
+  "imagen": null,
+  "fuentes": [
+    {
+      "titulo": "Pausanias sobre el Monte Krathis",
+      "url": "https://www.maicar.com/GML/Arcadia.html\""
+    }
+  ],
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Lugar"
+  ],
+  "pertenece_a": []
+}

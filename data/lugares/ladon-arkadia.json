@@ -1,0 +1,23 @@
+{
+  "id": "ladon-arkadia",
+  "tana_id": "PyKtG9R-D2a5",
+  "nombre": "Ladón, Arkadia",
+  "nombre_alt": null,
+  "titulo_tana": "Ladón, Arkadia",
+  "etiquetas_tana": [
+    "Rio"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Río"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "WpBb2l06zZsT",
+    "nombre": "Tercer Athlos: Atrapar a la Cierva de Cerynea (Aquea)",
+    "col": "eventos",
+    "id": "tercer-athlos-atrapar-a-la-cierva-de-cerynea"
+  }
+}

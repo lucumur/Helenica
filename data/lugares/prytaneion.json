@@ -1,0 +1,17 @@
+{
+  "id": "prytaneion",
+  "tana_id": "C-jItTzDqU8B",
+  "nombre": "Prytaneion",
+  "nombre_alt": "Pritaneo",
+  "titulo_tana": "Prytaneion (Pritaneo)",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

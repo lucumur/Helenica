@@ -1,0 +1,20 @@
+{
+  "id": "artemis",
+  "tana_id": "ClxufXBnr4Yy",
+  "nombre": "Artemis",
+  "nombre_alt": "Artemisa",
+  "titulo_tana": "Artemis (Artemisa)",
+  "etiquetas_tana": [
+    "O",
+    "Deidad",
+    "F"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

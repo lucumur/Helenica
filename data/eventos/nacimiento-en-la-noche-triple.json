@@ -1,0 +1,66 @@
+{
+  "id": "nacimiento-en-la-noche-triple",
+  "tana_id": "ii3UKmiJJc1r",
+  "nombre": "Nacimiento en la noche triple",
+  "nombre_alt": null,
+  "titulo_tana": "Nacimiento en la noche triple",
+  "etiquetas_tana": [
+    "Evento"
+  ],
+  "imagen": null,
+  "donde": {
+    "texto": "Megaron de Kreonte, en Kadmeia (Tebas)",
+    "refs": []
+  },
+  "agentes_pasivos": {
+    "texto": "- [Hēraklēs (Hercules)](entes:herakles)\n- [Iphiklēs / ificles (Alcida-Perseida)](entes:iphikles)",
+    "refs": [
+      {
+        "tana": "viTfkThjup-A",
+        "nombre": "Hēraklēs (Hercules)",
+        "col": "entes",
+        "id": "herakles"
+      },
+      {
+        "tana": "UuMXV16fRlC3",
+        "nombre": "Iphiklēs / ificles (Alcida-Perseida)",
+        "col": "entes",
+        "id": "iphikles"
+      }
+    ]
+  },
+  "agentes_activos": {
+    "texto": "- [Alkmēnē / Alcmena](entes:alkmene)\n- [Zéus (Zeus)](entes:zeus)\n- [Amphitryôn / Anfitrión](entes:amphitryon)",
+    "refs": [
+      {
+        "tana": "fURT3UcCLav4",
+        "nombre": "Alkmēnē / Alcmena",
+        "col": "entes",
+        "id": "alkmene"
+      },
+      {
+        "tana": "Yz-NkVaNbFNa",
+        "nombre": "Zéus (Zeus)",
+        "col": "entes",
+        "id": "zeus"
+      },
+      {
+        "tana": "xgnH8fc1b1Pn",
+        "nombre": "Amphitryôn / Anfitrión",
+        "col": "entes",
+        "id": "amphitryon"
+      }
+    ]
+  },
+  "elementos": {
+    "texto": "Heracles fue envuelto en pañales color azafran (Pindaro)",
+    "refs": []
+  },
+  "tipo_tana": {
+    "texto": "Nacimiento",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "tipo": "Mítico"
+}

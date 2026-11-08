@@ -1,0 +1,49 @@
+{
+  "id": "athene-nike",
+  "tana_id": "yesv-016z7xt",
+  "nombre": "Athēnē Nikē",
+  "nombre_alt": "Atenea Victoria",
+  "titulo_tana": "Athēnē Nikē (Atenea Victoria)",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "- Victoria militar de la polis;\n- Resultado de la guerra, no la guerra misma.",
+      "refs": []
+    },
+    {
+      "clave": "U👥",
+      "etiqueta": "Usuarios",
+      "texto": "Sacerdotisa sorteada entre todos los atenienses (decreto IG I³ 35, c. 450–445), no de genos. Contraste deliberado con Polias.",
+      "refs": []
+    },
+    {
+      "clave": "A⚡",
+      "etiqueta": "Poderes",
+      "texto": "Sacrificios propios; no teje el peplo.",
+      "refs": []
+    },
+    {
+      "clave": "L🗺️",
+      "etiqueta": "Ubicación",
+      "texto": "Bastión de Nike, entrada de la Acrópolis. Altar arcaico ya en 580–560.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "fcRIRYT-Xczt",
+    "nombre": "Athēnē",
+    "col": "entes",
+    "id": "athene"
+  }
+}

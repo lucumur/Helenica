@@ -1,0 +1,24 @@
+{
+  "id": "archegesion",
+  "tana_id": "ygYOP25uBaTv",
+  "nombre": "Archēgesion",
+  "nombre_alt": "Santuario",
+  "titulo_tana": "Archēgesion (Santuario)",
+  "etiquetas_tana": [
+    "hieron"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "**Dimensiones del _Archēgesion_:** El patio porticado original formaba un espacio cerrado de aproximadamente **28 x 22 metros**, inusualmente grande para un culto heroico arcaico.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Santuario"
+  ],
+  "pertenece_a": []
+}

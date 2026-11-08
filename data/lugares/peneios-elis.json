@@ -1,0 +1,23 @@
+{
+  "id": "peneios-elis",
+  "tana_id": "8p5855HDuHL0",
+  "nombre": "Peneios, Elis",
+  "nombre_alt": null,
+  "titulo_tana": "Peneios, Elis",
+  "etiquetas_tana": [
+    "Rio"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Río"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "WB89TTp2uHc4",
+    "nombre": "Quinto Athlos: Limpiar los Establos de Augias (Elis)",
+    "col": "eventos",
+    "id": "quinto-athlos-limpiar-los-establos-de-augias"
+  }
+}

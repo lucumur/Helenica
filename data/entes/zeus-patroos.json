@@ -1,0 +1,38 @@
+{
+  "id": "zeus-patroos",
+  "tana_id": "mPkyAZjhOEEn",
+  "nombre": "Zeus Patroos",
+  "nombre_alt": "Zeus Paterno",
+  "titulo_tana": "Zeus Patroos = Zeus Paterno",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Ente",
+      "etiqueta": "Ente",
+      "texto": "[Zéus (Zeus)](entes:zeus)",
+      "refs": [
+        {
+          "tana": "Yz-NkVaNbFNa",
+          "nombre": "Zéus (Zeus)",
+          "col": "entes",
+          "id": "zeus"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "Yz-NkVaNbFNa",
+    "nombre": "Zéus",
+    "col": "entes",
+    "id": "zeus"
+  }
+}

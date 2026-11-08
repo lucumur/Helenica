@@ -1,0 +1,29 @@
+{
+  "id": "flegyas",
+  "tana_id": "lb052eW7vUwS",
+  "nombre": "Flegyas",
+  "nombre_alt": "Flegias",
+  "titulo_tana": "Flegyas = Flegias",
+  "etiquetas_tana": [
+    "O",
+    "M",
+    "Regio"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Raza Tesalia",
+    "refs": [
+      {
+        "tana": "ABgj1vgR0rh_",
+        "nombre": "Raza Tesalia"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Realeza"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

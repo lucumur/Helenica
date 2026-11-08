@@ -1,0 +1,35 @@
+{
+  "id": "templo-de-ares",
+  "tana_id": "7fbM1Kx53_YV",
+  "nombre": "Templo de Ares",
+  "nombre_alt": "Atenas",
+  "titulo_tana": "Templo de Ares (Atenas)",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-03-17T18%3A33%3A20.546Z-image.png?alt=media&token=6b219de9-b24e-413e-afb2-a8b18b2646c6",
+  "campos": [
+    {
+      "clave": "M🗺️",
+      "etiqueta": "Entorno",
+      "texto": "![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-03-17T18%3A32%3A55.169Z-image.png?alt=media&token=4a24eaec-f61c-45c7-8008-f93cf57c3519)",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-03-17T18%3A33%3A20.546Z-image.png?alt=media&token=6b219de9-b24e-413e-afb2-a8b18b2646c6)\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-03-17T18%3A33%3A55.230Z-image.png?alt=media&token=dd86c677-1190-4417-a365-898984b1a6a1)"
+    }
+  ],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "jQSRByUXzrC1",
+    "nombre": "Agora de Atenas, Atenas",
+    "col": "lugares",
+    "id": "agora-de-atenas-atenas"
+  }
+}

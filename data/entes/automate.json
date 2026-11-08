@@ -1,0 +1,29 @@
+{
+  "id": "automate",
+  "tana_id": "de7ajaw4LBEi",
+  "nombre": "Automatē",
+  "nombre_alt": "Autómate",
+  "titulo_tana": "Automatē = Autómate",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

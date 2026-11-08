@@ -1,0 +1,29 @@
+{
+  "id": "amphitryon-2",
+  "tana_id": "rBtwW2pKYqDb",
+  "nombre": "Amphitryôn",
+  "nombre_alt": "Anfitrión",
+  "titulo_tana": "Amphitryôn = Anfitrión",
+  "etiquetas_tana": [
+    "Regio",
+    "M",
+    "O"
+  ],
+  "imagen": null,
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "Micenica",
+    "refs": [
+      {
+        "tana": "4K6FNFUTevWv",
+        "nombre": "Micenica"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Realeza"
+  ],
+  "genero": "M"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "ephyra",
+  "tana_id": "JggPWmejc1f5",
+  "nombre": "Ephyra",
+  "nombre_alt": "Efira",
+  "titulo_tana": "Ephyra (Efira)",
+  "etiquetas_tana": [
+    "nymphe",
+    "Espro"
+  ],
+  "imagen": null,
+  "padres": {
+    "texto": "[Myrmēks (Mirmex)](entes:myrmeks)",
+    "refs": [
+      {
+        "tana": "eltINq-Ec5hg",
+        "nombre": "Myrmēks (Mirmex)",
+        "col": "entes",
+        "id": "myrmeks"
+      }
+    ]
+  },
+  "estirpe": {
+    "texto": "Meliade",
+    "refs": [
+      {
+        "tana": "G-jLHqyxzvue",
+        "nombre": "Meliade"
+      }
+    ]
+  },
+  "conyuges": {
+    "texto": "[Epimēthéus (Epimeteo)](entes:epimetheus)",
+    "refs": [
+      {
+        "tana": "H3sJ-ntn2KZ3",
+        "nombre": "Epimēthéus (Epimeteo)",
+        "col": "entes",
+        "id": "epimetheus"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

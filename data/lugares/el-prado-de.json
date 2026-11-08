@@ -1,0 +1,36 @@
+{
+  "id": "el-prado-de",
+  "tana_id": "k1HY5xQh1tsm",
+  "nombre": "_Λειμών Ἄτης_ — el prado de Ἄτη",
+  "nombre_alt": null,
+  "titulo_tana": "_Λειμών Ἄτης_ — el prado de Ἄτη",
+  "etiquetas_tana": [
+    "Lugar"
+  ],
+  "imagen": null,
+  "fuentes": [
+    {
+      "titulo": "Empédocles, desde una cosmología de corte órfico-pitagórico, convierte el mundo sublunar, el mundo en que los daimones caídos cumplen su destino errante entre cuerpos mortales, en el territorio específico de Ἄτη. Esto es la única fuente clásica que le da a Ἄτη una **dimensión espacial propia**",
+      "url": null
+    }
+  ],
+  "campos": [
+    {
+      "clave": "H📜",
+      "etiqueta": "Historia y mito",
+      "texto": "- si el mundo mortal entero es \"el prado de Ἄτη\", entonces su expulsión del Olimpo en Homero no fue un destierro hacia la nada — fue un descenso a su _reino propio_.\n- Empédocles habla de almas que \"vagan en la oscuridad\" sobre ese prado. Es un paisaje inequívocamente ctónico — la misma oscuridad, la misma erradicidad, de los muertos sin rito o de los condenados órficos. Ἄτη como señora del ámbito mortal tiene aquí más sustancia que en cualquier otro autor.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Lugar"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "ZKcAnfcGOY-E",
+    "nombre": "Atē (Diosa)",
+    "col": "entes",
+    "id": "ate"
+  }
+}

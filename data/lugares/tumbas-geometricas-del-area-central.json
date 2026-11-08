@@ -1,0 +1,23 @@
+{
+  "id": "tumbas-geometricas-del-area-central",
+  "tana_id": "P5FtWXxhx4wR",
+  "nombre": "Tumbas geométricas del área central",
+  "nombre_alt": null,
+  "titulo_tana": "Tumbas geométricas del área central",
+  "etiquetas_tana": [
+    "tumba"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Tumba"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "0XxZ5RAWadzh",
+    "nombre": "Qórinthos, Korinthia (Corinto)",
+    "col": "lugares",
+    "id": "qorinthos-korinthia"
+  }
+}

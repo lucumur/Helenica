@@ -1,0 +1,22 @@
+{
+  "id": "puerta-lequea-cuadrigas-doradas",
+  "tana_id": "4q3of9K9Qrwb",
+  "nombre": "Puerta lequea: cuadrigas doradas",
+  "nombre_alt": null,
+  "titulo_tana": "Puerta lequea: cuadrigas doradas",
+  "etiquetas_tana": [
+    "puerta"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- ****: Dos carros dorados, uno lleva a Faetonte hijo de Helios, el otro a Helios mismo"
+    }
+  ],
+  "tipos": [
+    "Puerta"
+  ],
+  "pertenece_a": []
+}

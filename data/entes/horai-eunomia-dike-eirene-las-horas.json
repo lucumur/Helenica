@@ -1,0 +1,23 @@
+{
+  "id": "horai-eunomia-dike-eirene-las-horas",
+  "tana_id": "7SYgRfO9kLo0",
+  "nombre": "Hōrai (Eunomía, Diké, Eirene) Las Horas",
+  "nombre_alt": null,
+  "titulo_tana": "Hōrai (Eunomía, Diké, Eirene) Las Horas",
+  "etiquetas_tana": [
+    "Deidad"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Datos asociados",
+      "texto": "- **Relacion:** Hijas de Zeus, Nacidas de Themis\n- **Nacimiento:** Guardianas del Palacio del Olimpo"
+    }
+  ],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "helios-hyperion",
+  "tana_id": "GjLUUTVPQl5c",
+  "nombre": "Helios Hyperiôn",
+  "nombre_alt": "El Sol Supremo",
+  "titulo_tana": "Helios Hyperiôn = El Sol Supremo",
+  "etiquetas_tana": [
+    "Deidad",
+    "griego"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

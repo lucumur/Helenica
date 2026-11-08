@@ -1,0 +1,24 @@
+{
+  "id": "santuario-de-apolo-borde-norte-corinto-arcaica",
+  "tana_id": "74s3v469g2yt",
+  "nombre": "Santuario de Apolo Borde Norte, Corinto Arcaica",
+  "nombre_alt": null,
+  "titulo_tana": "Santuario de Apolo Borde Norte, Corinto Arcaica",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "Culto a Apolo junto a la muralla norte, precursor del Asclepieion.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

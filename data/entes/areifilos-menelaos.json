@@ -1,0 +1,33 @@
+{
+  "id": "areifilos-menelaos",
+  "tana_id": "meTLORtsDzoo",
+  "nombre": "Arēifilos Menélaos",
+  "nombre_alt": "Menelao el que ama la guerra",
+  "titulo_tana": "Arēifilos Menélaos = Menelao el que ama la guerra",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Posibles",
+      "etiqueta": "Posibles",
+      "texto": "[Menelaos Atreidēs = Menelao](entes:menelaos-atreides)",
+      "refs": [
+        {
+          "tana": "b90YygxYRuf_",
+          "nombre": "Menelaos Atreidēs = Menelao",
+          "col": "entes",
+          "id": "menelaos-atreides"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": null
+}

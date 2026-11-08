@@ -1,0 +1,30 @@
+{
+  "id": "cisterna-biabsidal-heraion",
+  "tana_id": "4ijgSZd74agq",
+  "nombre": "Cisterna Biabsidal, Heraion",
+  "nombre_alt": null,
+  "titulo_tana": "Cisterna Biabsidal, Heraion",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "- **un tanque de agua cubierto**, con los dos extremos cortos en ábside y una fila de pilares de piedra en el eje central.\n  - Dimensiones: **6 × 21 m**\n  - Los pilares internos sostenían una **bóveda** de cubierta\n  - En el extremo este, una **pileta de decantación** de 3 × 5 m\n  - El punto de derivación del agua estaba 10 m al noreste",
+      "refs": []
+    },
+    {
+      "clave": "Teorias",
+      "etiqueta": "Teorias",
+      "texto": "- Lo relevante es el sistema del que forma parte: **canales de agua que unen las cisternas altas con la casa‑fuente, y la casa‑fuente con esta cisterna y con la estoa en L**, con **balsas de decantación a intervalos** a lo largo del conducto, incluida una justo encima de la casa‑fuente.\n- O sea: no es un pozo aislado, es una **red hidráulica planificada con tratamiento de sedimentos**. Ingeniería seria. Y toda ella, insisto, post‑arcaica.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

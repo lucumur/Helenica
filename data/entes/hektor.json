@@ -1,0 +1,31 @@
+{
+  "id": "hektor",
+  "tana_id": "0N4ycNgASuAN",
+  "nombre": "Héktōr",
+  "nombre_alt": "Hector",
+  "titulo_tana": "Héktōr = Hector",
+  "etiquetas_tana": [
+    "O"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "- Raza Troyana\n- Nobleza",
+    "refs": [
+      {
+        "tana": "TgQC3fq0HLXF",
+        "nombre": "Raza Troyana"
+      },
+      {
+        "tana": "0TjIgPdjRUql",
+        "nombre": "Nobleza"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

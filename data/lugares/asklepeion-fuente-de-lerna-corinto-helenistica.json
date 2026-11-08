@@ -1,0 +1,30 @@
+{
+  "id": "asklepeion-fuente-de-lerna-corinto-helenistica",
+  "tana_id": "4kuvUqLK8KT9",
+  "nombre": "Asklēpeion + Fuente de Lerna, Corinto Helenistica",
+  "nombre_alt": null,
+  "titulo_tana": "Asklēpeion + Fuente de Lerna, Corinto Helenistica",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "Sanitaria - Cultual",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "- Junto a la muralla norte, s. IV\n- salas de banquete en el patio de Lerna y exvotos anatómicos de terracota.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "templo-con-propileo-de-demeter-y-kore-acrocorinto",
+  "tana_id": "lWwC8jAuvY1b",
+  "nombre": "Templo con Propileo de Dēmētēr y Korē, Acrocorinto",
+  "nombre_alt": "Fase IV",
+  "titulo_tana": "Templo con Propileo de Dēmētēr y Korē, Acrocorinto (Fase IV)",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "- propileo helenístico (monumentalizacion)\n- edificio trapezoidal en la secuencia\n- áreas de banquete reducidas (Contraccion Cultual)\n- Edificio R (habitacional)\n- cantera de Acrocorinto (suministrando caliza de los edificios)",
+      "refs": []
+    },
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "Culto ctónico comensal formalizado (con reduccion de culto 🟡)",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

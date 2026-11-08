@@ -1,0 +1,63 @@
+{
+  "id": "eelios",
+  "tana_id": "Y6husC9yitRG",
+  "nombre": "Ēélios",
+  "nombre_alt": "Helios, el Sol",
+  "titulo_tana": "Ēélios (Helios, el Sol)",
+  "etiquetas_tana": [
+    "Deidad"
+  ],
+  "imagen": null,
+  "padres": {
+    "texto": "- [Hyperiōn (Hiperión)](entes:hyperion)\n- [Theia (Tia)](entes:theia)",
+    "refs": [
+      {
+        "tana": "27AoBM-RlmJM",
+        "nombre": "Hyperiōn (Hiperión)",
+        "col": "entes",
+        "id": "hyperion"
+      },
+      {
+        "tana": "C69T3tNWyS8X",
+        "nombre": "Theia (Tia)",
+        "col": "entes",
+        "id": "theia"
+      }
+    ]
+  },
+  "conyuges": {
+    "texto": "[Perseis (Perseide)](entes:perseis)",
+    "refs": [
+      {
+        "tana": "7vhQV6WTzqzd",
+        "nombre": "Perseis (Perseide)",
+        "col": "entes",
+        "id": "perseis"
+      }
+    ]
+  },
+  "hijos": {
+    "texto": "- [Aiētēs (Eetes)](entes:aietes)\n- [Alōéus (Aloeo)](entes:aloeus)",
+    "refs": [
+      {
+        "tana": "TKem0hZ_qlIH",
+        "nombre": "Aiētēs (Eetes)",
+        "col": "entes",
+        "id": "aietes"
+      },
+      {
+        "tana": "GCgJDvenYpiM",
+        "nombre": "Alōéus (Aloeo)",
+        "col": "entes",
+        "id": "aloeus"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

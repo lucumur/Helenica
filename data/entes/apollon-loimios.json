@@ -1,0 +1,24 @@
+{
+  "id": "apollon-loimios",
+  "tana_id": "OLK3qqkwwjle",
+  "nombre": "Apollon Loimios",
+  "nombre_alt": "El de las plagas",
+  "titulo_tana": "Apollon Loimios = El de las plagas",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "9OYZLA3QegGP",
+    "nombre": "Apollôn",
+    "col": "entes",
+    "id": "apollon"
+  }
+}

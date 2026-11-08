@@ -1,0 +1,17 @@
+{
+  "id": "hieros-limen",
+  "tana_id": "CO0nDDgUYpi8",
+  "nombre": "Hierós Limên",
+  "nombre_alt": "Puerto Sagrado",
+  "titulo_tana": "Hierós Limên (Puerto Sagrado)",
+  "etiquetas_tana": [
+    "puerto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Puerto"
+  ],
+  "pertenece_a": []
+}

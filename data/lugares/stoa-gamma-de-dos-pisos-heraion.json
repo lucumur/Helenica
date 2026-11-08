@@ -1,0 +1,30 @@
+{
+  "id": "stoa-gamma-de-dos-pisos-heraion",
+  "tana_id": "a-NuGEs9ZVGo",
+  "nombre": "Stoa \"Gamma\" de Dos Pisos, Heraion",
+  "nombre_alt": "650aC - 146 ac",
+  "titulo_tana": "Stoa \"Gamma\" de Dos Pisos, Heraion (650aC - 146 ac)",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "- **c. 325–300 a.C.** Al este del altar, bordeando la cala por el noreste. Dos pisos, una sola nave, abierta al sur y al oeste.\n- Planta baja: columnata dórica de 10 columnas\n- Piso alto: **semicolumnas jónicas adosadas**",
+      "refs": []
+    },
+    {
+      "clave": "Teorias",
+      "etiqueta": "Teorias",
+      "texto": "- **es el primer caso conocido de orden jónico sobre dórico en una estoa**. Ese esquema se volvería estándar en el helenismo y en Roma. Que la innovación aparezca en un santuario rural corintio y no en una capital es un dato interesante por sí solo.\n- Función: alojamiento y sombra para peregrinos, exposición de exvotos, y posiblemente el reemplazo funcional del patio oeste si aceptas la versión de que este se arruinó en el IV.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

@@ -1,0 +1,70 @@
+{
+  "id": "entrenamiento-de-heracles-efebo",
+  "tana_id": "DCsfLn7ATClf",
+  "nombre": "Entrenamiento de Heracles Efebo",
+  "nombre_alt": null,
+  "titulo_tana": "Entrenamiento de Heracles Efebo",
+  "etiquetas_tana": [
+    "Evento"
+  ],
+  "imagen": null,
+  "agentes_activos": {
+    "texto": "- [Amphitryôn / Anfitrión](entes:amphitryon)\n- [Kastor / Castor (Dios)](entes:kastor)\n- [Autolykos / Autolico](entes:autolykos)\n- [Eurytos / Eurito](entes:eurytos)\n- [Rhadamanthys / Radamante](entes:rhadamanthys)\n- [Lino de Tebas](entes:lino-de-tebas)",
+    "refs": [
+      {
+        "tana": "xgnH8fc1b1Pn",
+        "nombre": "Amphitryôn / Anfitrión",
+        "col": "entes",
+        "id": "amphitryon"
+      },
+      {
+        "tana": "BP0aZRy9Kwqj",
+        "nombre": "Kastor / Castor (Dios)",
+        "col": "entes",
+        "id": "kastor"
+      },
+      {
+        "tana": "-a45JRkDB8LL",
+        "nombre": "Autolykos / Autolico",
+        "col": "entes",
+        "id": "autolykos"
+      },
+      {
+        "tana": "ns8INhxiIcGE",
+        "nombre": "Eurytos / Eurito",
+        "col": "entes",
+        "id": "eurytos"
+      },
+      {
+        "tana": "fFSR0FopzTI8",
+        "nombre": "Rhadamanthys / Radamante",
+        "col": "entes",
+        "id": "rhadamanthys"
+      },
+      {
+        "tana": "RlZp0I8juwdq",
+        "nombre": "Lino de Tebas",
+        "col": "entes",
+        "id": "lino-de-tebas"
+      }
+    ]
+  },
+  "elementos": {
+    "texto": "- Anfitrion le enseño a montar en carro (Apolodoro)\n- Autolycos le enseño la lucha grecorromana (Apolodoro)\n- Castor le enseño esgrima (Apolodoro)\n- **Éurito** (Εὔρυτος) Arco — aunque otros lo sitúan después (Apolodoro)\n- **Radamantis --- Leyes**  (en algunas versiones)\n- Lino de Tebas le enseño tocar la lira (Apolodoro, Ferecides)",
+    "refs": []
+  },
+  "agentes_pasivos": {
+    "texto": "[Hēraklēs (Hercules)](entes:herakles)",
+    "refs": [
+      {
+        "tana": "viTfkThjup-A",
+        "nombre": "Hēraklēs (Hercules)",
+        "col": "entes",
+        "id": "herakles"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipo": "Mítico"
+}

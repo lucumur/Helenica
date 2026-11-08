@@ -1,0 +1,23 @@
+{
+  "id": "eurimachos",
+  "tana_id": "-GycfNuR1rit",
+  "nombre": "Eurimaχos",
+  "nombre_alt": "Eurimaco",
+  "titulo_tana": "Eurimaχos (Eurimaco)",
+  "etiquetas_tana": [
+    "M"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- ****: Pretendiente de Penelope"
+    }
+  ],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

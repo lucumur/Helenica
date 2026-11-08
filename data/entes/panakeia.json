@@ -1,0 +1,29 @@
+{
+  "id": "panakeia",
+  "tana_id": "N5VhacHVg2wg",
+  "nombre": "Panakeia",
+  "nombre_alt": "Panacea",
+  "titulo_tana": "Panakeia = Panacea",
+  "etiquetas_tana": [
+    "O",
+    "F",
+    "Daemon"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Daemon Olimpico",
+    "refs": [
+      {
+        "tana": "vFju1Dr36EOL",
+        "nombre": "Daemon Olimpico"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Daimon"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

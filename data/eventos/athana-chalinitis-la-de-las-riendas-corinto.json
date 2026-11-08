@@ -1,0 +1,130 @@
+{
+  "id": "athana-chalinitis-la-de-las-riendas-corinto",
+  "tana_id": "JpVIWRWgmKQV",
+  "nombre": "Athānā Chalínitis (la de las Riendas), Corinto",
+  "nombre_alt": null,
+  "titulo_tana": "Athānā Chalínitis (la de las Riendas), Corinto",
+  "etiquetas_tana": [
+    "Epiteto",
+    "culto"
+  ],
+  "imagen": null,
+  "fuentes": [
+    {
+      "titulo": "Píndaro, _Ol._ 13.63-92 — Perseus: perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0162:book=O.:poem=13; Myers en Wikisource: en.wikisource.org/wiki/Odes_of_Pindar_(Myers)/Olympian_Odes/13; Loeb (Race): loebclassics.com/view/pindar-olympian_odes/1997/pb_LCL056.203.xml",
+      "url": null
+    },
+    {
+      "titulo": "Pausanias 2.4.1 — Perseus",
+      "url": null
+    },
+    {
+      "titulo": "Ajootian, A., \"Athena Chalinitis at Ancient Corinth\", CAMWS 2008: camws.org/meeting2008/abstracts/3C1.Ajootian.pdf",
+      "url": null
+    },
+    {
+      "titulo": "Ajootian, A., \"Athena, Horses, and a Clay Impression at Ancient Corinth\", CAMWS 2020: camws.org/sites/default/files/meeting2020/abstracts/2135AthenaHorsesClay.pdf",
+      "url": null
+    },
+    {
+      "titulo": "Cuadernos de excavación ASCSA, \"Corinth Excavations 1925-1926, Athena Chalinitis, Athena Trench (East of Theatre)\", supervisor O. Broneer: www3.ascsa.edu.gr/corinth/viewer.php?id=776",
+      "url": null
+    },
+    {
+      "titulo": "Williams & Zervos, \"Corinth, 1983: The Route to Sikyon\", _Hesperia_ 53 (1984) 83-122 — relevante para la reevaluación de la ruta",
+      "url": null
+    },
+    {
+      "titulo": "Weinberg, _Corinth_ XII (coroplástica)",
+      "url": null
+    },
+    {
+      "titulo": "Para _Ol._ 13 como construcción poética deliberada sobre la tradición eumélica, y no como reportaje cultual: el estudio de mito corintio en Píndaro accesible vía Academia.edu",
+      "url": null
+    }
+  ],
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": ": Atenea fue quien más ayudó a Belerofonte, y le entregó a Pegaso tras haberlo domado y embridado ella misma; la imagen es de madera, pero rostro, manos y pies son de mármol blanco. Acrólito, entonces: cuerpo de xóanon, extremidades de mármol.",
+      "refs": []
+    },
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "- El epíteto es **funcional y técnico**, no honorífico. χαλινός es el freno de caballo — vocabulario de arreo, no de teología.\n- Corinto tiene la mayor concentración conocida de iconografía ecuestre-divina del Peloponeso (Poseidón Hippios, Pegaso en las monedas, los _pínakes_ de Penteskoufia). Una **Potnia Hippeia** absorbida como epíteto de Atenea encaja con el mecanismo (a) que ya documentamos (Paiawon→Apolo, Enyalios→Ares).\n- Belerofonte como receptor del freno, no como oferente, refuerza lo que ya concluimos: es héroe-atributivo, no destinatario de culto propio en esta escena.\n- **Contraste crítico:** en Atenas la diosa hípica es Ἀθηνᾶ Ἱππία (genérica); en Corinto es Χαλινῖτις (instrumental, sobre un objeto concreto). La especificidad del instrumento es indicio de culto local temprano, no de importación panhelénica.",
+      "refs": []
+    },
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Epiteto",
+      "refs": [
+        {
+          "tana": "bLpN2Rh2u6Il",
+          "nombre": "Epiteto"
+        }
+      ]
+    },
+    {
+      "clave": "Ente",
+      "etiqueta": "Ente",
+      "texto": "[Athēnē = Atenea](entes:athene) .",
+      "refs": [
+        {
+          "tana": "fcRIRYT-Xczt",
+          "nombre": "Athēnē = Atenea",
+          "col": "entes",
+          "id": "athene"
+        }
+      ]
+    },
+    {
+      "clave": "H🔼",
+      "etiqueta": "Pertenece a",
+      "texto": "- [Athēnē Hippia (Ecuestre)](entes:athene-hippia)\n  - Chalinitis es la instancia corintia del tipo Hippia, y el epíteto local marca **cuál de los dos miembros de la díada se lleva el crédito del instrumento**. Corinto le da el freno a Atenea; Atenas se lo da a Poseidón. El nombre local codifica el resultado del reparto.",
+      "refs": [
+        {
+          "tana": "Y6FksCgBgLjE",
+          "nombre": "Athēnē Hippia (Ecuestre)",
+          "col": "entes",
+          "id": "athene-hippia"
+        }
+      ]
+    },
+    {
+      "clave": "P📊",
+      "etiqueta": "Propiedades",
+      "texto": "- Elementos Caracteristicos\n  - Chalinós (las riendas)\n  - Bellerophóntēs, como Beneficiario Mitico",
+      "refs": []
+    },
+    {
+      "clave": "A🌱",
+      "etiqueta": "Origen",
+      "texto": "- Teoria de Origen\n  - **A. Potnia Hippeia olimpizada** (\n    - ****:\n      - Divinidad hípica femenina pre-griega o micénica absorbida como epíteto de Atenea, por el mecanismo (a) que ya documentamos.\n      - A favor: Lineal B usa sistemáticamente Potnia + calificador, incluyendo **i-qe-ja**, forma que se lee como \"de los caballos\"; la unificación panhelénica fue nominal y no cultual; el epíteto es más viejo que el teónimo.\n      - Un epíteto tan estrechamente funcional —\"la Embridadora\", con el mito de que ella misma domó y embridó a Pegaso— no es cómo se comporta una Atenea panhelénica. Es cómo se comporta **una divinidad anterior, especializada en caballos, absorbida bajo un nombre olímpico**.\n      - Y aquí hay anclaje documental: en Pilo está atestiguada **po-ti-ni-ja i-qe-ja**, _Potnia Hippeia_, \"la Señora de los caballos\". Una Potnia ecuestre en el mundo micénico es exactamente el tipo de entidad que, tras el colapso y la reorganización doria, sobreviviría como epíteto adosado a Atenea.\n      - Si eso es correcto, la secuencia es: **Potnia del caballo → (colapso) → función residual sin nombre propio → reasignación a Atenea con el epíteto conservado como fósil**. Y el mito de Chalinitis no sería etiología del epíteto sino **memoria de la función original**.\n    - **Contra:** no hay Lineal B corintio, y el argumento es estructural, no documental.\n  - **B. Especialización tardía de Atenea Hippia**\n    - ****: Corinto recibe la Atenea hípica panhelénica y la especializa sobre el objeto técnico, quizá en época helenística o romana. A favor: **es lo que la cronología de las fuentes dice literalmente** — Hippia en el s. V, Chalinitis en el s. II dC.\n    - **Contra:** la especificidad del instrumento es rara en creaciones tardías, que tienden a lo genérico y honorífico.\n  - **C. Epíteto derivado del mito, no al revés**\n    - ****:\n      - El culto siempre fue de Atenea Hippia; \"Chalinitis\" se genera secundariamente a partir del relato de Belerofonte, que ya en el s. V es el mito corintio por antonomasia.\n      - A favor: Pausanias construye la explicación exactamente así — le da el epíteto y a continuación el mito como causa.\n    - **Contra:** viola el principio del epíteto como fósil, que hasta ahora nos ha rendido bien.\n  - **Mi posición:** A y B no son excluyentes si se separan capa cultual y capa onomástica. .\n    - ****: Culto hípico femenino antiguo, absorbido por Atenea en el proceso de olimpización (arcaico), con el nombre _Chalinitis_ cristalizando tarde sobre un culto que ya existía. Eso explica por qué Píndaro dice Hippia — porque en 464 ese era el nombre — sin exigir que el culto fuera reciente",
+      "refs": []
+    },
+    {
+      "clave": "U👥",
+      "etiqueta": "Usuarios",
+      "texto": "Sacerdocio: **Nada atestiguado. Ni un nombre, ni un título, ni una inscripción.**",
+      "refs": []
+    },
+    {
+      "clave": "L🗺️",
+      "etiqueta": "Ubicación",
+      "texto": "[Naos de Athene Chalinitis, Kórinthos](lugares:naos-de-athene-chalinitis-korinthos)",
+      "refs": [
+        {
+          "tana": "RpimAqtUiL8i",
+          "nombre": "Naos de Athene Chalinitis, Kórinthos",
+          "col": "lugares",
+          "id": "naos-de-athene-chalinitis-korinthos"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipo": "Culto / misterios"
+}

@@ -1,0 +1,104 @@
+{
+  "id": "oikos-de-hera-limenia-850-ac-330-ac-peiraion",
+  "tana_id": "MHQYQYnY3HWh",
+  "nombre": "Oikos de Hera Limenia (850 aC -330 aC ), Peiraion",
+  "nombre_alt": null,
+  "titulo_tana": "Oikos de Hera Limenia (850 aC -330 aC ), Peiraion",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-09-03T16%3A49%3A57.536Z-image.png?alt=media&token=06b488e7-c3e2-49bb-b818-2933e96607be",
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Oikos (Edificio Religioso no Templario)",
+      "refs": []
+    },
+    {
+      "clave": "S🧩",
+      "etiqueta": "Subunidades / partes",
+      "texto": "- Partes\n  - [Muros Bajos (Temenos), Oikos de Hera](objetos:muros-bajos-temenos-oikos-de-hera)\n  - [Hoguera Central, Oikos de Hera](objetos:hoguera-central-oikos-de-hera)\n  - [Obeioi (Asadores), Oikos de Hera](objetos:obeioi-asadores-oikos-de-hera)\n  - [Toro de Bronce Sicionio, Oikos de Hera (500aC)](objetos:toro-de-bronce-sicionio-oikos-de-hera)\n  - [Piscina de las Fialas, Oikos de Hera](objetos:piscina-de-las-fialas-oikos-de-hera)",
+      "refs": [
+        {
+          "tana": "tqbPHajdMOnZ",
+          "nombre": "Muros Bajos (Temenos), Oikos de Hera",
+          "col": "objetos",
+          "id": "muros-bajos-temenos-oikos-de-hera"
+        },
+        {
+          "tana": "nRybHi8bP3xw",
+          "nombre": "Hoguera Central, Oikos de Hera",
+          "col": "objetos",
+          "id": "hoguera-central-oikos-de-hera"
+        },
+        {
+          "tana": "a6nPfD0ToxIR",
+          "nombre": "Obeioi (Asadores), Oikos de Hera",
+          "col": "objetos",
+          "id": "obeioi-asadores-oikos-de-hera"
+        },
+        {
+          "tana": "qmQMkBbxrAgO",
+          "nombre": "Toro de Bronce Sicionio, Oikos de Hera (500aC)",
+          "col": "objetos",
+          "id": "toro-de-bronce-sicionio-oikos-de-hera"
+        },
+        {
+          "tana": "3vOPrzmEDt9b",
+          "nombre": "Piscina de las Fialas, Oikos de Hera",
+          "col": "objetos",
+          "id": "piscina-de-las-fialas-oikos-de-hera"
+        }
+      ]
+    },
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "- Uso\n  - **Teoría A: El \"Tesoro\" (Thesauros)**\n    - ****:\n      - Esta es la teoría más aceptada en las últimas décadas. En el mundo griego, un _thesauros_ era una pequeña cámara cerrada (a menudo con una sola puerta y sin columnata frontal) construida en un santuario para guardar los exvotos valiosos (bronces, armas, joyas) donados por los fieles.\n      - **Argumentos a favor:** Explica por qué el edificio no tenía una fachada abierta. Explica el hallazgo del toro de bronce y las miles de fíbulas y alfileres que se encontraron _dentro_ o justo al lado. Guardaba el \"tesoro\" de la diosa del puerto.\n  - **Teoría B: El \"Oikos\" o Casa-Anexo de Banquetes Cerrada**\n    - ****:\n      - Los griegos también construían _oikoi_: habitaciones cerradas parecidas a casas o graneros, usadas para comer ritualmente en privado.\n      - **Argumentos a favor:** Explica la hoguera central y los asadores. No era para que la gente viera un sacrificio desde fuera, sino un comedor sagrado cerrado. Los sacerdotes o los emisarios de Corinto comían allí, quizás en nombre de los marineros que estaban en alta mar. El edificio funcionaba como una \"casa de Hera\" donde se la agasajaba con un festín.\n  - **Teoría C: Un \"Hestiatorion\" con función dual (Almacén y Cocina Ritual)**\n    - ****: Muchos arqueólogos piensan que cumplía ambas funciones: en una parte se guardaban los objetos valiosos (tesoro) y en otra se preparaban y consumían las comidas sagradas (cocina-comedor).\n  - **🔵 Culto de paso (pre-embarque):**\n    - ****: Un marinero llegaba a la cala, no para ver una estatua lejana en un gran templo, sino para entregar algo íntimo y valioso (un alfiler de bronce para sujetar su manto, una pequeña arma) al sacerdote.\n  - **🔵 El depósito:**\n    - ****::** ** El sacerdote entraba en este edificio \"tesoro\" y guardaba la ofrenda. El edificio no estaba diseñado para que entraran multitudes; era una cámara de almacenamiento sacro.\n  - 🔵 **El banquete interno:**\n    - ****: Mientras el viento no soplaba, se hacía un festín. El humo de la hoguera central salía por aberturas en el techo (se han encontrado restos de tejas con salidas de humo). La carne se asaba en los obeloi (asadores de hierro).",
+      "refs": []
+    },
+    {
+      "clave": "A🌱",
+      "etiqueta": "Origen",
+      "texto": "- El área cercana a la pequeña cala (el puerto natural) comenzó a recibir ofrendas antes que el promontorio de Hera Akraia o de forma paralela a los primeros cultos en la cima.\n- **La evidencia arqueológica:** En las excavaciones dirigidas por Humfry Payne en la década de 1930, se descubrió una enorme capa de cenizas, restos de sacrificios y **miles de ofrendas votivas** (fíbulas, alfileres de bronce y pequeña cerámica) enterradas directamente en la arena y la tierra, sin muros que las delimitaran.",
+      "refs": []
+    },
+    {
+      "clave": "H📈",
+      "etiqueta": "Historia",
+      "texto": "- c. 725-650 a.C. = Formaliacion del temenos, delimitandolo con peribolo y stoa para separar el espacio puro del profano.\n- 510 aC = Destrucción violenta por incendio. La arquitectura de Limenia ya no se reconstruye a gran escala.\n- **c. 400-350 a.C. = Culto residual y decadente**\n- c. 300 aC = abandono total del espacio sagrado",
+      "refs": []
+    },
+    {
+      "clave": "T🏁",
+      "etiqueta": "Destino",
+      "texto": "Este es el momento histórico inmediatamente posterior a la muerte de **Alejandro Magno** (323 a.C.). El mundo griego estaba sumido en las guerras entre sus generales (los Diádocos). Corinto, como ciudad estratégica, cambió de manos varias veces (Casandro, Demetrio Poliorcetes, etc.).",
+      "refs": []
+    },
+    {
+      "clave": "P📊",
+      "etiqueta": "Propiedades",
+      "texto": "- [Ofrendas Votivas Metalicas y Ceramicas para Hera Limenia](objetos:ofrendas-votivas-metalicas-y-ceramicas-para-hera-limenia)\n  - Ceramica\n    - ****: Protocorintia y corintia en masa, kotylai, aríbalos, pyxides, kalathoi; importaciones áticas, argivas, eginéticas, de Ítaca, de Rodas (Camiros) = Corinto es el emisor dominante, pero el santuario recibe de toda la red egea\n  - Marfil\n    - ****: Placas, figurillas, sellos\n  - Escarabeos y Fayenza\n    - ****: Egipcios y de imitación, uraeus (Contacto con Naucratis / Levante)\n  - Metal\n    - ****: Bronces, oro laminado fino, joyería votiva\n  - Terracota\n    - ****: Figurillas, _koulouria_ (piezas anulares)\n  - Esculturas\n    - ****: Una **paloma de bronce** irregularmente hecha, con perforaciones de sujeción en los costados\n- A diferencia de Akraia (donde abundaban modelos de barcos y joyería), en Limenia se han encontrado cantidades masivas de **terracotas femeninas**, **escudos en miniatura**, **armas** y cerámica de importación fenicia o itálica. Esto sugiere una diosa protectora de los que partían a la guerra o al comercio colonial (una Hera \"de los viajes\")",
+      "refs": [
+        {
+          "tana": "VYVeeXQQ2PIZ",
+          "nombre": "Ofrendas Votivas Metalicas y Ceramicas para Hera Limenia",
+          "col": "objetos",
+          "id": "ofrendas-votivas-metalicas-y-ceramicas-para-hera-limenia"
+        }
+      ]
+    },
+    {
+      "clave": "U👥",
+      "etiqueta": "Usuarios",
+      "texto": "marineros y pescadores locales",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

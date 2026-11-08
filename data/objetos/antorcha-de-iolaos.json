@@ -1,0 +1,22 @@
+{
+  "id": "antorcha-de-iolaos",
+  "tana_id": "bFvV1G4eIqaF",
+  "nombre": "Antorcha de Iolaos",
+  "nombre_alt": null,
+  "titulo_tana": "Antorcha de Iolaos",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ],
+  "contenido_en": {
+    "tana": "BPmEWjakjBne",
+    "nombre": "Segundo Athlos: Matar a la Hidra de Lerna (Argolis)",
+    "col": "eventos",
+    "id": "segundo-athlos-matar-a-la-hidra-de-lerna"
+  }
+}

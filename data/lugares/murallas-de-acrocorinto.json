@@ -1,0 +1,61 @@
+{
+  "id": "murallas-de-acrocorinto",
+  "tana_id": "rU67-ug7F4kf",
+  "nombre": "Murallas de Acrocorinto",
+  "nombre_alt": null,
+  "titulo_tana": "Murallas de Acrocorinto",
+  "etiquetas_tana": [
+    "obra"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Obra defensiva continua del peñón: el mismo sistema de cierre del collado occidental y circuito de ciudadela a lo largo de las seis épocas, en fases sucesivas (no seis murallas independientes).",
+      "refs": []
+    },
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "Amurallamiento / control del único acceso practicable y, desde lo arcaico, integración en el circuito cívico–portuario.",
+      "refs": []
+    },
+    {
+      "clave": "L🗺️",
+      "etiqueta": "Ubicación",
+      "texto": "[Akrokórinthos, Korinthia (Acrocorinto)](lugares:akrokorinthos-korinthia)",
+      "refs": [
+        {
+          "tana": "dVkbszFyAwoN",
+          "nombre": "Akrokórinthos, Korinthia (Acrocorinto)",
+          "col": "lugares",
+          "id": "akrokorinthos-korinthia"
+        }
+      ]
+    },
+    {
+      "clave": "A🪪",
+      "etiqueta": "Alias / fases",
+      "texto": "- Cierre del collado occidental (fase geométrica)\n- Primera fortificación cipsélida\n- Circuito de murallas (fase clásica / s. IV)\n- Refuerzo de circuito y puertas (fase helenística)\n- Muralla rehecha (César)\n- Refortificación justinianea",
+      "refs": []
+    },
+    {
+      "clave": "S🧩",
+      "etiqueta": "Subunidades / partes",
+      "texto": "- Historia\n  - Cierre del collado occidental (fase geométrica)\n    - **F⚙️:** Control y disuasión\n    - **D📝:** Geométrico: piedra seca/empalizada en el único acceso; sin torres ni puerta monumental. ○/◐\n  - Primera fortificación cipsélida\n    - **F⚙️:** Amurallamiento cívico\n    - **D📝:** Arcaico (med. VII–inic. VI): acrópolis integrada al circuito ciudad–Lequeo. ⬤/◐\n  - Circuito de murallas (fase clásica / s. IV)\n    - **F⚙️:** Amurallamiento cívico\n    - **D📝:** Clásico: gran parte de la mampostería del circuito mayor es del s. IV a.C.; conecta ciudad, ciudadela y puerto. ⬤\n  - Refuerzo de circuito y puertas (fase helenística)\n    - **F⚙️:** Amurallamiento militar\n    - **D📝:** Helenístico: torres y puertas en collado O.; guarnición macedonia. ⬤\n  - Muralla rehecha (César)\n    - **F⚙️:** Amurallamiento colonial\n    - **D📝:** 44 a.C.: reconstrucción reutilizando material derribado en 146. ⬤\n  - Refortificación justinianea\n    - **F⚙️:** Amurallamiento defensivo\n    - **D📝:** S. VI d.C.: refortificación ante invasiones. ⬤",
+      "refs": []
+    },
+    {
+      "clave": "H🔼",
+      "etiqueta": "Pertenece a",
+      "texto": "Hexamilion (muro del Istmo, s. V) — obra regional ligada al papel de Acrocorinto como refugio, distinta del circuito del peñón.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Obra"
+  ],
+  "pertenece_a": []
+}

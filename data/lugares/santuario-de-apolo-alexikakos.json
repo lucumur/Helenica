@@ -1,0 +1,23 @@
+{
+  "id": "santuario-de-apolo-alexikakos",
+  "tana_id": "QMSXcgKLlVFB",
+  "nombre": "Santuario de Apolo Alexikakos",
+  "nombre_alt": "Atenas",
+  "titulo_tana": "Santuario de Apolo Alexikakos (Atenas)",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "9OYZLA3QegGP",
+    "nombre": "Apollôn = Apolo",
+    "col": "entes",
+    "id": "apollon"
+  }
+}

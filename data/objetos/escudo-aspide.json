@@ -1,0 +1,45 @@
+{
+  "id": "escudo-aspide",
+  "tana_id": "WKZ3ZCe-y0kL",
+  "nombre": "Escudo Aspide",
+  "nombre_alt": null,
+  "titulo_tana": "Escudo Aspide",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-09-22T12%3A27%3A20.189Z-image.png?alt=media&token=fbef457d-01fa-4306-b145-7a805d0efb31",
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Armadura",
+      "refs": [
+        {
+          "tana": "DyK_R7RRd3QV",
+          "nombre": "Armadura"
+        }
+      ]
+    },
+    {
+      "clave": "M🪵",
+      "etiqueta": "Material",
+      "texto": "marco de madera con orilla de bronce, cubierto de piel o de una capa ligera de bronce",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "El escudo clasico asociado con los hoplitas",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-09-22T12%3A27%3A20.189Z-image.png?alt=media&token=fbef457d-01fa-4306-b145-7a805d0efb31)"
+    }
+  ],
+  "tipos": [
+    "Objeto"
+  ]
+}

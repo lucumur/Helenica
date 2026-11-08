@@ -1,0 +1,54 @@
+{
+  "id": "koronis",
+  "tana_id": "Px_BRu_nh2MQ",
+  "nombre": "Korōnís",
+  "nombre_alt": "Corónide",
+  "titulo_tana": "Korōnís = Corónide",
+  "etiquetas_tana": [
+    "Deidad",
+    "O",
+    "F"
+  ],
+  "imagen": null,
+  "descripcion": {
+    "texto": "Princesa Triquea, hija del Rey Flegias, llamada Aegle y despues llamada Corónide: la del Cuervo, por haber sido informado Apolo por medio de un cuervo.",
+    "refs": []
+  },
+  "epitetos": {
+    "texto": "- [Aeglē](entes:aegle) = su nombre de nacimiento\n- [Aeglē Korōnís Flegyās de Trikka = Princesa Aegle la Cuerva hija de Flegias de Tricca](entes:aegle-koronis-flegyas-de-trikka) = Posible forma completa",
+    "refs": [
+      {
+        "tana": "GXDOhrOvRp9V",
+        "nombre": "Aeglē",
+        "col": "entes",
+        "id": "aegle"
+      },
+      {
+        "tana": "fWU46wovX9Ib",
+        "nombre": "Aeglē Korōnís Flegyās de Trikka = Princesa Aegle la Cuerva hija de Flegias de Tricca",
+        "col": "entes",
+        "id": "aegle-koronis-flegyas-de-trikka"
+      }
+    ]
+  },
+  "especie": {
+    "texto": "- Raza Tesalia\n- Nobleza",
+    "refs": [
+      {
+        "tana": "ABgj1vgR0rh_",
+        "nombre": "Raza Tesalia"
+      },
+      {
+        "tana": "0TjIgPdjRUql",
+        "nombre": "Nobleza"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

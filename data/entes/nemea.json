@@ -1,0 +1,20 @@
+{
+  "id": "nemea",
+  "tana_id": "dUZ8LOqXcQnN",
+  "nombre": "Neméa",
+  "nombre_alt": "Nemea",
+  "titulo_tana": "Neméa (Nemea)",
+  "etiquetas_tana": [
+    "nymphe",
+    "nayade"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa",
+    "Náyade"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "pasiphae",
+  "tana_id": "R-voVvKBZ0Y9",
+  "nombre": "Pasiphae",
+  "nombre_alt": "Pasifae",
+  "titulo_tana": "Pasiphae = Pasifae",
+  "etiquetas_tana": [
+    "O",
+    "Regio",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "- Nobleza\n- Raza Cretense",
+    "refs": [
+      {
+        "tana": "0TjIgPdjRUql",
+        "nombre": "Nobleza"
+      },
+      {
+        "tana": "lkT_0l3yNP3M",
+        "nombre": "Raza Cretense"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Realeza"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

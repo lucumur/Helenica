@@ -1,0 +1,56 @@
+{
+  "id": "sakos",
+  "tana_id": "jSAuZTrf5bM7",
+  "nombre": "Sakos",
+  "nombre_alt": "Escudo Torre Micenico Tardio",
+  "titulo_tana": "Sakos = Escudo Torre Micenico Tardio",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-09-27T12%3A54%3A32.910Z-image.png?alt=media&token=66248d66-6cfa-4934-a63a-d05052bca659",
+  "campos": [
+    {
+      "clave": "M🪵",
+      "etiqueta": "Material",
+      "texto": "Marco de mimbre o madera, cubierto de cuero y arremachado con bronce",
+      "refs": []
+    },
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Armadura",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Escudo Corporal amplio rectangular, construido con cuero de buey curtido sobre armazon de madera, reforzado con tachuelas o clavos de bronce sobre su superficie.",
+      "refs": []
+    },
+    {
+      "clave": "P📊",
+      "etiqueta": "Propiedades",
+      "texto": "- El cuero proporcionaba flexibilidad para absorber impactos,\n- Los refuerzos metálicos distribuían la fuerza de los golpes y añadían rigidez estructural en puntos críticos.\n- El tamaño masivo del escudo permitía al guerrero protegerse casi completamente\n- **Podia Servir como Lienzo**\n  - Los grandes escudos corporales de la época, precisamente por su tamaño considerable, ofrecían una superficie amplia que los artesanos especializados podían convertir en verdaderos lienzos artísticos. La técnica más común era el repujado, donde se trabajaba el cuero desde el reverso para crear relieves que sobresalían en la superficie frontal. Esta técnica permitía crear decoraciones complejas sin comprometer la integridad estructural del escudo.\n  - Los motivos decorativos solían tener significados específicos que iban más allá de la mera ornamentación. Los guerreros de alto rango frecuentemente encargaban escudos con representaciones de sus linajes familiares, hazañas militares anteriores, o símbolos religiosos que les proporcionaran protección divina en batalla. Las figuras de animales eran especialmente populares, no solo por su valor estético, sino porque se creía que podían transferir las cualidades del animal al portador del escudo.\n- **La decoracion cumplia funciones psicologicas en combate**\n  - Un escudo elaboradamente decorado comunicaba inmediatamente el estatus social y económico de su portador, lo cual podía intimidar a enemigos de menor rango o, por el contrario, hacer que fuera objetivo prioritario para guerreros ambiciosos que buscaran gloria derrotando a nobles prominentes.",
+      "refs": []
+    },
+    {
+      "clave": "A👤",
+      "etiqueta": "Creador",
+      "texto": "- Fabricacion\n  - El proceso de decoración requería colaboración entre diferentes especialistas artesanales.\n  - El curtidor preparaba el cuero base con técnicas específicas que lo dejaran suficientemente maleable para el trabajo de repujado pero lo bastante resistente para el combate.\n  - El artesano decorador creaba los diseños, frecuentemente usando plantillas de madera o bronce para asegurar simetría en motivos repetitivos.\n  - Finalmente, el herrero añadía los refuerzos metálicos, colocándolos de manera que complementaran, no interfirieran, con la decoración.",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-09-22T12%3A18%3A21.622Z-image.png?alt=media&token=48245ae5-0c49-4f77-a5c3-1119ba063b12)"
+    },
+    {
+      "titulo": "Los Sakoi y Homero",
+      "texto": "- Cuando Homero compuso la Ilíada varios siglos después del colapso de la civilización micénica, ya no se fabricaban estos escudos monumentales. Los griegos de su época usaban escudos circulares más pequeños llamados hoplon. Sin embargo, el poeta conservó en su narrativa la memoria cultural de estos grandes escudos, pero los transformó literariamente en el escudo cósmico de Aquiles."
+    }
+  ],
+  "tipos": [
+    "Objeto"
+  ]
+}

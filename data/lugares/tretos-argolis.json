@@ -1,0 +1,23 @@
+{
+  "id": "tretos-argolis",
+  "tana_id": "mZ-pXCFgfZG-",
+  "nombre": "Trêtos, Argolis",
+  "nombre_alt": "Pasaje",
+  "titulo_tana": "Trêtos, Argolis (Pasaje)",
+  "etiquetas_tana": [
+    "Lugar"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Lugar"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "kIvGY8GfKDCK",
+    "nombre": "Primer Athlos: Matar al Leon de Nemea (Argolis)",
+    "col": "eventos",
+    "id": "primer-athlos-matar-al-leon-de-nemea"
+  }
+}

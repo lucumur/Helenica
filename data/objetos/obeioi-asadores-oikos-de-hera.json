@@ -1,0 +1,23 @@
+{
+  "id": "obeioi-asadores-oikos-de-hera",
+  "tana_id": "a6nPfD0ToxIR",
+  "nombre": "Obeioi (Asadores), Oikos de Hera",
+  "nombre_alt": null,
+  "titulo_tana": "Obeioi (Asadores), Oikos de Hera",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Junto a este fuego, los arqueólogos hallaron una cantidad inusual de **asadores de hierro (obeloi)** y restos de comida calcinada. Esto sugiere **comidas rituales internas**, no sacrificios al aire libre.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ]
+}

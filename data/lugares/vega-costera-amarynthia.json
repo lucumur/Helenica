@@ -1,0 +1,32 @@
+{
+  "id": "vega-costera-amarynthia",
+  "tana_id": "6t9x3whLVP0L",
+  "nombre": "Vega Costera Amarynthia",
+  "nombre_alt": null,
+  "titulo_tana": "Vega Costera Amarynthia",
+  "etiquetas_tana": [
+    "costa"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "$ 🖌️[Eretriakē gê (tinte eretrio)](tana:oTsZr6lFqqqB)",
+      "texto": "- pigmento negro/cenizo para teñir cuero"
+    },
+    {
+      "titulo": null,
+      "texto": "- $ 🐟 actividad pesquera\n- $ 🛂 base de operaciones para las colonias eretrias"
+    }
+  ],
+  "tipos": [
+    "Costa"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "zFLUFY1_lQIg",
+    "nombre": "Eretria, Euboia (Chora)",
+    "col": "lugares",
+    "id": "eretria-euboia"
+  }
+}

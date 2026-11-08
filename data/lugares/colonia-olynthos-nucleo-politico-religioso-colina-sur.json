@@ -1,0 +1,49 @@
+{
+  "id": "colonia-olynthos-nucleo-politico-religioso-colina-sur",
+  "tana_id": "yNzAPMkU6OcD",
+  "nombre": "(Colonia Olynthos) Nucleo Politico-Religioso: Colina Sur",
+  "nombre_alt": null,
+  "titulo_tana": "(Colonia Olynthos) Nucleo Politico-Religioso: Colina Sur",
+  "etiquetas_tana": [
+    "Lugar",
+    "sub-un"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "O⚖️",
+      "etiqueta": "Organización y cultos",
+      "texto": "- 🛡️ Defensa Natural (Colina) + Fortificacion de Muralla\n- 🛐 Zonas Dedicadas Exteriores tipo Santuarios (sin Arquitectura)\n- 🛣️ Calles siguiendo topografía\n- 🏘️ Residencias de Elites\n  - Estructuras apsidales y ovales, en distribuccion no-planeada e irregular (tradicionales pre-hipodámicas)\n- 🎭 Zocalo tipo Agora: Asamblea / Vendimia\n- 🏆 Cremaciones e inhumaciones, práctica mixta (influencia eubea + tracia)",
+      "refs": []
+    },
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "Nucleo Politico-Religioso",
+      "refs": []
+    },
+    {
+      "clave": "H🏘️",
+      "etiqueta": "Habitantes",
+      "texto": "500-1000hab",
+      "refs": []
+    },
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Nucleo Politico-Religioso",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Subunidad"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "HcaGQBfC_sLV",
+    "nombre": "Olynthos - Colonia Calcidica (750-500aC)",
+    "col": "lugares",
+    "id": "olynthos-colonia-calcidica"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "gymnasion-corinto-helenistica",
+  "tana_id": "kidTIY-svfus",
+  "nombre": "Gymnasion, Corinto Helenistica",
+  "nombre_alt": null,
+  "titulo_tana": "Gymnasion, Corinto Helenistica",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "Educativa - Atletica",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Al norte, cerca del Asclepieion; conocido sobre todo en su fase romana.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

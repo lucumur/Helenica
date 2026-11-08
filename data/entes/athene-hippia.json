@@ -1,0 +1,24 @@
+{
+  "id": "athene-hippia",
+  "tana_id": "Y6FksCgBgLjE",
+  "nombre": "Athēnē Hippia",
+  "nombre_alt": "Ecuestre",
+  "titulo_tana": "Athēnē Hippia (Ecuestre)",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "fcRIRYT-Xczt",
+    "nombre": "Athēnē",
+    "col": "entes",
+    "id": "athene"
+  }
+}

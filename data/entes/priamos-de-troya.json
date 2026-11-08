@@ -1,0 +1,21 @@
+{
+  "id": "priamos-de-troya",
+  "tana_id": "W5ah510E3zGa",
+  "nombre": "Priamos de Troya",
+  "nombre_alt": null,
+  "titulo_tana": "Priamos de Troya",
+  "etiquetas_tana": [
+    "O",
+    "Heroe",
+    "Regio"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe",
+    "Realeza"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

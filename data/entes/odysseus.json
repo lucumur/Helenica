@@ -1,0 +1,213 @@
+{
+  "id": "odysseus",
+  "tana_id": "_0AWSrlsUKdf",
+  "nombre": "Odysseus",
+  "nombre_alt": "Odiseo",
+  "titulo_tana": "Odysseus = Odiseo",
+  "etiquetas_tana": [
+    "Regio",
+    "O"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-09-27T12%3A47%3A02.471Z-image.png?alt=media&token=ae382e75-c08a-489a-ba50-acc135b2845c",
+  "asociaciones": {
+    "texto": "- [Kynee Micenica (Casco)](objetos:kynee-micenica)\n- [Krēpides Homéricas de Punta Curva (Botas)](objetos:krepides-homericas-de-punta-curva)\n- Colores Purpureos en su vestimenta, denotaban su clase basilea\n- Portador de Arco y Carcaj",
+    "refs": [
+      {
+        "tana": "FWGZD6LWnu-5",
+        "nombre": "Kynee Micenica (Casco)",
+        "col": "objetos",
+        "id": "kynee-micenica"
+      },
+      {
+        "tana": "USzbmqESCriF",
+        "nombre": "Krēpides Homéricas de Punta Curva (Botas)",
+        "col": "objetos",
+        "id": "krepides-homericas-de-punta-curva"
+      }
+    ]
+  },
+  "atributos": {
+    "texto": "- Alto desempeño en Arquería\n- Veterano de Guerra\n- Narrador de Historias\n- Explorador de lugares Exoticos",
+    "refs": []
+  },
+  "padres": {
+    "texto": "- [Arkeisios, Basileus de Ithake](entes:arkeisios-basileus-de-ithake) // abuelo paterno\n- [Autolykos, \"el aldron supremo\"](entes:autolykos-el-aldron-supremo) // abuelo materno\n- [Antikleia, hija de Autolico](entes:antikleia-hija-de-autolico) // madre\n- [Laertes de Itaca](entes:laertes-de-itaca) // padre",
+    "refs": [
+      {
+        "tana": "w0ORJqebycCm",
+        "nombre": "Arkeisios, Basileus de Ithake",
+        "col": "entes",
+        "id": "arkeisios-basileus-de-ithake"
+      },
+      {
+        "tana": "DHhDTitDFgY6",
+        "nombre": "Autolykos, \"el aldron supremo\"",
+        "col": "entes",
+        "id": "autolykos-el-aldron-supremo"
+      },
+      {
+        "tana": "L9L7Ku0Yqezu",
+        "nombre": "Antikleia, hija de Autolico",
+        "col": "entes",
+        "id": "antikleia-hija-de-autolico"
+      },
+      {
+        "tana": "7BR9GqItfvM2",
+        "nombre": "Laertes de Itaca",
+        "col": "entes",
+        "id": "laertes-de-itaca"
+      }
+    ]
+  },
+  "epitetos": {
+    "texto": "- Epitetos\n  - polymētis = de mucha astucia\n    - ****: mas de 59 veces, epiteto nuclear\n  - polytropos = de muchos giros\n  - polymēχanos = de muchos recursos\n  - poikilomētēs = de variada astucia\n  - ptolíporθos = saqueador de ciudades\n  - diogenēs = de linaje de Zeus\n  - Laertiadēs = del linaje de Laertes\n  - talasifrōn = de corazon que soporta",
+    "refs": [
+      {
+        "tana": "3zU9T1Me-fm3",
+        "nombre": "polymētis = de mucha astucia"
+      },
+      {
+        "tana": "i3GR7P0cFvSG",
+        "nombre": "polytropos = de muchos giros"
+      },
+      {
+        "tana": "NsgB_BtMTwYy",
+        "nombre": "polymēχanos = de muchos recursos"
+      },
+      {
+        "tana": "d6ixg-tGk2tb",
+        "nombre": "poikilomētēs = de variada astucia"
+      },
+      {
+        "tana": "87l92f72IbEk",
+        "nombre": "ptolíporθos = saqueador de ciudades"
+      },
+      {
+        "tana": "7NEnha3qIdCI",
+        "nombre": "diogenēs = de linaje de Zeus"
+      },
+      {
+        "tana": "CX66w_ZKSK8h",
+        "nombre": "Laertiadēs = del linaje de Laertes"
+      },
+      {
+        "tana": "FEuESDgN_vuH",
+        "nombre": "talasifrōn = de corazon que soporta"
+      }
+    ]
+  },
+  "contrincantes": {
+    "texto": "- Antaonistas\n  - [Antinoos (Antinoo)](entes:antinoos)\n  - [Eurimaχos (Eurimaco)](entes:eurimachos)\n  - [Poseidáōn (Poseidón)](entes:poseidaon)\n  - [Palamedes](entes:palamedes)\n  - [Aiax Telamon](entes:aiax-telamon)\n  - [Polyfēmos (Ciclope)](entes:polyfemos)",
+    "refs": [
+      {
+        "tana": "SGuxAAo2R0Wz",
+        "nombre": "Antinoos (Antinoo)",
+        "col": "entes",
+        "id": "antinoos"
+      },
+      {
+        "tana": "-GycfNuR1rit",
+        "nombre": "Eurimaχos (Eurimaco)",
+        "col": "entes",
+        "id": "eurimachos"
+      },
+      {
+        "tana": "3YpxU2Z2OWNY",
+        "nombre": "Poseidáōn (Poseidón)",
+        "col": "entes",
+        "id": "poseidaon"
+      },
+      {
+        "tana": "tt9as1Zbqu3k",
+        "nombre": "Palamedes",
+        "col": "entes",
+        "id": "palamedes"
+      },
+      {
+        "tana": "AXUPpQP9r1Y8",
+        "nombre": "Aiax Telamon",
+        "col": "entes",
+        "id": "aiax-telamon"
+      },
+      {
+        "tana": "WXY52VXujrI0",
+        "nombre": "Polyfēmos (Ciclope)",
+        "col": "entes",
+        "id": "polyfemos"
+      }
+    ]
+  },
+  "conyuges": {
+    "texto": "- Parejas\n  - [Penelopē (Pénelope)](entes:penelope)\n  - [Kirkē (Circe)](entes:kirke)\n  - [Kallipsō (Calipso)](entes:kallipso)\n  - [Calidice, Reina de Trespocia](entes:calidice-reina-de-trespocia)",
+    "refs": [
+      {
+        "tana": "X4MaM5B4MzoE",
+        "nombre": "Penelopē (Pénelope)",
+        "col": "entes",
+        "id": "penelope"
+      },
+      {
+        "tana": "T6jd9aMDqbq-",
+        "nombre": "Kirkē (Circe)",
+        "col": "entes",
+        "id": "kirke"
+      },
+      {
+        "tana": "oA27-H05SurN",
+        "nombre": "Kallipsō (Calipso)",
+        "col": "entes",
+        "id": "kallipso"
+      },
+      {
+        "tana": "GN12O2QaGFyE",
+        "nombre": "Calidice, Reina de Trespocia",
+        "col": "entes",
+        "id": "calidice-reina-de-trespocia"
+      }
+    ]
+  },
+  "fallecimiento": {
+    "texto": "- Tiresias profetiza en _Od._ 11 que la muerte le llegará \"desde el mar\" (ἐξ ἁλός), en una vejez apacible\n- La _Telegonía_ resuelve esa profecía de forma literal e irónica — Telégono, buscando a su padre sin saber quién es, naufraga en Ítaca, roba ganado por necesidad, Odiseo sale a defenderlo, y muere por una lanza cuya punta es un **aguijón de raya** (un arma \"del mar\" en sentido material, no metafórico).\n- Es la muerte llegando \"desde el mar\" tomada al pie de la letra por el poeta cíclico — una lectura casi deliberadamente literalista de la profecía homérica, típica de cómo el Ciclo Épico tiende a resolver ambigüedades del texto homérico con soluciones narrativas mecánicas antes que poéticas.\n- Segun Proclo\n  - El final transmitido por Proclo es extraño y merece señalarse como tal: Telégono lleva el cuerpo, junto con Penélope y Telémaco, a Circe, quien los hace inmortales —\n  - y luego **Telégono se casa con Penélope** y **Telémaco se casa con Circe**.\n  - Aquí Higino añade que de Telégono desciende Italo (epónimo de Italia) y de Telémaco, Latino\n  - — enganchando la genealogía de Odiseo con los orígenes míticos itálicos, lo cual probablemente sea invención tardía para dar a Roma un anclaje homérico.",
+    "refs": []
+  },
+  "titulos": {
+    "texto": "Basileus = Rey local, no Wanax micenico. La odisea es alegoria del colapso de autoridad palacial. **O**diseo es _basileus_ de Ítaca en el sentido homérico del término: no \"rey\" en sentido estatal centralizado, sino jefe preeminente de una jerarquía de _basileis_ menores (los pretendientes mismos son también, técnicamente, _basileis_ locales compitiendo por el estatus). Es título real, atestiguado, pero recuerda que en el vocabulario homérico _basileus_ describe una posición de primacía entre pares aristocráticos, no soberanía absoluta — de ahí que 108 pretendientes puedan disputarle el trono sin que eso sea, en sí, ilegítimo dentro del sistema.",
+    "refs": [
+      {
+        "tana": "N9v_toxRfJUx",
+        "nombre": "Basileus"
+      }
+    ]
+  },
+  "descripcion": {
+    "texto": "- Odiseo, rey de Ítaca, hijo de Laertes y Anticlea (nieta de Autólico, tradición trágica lo hace hijo de Sísifo).\n- Célebre por su πολυμήτις — astucia estratégica (caballo de Troya).\n- Esposo de Penélope, padre de Telémaco; con Circe engendra a Telégono, quien sin saberlo lo mata con una lanza de aguijón de raya, cumpliendo la profecía de Tiresias de una muerte \"desde el mar\".\n- Fuentes: Ilíada, Odisea, Telegonía (resumen de Proclo).",
+    "refs": []
+  },
+  "nombre_notas": {
+    "texto": "- Variantes del Nombre segun Dialectos\n  - Odysséus\n    - ****: Epica Jonio-Eolica (Homero)\n  - Odyséus\n    - ****: Variante Jonio-Eolica\n  - Houdysséus\n    - ****: Variante Aspera, Jonio Eolica\n  - Olysséus\n    - ****: Beocia\n  - Olisséus\n    - ****: Corinto\n  - Olytteus\n    - ****: Atico No Literario\n  - Oliséus\n    - ****: Forma mas antigua\n  - Ōlysséus\n    - ****: forma omega\n  - Oulikséus\n    - ****: Dorio-Siculo\n  - Ouliksēs\n    - ****:\n      - Forma en Magna Grecia\n      - base del latin Ulixes",
+    "refs": []
+  },
+  "estirpe": {
+    "texto": "- Odiseo es _técnicamente_ biznieto de Hermes por vía materna.\n- Esto es lo que da coherencia teológica a la protección constante de Hermes hacia él (moly en Circe, guía en Hades, patronazgo general del _dolos_).\n- Homero no oculta ni explota narrativamente este dato — lo deja como sustrato genealógico, no como intervención activa del propio Hermes a favor de un descendiente reconocido.",
+    "refs": []
+  },
+  "nacimiento": {
+    "texto": "- **Reino:** Ítaca (Ἰθάκη), con soberanía extendida sobre los cefalenios (Κεφαλλῆνες)\n  - — un grupo étnico que ocupaba tanto las islas jónicas como parte del continente adyacente.\n  - no es un imperio, es una _basileía_ pequeña, insular, agropecuaria-pastoril (los rebaños de cerdos de Eumeo, las cabras de Melantio, los bueyes) —\n- **Infancia en el Parnaso:**\n  - episodio clave no ubicado en Ítaca —la visita juvenil de Odiseo a Autólico en el Parnaso,\n  - donde participa en una cacería de jabalí y recibe la cicatriz en el muslo que después permite su reconocimiento por Euriclea (_Od._ XIX.428-466).\n  - Odiseo parece haber pasado algunos de los momentos más definitorios de su infancia con Autólico, quien, además de transmitirle su oficio, dio a Odiseo su famoso nombre.\n- **Etimología del nombre:**\n  - Autólico se lo impone explícitamente en _Od._ XIX.406-409 con juego etimológico sobre _ὀδύσσομαι_ (\"odiar\", \"estar encolerizado con\") — Odiseo como \"el que causa cólera / el odiado\".",
+    "refs": []
+  },
+  "residencias": {
+    "texto": "- **ANTES de Troya (Cypria, Ciclo Épico — no homérico):**\n  - **Parnaso** (ya cubierto en tu Ficha original) — estancia formativa con Autólico; cacería del jabalí, cicatriz, posible imposición del nombre.\n  - **Esparta** — como uno de los pretendientes de Helena; presta el Juramento de Tindáreo (defender al elegido si alguien la rapta).\n    - Se enamora en cambio de **Penélope**, sobrina de Tindáreo (hija de su hermano Icario).\n    - Icario inicialmente desaprueba al pretendiente; Tindáreo, buscando lazos estratégicos, ayuda a Odiseo a ganar una **carrera pedestre** organizada por Icario — Tindáreo, buscando forjar mayores lazos estratégicos, ayudó a Odiseo a ganar una carrera pedestre, lo cual mejoró posteriormente la opinión de Icario sobre él. <a href=\"https://femminaclassica.com/unsung-penelope/\">Femmina Classica</a>\n    - A cambio de este favor, Odiseo propone a Tindáreo la solución al problema político de fondo: el **Juramento de Tindáreo** — todos los pretendientes de Helena jurarían defender al elegido, evitando guerra civil entre aristócratas armados. Odiseo, quien ideó el pacto, ni siquiera pretendía ganar a Helena; negoció la ayuda de Tindáreo para asegurar a Penélope, hija de Icario, como su propia esposa. Este juramento es, por supuesto, el mecanismo que después obliga a todos los pretendientes —Odiseo incluido— a movilizarse cuando Paris rapta a Helena. <a href=\"https://satyori.com/mythology/the-oath-of-tyndareus/\">Satyori</a>\n    - Boda con Penélope en Esparta.\n    - Momento de partida: Icario pide a Penélope quedarse en Esparta; Odiseo le da la opción de elegir. Ella responde bajando el velo — gesto interpretado como decisión de partir con su esposo a Ítaca. Penélope permaneció en silencio y bajó su velo brillante, gesto que indicaba su decisión de partir con él\n  - **Ítaca** — locura fingida (arando con sal, buey y asno uncidos juntos) para evadir el reclutamiento; Palamedes expone el engaño colocando al infante Telémaco en el camino del arado, forzando al rey a admitir su cordura.\n  - **Esciros** — busca y descubre a Aquiles disfrazado entre las hijas de Licomedes mediante el ardid de las joyas/armas.\n  - **Áulide** — punto de concentración de la flota; presencia el prodigio de la serpiente y los ocho pajarillos, interpretado por Calcante.\n  - **Teutrania** — la flota, desorientada, saquea por error este reino creyendo que es Troya; Télefo la defiende.\n  - **Escirto/dispersión por tormenta** — reagrupamiento posterior en Áulide, años después, con el sacrificio de Ifigenia como condición para vientos favorables.\n- **DURANTE la guerra (Ilíada + Ciclo — incursiones fuera del campamento, no simple estancia estática en Troya):**\n  - **Tenedos** — punto de anclaje/escala antes del desembarco final en la costa troyana.\n  - **Embajada a Príamo** — intento diplomático previo a las hostilidades para negociar la devolución de Helena (fuente: Cypria/tradición, aludido también en _Il._ III.205-224, donde Antenor recuerda la visita).\n  - **Campamento aqueo / llanura de Troya** — sede de una década, escenario de la mayoría de sus acciones (embajada a Aquiles, Dolonía, etc.).\n  - **Incursión nocturna al campamento troyano** (Dolonía, _Il._ X) — con Diomedes.\n  - **Robo del Paladión** — segunda incursión nocturna dentro de la propia Troya (Ciclo Épico, no en Ilíada), con Diomedes; capturaron el Paladión, la estatua de Atenea que protegía la ciudad. <a href=\"https://cal.byu.edu/macfarlane/OGCMA/Odysseus1.0000_Reid.htm\">byu</a>\n  - **Esciro (segunda visita)** — trae a Neoptólemo, hijo de Aquiles, cumpliendo profecía necesaria para la caída de Troya.\n  - **Lemnos** — recupera a Filoctetes y el arco de Heracles, también requisito profético (desarrollado dramáticamente en Sófocles).\n- **Despues de la Guerra**\n  - **Ismaro (Cícones)** — primer desvío tras zarpar de Troya.\n  - **Tierra de los Lotófagos.**\n  - **Isla de los Cíclopes / cueva de Polifemo.**\n  - **Isla de Eolo** — el saco de los vientos.\n  - **Lestrigones** — pérdida de casi toda la flota.\n  - **Eea (Circe).**\n  - **Hades** — Nekyia, Libro XI.\n  - **Sirenas.**\n  - **Escila y Caribdis.**\n  - **Trinacia** (ganado de Helios) — origen de la pérdida final de tripulación y naves.\n  - **Ogigia (Calipso)** — siete años de cautiverio.\n  - **Esqueria (feacios, Alcínoo/Nausícaa).**\n  - **Ítaca** — retorno final, Libros XIII-XXIV.\n  - **Élide/Elis** — Odiseo visita a Polixeno.\n  - **Tesprocia** — matrimonio con Calídice, reina de los tesprotos; se convierte en rey y decide quedarse; tiene un hijo con ella, Polipetes; conduce el ejército tesproto en guerra contra los brigios (con Ares y Atenea apoyando bandos opuestos; Apolo impone tregua). A la muerte de Calídice, cede el trono a Polipetes y regresa a Ítaca. <a href=\"https://www.cambridge.org/core/books/abs/greek-epic-cycle-and-its-ancient-reception/telegony/0E8926C0EC3A7D21F1425E985B7A05CE\">Cambridge Core</a>\n- **Fallecimiento**\n  - **Ítaca (muerte)** — asesinado por Telégono.\n  - **Eea (sepultura)** — Telégono lleva el cuerpo de regreso.",
+    "refs": []
+  },
+  "eventos": {
+    "texto": "- **Ciclo Troyano (pre-Odisea, atestiguado en Ilíada + fragmentos del Ciclo Épico + tragedia):**\n  - Estratagema para evitar el reclutamiento (fingir locura arando con sal — no está en Homero, es tradición posterior, probablemente Cypria o fuentes helenísticas).\n  - Participación en embajadas (junto a Fénix y Áyax ante Aquiles, _Il._ IX).\n  - Espionaje nocturno con Diomedes (_Dolonía_, _Il._ X — libro de autenticidad disputada desde la Antigüedad, cuestión aristárquica).\n  - Disputa por las armas de Aquiles contra Áyax Telamonio tras la muerte de este (Ciclo Épico, _Aithiopis_/_Ilias Parva_) — Áyax pierde y se suicida; esto explica el silencio hostil de la sombra de Áyax en la Nekyia (_Od._ XI.543-564).\n  - El Caballo de Troya (_Ilias Parva_, _Iliupersis_ — no en la _Ilíada_, sí referenciado en _Od._ VIII y XI).\n  - En Sófocles, _Filoctetes_: Odiseo orquesta el abandono de Filoctetes en Lemnos y retorna una década después para recuperar su arco mediante engaño (con Neoptólemo).\n- **Nostos (retorno, _Odisea_ propiamente):**\n  - Ceguera de Polifemo — origen de la cólera de Poseidón contra él, motor de toda la trama.\n  - Descenso al Hades — encuentro con Tiresias, Anticlea, Agamenón, Aquiles, Áyax.\n  - Matanza de los pretendientes (Libro XXII) — clímax narrativo.\n  - Reconocimiento con Penélope (Libro XXIII) mediante la prueba del lecho nupcial construido sobre un olivo vivo.\n- **Post-Odisea (Telegonía):**\n  - Sacrificios prescritos por Tiresias en tierra que desconoce el mar (Libro XI — el remo tomado por aventador de grano).\n  - Guerra en Tesprocia y matrimonio con Calídice.\n  - Muerte a manos de Telégono, su hijo con Circe, mediante lanza con punta de espina de raya venenosa — cumpliendo el oráculo de Tiresias de que la muerte le llegaría \"desde el mar.\"",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Realeza"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

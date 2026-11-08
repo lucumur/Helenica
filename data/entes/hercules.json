@@ -1,0 +1,24 @@
+{
+  "id": "hercules",
+  "tana_id": "2kAQPhqGhwfQ",
+  "nombre": "Hercules",
+  "nombre_alt": null,
+  "titulo_tana": "Hercules",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- Nombre Romano de [Hēraklēs (Hercules)](entes:herakles)"
+    }
+  ],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": null
+}

@@ -1,0 +1,19 @@
+{
+  "id": "aratos",
+  "tana_id": "7o7BOxnQHyWo",
+  "nombre": "Aratos",
+  "nombre_alt": "Arato",
+  "titulo_tana": "Aratos = Arato",
+  "etiquetas_tana": [
+    "X",
+    "M"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Mortal"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

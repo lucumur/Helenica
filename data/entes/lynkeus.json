@@ -1,0 +1,33 @@
+{
+  "id": "lynkeus",
+  "tana_id": "K0F7D17n6FIF",
+  "nombre": "Lynkeus",
+  "nombre_alt": "Linceo",
+  "titulo_tana": "Lynkeus = Linceo",
+  "etiquetas_tana": [
+    "O",
+    "Regio",
+    "M"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "- Raza Egipcia\n- Nobleza",
+    "refs": [
+      {
+        "tana": "2VhUCcvJIqwp",
+        "nombre": "Raza Egipcia"
+      },
+      {
+        "tana": "0TjIgPdjRUql",
+        "nombre": "Nobleza"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Realeza"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

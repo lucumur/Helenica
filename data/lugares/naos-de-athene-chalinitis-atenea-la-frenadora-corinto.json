@@ -1,0 +1,74 @@
+{
+  "id": "naos-de-athene-chalinitis-atenea-la-frenadora-corinto",
+  "tana_id": "MDE3I1gVb5jJ",
+  "nombre": "Naos de Athēnē Chalinítis (Atenea la Frenadora), Corinto",
+  "nombre_alt": null,
+  "titulo_tana": "Naos de Athēnē Chalinítis (Atenea la Frenadora), Corinto",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Templo",
+      "refs": [
+        {
+          "tana": "-Bt4McJT-Z2E",
+          "nombre": "Templo"
+        }
+      ]
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "existe _porque_ Atenea fue quien más ayudó a Belerofonte y le entregó a Pegaso ya domado y embridado por ella misma.",
+      "refs": []
+    },
+    {
+      "clave": "S🧩",
+      "etiqueta": "Subunidades / partes",
+      "texto": "- [Athānā Chalínitis (la de las Riendas), Corinto](eventos:athana-chalinitis-la-de-las-riendas-corinto)\n- [Athānā Chalínitis (Agalma Acrolitico), Corinto](objetos:athana-chalinitis-agalma-acrolitico-corinto)",
+      "refs": [
+        {
+          "tana": "JpVIWRWgmKQV",
+          "nombre": "Athānā Chalínitis (la de las Riendas), Corinto",
+          "col": "eventos",
+          "id": "athana-chalinitis-la-de-las-riendas-corinto"
+        },
+        {
+          "tana": "k8ken4ljC_lV",
+          "nombre": "Athānā Chalínitis (Agalma Acrolitico), Corinto",
+          "col": "objetos",
+          "id": "athana-chalinitis-agalma-acrolitico-corinto"
+        }
+      ]
+    },
+    {
+      "clave": "H🔼",
+      "etiqueta": "Pertenece a",
+      "texto": "[Qórinthos, Korinthia (Corinto)](lugares:qorinthos-korinthia)",
+      "refs": [
+        {
+          "tana": "0XxZ5RAWadzh",
+          "nombre": "Qórinthos, Korinthia (Corinto)",
+          "col": "lugares",
+          "id": "qorinthos-korinthia"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": [
+    {
+      "tana": "0XxZ5RAWadzh",
+      "nombre": "Qórinthos, Korinthia (Corinto)",
+      "col": "lugares",
+      "id": "qorinthos-korinthia"
+    }
+  ]
+}

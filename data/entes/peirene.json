@@ -1,0 +1,87 @@
+{
+  "id": "peirene",
+  "tana_id": "EjFLEfoPjamY",
+  "nombre": "Peirenē",
+  "nombre_alt": "Pirene",
+  "titulo_tana": "Peirenē (Pirene)",
+  "etiquetas_tana": [
+    "nymphe"
+  ],
+  "imagen": null,
+  "padres": {
+    "texto": "- [Asōpos Phliasios (Asopo Fliasio)](lugares:asopos-phliasios)\n- [Metopē (Métope)](entes:metope) hija de [Ladôn (Ladón)](lugares:ladon)",
+    "refs": [
+      {
+        "tana": "xXpImtZGNVC0",
+        "nombre": "Asōpos Phliasios (Asopo Fliasio)",
+        "col": "lugares",
+        "id": "asopos-phliasios"
+      },
+      {
+        "tana": "UveDBW8EokSW",
+        "nombre": "Metopē (Métope)](tana:JvK0ojNFfC2L) hija de [Ladôn (Ladón)",
+        "col": "lugares",
+        "id": "ladon"
+      }
+    ]
+  },
+  "asociaciones": {
+    "texto": "[Aiginē (Egina)](entes:aigine) su hermana",
+    "refs": [
+      {
+        "tana": "KovE6_7csxXP",
+        "nombre": "Aiginē (Egina)",
+        "col": "entes",
+        "id": "aigine"
+      }
+    ]
+  },
+  "eventos": {
+    "texto": "- Asopo pierde una hija (Egina) y entrega otra (Peirene, el agua) como precio de la información.\n- Es decir: **Peirene es literalmente el rescate hidrológico pagado por Sísifo**, y el mecanismo por el cual el agua sicionia pasa a ser propiedad corintia.",
+    "refs": []
+  },
+  "estirpe": {
+    "texto": "Oceanida",
+    "refs": [
+      {
+        "tana": "lu1ZMgBD_joe",
+        "nombre": "Oceanida"
+      }
+    ]
+  },
+  "conyuges": {
+    "texto": "[Poseidáōn (Poseidón)](entes:poseidaon)",
+    "refs": [
+      {
+        "tana": "3YpxU2Z2OWNY",
+        "nombre": "Poseidáōn (Poseidón)",
+        "col": "entes",
+        "id": "poseidaon"
+      }
+    ]
+  },
+  "hijos": {
+    "texto": "- [Lékhēs (Leques)](entes:lekhes)\n- [Kenkhrías (Cencrias)](entes:kenkhrias)",
+    "refs": [
+      {
+        "tana": "L0OrLNHZ_5Ne",
+        "nombre": "Lékhēs (Leques)",
+        "col": "entes",
+        "id": "lekhes"
+      },
+      {
+        "tana": "gdtnK6aX0MkX",
+        "nombre": "Kenkhrías (Cencrias)",
+        "col": "entes",
+        "id": "kenkhrias"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

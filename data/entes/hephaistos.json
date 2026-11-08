@@ -1,0 +1,19 @@
+{
+  "id": "hephaistos",
+  "tana_id": "1z6pux6Ahl2z",
+  "nombre": "Hephaistos",
+  "nombre_alt": "Hefesto",
+  "titulo_tana": "Hephaistos (Hefesto)",
+  "etiquetas_tana": [
+    "Deidad",
+    "O"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

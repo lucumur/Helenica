@@ -1,0 +1,30 @@
+{
+  "id": "stoa-sur-corinto-helenistica",
+  "tana_id": "dWXEDvAZ2hOo",
+  "nombre": "Stoa Sur, Corinto Helenistica",
+  "nombre_alt": null,
+  "titulo_tana": "Stoa Sur, Corinto Helenistica",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "Comercial - Hospedaje",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "- Una de las stoas más grandes de Grecia, finales del s. IV; dos hileras de 33 tiendas\n- casi todas con pozo conectado a la Pirene para enfriar bebida.\n- Se interpretan como tabernas y comercio;\n- en época romana se insertan oficinas y un bouleuterion.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

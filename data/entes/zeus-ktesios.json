@@ -1,0 +1,24 @@
+{
+  "id": "zeus-ktesios",
+  "tana_id": "v1pdujuCJd8r",
+  "nombre": "Zeus Ktesios",
+  "nombre_alt": "Zeus de los Bienes",
+  "titulo_tana": "Zeus Ktesios = Zeus de los Bienes",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "Yz-NkVaNbFNa",
+    "nombre": "Zéus",
+    "col": "entes",
+    "id": "zeus"
+  }
+}

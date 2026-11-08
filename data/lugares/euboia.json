@@ -1,0 +1,22 @@
+{
+  "id": "euboia",
+  "tana_id": "V3DYW5HUkMow",
+  "nombre": "Euboia",
+  "nombre_alt": "Synchora",
+  "titulo_tana": "Euboia (Synchora)",
+  "etiquetas_tana": [
+    "synchora"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- [Hēra Euboia](entes:hera-euboia) : enfasis en soberania, fertilidad, identidad aristocratica, con faceta maritima protectora de navegantes ⛵\n- Las tres nodrizas de Hera: [Euboia (Eubea)](entes:euboia) , [Prosimna](entes:prosimna) y [Akraia (Acrea)](entes:akraia)"
+    }
+  ],
+  "tipos": [
+    "Región"
+  ],
+  "pertenece_a": []
+}

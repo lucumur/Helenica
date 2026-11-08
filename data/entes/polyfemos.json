@@ -1,0 +1,23 @@
+{
+  "id": "polyfemos",
+  "tana_id": "WXY52VXujrI0",
+  "nombre": "Polyfēmos",
+  "nombre_alt": "Ciclope",
+  "titulo_tana": "Polyfēmos (Ciclope)",
+  "etiquetas_tana": [
+    "M"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- ****: antagonista de aventura"
+    }
+  ],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

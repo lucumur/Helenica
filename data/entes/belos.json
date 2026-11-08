@@ -1,0 +1,24 @@
+{
+  "id": "belos",
+  "tana_id": "SrgdPCttR5uE",
+  "nombre": "Bēlos",
+  "nombre_alt": "Belo",
+  "titulo_tana": "Bēlos = Belo",
+  "etiquetas_tana": [
+    "O",
+    "Regio",
+    "M"
+  ],
+  "imagen": null,
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "Raza Fenicia",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Realeza"
+  ],
+  "genero": "M"
+}

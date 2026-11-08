@@ -1,0 +1,35 @@
+{
+  "id": "kheiron",
+  "tana_id": "L9kQlCyGnfqv",
+  "nombre": "Kheirōn",
+  "nombre_alt": "Quirón",
+  "titulo_tana": "Kheirōn = Quirón",
+  "etiquetas_tana": [
+    "O",
+    "Hibrido",
+    "M"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Centauro",
+    "refs": [
+      {
+        "tana": "sVBBKVCILV-t",
+        "nombre": "Centauro"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Híbrido"
+  ],
+  "genero": "M",
+  "cultura": "Helénica",
+  "contenido_en": {
+    "tana": "sSHWkSAuoqKj",
+    "nombre": "Cuarto Athlos: Capturar el Jabali de Erymanthos (Arcadia)",
+    "col": "eventos",
+    "id": "cuarto-athlos-capturar-el-jabali-de-erymanthos"
+  }
+}

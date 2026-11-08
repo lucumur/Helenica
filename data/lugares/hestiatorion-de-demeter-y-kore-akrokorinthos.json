@@ -1,0 +1,30 @@
+{
+  "id": "hestiatorion-de-demeter-y-kore-akrokorinthos",
+  "tana_id": "YNDSmiN66s_h",
+  "nombre": "Hestiatorion de Dēmēter y Korē, Akrokórinthos",
+  "nombre_alt": null,
+  "titulo_tana": "Hestiatorion de Dēmēter y Korē, Akrokórinthos",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "- Deméter: terrazas, depósitos votivos masivos, **primeros comedores rituales** **⬤** ·\n- **El pico de actividad ritual del sitio**. Decenas de salas con bancos corridos, mesas y vajilla de banquete.\n- Cientos de comensales en la ladera. Ningún edificio monumental — el culto es **comer** ⬤",
+      "refs": []
+    },
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "Culto Ctonico",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

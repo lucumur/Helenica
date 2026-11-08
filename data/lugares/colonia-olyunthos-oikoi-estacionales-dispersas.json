@@ -1,0 +1,64 @@
+{
+  "id": "colonia-olyunthos-oikoi-estacionales-dispersas",
+  "tana_id": "0EQ7gq1tlMXF",
+  "nombre": "(Colonia Olyunthos) Oikoi Estacionales Dispersas",
+  "nombre_alt": null,
+  "titulo_tana": "(Colonia Olyunthos) Oikoi Estacionales Dispersas",
+  "etiquetas_tana": [
+    "Lugar",
+    "sub-un"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "E🌱",
+      "etiqueta": "Etimología",
+      "texto": "Posible Estado Tracio Pre-Calcidico",
+      "refs": []
+    },
+    {
+      "clave": "S🀄",
+      "etiqueta": "Símbolos",
+      "texto": "- Pastoreo estacional,\n- Recursos de Madera, Caza, Canteras",
+      "refs": []
+    },
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "Granjas Dispersas Estacionales",
+      "refs": []
+    },
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "- Lugar de Caza\n- Lugar de Materias Primas",
+      "refs": [
+        {
+          "tana": "T_-s6qqQjRQC",
+          "nombre": "Lugar de Caza"
+        },
+        {
+          "tana": "CtVLea4CLe28",
+          "nombre": "Lugar de Materias Primas"
+        }
+      ]
+    },
+    {
+      "clave": "O⚖️",
+      "etiqueta": "Organización y cultos",
+      "texto": "- Montaña Baja: 1,000 Ha de Calidad Baja para Pastoreo Ovino/Caprino 🐑\n- algo de pastoreo de bueyes, para traccion y NO para consumo de carne 🐂",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Subunidad"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "HcaGQBfC_sLV",
+    "nombre": "Olynthos - Colonia Calcidica (750-500aC)",
+    "col": "lugares",
+    "id": "olynthos-colonia-calcidica"
+  }
+}

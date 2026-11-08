@@ -1,0 +1,17 @@
+{
+  "id": "esparta-laconia",
+  "tana_id": "qxKXBjGx9Dok",
+  "nombre": "Esparta, Laconia",
+  "nombre_alt": "Polis",
+  "titulo_tana": "Esparta, Laconia (Polis)",
+  "etiquetas_tana": [
+    "Ciudad"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ciudad"
+  ],
+  "pertenece_a": []
+}

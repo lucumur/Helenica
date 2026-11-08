@@ -1,0 +1,17 @@
+{
+  "id": "palaiokastro",
+  "tana_id": "bXXJ3dq9Gwjc",
+  "nombre": "Palaiokastro",
+  "nombre_alt": "Ruinas",
+  "titulo_tana": "Palaiokastro (Ruinas)",
+  "etiquetas_tana": [
+    "ruinas"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ruinas"
+  ],
+  "pertenece_a": []
+}

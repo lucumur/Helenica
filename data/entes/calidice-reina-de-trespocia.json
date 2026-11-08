@@ -1,0 +1,23 @@
+{
+  "id": "calidice-reina-de-trespocia",
+  "tana_id": "GN12O2QaGFyE",
+  "nombre": "Calidice, Reina de Trespocia",
+  "nombre_alt": null,
+  "titulo_tana": "Calidice, Reina de Trespocia",
+  "etiquetas_tana": [
+    "F"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": ":",
+      "texto": "- segun resumenes de Proclo\n- tras volver a Itaca"
+    }
+  ],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

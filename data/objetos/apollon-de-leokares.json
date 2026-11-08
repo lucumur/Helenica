@@ -1,0 +1,22 @@
+{
+  "id": "apollon-de-leokares",
+  "tana_id": "ySpSZoFnrYan",
+  "nombre": "Apollon de Leokarēs",
+  "nombre_alt": "Estatua de Bronce",
+  "titulo_tana": "Apollon de Leokarēs (Estatua de Bronce)",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ],
+  "contenido_en": {
+    "tana": "0iYjGYISCSgv",
+    "nombre": "Templo de Apolo Patroos (Atenas)",
+    "col": "lugares",
+    "id": "templo-de-apolo-patroos"
+  }
+}

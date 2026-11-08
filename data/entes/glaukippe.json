@@ -1,0 +1,29 @@
+{
+  "id": "glaukippe",
+  "tana_id": "DmpGnOx299Nk",
+  "nombre": "Glaukippē",
+  "nombre_alt": "Glaucipe",
+  "titulo_tana": "Glaukippē = Glaucipe",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "naos-dorico-de-apolo-f2-corinto-arcaica",
+  "tana_id": "Jco6s8IGRc2e",
+  "nombre": "Naos Dorico de Apolo F2, Corinto Arcaica",
+  "nombre_alt": null,
+  "titulo_tana": "Naos Dorico de Apolo F2, Corinto Arcaica",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "Reconstrucción c. 560-540, columnas monolíticas de poros estucado; siete siguen en pie.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

@@ -1,0 +1,93 @@
+{
+  "id": "temenos-de-atenea-akropolis-de-atenas",
+  "tana_id": "sfUAOTSSkHm6",
+  "nombre": "Témenos de Atenea, Akrópolis de Atenas",
+  "nombre_alt": null,
+  "titulo_tana": "Témenos de Atenea, Akrópolis de Atenas",
+  "etiquetas_tana": [
+    "hieron"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "H📈",
+      "etiqueta": "Historia",
+      "texto": "- Aedes\n  - N1 [Megaron del Wanax, Akrópolis Atenea (1300-1100aC)](lugares:megaron-del-wanax-akropolis-atenea)\n    - **Estructura:** almacen palacial con dos basas de columna bajo la cella este.\n  - N2[Dómos Athēnēs (Templete Geometrico), Akrópolis Atenea (700aC)](lugares:domos-athenes-templete-geometrico-akropolis-atenea-700ac)\n    - **Culto:** guarda el xoanon\n    - **Arca:** si, opisthodosmos de las tamiai\n    - **Estructura:** ladrillo, madera, tejas, dos basas de poros dentro de los cimientos.\n  - N3 [Archaios Néōs Athēnēs (Templo Antiguo de Atenea), Akrópolis Atenea (525-480aC)](lugares:archaios-neos-athenes-templo-antiguo-de-atenea-akropolis-ate)\n    - Arde en 480. Reparación parcial;\n    - Incendio otra vez en 406/5 (Jen. Hel. 1.6.1, palaios neōs)\n    - **Arca:** el opisthodomos sigue como tesoro al hasta mediado el V.\n    - **Estructura:** Dórico períptero de caliza, cella doble (este + oeste tripartito).\n  - N4 Santuario Provisional del Agalma, Akrópolis Atenea (480-406)\n    - **Culto:** el idolo se salva del incensio y se envia a Salamina y vuelve. no tiene nombre nuevo.\n    - **Estructura:** choza o cella reparada del archaios neos. no es un templo nuevo.\n  - N5 [Erechtheion (Erecteo) (421-406aC)](lugares:erechtheion-erecteo-421-406ac)\n  - S1 [Hekatómpedos Pōrinos (Hecatómpedo Poroso), Akrópolis Atenea (570-500aC)](lugares:hekatompedos-porinos-hecatompedo-poroso-akropolis-atenea-570)\n    - **Estructura:** Dorico de Poros, Fronton conleona, barba azul, heracles-tritón.\n    - **Culto:** discutido.\n    - **Arca:** Si, por escala y por el decreto.\n  - S2[Hekatómpedos Marmórinos (Hecatómpedo de Marmol), Akrópolis Atenea (490-480aC)](lugares:hekatompedos-marmorinos-hecatompedo-de-marmol-akropolis-aten)\n    - marmol inacabado, los persas lo queman en 480aC a media altura de columnas.\n    - **Arca:** Si, arca\n  - S3 [Mégas Néōs / Hekatómpedos Parthenôn, Akrópolis Atenea (447aC)](lugares:megas-neos)\n    - desde 300aC, a todo el conjunto se le llamó Parthenôn o Hekatómpedos Parthenôn\n    - **Culto:**\n      - Cella Este: Hekatompedos + Estatua de Oro\n      - Portico Este: ofrendas del Naos\n    - **Arca:**\n      - Cella Este: tesoro activo que se presta y se funde\n      - Cella Oeste: Opisthodomos o Parthenon: tesoro cerrado que no se toca.\n    - **Estructura:** Portico Oeste: Opisthodromos enrejadopor\n  - O1 Oikēmata (570-500aC) 3-5 cajas menores\n  - O2 [Chalkothēkē, Akrópolis Atenea](lugares:chalkotheke-akropolis-atenea)\n    - almacen de bronce",
+      "refs": [
+        {
+          "tana": "1R6Vh9uij_U0",
+          "nombre": "Megaron del Wanax, Akrópolis Atenea (1300-1100aC)",
+          "col": "lugares",
+          "id": "megaron-del-wanax-akropolis-atenea"
+        },
+        {
+          "tana": "dyyq5njhrcl0",
+          "nombre": "Dómos Athēnēs (Templete Geometrico), Akrópolis Atenea (700aC)",
+          "col": "lugares",
+          "id": "domos-athenes-templete-geometrico-akropolis-atenea-700ac"
+        },
+        {
+          "tana": "ovKadRPKOaoT",
+          "nombre": "Archaios Néōs Athēnēs (Templo Antiguo de Atenea), Akrópolis Atenea (525-480aC)",
+          "col": "lugares",
+          "id": "archaios-neos-athenes-templo-antiguo-de-atenea-akropolis-ate"
+        },
+        {
+          "tana": "yP-OfoamAWwg",
+          "nombre": "Erechtheion (Erecteo) (421-406aC)",
+          "col": "lugares",
+          "id": "erechtheion-erecteo-421-406ac"
+        },
+        {
+          "tana": "9yueNVheW5jv",
+          "nombre": "Hekatómpedos Pōrinos (Hecatómpedo Poroso), Akrópolis Atenea (570-500aC)",
+          "col": "lugares",
+          "id": "hekatompedos-porinos-hecatompedo-poroso-akropolis-atenea-570"
+        },
+        {
+          "tana": "XI9cj7SySa47",
+          "nombre": "Hekatómpedos Marmórinos (Hecatómpedo de Marmol), Akrópolis Atenea (490-480aC)",
+          "col": "lugares",
+          "id": "hekatompedos-marmorinos-hecatompedo-de-marmol-akropolis-aten"
+        },
+        {
+          "tana": "2P2--RrL5LSz",
+          "nombre": "Mégas Néōs / Hekatómpedos Parthenôn, Akrópolis Atenea (447aC)",
+          "col": "lugares",
+          "id": "megas-neos"
+        },
+        {
+          "tana": "gYwz6D4nZzHe",
+          "nombre": "Chalkothēkē, Akrópolis Atenea",
+          "col": "lugares",
+          "id": "chalkotheke-akropolis-atenea"
+        }
+      ]
+    },
+    {
+      "clave": "H🔼",
+      "etiqueta": "Pertenece a",
+      "texto": "[Akrópolis, Athēnai](lugares:akropolis-athenai)",
+      "refs": [
+        {
+          "tana": "50oPv0Ts0sbu",
+          "nombre": "Akrópolis, Athēnai",
+          "col": "lugares",
+          "id": "akropolis-athenai"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Santuario"
+  ],
+  "pertenece_a": [
+    {
+      "tana": "50oPv0Ts0sbu",
+      "nombre": "Akrópolis, Athēnai",
+      "col": "lugares",
+      "id": "akropolis-athenai"
+    }
+  ]
+}

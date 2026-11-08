@@ -1,0 +1,167 @@
+{
+  "id": "messenia-peloponnesos",
+  "tana_id": "keV4Bll_eHsC",
+  "nombre": "Messenia, Peloponnesos",
+  "nombre_alt": null,
+  "titulo_tana": "Messenia, Peloponnesos",
+  "etiquetas_tana": [
+    "chora"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Centro Principal",
+      "etiqueta": "Centro Principal",
+      "texto": "- [Messenē, Messenia](lugares:messene-messenia) : solo hasta el 369ac\n- [Asinē, Messenia](lugares:asine-messenia) puieblo de driopes expulsados de la argolide\n- [Thouria, Messenia](lugares:thouria-messenia)\n- [Aithaia, Messenia](lugares:aithaia-messenia)",
+      "refs": [
+        {
+          "tana": "hfTQkbEG-tBA",
+          "nombre": "Messenē, Messenia",
+          "col": "lugares",
+          "id": "messene-messenia"
+        },
+        {
+          "tana": "VnX97WwBm44x",
+          "nombre": "Asinē, Messenia",
+          "col": "lugares",
+          "id": "asine-messenia"
+        },
+        {
+          "tana": "E-J2GbnwkRKU",
+          "nombre": "Thouria, Messenia",
+          "col": "lugares",
+          "id": "thouria-messenia"
+        },
+        {
+          "tana": "ukj1zwwu2Kkj",
+          "nombre": "Aithaia, Messenia",
+          "col": "lugares",
+          "id": "aithaia-messenia"
+        }
+      ]
+    },
+    {
+      "clave": "Religiosas",
+      "etiqueta": "Religiosas",
+      "texto": "- [Cumbre del Ithômē, Messenia](lugares:cumbre-del-ithome-messenia)\n- [Fuente de Klepsydra, Messenia](lugares:fuente-de-klepsydra-messenia)\n- [Karneiasion, Andania](lugares:karneiasion-andania)\n- [Pámison Pedion, Messenia](lugares:pamison-pedion-messenia)",
+      "refs": [
+        {
+          "tana": "DL70YJAUcOAI",
+          "nombre": "Cumbre del Ithômē, Messenia",
+          "col": "lugares",
+          "id": "cumbre-del-ithome-messenia"
+        },
+        {
+          "tana": "R8ENPL0KhxqB",
+          "nombre": "Fuente de Klepsydra, Messenia",
+          "col": "lugares",
+          "id": "fuente-de-klepsydra-messenia"
+        },
+        {
+          "tana": "8PPAsNUKwlZU",
+          "nombre": "Karneiasion, Andania",
+          "col": "lugares",
+          "id": "karneiasion-andania"
+        },
+        {
+          "tana": "2OHaGqroraS1",
+          "nombre": "Pámison Pedion, Messenia",
+          "col": "lugares",
+          "id": "pamison-pedion-messenia"
+        }
+      ]
+    },
+    {
+      "clave": "Puertos y Rios",
+      "etiqueta": "Puertos y Rios",
+      "texto": "- [Pylos, Messenia](lugares:pylos-messenia)\n- [Sphaktēria, Messenia](lugares:sphakteria-messenia)\n- [Costa de Triphylia, Messenia](lugares:costa-de-triphylia-messenia)\n- [Methônē, Messenia (Metone)](lugares:methone-messenia)\n- [Phārai, Messenia (Feras)](lugares:pharai-messenia)\n- [Akritas, Messenia](lugares:akritas-messenia)\n- [Kolpos Messeniakos](lugares:kolpos-messeniakos)",
+      "refs": [
+        {
+          "tana": "5JoHY4arbOeE",
+          "nombre": "Pylos, Messenia",
+          "col": "lugares",
+          "id": "pylos-messenia"
+        },
+        {
+          "tana": "zoUbifgNqImr",
+          "nombre": "Sphaktēria, Messenia",
+          "col": "lugares",
+          "id": "sphakteria-messenia"
+        },
+        {
+          "tana": "uai_3KJ3iFXX",
+          "nombre": "Costa de Triphylia, Messenia",
+          "col": "lugares",
+          "id": "costa-de-triphylia-messenia"
+        },
+        {
+          "tana": "92gqXuV_khBP",
+          "nombre": "Methônē, Messenia (Metone)",
+          "col": "lugares",
+          "id": "methone-messenia"
+        },
+        {
+          "tana": "W2rnH5RjJvWO",
+          "nombre": "Phārai, Messenia (Feras)",
+          "col": "lugares",
+          "id": "pharai-messenia"
+        },
+        {
+          "tana": "7s47IkaImoQa",
+          "nombre": "Akritas, Messenia",
+          "col": "lugares",
+          "id": "akritas-messenia"
+        },
+        {
+          "tana": "bKEW700Q8C6w",
+          "nombre": "Kolpos Messeniakos",
+          "col": "lugares",
+          "id": "kolpos-messeniakos"
+        }
+      ]
+    },
+    {
+      "clave": "Montes y Rios",
+      "etiqueta": "Montes y Rios",
+      "texto": "- [Aigaleōs, Messenia](lugares:aigaleos-messenia)\n- [Ithômē, Messenia](lugares:ithome-messenia)\n- [Pamisos, Messenia](lugares:pamisos-messenia)",
+      "refs": [
+        {
+          "tana": "CX1Upt2Erqtz",
+          "nombre": "Aigaleōs, Messenia",
+          "col": "lugares",
+          "id": "aigaleos-messenia"
+        },
+        {
+          "tana": "mgQnUvJhmqLo",
+          "nombre": "Ithômē, Messenia",
+          "col": "lugares",
+          "id": "ithome-messenia"
+        },
+        {
+          "tana": "FiHIUSPurM1R",
+          "nombre": "Pamisos, Messenia",
+          "col": "lugares",
+          "id": "pamisos-messenia"
+        }
+      ]
+    },
+    {
+      "clave": "Agropecuaria",
+      "etiqueta": "Agropecuaria",
+      "texto": "[Makaria, Messenia](lugares:makaria-messenia)",
+      "refs": [
+        {
+          "tana": "JutN4-BW00eg",
+          "nombre": "Makaria, Messenia",
+          "col": "lugares",
+          "id": "makaria-messenia"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Chora"
+  ],
+  "pertenece_a": []
+}

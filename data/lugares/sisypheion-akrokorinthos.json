@@ -1,0 +1,35 @@
+{
+  "id": "sisypheion-akrokorinthos",
+  "tana_id": "VzF63aYbN0UP",
+  "nombre": "Sisypheion, Akrokórinthos",
+  "nombre_alt": null,
+  "titulo_tana": "Sisypheion, Akrokórinthos",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "Monumento emblemático",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Estrabón 8.6.21 lo describe como templo o palacio de mármol blanco, cerca del santuario de Afrodita. Su fecha es indeterminada. ○",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- **Descripción:** Estrabón 8.6.21 lo describe como templo o palacio de mármol blanco, cerca del santuario de Afrodita. Su fecha es indeterminada. ○"
+    }
+  ],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

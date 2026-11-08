@@ -1,0 +1,58 @@
+{
+  "id": "antiope",
+  "tana_id": "UTGK2BMCYuXm",
+  "nombre": "Antiopē",
+  "nombre_alt": "Antiope",
+  "titulo_tana": "Antiopē (Antiope)",
+  "etiquetas_tana": [
+    "nymphe"
+  ],
+  "imagen": null,
+  "padres": {
+    "texto": "- Nykteus (Nicteo) Rey de Tebas, hijo del Esparto [Chthonios (Ctonio)](entes:chthonios)\n- [Polyxō (Polixo)](entes:polyxo)",
+    "refs": [
+      {
+        "tana": "qloc8EaVMAkU",
+        "nombre": "Nykteus (Nicteo)](tana:opznqsSCmqyI) Rey de Tebas, hijo del Esparto [Chthonios (Ctonio)",
+        "col": "entes",
+        "id": "chthonios"
+      },
+      {
+        "tana": "StjiqxZBzFgy",
+        "nombre": "Polyxō (Polixo)",
+        "col": "entes",
+        "id": "polyxo"
+      }
+    ]
+  },
+  "asociaciones": {
+    "texto": "hermana de [Nykteis (Nictide)](entes:nykteis) esposa de [Polydōros (Polidoro)](entes:polydoros) hijo de [Kadmos = Cadmo](entes:kadmos)",
+    "refs": [
+      {
+        "tana": "uEMNQyvuhRJL",
+        "nombre": "Nykteis (Nictide)",
+        "col": "entes",
+        "id": "nykteis"
+      },
+      {
+        "tana": "eAFe1Ua-u0TX",
+        "nombre": "Polydōros (Polidoro)",
+        "col": "entes",
+        "id": "polydoros"
+      },
+      {
+        "tana": "4Nz3g5lg19BR",
+        "nombre": "Kadmos = Cadmo",
+        "col": "entes",
+        "id": "kadmos"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

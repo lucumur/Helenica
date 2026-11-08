@@ -1,0 +1,24 @@
+{
+  "id": "autolykos",
+  "tana_id": "-a45JRkDB8LL",
+  "nombre": "Autolykos",
+  "nombre_alt": "Autolico",
+  "titulo_tana": "Autolykos / Autolico",
+  "etiquetas_tana": [
+    "O"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "contenido_en": {
+    "tana": "DCsfLn7ATClf",
+    "nombre": "Entrenamiento de Heracles Efebo",
+    "col": "eventos",
+    "id": "entrenamiento-de-heracles-efebo"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "aigiplanktos-pico-del-faro-peiraion",
+  "tana_id": "F-DTbwEAhEGf",
+  "nombre": "Aigiplanktos (Pico del Faro), Peiraion",
+  "nombre_alt": null,
+  "titulo_tana": "Aigiplanktos (Pico del Faro), Peiraion",
+  "etiquetas_tana": [
+    "oros"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Monte"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "slhLmjZQBFmM",
+    "nombre": "Peiraion, Korinthia (850ac - 146ac)",
+    "col": "lugares",
+    "id": "peiraion-korinthia"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "colonia-olynthos-mercyberna-puerto-en-la-costa",
+  "tana_id": "FqpbeEs_h5KF",
+  "nombre": "(Colonia Olynthos) Mercyberna: Puerto en la Costa",
+  "nombre_alt": null,
+  "titulo_tana": "(Colonia Olynthos) Mercyberna: Puerto en la Costa",
+  "etiquetas_tana": [
+    "Lugar",
+    "sub-un"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "H🏘️",
+      "etiqueta": "Habitantes",
+      "texto": "Poblacion aprox 200-400 habitantes",
+      "refs": []
+    },
+    {
+      "clave": "S🀄",
+      "etiqueta": "Símbolos",
+      "texto": "- Comercio Maritimo\n- Pesca\n- Conexion Egeo-Eubea",
+      "refs": []
+    },
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Puerto Maritimo",
+      "refs": [
+        {
+          "tana": "eY81NJeal1Ob",
+          "nombre": "Puerto Maritimo"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Subunidad"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "HcaGQBfC_sLV",
+    "nombre": "Olynthos - Colonia Calcidica (750-500aC)",
+    "col": "lugares",
+    "id": "olynthos-colonia-calcidica"
+  }
+}

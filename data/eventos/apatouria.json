@@ -1,0 +1,70 @@
+{
+  "id": "apatouria",
+  "tana_id": "mGSoPS3j4eMP",
+  "nombre": "Apatouria",
+  "nombre_alt": "Festival de Ingreso al Fratrion",
+  "titulo_tana": "Apatouria = Festival de Ingreso al Fratrion",
+  "etiquetas_tana": [
+    "Evento"
+  ],
+  "imagen": null,
+  "tipo_tana": {
+    "texto": "Celebracion",
+    "refs": [
+      {
+        "tana": "LA0VcJpv0Rry",
+        "nombre": "Celebracion"
+      }
+    ]
+  },
+  "descripcion": {
+    "texto": "Fiesta comun para todos los Jonios donde los jovenes de 16 años eran introducidos a la fratria del padre, adquiriendo el status de _fratores_",
+    "refs": []
+  },
+  "agentes_activos": {
+    "texto": "- [Jonios](entes:jonios)\n- [Efeboi = Adolescentes](entes:efeboi)",
+    "refs": [
+      {
+        "tana": "c2my3rSISmgG",
+        "nombre": "Jonios",
+        "col": "entes",
+        "id": "jonios"
+      },
+      {
+        "tana": "tHjsttmbdZRa",
+        "nombre": "Efeboi = Adolescentes",
+        "col": "entes",
+        "id": "efeboi"
+      }
+    ]
+  },
+  "cuando": {
+    "texto": "al cumplir 16 años, en el mes de pyanepsion = Octubre-Noviembre (mes de las habas)",
+    "refs": [
+      {
+        "tana": "i7SOGU0jDacO",
+        "nombre": "pyanepsion = Octubre-Noviembre (mes de las habas)"
+      }
+    ]
+  },
+  "elementos": {
+    "texto": "- dorpía = primer dia de Apatouria (lit. \"merienda\")\n- anarrysis = segundo dia de Apatouria (lit. remiendos)\n- koureōtis = tercer dia de Apatouria (lit. Corte de pelo)",
+    "refs": [
+      {
+        "tana": "3gHxacG6jsIC",
+        "nombre": "dorpía = primer dia de Apatouria (lit. \"merienda\")"
+      },
+      {
+        "tana": "QCq7lcBQEqIZ",
+        "nombre": "anarrysis = segundo dia de Apatouria (lit. remiendos)"
+      },
+      {
+        "tana": "zya2qgVw8VK4",
+        "nombre": "koureōtis = tercer dia de Apatouria (lit. Corte de pelo)"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipo": "Festividad / rito"
+}

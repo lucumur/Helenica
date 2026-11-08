@@ -1,0 +1,30 @@
+{
+  "id": "larisa-argos",
+  "tana_id": "wtXvEoQb0UEy",
+  "nombre": "Larisa, Argos",
+  "nombre_alt": "Ciudadela",
+  "titulo_tana": "Larisa, Argos (Ciudadela)",
+  "etiquetas_tana": [
+    "Lugar"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Ciudadela",
+      "refs": []
+    },
+    {
+      "clave": "H🔼",
+      "etiqueta": "Pertenece a",
+      "texto": "Argos, Argolis (Polis)",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Lugar"
+  ],
+  "pertenece_a": []
+}

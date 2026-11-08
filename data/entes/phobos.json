@@ -1,0 +1,19 @@
+{
+  "id": "phobos",
+  "tana_id": "gBFrzc_Opmc8",
+  "nombre": "Phobos",
+  "nombre_alt": "Fobos",
+  "titulo_tana": "Phobos (Fobos)",
+  "etiquetas_tana": [
+    "Deidad",
+    "O"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

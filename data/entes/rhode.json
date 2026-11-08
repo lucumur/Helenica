@@ -1,0 +1,29 @@
+{
+  "id": "rhode",
+  "tana_id": "4sx2panHTiR6",
+  "nombre": "Rhodē",
+  "nombre_alt": "Rode",
+  "titulo_tana": "Rhodē = Rode",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

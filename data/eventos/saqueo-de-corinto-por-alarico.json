@@ -1,0 +1,27 @@
+{
+  "id": "saqueo-de-corinto-por-alarico",
+  "tana_id": "PiZGoNFwwm66",
+  "nombre": "Saqueo de Corinto por Alarico",
+  "nombre_alt": null,
+  "titulo_tana": "Saqueo de Corinto por Alarico",
+  "etiquetas_tana": [
+    "Evento"
+  ],
+  "imagen": null,
+  "tipo_tana": {
+    "texto": "Evento destructivo",
+    "refs": [
+      {
+        "tana": "C3FvQerkgQNV",
+        "nombre": "Evento destructivo"
+      }
+    ]
+  },
+  "cuando": {
+    "texto": "396 dC",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "tipo": "Histórico"
+}

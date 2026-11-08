@@ -1,0 +1,30 @@
+{
+  "id": "basilica-juliana-corinto-reconstruida",
+  "tana_id": "iuhKOO4OW_pO",
+  "nombre": "Basilica Juliana, Corinto Reconstruida",
+  "nombre_alt": null,
+  "titulo_tana": "Basilica Juliana, Corinto Reconstruida",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "Judicial - Administrativa",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Basilica del Foro",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

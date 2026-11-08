@@ -1,0 +1,39 @@
+{
+  "id": "diomedes",
+  "tana_id": "PdvJd03SWAnd",
+  "nombre": "Diomedes",
+  "nombre_alt": "Diomedes",
+  "titulo_tana": "Diomedes = Diomedes",
+  "etiquetas_tana": [
+    "O",
+    "Regio",
+    "M"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "- Dios Tracio\n- Nobleza",
+    "refs": [
+      {
+        "tana": "u9W5vhLQDoVW",
+        "nombre": "Dios Tracio"
+      },
+      {
+        "tana": "0TjIgPdjRUql",
+        "nombre": "Nobleza"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Realeza"
+  ],
+  "genero": "M",
+  "cultura": "Helénica",
+  "contenido_en": {
+    "tana": "oeK-2LuuP50o",
+    "nombre": "Diomedes (Rey de Tracia)",
+    "col": "entes",
+    "id": "diomedes-2"
+  }
+}

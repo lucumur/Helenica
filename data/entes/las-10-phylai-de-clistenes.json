@@ -1,0 +1,25 @@
+{
+  "id": "las-10-phylai-de-clistenes",
+  "tana_id": "CXU4xQJgPn5r",
+  "nombre": "Las 10 phylai de Clistenes",
+  "nombre_alt": null,
+  "titulo_tana": "Las 10 phylai de Clistenes",
+  "etiquetas_tana": [
+    "Grupo"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Derivados",
+      "etiqueta": "Derivados",
+      "texto": "- Erex8ea\n- Aigeia\n- Pandiona\n- Leontida\n- Axamantida\n- Ainea\n- Kekropida\n- Hypotontida\n- Aiantida\n- Antioxida",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Grupo"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

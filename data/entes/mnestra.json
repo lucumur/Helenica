@@ -1,0 +1,29 @@
+{
+  "id": "mnestra",
+  "tana_id": "7O-4a-ym9Fn1",
+  "nombre": "Mnestra",
+  "nombre_alt": "Mnestra",
+  "titulo_tana": "Mnestra = Mnestra",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

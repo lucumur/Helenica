@@ -1,0 +1,18 @@
+{
+  "id": "pegasos",
+  "tana_id": "Nd5BBlxchwU1",
+  "nombre": "Pēgasos",
+  "nombre_alt": "Pegaso",
+  "titulo_tana": "Pēgasos (Pegaso)",
+  "etiquetas_tana": [
+    "Bestia"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Bestia"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

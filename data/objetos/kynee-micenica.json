@@ -1,0 +1,46 @@
+{
+  "id": "kynee-micenica",
+  "tana_id": "FWGZD6LWnu-5",
+  "nombre": "Kynee Micenica",
+  "nombre_alt": "Casco",
+  "titulo_tana": "Kynee Micenica (Casco)",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-09-27T07%3A04%3A49.360Z-image.png?alt=media&token=73dc140c-6adb-42e6-99d5-23edf907b722",
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Cascos de Colmillo",
+      "refs": []
+    },
+    {
+      "clave": "M🪵",
+      "etiqueta": "Material",
+      "texto": "Piel de lobo o can, cubierta  de colmillos de jabali con remaches.",
+      "refs": []
+    },
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Armadura",
+      "refs": [
+        {
+          "tana": "DyK_R7RRd3QV",
+          "nombre": "Armadura"
+        }
+      ]
+    },
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "Eran marcadores de estatus aristocratico",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ]
+}

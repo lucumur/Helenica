@@ -1,0 +1,217 @@
+{
+  "id": "korinthia-peloponnesos",
+  "tana_id": "6y_4oapuM7G2",
+  "nombre": "Korinthia, Peloponnesos",
+  "nombre_alt": null,
+  "titulo_tana": "Korinthia, Peloponnesos",
+  "etiquetas_tana": [
+    "chora"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Region",
+      "etiqueta": "Region",
+      "texto": "Peloponnesos, Hellas",
+      "refs": [
+        {
+          "tana": "dRDfiiF3B11u",
+          "nombre": "Peloponnesos, Hellas"
+        }
+      ]
+    },
+    {
+      "clave": "Centro Principal",
+      "etiqueta": "Centro Principal",
+      "texto": "- [Qórinthos, Korinthia (Corinto)](lugares:qorinthos-korinthia)\n  - [Pylai Teneatikai (Puertas Teneaticas)](lugares:pylai-teneatikai)\n    - [🤰 Santuario de Eileithyia](lugares:santuario-de-eileithyia)\n  - [Pylai Kenchreatikai (Puertas de Cencreas)](lugares:pylai-kenchreatikai)\n  - [Pylai Sikyoniai (Puertas Sicionias)](lugares:pylai-sikyoniai)\n  - [Tumba de Diogenes el Cinico](lugares:tumba-de-diogenes-el-cinico)\n  - [Kraneion (Bosque de Cipreses), Kórinthos](lugares:kraneion-bosque-de-cipreses-korinthos)\n    - [♐ Témenos Bellerophontou](lugares:temenos-bellerophontou)\n      - Héroe domador de Pegaso\n    - [🚺 Templo de Aphroditē Melainís](lugares:templo-de-aphrodite-melainis)\n      - **Ubicación:** Γυάσιον (Craneum) - bosque de cipreses antes de la puerta\n      - Culto ctónico/oscuro de Afrodita (\"la Negra\")\n      - Ateneo, citando a Polemón, dice que Afrodita Melainis se apareció de noche a Laís\n  - [Agora, Kórinthos](lugares:agora-korinthos)\n    - Hacia el 500 a.C., el ágora de Corinto era un **espacio híbrido**: mercado, tribunal y cementerio sagrado. Los cultos a Belerofonte (en Pirene), a los hijos de Medea (en el túmulo del oeste) y a los fundadores ancestrales no requerían grandes templos, sino que se manifestaban a través de altares, estelas, _pinakes_ de terracota y ritos de libación.\n    - [Bouleuterion](lugares:bouleuterion) y [Prytaneion (Pritaneo)](lugares:prytaneion)\n    - [🪉Templo de Apollōn Pythios (Corinto)](lugares:templo-de-apollon-pythios)\n      - Colina del Templo, sobre el ágora\n      - Principal templo urbano, posiblemente el \"Templo de Alcmeónidas\"\n    - [🦉 Naos de Athēnē Chalinítis (Atenea la Frenadora), Corinto](lugares:naos-de-athene-chalinitis-atenea-la-frenadora-corinto)\n      - Atenea como domadora de Pegaso\n      - Junto al Teatro\n    - [Peirēnē (Fuente Pirene), Corinto](lugares:peirene-fuente-pirene-corinto)\n      - entrada a la ciudad, cerca del agora\n      - ninfa trasformada en fuente por llorar a su hijo [Kenchrias (Cencrias)](entes:kenchrias) , muerto por Artemisa\n      - Hacia el 500 a.C. ya era manantial monumentalizado. El mito la une a Belerofonte: en la descripción posterior el agua brota por el casco de Pegaso\n      - era un complejo de **patios abiertos, cámaras absidiales excavadas en la roca y pozos de extracción** (draw-wells) donde los esclavos y ciudadanos bajaban a llenar sus cántaros\n    - [Pinakes de Heroes Corintios en el Agora](lugares:pinakes-de-heroes-corintios-en-el-agora)\n    - [Mérmeros y Pherēs, Hijos de Medea](lugares:mermeros-y-pheres-hijos-de-medea)\n      - Cerca del área que posteriormente ocuparía el Odeón romano, en el flanco occidental del ágora.\n      - Según la tradición local corintia (recogida luego por Pausanias 2.3.6), Medea, tras ser repudiada por Jasón, envenenó a la princesa Glauce. Los corintios, en venganza, apedrearon hasta la muerte a los dos hijos de Medea y Jasón.\n  - [Orchestra (Espacio para Teatro)](lugares:orchestra)\n  - [Penteskouphia, Kórinthos (Barrio de Alfareros)](lugares:penteskouphia-korinthos)\n    - [🔱 Poseidón y Amphitrite, Penteskouphia (pinakes)](lugares:poseidon-y-amphitrite-penteskouphia)\n  - [Pozo de Glaukē](lugares:pozo-de-glauke)\n    - camino a Siciion.\n    - Glauce hija de Creonte se arrojó al pozo creyendo que el agua la curaria de los venenos de Medea.\n  - [Dromos de Corinto](lugares:dromos-de-corinto)\n    - aquí donde se celebraba la carrera de antorchas de las Hellotia\n- [Akrokórinthos, Korinthia (Acrocorinto)](lugares:akrokorinthos-korinthia)\n  - Roca Monolitica comparable a Gibraltar en dominio visual.\n  - [💐 Hestiatorion de Dēmēter y Korē, Akrokórinthos](lugares:hestiatorion-de-demeter-y-kore-akrokorinthos)\n  - [☀️ Bōmoi de Hawélios, Acrocorinto](lugares:bomoi-de-hawelios-acrocorinto)\n    - Hacia el 500 a.C., el culto a Helios persistía como una **reliquia sagrada pre-doria** de gran antigüedad, legitimada por estos altares abiertos, mientras que la inversión arquitectónica monumental de la _polis_ se concentraba en el Templo de Afrodita en la cima y el de Apolo en la ciudad baja.\n  - [♀️ Naós de Aphroditē Ouranía Hoplismenē, Akrokórinthos](lugares:naos-de-aphrodite-ourania-hoplismene-akrokorinthos)\n    - Afrodite Poliouchos\n    - El culto de Afrodita en Corinto era famoso (y más tarde notorio) por su carácter orientalizante.\n  - [🧜‍♂️ Peirēnē Anō (culto de Asopo)](lugares:peirene-ano)",
+      "refs": [
+        {
+          "tana": "0XxZ5RAWadzh",
+          "nombre": "Qórinthos, Korinthia (Corinto)",
+          "col": "lugares",
+          "id": "qorinthos-korinthia"
+        },
+        {
+          "tana": "dVkbszFyAwoN",
+          "nombre": "Akrokórinthos, Korinthia (Acrocorinto)",
+          "col": "lugares",
+          "id": "akrokorinthos-korinthia"
+        }
+      ]
+    },
+    {
+      "clave": "Rios y Montes",
+      "etiqueta": "Rios y Montes",
+      "texto": "- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-08-25T23%3A59%3A16.248Z-image.png?alt=media&token=c77e66fd-b2d9-4881-a8d1-3ccab9669d10)\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-09-04T19%3A32%3A12.656Z-image.png?alt=media&token=e7774e5d-69d3-415c-9afe-19261f1c05b1)\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-09-19T06%3A02%3A46.900Z-image.png?alt=media&token=87a96b48-1fda-4ff1-a99d-ee7ee910c87d)",
+      "refs": []
+    },
+    {
+      "clave": "H🏘️",
+      "etiqueta": "Habitantes",
+      "texto": "- ⚪ Sustrato Eolio, como historia de fundacion.\n- 🟡 Capa de Poblacion Doria, de hegemonia Heracleida: es polis doria de fundación tradicional ca. 750 aC bajo los Baquíadas, clan dórico unido que gobernó en los siglos VIII y VII aC reclamando descendencia Heraclida a través de los siete hijos y tres hijas de un legendario rey Baquis.\n- 🧝‍♂️Aristocracia: Esta élite poseía las mejores tierras de la _chora_ (especialmente en la llanura costera y los valles fértiles), dedicadas al cultivo de la vid, el olivo y la explotación de la arcilla para la famosa cerámica corintia, que dominaba los mercados mediterráneos en los siglos VII y VI aC.\n- Gobierno: Fase Post-Tiranica\n  - tras el colapso de la dinastía Cipsélida, se estableció un gobierno constitucional con ocho próbulos (magistrados ejecutivos) y un consejo de 80 hombres para gobernar en su lugar. Ahora es una oligarquía moderada de base ampliada, un sistema de magistraturas (probouloi) y consejo con base social más amplia que la aristocracia de sangre pura anterior.",
+      "refs": []
+    },
+    {
+      "clave": "H📜",
+      "etiqueta": "Historia y mito",
+      "texto": "- Efira (Ἐφύρη/Ἐφύρα), nombre pre-Corinto.\n  - El propio Homero usa el topónimo antiguo: Ilíada VI.152 ss. menciona Efira como sede de Sísifo/Glauco/Belerofonte.\n  - Sísifo fundó Éfira, promovió la navegación y el comercio, y engañó dos veces a la Muerte (encadenó a Tánatos y engañó a Hades). Como castigo, los dioses lo condenaron en el Hades a empujar eternamente una roca cuesta arriba.\n- [Ephyra (Efira)](entes:ephyra) aparece como oceánide personificada, la primera en habitar la tierra de las Efiras, que después se llamó Corinto.\n- [Peirenē (Pirene)](entes:peirene)\n- [Sísyphos (Sisifo)](entes:sisyphos) Hijo de [Aiolos (Eolo)](entes:aiolos) Fundador y primer Rey de Efira, fundando los Juegos Istmicos en honor de Melicertes, , cuyo cuerpo sin vida fue traído a la costa del Istmo de Corinto por un delfín.\n- [Bellerophôn (Belerofonte)](entes:bellerophon) , nieto de Sisifo, domó al caballo alado Pegado con ayuda de Atenea.\n- [Pēgasos (Pegaso)](entes:pegasos) Bestia mitica, de los vientos, caballo volador.",
+      "refs": [
+        {
+          "tana": "JggPWmejc1f5",
+          "nombre": "Ephyra (Efira)",
+          "col": "entes",
+          "id": "ephyra"
+        },
+        {
+          "tana": "EjFLEfoPjamY",
+          "nombre": "Peirenē (Pirene)",
+          "col": "entes",
+          "id": "peirene"
+        },
+        {
+          "tana": "JVeXVud4nIdz",
+          "nombre": "Sísyphos (Sisifo)",
+          "col": "entes",
+          "id": "sisyphos"
+        },
+        {
+          "tana": "SFb7XNVrpMYY",
+          "nombre": "Aiolos (Eolo)",
+          "col": "entes",
+          "id": "aiolos"
+        },
+        {
+          "tana": "dfrJ3pXK12ti",
+          "nombre": "Bellerophôn (Belerofonte)",
+          "col": "entes",
+          "id": "bellerophon"
+        },
+        {
+          "tana": "Nd5BBlxchwU1",
+          "nombre": "Pēgasos (Pegaso)",
+          "col": "entes",
+          "id": "pegasos"
+        }
+      ]
+    },
+    {
+      "clave": "O⚖️",
+      "etiqueta": "Organización y cultos",
+      "texto": "- Panteon Corintio\n  - [Akrokórinthos, Korinthia (Acrocorinto)](lugares:akrokorinthos-korinthia)\n    - **Culto:** ☀️ Culto Solar\n    - **Cultos:**\n      - [Culto Solar Corintio-Sicionio: El Linaje Solar Arcaico](eventos:culto-solar-corintio-sicionio-el-linaje-solar-arcaico)\n      - [Culto Solar Corintio](eventos:culto-solar-corintio)\n    - **Deidad:** [Ēélios (Helios, el Sol)](entes:eelios)\n  - [Qórinthos, Korinthia (Corinto)](lugares:qorinthos-korinthia)\n    - **Culto:** ☀️ Culto Solar\n    - **Cultos:**\n      - [Aloeus y Aietes: Linaje Solar de Fundadores](eventos:aloeus-y-aietes-linaje-solar-de-fundadores)\n      - [Culto Solar Corintio Completo](eventos:culto-solar-corintio-completo)\n  - [Sikyôn, Asopia (Polis)](lugares:sikyon-asopia)\n    - **Culto:** ☀️ Culto Solar\n    - **Deidad:** [Ēélios (Helios, el Sol)](entes:eelios)\n  -  [🦉 Naos de Athēnē Chalinítis (Atenea la Frenadora), Corinto](lugares:naos-de-athene-chalinitis-atenea-la-frenadora-corinto)\n    - **Culto:** 🐴 Culto Hipico\n    - **Deidad:**\n      - [Athānā Chalínitis (la de las Riendas), Corinto](eventos:athana-chalinitis-la-de-las-riendas-corinto)\n      - [Pēgasos (Pegaso)](entes:pegasos) (Inferido)\n  - Isthmos, Korinthia (Istmo)\n    - **Culto:**\n      - 🌊 Culto Marino\n      - ㊙️ Culto Misterico\n    - **Deidad:**\n      - [Poteidan Isthmios (Poseidon del Istmo)](entes:poteidan-isthmios)\n      - Inô (Imagen)\n      - Bellerophôn (Imagen)\n      - [Pēgasos (Pegaso)](entes:pegasos) Imagen\n    - **Cultos:**\n      - [Isthmia (Festividades)](eventos:isthmia)\n      - [Culto de Leucothea, Isthmia](eventos:culto-de-leucothea-isthmia)\n    - [👦 Témenos de Melikertēs Palaimōn, Isthmia](lugares:temenos-de-melikertes-palaimon-isthmia)\n    - [🔱 Naos de Poteidãn Isthmios, Isthmia](lugares:naos-de-poteidan-isthmios-isthmia)\n  - [Léchaion, Kórinthos (Lequeo)](lugares:lechaion-korinthos)\n    - **Culto:** 🌊 Culto Marino\n    - **Deidad:** [Poteidan Broncineo de Lechaion](objetos:poteidan-broncineo-de-lechaion)\n  - [Kenchreái, Kórinthos (Cencreas)](lugares:kenchreai-korinthos)\n    - **Culto:** 🌊 Culto Marino\n    - **Deidad:** [Poteidan Broncineo de Kenchreai](objetos:poteidan-broncineo-de-kenchreai)\n  - [Peiraion, Korinthia (850ac - 146ac)](lugares:peiraion-korinthia)\n    - **Culto:**\n      - 🌊 Culto Marino\n      - 👰 Culto Gamico\n    - **Deidad:**\n      - [Hēra Akráia (del Promontorio)](entes:hera-akraia)\n      - [Hēra Liménia (del Puerto)](entes:hera-limenia)\n    - [👰 Cabo del Hēraion, Peiraion](lugares:cabo-del-heraion-peiraion)\n  - [Penteskouphia, Kórinthos (Barrio de Alfareros)](lugares:penteskouphia-korinthos)\n  - [Akrokórinthos, Korinthia (Acrocorinto)](lugares:akrokorinthos-korinthia)\n    - **Culto:**\n      - ❤️‍🔥 Culto Erogeno\n      - ⚔️ Culto Belico\n    - **Deidad:**\n      - [Aphroditē Ourania Hoplismenē (La Celestial Armada) de Acrocorinto](objetos:aphrodite-ourania-hoplismene-la-celestial-armada-de-acrocori)\n      - [Eros con Arco (Agalma), Acrocorinto](objetos:eros-con-arco-agalma-acrocorinto)\n    - [Naos de Aphroditē, Akrokórinthos](lugares:naos-de-aphrodite-akrokorinthos)\n    - **Cultos:** [Afrodita Ourania consorte de Hawelios](eventos:afrodita-ourania-consorte-de-hawelios)\n  - [Agora, Kórinthos](lugares:agora-korinthos)\n  - [Kraneion (Bosque de Cipreses), Kórinthos](lugares:kraneion-bosque-de-cipreses-korinthos)\n    - **Culto:**\n      - ❤️‍🔥 Culto Erogeno\n      - 🪦 Culto Funerario\n    - **Deidad:**\n      - [Aphroditē Melainis (la Oscura) del Cranio de Corinto](entes:aphrodite-melainis-la-oscura-del-cranio-de-corinto)\n      - [Tumba de Lais (Hetaira Corintia)](lugares:tumba-de-lais)\n      - [Tumba de Bellerophôn](lugares:tumba-de-bellerophon)\n  - [Naos de Afrodita, Kenchreai](lugares:naos-de-afrodita-kenchreai)\n    - **Culto:** ❤️‍🔥 Culto Erogeno\n    - **Deidad:** [Aphroditē, Kenchreai (Agalma)](objetos:aphrodite-kenchreai)\n  - [Temenos de Belerofonte, Kraneion](lugares:temenos-de-belerofonte-kraneion)\n    - **Culto:** 🛡️ Culto Heroico\n    - **Deidad:** [Bellerophôn (Belerofonte)](entes:bellerophon)",
+      "refs": [
+        {
+          "tana": "dVkbszFyAwoN",
+          "nombre": "Akrokórinthos, Korinthia (Acrocorinto)",
+          "col": "lugares",
+          "id": "akrokorinthos-korinthia"
+        },
+        {
+          "tana": "0XxZ5RAWadzh",
+          "nombre": "Qórinthos, Korinthia (Corinto)",
+          "col": "lugares",
+          "id": "qorinthos-korinthia"
+        },
+        {
+          "tana": "XLYqPFSnZv6g",
+          "nombre": "Sikyôn, Asopia (Polis)",
+          "col": "lugares",
+          "id": "sikyon-asopia"
+        },
+        {
+          "tana": "MDE3I1gVb5jJ",
+          "nombre": "](tana:c4ZhQF8Tj_c_) [🦉 Naos de Athēnē Chalinítis (Atenea la Frenadora), Corinto",
+          "col": "lugares",
+          "id": "naos-de-athene-chalinitis-atenea-la-frenadora-corinto"
+        },
+        {
+          "tana": "G_iWPmVq4kV_",
+          "nombre": "Isthmos, Korinthia (Istmo)"
+        },
+        {
+          "tana": "UGSYtO0L0gGR",
+          "nombre": "Léchaion, Kórinthos (Lequeo)",
+          "col": "lugares",
+          "id": "lechaion-korinthos"
+        },
+        {
+          "tana": "m2wfFP4QVSnR",
+          "nombre": "Kenchreái, Kórinthos (Cencreas)",
+          "col": "lugares",
+          "id": "kenchreai-korinthos"
+        },
+        {
+          "tana": "slhLmjZQBFmM",
+          "nombre": "Peiraion, Korinthia (850ac - 146ac)",
+          "col": "lugares",
+          "id": "peiraion-korinthia"
+        },
+        {
+          "tana": "cSf8fO4EsfWN",
+          "nombre": "Penteskouphia, Kórinthos (Barrio de Alfareros)",
+          "col": "lugares",
+          "id": "penteskouphia-korinthos"
+        },
+        {
+          "tana": "pzFxYJPqi4Oz",
+          "nombre": "Agora, Kórinthos",
+          "col": "lugares",
+          "id": "agora-korinthos"
+        },
+        {
+          "tana": "96za2y7w17CN",
+          "nombre": "Kraneion (Bosque de Cipreses), Kórinthos",
+          "col": "lugares",
+          "id": "kraneion-bosque-de-cipreses-korinthos"
+        },
+        {
+          "tana": "-xvrru_1TkIz",
+          "nombre": "Naos de Afrodita, Kenchreai",
+          "col": "lugares",
+          "id": "naos-de-afrodita-kenchreai"
+        },
+        {
+          "tana": "KZMzw7aoDPMY",
+          "nombre": "Temenos de Belerofonte, Kraneion",
+          "col": "lugares",
+          "id": "temenos-de-belerofonte-kraneion"
+        }
+      ]
+    },
+    {
+      "clave": "S🧩",
+      "etiqueta": "Subunidades / partes",
+      "texto": "- Mapa\n  - Nucleo\n    - **S🧩:**\n      - [Léchaion, Kórinthos (Lequeo)](lugares:lechaion-korinthos)\n      - [Qórinthos, Korinthia (Corinto)](lugares:qorinthos-korinthia)\n      - [Akrokórinthos, Korinthia (Acrocorinto)](lugares:akrokorinthos-korinthia)\n    - **M🗺️:** [Kraneion (Bosque de Cipreses), Kórinthos](lugares:kraneion-bosque-de-cipreses-korinthos)\n  - Borde Sicionio\n    - **S🧩:**\n      - [Epieikeia, Borde Corintio](lugares:epieikeia-borde-corintio)\n      - [Templo Quemado de Helios, Borde Corintio](lugares:templo-quemado-de-helios-borde-corintio)\n  - Borde Argolide\n    - [Solygeia (Soligia)](lugares:solygeia)\n    - [Mausos (Mausos)](lugares:mausos)\n    - **S🧩:**\n      - [Ténea, Kórinthos (Tenea)](lugares:tenea-korinthos)\n      - [Penteskouphia, Kórinthos (Barrio de Alfareros)](lugares:penteskouphia-korinthos)\n      - [Kontoporeia, Corinto-Argos](lugares:kontoporeia-corinto-argos)\n  - Borde Saronico\n    - **S🧩:**\n      - [Kenchreái, Kórinthos (Cencreas)](lugares:kenchreai-korinthos)\n      - [Thermē de Helena, Kórinthos](lugares:therme-de-helena-korinthos)\n      - [Solygeia (Soligia)](lugares:solygeia)\n      - [Spiraion, Kórinthos (Puerto Desierto)](lugares:spiraion-korinthos)\n      - [Boukephalos, Sarōnikē](lugares:boukephalos-saronike)\n    - **M🗺️:**\n      - [Oros Solygeios (Soligio)](lugares:oros-solygeios)\n      - [Chersonesos, Kórinthos](lugares:chersonesos-korinthos)\n      - [Rheitos, Kórinthos](lugares:rheitos-korinthos)\n      - [Orē Oneia, Kórinthos](lugares:ore-oneia-korinthos)\n  - Region del Istmo\n    - **S🧩:**\n      - Isthmos, Korinthia (Istmo)\n      - [Skhoinoûs (Esqueno)](lugares:skhoinous)\n      - [Diolkos (via)](lugares:diolkos)\n      - [Hexamilion, Isthmia](lugares:hexamilion-isthmia)\n  - Region de Peraia\n    - **S🧩:**\n      - [Thermē (Terme)](lugares:therme)\n      - [👰 Cabo del Hēraion, Peiraion](lugares:cabo-del-heraion-peiraion)\n      - [Oinoē (Enoe)](lugares:oinoe)\n    - **M🗺️:**\n      - [Perachōra (Perajora)](lugares:perachora)\n      - [Orē Geraneia, Peiraia](lugares:ore-geraneia-peiraia)\n      - [Eschatiōtis, Peiraia (Lago)](lugares:eschatiotis-peiraia)\n      - [Holmiai, Peiraia](lugares:holmiai-peiraia)\n  - Region de Kromionia\n    - **S🧩:**\n      - [Krómmyōn (Cromión), Krommyonia](lugares:krommyon-cromion-krommyonia)\n      - [Sidous, Krommyonia](lugares:sidous-krommyonia)\n  - [Assai (Asas)](lugares:assai)",
+      "refs": [
+        {
+          "tana": "96za2y7w17CN",
+          "nombre": "Kraneion (Bosque de Cipreses), Kórinthos",
+          "col": "lugares",
+          "id": "kraneion-bosque-de-cipreses-korinthos"
+        },
+        {
+          "tana": "XtGUWwW5Nzu1",
+          "nombre": "Solygeia (Soligia)",
+          "col": "lugares",
+          "id": "solygeia"
+        },
+        {
+          "tana": "3__JMGT9CWTW",
+          "nombre": "Mausos (Mausos)",
+          "col": "lugares",
+          "id": "mausos"
+        },
+        {
+          "tana": "f1zDaavT7Zbe",
+          "nombre": "Assai (Asas)",
+          "col": "lugares",
+          "id": "assai"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Chora"
+  ],
+  "pertenece_a": []
+}

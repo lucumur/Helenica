@@ -1,0 +1,25 @@
+{
+  "id": "komoontes-axaioi",
+  "tana_id": "U8VwBNwG5Mbe",
+  "nombre": "komoōntes Axaiói",
+  "nombre_alt": "los Aqueos de Melenas Largas",
+  "titulo_tana": "komoōntes Axaiói = los Aqueos de Melenas Largas",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": null,
+  "contenido_en": {
+    "tana": "5wdhE6F2NQBA",
+    "nombre": "Axaioi = Aqueos",
+    "col": "entes",
+    "id": "axaioi"
+  }
+}

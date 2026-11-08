@@ -1,0 +1,28 @@
+{
+  "id": "aktaia",
+  "tana_id": "-JW6J8wt5ZGj",
+  "nombre": "Aktaia",
+  "nombre_alt": "Actea",
+  "titulo_tana": "Aktaia = Actea",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "descripcion": {
+    "texto": "\"La Costeña\"",
+    "refs": []
+  },
+  "especie": {
+    "texto": "Ninfa",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

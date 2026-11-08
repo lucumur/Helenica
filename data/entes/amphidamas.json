@@ -1,0 +1,20 @@
+{
+  "id": "amphidamas",
+  "tana_id": "au6X3yAi-RJD",
+  "nombre": "Amphidamas",
+  "nombre_alt": "Rey de Arcadia",
+  "titulo_tana": "Amphidamas (Rey de Arcadia)",
+  "etiquetas_tana": [
+    "M",
+    "Regio",
+    "O"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Realeza"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "medeia",
+  "tana_id": "U8_7DB6U8aoN",
+  "nombre": "Medéia",
+  "nombre_alt": "Medea",
+  "titulo_tana": "Medéia (Medea)",
+  "etiquetas_tana": [
+    "F"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

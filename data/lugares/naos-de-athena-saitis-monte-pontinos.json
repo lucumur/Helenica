@@ -1,0 +1,30 @@
+{
+  "id": "naos-de-athena-saitis-monte-pontinos",
+  "tana_id": "iAmn4_vN8sgG",
+  "nombre": "Naos de Athēna Saitis, Monte Pontinos",
+  "nombre_alt": "Templo",
+  "titulo_tana": "Naos de Athēna Saitis, Monte Pontinos (Templo)",
+  "etiquetas_tana": [
+    "Lugar"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "A sanctuary atop mount Pontinos (near Lerna) mentioned by Pausanias as a ruin in his day. Its precise location cannot be determined today.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Lugar"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "e30B_D73-DJ3",
+    "nombre": "Lerna, Argolis (Region)",
+    "col": "lugares",
+    "id": "lerna-argolis-2"
+  }
+}

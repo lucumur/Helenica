@@ -1,0 +1,52 @@
+{
+  "id": "bomoi-de-hawelios-acrocorinto",
+  "tana_id": "LlTaiFAfJJuF",
+  "nombre": "Bōmoi de Hawélios, Acrocorinto",
+  "nombre_alt": null,
+  "titulo_tana": "Bōmoi de Hawélios, Acrocorinto",
+  "etiquetas_tana": [
+    "hieron"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "- Culto al aire libre, sin arquitectura:\n- **altares de ceniza y piedra, un árbol, el manantial**.",
+      "refs": []
+    },
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "Culto Solar",
+      "refs": []
+    },
+    {
+      "clave": "P⏩",
+      "etiqueta": "Sucesor",
+      "texto": "[☀️ Bōmoi de Hawélios, Acrocorinto (Arcaico)](lugares:bomoi-de-hawelios-acrocorinto-2)",
+      "refs": [
+        {
+          "tana": "xbzHgSLG6liE",
+          "nombre": "☀️ Bōmoi de Hawélios, Acrocorinto (Arcaico)",
+          "col": "lugares",
+          "id": "bomoi-de-hawelios-acrocorinto-2"
+        }
+      ]
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- ****: Altares al aire libre, plural, **sin templo, sin témenos, sin sacerdocio mencionado**"
+    },
+    {
+      "titulo": "Historia:",
+      "texto": "- En el horizonte geométrico eran altares de ceniza y piedra al aire libre, vinculados al arbitraje de Briareo y a la asignación de la cumbre a Hélios. ◐\n- En época arcaica continuaron sin monumentalizarse: culto genealógico-territorial que legitimaba un derecho, no una congregación. ◐\n- En el siglo II d. C. seguían siendo altares; nunca llegaron a monumentalizarse. ⬤"
+    }
+  ],
+  "tipos": [
+    "Santuario"
+  ],
+  "pertenece_a": []
+}

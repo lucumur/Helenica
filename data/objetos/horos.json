@@ -1,0 +1,17 @@
+{
+  "id": "horos",
+  "tana_id": "JAdDa8AgaWze",
+  "nombre": "Horos",
+  "nombre_alt": "Hito",
+  "titulo_tana": "Horos = Hito",
+  "etiquetas_tana": [
+    "Objeto",
+    "griego"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ]
+}

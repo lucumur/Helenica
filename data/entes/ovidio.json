@@ -1,0 +1,19 @@
+{
+  "id": "ovidio",
+  "tana_id": "MMsUAgDIbUYP",
+  "nombre": "Ovidio",
+  "nombre_alt": null,
+  "titulo_tana": "Ovidio",
+  "etiquetas_tana": [
+    "Escritor",
+    "M"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Autor"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

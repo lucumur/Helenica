@@ -1,0 +1,19 @@
+{
+  "id": "nike",
+  "tana_id": "Rnrb0jKi7WXR",
+  "nombre": "Nike",
+  "nombre_alt": "Victoria",
+  "titulo_tana": "Nike (Victoria)",
+  "etiquetas_tana": [
+    "Deidad",
+    "O"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

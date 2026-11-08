@@ -1,0 +1,24 @@
+{
+  "id": "apollon-iatromantis",
+  "tana_id": "NK04S1o0PkO8",
+  "nombre": "Apollon Iatromantis",
+  "nombre_alt": "Medico y Profeta",
+  "titulo_tana": "Apollon Iatromantis = Medico y Profeta",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "9OYZLA3QegGP",
+    "nombre": "Apollôn",
+    "col": "entes",
+    "id": "apollon"
+  }
+}

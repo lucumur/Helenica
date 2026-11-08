@@ -1,0 +1,149 @@
+{
+  "id": "hieron-de-demeter-en-acrocorinto",
+  "tana_id": "1qDjWWHJQWX-",
+  "nombre": "Hieron de Demeter en Acrocorinto",
+  "nombre_alt": null,
+  "titulo_tana": "Hieron de Demeter en Acrocorinto",
+  "etiquetas_tana": [
+    "hieron"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Santuario continuo de Dēmētēr y Korē en la ladera N: Fase 0 oikoi pre-cultuales → I-II témenos votivo y oikoi arcaicos → III complejo de hestiatoria → IV templo con propileo → V tres naoi para Neotera → VI cementerio tardorromano (abandono cultual post-Alarico 396).",
+      "refs": []
+    },
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "De habitación/banquete no religioso a culto ctónico comensal (pico Fase III), luego formalización, reducción privada y finalmente uso funerario.",
+      "refs": []
+    },
+    {
+      "clave": "L🗺️",
+      "etiqueta": "Ubicación",
+      "texto": "[Akrokórinthos, Korinthia (Acrocorinto)](lugares:akrokorinthos-korinthia)",
+      "refs": [
+        {
+          "tana": "dVkbszFyAwoN",
+          "nombre": "Akrokórinthos, Korinthia (Acrocorinto)",
+          "col": "lugares",
+          "id": "akrokorinthos-korinthia"
+        }
+      ]
+    },
+    {
+      "clave": "S🧩",
+      "etiqueta": "Subunidades / partes",
+      "texto": "- [Oikoi Pre-Cultuales, Acrocorinto (Fase 0)](lugares:oikoi-pre-cultuales-acrocorinto)\n- [🌿 Temenos Votivo y Oikoi Arcaicos de Dēmētēr, Acrocorinto (Fase I-II)](lugares:temenos-votivo-y-oikoi-arcaicos-de-demeter-acrocorinto)\n- [🌾🍽️ Complejo de Hestiatoria de Dēmētēr y Korē, Acrocorinto (Fase III)](lugares:complejo-de-hestiatoria-de-demeter-y-kore-acrocorinto)\n- [🌾 Templo con Propileo de Dēmētēr y Korē, Acrocorinto (Fase IV)](lugares:templo-con-propileo-de-demeter-y-kore-acrocorinto)\n- [⛩️ Santuario de los Tres Naoi para Neotera, Acrocorinto (Fase V)](lugares:santuario-de-los-tres-naoi-para-neotera-acrocorinto)\n- [Cementerio Tardorromano, Acrocorinto (Fase VI)](lugares:cementerio-tardorromano-acrocorinto)",
+      "refs": [
+        {
+          "tana": "3bHuXhxEaCNM",
+          "nombre": "Oikoi Pre-Cultuales, Acrocorinto (Fase 0)",
+          "col": "lugares",
+          "id": "oikoi-pre-cultuales-acrocorinto"
+        },
+        {
+          "tana": "w0SKUGycA4T5",
+          "nombre": "🌿 Temenos Votivo y Oikoi Arcaicos de Dēmētēr, Acrocorinto (Fase I-II)",
+          "col": "lugares",
+          "id": "temenos-votivo-y-oikoi-arcaicos-de-demeter-acrocorinto"
+        },
+        {
+          "tana": "XhT00IXx2zyJ",
+          "nombre": "🌾🍽️ Complejo de Hestiatoria de Dēmētēr y Korē, Acrocorinto (Fase III)",
+          "col": "lugares",
+          "id": "complejo-de-hestiatoria-de-demeter-y-kore-acrocorinto"
+        },
+        {
+          "tana": "lWwC8jAuvY1b",
+          "nombre": "🌾 Templo con Propileo de Dēmētēr y Korē, Acrocorinto (Fase IV)",
+          "col": "lugares",
+          "id": "templo-con-propileo-de-demeter-y-kore-acrocorinto"
+        },
+        {
+          "tana": "31xAbDBu8FMV",
+          "nombre": "⛩️ Santuario de los Tres Naoi para Neotera, Acrocorinto (Fase V)",
+          "col": "lugares",
+          "id": "santuario-de-los-tres-naoi-para-neotera-acrocorinto"
+        },
+        {
+          "tana": "BaSukTQjPwyS",
+          "nombre": "Cementerio Tardorromano, Acrocorinto (Fase VI)",
+          "col": "lugares",
+          "id": "cementerio-tardorromano-acrocorinto"
+        }
+      ]
+    },
+    {
+      "clave": "H🔼",
+      "etiqueta": "Pertenece a",
+      "texto": "[💐 Hestiatorion de Dēmēter y Korē, Akrokórinthos](lugares:hestiatorion-de-demeter-y-kore-akrokorinthos)",
+      "refs": [
+        {
+          "tana": "YNDSmiN66s_h",
+          "nombre": "💐 Hestiatorion de Dēmēter y Korē, Akrokórinthos",
+          "col": "lugares",
+          "id": "hestiatorion-de-demeter-y-kore-akrokorinthos"
+        }
+      ]
+    },
+    {
+      "clave": "H📈",
+      "etiqueta": "Historia",
+      "texto": "- Historia del Hieron de Demeter\n  - [Oikoi Pre-Cultuales, Acrocorinto (Fase 0)](lugares:oikoi-pre-cultuales-acrocorinto)\n  - [🌿 Temenos Votivo y Oikoi Arcaicos de Dēmētēr, Acrocorinto (Fase I-II)](lugares:temenos-votivo-y-oikoi-arcaicos-de-demeter-acrocorinto)\n  - [🌾🍽️ Complejo de Hestiatoria de Dēmētēr y Korē, Acrocorinto (Fase III)](lugares:complejo-de-hestiatoria-de-demeter-y-kore-acrocorinto)\n  - [🌾 Templo con Propileo de Dēmētēr y Korē, Acrocorinto (Fase IV)](lugares:templo-con-propileo-de-demeter-y-kore-acrocorinto)\n  - [⛩️ Santuario de los Tres Naoi para Neotera, Acrocorinto (Fase V)](lugares:santuario-de-los-tres-naoi-para-neotera-acrocorinto)\n    - **F⚙️:** Culto ctónico reducido y privado\n    - **D📝:** Elementos: tres naiskoi jónicos en terraza superior; suelo de mosaico con inscripciones y objetos votivos; tablillas mágicas de plomo (defixiones; uso ritual de «magia»?)\n  - [Cementerio Tardorromano, Acrocorinto (Fase VI)](lugares:cementerio-tardorromano-acrocorinto)\n    - **F⚙️:** Uso funerario\n    - **D📝:** Elementos: necrópolis; abandono cultual después de Alarico (396)",
+      "refs": [
+        {
+          "tana": "3bHuXhxEaCNM",
+          "nombre": "Oikoi Pre-Cultuales, Acrocorinto (Fase 0)",
+          "col": "lugares",
+          "id": "oikoi-pre-cultuales-acrocorinto"
+        },
+        {
+          "tana": "w0SKUGycA4T5",
+          "nombre": "🌿 Temenos Votivo y Oikoi Arcaicos de Dēmētēr, Acrocorinto (Fase I-II)",
+          "col": "lugares",
+          "id": "temenos-votivo-y-oikoi-arcaicos-de-demeter-acrocorinto"
+        },
+        {
+          "tana": "XhT00IXx2zyJ",
+          "nombre": "🌾🍽️ Complejo de Hestiatoria de Dēmētēr y Korē, Acrocorinto (Fase III)",
+          "col": "lugares",
+          "id": "complejo-de-hestiatoria-de-demeter-y-kore-acrocorinto"
+        },
+        {
+          "tana": "lWwC8jAuvY1b",
+          "nombre": "🌾 Templo con Propileo de Dēmētēr y Korē, Acrocorinto (Fase IV)",
+          "col": "lugares",
+          "id": "templo-con-propileo-de-demeter-y-kore-acrocorinto"
+        },
+        {
+          "tana": "31xAbDBu8FMV",
+          "nombre": "⛩️ Santuario de los Tres Naoi para Neotera, Acrocorinto (Fase V)",
+          "col": "lugares",
+          "id": "santuario-de-los-tres-naoi-para-neotera-acrocorinto"
+        },
+        {
+          "tana": "BaSukTQjPwyS",
+          "nombre": "Cementerio Tardorromano, Acrocorinto (Fase VI)",
+          "col": "lugares",
+          "id": "cementerio-tardorromano-acrocorinto"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Santuario"
+  ],
+  "pertenece_a": [
+    {
+      "tana": "YNDSmiN66s_h",
+      "nombre": "💐 Hestiatorion de Dēmēter y Korē, Akrokórinthos",
+      "col": "lugares",
+      "id": "hestiatorion-de-demeter-y-kore-akrokorinthos"
+    }
+  ]
+}

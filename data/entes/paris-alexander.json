@@ -1,0 +1,88 @@
+{
+  "id": "paris-alexander",
+  "tana_id": "C92fsAq4VDrJ",
+  "nombre": "Paris Alexander",
+  "nombre_alt": "Alejandro de Troya",
+  "titulo_tana": "Paris Alexander = Alejandro de Troya",
+  "etiquetas_tana": [
+    "O",
+    "Regio",
+    "M"
+  ],
+  "imagen": null,
+  "atributos": {
+    "texto": "- Lideraba a los Troyanos en el campo de batalla\n  - Il.3.16 Τρωσὶν μὲν προμάχιζεν Ἀλέξανδρος θεοειδὴς\n- Desafiaba a los mejores Argivos blandiendo su espada en temible combate\n  - Il.3.19 πάλλων  Ἀργείων προκαλίζετο  πάντας ἀρίστους20ἀντίβιον  μαχέσασθαι ἐν αἰνῇ δηϊοτῆτι.",
+    "refs": [
+      {
+        "tana": "f8KgQd4Tt2kR",
+        "nombre": "Il.3.16 Τρωσὶν μὲν προμάχιζεν Ἀλέξανδρος θεοειδὴς"
+      },
+      {
+        "tana": "lniQzHkzMNz9",
+        "nombre": "Il.3.19 πάλλων Ἀργείων προκαλίζετο πάντας ἀρίστους20ἀντίβιον μαχέσασθαι ἐν αἰνῇ δηϊοτῆτι."
+      }
+    ]
+  },
+  "asociaciones": {
+    "texto": "- portando pardaléa = piel de leopardo en sus hombros\n  - Il.3.17   παρδαλέην ὤμοισιν ἔχων καὶ καμπύλα τόξα\n- portando toksa kámpyla = arco curvo\n  - Il.3.17 παρδαλέην ὤμοισιν ἔχων καὶ καμπύλα τόξα\n- portando dos lanzas empuntadas con bronce\n  - Il.3.18 καὶ ξίφος:  αὐτὰρ δοῦρε δύω κεκορυθμένα χαλκῷ",
+    "refs": [
+      {
+        "tana": "SUqpxqSkV-F8",
+        "nombre": "pardaléa = piel de leopardo"
+      },
+      {
+        "tana": "FCF3Kw6Niq5k",
+        "nombre": "Il.3.17 παρδαλέην ὤμοισιν ἔχων καὶ καμπύλα τόξα"
+      },
+      {
+        "tana": "J1LM_pPiLpl9",
+        "nombre": "toksa kámpyla = arco curvo"
+      },
+      {
+        "tana": "ADfwyPBZN2E1",
+        "nombre": "Il.3.18 καὶ ξίφος: αὐτὰρ δοῦρε δύω κεκορυθμένα χαλκῷ"
+      }
+    ]
+  },
+  "epitetos": {
+    "texto": "- [Aleksandros Theoeides = Alejandro el semajante a un Dios](entes:aleksandros-theoeides)\n- [Dysparis Eidos Aristos = Mal Paris Noble por Belleza](entes:dysparis-eidos-aristos)",
+    "refs": [
+      {
+        "tana": "HClJtowDMoe9",
+        "nombre": "Aleksandros Theoeides = Alejandro el semajante a un Dios",
+        "col": "entes",
+        "id": "aleksandros-theoeides"
+      },
+      {
+        "tana": "x1xmDJS2wbcL",
+        "nombre": "Dysparis Eidos Aristos = Mal Paris Noble por Belleza",
+        "col": "entes",
+        "id": "dysparis-eidos-aristos"
+      }
+    ]
+  },
+  "especie": {
+    "texto": "- Raza Troyana\n- Nobleza\n- Heroe",
+    "refs": [
+      {
+        "tana": "TgQC3fq0HLXF",
+        "nombre": "Raza Troyana"
+      },
+      {
+        "tana": "0TjIgPdjRUql",
+        "nombre": "Nobleza"
+      },
+      {
+        "tana": "fdfrmwQATZAR",
+        "nombre": "Heroe"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Realeza"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

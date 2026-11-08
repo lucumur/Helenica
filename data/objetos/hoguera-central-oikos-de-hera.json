@@ -1,0 +1,23 @@
+{
+  "id": "hoguera-central-oikos-de-hera",
+  "tana_id": "nRybHi8bP3xw",
+  "nombre": "Hoguera Central, Oikos de Hera",
+  "nombre_alt": null,
+  "titulo_tana": "Hoguera Central, Oikos de Hera",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "En el centro de la sala principal se encontró un gran **hogar o eschara** (fogón ritual). No era un altar exterior frente a una fachada, sino un fuego interno.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ]
+}

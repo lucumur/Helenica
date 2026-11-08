@@ -1,0 +1,35 @@
+{
+  "id": "aphrodite-ourania",
+  "tana_id": "0qosgWfrL9oQ",
+  "nombre": "Aphroditē Ourania",
+  "nombre_alt": "La Celestial",
+  "titulo_tana": "Aphroditē Ourania (La Celestial)",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "nacimiento": {
+    "texto": "Nacida de la espuma tras la castración de Urano (_Teog._ 188-206)",
+    "refs": []
+  },
+  "campos": [
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "Reina del cielo / soberanía astral (calco semítico)",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "5XM9zBiTodu_",
+    "nombre": "Aphroditē",
+    "col": "entes",
+    "id": "aphrodite"
+  }
+}

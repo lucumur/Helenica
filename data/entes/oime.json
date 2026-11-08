@@ -1,0 +1,29 @@
+{
+  "id": "oime",
+  "tana_id": "SZgvE0D-KFap",
+  "nombre": "Oimē",
+  "nombre_alt": "Eme",
+  "titulo_tana": "Oimē = Eme",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

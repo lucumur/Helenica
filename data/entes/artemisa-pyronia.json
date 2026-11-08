@@ -1,0 +1,24 @@
+{
+  "id": "artemisa-pyronia",
+  "tana_id": "yC9jr_OfYcMt",
+  "nombre": "Artemisa Pyronia",
+  "nombre_alt": null,
+  "titulo_tana": "Artemisa Pyronia",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "ClxufXBnr4Yy",
+    "nombre": "Artemis",
+    "col": "entes",
+    "id": "artemis"
+  }
+}

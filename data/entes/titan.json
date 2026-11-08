@@ -1,0 +1,18 @@
+{
+  "id": "titan",
+  "tana_id": "O-9Uo770IWd6",
+  "nombre": "Titãn",
+  "nombre_alt": "Titán",
+  "titulo_tana": "Titãn (Titán)",
+  "etiquetas_tana": [
+    "Deidad"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

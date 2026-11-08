@@ -1,0 +1,23 @@
+{
+  "id": "escudo-pelte",
+  "tana_id": "Onphif6saeUW",
+  "nombre": "Escudo Pelte",
+  "nombre_alt": null,
+  "titulo_tana": "Escudo Pelte",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-09-22T12%3A29%3A40.068Z-image.png?alt=media&token=ce234dd9-0810-49ab-8f29-abfc09946ff0",
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "The Pelte was lighter, around 2.8 feet across, and typically featured a wicker or wooden frame with goat or sheep hide. Without a metal rim, it allowed greater agility, especially in skirmishes and lighter formations.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ]
+}

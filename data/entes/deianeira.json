@@ -1,0 +1,70 @@
+{
+  "id": "deianeira",
+  "tana_id": "IFcCO4S_pIOH",
+  "nombre": "Deianeira",
+  "nombre_alt": "Deyanira",
+  "titulo_tana": "Deianeira = Deyanira",
+  "etiquetas_tana": [
+    "O",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "- Raza Etolia\n- Nobleza",
+    "refs": [
+      {
+        "tana": "H5LCw1SMvlxA",
+        "nombre": "Raza Etolia"
+      },
+      {
+        "tana": "0TjIgPdjRUql",
+        "nombre": "Nobleza"
+      }
+    ]
+  },
+  "cultura": "Helénica",
+  "padres": {
+    "texto": "- [Oineus = Eneo](entes:oineus)\n- [Althaea](entes:althaea)",
+    "refs": [
+      {
+        "tana": "LtuG0AoJ-aC_",
+        "nombre": "Oineus = Eneo",
+        "col": "entes",
+        "id": "oineus"
+      },
+      {
+        "tana": "7QJu4VxxkMPh",
+        "nombre": "Althaea",
+        "col": "entes",
+        "id": "althaea"
+      }
+    ]
+  },
+  "nacimiento": {
+    "texto": "Princesa del rey Eneo (divinidad fluvial) de  Calidón (Aetolia) y de Altaea. Hermana de Meleagro",
+    "refs": []
+  },
+  "hijos": {
+    "texto": "- Hyllos: pregriego\n- Ktēsippos: el que cria caballos\n- Glēnos: pregriego\n- Onitēs: pregriego\n- Makaria: bienaventurada (tradicion posterior) // se ofreció voluntariamente en sacrificio para salvar a sus hermanos ante Euristeo.",
+    "refs": []
+  },
+  "campos": [
+    {
+      "clave": "Vinculo",
+      "etiqueta": "Vinculo",
+      "texto": "- Segunda y Principal Esposa\n- Ganada en combate contra el dios-río Aqueloo, que competía por su mano.\n- Más tarde, al cruzar el Eveno, el centauro Neso intentó raptarla; Heracles lo mató con una flecha envenenada con la sangre de la Hidra. Neso, al morir, le dio a Deyanira su propia sangre como “filtro de amor”",
+      "refs": []
+    },
+    {
+      "clave": "Destino",
+      "etiqueta": "Destino",
+      "texto": "Causa involuntaria de la muerte de Heracles: engañada por Neso moribundo, empapa la túnica del héroe con su sangre envenenada creyendo que es filtro de amor contra el interés de Heracles por Íole",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": "F"
+}

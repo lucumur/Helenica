@@ -1,0 +1,30 @@
+{
+  "id": "asentamiento-de-aldeas-corinto-geometrica",
+  "tana_id": "on9RFVIyCvWD",
+  "nombre": "Asentamiento de aldeas, Corinto Geometrica",
+  "nombre_alt": null,
+  "titulo_tana": "Asentamiento de aldeas, Corinto Geometrica",
+  "etiquetas_tana": [
+    "Lugar"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Función",
+      "etiqueta": "Función",
+      "texto": "Habitacional",
+      "refs": []
+    },
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "Corinto temprana es un conjunto de núcleos dispersos alrededor de manantiales, antes de un centro unificado.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Lugar"
+  ],
+  "pertenece_a": []
+}

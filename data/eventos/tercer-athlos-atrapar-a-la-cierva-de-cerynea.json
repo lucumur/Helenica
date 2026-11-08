@@ -1,0 +1,107 @@
+{
+  "id": "tercer-athlos-atrapar-a-la-cierva-de-cerynea",
+  "tana_id": "WpBb2l06zZsT",
+  "nombre": "Tercer Athlos: Atrapar a la Cierva de Cerynea (Aquea)",
+  "nombre_alt": null,
+  "titulo_tana": "Tercer Athlos: Atrapar a la Cierva de Cerynea (Aquea)",
+  "etiquetas_tana": [
+    "Evento"
+  ],
+  "imagen": null,
+  "tipo_tana": {
+    "texto": "Mito",
+    "refs": []
+  },
+  "agentes_activos": {
+    "texto": "- [Hēraklēs (Hercules)](entes:herakles)\n- Ciervos Auricornes",
+    "refs": [
+      {
+        "tana": "viTfkThjup-A",
+        "nombre": "Hēraklēs (Hercules)",
+        "col": "entes",
+        "id": "herakles"
+      },
+      {
+        "tana": "AgXclUXtQ9_o",
+        "nombre": "Ciervos Auricornes"
+      }
+    ]
+  },
+  "donde": {
+    "texto": "- [Cerynitis, Achaia (Región)](lugares:cerynitis-achaia)\n- [Kerýneia, Achaia (Liga)](lugares:keryneia-achaia)\n- [Ladón, Arkadia](lugares:ladon-arkadia)\n- [Hyperborea, Asia](lugares:hyperborea-asia)",
+    "refs": [
+      {
+        "tana": "SZP3-9pITm9B",
+        "nombre": "Cerynitis, Achaia (Región)",
+        "col": "lugares",
+        "id": "cerynitis-achaia"
+      },
+      {
+        "tana": "4DEbWYN4-bUx",
+        "nombre": "Kerýneia, Achaia (Liga)",
+        "col": "lugares",
+        "id": "keryneia-achaia"
+      },
+      {
+        "tana": "PyKtG9R-D2a5",
+        "nombre": "Ladón, Arkadia",
+        "col": "lugares",
+        "id": "ladon-arkadia"
+      },
+      {
+        "tana": "qyu17oHDM3q1",
+        "nombre": "Hyperborea, Asia",
+        "col": "lugares",
+        "id": "hyperborea-asia"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Tercer Labor de Heracles: Atrapar con vida a la Cierva de Cuernos Dorados de Artemisa.",
+      "texto": "- Es posible que la leyenda de la Cierva con Astas se trate del Reno, animal desconocido en Grecia o el mundo helénico de aquel entonces, pero que igualmente es un gran cérvido cuyas hembras poseen cuernos. pues menciona el poeta Pindaro que viajó hasta Hiperborea para tratar de cazarla, una región mas al norte del viento Boreal que sería actualmente algun lugar cerca de Escandinavia, Rusia o Siberia.\n- El Mito contaba que la Cazadora Artemisa habia recibido como obsequio este rebaño de ciervos de la ninfa Taigete: Ciervos enormes, de astas de oro y piel moteada, de los cuales cuatro utilizaba para halar su carruaje, aunque habia otra más que habia escapado y vagaba suelta por las montañas de Cerinea, en Aquea.\n- En esta labor no se le pedía poseer una fuerza descomunal para lograrla, sino mas paciencia y sabiduria. Heracles estaba tardando más de un año en su deseo de atraparla sin hacerle daño, persiguiendola por todo el Peloponeso, intentando hacer que se cansara o cazarla dormida, hasta que terminó necesitando flecharla con su arco. Finalmente cuando el animal tomó refugio en el Monte Artemisio en Arcadia y de ahí cruzaba el río Ladón, al estar abrevando descuidada, Heracles alcanza a provocar una herida leve al animal, utilizando una flecha que se hizo pasar entre un tendon y el hueso, sin derramar sangre.\n- Artemisa y Apolo inmediatamente se dirigieron a el furiosos por tratar de matar a su animal sagrado. Heracles imploró necesidad y culpó a Eurystheus y sus peticiones, y le permitieron llevar el animal aun vivo a Mycenas.\n- Tras capturarla y llevarla ante Euristeo, Heracles no obtiene ningún objeto material como recompensa directa por completar esta tarea. Su objetivo principal era cumplir con los trabajos impuestos para purgar sus pecados y alcanzar la inmortalidad.\n- Aqui Píndaro señala que sí obtiene algo de este viaje: al pedir a los hiperbóreos alguna planta especial para compartir con los helenos, le dan una guirnalda de ramas grisaceas de olivo, las cuales planta en Olimpia y que, como original fundador de los Juegos Olimpicos, crea la tradición de coronar con una guirnalda de hojas de oliva a los ganadores de los athloi.\n- Un dato curioso es que en griego se decía igual \"athlos\" para llamar a las labores penitentes de Heracles, como los juegos deportivos. (como en español \"pruebas\")"
+    },
+    {
+      "titulo": null,
+      "texto": "- Cierva"
+    },
+    {
+      "titulo": "El Monstruo",
+      "texto": "- Era un Cérvido Enorme con astas doradas y pelaje moteado de los que criaba Artemisa para alar su carruaje, pero uno de ellos se había escapado y corría libremente por el Monte de Cerynea en Aquea."
+    },
+    {
+      "titulo": "Segun Apolodoro",
+      "texto": "- Su tercer labor era traer de vuelta con vida a la Cierva Auricorne de Cerinea, consagrada a Artemisa.\n- En su deseo de no matarla ni herirla, Herakles tardó mas de un año en atraparla. Finalmente el animal ya cansado del acecho tomó refugio en el Monte Artemisio y de ahí cruzó el río Ladón, ahí es donde Herakles trató de flecharlo.\n- Artemisa y Apolo se dirigieron a el furiososo por tratar de matar a su animal sagrado. Herakles imploró necesidad y culpó a Eurystheus, y llevó el animal aun vivo a Mycenas."
+    },
+    {
+      "titulo": "Segun el Himno de Kallímaxos",
+      "texto": "- Encontraste al pie del Monte Parrasio retozando al poderoso rebaño de venados. Siempre pastaban estos ciervos mas grandes que un buey en las orillas del Anauro de piedras negras, con sus cuernos dorados al sol. Te sorprendiste y te entró un sentimiento sadico, sería una captura digna de Artemisa. Eran Cinco en total, y los tomaste para tu veloz carruaje, pero uno escapó sobre el río Keladón, talvez por el deseo de Hera, y el Monte Cerineo la recibió. Desde cuanto tu equipo cornudo empezó a llevarte, Diosa?"
+    },
+    {
+      "titulo": "Segun Diodoro Siculo",
+      "texto": "- La siguiente labor que recibió Herakles fue llevar el ciervo de cuernos dorados que sobresalía por su velocidad. En la realización de este trabajo su sagacidad se impuso no mas que su fuerza corporal. Algunos dicen que lo capturó con redes, otros que lo capturó al estar dormido y otros que lo cansó haciendolo correr y correr. Lo que es cierto es que la completó por su sagacidad mental, sin uso de fuerza y sin sufrir riesgo alguno."
+    },
+    {
+      "titulo": "Segun Quintus Smyrnaeus IVDC",
+      "texto": "- El Venado de pies veloces que volvía los viñedos de los agricultores en desperdicio. Las manos del heroe tomaron con fuerza las astas doradas del animal, mientras exhalaba fuego de su aliento."
+    },
+    {
+      "titulo": "Segun Euripides",
+      "texto": "- Llegó en busqueda del venado de cuernos dorados, una tarea valiente y temible, cazandolo a traves de pantanos, montañas y pastizales donde rondaba el ganado."
+    },
+    {
+      "titulo": "Segun Pindaro",
+      "texto": "- Por comando de Euristeo, a causa de su padre, llevar el ciervo hembra de cuernos de oro, la que alguna vez Taugeta llevó a la Sacra Artemisa Orthosia. Y asi a la Tierra Danubia lo llevó su espiriu, alli la hija ecuestre de Letó lo recibia al llegar desde los rincones ocultos de la cordillera de multples lomos de Arkadia. vio, persiguiendola, la tierra posterior a los Vientos Boreales.\n- Pero la Tierra no florecia de follaje en las Colinas de Pelope Kronio:  El campo se veia desnudo, sujeto a los rayos agudos del Sol.\n- Heracles en su busqueda de la Bestia, penetró hasta los albores de la tierra conocida, pasando el frio invernal de Hyperborea"
+    },
+    {
+      "titulo": null,
+      "texto": "- Segun esta traduccion:\n- La cierva de Cerinea era un **animal muy audaz, ligero y de una gran velocidad** y  no había nadie capaz de cazar la cierva dada su velocidad. Hércules le tiro algunas flechas durante su persecución para intentar que cambiara de dirección, pero era incluso más rápida que las saetas arrojadas por Hércules.\n- **Hércules no podía dañarla pues sino de otro modo ofendería a la Diosa Artemisa**, así que tenía que acercarse a la cierva, lo cual no era permitido por el magnífico animal.\n- Así pasaron los días, luego las semanas y meses, Hércules estuvo la primavera, el verano, el otoño y el invierno tras la cierva de Cerinea. **Esta cierva huía con un simple crujir de hojas** bajo los pasos de Hércules y tenía muy buen oído, por lo que era muy escurridiza.\n- Esta persecución sin tregua origino que tanto **Hércules como la cierva estuvieran exhaustos**, por la multitud de kilómetros recorridos **sin apenas dormir durante meses**.\n- Tercer trabajo de Hercules\n- La cierva necesitaba aplacar su sed y aprovecho un estanque de agua clara que encontró para hacerlo, lo cual produjo **un momento de descuido que fue aprovechado por Hércules** para **lanzar una red que había ido contruyendo** en sus momentos de descanso y que a la postre fue definitiva porque la lanzo desde muy lejos para que la cierva no lo adviertiera.\n- Una vez alcanza la cierva intento zafarse, pero cuanto más se movía más quedaba atrapada en lo hilos de red y así tras un gran esfuerzo agotada se rindió y se dejó caer.\n- Hércules jubiloso, se acercó, le ato las patas y se **la subió a los hombros para iniciar el camino de vuelta a Micenas** a ver al rey Euristeo.\n- En ese mismo instante se le **apareció la diosa Artemisa junto a su hermano Apolo**, que con tono enfadado le pidió explicaciones de por qué maltrataba a su cierva. **Hércules arrodillado le conto su historia** y la diosa piadosa entendió sus motivos, y tras revisar que la cierva no tuviera daño **le permitió continuar con la condición** que luego de mostrarla al rey Euristeo **la pusiera de nuevo en libertad**.\n- Y así hizo Hércules tras presentarla a rey, que esta vez fue muy ‘valiente’ y estuvo cerca de Hercules cuando le mostro prueba de su tercer trabajo. Euristeó de mala gana le indico a Hércules que volviera de nueva al día siguiente que le revelaría cual sería el [cuarto trabajo de Hércules](https://www.mitosgriegos.net/hercules/el-jabali-de-erimanto/)."
+    }
+  ],
+  "tipo": "Mítico",
+  "serie": {
+    "nombre": "Doce Labores de Heracles",
+    "orden": 3
+  }
+}

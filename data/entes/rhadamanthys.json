@@ -1,0 +1,24 @@
+{
+  "id": "rhadamanthys",
+  "tana_id": "fFSR0FopzTI8",
+  "nombre": "Rhadamanthys",
+  "nombre_alt": "Radamante",
+  "titulo_tana": "Rhadamanthys / Radamante",
+  "etiquetas_tana": [
+    "O"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "contenido_en": {
+    "tana": "DCsfLn7ATClf",
+    "nombre": "Entrenamiento de Heracles Efebo",
+    "col": "eventos",
+    "id": "entrenamiento-de-heracles-efebo"
+  }
+}

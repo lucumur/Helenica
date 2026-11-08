@@ -1,0 +1,28 @@
+{
+  "id": "geraistos",
+  "tana_id": "-b3ELr8ha94M",
+  "nombre": "Geraistós",
+  "nombre_alt": "Akra",
+  "titulo_tana": "Geraistós (Akra)",
+  "etiquetas_tana": [
+    "akra"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- [🔱 Poseidōn Geraistos](lugares:poseidon-geraistos)"
+    }
+  ],
+  "tipos": [
+    "Cabo"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "lpcbviuSMlQs",
+    "nombre": "Karystia, Euboia",
+    "col": "lugares",
+    "id": "karystia-euboia"
+  }
+}

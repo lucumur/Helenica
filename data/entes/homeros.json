@@ -1,0 +1,31 @@
+{
+  "id": "homeros",
+  "tana_id": "2d5u7mPCwBRx",
+  "nombre": "Homēros",
+  "nombre_alt": "Homero (Chios)",
+  "titulo_tana": "Homēros / Homero (Chios)",
+  "etiquetas_tana": [
+    "Autor",
+    "M",
+    "O"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- nunca lo considera un Dios, solo un mortal."
+    }
+  ],
+  "tipos": [
+    "Autor"
+  ],
+  "genero": "M",
+  "cultura": "Helénica",
+  "contenido_en": {
+    "tana": "vYT6Rr7Q8l96",
+    "nombre": "Asklēpiós = Asclepio",
+    "col": "entes",
+    "id": "asklepios"
+  }
+}

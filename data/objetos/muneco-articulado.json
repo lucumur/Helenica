@@ -1,0 +1,21 @@
+{
+  "id": "muneco-articulado",
+  "tana_id": "6hBh19fW5Fd_",
+  "nombre": "Muñeco Articulado",
+  "nombre_alt": "paignia kampesognia",
+  "titulo_tana": "Muñeco Articulado (paignia kampesognia)",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- De hecho, en la versión órfica citada por Clemente se alude a una _“muñeca de miembros móviles”_, seguramente un juguete semejante a un títere o figura articulada. La lista final de Clemente no la incluye explícitamente, posiblemente porque la consideraba sinónima de otro objeto o porque combinó “muñeca” bajo el concepto general de juegos. Sin embargo, el artículo moderno de Z. Tareen incluye _dolls_ (muñecas) entre los juguetes de Dioniso​. Si contamos la muñeca por separado, habría **ocho objetos**; no obstante, tradicionalmente se habla de _siete_ (la cifra siete acaso buscada por su resonancia simbólica). Es probable que los diferentes grupos órficos tuvieran ligeras variaciones en el elenco (como insinúa el blog Bakcheion: cada linaje mistérico podía adaptar los símbolos a su propio paradigma)​En cualquier caso, los enumerados arriba son los que aparecen con mayor consistencia."
+    }
+  ],
+  "tipos": [
+    "Objeto"
+  ]
+}

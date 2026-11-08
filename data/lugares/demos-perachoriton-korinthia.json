@@ -1,0 +1,23 @@
+{
+  "id": "demos-perachoriton-korinthia",
+  "tana_id": "n39fQs4s1nGm",
+  "nombre": "Dēmos Perachoritōn, Korinthía",
+  "nombre_alt": "1834-1912",
+  "titulo_tana": "Dēmos Perachoritōn, Korinthía (1834-1912)",
+  "etiquetas_tana": [
+    "demos"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Demos"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "slhLmjZQBFmM",
+    "nombre": "Peiraion, Korinthia (850ac - 146ac)",
+    "col": "lugares",
+    "id": "peiraion-korinthia"
+  }
+}

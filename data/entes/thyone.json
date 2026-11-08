@@ -1,0 +1,30 @@
+{
+  "id": "thyone",
+  "tana_id": "IURWIEb49l6E",
+  "nombre": "Thyōnē",
+  "nombre_alt": null,
+  "titulo_tana": "Thyōnē",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- Significado = \"la Sacrificada\"\n- Nombre dado a [Semelē = Semele](entes:semele) despues de subir al Olimpo"
+    }
+  ],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": null,
+  "contenido_en": {
+    "tana": "GNviY-9I40Fk",
+    "nombre": "Semelē = Semele",
+    "col": "entes",
+    "id": "semele"
+  }
+}

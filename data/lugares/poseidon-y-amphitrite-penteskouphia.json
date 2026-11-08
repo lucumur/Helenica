@@ -1,0 +1,110 @@
+{
+  "id": "poseidon-y-amphitrite-penteskouphia",
+  "tana_id": "fpX6lDcKS091",
+  "nombre": "Poseidón y Amphitrite, Penteskouphia",
+  "nombre_alt": "pinakes",
+  "titulo_tana": "Poseidón y Amphitrite, Penteskouphia (pinakes)",
+  "etiquetas_tana": [
+    "hieron"
+  ],
+  "imagen": null,
+  "fuentes": [
+    {
+      "titulo": "Princeton Encyclopedia of Classical Sites s.v. Penteskouphia (Perseus); E. Hasaki, Potters at Work in Ancient Corinth (Hesperia Suppl. 51, 2021/2022); M. G. Palmieri, Penteskouphia. Immagini e parole… (SAIA, 2016); Commons: Category Pinakes from Penteskouphia in Berlin",
+      "url": null
+    }
+  ],
+  "campos": [
+    {
+      "clave": "A🪪",
+      "etiqueta": "Alias / fases",
+      "texto": "- Poseidôn / Poteidãn = dios del mar y de los temblores; en Corinto también señor de caballos y del paso ístmico\n- Amphitritē = paredra y destinataria conjunta del culto; en los pinakes con Poseidón (atributos marinos, a veces carro)\n- Anax = invocación señorial en dedicaciones corintias",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "No hay templo ni arquitectura monumental conocida. Lo que hay es un depósito/colección de pinakes votivos de terracota (≈1000–1200 fragmentos) hallados en 1879 en una barranca de la ladera N de la colina de Penteskouphia (≈3 km SO de Kórinthos, ≈1,2 km SO del Acrocorinto), en zona del barrio de alfareros: probablemente ofrendas colgadas o depositadas en un ámbito de calle/taller del barrio, no un naos. Dedicaciones a Poseidón (alfabeto epicórico corintio) e iconografía conjunta de Poseidón y Amphitrite (tridente, atributos marinos/ecuestres, carros), más jinetes, guerreros, naves, animales y la serie excepcional de alfareros en torno y horno (κάμινος). Cronología: algunos desde ca. 650 a.C.; mayoría corintio negro-figurado tardío ca. 570–500 a.C. (pico 1ª mitad s. VI). Tag = lugar de culto en sentido amplio; aquí sin edificio.",
+      "refs": []
+    },
+    {
+      "clave": "L🗺️",
+      "etiqueta": "Ubicación",
+      "texto": "[Penteskouphia, Kórinthos (Barrio de Alfareros)](lugares:penteskouphia-korinthos) — colina y barrio de alfareros al SO de Kórinthos, Korinthia",
+      "refs": [
+        {
+          "tana": "cSf8fO4EsfWN",
+          "nombre": "Penteskouphia, Kórinthos (Barrio de Alfareros)",
+          "col": "lugares",
+          "id": "penteskouphia-korinthos"
+        }
+      ]
+    },
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "Culto conjunto de Poseidón y Amphitrite entre alfareros del barrio. Protección del oficio cerámico (arcilla, torno, horno) y de la navegación/comercio. Voto ante riesgos del taller. Sin edificio: ofrendas en ámbito de calle/taller.",
+      "refs": []
+    },
+    {
+      "clave": "A⚡",
+      "etiqueta": "Poderes",
+      "texto": "- Ofrecimiento de pinakes pintados (una o ambas caras), a menudo perforados para colgar de árboles o postes del temenos\n- Dedicaciones inscritas a Poseidón (alfabeto corintio); firmas de pintores y nombres personales\n- Iconografía votiva: dios tridente, Amphitrite, carros, caballos, naves, guerreros, escenas de taller\n- Depósito secundario de ofrendas (no se conoce el edificio del naos)",
+      "refs": []
+    },
+    {
+      "clave": "S🧩",
+      "etiqueta": "Subunidades / partes",
+      "texto": "- Elementos\n  - [Corpus de pinakes de Penteskouphia (≈1000 placas / ≈1200 fragmentos)](objetos:corpus-de-pinakes-de-penteskouphia)\n  - Santuario al aire libre / alsos (sin arquitectura monumental conocida)\n  - Posible suspensión de pinakes en árboles del bosque sagrado",
+      "refs": [
+        {
+          "tana": "3NVbOkXTMqeB",
+          "nombre": "Corpus de pinakes de Penteskouphia (≈1000 placas / ≈1200 fragmentos)",
+          "col": "objetos",
+          "id": "corpus-de-pinakes-de-penteskouphia"
+        }
+      ]
+    },
+    {
+      "clave": "U👥",
+      "etiqueta": "Usuarios",
+      "texto": "Alfareros y pintores corintios del barrio; dedicantes banáusicos; posible participación de otros fieles del territorio corintio",
+      "refs": []
+    },
+    {
+      "clave": "P📊",
+      "etiqueta": "Propiedades",
+      "texto": "Sin naos / sin arquitectura monumental documentada. Depósito votivo de pinakes (terracota local). Ámbito probable: calle o espacio abierto del barrio de alfareros. Culto conjunto Poseidón + Amphitrite. Hallazgo en depósito secundario (contexto estratigráfico original perdido).",
+      "refs": []
+    },
+    {
+      "clave": "A🌱",
+      "etiqueta": "Origen",
+      "texto": "Aparición de dedicaciones desde ca. mediados del s. VII a.C.; consolidación del corpus en la primera mitad del s. VI a.C. en el entorno industrial de Corinto arcaica",
+      "refs": []
+    },
+    {
+      "clave": "H📈",
+      "etiqueta": "Historia",
+      "texto": "1879: excavación ilícita en barranca (>1000 placas); hallazgos posteriores ≈1500 fragmentos. Sin restos de templo/naos en el entorno. Lectura preferible: depósito votivo de artesanos del barrio alfarero (calle o ámbito abierto junto a talleres), no un santuario monumental tipo Isthmia. Hipótesis de alsos/bosque sagrado es posible pero no demostrada; lo seguro es la colección de pinakes dedicados a Poseidón y Amphitrite.",
+      "refs": []
+    },
+    {
+      "clave": "T🏁",
+      "etiqueta": "Destino",
+      "texto": "Mediación de Poseidón y Amphitrite sobre el éxito del taller y del viaje marítimo; memoria votiva del barrio alfarero; testimonio visual único del trabajo cerámico arcaico — sin templo, solo pinakes.",
+      "refs": []
+    },
+    {
+      "clave": "H🔼",
+      "etiqueta": "Pertenece a",
+      "texto": "Culto Marino de Korinthia. Contraste con el Naos de Poteidãn Isthmios (Isthmia): allí templo panhelénico; aquí solo pinakes votivos en el barrio alfarero, dedicados a Poseidón y Amphitrite.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Santuario"
+  ],
+  "pertenece_a": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "theano",
+  "tana_id": "aiz8ldbkTwPg",
+  "nombre": "Theanô",
+  "nombre_alt": "Teanó",
+  "titulo_tana": "Theanô = Teanó",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

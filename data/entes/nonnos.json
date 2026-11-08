@@ -1,0 +1,60 @@
+{
+  "id": "nonnos",
+  "tana_id": "Y9tL5kpuvMS6",
+  "nombre": "Nonnos",
+  "nombre_alt": "Nono de Panopolis",
+  "titulo_tana": "Nonnos = Nono de Panopolis",
+  "etiquetas_tana": [
+    "O",
+    "Escritor",
+    "M"
+  ],
+  "imagen": null,
+  "fuentes": [
+    {
+      "titulo": "Nonnus of Panopolis (Dictionary of Christian Biograph)",
+      "url": "https://www.ccel.org/ccel/wace/biodict.html?term=Nonnus%20of%20Panopolis"
+    },
+    {
+      "titulo": "La Figura de Nono en su contexto (Amigos de la Egiptologia)",
+      "url": "https://egiptologia.com/nono-de-panopolis-sociedad-religion-y-literatura-en-el-egipto-tardoantiguo/4/"
+    },
+    {
+      "titulo": "Nonnus of Panopolis in Context (Orientalia Lovaniensia Analecta)",
+      "url": "https://repositorio.ul.pt/bitstream/10451/59965/3/Hadjitttofi_Indians_offprint.pdf"
+    }
+  ],
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "- Helenico Egipcio\n- Escritor",
+    "refs": [
+      {
+        "tana": "heO-o5So9R0b",
+        "nombre": "Helenico Egipcio"
+      },
+      {
+        "tana": "VF7W0iY3qjOT",
+        "nombre": "Escritor"
+      }
+    ]
+  },
+  "epitetos": {
+    "texto": "Nono de Panopolis",
+    "refs": []
+  },
+  "residencias": {
+    "texto": "Panopolis, Kehenoboskion, Alto Egipto",
+    "refs": [
+      {
+        "tana": "IgEVSs1Cd0FR",
+        "nombre": "Panopolis, Kehenoboskion, Alto Egipto"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Autor"
+  ],
+  "genero": "M"
+}

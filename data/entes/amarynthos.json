@@ -1,0 +1,18 @@
+{
+  "id": "amarynthos",
+  "tana_id": "wRRuF4ctXSzp",
+  "nombre": "Amárynthos",
+  "nombre_alt": "Heroe",
+  "titulo_tana": "Amárynthos (Heroe)",
+  "etiquetas_tana": [
+    "Heroe"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

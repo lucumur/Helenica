@@ -1,0 +1,122 @@
+{
+  "id": "olynthos",
+  "tana_id": "Lu72xqUyooVW",
+  "nombre": "Olynthos",
+  "nombre_alt": "Olinto",
+  "titulo_tana": "Olynthos / Olinto",
+  "etiquetas_tana": [
+    "Lugar"
+  ],
+  "imagen": null,
+  "fuentes": [
+    {
+      "titulo": "https://geohack.toolforge.org/geohack.php?pagename=Olynthus&params=40.296_N_23.354_E_type:landmark",
+      "url": "https://geohack.toolforge.org/geohack.php?pagename=Olynthus&params=40.296_N_23.354_E_type:landmark"
+    },
+    {
+      "titulo": "https://www.vizin.org/projects/olynthus/setting.html - House of Many Colors . Olynthus",
+      "url": "https://www.vizin.org/projects/olynthus/setting.html"
+    }
+  ],
+  "campos": [
+    {
+      "clave": "S🧩",
+      "etiqueta": "Subunidades / partes",
+      "texto": "- Proto-Olynthos Neolitica (4,000-3000 aC) #Lugar, #Fase - asentamiento Rural\n  - **D🪪:** Sitio con Evidencia Arqueologica\n  - **H🏘️:** Sociedad Agropecuaria Neolitica\n  - **H📜:**\n    - Se han encontrado vasijas, herramientas de piedra y hueso, y joyeria de piedras.\n    - Por la evidencia arqueologica, fue invadido, destruido sin evidencia de repoblacion hasta mucho tiempo despues.\n  - **T🏷️:** Asentamiento Rural\n- Olynthos - Region Seminomada Tracia (1000-800 aC) #Lugar, #Fase - origen del nombre\n  - **D🪪:** Porbablemente aunque no estuviese habitado, Olynthos era conocido, visitado probablemente para recoger higos, caza, uso cultual esporadico o algun uso extra-urbano.\n  - **T🏷️:** Asentamiento Seminomada #Tipo_de_Lugar\n  - **H🏘️:**\n    - Tribus Tracias no Permanentes.\n    - Dialectos Tracios Arcaicos + Substrato Pre-Griego?\n    - Familia Dinastica Tribal Tracia (1000-800aC)\n      - **Composicion:**\n        - Una Familia (5-8 Personas)\n        - Un Caudillo Tribal, el Paterfamilias\n      - **Militar:** Comando Militar, Organizacion de Raids Vecinos\n      - **Derechos:** Funcion Juridica para la Aldea, Decisiones de castigos, derechos u obligaciones.\n      - **Religioso:** Realizador de Sacrificios\n      - **Posesiones:** Riqueza: 300-500 ovejas, 20-40 caballos, 50-100 Ha's de pastura\n      - **Residencia:** Casa Mayor de 10x6m, en ubicacion elevada (simbolica)\n      - **Vestimenta:**\n        - Espada de Hierro, importada, costosa\n        - Casco de Bronce, heredado o botin\n        - Fibula de oro-bronce decorada\n    - Hetaireia Tribal Tracia (1000-800aC)\n      - **Composicion:** 8-15 familias (40-75 personas)\n      - **Militar:** Funcion: Sequito Militar del Dynastes. Raids, Defensa\n      - **Posesiones:** Riqueza: 100-200 ovejas, 5-10 caballos, 20-40 Ha.\n      - **Residencia:** Casas Estandar 7x5m\n      - **Vestimenta:**\n        - Lanzas de Hierro\n        - Escudos de Cuero/Mimbre (Proto-Peltai)\n    - Lawos Tribal Tracio (1000-800aC)\n      - **Composicion:** 30-80 familias (150-400 personas)\n      - **Actividades:** Funcion: Agricultura, Pastoreo, Corveas\n      - **Posesiones:** Riqueza: 20-50 ovejas, 5-15Ha de agricultura o pastos\n      - **Residencia:** Casas Menores (6x4m)\n      - **Vestimenta:** Armas: Hondas, Palos, Cuchillos\n    - Dependientes Tribales Tracios (1000-800aC)\n      - **Composicion:** 5-30 personas\n      - **Cultura:** Prisioneros de Guerra, Deudores\n      - **Actividades:** Pastoreo Servil, Trabajo Domestico\n  - **H🔼:** Antigua Tracia  #Lugar\n  - **S🧩:**\n    - [(1) Nucleo No-Residencial de Olynthos Tracia (1000-800 aC)](lugares:1-nucleo-no-residencial-de-olynthos-tracia-1000-800-ac)\n    - [(2) Montaña Interior de Olynthos Tracia con Campamentos Estacionales (1000-800aC)](lugares:2-montana-interior-de-olynthos-tracia-con-campamentos-estaci)\n    - [(3) Aldeas Estacionales de la Llanura Costera de Olynthos (1000-800aC)](lugares:3-aldeas-estacionales-de-la-llanura-costera-de-olynthos-1000)\n  - **E🌱:** Olynthos es un nombre pre-griego contemporaneo a la Epoca Micenica, con dos teorias de su significado: una, es que sea un termino fito-onomastico, indicando \"higo verde\", (o los higos verdes tomaron su nombre de esta region). la otra es que sea un termino pre-griego para promontorio (hipotetica raiz *ol-)\n  - **O⚖️:**\n    - Recursos\n      - Cereales = 30-50 Ton\n        - Cebada  80%\n        - Trigo Duro 20%\n        - = Patron de las Tribus Balcanes de la edad de Hierro\n        - Autosubsistencia\n        - Años Buenos: Comercio 10% Excedente\n      - Ganado = 1,000-2,000 cabezas de Cabras y Ovejas (lana, queso y carne)\n        - Caprino (Queso y Carne)\n        - Ovino (Lana, Leche y Carne)\n        - Universal Ganado Tracio Seminomada\n      - Caballos = 50-100 cabezas (monta guerrera, prestigio)\n        - Tracios eran famosos por sus caballos.\n      - Madera = Roble, Pino del Bosque Calcidico\n        - Uso Domestico para Construccion y Leña\n      - Miel = 500-1,000 litros (alimentacion, conservante)\n        - Tracios eran grandes productores de Miel\n      - Pieles = 50,100 anual (jabali, ciervo, oso)\n        - Vestimenta invernal, comercio menor\n  - **H📜:**\n    - Invisibilidad Arqueologica Explicada\n      - Materiales organicos con descomposicion total (madera, tapial, textiles)\n        - En Kastanas solo detectado con micromorfologia moderna\n      - Dispersion Espacial (chozas dispersas por 5 km, en la llanura aluvial)\n      - Sesgo Prospectivo (buscar tejas o sillares probablemente no es la mejor opcion )\n      - Erosion fluvial (llanura costera donde depositos aluviales cubren niveles antiguos)\n      - Continuidad sin Ruptura (la poblacion se integro en Olynthos y no quedaron \"ruinas\" de poblacion pre-calcidica)\n  - **S🀄:**\n    - Economia de Subsistencia, con Excedente minimo\n      - 10-15% excedente en años buenos\n    - Cultura Material\n      - Arquitectura Tapial + Madera\n      - Ceramica hecha a mano\n      - Herrerias presentes pero escasas\n      - Textileria de lana con telar vertical\n    - Religion\n      - Cultos Ctonicos\n      - Colian Olynthos Sagrada, altar al aire libre\n      - Sacrificios Estacionales\n- [Olynthos - Colonia Calcidica (750-500aC)](lugares:olynthos-colonia-calcidica)\n- [Olynthos - Apogeo en Sinoikia (450 aC-348aC)](lugares:olynthos-apogeo-en-sinoikia)\n- [Olynthos - Reocupacion Helenistica (316-168aC)](lugares:olynthos-reocupacion-helenistica)\n- [Olynthus - Marginalidad Romana (168aC -300dC)](lugares:olynthus-marginalidad-romana)\n- [Olynthus - Ciudad Olvidada (300-500dC)](lugares:olynthus-ciudad-olvidada)",
+      "refs": [
+        {
+          "tana": "5PHeuvmMBOHD",
+          "nombre": "Asentamiento Rural"
+        },
+        {
+          "tana": "HcaGQBfC_sLV",
+          "nombre": "Olynthos - Colonia Calcidica (750-500aC)",
+          "col": "lugares",
+          "id": "olynthos-colonia-calcidica"
+        },
+        {
+          "tana": "4bYdSckYyULi",
+          "nombre": "Olynthos - Apogeo en Sinoikia (450 aC-348aC)",
+          "col": "lugares",
+          "id": "olynthos-apogeo-en-sinoikia"
+        },
+        {
+          "tana": "OSpJ_24KPtOC",
+          "nombre": "Olynthos - Reocupacion Helenistica (316-168aC)",
+          "col": "lugares",
+          "id": "olynthos-reocupacion-helenistica"
+        },
+        {
+          "tana": "RAWinZhkpgyL",
+          "nombre": "Olynthus - Marginalidad Romana (168aC -300dC)",
+          "col": "lugares",
+          "id": "olynthus-marginalidad-romana"
+        },
+        {
+          "tana": "JTCJe2dJWjfM",
+          "nombre": "Olynthus - Ciudad Olvidada (300-500dC)",
+          "col": "lugares",
+          "id": "olynthus-ciudad-olvidada"
+        }
+      ]
+    },
+    {
+      "clave": "E🌱",
+      "etiqueta": "Etimología",
+      "texto": "- **ὄλυνθος** = _Ficus carica_ silvestre, higo verde inmaduro\n  - El término botánico ὄλυνθος probablemente deriva del topónimo, no al revés\n  - **Fitotopónimo:** \"lugar de higos silvestres\" → los higos persistieron\n- Leyenda Helenistica:  Olynthos, hijo del rey Estrimón, fue devorado por león mientras cazaba, y su padre fundó ciudad en su memoria\n  - La leyenda de Olynthos hijo de Estrimón representa un **mito aetiológico tardío** (probablemente helenístico, s. III-II a.C.) que racionaliza un topónimo pre-griego mediante narrativa genealógica estándar. La ausencia de hazañas heroicas, ciclo mítico o culto asociado indica que el personaje es **construcción post-hoc**, no tradición oral antigua.\n  - La conversión del río Estrimón en rey-padre sigue el patrón griego de **personificación fluvial** (comparar: Aqueloo, Peneo, Asopo) y señala correctamente que el topónimo _Ὄλυνθος_ **predató** la colonización calcídica. La muerte por león durante cacería es **motivo genérico** (paralelos: Aktaion, Adonis, Atalanta parcialmente), empleado cuando mitógrafos carecen de tradición específica. La función del mito es **doble**: (1) helenizar nombre bárbaro mediante genealogía divino-fluvial, (2) preservar memoria de sustrato autóctono tracio reconociendo antigüedad del topónimo sin detalles recuperables.",
+      "refs": []
+    },
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "- Asentamiento Seminomada\n- Grupo de Aldeas con Nucleo Cultual\n- Ciudad-Estado Munita (Polis)\n- Pueblo Reocupado y Subordinado\n- Comunidad Agropecuaria\n- Ruinas Habitadas",
+      "refs": [
+        {
+          "tana": "R58gt3FimqN7",
+          "nombre": "Asentamiento Seminomada"
+        },
+        {
+          "tana": "3yw_I-eozN6T",
+          "nombre": "Grupo de Aldeas con Nucleo Cultual"
+        },
+        {
+          "tana": "g7LtSIliiBQ1",
+          "nombre": "Ciudad-Estado Munita (Polis)"
+        },
+        {
+          "tana": "F6r02K_qsHai",
+          "nombre": "Pueblo Reocupado y Subordinado"
+        },
+        {
+          "tana": "yjkNLeP_0_kp",
+          "nombre": "Comunidad Agropecuaria"
+        },
+        {
+          "tana": "llZcsqafEzsM",
+          "nombre": "Ruinas Habitadas"
+        }
+      ]
+    },
+    {
+      "clave": "H🔼",
+      "etiqueta": "Pertenece a",
+      "texto": "Region Calcidica (Khalkidike)",
+      "refs": [
+        {
+          "tana": "TGCdyQmNYIbi",
+          "nombre": "Region Calcidica (Khalkidike)"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Lugar"
+  ],
+  "pertenece_a": [
+    {
+      "tana": "TGCdyQmNYIbi",
+      "nombre": "Region Calcidica (Khalkidike)"
+    }
+  ]
+}

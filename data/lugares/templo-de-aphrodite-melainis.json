@@ -1,0 +1,151 @@
+{
+  "id": "templo-de-aphrodite-melainis",
+  "tana_id": "P_WrBBFEOUSV",
+  "nombre": "Templo de Aphroditē Melainís",
+  "nombre_alt": null,
+  "titulo_tana": "Templo de Aphroditē Melainís",
+  "etiquetas_tana": [
+    "hieron"
+  ],
+  "imagen": null,
+  "fuentes": [
+    {
+      "titulo": "Pausanias 2.2.4 (Kraneion: Melainis + tumbas Diógenes/Belerofonte/Lais); Paus. 2.2.5 (Lais); Paus. 8.6.5 (Mantinea: etimología nocturna junto a Dioniso); Paus. 9.17.4 (Tebas); Paus. 8.42 (Deméter Melaina, Fígalia — paralelo tipológico ctónico, sin fusión). Pirenne-Delforge (función ctónica-funeraria de Afrodita local).",
+      "url": null
+    }
+  ],
+  "campos": [
+    {
+      "clave": "A🪪",
+      "etiqueta": "Alias / fases",
+      "texto": "Μέλαινις / Μέλαινα = «la negra, la oscura». No exclusivo de Corinto: también Mantinea (Paus. 8.6.5) y Tebas (Paus. 9.17.4). Epíteto de circulación regional, no peculiaridad corintia.",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "⚠️ Advertencia: el santuario peor documentado de los tres corintios. Pausanias le dedica media línea dentro de una enumeración topográfica (2.2.4). Casi todo lo que sigue es contexto e inferencia, no descripción. Templo de Aphrodítē Melainís en el Kraneion (alsos de cipreses extramuros), en entorno de necrópolis junto a tumbas de Diógenes, heroon de Belerofonte y tumba de Lais. Imagen, sacerdocio, rito y calendario: desconocidos.",
+      "refs": []
+    },
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "Funeraria / ctónica — B (inferencia topográfica fuerte): ubicación en necrópolis, entre cipreses (árbol funerario), junto a dos tumbas. Nocturna / sexual — C (etimología nativa, posible racionalización): Paus. 8.6.5 Mantinea — el sobrenombre porque los hombres no se unen de día como las bestias, sino de noche. Poliada — ausencia: extramuros, no cívica. Las dos primeras no se excluyen: plausible que el epíteto naciera por una razón y fuera reinterpretado popularmente por otra (patrón ya visto en παιδέρως y Pegaso–πηγή). Clúster propuesto: tipo ctónico (distinto del Ourania armada y del tipo Gran Diosa sedente). Grado general: B existencia/ubicación; C función; sin grado para imagen y rito (no hay datos).",
+      "refs": []
+    },
+    {
+      "clave": "M🪵",
+      "etiqueta": "Material",
+      "texto": "Desconocido. Pausanias no describe la imagen ni el material (a diferencia de Sición: criselefantina de Cánaco).",
+      "refs": []
+    },
+    {
+      "clave": "P📊",
+      "etiqueta": "Propiedades",
+      "texto": "1) Epíteto Melainis — tres lecturas del origen: A ctónica (negro = tierra/muerte; apoyada por contexto espacial corintio); B nocturna (explicación pausaniana de Mantinea); C cromática literal (madera/piedra negra/betilo) — no confirmable ni descartable. 2) Alsos de cipreses — árbol funerario mediterráneo; bosque sagrado con árbol funerario = contexto ctónico, no erótico. 3) Entorno funerario del Craneion (Paus. 2.2.4): tumba de Diógenes junto a la puerta; témenos/heroon de Belerofonte; templo de Melainis; tumba de Lais (leona con carnero entre las patas — iconografía funeraria de depredación, motivo oriental). Cuatro elementos, tres funerarios: eso sostiene la lectura ctónica. 4) Tumba de Lais — hetaira corintia célebre del s. V (Hícara, Sicilia; capturada por Nicias; Paus. 2.2.5); otra tumba reclamada en Tesalia (Hipóstrato). Nexo con Acrocorinto: la hetaira más célebre enterrada junto a la Afrodita oscura, no junto a la de la cumbre que patrocinaba hetairas — problema abierto, no conexión establecida (puede ser coincidencia de necrópolis o vínculo cultual con ambos santuarios).",
+      "refs": []
+    },
+    {
+      "clave": "A⚡",
+      "etiqueta": "Poderes",
+      "texto": "Desconocidos: sacerdocio, acceso, víctima, calendario, fiesta propia. Contraste: Acrocorinto (incienso, hetairas); Sición (neocoros célibe + loutróforo; sin cerdo, enebro, paidérōs). Aquí la columna rito es casi toda vacía — eso es el dato.",
+      "refs": []
+    },
+    {
+      "clave": "U👥",
+      "etiqueta": "Usuarios",
+      "texto": "Desconocidos. Sin evidencia de hetairas asociadas (a diferencia de Acrocorinto). La vecindad con la tumba de Lais no prueba clientela cultual.",
+      "refs": []
+    },
+    {
+      "clave": "H🔼",
+      "etiqueta": "Pertenece a",
+      "texto": "Comparación corintio-sicionia: Acrocorinto — cumbre, esfera celeste, imagen armada/escudo-espejo, culto de hetairas, rito de incienso. Craneion (Melainis) — extramuros/necrópolis, esfera ctónica, imagen desconocida, culto desconocido, rito desconocido (casi toda la columna vacía). Sición — recinto urbano, imagen sedente/polos/amapola/manzana, criselefantina de Cánaco, neocoros célibe + loutróforo, sin cerdo/enebro/paidérōs. Clúster: tipo ctónico, distinto del Ourania armada y del tipo Gran Diosa sedente.",
+      "refs": []
+    },
+    {
+      "clave": "A🌱",
+      "etiqueta": "Origen",
+      "texto": "Epíteto de circulación regional (Corinto, Mantinea, Tebas). En Corinto atestiguado solo por Pausanias en enumeración topográfica; origen del sobrenombre local no documentado.",
+      "refs": []
+    },
+    {
+      "clave": "H📈",
+      "etiqueta": "Historia",
+      "texto": "Lo que no sabemos: material e imagen de culto; sacerdocio, acceso, víctima, calendario; si tenía fiesta propia; si el epíteto es local o importado de Mantinea/Tebas; si la vecindad con la tumba de Lais es significativa. Paralelos del epíteto: Mantinea (Paus. 8.6.5, junto a Dioniso, etimología nocturna); Tebas (Paus. 9.17.4); Corinto (Paus. 2.2.4, contexto funerario explícito). Paralelo tipológico útil sin fusión: Deméter Melaina en Fígalia (Paus. 8.42).",
+      "refs": []
+    },
+    {
+      "clave": "T🏁",
+      "etiqueta": "Destino",
+      "texto": "Clasificación propuesta: clúster tipo ctónico. Grado B para existencia y ubicación; C para función; sin grado para imagen y rito (no existen como datos). Advertencia metodológica: no convertir la media línea de Pausanias en culto reconstruido.",
+      "refs": []
+    },
+    {
+      "clave": "L🗺️",
+      "etiqueta": "Ubicación",
+      "texto": "[Kraneion (Bosque de Cipreses), Kórinthos](lugares:kraneion-bosque-de-cipreses-korinthos)",
+      "refs": [
+        {
+          "tana": "96za2y7w17CN",
+          "nombre": "Kraneion (Bosque de Cipreses), Kórinthos",
+          "col": "lugares",
+          "id": "kraneion-bosque-de-cipreses-korinthos"
+        }
+      ]
+    },
+    {
+      "clave": "S🧩",
+      "etiqueta": "Subunidades / partes",
+      "texto": "- Elementos característicos\n- Paralelos del epíteto\n- Comparación Acrocorinto · Craneion · Sición\n- Lo que no sabemos\n- Clasificación",
+      "refs": [
+        {
+          "tana": "-MbRcmVyTs10",
+          "nombre": "Elementos característicos"
+        },
+        {
+          "tana": "rclKMUHF6kNg",
+          "nombre": "Paralelos del epíteto"
+        },
+        {
+          "tana": "FxwfwjwPqxaD",
+          "nombre": "Comparación Acrocorinto · Craneion · Sición"
+        },
+        {
+          "tana": "EJk3Hw2IH2yR",
+          "nombre": "Lo que no sabemos"
+        },
+        {
+          "tana": "FzNI9177b8UZ",
+          "nombre": "Clasificación"
+        }
+      ]
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Elementos característicos",
+      "texto": "- El epíteto Melainis\n  - Μέλαινις / Μέλαινα, «la negra, la oscura»\n  - Atestiguado en Mantinea (Paus. 8.6.5) y Tebas (Paus. 9.17.4) — circulación regional, no peculiaridad corintia\n  - Lectura A ctónica — negro como tierra fértil o muerte; apoyada por contexto espacial corintio\n  - Lectura B nocturna — etimología de Pausanias en Mantinea\n  - Lectura C cromática literal — material oscuro (madera, piedra negra, betilo); Pausanias no describe la imagen\n- La arboleda de cipreses\n  - Alsos de cipreses = árbol funerario por excelencia en el Mediterráneo\n  - Contexto de culto ctónico, no erótico\n- El entorno funerario (Paus. 2.2.4)\n  - Tumba de Diógenes de Sínope, junto a la puerta\n  - Témenos / heroon de Belerofonte\n  - Templo de Aphrodítē Melainís\n  - Tumba de Lais (leona con carnero entre las patas — iconografía funeraria oriental de depredación)\n  - Cuatro elementos, tres funerarios: sostiene la lectura ctónica\n- La tumba de Lais\n  - Hetaira corintia más famosa del s. V; Hícara (Sicilia); capturada por Nicias; Paus. 2.2.5\n  - Otra tumba reclamada en Tesalia (Hipóstrato)\n  - Problema abierto: ¿coincidencia de necrópolis o vínculo cultual con ambos santuarios afrodisíacos?"
+    },
+    {
+      "titulo": "Paralelos del epíteto",
+      "texto": "- Mantinea — Paus. 8.6.5; junto a Dioniso; etimología nocturna\n- Tebas — Paus. 9.17.4\n- Corinto — Paus. 2.2.4; contexto funerario explícito\n- Deméter Melaina, Fígalia — Paus. 8.42; paralelo tipológico ctónico sin fusión"
+    },
+    {
+      "titulo": "Comparación Acrocorinto · Craneion · Sición",
+      "texto": "- Acrocorinto: cumbre; celeste; armada/escudo-espejo; hetairas; incienso\n- Craneion (Melainis): extramuros/necrópolis; ctónica; imagen desconocida; culto desconocido; rito desconocido\n- Sición: urbano; sedente/polos/amapola/manzana; criselefantina Cánaco; neocoros célibe + loutróforo; sin cerdo, enebro, paidérōs"
+    },
+    {
+      "titulo": "Lo que no sabemos",
+      "texto": "- Material e imagen de culto\n- Sacerdocio, acceso, víctima, calendario\n- Fiesta propia\n- Si el epíteto es local o importado\n- Si la vecindad con Lais es significativa"
+    },
+    {
+      "titulo": "Clasificación",
+      "texto": "- Clúster: tipo ctónico\n- Grado B: existencia y ubicación\n- Grado C: función\n- Sin grado: imagen y rito"
+    }
+  ],
+  "tipos": [
+    "Santuario"
+  ],
+  "pertenece_a": []
+}

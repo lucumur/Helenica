@@ -1,0 +1,53 @@
+{
+  "id": "arco-heracleo",
+  "tana_id": "VqjCTfY6LHFP",
+  "nombre": "Arco Heracleo",
+  "nombre_alt": null,
+  "titulo_tana": "Arco Heracleo",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Arco de combate, con flechas propias",
+      "refs": []
+    },
+    {
+      "clave": "M🪵",
+      "etiqueta": "Material",
+      "texto": "Don divino — regalo de Apolo (material no especificado en las fuentes)",
+      "refs": []
+    },
+    {
+      "clave": "P📊",
+      "etiqueta": "Propiedades",
+      "texto": "Arma de largo alcance; potenciada por Heracles con veneno de Hidra en las flechas, volviéndolas incurables",
+      "refs": []
+    },
+    {
+      "clave": "A⚡",
+      "etiqueta": "Poderes",
+      "texto": "- Matar a la Hidra de Lerna y envenenar las flechas con su bilis (Trabajo II);\n- abatir a los pájaros Estinfálidas (Trabajo VI);\n- matar al centauro Neso\n- legado a Filoctetes en la pira, arma decisiva y requerida por oráculo para la caída de Troya",
+      "refs": []
+    },
+    {
+      "clave": "L🗺️",
+      "etiqueta": "Ubicación",
+      "texto": "- Lerna (origen del veneno);\n- Lago Estínfalo;\n- río Eveno (Neso);\n- Monte Eta (legado a Filoctetes)",
+      "refs": []
+    },
+    {
+      "clave": "Destino",
+      "etiqueta": "Destino",
+      "texto": "- en la pira del Eta, Heracles lo lega a Filoctetes en gratitud por encender la pira.\n- Troya no puede caer sin el arco de Heracles, forzando a Odiseo a recuperar a Filoctetes de Lemnos",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ]
+}

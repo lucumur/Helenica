@@ -1,0 +1,22 @@
+{
+  "id": "hoz-de-herakles",
+  "tana_id": "0SBhAVZNoMf9",
+  "nombre": "Hoz de Herakles",
+  "nombre_alt": null,
+  "titulo_tana": "Hoz de Herakles",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ],
+  "contenido_en": {
+    "tana": "BPmEWjakjBne",
+    "nombre": "Segundo Athlos: Matar a la Hidra de Lerna (Argolis)",
+    "col": "eventos",
+    "id": "segundo-athlos-matar-a-la-hidra-de-lerna"
+  }
+}

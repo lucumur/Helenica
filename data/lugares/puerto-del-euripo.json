@@ -1,0 +1,17 @@
+{
+  "id": "puerto-del-euripo",
+  "tana_id": "opt98SNJGFVd",
+  "nombre": "Puerto del Euripo",
+  "nombre_alt": null,
+  "titulo_tana": "Puerto del Euripo",
+  "etiquetas_tana": [
+    "puerto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Puerto"
+  ],
+  "pertenece_a": []
+}

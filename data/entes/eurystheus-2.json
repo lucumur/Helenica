@@ -1,0 +1,32 @@
+{
+  "id": "eurystheus-2",
+  "tana_id": "a7VZwadSe0tV",
+  "nombre": "Eurystheus",
+  "nombre_alt": "Rey de Argolis",
+  "titulo_tana": "Eurystheus (Rey de Argolis)",
+  "etiquetas_tana": [
+    "X"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Posibles",
+      "etiqueta": "Posibles",
+      "texto": "- [Eurystheus = Euristeo](entes:eurystheus-3)",
+      "refs": [
+        {
+          "tana": "cft4UrQiJvN0",
+          "nombre": "Eurystheus = Euristeo",
+          "col": "entes",
+          "id": "eurystheus-3"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Mortal"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

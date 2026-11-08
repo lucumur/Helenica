@@ -1,0 +1,24 @@
+{
+  "id": "muros-largos-corinto-arcaica",
+  "tana_id": "euV7qb69ANtv",
+  "nombre": "Muros Largos, Corinto Arcaica",
+  "nombre_alt": null,
+  "titulo_tana": "Muros Largos, Corinto Arcaica",
+  "etiquetas_tana": [
+    "obra"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "Murallas que unían la ciudad con el puerto de Lequeo, s. V; activas en la guerra de Corinto.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Obra"
+  ],
+  "pertenece_a": []
+}

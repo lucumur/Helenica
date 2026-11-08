@@ -1,0 +1,26 @@
+{
+  "id": "aphroditos",
+  "tana_id": "p09aeX_QyBUA",
+  "nombre": "Aphroditos",
+  "nombre_alt": null,
+  "titulo_tana": "Aphroditos",
+  "etiquetas_tana": [
+    "Deidad",
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad",
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "5XM9zBiTodu_",
+    "nombre": "Aphroditē",
+    "col": "entes",
+    "id": "aphrodite"
+  }
+}

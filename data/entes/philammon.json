@@ -1,0 +1,37 @@
+{
+  "id": "philammon",
+  "tana_id": "MY29ESEow3WY",
+  "nombre": "Philammon",
+  "nombre_alt": null,
+  "titulo_tana": "Philammon",
+  "etiquetas_tana": [
+    "O",
+    "Artista",
+    "M"
+  ],
+  "imagen": null,
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "Raza Fócida",
+    "refs": []
+  },
+  "campos": [
+    {
+      "clave": "Cargos",
+      "etiqueta": "Cargos",
+      "texto": "Musico",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Artista"
+  ],
+  "genero": "M",
+  "contenido_en": {
+    "tana": "tE_RDLaA_gvf",
+    "nombre": "Misterios Lerneos",
+    "col": "eventos",
+    "id": "misterios-lerneos"
+  }
+}

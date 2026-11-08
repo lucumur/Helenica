@@ -1,0 +1,49 @@
+{
+  "id": "orpheus",
+  "tana_id": "5DgS4570Ve6o",
+  "nombre": "Orpheus",
+  "nombre_alt": "Orfeo",
+  "titulo_tana": "Orpheus = Orfeo",
+  "etiquetas_tana": [
+    "O",
+    "M"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-09-01T18%3A03%3A41.239Z-image.png?alt=media&token=6cd5846c-6be8-4469-aae4-907e8b489df4",
+  "especie": {
+    "texto": "Pre-Helenica",
+    "refs": []
+  },
+  "cultura": "Helénica",
+  "descripcion": {
+    "texto": "Antiguo fundador de los [Misterios Orficos](eventos:misterios-orficos)",
+    "refs": [
+      {
+        "tana": "W2--hGbGyLJJ",
+        "nombre": "Misterios Orficos",
+        "col": "eventos",
+        "id": "misterios-orficos"
+      }
+    ]
+  },
+  "fuentes": [
+    {
+      "titulo": "Misterios Orficos Eroticos: el Mito de Zagreus en Fanocles (Sarah Burges Watson)",
+      "url": "https://www.jstor.org/stable/26343239"
+    }
+  ],
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Texto Griego de Platon",
+      "texto": "- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-09-01T18%3A03%3A41.239Z-image.png?alt=media&token=6cd5846c-6be8-4469-aae4-907e8b489df4)"
+    },
+    {
+      "titulo": "Traduccion",
+      "texto": "- o Como Orfeo, el Tracio hijo de Oiagros, estimó a Kalais de Boreas con todo su corazón, y muchas veces se sentaba en las penumbrosas arboledas cantando sobre sus anhelos, y nunca estaba su corazón en paz, pues siempre sufria su alma de insomnio, observando a su radiante Kalais.\n- Pero las Tracias Bistonides que arrojan malas armas lo mataron, con filosas espadas atravesandolo, a causa de haber enseñado a los Tracios los amores entre hombres, y no recomendando deseo con hembras.\n- Con el bronce cortaron la cabeza, y de una vez la lanzaron al mar, con su lira tracia en el hombro, atado al caparazon de una tortuga, para que ambos se hundan en el mar juntos, empapados en las olas oscuras\n- El mar espumoso arribó en la Santa Lesbos, un viento furioso agitaba las profundidades del mar, islas y costas estremecidas por las tormentas. Allí, en las costas de Lesbos, hombres enterraron la cabeza de Orfeo, mientras su lira cantaba un lamento junto a su tumba, sobre las rocas del acantilado y la cueva sombría de Fórcis, donde se escucha el rugido del mar.\n- Desde allí, la música sagrada de su lira resuena, encantando a quienes la oyen, y su canto nunca cesa. Los tracios, que llevaron a cabo tan bárbaro acto en respuesta a los feroces trabajos de las mujeres, padecen una locura terrible, llevadas por las Erinias, porque con signos de sangre y la tierra manchada con el lamento del crimen, Orfeo yace bajo el suelo de la Tierra por causa de su cólera contra las mujeres y su locura.\""
+    }
+  ],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": "M"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "naos-de-apolo-f1-corinto-arcaica",
+  "tana_id": "U_Z61hnRBUQF",
+  "nombre": "Naos de Apolo F1, Corinto Arcaica",
+  "nombre_alt": null,
+  "titulo_tana": "Naos de Apolo F1, Corinto Arcaica",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "Temple Hill, c. 650-625; uno de los primeros templos con techumbre de tejas.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

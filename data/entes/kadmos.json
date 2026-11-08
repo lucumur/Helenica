@@ -1,0 +1,33 @@
+{
+  "id": "kadmos",
+  "tana_id": "4Nz3g5lg19BR",
+  "nombre": "Kadmos",
+  "nombre_alt": "Cadmo",
+  "titulo_tana": "Kadmos = Cadmo",
+  "etiquetas_tana": [
+    "O",
+    "Regio",
+    "M"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "- Raza Tebana\n- Nobleza",
+    "refs": [
+      {
+        "tana": "L7UGizleg3d6",
+        "nombre": "Raza Tebana"
+      },
+      {
+        "tana": "0TjIgPdjRUql",
+        "nombre": "Nobleza"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Realeza"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

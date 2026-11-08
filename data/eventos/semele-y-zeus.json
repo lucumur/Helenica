@@ -1,0 +1,46 @@
+{
+  "id": "semele-y-zeus",
+  "tana_id": "rERyFPQ3eA7P",
+  "nombre": "Semelē y Zeus",
+  "nombre_alt": null,
+  "titulo_tana": "Semelē y Zeus",
+  "etiquetas_tana": [
+    "Evento"
+  ],
+  "imagen": null,
+  "tipo_tana": {
+    "texto": "- Enamoramiento\n- Historia Tragica",
+    "refs": []
+  },
+  "agentes_activos": {
+    "texto": "- [Semelē = Semele](entes:semele)\n- [Zéus (Zeus)](entes:zeus)",
+    "refs": [
+      {
+        "tana": "GNviY-9I40Fk",
+        "nombre": "Semelē = Semele",
+        "col": "entes",
+        "id": "semele"
+      },
+      {
+        "tana": "Yz-NkVaNbFNa",
+        "nombre": "Zéus (Zeus)",
+        "col": "entes",
+        "id": "zeus"
+      }
+    ]
+  },
+  "fuentes": [
+    {
+      "titulo": "Semele (por la grecia de Zeus)",
+      "url": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-08-13T03%3A30%3A16.910Z-image.png?alt=media&token=6e9c23c7-cd47-47a8-b744-b6b1c2340ed8"
+    }
+  ],
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- Semele era la hija menor del Rey Cadmo de Tebas y su esposa Harmonia\n- Un dia tuvo un sueño profetico en el que veia un jardin y en el habia una planta verde con un fruto; de repente un rayo carbonizaba la planta, pero dejaba intacto al fruto. Un pajaro se lo llevaba a Zeus y de el nacia un toro Al despertar, Semele fue a contarle el sueño a su padre, que tras consultarlo con Tiresias, el famoso adivino ciego de Tebas, la mando al Templo de Atenea a sacrificar un Toro en honor a Zeus.\n- El sacrificio fue bastante sanguinolento y termina toda empapada de sangre por lo que  procede a lavarse en las aguas del rio tebano [Asōpos, Thēbai (Rio)](lugares:asopos-thebai) . Alli es donde Zeus la observa desnuda y siente la flecha de Eros y se acerca a la escena, transformado en aguila, y de esa manera la visitaba en secreto.\n- la Diosa Hera se entera del rumor de que el hijo de esta princesa era de su marido Zeus, por lo que apareciendosele como una ancianita, la nana Beroē se intenta ganar su amistad para que le confiese que su amor era Zeus, pero le mete dudas en su mente para que desconfie de si en realidad es el verdadero Zeus quien se aparece frente a ella:\n- -Como sabes si es el Dios de los Cielos si no lo has visto asi? por lo que cuentas parece un mortal mas es con quien te juntas. El aguila que veias antes y te seguia, hija, solo era un animal más, como crees que era un Dios, te imaginas cosas...\n- pero si en realidad estas segura que si es Zeus, pidele que te revele su verdadera figura, y te lo tendrá que conceder! claro, si es el Dios padre puede hacerlo...\n- Zeus, atado por su promesa, accedió a la solicitud de Sémele. Cuando Zeus se mostró ante ella en todo su esplendor divino, la visión resultó ser demasiado para la mortal Sémele. La intensidad del poder divino de Zeus, manifestado a través de rayos y truenos, la consumió por completo, lo que llevó a su muerte inmediata. Fue en ese momento cuando Zeus rescató al feto de Dionisio de su vientre y lo cosió en su muslo para que completara su gestación, pariendolo en los Montes Ceraunios de Epiro, de ahi su nombre \"Dionysos\" (Diwós Sunús = El hijo del Dia)\n- Despues de su muerte, su hermana Ino cuidó a Dionisio, criandolo disfrazado de niña para que Hera no lo descubriera, valiendole el sobrenombre \"Dimetor\" (de dos Madres)\n- Sémele murió de manera trágica al ser fulminada la divinidad de Zeus. Al crecer Dionisio y enterarse de lo sucedido, busca traer de vuelta a su madre, yendola a buscar al Hades, para asi restaurar el honor de su madre, una mortal que fue víctima de los celos divinos.\n- Asi se consagra Dionisio como un dios que puede cruzar los dos mundos de vivos y muertos. Dionisio la lleva al Monte Olimpo, donde se diviniza bajo el nombre de Thyone \"La Sacrificada\"."
+    }
+  ],
+  "tipo": "Mítico"
+}

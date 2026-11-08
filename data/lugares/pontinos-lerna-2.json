@@ -1,0 +1,24 @@
+{
+  "id": "pontinos-lerna-2",
+  "tana_id": "fu4-T2NNkFlB",
+  "nombre": "Pontinos, Lerna",
+  "nombre_alt": "Rio",
+  "titulo_tana": "Pontinos, Lerna (Rio)",
+  "etiquetas_tana": [
+    "Lugar",
+    "Rio"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Río"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "e30B_D73-DJ3",
+    "nombre": "Lerna, Argolis (Region)",
+    "col": "lugares",
+    "id": "lerna-argolis-2"
+  }
+}

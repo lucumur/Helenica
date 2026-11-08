@@ -1,0 +1,29 @@
+{
+  "id": "dorion",
+  "tana_id": "kIjXJbOeglZz",
+  "nombre": "Dōriōn",
+  "nombre_alt": "Dorión",
+  "titulo_tana": "Dōriōn = Dorión",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

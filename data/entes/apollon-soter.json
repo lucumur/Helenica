@@ -1,0 +1,24 @@
+{
+  "id": "apollon-soter",
+  "tana_id": "yjT8CxPbNU4N",
+  "nombre": "Apollon Sōtēr",
+  "nombre_alt": "El Salvador",
+  "titulo_tana": "Apollon Sōtēr = El Salvador",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "9OYZLA3QegGP",
+    "nombre": "Apollôn",
+    "col": "entes",
+    "id": "apollon"
+  }
+}

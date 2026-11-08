@@ -1,0 +1,21 @@
+{
+  "id": "altar-de-los-ciclopes-poteidaion",
+  "tana_id": "bgWbaBKhQPKX",
+  "nombre": "Altar de los Ciclopes, Poteidaion",
+  "nombre_alt": null,
+  "titulo_tana": "Altar de los Ciclopes, Poteidaion",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- ****: santuario antiguo dentro del recinto, con sacrificio a los Cíclopes. Fósil pre‑olímpico."
+    }
+  ],
+  "tipos": [
+    "Objeto"
+  ]
+}

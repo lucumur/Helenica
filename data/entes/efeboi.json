@@ -1,0 +1,24 @@
+{
+  "id": "efeboi",
+  "tana_id": "tHjsttmbdZRa",
+  "nombre": "Efeboi",
+  "nombre_alt": "Adolescentes",
+  "titulo_tana": "Efeboi = Adolescentes",
+  "etiquetas_tana": [
+    "Grupo"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Grupo"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "contenido_en": {
+    "tana": "mGSoPS3j4eMP",
+    "nombre": "Apatouria = Festival de Ingreso al Fratrion",
+    "col": "eventos",
+    "id": "apatouria"
+  }
+}

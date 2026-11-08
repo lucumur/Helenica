@@ -1,0 +1,64 @@
+{
+  "id": "megara",
+  "tana_id": "nt7v5eceMa3N",
+  "nombre": "Megára",
+  "nombre_alt": "Megara",
+  "titulo_tana": "Megára = Megara",
+  "etiquetas_tana": [
+    "O",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "- Raza Tebana\n- Nobleza",
+    "refs": [
+      {
+        "tana": "L7UGizleg3d6",
+        "nombre": "Raza Tebana"
+      },
+      {
+        "tana": "0TjIgPdjRUql",
+        "nombre": "Nobleza"
+      }
+    ]
+  },
+  "cultura": "Helénica",
+  "padres": {
+    "texto": "[Kreôn = Creonte](entes:kreon)",
+    "refs": [
+      {
+        "tana": "_xqcmu-t2R-c",
+        "nombre": "Kreôn = Creonte",
+        "col": "entes",
+        "id": "kreon"
+      }
+    ]
+  },
+  "nacimiento": {
+    "texto": "Princesa tebana, hija de Creonte",
+    "refs": []
+  },
+  "hijos": {
+    "texto": "- \"los chalkoarai\" malditos por el bronce.\n- Thērimachos, el que combate las fieras\n- Deikoōn, el que mata en la lucha\n- Kreontiadēs, hijo de Creonte\n- Ofites\n- Terímachos\n- Leipefilene",
+    "refs": []
+  },
+  "campos": [
+    {
+      "clave": "Vinculo",
+      "etiqueta": "Vinculo",
+      "texto": "- Esposa legitima (primera esposa)\n- Creonte la entregó a Heracles como recompensa tras su victoria sobre Orcómeno",
+      "refs": []
+    },
+    {
+      "clave": "Destino",
+      "etiqueta": "Destino",
+      "texto": "Heracles, enloquecido por Hera, mata a los hijos (y en algunas versiones a la propia Mégara — Eurípides, _Heracles_).",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": "F"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "pelasgos",
+  "tana_id": "aUi8HyRgNUel",
+  "nombre": "Pelasgos",
+  "nombre_alt": "Pelasgo",
+  "titulo_tana": "Pelasgos (Pelasgo)",
+  "etiquetas_tana": [
+    "Heroe"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

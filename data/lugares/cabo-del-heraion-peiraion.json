@@ -1,0 +1,151 @@
+{
+  "id": "cabo-del-heraion-peiraion",
+  "tana_id": "1zDgc630aILl",
+  "nombre": "Cabo del Hēraion, Peiraion",
+  "nombre_alt": null,
+  "titulo_tana": "Cabo del Hēraion, Peiraion",
+  "etiquetas_tana": [
+    "hieron"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "- Complejo Templario\n- Faro",
+      "refs": [
+        {
+          "tana": "oLmip7dV1QvS",
+          "nombre": "Complejo Templario"
+        },
+        {
+          "tana": "Za-c1Tg7Q1rT",
+          "nombre": "Faro"
+        }
+      ]
+    },
+    {
+      "clave": "P📊",
+      "etiqueta": "Propiedades",
+      "texto": "asociado a [Hēra Liménia (del Puerto)](entes:hera-limenia) y [Hēra Akráia (del Promontorio)](entes:hera-akraia)",
+      "refs": [
+        {
+          "tana": "Ai6ImXvahPdH",
+          "nombre": "Hēra Liménia (del Puerto)",
+          "col": "entes",
+          "id": "hera-limenia"
+        },
+        {
+          "tana": "KyYVebs82lPv",
+          "nombre": "Hēra Akráia (del Promontorio)",
+          "col": "entes",
+          "id": "hera-akraia"
+        }
+      ]
+    },
+    {
+      "clave": "S🧩",
+      "etiqueta": "Subunidades / partes",
+      "texto": "- Areas\n  - [Patio Oeste del Heraion](lugares:patio-oeste-del-heraion)\n  - [Naos de Hēra Akraia (650aC - 146 aC), Perachōra](lugares:naos-de-hera-akraia-650ac-146-ac-perachora)\n  - [Altar de Triglifos y Metopas del Heraion](lugares:altar-de-triglifos-y-metopas-del-heraion)\n  - [Oikos de Hera Limenia (850 aC -330 aC ), Peiraion](lugares:oikos-de-hera-limenia-850-ac-330-ac-peiraion)\n  - [Stoa \"Gamma\" de Dos Pisos, Heraion (650aC - 146 ac)](lugares:stoa-gamma-de-dos-pisos-heraion)\n  - [Piscina de las Fialas, Oikos de Hera](objetos:piscina-de-las-fialas-oikos-de-hera)\n  - [Cisterna Biabsidal, Heraion](lugares:cisterna-biabsidal-heraion)\n  - [Hestiatoria Dobles, Heraion](lugares:hestiatoria-dobles-heraion)",
+      "refs": [
+        {
+          "tana": "uImt8F9bPQCN",
+          "nombre": "Patio Oeste del Heraion",
+          "col": "lugares",
+          "id": "patio-oeste-del-heraion"
+        },
+        {
+          "tana": "d_sn9PC4fTDU",
+          "nombre": "Naos de Hēra Akraia (650aC - 146 aC), Perachōra",
+          "col": "lugares",
+          "id": "naos-de-hera-akraia-650ac-146-ac-perachora"
+        },
+        {
+          "tana": "xgBOiquXXV8-",
+          "nombre": "Altar de Triglifos y Metopas del Heraion",
+          "col": "lugares",
+          "id": "altar-de-triglifos-y-metopas-del-heraion"
+        },
+        {
+          "tana": "MHQYQYnY3HWh",
+          "nombre": "Oikos de Hera Limenia (850 aC -330 aC ), Peiraion",
+          "col": "lugares",
+          "id": "oikos-de-hera-limenia-850-ac-330-ac-peiraion"
+        },
+        {
+          "tana": "a-NuGEs9ZVGo",
+          "nombre": "Stoa \"Gamma\" de Dos Pisos, Heraion (650aC - 146 ac)",
+          "col": "lugares",
+          "id": "stoa-gamma-de-dos-pisos-heraion"
+        },
+        {
+          "tana": "3vOPrzmEDt9b",
+          "nombre": "Piscina de las Fialas, Oikos de Hera",
+          "col": "objetos",
+          "id": "piscina-de-las-fialas-oikos-de-hera"
+        },
+        {
+          "tana": "4ijgSZd74agq",
+          "nombre": "Cisterna Biabsidal, Heraion",
+          "col": "lugares",
+          "id": "cisterna-biabsidal-heraion"
+        },
+        {
+          "tana": "qfZqG7j6izia",
+          "nombre": "Hestiatoria Dobles, Heraion",
+          "col": "lugares",
+          "id": "hestiatoria-dobles-heraion"
+        }
+      ]
+    },
+    {
+      "clave": "P⏪",
+      "etiqueta": "Antecesor",
+      "texto": "Naos Oblongo de Hera Akraia",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "El conjunto conocido de Perachora se extiende en un rectángulo de unos 45 m norte‑sur por 245 m este‑oeste, envolviendo la pequeña cala y subiendo hacia el este por una cresta.",
+      "refs": []
+    },
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "- **El ritual primitivo:** Los fieles llegaban a la orilla, encendían hogueras, sacrificaban animales pequeños o quemaban vegetales, y arrojaban o enterraban sus ofrendas en el suelo. No había templo: el agua, la playa y el fuego eran los elementos sagrados.\n- **Rituales de paso:** Se cree que los marineros ofrecían aquí sacrificios antes de embarcarse hacia las colonias del oeste (Corcira, Sicilia).",
+      "refs": []
+    },
+    {
+      "clave": "H🔼",
+      "etiqueta": "Pertenece a",
+      "texto": "[Peiraion, Korinthia (850ac - 146ac)](lugares:peiraion-korinthia)",
+      "refs": [
+        {
+          "tana": "slhLmjZQBFmM",
+          "nombre": "Peiraion, Korinthia (850ac - 146ac)",
+          "col": "lugares",
+          "id": "peiraion-korinthia"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Santuario"
+  ],
+  "pertenece_a": [
+    {
+      "tana": "slhLmjZQBFmM",
+      "nombre": "Peiraion, Korinthia (850ac - 146ac)",
+      "col": "lugares",
+      "id": "peiraion-korinthia"
+    }
+  ],
+  "contenido_en": {
+    "tana": "slhLmjZQBFmM",
+    "nombre": "Peiraion, Korinthia (850ac - 146ac)",
+    "col": "lugares",
+    "id": "peiraion-korinthia"
+  }
+}

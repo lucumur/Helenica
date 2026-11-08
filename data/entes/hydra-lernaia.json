@@ -1,0 +1,72 @@
+{
+  "id": "hydra-lernaia",
+  "tana_id": "qKQqvMi2YTog",
+  "nombre": "Hydra Lernaia",
+  "nombre_alt": "Hidra de Lerna",
+  "titulo_tana": "Hydra Lernaia = Hidra de Lerna",
+  "etiquetas_tana": [
+    "O",
+    "Bestia",
+    "H"
+  ],
+  "imagen": null,
+  "nacimiento": {
+    "texto": "Amamantada y Criada por Hera (Hesiodo)",
+    "refs": []
+  },
+  "descripcion": {
+    "texto": "Serpiente de Mar de Nueve Cabezas (Alcaeus) o de 50 Cabezas (Simonides)",
+    "refs": []
+  },
+  "especie": {
+    "texto": "Bestia",
+    "refs": [
+      {
+        "tana": "MWq5bPfXL3LM",
+        "nombre": "Bestia"
+      }
+    ]
+  },
+  "cultura": "Helénica",
+  "residencias": {
+    "texto": "[Lerna, Argolis (Region)](lugares:lerna-argolis-2)",
+    "refs": [
+      {
+        "tana": "e30B_D73-DJ3",
+        "nombre": "Lerna, Argolis (Region)",
+        "col": "lugares",
+        "id": "lerna-argolis-2"
+      }
+    ]
+  },
+  "padres": {
+    "texto": "- [Echidna = Equidna](entes:echidna)\n- [Typhon = Tifon](entes:typhon)",
+    "refs": [
+      {
+        "tana": "Rq6c2lQ4XxJ1",
+        "nombre": "Echidna = Equidna",
+        "col": "entes",
+        "id": "echidna"
+      },
+      {
+        "tana": "pcTiMQOSr29d",
+        "nombre": "Typhon = Tifon",
+        "col": "entes",
+        "id": "typhon"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Bestia",
+    "Mortal"
+  ],
+  "genero": null,
+  "contenido_en": {
+    "tana": "BPmEWjakjBne",
+    "nombre": "Segundo Athlos: Matar a la Hidra de Lerna (Argolis)",
+    "col": "eventos",
+    "id": "segundo-athlos-matar-a-la-hidra-de-lerna"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "id": "dioskouroi",
+  "tana_id": "Zi2jiqCmQ0we",
+  "nombre": "Dioskouroi",
+  "nombre_alt": "Dios",
+  "titulo_tana": "Dioskouroi (Dios)",
+  "etiquetas_tana": [
+    "O",
+    "Deidad",
+    "Dual"
+  ],
+  "imagen": null,
+  "padres": {
+    "texto": "- [Tyndareos = Tindareo](entes:tyndareos) = Su padre mortal. normalmente el padre de Kastor\n- [Leda = Leda](entes:leda) = Su madre mortal\n- [Zéus (Zeus)](entes:zeus) = su padre Divino. normalmente el padre de Polydeukes",
+    "refs": [
+      {
+        "tana": "8DrZ9dBoBCR3",
+        "nombre": "Tyndareos = Tindareo",
+        "col": "entes",
+        "id": "tyndareos"
+      },
+      {
+        "tana": "VTISlcrk1XRV",
+        "nombre": "Leda = Leda",
+        "col": "entes",
+        "id": "leda"
+      },
+      {
+        "tana": "Yz-NkVaNbFNa",
+        "nombre": "Zéus (Zeus)",
+        "col": "entes",
+        "id": "zeus"
+      }
+    ]
+  },
+  "epitetos": {
+    "texto": "- (dual) Tyndaridai = los hijos de Tyndareo\n- (dual) Dioskouroi = los hijos de Zeus\n- Kastor (gemelo mortal)\n  - Castor en Roma\n  - Kasture en Etruria\n  - Kastor Hippodamos = Castor el Domador de Caballos\n- Polydeukēs (gemelo divino)\n  - Pollux, Pollucis en Roma\n  - Pultuce en Etruria\n  - Podlouques en Roma Arcaica\n  - Pux Polydeukēs = el Boxeador",
+    "refs": []
+  },
+  "atributos": {
+    "texto": "- Gorro Frigio, segun los Etruscos\n- Pilos (Sombrero conico suave) aveces\n- Dokana, puerta asociada a los Dioscuros\n  - ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-12-21T23%3A30%3A31.690Z-image.png?alt=media&token=52389380-a837-4c96-936a-0b28c5ff5ca6)\n- Barba\n  - Kastor barbado\n  - Polydeukes menos barbado, o afeitado\n  - aveces ambos imberbes, demostrando su juventud",
+    "refs": []
+  },
+  "conyuges": {
+    "texto": "[Polydeukes = Pollux](entes:polydeukes)",
+    "refs": [
+      {
+        "tana": "MXL9aDAMr88M",
+        "nombre": "Polydeukes = Pollux",
+        "col": "entes",
+        "id": "polydeukes"
+      }
+    ]
+  },
+  "asociaciones": {
+    "texto": "- (dual) Amuleto en Espejos\n- (dual) Ayudantes de la Humanidad\n- (dual) Patrones de los Viajeros y Navegantes\n- (singulo) Patron de los Boxeadores",
+    "refs": [
+      {
+        "tana": "bC7pUOWOQWG3",
+        "nombre": "(dual) Amuleto en Espejos"
+      },
+      {
+        "tana": "FCBL6iqIDOW2",
+        "nombre": "(dual) Ayudantes de la Humanidad"
+      },
+      {
+        "tana": "i0SiqNVAL2oG",
+        "nombre": "(dual) Patrones de los Viajeros y Navegantes"
+      },
+      {
+        "tana": "fT6-oq1I9ZzR",
+        "nombre": "(singulo) Patron de los Boxeadores"
+      }
+    ]
+  },
+  "especie": {
+    "texto": "- Semi-Dios\n- Dios Olimpico\n- Heroe",
+    "refs": [
+      {
+        "tana": "OAecMhlJD8LA",
+        "nombre": "Semi-Dios"
+      },
+      {
+        "tana": "ITeremftDCmK",
+        "nombre": "Dios Olimpico"
+      },
+      {
+        "tana": "fdfrmwQATZAR",
+        "nombre": "Heroe"
+      }
+    ]
+  },
+  "cultura": "Helénica",
+  "descripcion": {
+    "texto": "Gemelos Hijos de Zeus",
+    "refs": []
+  },
+  "nacimiento": {
+    "texto": "- Probablemente Micenico, como una tradición heróica que se fue divinizando, aunque solo se ha encontrado evidencia en el periodo griego Arcaico 800aC\n- Su culto fue exportado a Italia",
+    "refs": []
+  },
+  "fuentes": [
+    {
+      "titulo": "Anillo de Helena con los Dioscuri",
+      "url": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-12-23T01%3A57%3A20.157Z-image.png?alt=media&token=974d9982-70e9-4891-8c2b-b6690748faad"
+    },
+    {
+      "titulo": "Estatuas de Bronce de los Dioscuri \"El Regente Helenistico\"",
+      "url": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-12-23T02%3A01%3A59.817Z-image.png?alt=media&token=59fe5aa1-5e7b-4919-9f63-bdfdc8a945d6"
+    },
+    {
+      "titulo": "Espejo con Amuces, Poloces y Losna",
+      "url": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-12-23T02%3A07%3A32.934Z-image.png?alt=media&token=826c8f6c-bcf7-4351-9261-42716ac84be5"
+    }
+  ],
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad",
+    "Pareja divina"
+  ],
+  "genero": null
+}

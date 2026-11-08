@@ -1,0 +1,19 @@
+{
+  "id": "eros",
+  "tana_id": "s3QTP7TkhINd",
+  "nombre": "Eros",
+  "nombre_alt": "Cupido",
+  "titulo_tana": "Eros (Cupido)",
+  "etiquetas_tana": [
+    "Deidad",
+    "O"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

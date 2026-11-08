@@ -1,0 +1,23 @@
+{
+  "id": "perachora-corinto",
+  "tana_id": "7wxzdFo-ikqh",
+  "nombre": "Perachora, Corinto",
+  "nombre_alt": "1688-1715",
+  "titulo_tana": "Perachora, Corinto (1688-1715)",
+  "etiquetas_tana": [
+    "chora"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Chora"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "slhLmjZQBFmM",
+    "nombre": "Peiraion, Korinthia (850ac - 146ac)",
+    "col": "lugares",
+    "id": "peiraion-korinthia"
+  }
+}

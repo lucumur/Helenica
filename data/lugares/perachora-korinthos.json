@@ -1,0 +1,23 @@
+{
+  "id": "perachora-korinthos",
+  "tana_id": "HPpGyqlq6kGA",
+  "nombre": "Perachōra, Kórinthos",
+  "nombre_alt": "1358-1458",
+  "titulo_tana": "Perachōra, Kórinthos (1358-1458)",
+  "etiquetas_tana": [
+    "demos"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Demos"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "slhLmjZQBFmM",
+    "nombre": "Peiraion, Korinthia (850ac - 146ac)",
+    "col": "lugares",
+    "id": "peiraion-korinthia"
+  }
+}

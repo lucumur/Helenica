@@ -1,0 +1,19 @@
+{
+  "id": "triton",
+  "tana_id": "tptjfQoNtL0n",
+  "nombre": "Triton",
+  "nombre_alt": "Triton",
+  "titulo_tana": "Triton (Triton)",
+  "etiquetas_tana": [
+    "Deidad",
+    "O"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "epimetheus",
+  "tana_id": "H3sJ-ntn2KZ3",
+  "nombre": "Epimēthéus",
+  "nombre_alt": "Epimeteo",
+  "titulo_tana": "Epimēthéus (Epimeteo)",
+  "etiquetas_tana": [
+    "Heroe"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

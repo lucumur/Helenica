@@ -1,0 +1,23 @@
+{
+  "id": "antiope-agalma-sikyon",
+  "tana_id": "4OGCVmHg2dGE",
+  "nombre": "Antiopē (Agalma), Sikyôn",
+  "nombre_alt": null,
+  "titulo_tana": "Antiopē (Agalma), Sikyôn",
+  "etiquetas_tana": [
+    "agalma"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "**apropiación genealógica**. Antíope es figura tebana por excelencia (madre de los fundadores de Tebas). Colocarla en el acceso al santuario principal de Afrodita es una reclamación territorial-mítica",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Agalma (estatua de culto)"
+  ]
+}

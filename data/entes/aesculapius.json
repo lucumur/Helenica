@@ -1,0 +1,26 @@
+{
+  "id": "aesculapius",
+  "tana_id": "f0rggdz8Swat",
+  "nombre": "Aesculapius",
+  "nombre_alt": null,
+  "titulo_tana": "Aesculapius",
+  "etiquetas_tana": [
+    "Epiteto",
+    "latin"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": null,
+  "contenido_en": {
+    "tana": "vYT6Rr7Q8l96",
+    "nombre": "Asklēpiós = Asclepio",
+    "col": "entes",
+    "id": "asklepios"
+  }
+}

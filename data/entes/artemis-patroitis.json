@@ -1,0 +1,51 @@
+{
+  "id": "artemis-patroitis",
+  "tana_id": "3uv1DkwXAaXZ",
+  "nombre": "Artemis Patrōitis",
+  "nombre_alt": "la Ancestral",
+  "titulo_tana": "Artemis Patrōitis = la Ancestral",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Ente",
+      "etiqueta": "Ente",
+      "texto": "[Artemis (Artemisa)](entes:artemis)",
+      "refs": [
+        {
+          "tana": "ClxufXBnr4Yy",
+          "nombre": "Artemis (Artemisa)",
+          "col": "entes",
+          "id": "artemis"
+        }
+      ]
+    },
+    {
+      "clave": "Lugar",
+      "etiqueta": "Lugar",
+      "texto": "[Esparta, Laconia (Polis)](lugares:esparta-laconia)",
+      "refs": [
+        {
+          "tana": "qxKXBjGx9Dok",
+          "nombre": "Esparta, Laconia (Polis)",
+          "col": "lugares",
+          "id": "esparta-laconia"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "ClxufXBnr4Yy",
+    "nombre": "Artemis",
+    "col": "entes",
+    "id": "artemis"
+  }
+}

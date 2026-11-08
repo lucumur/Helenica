@@ -1,0 +1,20 @@
+{
+  "id": "chalkodon",
+  "tana_id": "_8D2bJmTFiAv",
+  "nombre": "Chalkodōn",
+  "nombre_alt": "Calcodonte",
+  "titulo_tana": "Chalkodōn (Calcodonte)",
+  "etiquetas_tana": [
+    "Heroe",
+    "H"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe",
+    "Mortal"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

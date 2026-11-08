@@ -1,0 +1,46 @@
+{
+  "id": "culto-de-leucothea-isthmia",
+  "tana_id": "xNy0t-oZsGcC",
+  "nombre": "Culto de Leucothea, Isthmia",
+  "nombre_alt": null,
+  "titulo_tana": "Culto de Leucothea, Isthmia",
+  "etiquetas_tana": [
+    "culto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "- Dominios\n  - Función materna en el complejo ístmico\n    - ****: Existe para explicar de quién es hijo Palemón\n  - Salvación del náufrago (Salvadora de Naufragos)\n    - ****: Su función panhelénica: madre e hijo reciben sus nombres nuevos de parte de los navegantes, porque socorren a los marinos azotados por la tempestad\n  - Umbral mortal/divino\n    - ****: Homero declara la apoteosis: antes fue mortal dotada de habla\n  - Madre que Resuena de lamentos\n    - ****: inferible\n  - Escolta de Barcos\n    - ****: inferible",
+      "refs": []
+    },
+    {
+      "clave": "S🧩",
+      "etiqueta": "Subunidades / partes",
+      "texto": "- Elementos\n  - [Imagen de Poseidon, Leucothea y Palaimon](objetos:imagen-de-poseidon-leucothea-y-palaimon)\n  - [Imagen de Ino entre las ofrendas del templo de Poseidón](objetos:imagen-de-ino-entre-las-ofrendas-del-templo-de-poseidon)\n  - Posible estatua sobre el cimiento M14 del Palemonion\n    - **D📝:** Hipotetico",
+      "refs": [
+        {
+          "tana": "OtlsmIr6zGxZ",
+          "nombre": "Imagen de Poseidon, Leucothea y Palaimon",
+          "col": "objetos",
+          "id": "imagen-de-poseidon-leucothea-y-palaimon"
+        },
+        {
+          "tana": "2O69ORl7amc1",
+          "nombre": "Imagen de Ino entre las ofrendas del templo de Poseidón",
+          "col": "objetos",
+          "id": "imagen-de-ino-entre-las-ofrendas-del-templo-de-poseidon"
+        }
+      ]
+    },
+    {
+      "clave": "A🪪",
+      "etiqueta": "Alias / fases",
+      "texto": "- Leukothea = \"la diosa blanca\" nombre apoteosico, cuando el mar la cambia. madre de Palaimon\n- Inô = \"Vigorosa?\" nombre arcaico o pregriego. mujer de Atamante, madrastra de Frixo, madre de Learco y Melicertes.\n- Kadmēïs = \"la Cadmeana\" ancla tebana. hija de Cadmo y Harmonia, hermana de Semele.\n- Kallisphyros =",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipo": "Culto / misterios"
+}

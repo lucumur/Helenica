@@ -1,0 +1,33 @@
+{
+  "id": "nauplios",
+  "tana_id": "xqou_BA5-XSZ",
+  "nombre": "Nauplios",
+  "nombre_alt": "Nauplio",
+  "titulo_tana": "Nauplios = Nauplio",
+  "etiquetas_tana": [
+    "O",
+    "Regio",
+    "M"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "- Raza Eubea\n  - **Macro:** Raza Helenica\n- Nobleza",
+    "refs": [
+      {
+        "tana": "hanOZ2VGjIem",
+        "nombre": "Raza Eubea"
+      },
+      {
+        "tana": "0TjIgPdjRUql",
+        "nombre": "Nobleza"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Realeza"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

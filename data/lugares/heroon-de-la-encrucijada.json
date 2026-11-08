@@ -1,0 +1,30 @@
+{
+  "id": "heroon-de-la-encrucijada",
+  "tana_id": "KOcPFL8_uuPF",
+  "nombre": "Heroon de la Encrucijada",
+  "nombre_alt": null,
+  "titulo_tana": "Heroon de la Encrucijada",
+  "etiquetas_tana": [
+    "tumba"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Función",
+      "etiqueta": "Función",
+      "texto": "Funebre - Heroica",
+      "refs": []
+    },
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "Recinto de culto heroico levantado sobre tumbas geométricas, en el área del futuro foro.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Tumba"
+  ],
+  "pertenece_a": []
+}

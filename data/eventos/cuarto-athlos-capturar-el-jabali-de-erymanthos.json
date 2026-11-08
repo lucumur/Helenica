@@ -1,0 +1,107 @@
+{
+  "id": "cuarto-athlos-capturar-el-jabali-de-erymanthos",
+  "tana_id": "sSHWkSAuoqKj",
+  "nombre": "Cuarto Athlos: Capturar el Jabali de Erymanthos (Arcadia)",
+  "nombre_alt": null,
+  "titulo_tana": "Cuarto Athlos: Capturar el Jabali de Erymanthos (Arcadia)",
+  "etiquetas_tana": [
+    "Evento"
+  ],
+  "imagen": null,
+  "tipo_tana": {
+    "texto": "Mito",
+    "refs": [
+      {
+        "tana": "uyr3QqtD3Eqh",
+        "nombre": "Mito"
+      }
+    ]
+  },
+  "agentes_activos": {
+    "texto": "- [Hēraklēs (Hercules)](entes:herakles)\n- [Jabali de Erymanthos](entes:jabali-de-erymanthos)\n- [Eurystheus = Euristeo](entes:eurystheus-3)\n- [Pholos = Folo](entes:pholos)\n- [Kheirōn = Quirón](entes:kheiron)\n- [Adōnis = Adonis](entes:adonis)\n- [Aphroditē (Afrodita)](entes:aphrodite)",
+    "refs": [
+      {
+        "tana": "viTfkThjup-A",
+        "nombre": "Hēraklēs (Hercules)",
+        "col": "entes",
+        "id": "herakles"
+      },
+      {
+        "tana": "F2gl3JKGp1ix",
+        "nombre": "Jabali de Erymanthos",
+        "col": "entes",
+        "id": "jabali-de-erymanthos"
+      },
+      {
+        "tana": "cft4UrQiJvN0",
+        "nombre": "Eurystheus = Euristeo",
+        "col": "entes",
+        "id": "eurystheus-3"
+      },
+      {
+        "tana": "1-uga1M9uUQh",
+        "nombre": "Pholos = Folo",
+        "col": "entes",
+        "id": "pholos"
+      },
+      {
+        "tana": "L9kQlCyGnfqv",
+        "nombre": "Kheirōn = Quirón",
+        "col": "entes",
+        "id": "kheiron"
+      },
+      {
+        "tana": "lShWSmEIPNMx",
+        "nombre": "Adōnis = Adonis",
+        "col": "entes",
+        "id": "adonis"
+      },
+      {
+        "tana": "5XM9zBiTodu_",
+        "nombre": "Aphroditē (Afrodita)",
+        "col": "entes",
+        "id": "aphrodite"
+      }
+    ]
+  },
+  "problema": {
+    "texto": "Cuarta Labor: Capturar al Jabali de Erymanthos: Heracles encontró al jabalí y, persiguiéndolo durante varias horas, lo fue acorralando a una zona cubierta de nieve donde, saltando sobre su lomo, lo ató y se lo llevó a Micenas vivo,​ cargándolo sobre sus hombros. Al presentárselo a Euristeo, este tuvo miedo y se escondió en una tinaja de bronce.",
+    "refs": []
+  },
+  "donde": {
+    "texto": "Erymanthos (Monte), Achaia (Región)",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "La Bestia",
+      "texto": "- El Jabali de Erímanto era un Jabali Gigante que rampaba sobre las granjas de Psophis en Arcadia."
+    },
+    {
+      "titulo": "Athlos",
+      "texto": "- despues de cazarlo en la nieve invernal del Monte Erimanto, lo llevo vivo a Euristeo."
+    },
+    {
+      "titulo": "Segun Apolodoro",
+      "texto": "- Para su cuarta labor Euristeo le pidió traer con vida al Jabalí Erimantino. Esta bestia venia del Monte Erimanto y rampaba sobre la tierra de Psophis.\n- Al viajar Heracles por Pholoe, conoció a un Centauro llamado Pholos, hijo de Silenos y una Ninfa Melia, quien se hizo amigo de el. Lo invitó a cenar, dandole carne asada, mientras el comia su carne cruda.  Cuando Heracles pidió vino, Pholos le dice que tiene miedo porque es una jarra compartida con otros centauros. pero Heracles lo convence, y lo abren. No mucho despues, al oler el aroma, los centauros llegan a la cueva de Pholos armados con rocas y antochars. Los primeros que se atreven a entrar, Anchios y Agrios fueron repelidos por Hercules arrojandoles piezas de brasas ardiendo, los demas los persiguió hasta Malea, lanzandoles flechas.\n- Despues tomaron refugio con el Centauro Cheiron, quien se encontraba refugiado en Mlalea, despues de un conflicto con los guerreros ecuestres lápitas. Al querer dispararle a los otros centauros, la flecha cae en la rodilla de Cheiron. Heracles, estresado corre hacia el, y le aplica una medicina que cheiron tenia, pero la herida era incurable, y Cheiron deseaba morir del dolor pero no podia porque era inmortal. pero Zeus le permite la muerte.  El resto de los centauros huyeron a diferentes partes, Eurytion a Pholoe, Nessos a Evenos, el resto fueron recibidos por Poseidon en Eleusis y los escondió en una montaña.\n- Pero pholos, tomando la flecha de un cuerpo, se preguntaba como una cosa tan pequeña habria matado tan facilmente a sus compañeros: pero se le resbala de la mano y lo mata enseguida. (traia el veneno de la Hidra) . Cuando Heracles regresó a Pholoe, encontró muerto a Pholos, lo enterró propiamente y procedió a encontrar al Jabali.\n- Gritando lo rastreó en un grupo de arboles, lo forzó a pasar por nieve para debilitarlo , despues lo ató y lo llevó a Mycenas."
+    },
+    {
+      "titulo": "Segun Ovidio",
+      "texto": "- \"Como el jabali de Tegea que tenía su guarida en el Erímanto, y que aflige al suelo con su vasto peso\"\n- \"Los Centauros se acobardaron despues de mi junto al Jabali que arruinaba Arcadia\""
+    },
+    {
+      "titulo": "Segun Seneca",
+      "texto": "- El peludo jabali de Mainalos, cuya madriguera se hallaba en las alturas del Erimanto de maderos gruesos, hostigando las arboledas de Arcadia"
+    },
+    {
+      "titulo": "Segun Diodorus Siculus",
+      "texto": "- Esta tarea estaba pensada para ser increiblemente dificil, pues tenia que tener la capacidad sobrehumana para vencerlo, pero el mas minimo error podia herir al Jabali y descompletar asi su labor.\n- Cuando llegó del enfrentamiento el rey al verlo cargar el Jabali en sus hombros, se atemorizó y se encerró en una vasija de metal.\n- Mientras Heracles trataba de completar esta labor, tuvo un enfrentamiento con los Centauros, que es como se llaman, de la siguiente manera:         Pholos era un Centauro, por quien la montaña donde vivia se llama Pholoê, y recibió a Heracles con cortesías dandole a abrir una botella de vino que tenia enterrada en su cueva.         Esta jarra, los mitologos relatan, habia sido dejada desde cuatro generaciones atras por Dionisio encargada a un centauro, de ser abierta solo hasta que llegara Heracles a ese lugar.         Pholos recordó las ordenes de Dionisio, pero cuando se abrió la jarra y comenzó a emanar el olor dulce de este fuerte vino añejo, atrajo a los centauros de cerca, y los enfureció: llegaron a la vivienda de Pholos intentando despojarlo de su vino.         Pholos quedó muy asustado, pero Heracles se enfrentó a ellos. Tenia que lidiar con estos seres divinos de lado materno, con la agilidad de un caballo, con la fuerza de dos cuerpos, y con la inteligencia de los hombres.         Los centauros avanzaron hacia Heracles, cargando maderos de pino, rocas, antorchas, y hachas que usaban para matar bueyes.         Heracles se antepuso sin signos de miedo y mantuvo una batallar digna de sus labores anteriores.         Los Centauros fueron ayudados por su madre Nephelê, que mandó una fuerte lluvia volviendo al terreno fangoso y resbaladizo que para ellos con cuatro patas no les afectaba mucho, pero si afectando a Heracles.         Aun asi Heracles mantuvo la impactante afrenta, mató a la mayoria de ellos, y forzó a los restantes a huir.         Los centauros asesinados fueron Daphnis, Argeios, Amphion, Hippotion, Oreios, Isoples, Melanchaites, Thereus, Doupon y Phrixos.         De los que se escaparon, cada uno de ellos recibió despues un castigo mortal      Homados sobrevivió pero fue asesinado en Arkadia cuando intentó violar a Alkyonê la hermana de Eurystheus.            Cuando Pholos estaba dandoles entierro a sus parientes Centauros caidos, se hizo una herida que se le infectó y enfermó. Poco tiempo despues murió.         Heracles le hizo un funeral magnifico y lo enterró al pie de la montaña, dandole el nombre a ese monte de Pholoê.         También mató al Centauro Cheiron con un tiro accidental de su arco, quien era admirado por su sabiduria como medico.\n- El tercer engargo que recibió fue llevar con vida a Micenas el Jabali Erimantino que vivía en el Monte Lampeia en Arcadia."
+    }
+  ],
+  "tipo": "Mítico",
+  "serie": {
+    "nombre": "Doce Labores de Heracles",
+    "orden": 4
+  }
+}

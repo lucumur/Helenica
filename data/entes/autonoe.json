@@ -1,0 +1,29 @@
+{
+  "id": "autonoe",
+  "tana_id": "RAOsjtdWzyEQ",
+  "nombre": "Autonoē",
+  "nombre_alt": "Autónoe",
+  "titulo_tana": "Autonoē = Autónoe",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

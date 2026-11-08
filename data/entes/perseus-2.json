@@ -1,0 +1,19 @@
+{
+  "id": "perseus-2",
+  "tana_id": "qqvov_uYoleU",
+  "nombre": "Perseus",
+  "nombre_alt": "Perseo (Mitico)",
+  "titulo_tana": "Perseus / Perseo (Mitico)",
+  "etiquetas_tana": [
+    "M",
+    "O"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

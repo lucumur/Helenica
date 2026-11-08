@@ -1,0 +1,22 @@
+{
+  "id": "veneno-de-la-sangre-de-hydra",
+  "tana_id": "n6ZiyZFP9xJJ",
+  "nombre": "Veneno de la Sangre de Hydra",
+  "nombre_alt": null,
+  "titulo_tana": "Veneno de la Sangre de Hydra",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ],
+  "contenido_en": {
+    "tana": "BPmEWjakjBne",
+    "nombre": "Segundo Athlos: Matar a la Hidra de Lerna (Argolis)",
+    "col": "eventos",
+    "id": "segundo-athlos-matar-a-la-hidra-de-lerna"
+  }
+}

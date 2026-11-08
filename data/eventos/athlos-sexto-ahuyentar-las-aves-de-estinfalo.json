@@ -1,0 +1,86 @@
+{
+  "id": "athlos-sexto-ahuyentar-las-aves-de-estinfalo",
+  "tana_id": "QGK735Pt79A8",
+  "nombre": "Athlos Sexto: Ahuyentar las Aves de Estinfalo (Arcadia)",
+  "nombre_alt": null,
+  "titulo_tana": "Athlos Sexto: Ahuyentar las Aves de Estinfalo (Arcadia)",
+  "etiquetas_tana": [
+    "Evento"
+  ],
+  "imagen": null,
+  "tipo_tana": {
+    "texto": "Mito",
+    "refs": [
+      {
+        "tana": "uyr3QqtD3Eqh",
+        "nombre": "Mito"
+      }
+    ]
+  },
+  "descripcion": {
+    "texto": "6ta Labor: ahuyentar a las aves de Estinfalo, aves monstruosas con pico de bronce, mascotas de Artemisa, que habian escapado, con el tiempo multiplicandose y causando estragos en la comunidad. Heracles utilizó un cascabel y lo tocó desde una colina; las aves se alejaron.",
+    "refs": []
+  },
+  "agentes_activos": {
+    "texto": "- [Hēraklēs (Hercules)](entes:herakles)\n- Estinfálides (Aves)",
+    "refs": [
+      {
+        "tana": "viTfkThjup-A",
+        "nombre": "Hēraklēs (Hercules)",
+        "col": "entes",
+        "id": "herakles"
+      },
+      {
+        "tana": "mFwbPNekcXsQ",
+        "nombre": "Estinfálides (Aves)"
+      }
+    ]
+  },
+  "elementos": {
+    "texto": "[Krotala de Atenea (Instrumento)](objetos:krotala-de-atenea)",
+    "refs": [
+      {
+        "tana": "9_LdJTwX3Ssu",
+        "nombre": "Krotala de Atenea (Instrumento)",
+        "col": "objetos",
+        "id": "krotala-de-atenea"
+      }
+    ]
+  },
+  "donde": {
+    "texto": "Stymphalos (Lago), Arkadia (Región)",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Apolodoro",
+      "texto": "- Lugar = En el lago Stymphalis junto a un denso grupo de arboles, cerca de la Polis de Stymphalos, Arkadia\n- Problema = se congregaba un gran numero de pajaros para protegerse de los lobos\n- Theres = pajaros, no se especifica como eran.\n- Requisicion = se le pide a Heracles ahuyentar a los pajaros\n- Metodo = agito unas matracas de plata que le dio Atenea, ahuyentando a los pajaros y despues lanzandoles flechas"
+    },
+    {
+      "titulo": "Strabo",
+      "texto": "- Lugar = En el lago Stymphalios en Stymphalos, Arkadia\n- Problema = era hogar de los pajaros Stymphalides\n- Agente = Heracles los habia ahuyentado con Flechas y Ruidos"
+    },
+    {
+      "titulo": "Pausanias",
+      "texto": "- Lugar = En las aguas de Stymphalos\n- Problema = ahi se apareaban unos pajaros miticos.\n- Theres =  pajaros come hombres llamados Stymphalios, que tambien viven en el desierto de Arabia, que atacan a los hombres igual que un leopardo o un leon. todo lo metalico es perforado por estos pajaros. se parecen a un ibis, pero con un pico mas poderoso y no curvo.\n- Agente = Heracles los ahuyenta con el sonido de unos krotala (castañuelas)\n- Estructura = Templo de Artemisa Stymphalide, con pajaros en su techo. ademas musas de marbol blanco, con pies de pajaro, que estan atras del templo."
+    },
+    {
+      "titulo": "Diodorus Siculus",
+      "texto": "- Lugar = Lago Stymphalos\n- Problema = ahi abundaba una enorme multitud de pajaros que destruian las frutas de los alrededores.\n- Agente = Heracles, a quien se le habia pedido ahuyentar a los Pajaros del Lago Stymphalos\n- Metodo = agito unas castañuelas de bronce\n- Final = las aves abandonaron el lago"
+    },
+    {
+      "titulo": "Quintus Smyrnaeus",
+      "texto": "- Theres = los pajaros Estymphalios feroces,\n- Agente = Heracles disparando las flechas con su ira"
+    },
+    {
+      "titulo": "Hyginus",
+      "texto": "- Lugar = En la isla de Ares en el Lago Stymphalos\n- Theres = los Pajaros Estynfalios que lanzaban sus plumas como flechas\n- Agente = Heracles"
+    }
+  ],
+  "tipo": "Mítico",
+  "serie": {
+    "nombre": "Doce Labores de Heracles",
+    "orden": 6
+  }
+}

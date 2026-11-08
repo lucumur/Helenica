@@ -1,0 +1,176 @@
+{
+  "id": "peiraion-korinthia",
+  "tana_id": "slhLmjZQBFmM",
+  "nombre": "Peiraion, Korinthia",
+  "nombre_alt": "850ac - 146ac",
+  "titulo_tana": "Peiraion, Korinthia (850ac - 146ac)",
+  "etiquetas_tana": [
+    "chora"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "S🧩",
+      "etiqueta": "Subunidades / partes",
+      "texto": "- [Limnē Gorgôpis, Peiraion](lugares:limne-gorgopis-peiraion)\n- [Peiraia, Peiraion](lugares:peiraia-peiraion)\n- [Akropolis de Peiraia, Peiraion](lugares:akropolis-de-peiraia-peiraion)\n- [Koimēterion del Peiraion (nombre incierto), Peiraion](lugares:koimeterion-del-peiraion-nombre-incierto-peiraion)\n- [Olmiai (Promontorio), Peiraion](lugares:olmiai-promontorio-peiraion)\n- [👰 Cabo del Hēraion, Peiraion](lugares:cabo-del-heraion-peiraion)\n- [Distrito Agricola, Peiraion](lugares:distrito-agricola-peiraion)\n- [Oinóē, Peiraion](lugares:oinoe-peiraion)\n- [Geráneia, Peiraion](lugares:geraneia-peiraion)\n- [Aigiplanktos (Pico del Faro), Peiraion](lugares:aigiplanktos-pico-del-faro-peiraion)\n- [Alkyonís (mar Alcionio), Peiraion](lugares:alkyonis-mar-alcionio-peiraion)\n- [Thermai, Peiraion](lugares:thermai-peiraion)",
+      "refs": [
+        {
+          "tana": "qrZk2RtHfCed",
+          "nombre": "Limnē Gorgôpis, Peiraion",
+          "col": "lugares",
+          "id": "limne-gorgopis-peiraion"
+        },
+        {
+          "tana": "xqJ0aYgE9pqH",
+          "nombre": "Peiraia, Peiraion",
+          "col": "lugares",
+          "id": "peiraia-peiraion"
+        },
+        {
+          "tana": "pi2pv4YMkCwe",
+          "nombre": "Akropolis de Peiraia, Peiraion",
+          "col": "lugares",
+          "id": "akropolis-de-peiraia-peiraion"
+        },
+        {
+          "tana": "kAdNB8q2DF7H",
+          "nombre": "Koimēterion del Peiraion (nombre incierto), Peiraion",
+          "col": "lugares",
+          "id": "koimeterion-del-peiraion-nombre-incierto-peiraion"
+        },
+        {
+          "tana": "5UuZnPZpPlM0",
+          "nombre": "Olmiai (Promontorio), Peiraion",
+          "col": "lugares",
+          "id": "olmiai-promontorio-peiraion"
+        },
+        {
+          "tana": "1zDgc630aILl",
+          "nombre": "👰 Cabo del Hēraion, Peiraion",
+          "col": "lugares",
+          "id": "cabo-del-heraion-peiraion"
+        },
+        {
+          "tana": "PoIq9DKp33bu",
+          "nombre": "Distrito Agricola, Peiraion",
+          "col": "lugares",
+          "id": "distrito-agricola-peiraion"
+        },
+        {
+          "tana": "2PlAeiwVXGPP",
+          "nombre": "Oinóē, Peiraion",
+          "col": "lugares",
+          "id": "oinoe-peiraion"
+        },
+        {
+          "tana": "c4Pgc3CO5sW1",
+          "nombre": "Geráneia, Peiraion",
+          "col": "lugares",
+          "id": "geraneia-peiraion"
+        },
+        {
+          "tana": "F-DTbwEAhEGf",
+          "nombre": "Aigiplanktos (Pico del Faro), Peiraion",
+          "col": "lugares",
+          "id": "aigiplanktos-pico-del-faro-peiraion"
+        },
+        {
+          "tana": "jycE9-LziJ-M",
+          "nombre": "Alkyonís (mar Alcionio), Peiraion",
+          "col": "lugares",
+          "id": "alkyonis-mar-alcionio-peiraion"
+        },
+        {
+          "tana": "D2VHGR3l-AKC",
+          "nombre": "Thermai, Peiraion",
+          "col": "lugares",
+          "id": "thermai-peiraion"
+        }
+      ]
+    },
+    {
+      "clave": "M🗺️",
+      "etiqueta": "Entorno",
+      "texto": "![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-09-03T18%3A34%3A17.589Z-image.png?alt=media&token=190f8f6b-ba2b-470c-8fa1-660b41afdc37)",
+      "refs": []
+    },
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Region delimitada Geograficamente",
+      "refs": []
+    },
+    {
+      "clave": "Po⏩",
+      "etiqueta": "Sucesor",
+      "texto": "- [Piraeum, Corinthus (146aC - 395dC)](lugares:piraeum-corinthus)\n- [Peraia, Kórinthos (395-1204)](lugares:peraia-korinthos)\n- [Perachōra, Corinthe (1204-1358)](lugares:perachora-corinthe)\n- [Perachōra, Kórinthos (1358-1458)](lugares:perachora-korinthos)\n- [Perachōra, Gördüs (1460-1687)](lugares:perachora-gordus-2)\n- [Perachora, Corinto (1688-1715)](lugares:perachora-corinto)\n- [Perachōra, Gördüs (1715-1821)](lugares:perachora-gordus)\n- [Dēmos Perachoritōn, Korinthía (1834-1912)](lugares:demos-perachoriton-korinthia)\n- [Koinotēta Loutrakiou, Korinthía (1912-1928)](lugares:koinoteta-loutrakiou-korinthia)\n- [Loutrakiou - Perachōras, Korinthías (1928-2011)](lugares:loutrakiou-perachoras-korinthias)",
+      "refs": [
+        {
+          "tana": "cheFyDCFjoB3",
+          "nombre": "Piraeum, Corinthus (146aC - 395dC)",
+          "col": "lugares",
+          "id": "piraeum-corinthus"
+        },
+        {
+          "tana": "rUUuWfoyIo2v",
+          "nombre": "Peraia, Kórinthos (395-1204)",
+          "col": "lugares",
+          "id": "peraia-korinthos"
+        },
+        {
+          "tana": "Sx5141vFUKcR",
+          "nombre": "Perachōra, Corinthe (1204-1358)",
+          "col": "lugares",
+          "id": "perachora-corinthe"
+        },
+        {
+          "tana": "HPpGyqlq6kGA",
+          "nombre": "Perachōra, Kórinthos (1358-1458)",
+          "col": "lugares",
+          "id": "perachora-korinthos"
+        },
+        {
+          "tana": "vp-gi9a7rCeA",
+          "nombre": "Perachōra, Gördüs (1460-1687)",
+          "col": "lugares",
+          "id": "perachora-gordus-2"
+        },
+        {
+          "tana": "7wxzdFo-ikqh",
+          "nombre": "Perachora, Corinto (1688-1715)",
+          "col": "lugares",
+          "id": "perachora-corinto"
+        },
+        {
+          "tana": "Ls8woDc3mv9U",
+          "nombre": "Perachōra, Gördüs (1715-1821)",
+          "col": "lugares",
+          "id": "perachora-gordus"
+        },
+        {
+          "tana": "n39fQs4s1nGm",
+          "nombre": "Dēmos Perachoritōn, Korinthía (1834-1912)",
+          "col": "lugares",
+          "id": "demos-perachoriton-korinthia"
+        },
+        {
+          "tana": "QtHd-QE6xArR",
+          "nombre": "Koinotēta Loutrakiou, Korinthía (1912-1928)",
+          "col": "lugares",
+          "id": "koinoteta-loutrakiou-korinthia"
+        },
+        {
+          "tana": "iNUGyvZy4aEh",
+          "nombre": "Loutrakiou - Perachōras, Korinthías (1928-2011)",
+          "col": "lugares",
+          "id": "loutrakiou-perachoras-korinthias"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Chora"
+  ],
+  "pertenece_a": []
+}

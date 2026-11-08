@@ -1,0 +1,58 @@
+{
+  "id": "capa-leontea",
+  "tana_id": "QQNAfry1HB7a",
+  "nombre": "Capa Leontea",
+  "nombre_alt": null,
+  "titulo_tana": "Capa Leontea",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Ropaje",
+      "refs": []
+    },
+    {
+      "clave": "M🪵",
+      "etiqueta": "Material",
+      "texto": "Piel de león (impenetrable a toda arma forjada por mortal)",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Piel del León de Nemea, usada como armadura y manto",
+      "refs": []
+    },
+    {
+      "clave": "P📊",
+      "etiqueta": "Propiedades",
+      "texto": "Invulnerabilidad como armadura; solo puede cortarse con las garras del propio león, no con hierro ni bronce",
+      "refs": []
+    },
+    {
+      "clave": "A⚡",
+      "etiqueta": "Poderes",
+      "texto": "- Desollar al león con sus propias garras tras estrangularlo (Trabajo I);\n- vestida por él permanentemente como atuendo distintivo;\n- usada por Ónfale en el intercambio ritual de atributos en Lidia",
+      "refs": []
+    },
+    {
+      "clave": "Destino",
+      "etiqueta": "Destino",
+      "texto": "La lleva puesta hasta el final, en el Monte Eta, mientras arde en la pira junto con la túnica envenenada de Neso",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- La cabeza del felino usada como capucha es canónica\n- Ha sido reproducida así desde la cerámica ática del siglo VI a.C. hasta las esculturas helenísticas."
+    }
+  ],
+  "tipos": [
+    "Objeto"
+  ]
+}

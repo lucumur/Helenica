@@ -1,0 +1,54 @@
+{
+  "id": "athene-promachos",
+  "tana_id": "kypzWaYXSggF",
+  "nombre": "Athēnē Prómachos",
+  "nombre_alt": "Atenea Guerrera",
+  "titulo_tana": "Athēnē Prómachos (Atenea Guerrera)",
+  "etiquetas_tana": [
+    "agalma"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Coloso",
+      "refs": []
+    },
+    {
+      "clave": "M🪵",
+      "etiqueta": "Material",
+      "texto": "Bronce, Armas de hoplita a escala sobrehumana.",
+      "refs": []
+    },
+    {
+      "clave": "A⚡",
+      "etiqueta": "Poderes",
+      "texto": "❌ No hay sacerdotisa de “Promachos”. Es ofrenda a la diosa de la Acrópolis.",
+      "refs": []
+    },
+    {
+      "clave": "L🗺️",
+      "etiqueta": "Ubicación",
+      "texto": "A cielo abierto, entre Propileos y Partenón.",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "dedicada a [Athēnē Poliás (Atenea Civica)](objetos:athene-polias)",
+      "refs": [
+        {
+          "tana": "J_NDY-orpZhs",
+          "nombre": "Athēnē Poliás (Atenea Civica)",
+          "col": "objetos",
+          "id": "athene-polias"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Agalma (estatua de culto)"
+  ]
+}

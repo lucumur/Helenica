@@ -1,0 +1,33 @@
+{
+  "id": "oibalos",
+  "tana_id": "4dOM11hAqyMT",
+  "nombre": "Oibalos",
+  "nombre_alt": "Ebalo",
+  "titulo_tana": "Oibalos = Ebalo",
+  "etiquetas_tana": [
+    "O",
+    "Regio",
+    "M"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "- Raza Laconia\n- Nobleza",
+    "refs": [
+      {
+        "tana": "L1evr9GDJObc",
+        "nombre": "Raza Laconia"
+      },
+      {
+        "tana": "0TjIgPdjRUql",
+        "nombre": "Nobleza"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Realeza"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

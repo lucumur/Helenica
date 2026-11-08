@@ -1,0 +1,39 @@
+{
+  "id": "el-asesinato-de-lino",
+  "tana_id": "td8D0hMoE7kd",
+  "nombre": "El Asesinato de Lino",
+  "nombre_alt": null,
+  "titulo_tana": "El Asesinato de Lino",
+  "etiquetas_tana": [
+    "Evento"
+  ],
+  "imagen": null,
+  "desenlace": {
+    "texto": "Fue mandado al campo con los bueyes mejor para que no agrediera (Apolodoro)",
+    "refs": []
+  },
+  "agentes_activos": {
+    "texto": "- [Hēraklēs (Hercules)](entes:herakles)\n- [Thespios](entes:thespios)",
+    "refs": [
+      {
+        "tana": "viTfkThjup-A",
+        "nombre": "Hēraklēs (Hercules)",
+        "col": "entes",
+        "id": "herakles"
+      },
+      {
+        "tana": "1txzbBMut5lu",
+        "nombre": "Thespios",
+        "col": "entes",
+        "id": "thespios"
+      }
+    ]
+  },
+  "elementos": {
+    "texto": "- Lino fue asesinado por Heracles cuando lo golpeo con una lira siendo su profesor, lo que le hizo prenderse de ira y matarlo (Apolodoro)\n- Cuando fue juzgado por homicidio, Heracles cito una ley de Rhadamanthys, que declaraba que quien se defendiera de un equivocado agresor deberia ser libre, y se le redimio (Apolodoro)",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "tipo": "Mítico"
+}

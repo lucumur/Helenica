@@ -1,0 +1,24 @@
+{
+  "id": "thespios",
+  "tana_id": "1txzbBMut5lu",
+  "nombre": "Thespios",
+  "nombre_alt": null,
+  "titulo_tana": "Thespios",
+  "etiquetas_tana": [
+    "O"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "contenido_en": {
+    "tana": "td8D0hMoE7kd",
+    "nombre": "El Asesinato de Lino",
+    "col": "eventos",
+    "id": "el-asesinato-de-lino"
+  }
+}

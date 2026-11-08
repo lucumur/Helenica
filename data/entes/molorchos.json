@@ -1,0 +1,55 @@
+{
+  "id": "molorchos",
+  "tana_id": "6s_b2VVNSoYK",
+  "nombre": "Molorchos",
+  "nombre_alt": null,
+  "titulo_tana": "Molorchos",
+  "etiquetas_tana": [
+    "O",
+    "M"
+  ],
+  "imagen": null,
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "- Raza Argiva\n  - **Macro:** Raza Helenica",
+    "refs": [
+      {
+        "tana": "mGg6Suhvt2AY",
+        "nombre": "Raza Argiva"
+      }
+    ]
+  },
+  "atributos": {
+    "texto": "Ksenía = Hospitalidad",
+    "refs": [
+      {
+        "tana": "zQuDozeVmCGb",
+        "nombre": "Ksenía = Hospitalidad"
+      }
+    ]
+  },
+  "campos": [
+    {
+      "clave": "Cargos",
+      "etiqueta": "Cargos",
+      "texto": "Granjero",
+      "refs": [
+        {
+          "tana": "DeKw5gVj-UMU",
+          "nombre": "Granjero"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": "M",
+  "contenido_en": {
+    "tana": "kIvGY8GfKDCK",
+    "nombre": "Primer Athlos: Matar al Leon de Nemea (Argolis)",
+    "col": "eventos",
+    "id": "primer-athlos-matar-al-leon-de-nemea"
+  }
+}

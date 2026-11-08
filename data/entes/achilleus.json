@@ -1,0 +1,56 @@
+{
+  "id": "achilleus",
+  "tana_id": "qEV4mLRZ2lTM",
+  "nombre": "Achilleus",
+  "nombre_alt": "Aquiles (de Phthia)",
+  "titulo_tana": "Achilleus = Aquiles (de Phthia)",
+  "etiquetas_tana": [
+    "Regio",
+    "M",
+    "O"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-09-27T13%3A04%3A14.573Z-image.png?alt=media&token=9d0d445e-7e7d-4947-837e-b7078826ddb0",
+  "asociaciones": {
+    "texto": "- Armamento\n  - [Escudo Cosmico Circular Forjado por Hefesto](objetos:escudo-cosmico-circular-forjado-por-hefesto) Descrito en Homero, pero probablemente un anacronismo\n  - [Sakos = Escudo Torre Micenico Tardio](objetos:sakos)\n  - [Casco Militar-Ceremonial Micenico Tetraceros](objetos:casco-militar-ceremonial-micenico-tetraceros)",
+    "refs": [
+      {
+        "tana": "qr-AJTwMESDp",
+        "nombre": "Escudo Cosmico Circular Forjado por Hefesto",
+        "col": "objetos",
+        "id": "escudo-cosmico-circular-forjado-por-hefesto"
+      },
+      {
+        "tana": "jSAuZTrf5bM7",
+        "nombre": "Sakos = Escudo Torre Micenico Tardio",
+        "col": "objetos",
+        "id": "sakos"
+      },
+      {
+        "tana": "6EULr55_YcRE",
+        "nombre": "Casco Militar-Ceremonial Micenico Tetraceros",
+        "col": "objetos",
+        "id": "casco-militar-ceremonial-micenico-tetraceros"
+      }
+    ]
+  },
+  "titulos": {
+    "texto": "ēgemõn = comandante",
+    "refs": [
+      {
+        "tana": "Zn8IFkw0i0Q7",
+        "nombre": "ēgemõn = comandante"
+      }
+    ]
+  },
+  "atributos": {
+    "texto": "- kállistos axaiôn = el mas bello de los Aqueos\n- ksánthos Axilléus = el Rubio Aquiles",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Realeza"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

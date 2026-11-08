@@ -1,0 +1,23 @@
+{
+  "id": "olmiai-promontorio-peiraion",
+  "tana_id": "5UuZnPZpPlM0",
+  "nombre": "Olmiai (Promontorio), Peiraion",
+  "nombre_alt": null,
+  "titulo_tana": "Olmiai (Promontorio), Peiraion",
+  "etiquetas_tana": [
+    "Lugar"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Lugar"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "slhLmjZQBFmM",
+    "nombre": "Peiraion, Korinthia (850ac - 146ac)",
+    "col": "lugares",
+    "id": "peiraion-korinthia"
+  }
+}

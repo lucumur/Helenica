@@ -1,0 +1,68 @@
+{
+  "id": "keraton-bomos",
+  "tana_id": "LXG_x61y6tzm",
+  "nombre": "Keratōn Bōmós",
+  "nombre_alt": "Altar de los Cuernos",
+  "titulo_tana": "Keratōn Bōmós (Altar de los Cuernos)",
+  "etiquetas_tana": [
+    "hieron"
+  ],
+  "imagen": null,
+  "fuentes": [
+    {
+      "titulo": "**Plutarco, _Vida de Teseo_, 21.1–2** — Fuente posterior (siglo I d.C.). Testigo clave: Plutarco afirma haber visto el altar en persona, describiendo el intrincado entrelazado de los cuernos sin uso de cemento y detallando la danza de la grúa (_geranos_) que Teseo realizó alrededor del _Keraton_.",
+      "url": null
+    },
+    {
+      "titulo": "**Calímaco, _Himno a Delos_, vv. 61–64** — Fuente helenística (siglo III a.C.). Describe la fundación mítica del altar y su relación directa con la arquitectura sagrada de Apolo.",
+      "url": null
+    },
+    {
+      "titulo": "**Apio/Autores tardíos (recogidos en listas de las Siete Maravillas alternativas)** — En la antigüedad tardía, la complejidad estructural del altar hecho enteramente de cuernos hizo que fuera catalogado por algunos autores como una de las Maravillas del Mundo.",
+      "url": null
+    },
+    {
+      "titulo": "**Gruben, Gottfried (1997), _Naxos und Delos_.** Analizó los restos arquitectónicos y la ubicación topográfica del altar dentro del santuario central de Apolo.",
+      "url": null
+    },
+    {
+      "titulo": "**Bruneau, Philippe (1970), _Recherches sur les cultes de Délos_.** Estableció la crítica filológica y arqueológica sobre la naturaleza del altar y su vinculación con los cultos mistéricos y cívicos de la isla.",
+      "url": null
+    },
+    {
+      "titulo": "**Calame, Claude (1977), _Les chœurs de jeunes filles en Grèce archaïque_.** Estudió la función performativa del _Keraton_ como espacio coreográfico para los rituales de paso juveniles (_geranos_).",
+      "url": null
+    }
+  ],
+  "campos": [
+    {
+      "clave": "E🕰️",
+      "etiqueta": "Época",
+      "texto": "su existencia material está atestiguada al menos desde la época Arcaica (siglo VI a.C.)",
+      "refs": []
+    },
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "- Según la mitología, fue construido por el propio Apolo utilizando exclusivamente los cuernos de cabras silvestres cazadas por su hermana Artemisa en el monte Cinto, los cuales estaban entrelazados sin argamasa ni aglutinante alguno. En él se honraba y sacrificaba a Apolo, y su arquitectura ritual estaba estrechamente ligada a la danza sagrada del _geranos_\n- Era el centro focal de los rituales deliaicos, donde la combinación de mitología cinegética (la caza de Artemisa) y arquitectura milagrosa reforzaba el estatus panhelénico de la isla.",
+      "refs": []
+    },
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Altar",
+      "refs": []
+    },
+    {
+      "clave": "H📜",
+      "etiqueta": "Historia y mito",
+      "texto": "- **Restricción anatómica mítica:** La tradición oral recogida por los antiguos apuntaba a una particularidad geométrica y natural estricta: los cuernos utilizados debían proceder únicamente del **lado izquierdo** de los animales cazados, un detalle que subraya el carácter tabú y puramente ritual de su recolección.\n- **Ubicación arqueológica:** Los bloques fragmentarios asociados al edificio que albergaba el altar se identifican hoy en los cimientos cercanos a la \"Sala de los Toros\", nombrada así por los capiteles con relieves de toros que flanqueaban el complejo este del templo principal.\n- Según Calímaco, el altar había sido construido por el propio **Apolo**, usando los cuernos de las cabras que Artemisa cazaba en el monte Cinto. La tradición variaba sobre si eran cuernos izquierdos o derechos; Plutarco admiraba especialmente que estuvieran ensamblados unos con otros **sin pegamento ni ligaduras**, hasta el punto de que el altar era contado entre las maravillas del mundo.\n- La tradición cultual lo vinculaba específicamente con **Apolo Delio** y con su implantación divina en la isla. Era casi una especie de “reliquia fundacional”: no sólo un altar dedicado al dios, sino un altar que **el propio dios supuestamente había construido con sus manos**. Eso explica por qué podía funcionar como uno de los focos religiosos más antiguos del santuario.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Santuario"
+  ],
+  "pertenece_a": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "phylodameia",
+  "tana_id": "YJRxBl7RaLPL",
+  "nombre": "Phylodameia",
+  "nombre_alt": "Filodamia",
+  "titulo_tana": "Phylodameia = Filodamia",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

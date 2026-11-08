@@ -1,0 +1,113 @@
+{
+  "id": "danaos-2",
+  "tana_id": "vC6f2eufI695",
+  "nombre": "Danaos",
+  "nombre_alt": "Danao",
+  "titulo_tana": "Danaos = Danao",
+  "etiquetas_tana": [
+    "O",
+    "Heroe",
+    "M"
+  ],
+  "imagen": null,
+  "hijos": {
+    "texto": "[Danaides = Ninfas Danaides](entes:danaides)",
+    "refs": [
+      {
+        "tana": "yYwhAKG-htAx",
+        "nombre": "Danaides = Ninfas Danaides",
+        "col": "entes",
+        "id": "danaides"
+      }
+    ]
+  },
+  "especie": {
+    "texto": "- Heroes\n- Raza Libia",
+    "refs": [
+      {
+        "tana": "A7xaX_S7BW6C",
+        "nombre": "Heroes"
+      },
+      {
+        "tana": "1wKJ4hshaxdB",
+        "nombre": "Raza Libia"
+      }
+    ]
+  },
+  "cultura": "Helénica",
+  "fuentes": [
+    {
+      "titulo": "Danaos (Wikidata)",
+      "url": "https://www.wikidata.org/wiki/Q210883"
+    },
+    {
+      "titulo": "Danaos (Manto)",
+      "url": "https://manto.unh.edu/viewer.p/60/2616/object/6580-9587654"
+    }
+  ],
+  "residencias": {
+    "texto": "- Fundacion de [Larisa, Argos (Ciudadela)](lugares:larisa-argos)\n- Asentado en [Libya (Nacion)](lugares:libya)\n- Gobernador de Argolis (Region) en la capital Argos, Argolis (Polis)",
+    "refs": [
+      {
+        "tana": "wtXvEoQb0UEy",
+        "nombre": "Larisa, Argos (Ciudadela)",
+        "col": "lugares",
+        "id": "larisa-argos"
+      },
+      {
+        "tana": "3kjRyCQy0hUL",
+        "nombre": "Libya (Nacion)",
+        "col": "lugares",
+        "id": "libya"
+      },
+      {
+        "tana": "y2WholkaO3O9",
+        "nombre": "Argolis (Region)"
+      },
+      {
+        "tana": "4ccAEZ3Zq5Vo",
+        "nombre": "Argos, Argolis (Polis)"
+      }
+    ]
+  },
+  "fallecimiento": {
+    "texto": "- Asesinado por [Lynkeus = Linceo](entes:lynkeus)\n- Sepultado en [Palinthos, Argos (Mausoleo)](lugares:palinthos-argos)",
+    "refs": [
+      {
+        "tana": "K0F7D17n6FIF",
+        "nombre": "Lynkeus = Linceo",
+        "col": "entes",
+        "id": "lynkeus"
+      },
+      {
+        "tana": "8WgHkDlly8is",
+        "nombre": "Palinthos, Argos (Mausoleo)",
+        "col": "lugares",
+        "id": "palinthos-argos"
+      }
+    ]
+  },
+  "padres": {
+    "texto": "- [Anchirroē](entes:anchirroe)\n- [Bēlos = Belo](entes:belos)",
+    "refs": [
+      {
+        "tana": "uqnum0SdXKgZ",
+        "nombre": "Anchirroē",
+        "col": "entes",
+        "id": "anchirroe"
+      },
+      {
+        "tana": "SrgdPCttR5uE",
+        "nombre": "Bēlos = Belo",
+        "col": "entes",
+        "id": "belos"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe"
+  ],
+  "genero": "M"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "estatua-apollon-kitharoidos-el-citarista-de-euphranor",
+  "tana_id": "M3DW50DQtqbS",
+  "nombre": "Estatua Apollon Kitharōidós (el Citarista), de Euphranor",
+  "nombre_alt": null,
+  "titulo_tana": "Estatua Apollon Kitharōidós (el Citarista), de Euphranor",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-03-19T04%3A30%3A52.324Z-image.png?alt=media&token=f799cccc-c908-43f6-93a0-3e626d0c3a73",
+  "campos": [
+    {
+      "clave": "A👤",
+      "etiqueta": "Creador",
+      "texto": "Euphranor de Atenas",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ]
+}

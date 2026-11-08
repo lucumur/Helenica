@@ -1,0 +1,48 @@
+{
+  "id": "hyle-es",
+  "tana_id": "tAD9QKLkdEqX",
+  "nombre": "Hylē, -ēs",
+  "nombre_alt": "Hyla",
+  "titulo_tana": "Hylē, -ēs / Hyla",
+  "etiquetas_tana": [
+    "Lugar"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "E🌱",
+      "etiqueta": "Etimología",
+      "texto": "De _Hyle_ (ὕλη), que significa **\"Bosque\"** o \"Madera\".",
+      "refs": []
+    },
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Aldea Lacustre",
+      "refs": []
+    },
+    {
+      "clave": "Co🧭",
+      "etiqueta": "Coordenadas",
+      "texto": "- Situada directamente en las orillas del **Lago Hylike** (lago Yliki), al cual dio nombre.\n- Localización NO confirmada arqueológicamente de forma definitiva",
+      "refs": []
+    },
+    {
+      "clave": "S🀄",
+      "etiqueta": "Símbolos",
+      "texto": "Famosa por sus artesanos del cuero y escudos.",
+      "refs": []
+    },
+    {
+      "clave": "H📜",
+      "etiqueta": "Historia y mito",
+      "texto": "Era el hogar de **Tiquio**, el artesano que fabricó el famoso escudo de siete capas de piel de buey del héroe Áyax el Grande.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Lugar"
+  ],
+  "pertenece_a": []
+}

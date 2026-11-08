@@ -1,0 +1,19 @@
+{
+  "id": "lapithes",
+  "tana_id": "VJj167EKTwPS",
+  "nombre": "Lapithes",
+  "nombre_alt": "Lápita",
+  "titulo_tana": "Lapithes = Lápita",
+  "etiquetas_tana": [
+    "H",
+    "M"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Mortal"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

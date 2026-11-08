@@ -1,0 +1,54 @@
+{
+  "id": "1-nucleo-no-residencial-de-olynthos-tracia-1000-800-ac",
+  "tana_id": "-fsBdFccwhYP",
+  "nombre": "(1) Nucleo No-Residencial de Olynthos Tracia (1000-800 aC)",
+  "nombre_alt": null,
+  "titulo_tana": "(1) Nucleo No-Residencial de Olynthos Tracia (1000-800 aC)",
+  "etiquetas_tana": [
+    "Lugar",
+    "sub-un"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-01-13T23%3A25%3A29.233Z-image.png?alt=media&token=ec813e8a-f996-4481-895c-1ae6e1cdfaad",
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Area de Congregacion",
+      "refs": []
+    },
+    {
+      "clave": "S🀄",
+      "etiqueta": "Símbolos",
+      "texto": "- Usos:\n- Culto Estacional (primavera: fertilidad, otoño: cosecha)\n- Asambleas Tribales (resolucion de conflictos, matrimonios)\n- Refugio en crisis (ataques externos)\n- Recoleccion de higos silvestres (verano)",
+      "refs": []
+    },
+    {
+      "clave": "O⚖️",
+      "etiqueta": "Organización y cultos",
+      "texto": "- Sin Estructura Permanente\n- Altares de piedras sueltas (no detectados arqueologicamente)",
+      "refs": []
+    },
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "En la Colina Norte",
+      "refs": []
+    },
+    {
+      "clave": "H🏘️",
+      "etiqueta": "Habitantes",
+      "texto": "No habitada",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-01-13T23%3A25%3A29.233Z-image.png?alt=media&token=ec813e8a-f996-4481-895c-1ae6e1cdfaad)"
+    }
+  ],
+  "tipos": [
+    "Subunidad"
+  ],
+  "pertenece_a": []
+}

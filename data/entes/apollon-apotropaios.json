@@ -1,0 +1,24 @@
+{
+  "id": "apollon-apotropaios",
+  "tana_id": "go71VAejFXMw",
+  "nombre": "Apollon Apotropaios",
+  "nombre_alt": "el que desvia el mal",
+  "titulo_tana": "Apollon Apotropaios = el que desvia el mal",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "9OYZLA3QegGP",
+    "nombre": "Apollôn",
+    "col": "entes",
+    "id": "apollon"
+  }
+}

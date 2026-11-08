@@ -1,0 +1,18 @@
+{
+  "id": "phryxos",
+  "tana_id": "Kr9xVEXCOBNp",
+  "nombre": "Phryxos",
+  "nombre_alt": "Frixo",
+  "titulo_tana": "Phryxos (Frixo)",
+  "etiquetas_tana": [
+    "Heroe"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

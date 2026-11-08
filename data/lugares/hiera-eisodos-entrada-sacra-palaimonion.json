@@ -1,0 +1,24 @@
+{
+  "id": "hiera-eisodos-entrada-sacra-palaimonion",
+  "tana_id": "QRktlNd7B7eI",
+  "nombre": "Hiera Eisodos (Entrada Sacra), Palaimonion",
+  "nombre_alt": null,
+  "titulo_tana": "Hiera Eisodos (Entrada Sacra), Palaimonion",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "avenida procesional",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

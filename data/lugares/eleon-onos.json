@@ -1,0 +1,62 @@
+{
+  "id": "eleon-onos",
+  "tana_id": "Xl32Jp1eFy1u",
+  "nombre": "Eleôn, -ônos",
+  "nombre_alt": "Eleón",
+  "titulo_tana": "Eleôn, -ônos / Eleón",
+  "etiquetas_tana": [
+    "Lugar"
+  ],
+  "imagen": null,
+  "fuentes": [
+    {
+      "titulo": "Homero",
+      "url": null
+    },
+    {
+      "titulo": "**Estrabón** (9.2.14) la menciona como _erēmos_ (ἔρημος, \"desierta\")",
+      "url": null
+    },
+    {
+      "titulo": "Plutarco",
+      "url": null
+    }
+  ],
+  "campos": [
+    {
+      "clave": "E🌱",
+      "etiqueta": "Etimología",
+      "texto": "De _Helos_ (ἕλος), que significa **\"Marisma\"** o \"Lugar pantanoso\".",
+      "refs": []
+    },
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Poblacion Amurallada con Acropolis",
+      "refs": []
+    },
+    {
+      "clave": "Co🧭",
+      "etiqueta": "Coordenadas",
+      "texto": "- Cerca de Tanagra y Harma.\n- Se sitúa en una elevación que domina la llanura oriental.",
+      "refs": []
+    },
+    {
+      "clave": "S🀄",
+      "etiqueta": "Símbolos",
+      "texto": "Se dice que era el hogar del profeta Baquis.",
+      "refs": []
+    },
+    {
+      "clave": "H📜",
+      "etiqueta": "Historia y mito",
+      "texto": "Lugar de ocupación continua desde el Heládico Medio hasta la época romana.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Lugar"
+  ],
+  "pertenece_a": []
+}

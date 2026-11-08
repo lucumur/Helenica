@@ -1,0 +1,33 @@
+{
+  "id": "ariadne",
+  "tana_id": "rdHsb4BOWDLQ",
+  "nombre": "Ariadnē",
+  "nombre_alt": "Ariadna",
+  "titulo_tana": "Ariadnē = Ariadna",
+  "etiquetas_tana": [
+    "O",
+    "Deidad",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "- Nobleza\n- Raza Cretense",
+    "refs": [
+      {
+        "tana": "0TjIgPdjRUql",
+        "nombre": "Nobleza"
+      },
+      {
+        "tana": "lkT_0l3yNP3M",
+        "nombre": "Raza Cretense"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

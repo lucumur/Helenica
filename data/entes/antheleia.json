@@ -1,0 +1,29 @@
+{
+  "id": "antheleia",
+  "tana_id": "KaK-Z4K7_n56",
+  "nombre": "Antheleia",
+  "nombre_alt": "Antelia",
+  "titulo_tana": "Antheleia = Antelia",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

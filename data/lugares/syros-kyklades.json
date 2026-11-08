@@ -1,0 +1,100 @@
+{
+  "id": "syros-kyklades",
+  "tana_id": "vCVSkHd3rQv7",
+  "nombre": "Syros, Kyklades",
+  "nombre_alt": "Nesos",
+  "titulo_tana": "Syros, Kyklades (Nesos)",
+  "etiquetas_tana": [
+    "chora",
+    "nesos"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Region",
+      "etiqueta": "Region",
+      "texto": "Kyklades, Aigaion",
+      "refs": [
+        {
+          "tana": "Uq7AdTUNhJqP",
+          "nombre": "Kyklades, Aigaion"
+        }
+      ]
+    },
+    {
+      "clave": "Centro Principal",
+      "etiqueta": "Centro Principal",
+      "texto": "- [Palaeo-Hermoupolis](lugares:palaeo-hermoupolis)\n  - Es el área donde se concentran los vestigios de la ciudad antigua y donde posteriormente se desarrollaría el centro administrativo. Su orientación era marítima y comercial.\n  - [Agora (Palaeo-Hermoupolis)](lugares:agora)\n  - [Prytaneion (Pritaneo de Syros)](lugares:prytaneion-2)\n  - 🧱 muralla simple\n  - [🦉 Naos de Athēnē Phratria](lugares:naos-de-athene-phratria)\n    - indica organizacion civica en fratrias, tipico de poleis jonias clistenicas (dividida en tribus/demos para garantizar igualdad)\n  - [🔱🧜‍♀️Naos de Poseidōn y Amphitritē](lugares:naos-de-poseidon-y-amphitrite)\n  - fuerte componente talásico.\n- [Palaeo-Galissas](lugares:palaeo-galissas)\n  - El respaldo arqueológico reciente al sur de Galissas (costa oeste) confirma un asentamiento sustancial de época arcaica y clásica. Este núcleo controlaba una bahía diferente, con acceso a valles agrícolas interiores y rutas alternativas, posiblemente con una orientación más agropecuaria y de control del territorio interior\n  - Esta confirmada por Homero al mencionar dos centros controlador por un mismo Basileus.\n- [Palaeo-Alithini](lugares:palaeo-alithini)\n  - [🎭 Santuario de los Kabeiroi](lugares:santuario-de-los-kabeiroi)\n    - Las **monedas helenísticas de Syros** (principalmente del siglo II aC, c. 150 aC) muestran imágenes del culto cabírico\n    - La iconografía incluye: los dos Cabiros (o Dióscuros) de pie, cada uno sosteniendo un cetro y coronados por una estrella; también aparecen cabezas de los Cabiros con el **pileus** (gorro cónico característico) adornado con corona",
+      "refs": [
+        {
+          "tana": "V9VOt0YPds_9",
+          "nombre": "Palaeo-Hermoupolis",
+          "col": "lugares",
+          "id": "palaeo-hermoupolis"
+        },
+        {
+          "tana": "pRzd0e3r6GQN",
+          "nombre": "Palaeo-Galissas",
+          "col": "lugares",
+          "id": "palaeo-galissas"
+        },
+        {
+          "tana": "D4pKd0zpqNe1",
+          "nombre": "Palaeo-Alithini",
+          "col": "lugares",
+          "id": "palaeo-alithini"
+        }
+      ]
+    },
+    {
+      "clave": "Rios y Montes",
+      "etiqueta": "Rios y Montes",
+      "texto": "- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-08-25T20%3A49%3A09.678Z-image.png?alt=media&token=06d9d9f6-179a-490c-bee1-2ad4fccda70d)\n- [Oros Pyrgos](lugares:oros-pyrgos) pico mas alto\n  - 🪨marmol\n- [Cuerva de Pherekidēs](lugares:cuerva-de-pherekides)\n- posiblemente asociada a practicas de meditacion o culto local\n- [Grammata (Promontorio)](lugares:grammata)\n  - [Area de Grammata de marineros](lugares:area-de-grammata-de-marineros)\n    - inscripciones votivas de marineros, tradicion de ofrendas.\n- 🌾 llanura\n  - 🐂 ganado\n  - 🌾 trigo",
+      "refs": [
+        {
+          "tana": "CdDgOf5XryLi",
+          "nombre": "Oros Pyrgos",
+          "col": "lugares",
+          "id": "oros-pyrgos"
+        },
+        {
+          "tana": "f50UUk6KSjDP",
+          "nombre": "Cuerva de Pherekidēs",
+          "col": "lugares",
+          "id": "cuerva-de-pherekides"
+        },
+        {
+          "tana": "5Qbgaww4Ftoc",
+          "nombre": "Grammata (Promontorio)",
+          "col": "lugares",
+          "id": "grammata"
+        }
+      ]
+    },
+    {
+      "clave": "H🏘️",
+      "etiqueta": "Habitantes",
+      "texto": "- 🟣 Primeros habitantes: **fenicios** que navegaban por las Cícladas\n- 🔵 Base Jonia Eubea, colonizando las cicladas alrededor del X aC\n- 🟩 capa Samia en VI aC bajo Policrates\n- 👑 Aristocracia: segun Homero, la isla, con dos poleis, tenia un solo rey.\n- **Élites competidoras:** Es muy probable que cada núcleo tuviera su propia aristocracia o consejo de notables.",
+      "refs": []
+    },
+    {
+      "clave": "S🀄",
+      "etiqueta": "Símbolos",
+      "texto": "- [Ktesios Ormenidēs (Ctesio hijo de Ormeno)](entes:ktesios-ormenides) Rey de Syros, segun Homero. probablemente construccion homerica adhoc para dar genealogia a Eumeo, y explicar que era una tierra rica (ktesios significa poseedor)\n- La principal fuente mítica es Homero. En la Odisea XV, el porquerizo Eumeo narra que su patria era la isla Συρίη, situada “por encima de Ortigia” (Delos), fértil en pastos, ganado, viñas y trigo, con dos ciudades bajo el gobierno de su padre Ctesio, hijo de Ormeno. La descripción idealizada refleja un recuerdo arcaico de prosperidad relativa.\n- Ferecides de Syros (fl. mediados del siglo VI a.C.), aunque más filósofo que héroe, se convirtió en la figura más célebre de la isla. Nacido allí, se le atribuía haber vivido en cuevas del norte y haber inventado un heliotropio (reloj solar). Su cosmovisión (Zas, Chronos y Chthonie; la lucha contra Ofioneo) mezcla elementos míticos griegos con posibles influjos orientales y fenicios, situándolo en la transición entre teogonía y filosofía.\n- **Ausencia de héroe fundador propio.**",
+      "refs": [
+        {
+          "tana": "cdqt6jl6BbHn",
+          "nombre": "Ktesios Ormenidēs (Ctesio hijo de Ormeno)",
+          "col": "entes",
+          "id": "ktesios-ormenides"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Chora",
+    "Isla"
+  ],
+  "pertenece_a": []
+}

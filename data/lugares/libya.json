@@ -1,0 +1,24 @@
+{
+  "id": "libya",
+  "tana_id": "3kjRyCQy0hUL",
+  "nombre": "Libya",
+  "nombre_alt": "Nacion",
+  "titulo_tana": "Libya (Nacion)",
+  "etiquetas_tana": [
+    "Lugar"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Nacion",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Lugar"
+  ],
+  "pertenece_a": []
+}

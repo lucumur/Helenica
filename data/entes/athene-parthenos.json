@@ -1,0 +1,24 @@
+{
+  "id": "athene-parthenos",
+  "tana_id": "g5ve-7petXO7",
+  "nombre": "Athēnē Párthenos",
+  "nombre_alt": "Atenea Doncella",
+  "titulo_tana": "Athēnē Párthenos (Atenea Doncella)",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "fcRIRYT-Xczt",
+    "nombre": "Athēnē",
+    "col": "entes",
+    "id": "athene"
+  }
+}

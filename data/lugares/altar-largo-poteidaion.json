@@ -1,0 +1,22 @@
+{
+  "id": "altar-largo-poteidaion",
+  "tana_id": "YYgKlr-quNBA",
+  "nombre": "Altar Largo, Poteidaion",
+  "nombre_alt": null,
+  "titulo_tana": "Altar Largo, Poteidaion",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": ":",
+      "texto": "- Alargado, de gran longitud, al este del templo. Tipo de altar corrido para sacrificio múltiple\n- para hecatombes (con acumulacion de residuo quemado)"
+    }
+  ],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

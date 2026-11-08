@@ -1,0 +1,52 @@
+{
+  "id": "demeter",
+  "tana_id": "CRkXuyVKm_z4",
+  "nombre": "Dēmētēr",
+  "nombre_alt": "Démeter",
+  "titulo_tana": "Dēmētēr = Démeter",
+  "etiquetas_tana": [
+    "O",
+    "Deidad",
+    "F"
+  ],
+  "imagen": null,
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "Dios Olimpico",
+    "refs": [
+      {
+        "tana": "ITeremftDCmK",
+        "nombre": "Dios Olimpico"
+      }
+    ]
+  },
+  "padres": {
+    "texto": "- [Kronos = Crono](entes:kronos)\n- [Rhea](entes:rhea)",
+    "refs": [
+      {
+        "tana": "wJ-80h8HgEnG",
+        "nombre": "Kronos = Crono",
+        "col": "entes",
+        "id": "kronos"
+      },
+      {
+        "tana": "rwObw0nWCwnl",
+        "nombre": "Rhea",
+        "col": "entes",
+        "id": "rhea"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": "F",
+  "contenido_en": {
+    "tana": "tE_RDLaA_gvf",
+    "nombre": "Misterios Lerneos",
+    "col": "eventos",
+    "id": "misterios-lerneos"
+  }
+}

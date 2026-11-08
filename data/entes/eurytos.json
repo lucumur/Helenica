@@ -1,0 +1,24 @@
+{
+  "id": "eurytos",
+  "tana_id": "ns8INhxiIcGE",
+  "nombre": "Eurytos",
+  "nombre_alt": "Eurito",
+  "titulo_tana": "Eurytos / Eurito",
+  "etiquetas_tana": [
+    "O"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "contenido_en": {
+    "tana": "DCsfLn7ATClf",
+    "nombre": "Entrenamiento de Heracles Efebo",
+    "col": "eventos",
+    "id": "entrenamiento-de-heracles-efebo"
+  }
+}

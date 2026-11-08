@@ -1,0 +1,67 @@
+{
+  "id": "octavo-athlos-robar-las-yeguas-de-diomedes",
+  "tana_id": "8KViC_rIn2K0",
+  "nombre": "Octavo Athlos: Robar las Yeguas de Diomedes (Tracia)",
+  "nombre_alt": null,
+  "titulo_tana": "Octavo Athlos: Robar las Yeguas de Diomedes (Tracia)",
+  "etiquetas_tana": [
+    "Evento"
+  ],
+  "imagen": null,
+  "tipo_tana": {
+    "texto": "Mito",
+    "refs": [
+      {
+        "tana": "uyr3QqtD3Eqh",
+        "nombre": "Mito"
+      }
+    ]
+  },
+  "elementos": {
+    "texto": "- Imagenes Arte\n  - ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-11-12T18%3A08%3A13.507Z-image.png?alt=media&token=fbf83620-52fb-47d0-a183-50728e9aaa6b)\n  - ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-11-12T18%3A01%3A48.243Z-image.png?alt=media&token=c39c84e7-77a8-45ad-80b4-5adc97786731)\n- Arte de la Antiguedad\n  - ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-11-12T18%3A08%3A50.087Z-image.png?alt=media&token=c625d425-e85f-4763-a15b-be9bf3658f85)\n  - ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-11-12T18%3A08%3A33.735Z-image.png?alt=media&token=fe343cc5-083f-4fb6-bd9d-eaa39ff026f9)\n  - ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-11-12T18%3A07%3A23.950Z-image.png?alt=media&token=bdc0ce7d-805a-47bd-bbbf-6f45ef95c87d)",
+    "refs": []
+  },
+  "agentes_activos": {
+    "texto": "- [Diomedes (Rey de Tracia)](entes:diomedes-2)\n- [Eurystheus = Euristeo](entes:eurystheus-3)\n- [Abderos = Abdero](entes:abderos)\n- Caballos Antropofagos Tracios",
+    "refs": [
+      {
+        "tana": "oeK-2LuuP50o",
+        "nombre": "Diomedes (Rey de Tracia)",
+        "col": "entes",
+        "id": "diomedes-2"
+      },
+      {
+        "tana": "cft4UrQiJvN0",
+        "nombre": "Eurystheus = Euristeo",
+        "col": "entes",
+        "id": "eurystheus-3"
+      },
+      {
+        "tana": "c5MwJLzFkqyc",
+        "nombre": "Abderos = Abdero",
+        "col": "entes",
+        "id": "abderos"
+      },
+      {
+        "tana": "iDtHEnSV3RMb",
+        "nombre": "Caballos Antropofagos Tracios"
+      }
+    ]
+  },
+  "donde": {
+    "texto": "Abdera (Polis), Thrakia (Reino)",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Texto",
+      "texto": "- Resumen\n  - **Aventura:** Eurystheus ordena a Heracles traer esas yeguas a Mykenai\n  - **Bestia:** Yeguas Antropofagas\n  - **Dioses:** Eros, presionando a Heracles\n  - **Lugares:**\n    - [Strymon (Rio)](lugares:strymon)\n    - [Hebros (Rio)](lugares:hebros)\n  - **Enemigos:** Diomedes, Hijo de Ares y Cyrene, Rey de los Bistones en Tracia, que alimentaba sus caballos con carne humana\n  - **Aliados:** Lleva consigo algunos compañeros. Su amigo Abderos el Opuntio, hijo de Hermes\n  - **Meollo:** Abderos muere comido por las yeguas. Heracles vence a los Bistones, asesina a Diomedes y avienta su cuerpo a las yeguas en venganza\n  - **Parerga:** Funda la ciudad de Abdera en honor a su amigo\n  - **Final:** Las yeguas se llevan a Mykenai, donde son liberadas en el Olimpo, y mueren asesinadas por las bestias locales\n- Octava labor segun Apolodoro\n  - **Aventura:** La octava labor le ordena Eurystheus a Heracles trae a Mykenai las Yeguas de Diomedes el Tracio\n  - **Bestia:** Yeguas Antropofagas\n  - **Enemigos:** Diomedes, Hijo de Ares y Cyrene, Rey de los Bistones, una tribu muy aguerrida de Tracia, que tenia una yeguada come-hombres.\n  - **Aliados:** Navega junto a un grupo de hombres, y su patiño Abderos Opuntios de Locria, hijo de Hermes\n  - **Meollo:** venciendo a los cuidadores de los establos con el grupo de aliados, lleva a las yeguas al mar. los bistones van a rescatarlas, y se las da a cuidar a Abderos mientras el va por los Bistones y Diomedes. los Bistones mueren unos y otros huyen.\n  - **Parerga:** muere Abderos cuidando a las yeguas. y Heracles funda una ciudad en su nombre.\n  - **Final:** Las yeguas se llevan a Mykenai, donde son liberadas en el Olimpo, y mueren asesinadas por las bestias locales\n- Octava Labor segun Siculus\n  - **Aventura:** La siguiente labor tomada por Heracles fue capturar los caballos de DIomedes el Tracio\n  - **Bestia:** Caballos Salvajes, con comederos de metal, atados con cadenas de hierro por su fuerza, alimentados no con productos del suelo sino con  cadaveres de extranjeros\n  - **Meollo:** Heracles para poder controlarlas, les da de comer a su Amo Diomedes, y al saciar su antinatural apetito con el hombre que les enseño a violar las leyes naturales se vuelven mansas\n  - **Final:** Laa yeguas se llevan a Mykenai, donde su raza se conservo en Macedonia al menos hasta tiempos de Alejandro Magno\n- Octava Labor segun Philostratus\n  - **Aventura:** La tarea mas dificil para Heracles, vencer a las yeguas de Diomedes\n  - **Bestia:** Yeguas Salvajes, Bestiales, peludas. Sus establos llenos de sangre humana y huesos de cadaveres de los hombres que Diomedes daba como alimento\n  - **Dioses:** Eros, presionando a Heracles\n  - **Enemigos:** Diomedes, rey de Aspecto salvaje\n  - **Aliados:** Abderos, amante de Heracles. Joven, hermoso\n  - **Meollo:** Heracles vence las yeguas con su clava, dejando las acabadas en el suelo. Heracles carga el cuerpo medio-comido de Abderos, llorando lleno de lagrimas por su fallecimiento.\n  - **Parerga:** le construye una tumba en su honor y funda la ciudad de Abdera\n  - **Final:** En honor de Abderos, los juegos de Olimpia tienen el Pancracio y el Wrestling, y el Boxeo pero prohibido las carreras de Caballos…\n- Octava Labor segun Hyginus\n  - **Bestia:** Cuatro Caballos, Podargos, Dinos, Xanthos, Lampon, alimentados con carne humana, con sus establos llenos de craneos humanos\n  - **Enemigos:** Diomedes, el Salvaje Rey de Tracia, hijo de Ares, que alimentaba a sus caballos exclusivamente con carne humana,\n  - **Aliados:** El Esclavo Abderos\n- Octava Labor segun Seneca\n  - **Aventura:** Su labor era llevar el rebaño Tracio que el Tirano Diomedes tenia\n  - **Bestia:** Yeguada engordada con la sangre fria de extranjeros, y sus mandibulas estaban empapadas de sangre.\n  - **Lugares:**\n    - [Strymon (Rio)](lugares:strymon)\n    - [Hebros (Rio)](lugares:hebros)\n- Octava Labor segun Euripides\n  - **Aventura:** Capturar los caballos y llevarselos a Euristeo\n  - **Bestia:** Cuatro Estalones Carreteros, que rebanan la carne de los hombres con sus quijadas, sus establos llenos de sangre\n  - **Enemigos:** Diomedes el Tracio, hijo de Ares\n  - **Aliados:** Heracles montando un carro"
+    }
+  ],
+  "tipo": "Mítico",
+  "serie": {
+    "nombre": "Doce Labores de Heracles",
+    "orden": 8
+  }
+}

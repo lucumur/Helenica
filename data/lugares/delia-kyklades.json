@@ -1,0 +1,254 @@
+{
+  "id": "delia-kyklades",
+  "tana_id": "cd0tOiYhJW4W",
+  "nombre": "Delia, Kyklades",
+  "nombre_alt": null,
+  "titulo_tana": "Delia, Kyklades",
+  "etiquetas_tana": [
+    "chora"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Rios y Montes",
+      "etiqueta": "Rios y Montes",
+      "texto": "- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-08-22T21%3A44%3A22.790Z-image.png?alt=media&token=d61097fb-78fe-4d6d-88eb-aa32d8b1ed81)\n- Delos - la isla de los Dioses\n  - Capa naxia (Oikos, Coloso c. 600 a.C., Esfinge); capa ática (purificaciones, hieropoioi, tesoro de la Liga 478–454).\n  - 426 a.C.: prohibido nacer y morir; 422 a.C.: expulsión total de los delios; \"diáspora negativa\" (expulsados y restaurados).\n- Delos: Geografia\n  - [Oros Kynthos (Monte Cinto)](lugares:oros-kynthos)\n  - [Inōpos (Inopo), Dēlos](lugares:inopos-inopo-delos)\n  - [Limnē Hierã (Lago Sagrado)](lugares:limne-hiera)\n  - [Hierós Limên (Puerto Sagrado)](lugares:hieros-limen) costa oeste; desembarco de las **θεωρίαι (theoriai)**, las embajadas sagradas que llegaban en la nave **θεωρίς** con ofrendas de toda Jonia.\n  - [Hierã Odós (Via Sacra)](lugares:hiera-odos) eje procesional puerto→temenos, flanqueado de exvotos, bases y monumentos votivos.\n  - [Phoinix Lētoûs (Palmera de Letó)](lugares:phoinix-letous) el árbol al que Leto se agarró en el parto; símbolo vegetal del santuario, presente en la iconografía y en las ofrendas.\n  - [Ta Propylaia (los Propileos Arcaicos)](lugares:ta-propylaia) entrada monumental al santuario desde la Vía Sagrada, s. VI a.C.; funcionó también como depósito de los tesoros del santuario\n- MYKONOS — la isla de los VIVOS:\n  - Dipolis (Ps.-Scylax) → sinecismo s. III a.C. (fuera de corte). Polo residencial permanente: puerto, agua, naves, logística;\n- RHENIA — la isla de los MUERTOS (y de los que van a nacer):\n  - Necrópolis de Delos establecida en el s. V a.C.  \"Pozo de Purificación\" en la bahía de Agia Kyriaki: todos los huesos exhumados de Delos en 426/5 a.C. trasladados aquí.\n  - Recepción de embarazadas y moribundos tras la prohibición delia\n  - Dedicada a Apolo y \"encadenada\" a Delos por Polícrates de Samos\n  - Polis insular con restos arcaicos–helenísticos.",
+      "refs": [
+        {
+          "tana": "576WiPP590-y",
+          "nombre": "Oros Kynthos (Monte Cinto)",
+          "col": "lugares",
+          "id": "oros-kynthos"
+        },
+        {
+          "tana": "BQ1kad0JYj-P",
+          "nombre": "Inōpos (Inopo), Dēlos",
+          "col": "lugares",
+          "id": "inopos-inopo-delos"
+        },
+        {
+          "tana": "zPD48IeZemwm",
+          "nombre": "Limnē Hierã (Lago Sagrado)",
+          "col": "lugares",
+          "id": "limne-hiera"
+        },
+        {
+          "tana": "CO0nDDgUYpi8",
+          "nombre": "Hierós Limên (Puerto Sagrado)",
+          "col": "lugares",
+          "id": "hieros-limen"
+        },
+        {
+          "tana": "7dnAlgM6iX4R",
+          "nombre": "Hierã Odós (Via Sacra)",
+          "col": "lugares",
+          "id": "hiera-odos"
+        },
+        {
+          "tana": "qYaYf3WOyM7E",
+          "nombre": "Phoinix Lētoûs (Palmera de Letó)",
+          "col": "lugares",
+          "id": "phoinix-letous"
+        },
+        {
+          "tana": "kChhHg0BRmLm",
+          "nombre": "Ta Propylaia (los Propileos Arcaicos)",
+          "col": "lugares",
+          "id": "ta-propylaia"
+        }
+      ]
+    },
+    {
+      "clave": "Region",
+      "etiqueta": "Region",
+      "texto": "- Kyklades, Aigaion\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-08-23T09%3A37%3A20.498Z-image.png?alt=media&token=6b456ab8-caed-4467-9d4a-5c5e3269e3c6)\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-08-23T16%3A22%3A28.518Z-image.png?alt=media&token=1bb7d20b-9a99-4386-9564-9b5554920b5f)",
+      "refs": [
+        {
+          "tana": "Uq7AdTUNhJqP",
+          "nombre": "Kyklades, Aigaion"
+        }
+      ]
+    },
+    {
+      "clave": "Centro Principal",
+      "etiqueta": "Centro Principal",
+      "texto": "- Mykonos\n  - [Palaiokastro (Ruinas)](lugares:palaiokastro)\n    - ruinas que se piensan una polis antigua que se sinoikizó con la Mykonos\n  - [Chora, Mykonos](lugares:chora-mykonos) ⭐\n- Delos: Otros Templos\n  - [🏹 Artemision (Santuario Artemisio)](lugares:artemision) 700aC\n    - [thêkē (tumba de Argē y Ōpis)](lugares:theke)\n    - [sêma (tumba de Hyperokē y Laodikē)](lugares:sema)\n  - [👰 Hēraîon (Templo de Hera)](lugares:heraion) 500aC,\n  - [♌ Lētôion (Letoneo)](lugares:letoion) Templo a Leto. uno de los pocos\n  - [✡️ Dōdekatheon (Dodecateo)](lugares:dodekatheon) altares de los Doce Dioses cuyas estatuas arcaicas se datan c. 500 a.C.; el panteón olímpico entero rendía homenaje al omphalos delio\n  - [Krênē Minôa (Fuente Minoica)](lugares:krene-minoa) el agua donde Leto se lavó antes del parto; luego rodeado de muro y habitado por aves consagradas.\n  - [Stoa ton Naxiōn (Estoa de los Naxios)](lugares:stoa-ton-naxion)\n  - [Prytaneion (Pritaneo)](lugares:prytaneion) Sede del gobierno de la polis delia, contenia el hogar de Hestia. Garantizaba la autonomía ritual y política local al margen de los imperios hegemónicos.\n  - [🪦 Archēgesion (Santuario)](lugares:archegesion) Dedicado a Anio (rey mítico). Espacio cuadrangular al noreste. Consolidó el patriotismo insular; aquí solo los delios genuinos administraban los sacrificios.\n- Delos: Temenos de Apolo\n  - [🦁 Léontes ton Naxion (Terraza de los Leones)](lugares:leontes-ton-naxion) 600aC dedicada por los naxios, mirando hacia el lago, guardianes del recinto.\n  - [🪉Oikos Naxíōn (Casa de los Naxios)](lugares:oikos-naxion) 575aC Templo a Apolo\n  - [Kolossós tōn Naxiōn (El Coloso de los Naxios)](objetos:kolossos-ton-naxion) Kouros Apolonio de Marmol naxio de 9m erguido junto al oikos. \"Naxioi Apollwni\" tiene como inscripcion.\n  - [🦁 Sphinx tōn Naxíōn (Esfinge de los Naxios)](objetos:sphinx-ton-naxion) 560aC Esfinge de Marmol sobre columna jonica.\n  - [🪉Pórinos Naós (Templo Poroso de Apolo)](lugares:porinos-naos) considerado el primer Templo dedicado a Apolo. Hecho por los Atenienses bajo Pisistrato.\n    - [Apollōn (Estatua Apolo de los Naxios)](objetos:apollon)\n  - [♉ Keratōn Bōmós (Altar de los Cuernos)](lugares:keraton-bomos) corazón mítico de Delos y una de las **ἑπτὰ θεάματα (Siete Maravillas)**. Construido, según la leyenda, por Apolo niño con los cuernos de las cabras cazadas en el Cinto — **solo cuernos del lado izquierdo**, encajados sin argamasa ni cal.\n  - [🏝️ Naós tōn Dēlíōn (Templo de los Delios)](lugares:naos-ton-delion)\n  - [🦉Naós ton Athēnaiōn (Templo de los Ateneos)](lugares:naos-ton-athenaion) **\"Casa de las Siete Estatuas\" templo** dórico anfipróstilo de mármol pentélico, construido tras la purificación de 426.\n- Renea",
+      "refs": [
+        {
+          "tana": "bXXJ3dq9Gwjc",
+          "nombre": "Palaiokastro (Ruinas)",
+          "col": "lugares",
+          "id": "palaiokastro"
+        },
+        {
+          "tana": "7DXtaicBiSKC",
+          "nombre": "Chora, Mykonos",
+          "col": "lugares",
+          "id": "chora-mykonos"
+        },
+        {
+          "tana": "Wmq6fWLEj_0t",
+          "nombre": "🏹 Artemision (Santuario Artemisio)",
+          "col": "lugares",
+          "id": "artemision"
+        },
+        {
+          "tana": "N9UNKUdfk_yh",
+          "nombre": "thêkē (tumba de Argē y Ōpis)",
+          "col": "lugares",
+          "id": "theke"
+        },
+        {
+          "tana": "-_XuvmmNzxE-",
+          "nombre": "sêma (tumba de Hyperokē y Laodikē)",
+          "col": "lugares",
+          "id": "sema"
+        },
+        {
+          "tana": "1ozDdsF8Lfxa",
+          "nombre": "👰 Hēraîon (Templo de Hera)",
+          "col": "lugares",
+          "id": "heraion"
+        },
+        {
+          "tana": "eMXZurR9XyBr",
+          "nombre": "♌ Lētôion (Letoneo)",
+          "col": "lugares",
+          "id": "letoion"
+        },
+        {
+          "tana": "IST7hfNosEsf",
+          "nombre": "✡️ Dōdekatheon (Dodecateo)",
+          "col": "lugares",
+          "id": "dodekatheon"
+        },
+        {
+          "tana": "Aj_9hharA6hS",
+          "nombre": "Krênē Minôa (Fuente Minoica)",
+          "col": "lugares",
+          "id": "krene-minoa"
+        },
+        {
+          "tana": "hz_IUwfeWS5V",
+          "nombre": "Stoa ton Naxiōn (Estoa de los Naxios)",
+          "col": "lugares",
+          "id": "stoa-ton-naxion"
+        },
+        {
+          "tana": "C-jItTzDqU8B",
+          "nombre": "Prytaneion (Pritaneo)",
+          "col": "lugares",
+          "id": "prytaneion"
+        },
+        {
+          "tana": "ygYOP25uBaTv",
+          "nombre": "🪦 Archēgesion (Santuario)",
+          "col": "lugares",
+          "id": "archegesion"
+        },
+        {
+          "tana": "mdX_tFt7knDp",
+          "nombre": "🦁 Léontes ton Naxion (Terraza de los Leones)",
+          "col": "lugares",
+          "id": "leontes-ton-naxion"
+        },
+        {
+          "tana": "4zajHMsq7sMQ",
+          "nombre": "🪉Oikos Naxíōn (Casa de los Naxios)",
+          "col": "lugares",
+          "id": "oikos-naxion"
+        },
+        {
+          "tana": "xAZj4e9toosk",
+          "nombre": "Kolossós tōn Naxiōn (El Coloso de los Naxios)",
+          "col": "objetos",
+          "id": "kolossos-ton-naxion"
+        },
+        {
+          "tana": "tJRJGF9jnV6k",
+          "nombre": "🦁 Sphinx tōn Naxíōn (Esfinge de los Naxios)",
+          "col": "objetos",
+          "id": "sphinx-ton-naxion"
+        },
+        {
+          "tana": "KUnt4cuF1r2j",
+          "nombre": "🪉Pórinos Naós (Templo Poroso de Apolo)",
+          "col": "lugares",
+          "id": "porinos-naos"
+        },
+        {
+          "tana": "8IA_phgwL5aQ",
+          "nombre": "Apollōn (Estatua Apolo de los Naxios)",
+          "col": "objetos",
+          "id": "apollon"
+        },
+        {
+          "tana": "LXG_x61y6tzm",
+          "nombre": "♉ Keratōn Bōmós (Altar de los Cuernos)",
+          "col": "lugares",
+          "id": "keraton-bomos"
+        },
+        {
+          "tana": "guN38v8uDmqy",
+          "nombre": "🏝️ Naós tōn Dēlíōn (Templo de los Delios)",
+          "col": "lugares",
+          "id": "naos-ton-delion"
+        },
+        {
+          "tana": "BFnIa1G_KetK",
+          "nombre": "🦉Naós ton Athēnaiōn (Templo de los Ateneos)",
+          "col": "lugares",
+          "id": "naos-ton-athenaion"
+        }
+      ]
+    },
+    {
+      "clave": "H🏘️",
+      "etiqueta": "Habitantes",
+      "texto": "- 🟠 Sustrato Cario (Kãres) primeros habitantes documentados arqueologicamente\n- 🟢 Sustrato Heladico Micenico en la zona del puerto, con culto ya establecido a Artemis, y luego incorporada como hermana del nuevo dios Apolo.\n- 🟣 Base Driope en Mykonos\n- 🔵 Base Jonia Eubea / Atica, colonizando las cicladas alrededor del X aC trayendo el culto de Letó",
+      "refs": []
+    },
+    {
+      "clave": "H📜",
+      "etiqueta": "Historia y mito",
+      "texto": "- Mykonos\n  - [Mykonos (Micono)](entes:mykonos) , hijo de Anios, nieto de Apolo convertido en primer gobernante de la isla\n  - [Anios (Anio)](entes:anios) Rey-Sacerdote de Delos, hijo de Apolo y Rhoio; Rhoio se casó con [Zarēx (Heroe)](entes:zarex)\n  - [Oinotropai (Elais, Spermő, Oinő)](entes:oinotropai) hijas de Anios, convierten en grano, vino y aceite lo que tocan; mito productivo que alimenta a la flota aquea en Troya\n  - Formacion de Mykonos: segun la Gigantomaquia, al lanzar a los Gigantes hijos de Gea al mar, se petrifican formando Mykonos\n  - 🪨 Los grandes **peñascos graníticos** dispersos por toda la isla —visibles hoy en la zona de Agios Georgios Spilianós, en la Chora— se identifican tradicionalmente con los **cadáveres petrificados de los Gigantes**\n- Delos\n  - Leto, perseguida por Hera, halla refugio en la isla flotante fijada por Poseidón\n  - Nacimiento de Apolo y Ártemis bajo un olivo en el Monte Cinto\n  - **Tradición rival del Himno Homérico a Apolo:** distingue Delos de **Ortigia** — Apolo nace en Delos, Ártemis nace en Ortigia, identificada por Estrabón con la propia Renea\n- Rheneia\n  - Ortygia como primer nombre de Rhenia (Estrabón)\n  - lugar de nacimiento de ARTEMIS según el Himno Homérico a Apolo.\n  - Sin héroe epónimo rico: su \"mito\" es funcional — la isla encadenada al dios por Polícrates.\n  - Encadenamiento Fisico a Delos por [Polikratēs ho Samios (Policrates de Samos)](entes:polikrates-ho-samios)\n- Final\n  - el \"complejo délico\" es el caso más extremo de especialización funcional entre islas vecinas que hemos documentado en toda la reconstrucción cicládica — ni Naxos-Paros ni Eretria-Amarinto llegan a este grado de división de tareas: una isla que es _solo_ culto sin vida completa (Delos), una que es _solo_ servicio periférico y comercio de apoyo (Míconos), y una que es _solo_ muerte y cantera (Renea) — las tres necesarias entre sí, ninguna autosuficiente por separado, formando entre las tres lo que ninguna lograría sola: el santuario panjónico más prestigioso de todo el Egeo arcaico.\n- Autarho\n  - La última instrucción de Calipso (Odisea 5.270-277)\n  - αὐτὰρ ὁ πηδαλίῳ ἰθύνετο τεχνηέντως\n  - ἥμενος, οὐδέ οἱ ὕπνος ἐπὶ βλεφάροισιν ἔπιπτεν\n  - Πληιάδας τ᾽ ἐσορῶντι καὶ ὀψὲ δύοντα Βοώτην\n  - Ἄρκτον θ᾽, ἣν καὶ ἄμαξαν ἐπίκλησιν καλέουσιν,\n  - ἥ τ᾽ αὐτοῦ στρέφεται καί τ᾽ Ὠρίωνα δοκεύει,\n  - οἴη δ᾽ ἄμμορός ἐστι λοετρῶν Ὠκεανοῖο·\n  - τὴν γὰρ δή μιν ἄνωγε Καλυψώ, δῖα θεάων,\n  - ποντοπορευέμεναι ἐπ᾽ ἀριστερὰ χειρὸς ἔχοντα.\n  - «Pero él con el timon se dirigía diestramente\n  - y sentado, ni el sueño sobre sus párpados caia\n  - y las Pleyades observaba, y al Boyero (Bootes) que se pone tarde\n  - y a la Osa, la cual llaman tambien Carro\n  - la cual gira alli mismo, dando cara a Orión\n  - quedando sola sin bañarse por el Oceano\n  - pues en verdad le ordenó la divina entre diosas Calipso\n  - que viajara por el mar manteniendose a su mano izquierda...\n  - Odiseo, tras construir la balsa con instrucciones y herramientas de Calipso, navega solo por primera vez desde la caída de Troya sin compañía divina protectora directa en el mar — guiándose únicamente por su pericia náutica y las estrellas.\n  - La Osa Mayor es descrita como la única constelación que «no se baña en el Océano» porque, desde las latitudes del Mediterráneo oriental, no se pone nunca. «Observa a Orión» refleja su posición relativa en el cielo.\n  - La misma Calipso que lo retuvo 7 años contra su voluntad es quien le da las instrucciones precisas para escapar de su influencia — y lo hace correctamente, sin sabotaje. El detalle de que solo la Osa \"no tiene parte en los baños de Océano\" (nunca se pone) la convierte en la única referencia fija en un cosmos donde todo lo demás (incluido el propio destino de Odiseo hasta este punto) ha sido errático.",
+      "refs": [
+        {
+          "tana": "YGKXPoLI646I",
+          "nombre": "Mykonos (Micono)",
+          "col": "entes",
+          "id": "mykonos"
+        },
+        {
+          "tana": "9wtFlZndi_I6",
+          "nombre": "Anios (Anio)](tana:2FtOzIRdRezF) Rey-Sacerdote de Delos, hijo de Apolo y Rhoio; Rhoio se casó con [Zarēx (Heroe)",
+          "col": "entes",
+          "id": "zarex"
+        },
+        {
+          "tana": "lwGmqjmGIFvr",
+          "nombre": "Oinotropai (Elais, Spermő, Oinő)",
+          "col": "entes",
+          "id": "oinotropai"
+        },
+        {
+          "tana": "nVBE6xSEQQc_",
+          "nombre": "Polikratēs ho Samios (Policrates de Samos)",
+          "col": "entes",
+          "id": "polikrates-ho-samios"
+        }
+      ]
+    },
+    {
+      "clave": "O⚖️",
+      "etiqueta": "Organización y cultos",
+      "texto": "- Instituciones de Delos\n  - **Οἱ ἱεροποιοί (hieropoioí)** — la junta administradora del santuario.\n  - **Τὰ Δήλια (Delia)** — el festival pan-jonio con himnos, coros y theorias.\n  - **Ὁ καθαρμός (katharmos)** — las purificaciones: Pisístrato (s. VI), Polícrates (dedicación de Rhenia), y la ateniense de 426 (justo fuera de corte).",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Chora"
+  ],
+  "pertenece_a": []
+}

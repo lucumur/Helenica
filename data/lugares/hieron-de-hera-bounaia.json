@@ -1,0 +1,42 @@
+{
+  "id": "hieron-de-hera-bounaia",
+  "tana_id": "ae6711YKu-cE",
+  "nombre": "Hierón de Hēra Bounaia",
+  "nombre_alt": "la de la Colina",
+  "titulo_tana": "Hierón de Hēra Bounaia (la de la Colina)",
+  "etiquetas_tana": [
+    "hieron"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "Culto Gamico",
+      "refs": []
+    },
+    {
+      "clave": "H📈",
+      "etiqueta": "Historia",
+      "texto": "- …\n  - En época arcaica fue un culto gámico y genealógico, asociado al epónimo Búnos y a la carta eumélica báquida; no se conoce liturgia ni calendario propios. ○\n  - Pausanias testimonia que el recinto seguía vigente durante el siglo II d. C. ⬤",
+      "refs": []
+    },
+    {
+      "clave": "A🪪",
+      "etiqueta": "Alias / fases",
+      "texto": "- Epíteto **primario y topográfico**: βουνός = colina, voz dórico-cirenea no ática (Hdt. 4.199). Paralelo interno: Hēra Akraia, \"la de la altura\", en Perachora y en el santuario de los hijos de Medea — **sistema corintio de epíclesis heraica por elevación** ◐.\n- El epónimo Búnos hijo de Hermes es **aition secundario**, generado por la genealogía eumélica báquida para insertar el culto en la lista sucesoria (Aietes le deja el reino al partir a Cólquide) ⬤ (testimonio, Paus. 2.4.7 y 2.3.10).\n- No confundir la dirección: la colina explica el nombre, el fundador explica el nombre después",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Culto gámico y genealógico asociado al epónimo Búnos y a la carta eumélica báquida; no se conoce liturgia ni calendario propios. ○",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Santuario"
+  ],
+  "pertenece_a": []
+}

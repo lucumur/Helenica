@@ -1,0 +1,29 @@
+{
+  "id": "erato",
+  "tana_id": "n3vkIFzZ00-E",
+  "nombre": "Eratō",
+  "nombre_alt": "Erató",
+  "titulo_tana": "Eratō = Erató",
+  "etiquetas_tana": [
+    "Ninfa",
+    "O",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

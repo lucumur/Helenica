@@ -1,0 +1,20 @@
+{
+  "id": "sisyphos",
+  "tana_id": "JVeXVud4nIdz",
+  "nombre": "Sísyphos",
+  "nombre_alt": "Sisifo",
+  "titulo_tana": "Sísyphos (Sisifo)",
+  "etiquetas_tana": [
+    "H",
+    "Heroe"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe",
+    "Mortal"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

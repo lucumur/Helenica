@@ -1,0 +1,93 @@
+{
+  "id": "asopos-phliasios",
+  "tana_id": "xXpImtZGNVC0",
+  "nombre": "Asōpos Phliasios",
+  "nombre_alt": "Asopo Fliasio",
+  "titulo_tana": "Asōpos Phliasios (Asopo Fliasio)",
+  "etiquetas_tana": [
+    "potamos"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Descendientes",
+      "etiqueta": "Descendientes",
+      "texto": "- [Aiginē (Egina)](entes:aigine)\n- [Kórkyra (Corcira)](entes:korkyra)\n- [Harpína (Harpina)](entes:harpina)\n- [Peirenē (Pirene)](entes:peirene)\n- [Kleônē (Cleona)](entes:kleone)\n- [Neméa (Nemea)](entes:nemea)\n- [Ornía (Ornia)](entes:ornia)",
+      "refs": [
+        {
+          "tana": "KovE6_7csxXP",
+          "nombre": "Aiginē (Egina)",
+          "col": "entes",
+          "id": "aigine"
+        },
+        {
+          "tana": "HVxpDfOyxbxa",
+          "nombre": "Kórkyra (Corcira)",
+          "col": "entes",
+          "id": "korkyra"
+        },
+        {
+          "tana": "6grRIF4d7BHu",
+          "nombre": "Harpína (Harpina)",
+          "col": "entes",
+          "id": "harpina"
+        },
+        {
+          "tana": "EjFLEfoPjamY",
+          "nombre": "Peirenē (Pirene)",
+          "col": "entes",
+          "id": "peirene"
+        },
+        {
+          "tana": "epQ9cGnLNUnO",
+          "nombre": "Kleônē (Cleona)",
+          "col": "entes",
+          "id": "kleone"
+        },
+        {
+          "tana": "dUZ8LOqXcQnN",
+          "nombre": "Neméa (Nemea)",
+          "col": "entes",
+          "id": "nemea"
+        },
+        {
+          "tana": "HkvgIV_Y8F3p",
+          "nombre": "Ornía (Ornia)",
+          "col": "entes",
+          "id": "ornia"
+        }
+      ]
+    },
+    {
+      "clave": "Padres",
+      "etiqueta": "Padres",
+      "texto": "- [Keloussa (Celusa)](entes:keloussa)",
+      "refs": [
+        {
+          "tana": "PHmpXWmj-Bwg",
+          "nombre": "Keloussa (Celusa)",
+          "col": "entes",
+          "id": "keloussa"
+        }
+      ]
+    },
+    {
+      "clave": "Parejas",
+      "etiqueta": "Parejas",
+      "texto": "[Metopē (Métope)](entes:metope)",
+      "refs": [
+        {
+          "tana": "JvK0ojNFfC2L",
+          "nombre": "Metopē (Métope)",
+          "col": "entes",
+          "id": "metope"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Río"
+  ],
+  "pertenece_a": []
+}

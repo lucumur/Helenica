@@ -1,0 +1,163 @@
+{
+  "id": "segundo-athlos-matar-a-la-hidra-de-lerna",
+  "tana_id": "BPmEWjakjBne",
+  "nombre": "Segundo Athlos: Matar a la Hidra de Lerna (Argolis)",
+  "nombre_alt": null,
+  "titulo_tana": "Segundo Athlos: Matar a la Hidra de Lerna (Argolis)",
+  "etiquetas_tana": [
+    "Evento"
+  ],
+  "imagen": null,
+  "agentes_activos": {
+    "texto": "- [Hēraklēs (Hercules)](entes:herakles)\n- [Hydra Lernaia = Hidra de Lerna](entes:hydra-lernaia)\n- [Karkinos Lernaios = Cangrejo de Lerna](entes:karkinos-lernaios)",
+    "refs": [
+      {
+        "tana": "viTfkThjup-A",
+        "nombre": "Hēraklēs (Hercules)",
+        "col": "entes",
+        "id": "herakles"
+      },
+      {
+        "tana": "qKQqvMi2YTog",
+        "nombre": "Hydra Lernaia = Hidra de Lerna",
+        "col": "entes",
+        "id": "hydra-lernaia"
+      },
+      {
+        "tana": "9-JAB17Rarhe",
+        "nombre": "Karkinos Lernaios = Cangrejo de Lerna",
+        "col": "entes",
+        "id": "karkinos-lernaios"
+      }
+    ]
+  },
+  "donde": {
+    "texto": "- [Lerna, Argolis (Region)](lugares:lerna-argolis-2)\n- [Amymonē (Fuente), Lerna (Chora), Argolis (Región)](lugares:amymone-fuente-lerna-chora-argolis-region)\n- [Lerna (Cienaga), Lerna (Chora), Argolis (Region)](lugares:lerna-cienaga-lerna-chora-argolis-region)",
+    "refs": [
+      {
+        "tana": "e30B_D73-DJ3",
+        "nombre": "Lerna, Argolis (Region)",
+        "col": "lugares",
+        "id": "lerna-argolis-2"
+      },
+      {
+        "tana": "SuhMUfl8H6GA",
+        "nombre": "Amymonē (Fuente), Lerna (Chora), Argolis (Región)",
+        "col": "lugares",
+        "id": "amymone-fuente-lerna-chora-argolis-region"
+      },
+      {
+        "tana": "hCZt_62od1o9",
+        "nombre": "Lerna (Cienaga), Lerna (Chora), Argolis (Region)",
+        "col": "lugares",
+        "id": "lerna-cienaga-lerna-chora-argolis-region"
+      }
+    ]
+  },
+  "fuentes": [
+    {
+      "titulo": "Lernaean Hydra (Theoi)",
+      "url": "https://www.theoi.com/Ther/DrakonHydra.html"
+    },
+    {
+      "titulo": "Unveiling the Hidden Face of Antiquity: Mysteries and Cryptic Cults",
+      "url": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-08-11T03%3A10%3A37.918Z-Dionysus_Katabasis_and_the_Mysteries_of.pdf?alt=media&token=e28b77e6-bf15-443c-97bf-224a111c3a3f"
+    },
+    {
+      "titulo": "Lerna (Maicar.com)",
+      "url": "https://www.maicar.com/GML/Lerna.html"
+    },
+    {
+      "titulo": "Invocando el agua de Lerna",
+      "url": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-08-11T11%3A22%3A47.868Z-556-1319-1-PB.pdf?alt=media&token=444e9aa5-a599-4f6b-8884-fe5cba72d492"
+    }
+  ],
+  "tipo_tana": {
+    "texto": "Mito",
+    "refs": [
+      {
+        "tana": "uyr3QqtD3Eqh",
+        "nombre": "Mito"
+      }
+    ]
+  },
+  "descripcion": {
+    "texto": "- 2da Labor: Matar a la Hidra. Era un Monstruo Lacunar Policefalo, cuyas cabezas se regeneraban y multiplicaban cada vez que perdia una. Su sobrino lo ayudó quemando con una antorcha el cuello de la cabeza cortada para que no renaciera otra. Heracles enterró la última cabeza, que era inmortal, bajo una gran piedra. Al final Heracles mojó las puntas de sus flechas con la sangre venenosa de la Hidra\n- \"Para su segunda labor a Heracles se le instruyó asesinar a la Hidra del lago de Lerna. La Bestia se escondia en un manantial y salia al lago y los alrededores para acechar el ganado y arruinar la tierra. La hidra era de un tamaño enorme, con 8 cabezas mortales y una inmortal. Heracles llega acompañado de Yolao quien lo lleva en carro, hasta encontrar a la Hidra en la fuente de Amímone. Lanzando flechas en llamas lograron hacerla salir, pero se colgó de el enrollandose en una pierna suya mientras que aparecía Karkinos, un cangrejo gigante atacandolo también. Despues de matar al cangrejo llama a Yolao, quien lo ayuda a quemar la base de las cabezas para evitar que crecieran de nuevo, por ultimo, sepultó la cabeza inmortal por el camino que corre de Lerna a Elaios. cortó en pedazos el cuerpo de la Hidra y untó sus flechas con su sangre venenosa. \"",
+    "refs": []
+  },
+  "elementos": {
+    "texto": "- [Arco de Herakles](objetos:arco-de-herakles)\n- [Espada de Bronce de Herakles](objetos:espada-de-bronce-de-herakles)\n- [Antorcha de Iolaos](objetos:antorcha-de-iolaos)\n- [Veneno de la Sangre de Hydra](objetos:veneno-de-la-sangre-de-hydra)\n- [Hoz de Herakles](objetos:hoz-de-herakles)",
+    "refs": [
+      {
+        "tana": "oPMmxS_BGar1",
+        "nombre": "Arco de Herakles",
+        "col": "objetos",
+        "id": "arco-de-herakles"
+      },
+      {
+        "tana": "IN4rUEjtb90w",
+        "nombre": "Espada de Bronce de Herakles",
+        "col": "objetos",
+        "id": "espada-de-bronce-de-herakles"
+      },
+      {
+        "tana": "bFvV1G4eIqaF",
+        "nombre": "Antorcha de Iolaos",
+        "col": "objetos",
+        "id": "antorcha-de-iolaos"
+      },
+      {
+        "tana": "n6ZiyZFP9xJJ",
+        "nombre": "Veneno de la Sangre de Hydra",
+        "col": "objetos",
+        "id": "veneno-de-la-sangre-de-hydra"
+      },
+      {
+        "tana": "0SBhAVZNoMf9",
+        "nombre": "Hoz de Herakles",
+        "col": "objetos",
+        "id": "hoz-de-herakles"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Preparacion",
+      "texto": "- segun diferentes versiones, llevó como arma una hoz, un arco, una espada, o su garrote.\n- Llevó a Iolaos como acompañante al darse cuenta que no podria solo."
+    },
+    {
+      "titulo": "Inicio",
+      "texto": "- utilizando su arco, lanzó flechas con fuego a su guarida en la fuente de Amimone, una cueva de donde salia solo para aterrorizar a las villas circundantes."
+    },
+    {
+      "titulo": "Lucha",
+      "texto": "- Intentó cortar con una hoz, y con su espada, sus cabezas, pero seguian saliendo nuevas, mientras quedara almenos una.\n- llamó a su sobrino Iolaos, quien pensó en cauterizar la herida con una antorcha cada vez que cortaran una cabeza.\n- Mientras estaba luchando, aparece un Cangrejo gigante para hacerle frente tambien, enviado por Hera.\n- Enterro la novena y ultima cabeza, inmortal, sobre una enorme roca."
+    },
+    {
+      "titulo": "Victoria",
+      "texto": "- utiliza su sangre como veneno, para ponerselo a sus flechas."
+    },
+    {
+      "titulo": "Final Alternativo",
+      "texto": "- Al cortar una cabeza, sale el veneno de su sangre y lo utiliza para quemar las demas cabezas"
+    },
+    {
+      "titulo": "Postmortem",
+      "texto": "- Hera en honor a sus mascotas Cancer y Hydra, las puso despues de ser asesinadas en el Cielo como constelaciones.\n- Hera no marca esta labor como completada por haber sido ayudado por Yolao, asi que le encarga una extra."
+    },
+    {
+      "titulo": "Textos Clasicos",
+      "texto": "- Lernaean Hydra (DGRBM)\n  - HYDRA. This monster, like the lion, was the offspring of Typhon and Echidna, and was brought up by Hera. It ravaged the country of Lernae near Argos, and dwelt in a swamp near the well of Amymone: it was formidable by its nine heads, the middle of which was immortal. Heracles, with burning arrows, hunted up the monster, and with his club or a sickle he cut off its heads; but in the place of the head he cut off, two new ones grew forth each time, and a gigantic crab came to the assistance of the hydra, and wounded Heracles. However, with the assistance of his faithful servant Iolaus, he burned away the heads of the hydra, and buried the ninth or immortal one under a huge rock. Having thus conquered the monster, he poisoned his arrows with its bile, whence the wounds inflicted by them became incurable. Eurystheus declared the victory unlawful, as Heracles had won it with the aid of Iolaus. (Hes. _Theog._ 313, &c.; Apollod. ii. 5. § 2; Diod. iv. 11; Eurip. _Herc. Fur. 419, 1188, Ion, 192; Ov. Met._ ix. 70; Virg. _Aen._ viii. 300; Paus. ii. 36. § 6, 37. § 4, v. 5. § 5; Hygin. _Fab._ 30.)\n  - **Fuente:** _Dictionary of Greek and Roman Biography and Mythology._ #Libro_\n- La Hidra de Lerna Segun Hesiodo\n  - **Fuente:** Theogonia #Libro_\n  - **Fecha:** 800 AC\n  - \"And third again she [Ekhidna (Echidna)] bore the grisly-minded Lernaian (Lernaean) Hydra, whom the goddess white-armed Hera nourished because of her quenchless grudge against the strong Herakles (Heracles). Yet he, Herakles, son of Zeus, of the line of Amphitryon, by design of Athene the spoiler and with help form warlike Iolaos, killed this beast with the pitiless bronze sword.\""
+    },
+    {
+      "titulo": "Imagenes",
+      "texto": "- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-08-10T18%3A57%3A17.172Z-image.png?alt=media&token=3114af56-ce05-4f52-97cc-c68b2e3df8e0)\n  - **Autor:**\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-08-10T18%3A59%3A52.671Z-image.png?alt=media&token=eadae68b-afa2-43db-bab2-86a85f9e4736)\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-08-10T19%3A00%3A22.187Z-image.png?alt=media&token=d7935a2e-1c35-4e39-8f89-ca336a3d32b9)\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-08-10T19%3A00%3A45.707Z-image.png?alt=media&token=bf050ad3-315f-46aa-afb8-0a6c3f191dc8)\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-08-10T19%3A01%3A51.544Z-image.png?alt=media&token=e67d5e68-10be-490c-a17a-19a38add10f1)\n- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2024-08-10T19%3A02%3A06.272Z-image.png?alt=media&token=99c1dbc0-58ee-4d57-8be0-b603415f7170)"
+    }
+  ],
+  "tipo": "Mítico",
+  "serie": {
+    "nombre": "Doce Labores de Heracles",
+    "orden": 2
+  }
+}

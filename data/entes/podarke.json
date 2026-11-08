@@ -1,0 +1,29 @@
+{
+  "id": "podarke",
+  "tana_id": "QeDO5fvCkx0k",
+  "nombre": "Podarkē",
+  "nombre_alt": "Podarce",
+  "titulo_tana": "Podarkē = Podarce",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

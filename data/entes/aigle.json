@@ -1,0 +1,19 @@
+{
+  "id": "aigle",
+  "tana_id": "l859w9HM_Aip",
+  "nombre": "Aigle",
+  "nombre_alt": "Egle",
+  "titulo_tana": "Aigle = Egle",
+  "etiquetas_tana": [
+    "F",
+    "H"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Mortal"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

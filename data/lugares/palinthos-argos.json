@@ -1,0 +1,30 @@
+{
+  "id": "palinthos-argos",
+  "tana_id": "8WgHkDlly8is",
+  "nombre": "Palinthos, Argos",
+  "nombre_alt": "Mausoleo",
+  "titulo_tana": "Palinthos, Argos (Mausoleo)",
+  "etiquetas_tana": [
+    "Lugar"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "H🔼",
+      "etiqueta": "Pertenece a",
+      "texto": "Agora Argea, Argos (Plaza)",
+      "refs": []
+    },
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Mausoleo",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Lugar"
+  ],
+  "pertenece_a": []
+}

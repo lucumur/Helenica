@@ -1,0 +1,19 @@
+{
+  "id": "athene",
+  "tana_id": "fcRIRYT-Xczt",
+  "nombre": "Athēnē",
+  "nombre_alt": "Atenea",
+  "titulo_tana": "Athēnē = Atenea",
+  "etiquetas_tana": [
+    "Deidad",
+    "F"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

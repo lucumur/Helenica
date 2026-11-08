@@ -1,0 +1,28 @@
+{
+  "id": "alkmene",
+  "tana_id": "fURT3UcCLav4",
+  "nombre": "Alkmēnē",
+  "nombre_alt": "Alcmena",
+  "titulo_tana": "Alkmēnē / Alcmena",
+  "etiquetas_tana": [
+    "Regio",
+    "O"
+  ],
+  "imagen": null,
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "Micenica",
+    "refs": [
+      {
+        "tana": "4K6FNFUTevWv",
+        "nombre": "Micenica"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Realeza"
+  ],
+  "genero": null
+}

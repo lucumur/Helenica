@@ -1,0 +1,85 @@
+{
+  "id": "heracles-bebe-estrangulando-a-las-serpientes-y-la-profecia-d",
+  "tana_id": "iXzsTWIiIjtm",
+  "nombre": "Heracles Bebe estrangulando a las serpientes y la profecia de Tiresias",
+  "nombre_alt": null,
+  "titulo_tana": "Heracles Bebe estrangulando a las serpientes y la profecia de Tiresias",
+  "etiquetas_tana": [
+    "Evento"
+  ],
+  "imagen": null,
+  "tipo_tana": {
+    "texto": "Suceso",
+    "refs": []
+  },
+  "elementos": {
+    "texto": "- [dyo drakontes / dos serpientes](objetos:dyo-drakontes)\n- Siervas de Alcmena, quienes la despiertan y sienten la angustia en su pecho cuando se dan cuenta lo que pasó.\n- Alcmena, desnuda sin su peplo y descalza, corriendo hasta encontrar a los gemelos.\n- El anuncio a los jefes Cadmeos quienes avisan a Anfitrion y todos van corriendo con espadas desenvainadas a ver que ocurrio",
+    "refs": [
+      {
+        "tana": "BAIvvzpWlA-C",
+        "nombre": "dyo drakontes / dos serpientes",
+        "col": "objetos",
+        "id": "dyo-drakontes"
+      }
+    ]
+  },
+  "agentes_activos": {
+    "texto": "[Hêra (Hera)](entes:hera)",
+    "refs": [
+      {
+        "tana": "fEfLas105lfz",
+        "nombre": "Hêra (Hera)",
+        "col": "entes",
+        "id": "hera"
+      }
+    ]
+  },
+  "cuando": {
+    "texto": "Al cumplir Heracles 8 meses",
+    "refs": []
+  },
+  "desenlace": {
+    "texto": "- talvez fue su padre Anfitrion pues en una version el las lleva y al ver que ificles se asusta y heracles las mata, sabe que hijo es el suyo (Ferecides)\n- acude con [Teiresias (Adivino)](entes:teiresias) , el adivino ciego para una interpretacion de lo sucedido, quien  cuenta todos aquellos a quienes se enfrentara por mar y tierra , de sus mas grandes enemigos, y su amor juvenil, la juventud personificada, ademas de sus enfrentamientos con los gigantes y los dioses, quedando mezclado con el polvo (Pindaro)\n- pero que obtendra un descanso de paz como recompensa eterna en moradas de dicha, y al casarse sera celebrado junto a Zeus Cronida (Olimpo)",
+    "refs": [
+      {
+        "tana": "5117orgdNXmJ",
+        "nombre": "Teiresias (Adivino)",
+        "col": "entes",
+        "id": "teiresias"
+      }
+    ]
+  },
+  "donde": {
+    "texto": "Megaron de Kreonte, en Kadmeia (Tebas)",
+    "refs": [
+      {
+        "tana": "aWgWwKWKNxLM",
+        "nombre": "Megaron de Kreonte, en Kadmeia (Tebas)"
+      }
+    ]
+  },
+  "problema": {
+    "texto": "- Las ofies avanzaron hasta el mychos del thalamos donde estaban los niños\n- Pero Heracles en su primer combate, las asfixia a ambas agarrandolas de su cuello hasta perecer\n- pero al ver la situacion Anfitrion se siente aliviado ya que la situacion estaba resuelta (Pindaro)",
+    "refs": []
+  },
+  "agentes_pasivos": {
+    "texto": "- [Iphiklēs / ificles (Alcida-Perseida)](entes:iphikles)\n- [Hēraklēs (Hercules)](entes:herakles)",
+    "refs": [
+      {
+        "tana": "UuMXV16fRlC3",
+        "nombre": "Iphiklēs / ificles (Alcida-Perseida)",
+        "col": "entes",
+        "id": "iphikles"
+      },
+      {
+        "tana": "viTfkThjup-A",
+        "nombre": "Hēraklēs (Hercules)",
+        "col": "entes",
+        "id": "herakles"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipo": "Mítico"
+}

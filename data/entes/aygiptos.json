@@ -1,0 +1,53 @@
+{
+  "id": "aygiptos",
+  "tana_id": "2b8J2iVWVV-D",
+  "nombre": "Aygiptos",
+  "nombre_alt": "Egipto",
+  "titulo_tana": "Aygiptos = Egipto",
+  "etiquetas_tana": [
+    "O",
+    "Regio",
+    "M"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "- Raza Egipcia\n- Nobleza",
+    "refs": [
+      {
+        "tana": "2VhUCcvJIqwp",
+        "nombre": "Raza Egipcia"
+      },
+      {
+        "tana": "0TjIgPdjRUql",
+        "nombre": "Nobleza"
+      }
+    ]
+  },
+  "campos": [
+    {
+      "clave": "Hijos",
+      "etiqueta": "Hijos",
+      "texto": "- [Lynkeus = Linceo](entes:lynkeus)\n- [Danaos = Danao](entes:danaos-2)",
+      "refs": [
+        {
+          "tana": "K0F7D17n6FIF",
+          "nombre": "Lynkeus = Linceo",
+          "col": "entes",
+          "id": "lynkeus"
+        },
+        {
+          "tana": "vC6f2eufI695",
+          "nombre": "Danaos = Danao",
+          "col": "entes",
+          "id": "danaos-2"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Realeza"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

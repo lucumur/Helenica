@@ -1,0 +1,30 @@
+{
+  "id": "kerameikos-corinto-arcaica",
+  "tana_id": "Y1KUYAiviZFG",
+  "nombre": "Kerameikos, Corinto Arcaica",
+  "nombre_alt": null,
+  "titulo_tana": "Kerameikos, Corinto Arcaica",
+  "etiquetas_tana": [
+    "demos"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "Función",
+      "etiqueta": "Función",
+      "texto": "Artesanal - Industrial",
+      "refs": []
+    },
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "- Extremo occidental de la ciudad, junto a la muralla;\n- hornos, talleres y casas de artesanos, s. VII-IV.\n- Productor de la cerámica protocorintia y corintia exportada por todo el Mediterráneo.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Demos"
+  ],
+  "pertenece_a": []
+}

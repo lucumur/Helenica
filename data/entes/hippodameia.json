@@ -1,0 +1,29 @@
+{
+  "id": "hippodameia",
+  "tana_id": "XFPQDtN9o0Ob",
+  "nombre": "Hippodameia",
+  "nombre_alt": "Hipodamia",
+  "titulo_tana": "Hippodameia = Hipodamia",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

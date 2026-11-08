@@ -1,0 +1,19 @@
+{
+  "id": "aigisthos",
+  "tana_id": "28f3tnw3LFTp",
+  "nombre": "Aigisthos",
+  "nombre_alt": "Egisto",
+  "titulo_tana": "Aigisthos = Egisto",
+  "etiquetas_tana": [
+    "Heroe",
+    "griego"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

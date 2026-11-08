@@ -1,0 +1,17 @@
+{
+  "id": "pylai-sikyoniai",
+  "tana_id": "mb3OUXuMCAxT",
+  "nombre": "Pylai Sikyoniai",
+  "nombre_alt": "Puertas Sicionias",
+  "titulo_tana": "Pylai Sikyoniai (Puertas Sicionias)",
+  "etiquetas_tana": [
+    "puerta"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Puerta"
+  ],
+  "pertenece_a": []
+}

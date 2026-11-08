@@ -1,0 +1,37 @@
+{
+  "id": "2-montana-interior-de-olynthos-tracia-con-campamentos-estaci",
+  "tana_id": "lCayBQrOTor-",
+  "nombre": "(2) Montaña Interior de Olynthos Tracia con Campamentos Estacionales (1000-800aC)",
+  "nombre_alt": null,
+  "titulo_tana": "(2) Montaña Interior de Olynthos Tracia con Campamentos Estacionales (1000-800aC)",
+  "etiquetas_tana": [
+    "Lugar",
+    "sub-un"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "O⚖️",
+      "etiqueta": "Organización y cultos",
+      "texto": "- 5 a 10 campamentos dispersos\n- Campementos compuestos por chozas hechas de ramas, sin cimientos",
+      "refs": []
+    },
+    {
+      "clave": "S🀄",
+      "etiqueta": "Símbolos",
+      "texto": "Funcion: Explotacion de pastos en altitud (ovejas, cabras)",
+      "refs": []
+    },
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "Campamentos ocupados durante Mayo-Octubre Para Pastoreo",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Subunidad"
+  ],
+  "pertenece_a": []
+}

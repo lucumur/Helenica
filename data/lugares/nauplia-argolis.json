@@ -1,0 +1,29 @@
+{
+  "id": "nauplia-argolis",
+  "tana_id": "Q4KaGeraGUcH",
+  "nombre": "Nauplia, Argolis",
+  "nombre_alt": null,
+  "titulo_tana": "Nauplia, Argolis",
+  "etiquetas_tana": [
+    "Lugar"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Puerto Maritimo",
+      "refs": [
+        {
+          "tana": "eY81NJeal1Ob",
+          "nombre": "Puerto Maritimo"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Lugar"
+  ],
+  "pertenece_a": []
+}

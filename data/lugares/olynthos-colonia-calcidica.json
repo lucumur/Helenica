@@ -1,0 +1,139 @@
+{
+  "id": "olynthos-colonia-calcidica",
+  "tana_id": "HcaGQBfC_sLV",
+  "nombre": "Olynthos - Colonia Calcidica",
+  "nombre_alt": "750-500aC",
+  "titulo_tana": "Olynthos - Colonia Calcidica (750-500aC)",
+  "etiquetas_tana": [
+    "Lugar",
+    "Fase"
+  ],
+  "imagen": null,
+  "fuentes": [
+    {
+      "titulo": "[Tucidides](tana:HuR_6bGih1Ix) confirma origen calcifico sin especificar mas.",
+      "url": null
+    },
+    {
+      "titulo": "Evidencia arqueológica (Robinson 1930-1946) documenta cerámica eubea importada en niveles fundacionales.",
+      "url": null
+    }
+  ],
+  "campos": [
+    {
+      "clave": "H🏘️",
+      "etiqueta": "Habitantes",
+      "texto": "- Colonos de Chalkis , posiblemente con participacion de Erethria y Andros, mezclandose con elites de Tracios lugareños, removiendo a poblaciones tribales tracias del lugar.\n- Dialecto Eubeo + Bilinguismo con Dialectos Tracios?\n- (E1 Olynthos 750-500aC) Oikistai / Aristocracia de Fundadores\n  - **Cultura:** Familias de Origen Calcidico y Eretrio (onomastica griega en inscripciones)\n  - **Composicion:**\n    - Oikistes Principal, Familia Directa Lineal Descendiente del Fundador Lider\n    - Synoikistai, Familias Co-Fundadoras (7-11 Familias ) de Aristocratas provenientes de Calcis o Eretria\n      - Hetaireia (camaraderia aristocratica) con oikistes principal\n  - **Posesiones:**\n    - Κλῆροι tierra: 50-100 ha cada familia\n      - Localización: Llanura aluvial (mejor irrigación, trigo calidad)\n      - Estimación valor: 10,000-20,000 dracmas (equivalente época clásica retrotraído)\n    - Esclavos Domesticos : 4-8 xfamilia\n    - Yuntas de Bueyes: 6-10 x familia\n    - Ganado: 200-500 cabezas de Oves o Caprae x familia\n    - Armas: Panoplia Broncinea Completa + Caballos\n    - Ceramica: 20-40 Piezas anuales, Corintia o Eubea\n  - **Religioso:**\n    - Oikistes Principal, Familia Directa Lineal\n      - Posesion de la magistratura de Basileus Hereditario Ritual\n      - Temenos (Recinto Sacro Propio) en las mejores tierras de la llanura costera (100-200Ha)\n    - Control cultos principales (Zeus Olýmpios, Atenea Polías)\n  - **Militar:**\n    - Oikistes Principal, Familia Directa Lineal\n      - Asiento permanente en Gerousia Calcidica (Consejo de Ancianos)\n  - **Politica:**\n    - Monopolio de la gerousia: 100% de sus asientos del consejo\n    - Monopolio de las Magistraturas: basileus, polemarchos y tamias, rotatorias\n  - **Derechos:** Tribunal aristocrático (δικασταί) para casos mayores\n  - **Residencia:**\n    - Ubicacion: Acropolis de Colina Sur\n    - Megaron tipo Heroico (12-15 x 8-10m)\n      - ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-01-17T00%3A22%3A55.839Z-image.png?alt=media&token=9f8dce28-ff7e-40d9-9139-6f35603b2ec4)\n  - **Actividades:**\n    - **Dieta:** Carne frecuente (2-3×/semana), vino sin aguar, pan trigo puro\n    - **Actividades:** Symposia (banquetes aristocráticos), caza (jabalí, ciervo), atletismo\n    - **Educación hijos:** Música (lira), poesía (Homero), equitación\n  - **Vestimenta:** Lana fina púrpura (importada), broches bronce/oro\n- (E2 Olynthos 750-500aC) Dēmiurgoi / Descendientes de Fundadores Medios\n  - **Composicion:** 30-50 Familias (150-250 personas)\n  - **Origenes:** Descendientes de Calcidicos o Eretrios de nobleza baja, de comerciantes o de artesanos especializados\n  - **Posesiones:**\n    - **Tierra arable =** 15-30 ha >> 6,000-12,000 kg cereales\n    - **Esclavos** 1-3\n    - **Ganado trabajo** 2-4 bueyes\n    - **Ovejas/cabras** 50-100\n    - **Taller (si artesano)** 1 local + herramientas\n  - **Politica:**\n    - Excluidos de Gobierno y Magistraturas Mayores\n    - Ocasionalmente Magistraturas menores como Astynomos (Policia) o Agoranomos (Inspector de mercado)\n  - **Militar:** Hoplitas núcleo falange (80-90% efectivos hoplíticos totales)\n  - **Residencia:**\n    - Perímetro medio-bajo colina, cerca muralla primitiva\n      - Casa rectangular simple (8-10m × 5-6m)\n      - 2-3 habitaciones (andron, thalamos, despensa)\n      - Patio descubierto (αὐλή) pequeño (corrales, almacenaje)\n      - Muros adobe sobre zócalo piedra\n        - ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-01-17T00%3A41%3A44.358Z-image.png?alt=media&token=661501be-6f33-4ad0-b76e-19f4755fe059)\n  - **Actividades:**\n    - **Dieta:** Pan cebada/trigo mixto, queso diario, pescado salado frecuente, carne sacrificios mensuales\n    - **Actividades:** Trabajo agrícola directo (supervisión campos), asistencia asamblea, entrenamiento hoplítico\n    - **Educación hijos:** Alfabetización básica (si hay maestro comunal), oficios paternos\n  - **Vestimenta:** **Vestimenta:** Lana natural (sin teñir), quitón simple, himation invierno\n- (E3 Olynthos 750-500aC) Thētes / Ciudadanos Pobres\n  - **Composicion:** 40-80 familias (200-400 personas)\n  - **Origenes:**\n    - Colonos sin capital inicial (pasaje pagado οἰκιστής como clientela)\n    - Hijos menores familias estrato II (división herencias generación 2-3)\n    - Artesanos no-especializados\n  - **Derechos:** Ciudadania Plena pero marginal\n  - **Posesiones:**\n    - **Tierra arable** 3-8 ha >> 1,200-3,200 kg cereales\n    - **Esclavos** 0\n    - **Ganado  **1-2 bueyes (compartidos comunalmente)\n    - **Ovejas/cabras** 5-20\n    - **Jornales estacionales** 60-100 días/año (cosecha estrato I-II)\n  - **Politica:** **Asamblea:** ✓ Voz (voto teórico, pero presión clientelar aristocracia)\n  - **Militar:**\n    - **Servicio militar:** Tropas ligeras (peltastas, psíloi = sin armadura)\n      - Equipo: Pelta (escudo mimbre/cuero), 2-3 jabalinas, cuchillo\n      - Costo: 5-10 dracmas (accesible)\n  - **Residencia:**\n    - **Ubicación:** Extramuros inicial o sector bajo colina (menos defendible)\n      - Choza rectangular (6m × 4m)\n      - 1 habitación única (multifuncional)\n      - Techo paja/cañas\n      - Sin patio (animales duermen interior invierno)\n  - **Actividades:**\n    - **Dieta:** Pan cebada 90%, legumbres, cebolla/ajo, pescado ocasional, carne solo sacrificios públicos\n    - **Vestimenta:** Lana burda, quitón único reparado continuamente, descalzos verano\n    - **Actividades:** Trabajo agrícola propio + jornalero estacional (cosechas ajenas)\n    - **Educación:** Ninguna formal, aprendizaje oficios por observación\n- (E4 Olynthos 750-500aC) Metoikoi / Extranjeros Residentes\n  - **Composicion:** Extranjeros con residencia condicionada\n  - **Origenes:**\n    - Origenes no Calcidicos:\n      - Artesanos especializados (alfareros, herreros, orfebres)\n      - Comerciantes de cereales y bronce eubeos\n      - Mercenarios, hoplitas extranjeros asentados tras servicio\n  - **Obligaciones:** **Fiscalidad:** Μετοίκιον (impuesto residencia): 12 dracmas/año\n  - **Derechos:**\n    - **Propiedad:** ❌ No pueden poseer tierra (sin autorización especial)\n    - **Matrimonio:** Exogamia (hijos no-ciudadanos automáticamente)\n  - **Militar:** **Servicio militar:** Obligatorio si convocados (tropas ligeras), sin voz política\n  - **Religioso:** **Culto:** Acceso santuarios públicos, no sacerdocios\n  - **Residencia:**\n    - **Ubicación:** Barrio artesanal (sector noreste colina, cerca futuras ágora)\n    - **Arquitectura:** Taller-vivienda (10m × 6m), hornos cerámica anejos\n- (E5 Olynthos 750-500aC) Douloi / Esclavos\n  - **Composicion:** 80-200 habitantes (10-15% poblacion) con estatus de Propiedad\n  - **Origenes:**\n    - Origenes Tracios = compra en mercados tracios, captura de guerra local\n    - Origenes Griegos = venta autoesclavitud por crisis familiares, pirateria\n    - Origenes Nativos = 10-20% venian de segunda generacion de siervos\n  - **Actividades:**\n    - 30% Siervos de Aristocratas = esclavos domesticos de cocina, limpieza, nodriza / esclavos agricolas de supervision\n    - 55% Siervos de Civiles = esclavos agricolas de arado, cosecha / esclavos artesanos de asistencia en taller\n    - 15% Siervos de Metoicos = esclavos artesanos de asistencia en taller",
+      "refs": [
+        {
+          "tana": "PlkOnmFnjD46",
+          "nombre": "Chalkis"
+        },
+        {
+          "tana": "mkfB2Cpv0F0o",
+          "nombre": "(E1 Olynthos 750-500aC) Oikistai / Aristocracia de Fundadores"
+        },
+        {
+          "tana": "wVfPytisNCtL",
+          "nombre": "(E2 Olynthos 750-500aC) Dēmiurgoi / Descendientes de Fundadores Medios"
+        },
+        {
+          "tana": "CpZYEzV5xSew",
+          "nombre": "(E3 Olynthos 750-500aC) Thētes / Ciudadanos Pobres"
+        },
+        {
+          "tana": "VLxadQjtcrse",
+          "nombre": "(E4 Olynthos 750-500aC) Metoikoi / Extranjeros Residentes"
+        },
+        {
+          "tana": "sxqft3ppyzSx",
+          "nombre": "(E5 Olynthos 750-500aC) Douloi / Esclavos"
+        }
+      ]
+    },
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Grupo de Aldeas con Nucleo Cultual",
+      "refs": []
+    },
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "- Asentamiento nucleado en colina sur, organización pre-planeada limitada.\n- integración selectiva con élites tracias, desplazamiento poblaciones rurales.",
+      "refs": []
+    },
+    {
+      "clave": "Co🧭",
+      "etiqueta": "Coordenadas",
+      "texto": "Coexistencia con población tracia documentada epigráficamente (nombres tracios en inscripciones s. V-IV a.C.: Rhaskos, Hebryzelmis).",
+      "refs": []
+    },
+    {
+      "clave": "S🀄",
+      "etiqueta": "Símbolos",
+      "texto": "- Ceramica y Estilo\n  - Geométrica tardía eubea (skyphoi, oinochoai)\n  - Protocorintia importada (aryballoi, alabastrones)\n  - Imitaciones locales de formas eubeas",
+      "refs": []
+    },
+    {
+      "clave": "H🔼",
+      "etiqueta": "Pertenece a",
+      "texto": "Region Calcidica (Khalkidike)",
+      "refs": []
+    },
+    {
+      "clave": "O⚖️",
+      "etiqueta": "Organización y cultos",
+      "texto": "- [(Colonia Olynthos) Nucleo Politico-Religioso: Colina Sur](lugares:colonia-olynthos-nucleo-politico-religioso-colina-sur)\n- [(Colonia Olynthos) 4-6 Komai: Ra 5-15km de Colina](lugares:colonia-olynthos-4-6-komai-ra-5-15km-de-colina)\n- [(Colonia Olynthos) Mercyberna: Puerto en la Costa](lugares:colonia-olynthos-mercyberna-puerto-en-la-costa)\n- [(Colonia Olyunthos) Oikoi Estacionales Dispersas](lugares:colonia-olyunthos-oikoi-estacionales-dispersas)\n- Gobierno: Aristocracia Terrateniente, Control por Familias Fundadoras\n  - Gerousia Calcidica (Consejo de Ancianos)\n    - Legislacion, Justicia Mayor, Politica Exterior\n    - Requisitos: Mayore sde 50 años, Genē Fundadora, propiedad +20Ha\n    - Reunion en Santuario Central\n  - Cohorte Calcidica\n    - Basileus Hereditario Ritual\n    - Polemarchos Anual\n    - Tamias (Tesorero)\n  - Agora Colonial\n    - Ciudadanos varones adultos con armas\n    - Funcion: Ratificacion de decisiones del consejo, eleccion de guerra\n    - Poder consultivo no deliberativo, de frecuencia solo en crisis o guerra\n- Organizacion Militar de Colonia Olintia: max 600-900 hombres\n  - 20-40 Jinetes Aristos: para Exploración, Persecución. Usados en Olynthos Interior\n  - 400-500 Hoplitas (Ciudadanos Medios-Aristos) + Polemarchos: Tactica de Choque Frontal (othismós)\n  - 200-400 Peltastas / Tropas Ligeras (Ciudadanos Pobres-Integrados): Funcion de Escaramuza, Hostigamiento\n- Redes Comerciales\n  - 1. Olynthos <-> Eubea (>> Cereales Olintios, << Ceramica, Bronce y Aceite 🫒 Eubeos ) en Navios Mercantes de 50-80 Ton\n  - 2. Olynthos <-> Tasos (>> Cereales, Ganado Olintios, <<Vino Tasio, Plata 🥈Eubeos )  en Barcas Costeras de 20-30Ton\n  - 3. Olynthos <-> Interior Macedonio, Estrimón, Bisaltia (>> Vino, Ceramica, Armas Calcidicos, << Esclavos, Pieles, Miel Tracios) en Caravanas 🐫 Ocasionales\n  - 4. Olynthos <-> Region Calcidica, Mende, Skione y Torone (>> productos locales<<) Intercambio Continuo Menor (cabotaje)",
+      "refs": [
+        {
+          "tana": "yNzAPMkU6OcD",
+          "nombre": "(Colonia Olynthos) Nucleo Politico-Religioso: Colina Sur",
+          "col": "lugares",
+          "id": "colonia-olynthos-nucleo-politico-religioso-colina-sur"
+        },
+        {
+          "tana": "h3wqI9mq5Kkz",
+          "nombre": "(Colonia Olynthos) 4-6 Komai: Ra 5-15km de Colina",
+          "col": "lugares",
+          "id": "colonia-olynthos-4-6-komai-ra-5-15km-de-colina"
+        },
+        {
+          "tana": "FqpbeEs_h5KF",
+          "nombre": "(Colonia Olynthos) Mercyberna: Puerto en la Costa",
+          "col": "lugares",
+          "id": "colonia-olynthos-mercyberna-puerto-en-la-costa"
+        },
+        {
+          "tana": "0EQ7gq1tlMXF",
+          "nombre": "(Colonia Olyunthos) Oikoi Estacionales Dispersas",
+          "col": "lugares",
+          "id": "colonia-olyunthos-oikoi-estacionales-dispersas"
+        },
+        {
+          "tana": "7agUWCLcRd-V",
+          "nombre": "Gerousia Calcidica (Consejo de Ancianos)"
+        },
+        {
+          "tana": "iQT4qB0Y3GYj",
+          "nombre": "Cohorte Calcidica"
+        },
+        {
+          "tana": "C18uySpniZdk",
+          "nombre": "Agora Colonial"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Fase histórica"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "Lu72xqUyooVW",
+    "nombre": "Olynthos / Olinto",
+    "col": "lugares",
+    "id": "olynthos"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "telesphoros",
+  "tana_id": "TJGwgbqaZ7lc",
+  "nombre": "Telesphoros",
+  "nombre_alt": "Telesforo",
+  "titulo_tana": "Telesphoros = Telesforo",
+  "etiquetas_tana": [
+    "O",
+    "Daemon",
+    "M"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Daemon Olimpico",
+    "refs": [
+      {
+        "tana": "vFju1Dr36EOL",
+        "nombre": "Daemon Olimpico"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Daimon"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

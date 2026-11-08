@@ -1,0 +1,33 @@
+{
+  "id": "agamemnon-atreides",
+  "tana_id": "Xv8_6hYRMJc5",
+  "nombre": "Agamemnōn Atreidēs",
+  "nombre_alt": null,
+  "titulo_tana": "Agamemnōn Atreidēs",
+  "etiquetas_tana": [
+    "O",
+    "Heroe",
+    "Regio",
+    "M"
+  ],
+  "imagen": null,
+  "epitetos": {
+    "texto": "[Kosmētōr lāōn = Dirigente de Tropas](entes:kosmetor-laon)",
+    "refs": [
+      {
+        "tana": "_FCx85cPUdta",
+        "nombre": "Kosmētōr lāōn = Dirigente de Tropas",
+        "col": "entes",
+        "id": "kosmetor-laon"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe",
+    "Realeza"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

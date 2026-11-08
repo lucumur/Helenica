@@ -1,0 +1,28 @@
+{
+  "id": "ouranos",
+  "tana_id": "hsKMgolM5yGQ",
+  "nombre": "Ouranos",
+  "nombre_alt": "Urano",
+  "titulo_tana": "Ouranos = Urano",
+  "etiquetas_tana": [
+    "O",
+    "M"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Dios Titanide",
+    "refs": [
+      {
+        "tana": "-XUWw3z-CGtK",
+        "nombre": "Dios Titanide"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "oineus",
+  "tana_id": "LtuG0AoJ-aC_",
+  "nombre": "Oineus",
+  "nombre_alt": "Eneo",
+  "titulo_tana": "Oineus = Eneo",
+  "etiquetas_tana": [
+    "M",
+    "O",
+    "Regio"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Raza Etolia",
+    "refs": [
+      {
+        "tana": "H5LCw1SMvlxA",
+        "nombre": "Raza Etolia"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Realeza"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

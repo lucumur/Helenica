@@ -1,0 +1,30 @@
+{
+  "id": "bodega-punica-corinto-arcaica",
+  "tana_id": "jJ5jZJQInbUt",
+  "nombre": "Bodega Punica, Corinto Arcaica",
+  "nombre_alt": null,
+  "titulo_tana": "Bodega Punica, Corinto Arcaica",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "- Edificio de la segunda mitad del s. V\n- con ánforas de pescado salado importado de Cartago y del Estrecho;\n- se lee como casa-almacén de un comerciante.",
+      "refs": []
+    },
+    {
+      "clave": "Función",
+      "etiqueta": "Función",
+      "texto": "Comercial - Almacen",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

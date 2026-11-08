@@ -1,0 +1,27 @@
+{
+  "id": "onfalos",
+  "tana_id": "ydULaTlRXO3d",
+  "nombre": "Onfalos",
+  "nombre_alt": "Piedra Sagrada",
+  "titulo_tana": "Onfalos (Piedra Sagrada)",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- El Omphalos era una piedra sagrada en el santuario de Apolo en Delfos, considerada el centro del mundo según la mitología griega.\n- Según la leyenda, **Zeus soltó dos águilas desde los extremos opuestos del mundo, y donde se encontraron, se colocó el Omphalos**.\n- Se creía que el Omphalos conectaba el mundo terrenal con el divino, razón por la cual Apolo Pythios era el dios de la profecía y la comunicación con los dioses.\n- En algunas representaciones, Apolo aparece **sentado encima de la piedra**, en actitud de meditación o profecía.\n- **Atenas tenía su propio Pythion**, donde Apolo Pythios era venerado, aunque no con la misma intensidad que en Delfos."
+    }
+  ],
+  "tipos": [
+    "Objeto"
+  ],
+  "contenido_en": {
+    "tana": "SYrofaOjJMbt",
+    "nombre": "Apollôn Pythios = El Oraculo",
+    "col": "entes",
+    "id": "apollon-pythios"
+  }
+}

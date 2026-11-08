@@ -1,0 +1,36 @@
+{
+  "id": "karkinos-lernaios",
+  "tana_id": "9-JAB17Rarhe",
+  "nombre": "Karkinos Lernaios",
+  "nombre_alt": "Cangrejo de Lerna",
+  "titulo_tana": "Karkinos Lernaios = Cangrejo de Lerna",
+  "etiquetas_tana": [
+    "O",
+    "Bestia",
+    "H"
+  ],
+  "imagen": null,
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "Bestia",
+    "refs": [
+      {
+        "tana": "MWq5bPfXL3LM",
+        "nombre": "Bestia"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Bestia",
+    "Mortal"
+  ],
+  "genero": null,
+  "contenido_en": {
+    "tana": "BPmEWjakjBne",
+    "nombre": "Segundo Athlos: Matar a la Hidra de Lerna (Argolis)",
+    "col": "eventos",
+    "id": "segundo-athlos-matar-a-la-hidra-de-lerna"
+  }
+}

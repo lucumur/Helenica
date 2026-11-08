@@ -1,0 +1,25 @@
+{
+  "id": "dysparis-eidos-aristos",
+  "tana_id": "x1xmDJS2wbcL",
+  "nombre": "Dysparis Eidos Aristos",
+  "nombre_alt": "Mal Paris Noble por Belleza",
+  "titulo_tana": "Dysparis Eidos Aristos = Mal Paris Noble por Belleza",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": null,
+  "contenido_en": {
+    "tana": "C92fsAq4VDrJ",
+    "nombre": "Paris Alexander = Alejandro de Troya",
+    "col": "entes",
+    "id": "paris-alexander"
+  }
+}

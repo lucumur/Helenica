@@ -1,0 +1,23 @@
+{
+  "id": "alpheios-elis",
+  "tana_id": "ID9NpHcBXNvM",
+  "nombre": "Alpheios, Elis",
+  "nombre_alt": null,
+  "titulo_tana": "Alpheios, Elis",
+  "etiquetas_tana": [
+    "Rio"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Río"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "WB89TTp2uHc4",
+    "nombre": "Quinto Athlos: Limpiar los Establos de Augias (Elis)",
+    "col": "eventos",
+    "id": "quinto-athlos-limpiar-los-establos-de-augias"
+  }
+}

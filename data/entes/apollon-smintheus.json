@@ -1,0 +1,24 @@
+{
+  "id": "apollon-smintheus",
+  "tana_id": "ys2xDh2_N7Nw",
+  "nombre": "Apollon Smintheus",
+  "nombre_alt": "Apolo Esminteo, el Ratonero",
+  "titulo_tana": "Apollon Smintheus = Apolo Esminteo, el Ratonero",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "9OYZLA3QegGP",
+    "nombre": "Apollôn",
+    "col": "entes",
+    "id": "apollon"
+  }
+}

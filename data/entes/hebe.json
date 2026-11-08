@@ -1,0 +1,75 @@
+{
+  "id": "hebe",
+  "tana_id": "FxRDdkqPqnzn",
+  "nombre": "Hêbê",
+  "nombre_alt": "Hebe",
+  "titulo_tana": "Hêbê = Hebe",
+  "etiquetas_tana": [
+    "Deidad",
+    "F",
+    "O"
+  ],
+  "imagen": null,
+  "padres": {
+    "texto": "- [Zéus (Zeus)](entes:zeus)\n- [Hêra (Hera)](entes:hera)",
+    "refs": [
+      {
+        "tana": "Yz-NkVaNbFNa",
+        "nombre": "Zéus (Zeus)",
+        "col": "entes",
+        "id": "zeus"
+      },
+      {
+        "tana": "fEfLas105lfz",
+        "nombre": "Hêra (Hera)",
+        "col": "entes",
+        "id": "hera"
+      }
+    ]
+  },
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "Dios Olimpico",
+    "refs": [
+      {
+        "tana": "ITeremftDCmK",
+        "nombre": "Dios Olimpico"
+      }
+    ]
+  },
+  "epitetos": {
+    "texto": "Ganymeda = la de mente deleitosa",
+    "refs": []
+  },
+  "atributos": {
+    "texto": "Diosa de la Juventud",
+    "refs": []
+  },
+  "nacimiento": {
+    "texto": "Diosa de la juventud, hija de Zeus y Hera",
+    "refs": []
+  },
+  "hijos": {
+    "texto": "- **Alexiares:** el que aleja la guerra\n- **Aniceto:** el invencible\n- / _Rol:_ Dioses menores, personificaciones de la protección y guardianes de las puertas del Olimpo.",
+    "refs": []
+  },
+  "campos": [
+    {
+      "clave": "Vinculo",
+      "etiqueta": "Vinculo",
+      "texto": "- Esposa Divina\n- Matrimonio post-apoteosis, en el Olimpo",
+      "refs": []
+    },
+    {
+      "clave": "Destino",
+      "etiqueta": "Destino",
+      "texto": "Matrimonio eterno e inmutable en el Olimpo. No hay ruptura ni tragedia; es la resolución feliz y divina de la biografía del héroe.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": "F"
+}

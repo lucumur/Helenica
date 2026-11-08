@@ -1,0 +1,107 @@
+{
+  "id": "athlos-septimo-capturar-el-toro-de-creta",
+  "tana_id": "kPCnbMPV7RDq",
+  "nombre": "Athlos Septimo: Capturar el Toro de Creta (Creta)",
+  "nombre_alt": null,
+  "titulo_tana": "Athlos Septimo: Capturar el Toro de Creta (Creta)",
+  "etiquetas_tana": [
+    "Evento"
+  ],
+  "imagen": null,
+  "tipo_tana": {
+    "texto": "Mito",
+    "refs": [
+      {
+        "tana": "uyr3QqtD3Eqh",
+        "nombre": "Mito"
+      }
+    ]
+  },
+  "donde": {
+    "texto": "Creta (Isla)",
+    "refs": []
+  },
+  "agentes_activos": {
+    "texto": "- [Hēraklēs (Hercules)](entes:herakles)\n- [Tauros Kres = Toro de Creta](entes:tauros-kres)",
+    "refs": [
+      {
+        "tana": "viTfkThjup-A",
+        "nombre": "Hēraklēs (Hercules)",
+        "col": "entes",
+        "id": "herakles"
+      },
+      {
+        "tana": "MO4fEpTX-zfX",
+        "nombre": "Tauros Kres = Toro de Creta",
+        "col": "entes",
+        "id": "tauros-kres"
+      }
+    ]
+  },
+  "descripcion": {
+    "texto": "7ma Labor: capturar el Toro de Creta. eracles consiguió dominar al animal y lo condujo, a través del mar Egeo, hasta Micenas. Euristeo, al ver al hermoso animal, lo quiso ofrecer en sacrificio a Hera, pero la diosa lo rechazó al ver la ferocidad del toro, por lo que Euristeo lo dejó libre.",
+    "refs": []
+  },
+  "fuentes": [
+    {
+      "titulo": "https://www.theoi.com/Ther/TaurosKretaios.html",
+      "url": "https://www.theoi.com/Ther/TaurosKretaios.html"
+    }
+  ],
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Dictionary of Greek and Roman Biomythology:",
+      "texto": "- Habia sido enviado por Poseidon, para que Minos lo sacrificara en su nombre, pero Minos quedo tan encantado con la belleza del animal, que lo conservo y sacrificó otro parecido en su lugar.\n- Poseidon castigó a Minos, volviendo loco al Toro y causando graves daños en la isla.\n- A Heracles se le ordenó por Eurystheus capturar al Toro , aceptando gustosamente. Heracles completó el trabajo y llevo el animal a Grecia, pero se liberó y rondaba por Maratón."
+    },
+    {
+      "titulo": null,
+      "texto": "- Era el mismo que llevo a Europa por los mares segun Acusilaos\n- Bacchylides\n- Afrodita implanto un deseo en Pasiphae, se lo conto al hijo de Eupalamos, Daidalos, su enfermedad innombrable, el deseo carnal de un Toro. Le hizo jurar por los Dioses que no lo contaria y le ordeno construir una Vaca de Madera, para ella unir su cuerpo con el poderoso Toro, escondiendo de Minos la union que compartiria…"
+    },
+    {
+      "titulo": "Wikipedia",
+      "texto": "- Poseidon le mandó un toro, entendiendo que el mismo seria sacrificado hacia el. pero al percatarse Minos que era muy preciado como para ese fin, prefirio mantenerlo y sacrificar otro toro blanco.\n- Poseidon se dio cuenta y mandó a Afrodita para hechizar a Pasiphae, la esposa de Minos, provocandole enamorarse del Toro.\n- Ella posteriormente da a luz al mitad-hombre mitad-toro, Minotauro, llamado Asterion.\n- Poseidon paso su rabia hacia el toro, volviendolo agresivo para que destruyera todo a su paso."
+    },
+    {
+      "titulo": null,
+      "texto": "- Minos era Rey de Creta, y para confirmar su derecho a gobernar mas que sus otros hermanos, le pidio a Poseidon mandarle un toro blanco como la nieve como una señal de su derecho."
+    },
+    {
+      "titulo": "Apollodoros",
+      "texto": "- Minos aspiraba al Trono, pero fue rechazado. El reclamaba aun asi, que habia recibido la aprobacion de los Dioses, y para probarlo dijo que cualquier cosa que pidiese se cumpliria. Asi que mientras hacia un Sacrificio a Poseidon, pidio que apareciera un toro desde las profundidades del mar. Y supuestamente aprecio un especimen esplendido desde la costa.\n- Minos recibio la corona, pero habia mandado al Toro a sus establos y no lo habia sacrificado, completando el ritual con otro que tenia.\n- Poseidon se enfureció y lo volvio bravo, ademas le dio a Pasiphae un ardor inusual por el. En su pasion por el toro ella tomo por complice a un arquitecto llamado Dédalo, quien creo un artefacto de madera similar a un buey, cubierto de piel de vaca, y despues de meter a Pasiphae dentro, lo dejo en el campo donde el toro normalmente pastaba. Llego el toro y copulo con el artificio, como si fuera una vaca real.\n- Pasifae quedo embarazada y dio luz a Asterios, al que se le llamaba Minotauros (el toro de Minos). Tenia la cabeza de un toro, pero por lo demas era un humano. Minos, siguiendo las instrucciones de una Pitonisa, lo mantuvo confinado y bajo vigilancia en el Labyrinthos construido por Dedalo.\n- El Toro de Creta. Su septima labor era llevar a Tiryns el Toro que fue enviado por Poseidon a Minos. Heracles llego a Creta en su mision, preguntó a Minos por el toro y se le entregó. Cuando se lo mostró a Eurystheus, lo dejaron libre. El toro anduvo por Esparta y Arkadia, despues cruzo el istmo y llegó a Marathon donde molestaba a los nativos."
+    },
+    {
+      "titulo": null,
+      "texto": "- Asterios era Rey de Creta cuando murio sin descendencia."
+    },
+    {
+      "titulo": "Siculus",
+      "texto": "- Siguiendo el mito que nos llega a nosotros, Pasiphae, la esposa de Minos, se enamora del toro y el arquitecto Dedalo, creando un artilugio en la forma de una vaca, asistió a la dama para gratificar su pasion.\n- Antes de estos tiempos, habia la costumbre en Creta de dedicar anualmente al mejor toro de sus rebaños para sacrificarlo a Poseidon, pero en aquel momento habia un toro de extraordinaria belleza y el Rey Minos no quiso sacrificarlo, poniendo en su lugar otro de calidad inferior, por lo que Poseidon descargó su ira dandole a Pasiphae una pasion por ese toro, y por ingeniosidad de Dedalo, Pasiphae logra copular con la bestia, dando a luz a Minotauros, afamado en el mito.\n- Esta criatura, decian, era de doble naturaleza, parte hombre y por encima de los hombros, parte toro. Y para tener donde encerrar a este monstruo, dice la historia, que Dedalo construyo un laberinto, con multiples pasajes tan intrincados que cualquiera que no lo conociera tenia dificultad para salir de alli. En este laberinto se mantenia al Minotauro, y alli devoro a 14 jovenes que venian de Atenas.\n- Pero dedalo, al saber que Minos se enteró que el fue quien ingenió la vaca de madera, tuvo miedo del rey y huyo de Creta."
+    },
+    {
+      "titulo": null,
+      "texto": "- La siguiente labor que tomo Heracles fue traer desde Creta al toro del que decian que Pasiphae habia quedado enamorada."
+    },
+    {
+      "titulo": "Philostratus describiendo una pintura",
+      "texto": "- Su union no esta retratada aqui, pero este es el taller de Dedalos… el se sienta en la base de la vaca y usa a los Erotes como sus asistentes para conectarlo con Afrodita, el deseo\n- Pasiphae esta afuera del taller mirando al toro, pensando en llevarselo con ella por su belleza pues es divinamente resplandeciente y mas hermoso que ningun arcoiris. Ella tiene una mirada angustiada, pues sabe que el animal no la mira ni la desea, e incluso tiene a su propia vaca."
+    },
+    {
+      "titulo": null,
+      "texto": "- Pasiphae esta enamorada del toro y le implora a Dedalo ingeniar alguna manera para copular con la creatura, por lo que diseña una vaca hueca de madera para ponerla donde el toro pastaba. Lo que vino de esa union quedo en la forma del Minotauro, extrañamente compuesto de dos formas.\n- Hyginus\n- Pasiphae esposa de Minos por muchos años no hizo ofrendas a Afrodita. Por esto, Afrodita le inspiro un inusual deseo por un toro. En tiempos de cuando Dedalo estaba en Creta exiliado, le pidio ayuda. El le construyo una novilla de madera, para asi poder esta rcon el toro."
+    },
+    {
+      "titulo": "Ovidio",
+      "texto": "- Creta no deberia de tener ningun nacimiento monstruoso, Pasiphae una vez amo a un toro.\n- Lo"
+    },
+    {
+      "titulo": null,
+      "texto": "- La Adultera Pasiphae quien dentro de una vaca de madera sedujo a un toro salvaje y engendró a un mounstro en su vientre. La desgracia de su dinastia ha crecido, la bestia hibrida declaro el adulterio obsceno de la reina."
+    }
+  ],
+  "tipo": "Mítico",
+  "serie": {
+    "nombre": "Doce Labores de Heracles",
+    "orden": 7
+  }
+}

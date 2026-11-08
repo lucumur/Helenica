@@ -1,0 +1,35 @@
+{
+  "id": "altar-de-zeus-agoraios",
+  "tana_id": "EOHgyFEs3b1-",
+  "nombre": "Altar de Zeus Agoraios",
+  "nombre_alt": "Atenas",
+  "titulo_tana": "Altar de Zeus Agoraios (Atenas)",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-03-17T18%3A32%3A31.559Z-image.png?alt=media&token=bbafbf4d-2472-4c39-93c6-2adf6f86fbdf",
+  "campos": [
+    {
+      "clave": "M🗺️",
+      "etiqueta": "Entorno",
+      "texto": "![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-03-17T18%3A32%3A17.990Z-image.png?alt=media&token=ec276b35-75eb-42c5-8d6c-f880c8c755af)",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- ![](https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2025-03-17T18%3A32%3A31.559Z-image.png?alt=media&token=bbafbf4d-2472-4c39-93c6-2adf6f86fbdf)"
+    }
+  ],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "jQSRByUXzrC1",
+    "nombre": "Agora de Atenas, Atenas",
+    "col": "lugares",
+    "id": "agora-de-atenas-atenas"
+  }
+}

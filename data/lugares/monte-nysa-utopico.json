@@ -1,0 +1,31 @@
+{
+  "id": "monte-nysa-utopico",
+  "tana_id": "qKRDyrItpINa",
+  "nombre": "Monte Nysa, Utopico",
+  "nombre_alt": null,
+  "titulo_tana": "Monte Nysa, Utopico",
+  "etiquetas_tana": [
+    "Lugar",
+    "Monte"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Montaña",
+      "refs": []
+    },
+    {
+      "clave": "H📜",
+      "etiqueta": "Historia y mito",
+      "texto": "- Posibles Localizaciones\n  - Asia Menor, donde los Hittitas se hacian llamar \"Nesi\"\n    - Cilicia, Lidia\n  - Mundo Griego\n    - Macedonia, Tracia, Tesalia, Naxos\n  - Medio Oriente\n    - Siria, Arabia, Babilonia\n  - Nordafrica\n    - Etiopia, Egipto, Libia\n  - India",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Monte"
+  ],
+  "pertenece_a": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "side",
+  "tana_id": "CAfl6OAX2Pi1",
+  "nombre": "Sidē",
+  "nombre_alt": "Side",
+  "titulo_tana": "Sidē = Side",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

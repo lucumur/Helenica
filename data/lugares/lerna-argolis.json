@@ -1,0 +1,23 @@
+{
+  "id": "lerna-argolis",
+  "tana_id": "O4tYm6cQa-Bk",
+  "nombre": "Lerna, Argolis",
+  "nombre_alt": "Demos",
+  "titulo_tana": "Lerna, Argolis (Demos)",
+  "etiquetas_tana": [
+    "Lugar"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Lugar"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "e30B_D73-DJ3",
+    "nombre": "Lerna, Argolis (Region)",
+    "col": "lugares",
+    "id": "lerna-argolis-2"
+  }
+}

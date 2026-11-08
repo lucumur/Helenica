@@ -1,0 +1,21 @@
+{
+  "id": "pelota",
+  "tana_id": "PWaMbzaufQlp",
+  "nombre": "Pelota",
+  "nombre_alt": "Sphaira -Leather Ball-",
+  "titulo_tana": "Pelota (Sphaira -Leather Ball-)",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- Una pelota redonda para jugar.\n- Es listada por Clemente (_ball_) y Arnobio (_rotundas pilas_), y se infiere por la palabra “sphaira” (esfera) en contextos órficos.\n- Se ha interpretado como símbolo de la **perfección total** o del cosmos (en la filosofía griega la esfera representaba la totalidad y la unidad).\n- En el mito, la pelota podría reflejar la atracción de Dioniso por el juego despreocupado, pero en clave simbólica podría aludir al **universo** que el joven dios debía gobernar (y que abandona momentáneamente por perseguir la esfera dorada).\n- Esto recuerda al _mundo_ entregado en manos inexpertas y luego perdido por distracción.\n- Algunos estudiosos ven en la pelota/esfera y en el espejo (abajo) una dualidad: el **mundo real** vs. su **reflejo ilusorio**​"
+    }
+  ],
+  "tipos": [
+    "Objeto"
+  ]
+}

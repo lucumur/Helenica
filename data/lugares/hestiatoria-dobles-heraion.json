@@ -1,0 +1,30 @@
+{
+  "id": "hestiatoria-dobles-heraion",
+  "tana_id": "qfZqG7j6izia",
+  "nombre": "Hestiatoria Dobles, Heraion",
+  "nombre_alt": null,
+  "titulo_tana": "Hestiatoria Dobles, Heraion",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "- Los comedores están inmediatamente al sur de la cisterna biabsidal; el oikos \"de Limenia\" está unos 75 m más al este, pasada la piscina. Hay al menos 100 m entre unos y otro.\n- n edificio **con tres salas grandes, una de las cuales conserva klínai** (los bancos corridos para reclinarse en el banquete). Se describe también como \"comedor doble\". Tomlinson lo interpretó como comedor para peregrinos del santuario.",
+      "refs": []
+    },
+    {
+      "clave": "Teorias",
+      "etiqueta": "Teorias",
+      "texto": "- : el oikos alto _también_ tiene instalación de banquete (hogar central, asadores). Entonces hay **dos instalaciones de comensalidad separadas** en el mismo santuario.\n- Hipotesis:\n- **Cronológica:** el oikos alto es el comedor arcaico; los comedores dobles lo sustituyen en época clásica/helenística. La instalación se moderniza y se muda ladera abajo.\n- **Jerárquica:** dos categorías de comensal, arriba y abajo. Sacerdotes/notables vs. tripulaciones.\n- **Funcional:** arriba se asa (hogar, obeloi), abajo se come reclinado (klínai). Cocina y triclinio separados por 100 m, lo cual es mucho pero no imposible en un santuario en pendiente.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

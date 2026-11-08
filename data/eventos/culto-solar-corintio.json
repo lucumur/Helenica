@@ -1,0 +1,77 @@
+{
+  "id": "culto-solar-corintio",
+  "tana_id": "T6U1GfNAGxj6",
+  "nombre": "Culto Solar Corintio",
+  "nombre_alt": null,
+  "titulo_tana": "Culto Solar Corintio",
+  "etiquetas_tana": [
+    "culto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Culto",
+      "refs": []
+    },
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "- Dominios\n  - Propietario y repartidor del territorio\n    - ****: La función principal. Pausanias cita a Eumelo: Helios dio la tierra asopia a Aloeo y la Efirea a Eetes. Helios no _recibe_ la tierra: la **posee y la reparte**.\n  - Titular de la altura, frente al mar\n    - ****: Los corintios dicen que Poseidón tuvo una disputa con Helios por la tierra, y que Briáreo arbitró entre ellos, asignando a Poseidón el Istmo y las partes adyacentes, y dando a Helios la altura sobre la ciudad\n  - Cedente de la cumbre a Afrodita\n  - Antepasado dinástico",
+      "refs": []
+    },
+    {
+      "clave": "P📊",
+      "etiqueta": "Propiedades",
+      "texto": "- Propiedades\n  - [☀️ Bōmoi de Hawélios, Acrocorinto](lugares:bomoi-de-hawelios-acrocorinto)\n  - [Estatua de Helios en el Templo de Afrodita](objetos:estatua-de-helios-en-el-templo-de-afrodita)\n  - [Puerta lequea: cuadrigas doradas](lugares:puerta-lequea-cuadrigas-doradas)\n  - [Bōmos de Aelios, Sikyōn](lugares:bomos-de-aelios-sikyon)\n  - [Titanē, Sikyonia](lugares:titane-sikyonia)",
+      "refs": [
+        {
+          "tana": "LlTaiFAfJJuF",
+          "nombre": "☀️ Bōmoi de Hawélios, Acrocorinto",
+          "col": "lugares",
+          "id": "bomoi-de-hawelios-acrocorinto"
+        },
+        {
+          "tana": "Of5iZCxIPBBr",
+          "nombre": "Estatua de Helios en el Templo de Afrodita",
+          "col": "objetos",
+          "id": "estatua-de-helios-en-el-templo-de-afrodita"
+        },
+        {
+          "tana": "4q3of9K9Qrwb",
+          "nombre": "Puerta lequea: cuadrigas doradas",
+          "col": "lugares",
+          "id": "puerta-lequea-cuadrigas-doradas"
+        },
+        {
+          "tana": "BZvzb5JGBVNr",
+          "nombre": "Bōmos de Aelios, Sikyōn",
+          "col": "lugares",
+          "id": "bomos-de-aelios-sikyon"
+        },
+        {
+          "tana": "npbtWX5RMdQd",
+          "nombre": "Titanē, Sikyonia",
+          "col": "lugares",
+          "id": "titane-sikyonia"
+        }
+      ]
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Genealogia Solar / Tesalia",
+      "texto": "- G1 Eelios y Perseis\n- G2 Aietes de Aia y Efira (+ Idyia), y Aloeus\n- G3 (Aietida), Chalkiope (+ Phryxos), Apsyrtos // Epopeus de Sicion y Efira (+ Antiope)\n- G4 Medea de Efira (+ Jason). Apsyrtos del Aietida,  Argos (+ Perimele), Melas (+Eurycleia), Frontis, Kytisoros, Presbon // Marathon de Ephyra, Oenope (+ Hippomenes de Onchestos)\n- G5  Medeo (apartado), Magnes Argoide, Hyperes Melanide, Climeno (+ Buzyge) // Corinto de Efira, Megareus de Onchestos\n- G6 Hymenaios Phryxide, Ergino de Orchomenos, Estracio, Arron, Pileo, Azeo //\n- G7 Actor Azeida //\n- En las Corintiacas del siglo VII aC se tiene el primer atestiguamiento por escrito de este culto solar:\n  - G1 = [Ēélios (Helios, el Sol)](entes:eelios) el sol mismo, tiene como esposa a [Perseis (Perseide)](entes:perseis) y parte su tierra para dos hijos: para  [Aiētēs (Eetes)](entes:aietes) deja la tierra que es bañada por el Efira (que será la proxima Corinto) y [Alōéus (Aloeo)](entes:aloeus) la tierra irrigada por el Asopo (Sición)\n    - pero cuando nacieron Aietes y Aloeo de Helios, entonces en mitades su tierra repartieron a sus niños, el agradable hijo de Hyperión (Pindaro 13.74)\n    - aqui vemos que el dios principal en esta tierra no es Zeus, es Helios.\n  - G2 = Aiētēs se casa con [EIduia (Idía)](entes:eiduia) y tienen una hija, [Medéia (Medea)](entes:medeia) .\n    - El termina de su tierra del Éphyra por un oráculo: debe fundar una ciudad con su nombre, asi que hace una expedición hacia el Mar Negro donde funda [Aia, Kolchis](lugares:aia-kolchis) .  deja encargado en Ephyra al phylax [Bounos (Buno)](entes:bounos) , hijo de Hermes y Alcidamea, hasta que el volviera, o uno de sus hijos fuera mayor de edad para gobernarla\n    - Buno gobierna, y funda un templo en el acrocorinto: [Naos de Hēra Bounaia](lugares:naos-de-hera-bounaia)\n  - G3 = En su ciudad recien fundada, recibe cierto dia a un xenos que llega, [Phryxos (Frixo)](entes:phryxos) hijo de Atamante, rey de Orcómeno y de Néphele. a quien le entrega a su hija [Chalkiopē (Calciope)](entes:chalkiope) . Frixo sacrifica el carnero a Zeus Phyxtios y entrega el vellocino de oro a [Aiētēs (Eetes)](entes:aietes)\n    - El forastero eólida no entra en Cólquide como yerno rico que trae ajuar. Entra como xenos a quien el rey casa con una hija para atarlo.\n  - Al morir Buno, [Epōpéus (Epopeo)](entes:epopeus) hijo de Aloeo, amplia su reino a los efireos.\n  - Epopeo se casa con [Antiopē (Antiope)](entes:antiope) la princesa tebana. tiene dos hijos, Oenope y Maraton.\n    - Oenope se casa con Hippomenes y tiene a Megareus Rey de Onchestos en Beocia, cerca de Tebas.\n  - Epopeo tiene un hijo, [Marathôn (Maratón)](entes:marathon) quien huye de la anomia y la hybris del padre hacia la costa del atica. Al morir epopeo vuelve, parte el reinoy se regresa a atica.\n    - Epopeo muere por una herida infectada, hereda Maraton Efira  y tiene un hijo, [Kórinthos (Corinto)](entes:korinthos) quien no tiene vastagos."
+    },
+    {
+      "titulo": null,
+      "texto": "- Esta dedidad no olimpíca llegó con un grupo de conquistadores navales que los pueblos contiguos decian que venian de Tesalia (o en todo caso eran eolios) y los corintios les fabrican un origen divino, hijos de Helios, el Dios que trajeron consigo, y que termina como figura paternal del pueblo;\n- Su culto es austero, poco monumental, y finalmente solo permanece en su acrópolis; los corintios decían que fue Briareo quien los fijó asi: el istmo para Poseidón, la cumbre para Helios.\n- Realmente sus ofrendas, ritos y formas de culto estan perdidas, no se conservan, probablemente teniendo que ver de un culto no tan frecuente, o ya en declive."
+    },
+    {
+      "titulo": "Que se ve en la Chora de Corinto",
+      "texto": "- En la subida a la acrópolis (el Acrocorinto) se encontraban los altares al aire libre destinados a sacrificios a Helios\n- En la cumbre, junto a Afrodita armada y Eros, una estatua de Helios\n- En la puerta a Lechaion, las cuadrigas doradas de Helios y Faeton"
+    }
+  ],
+  "tipo": "Culto / misterios"
+}

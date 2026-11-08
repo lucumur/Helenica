@@ -1,0 +1,20 @@
+{
+  "id": "mykonos",
+  "tana_id": "YGKXPoLI646I",
+  "nombre": "Mykonos",
+  "nombre_alt": "Micono",
+  "titulo_tana": "Mykonos (Micono)",
+  "etiquetas_tana": [
+    "Heroe",
+    "H"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Héroe",
+    "Mortal"
+  ],
+  "genero": null,
+  "cultura": "Helénica"
+}

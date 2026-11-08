@@ -1,0 +1,146 @@
+{
+  "id": "zeus-herkeios",
+  "tana_id": "pDQ6Rfpih2q8",
+  "nombre": "Zeus Herkeios",
+  "nombre_alt": "Zeus del Patio",
+  "titulo_tana": "Zeus Herkeios = Zeus del Patio",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "culto": {
+    "texto": "- cada [Anthestēria (Festival)](eventos:anthesteria)\n- cada noumēnía = luna nueva (att.)\n- Durante ceremonias a Zeus Herkeios, el κύριος recitaba nombres ancestrales hasta el fundador familiar.\n- Aunque no existian papiros con listas ancestrales, las familais aristocraticas conservaban pinakes progonikoi = tablas genealogicas , stēlai progonikai = estelas familiares genealogicas y registros orales trasmitidos por generaciones\n- Solo los Atenienses de phratria podian albergar uno en sus casas",
+    "refs": [
+      {
+        "tana": "yNrSKuj0gEBj",
+        "nombre": "Anthestēria (Festival)",
+        "col": "eventos",
+        "id": "anthesteria"
+      },
+      {
+        "tana": "N99RjG_6MX2R",
+        "nombre": "noumēnía = luna nueva (att.)"
+      },
+      {
+        "tana": "wl5cIFpM-Qaw",
+        "nombre": "pinakes progonikoi = tablas genealogicas"
+      },
+      {
+        "tana": "srdWtXUilKZ6",
+        "nombre": "stēlai progonikai = estelas familiares genealogicas"
+      }
+    ]
+  },
+  "asociaciones": {
+    "texto": "- sangre sacrificial\n- pélekys = hacha\n- máxaira = cuchillo\n- Complementario a [Hestia Patroa = Vesta Paterna](entes:hestia-patroa) (Exterior - Interior)",
+    "refs": [
+      {
+        "tana": "2jHuizXkPDVh",
+        "nombre": "pélekys = hacha"
+      },
+      {
+        "tana": "aJlNFbCI3d1x",
+        "nombre": "máxaira = cuchillo"
+      },
+      {
+        "tana": "tvull0271nUY",
+        "nombre": "Hestia Patroa = Vesta Paterna",
+        "col": "entes",
+        "id": "hestia-patroa"
+      }
+    ]
+  },
+  "nacimiento": {
+    "texto": "- Origen Premicenico\n- consolidado en VIIIaC",
+    "refs": []
+  },
+  "fuentes": [
+    {
+      "titulo": "Evidencia de altares domesticos en olinto, atenas y Delosio",
+      "url": null
+    },
+    {
+      "titulo": "Odisea XXII.334-336",
+      "url": null
+    },
+    {
+      "titulo": "Antifonte; Demostenes",
+      "url": null
+    }
+  ],
+  "campos": [
+    {
+      "clave": "Ente",
+      "etiqueta": "Ente",
+      "texto": "[Zéus (Zeus)](entes:zeus)",
+      "refs": [
+        {
+          "tana": "Yz-NkVaNbFNa",
+          "nombre": "Zéus (Zeus)",
+          "col": "entes",
+          "id": "zeus"
+        }
+      ]
+    },
+    {
+      "clave": "Funcion",
+      "etiqueta": "Funcion",
+      "texto": "- Transmision de identidad familiar\n- Representaba la continuidad del linaje Familiar (Genos)\n- Advocacion domestica que custodia perimetro de la residencia\n- marcador de ciudadania\n- Juramentos familiares",
+      "refs": []
+    },
+    {
+      "clave": "Lugar",
+      "etiqueta": "Lugar",
+      "texto": "- En un bōmós = altar , en el aulē = patio central de la casa.\n- Ocasionalmente en un [dendron hierón = arbol sagrado](objetos:dendron-hieron) : el elaia = olivo",
+      "refs": [
+        {
+          "tana": "P-UoA9HhzEyW",
+          "nombre": "bōmós = altar"
+        },
+        {
+          "tana": "eJ1fxMXhiglM",
+          "nombre": "aulē = patio central"
+        },
+        {
+          "tana": "QziS0a-q8_CP",
+          "nombre": "dendron hierón = arbol sagrado",
+          "col": "objetos",
+          "id": "dendron-hieron"
+        },
+        {
+          "tana": "vvqPfv_5yauT",
+          "nombre": "elaia = olivo"
+        }
+      ]
+    },
+    {
+      "clave": "Relaciones",
+      "etiqueta": "Relaciones",
+      "texto": "- Realizada por el kyrios oikou = paterfamilias o hijo mayor adulto, excluidas mujeres o niños.\n- Postura de pie, con manos lavadas",
+      "refs": [
+        {
+          "tana": "dBUSFHxxfzqN",
+          "nombre": "kyrios oikou = paterfamilias"
+        }
+      ]
+    },
+    {
+      "clave": "Variantes",
+      "etiqueta": "Variantes",
+      "texto": "- Zeus Herkeios en Epoca Helenistica\n  - el altar se formalizó y se volvio mas elaborado y estandarizado en las casas, incorporado en estructuras permanentes. sin embargo este refinamiento coincidio con una disminucion de su relevancia social y religiosa real.\n  - el uso de arboles sagrados en los patios de las casas continuo en la epoca helenistica y romana en areas conservadoras que mantenian costumbres tradicionales",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "Yz-NkVaNbFNa",
+    "nombre": "Zéus",
+    "col": "entes",
+    "id": "zeus"
+  }
+}

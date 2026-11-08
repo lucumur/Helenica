@@ -1,0 +1,29 @@
+{
+  "id": "amymone",
+  "tana_id": "vRg_AXk4Fo82",
+  "nombre": "Amymonē",
+  "nombre_alt": "Amímone",
+  "titulo_tana": "Amymonē = Amímone",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

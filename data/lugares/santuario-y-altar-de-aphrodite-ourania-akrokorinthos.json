@@ -1,0 +1,35 @@
+{
+  "id": "santuario-y-altar-de-aphrodite-ourania-akrokorinthos",
+  "tana_id": "h5cm5EOVjyE6",
+  "nombre": "Santuario y Altar de Aphroditē Ourania, Akrokórinthos",
+  "nombre_alt": null,
+  "titulo_tana": "Santuario y Altar de Aphroditē Ourania, Akrokórinthos",
+  "etiquetas_tana": [
+    "hieron"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "Culto Erogeno",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Altar anterior al edificio: témenos con altar → témenos con altar y naós. ◐",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- **Historia:** En época arcaica existía primero el altar, antes que el edificio: témenos con altar → témenos con altar y naós. ◐"
+    }
+  ],
+  "tipos": [
+    "Santuario"
+  ],
+  "pertenece_a": []
+}

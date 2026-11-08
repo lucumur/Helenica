@@ -1,0 +1,29 @@
+{
+  "id": "piscina-de-las-fialas-oikos-de-hera",
+  "tana_id": "3vOPrzmEDt9b",
+  "nombre": "Piscina de las Fialas, Oikos de Hera",
+  "nombre_alt": null,
+  "titulo_tana": "Piscina de las Fialas, Oikos de Hera",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "- **Piscina circular**, al oeste del témenos alto y al este de la cisterna, con unos **200 fíalas de bronce del siglo VI a.C.** en su interior.\n- Justo fuera del témenos hay una piscina de unos 2 m de profundidad, con un número significativo de **fíalas mesónfalas** (vasos de libación) en su interior. Dato clave que da Salmon: **la piscina no era un accidente natural, sino que fue excavada deliberadamente durante los primeros años del Depósito Limenia**, y hay evidencia de celebraciones cultuales en algún punto del témenos de Limenia desde los primeros años del edificio.\n- Es decir: el témenos alto **sí tuvo actividad ritual propia desde el principio**. Eso frena la reducción total del edificio a \"almacén\".",
+      "refs": []
+    },
+    {
+      "clave": "Teorias",
+      "etiqueta": "Teorias",
+      "texto": "Sobre la interpretación oracular: Tomlinson conectó las fíalas con prácticas adivinatorias y especuló con un ritual de arrojarlas a la piscina para pronosticar buenas travesías a los marinos que hacían escala en Perachora tras zarpar de Lecheo. La investigación posterior no ha aceptado la teoría, y el propio Tomlinson pasó a ver la piscina como un simple depósito de agua; se ha señalado además que las fíalas pueden explicarse por los comedores cercanos. La estructura está hoy rellenada y su ubicación exacta se ha perdido.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ]
+}

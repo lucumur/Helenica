@@ -1,0 +1,29 @@
+{
+  "id": "pylarge",
+  "tana_id": "eg7H_S-j3G1u",
+  "nombre": "Pylargē",
+  "nombre_alt": "Pilarge",
+  "titulo_tana": "Pylargē = Pilarge",
+  "etiquetas_tana": [
+    "O",
+    "Ninfa",
+    "F"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Ninfa",
+    "refs": [
+      {
+        "tana": "N_NcE7gSFG6P",
+        "nombre": "Ninfa"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Ninfa"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

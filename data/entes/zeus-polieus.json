@@ -1,0 +1,63 @@
+{
+  "id": "zeus-polieus",
+  "tana_id": "VQqWHg8Vwhyc",
+  "nombre": "Zéus Poliéus",
+  "nombre_alt": "Zeus Civico",
+  "titulo_tana": "Zéus Poliéus (Zeus Civico)",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Epiteto",
+      "refs": []
+    },
+    {
+      "clave": "Ente",
+      "etiqueta": "Ente",
+      "texto": "[Zéus (Zeus)](entes:zeus)",
+      "refs": [
+        {
+          "tana": "Yz-NkVaNbFNa",
+          "nombre": "Zéus (Zeus)",
+          "col": "entes",
+          "id": "zeus"
+        }
+      ]
+    },
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "- Garantiza que Atenea sea la tutora y que la comunidad que come el buey no se rompa por haberlo matado\n- Polaridad Acropolitana\n  - Polieus se sienta encima de Polias. Ella tiene el palo, el olivo, el peplo, la sacerdotisa Eteobútada. Él tiene la altura, el trigo sobre el bronce y el buey. No compite: firma que esa dueña es de la polis y no de un genos suelto.\n- Garantia de la comunidad politica",
+      "refs": []
+    },
+    {
+      "clave": "L🗺️",
+      "etiqueta": "Ubicación",
+      "texto": "[Santuario de Zeus Polieus, Acrópolis de Atenas](lugares:santuario-de-zeus-polieus-acropolis-de-atenas)",
+      "refs": [
+        {
+          "tana": "04Nfy0HUcKBy",
+          "nombre": "Santuario de Zeus Polieus, Acrópolis de Atenas",
+          "col": "lugares",
+          "id": "santuario-de-zeus-polieus-acropolis-de-atenas"
+        }
+      ]
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "Yz-NkVaNbFNa",
+    "nombre": "Zéus",
+    "col": "entes",
+    "id": "zeus"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "dromos-corinto-arcaica",
+  "tana_id": "b4i6avlnlk-n",
+  "nombre": "Dromos, Corinto Arcaica",
+  "nombre_alt": null,
+  "titulo_tana": "Dromos, Corinto Arcaica",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D🪪",
+      "etiqueta": "Descripción",
+      "texto": "Pista de carreras con líneas de salida (y sistema de arranque) bajo el foro romano, s. V.",
+      "refs": []
+    },
+    {
+      "clave": "Función",
+      "etiqueta": "Función",
+      "texto": "Atletica",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

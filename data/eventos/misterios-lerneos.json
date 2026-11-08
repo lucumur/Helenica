@@ -1,0 +1,46 @@
+{
+  "id": "misterios-lerneos",
+  "tana_id": "tE_RDLaA_gvf",
+  "nombre": "Misterios Lerneos",
+  "nombre_alt": null,
+  "titulo_tana": "Misterios Lerneos",
+  "etiquetas_tana": [
+    "Evento"
+  ],
+  "imagen": null,
+  "donde": {
+    "texto": "[Lerna, Argolis (Region)](lugares:lerna-argolis-2)",
+    "refs": [
+      {
+        "tana": "e30B_D73-DJ3",
+        "nombre": "Lerna, Argolis (Region)",
+        "col": "lugares",
+        "id": "lerna-argolis-2"
+      }
+    ]
+  },
+  "tipo_tana": {
+    "texto": "Celebracion",
+    "refs": []
+  },
+  "agentes_activos": {
+    "texto": "- [Philammon](entes:philammon)\n- [Dēmētēr = Démeter](entes:demeter)",
+    "refs": [
+      {
+        "tana": "MY29ESEow3WY",
+        "nombre": "Philammon",
+        "col": "entes",
+        "id": "philammon"
+      },
+      {
+        "tana": "CRkXuyVKm_z4",
+        "nombre": "Dēmētēr = Démeter",
+        "col": "entes",
+        "id": "demeter"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipo": "Culto / misterios"
+}

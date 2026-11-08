@@ -1,0 +1,23 @@
+{
+  "id": "antinoos",
+  "tana_id": "SGuxAAo2R0Wz",
+  "nombre": "Antinoos",
+  "nombre_alt": "Antinoo",
+  "titulo_tana": "Antinoos (Antinoo)",
+  "etiquetas_tana": [
+    "M"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": null,
+      "texto": "- ****: Pretendiente de Penelope"
+    }
+  ],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "toro-de-bronce-sicionio-oikos-de-hera",
+  "tana_id": "qmQMkBbxrAgO",
+  "nombre": "Toro de Bronce Sicionio, Oikos de Hera",
+  "nombre_alt": "500aC",
+  "titulo_tana": "Toro de Bronce Sicionio, Oikos de Hera (500aC)",
+  "etiquetas_tana": [
+    "Objeto"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Se encontró una pequeña escultura de un toro de bronce con una **inscripción arcaica en alfabeto sicionio** (de la ciudad vecina de Sición). La inscripción indica que era una ofrenda dedicada a Hera. El hecho de que fuera un objeto de metal precioso, posiblemente almacenado dentro, refuerza la idea de un espacio seguro para el almacenamiento.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Objeto"
+  ]
+}

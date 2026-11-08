@@ -1,0 +1,17 @@
+{
+  "id": "porthmos",
+  "tana_id": "sC_STjKwXd8K",
+  "nombre": "Porthmos",
+  "nombre_alt": "Puerto",
+  "titulo_tana": "Porthmos (Puerto)",
+  "etiquetas_tana": [
+    "puerto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Puerto"
+  ],
+  "pertenece_a": []
+}

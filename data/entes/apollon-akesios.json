@@ -1,0 +1,24 @@
+{
+  "id": "apollon-akesios",
+  "tana_id": "cv0VeLOnV4nY",
+  "nombre": "Apollon Akesios",
+  "nombre_alt": "El Mitigador",
+  "titulo_tana": "Apollon Akesios = El Mitigador",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "9OYZLA3QegGP",
+    "nombre": "Apollôn",
+    "col": "entes",
+    "id": "apollon"
+  }
+}

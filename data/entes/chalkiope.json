@@ -1,0 +1,22 @@
+{
+  "id": "chalkiope",
+  "tana_id": "3dhfqIsz78CG",
+  "nombre": "Chalkiopē",
+  "nombre_alt": "Calciope",
+  "titulo_tana": "Chalkiopē (Calciope)",
+  "etiquetas_tana": [
+    "F"
+  ],
+  "imagen": null,
+  "descripcion": {
+    "texto": "lit. \"la de Cara Broncinea\"",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Personaje"
+  ],
+  "genero": "F",
+  "cultura": "Helénica"
+}

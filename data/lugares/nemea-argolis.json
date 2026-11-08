@@ -1,0 +1,23 @@
+{
+  "id": "nemea-argolis",
+  "tana_id": "QGAtQpHKpHzo",
+  "nombre": "Nemea, Argolis",
+  "nombre_alt": "Demos",
+  "titulo_tana": "Nemea, Argolis (Demos)",
+  "etiquetas_tana": [
+    "Lugar"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Lugar"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "kIvGY8GfKDCK",
+    "nombre": "Primer Athlos: Matar al Leon de Nemea (Argolis)",
+    "col": "eventos",
+    "id": "primer-athlos-matar-al-leon-de-nemea"
+  }
+}

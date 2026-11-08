@@ -1,0 +1,30 @@
+{
+  "id": "bema-corinto-reconstruida",
+  "tana_id": "LOLjiEKDYJPs",
+  "nombre": "Bema, Corinto Reconstruida",
+  "nombre_alt": null,
+  "titulo_tana": "Bema, Corinto Reconstruida",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "Politica - Judicial",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Tribuna central del foro",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "templo-de-apolo-zoster",
+  "tana_id": "TzRmZTXbURUP",
+  "nombre": "Templo de Apolo Zoster",
+  "nombre_alt": "Atenas",
+  "titulo_tana": "Templo de Apolo Zoster (Atenas)",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": [],
+  "contenido_en": {
+    "tana": "9OYZLA3QegGP",
+    "nombre": "Apollôn = Apolo",
+    "col": "entes",
+    "id": "apollon"
+  }
+}

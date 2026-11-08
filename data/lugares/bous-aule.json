@@ -1,0 +1,17 @@
+{
+  "id": "bous-aule",
+  "tana_id": "nTgfeRanZIH5",
+  "nombre": "Bous Aulē",
+  "nombre_alt": "Establo de la Vaca",
+  "titulo_tana": "Bous Aulē (Establo de la Vaca)",
+  "etiquetas_tana": [
+    "hieron"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Santuario"
+  ],
+  "pertenece_a": []
+}

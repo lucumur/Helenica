@@ -1,0 +1,24 @@
+{
+  "id": "apollon-hekebolos",
+  "tana_id": "4md5E7sja7Gl",
+  "nombre": "Apollōn Hekēbolos",
+  "nombre_alt": "Apolo el de tiro largo",
+  "titulo_tana": "Apollōn Hekēbolos = Apolo el de tiro largo",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "9OYZLA3QegGP",
+    "nombre": "Apollôn",
+    "col": "entes",
+    "id": "apollon"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "apollon-aleksikakos",
+  "tana_id": "GfYRe1REOaLg",
+  "nombre": "Apollon Aleksikakos",
+  "nombre_alt": "El que protege contra el mal",
+  "titulo_tana": "Apollon Aleksikakos= El que protege contra el mal",
+  "etiquetas_tana": [
+    "Epiteto"
+  ],
+  "imagen": null,
+  "asociaciones": {
+    "texto": "- [Apollon Alexikakos (Estatua)](objetos:apollon-alexikakos)",
+    "refs": [
+      {
+        "tana": "gbf4yjbTPCXP",
+        "nombre": "Apollon Alexikakos (Estatua)",
+        "col": "objetos",
+        "id": "apollon-alexikakos"
+      }
+    ]
+  },
+  "culto": {
+    "texto": "Procesiones Profilacticas (pompai), Fumigaciones Purificadoras (thymiamata)",
+    "refs": []
+  },
+  "atributos": {
+    "texto": "- Arco\n- Flechas\n- Laurel Protector\n- Kouros con Postura Activa, Vigilante",
+    "refs": []
+  },
+  "campos": [
+    {
+      "clave": "Lugar",
+      "etiqueta": "Lugar",
+      "texto": "- [Athēnai = Atenas](lugares:athenai)\n- [Dēlos = Delos](lugares:delos)",
+      "refs": [
+        {
+          "tana": "un6zVhJJw1tG",
+          "nombre": "Athēnai = Atenas",
+          "col": "lugares",
+          "id": "athenai"
+        },
+        {
+          "tana": "wcNIG0ff7yft",
+          "nombre": "Dēlos = Delos",
+          "col": "lugares",
+          "id": "delos"
+        }
+      ]
+    },
+    {
+      "clave": "Ente",
+      "etiqueta": "Ente",
+      "texto": "[Apollôn = Apolo](entes:apollon)",
+      "refs": [
+        {
+          "tana": "9OYZLA3QegGP",
+          "nombre": "Apollôn = Apolo",
+          "col": "entes",
+          "id": "apollon"
+        }
+      ]
+    },
+    {
+      "clave": "Funcion",
+      "etiqueta": "Funcion",
+      "texto": "Prevencion de Epidemias",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "tipos": [
+    "Epíteto"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "aspecto_de": {
+    "tana": "9OYZLA3QegGP",
+    "nombre": "Apollôn",
+    "col": "entes",
+    "id": "apollon"
+  }
+}

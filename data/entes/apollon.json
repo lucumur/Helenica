@@ -1,0 +1,64 @@
+{
+  "id": "apollon",
+  "tana_id": "9OYZLA3QegGP",
+  "nombre": "Apollôn",
+  "nombre_alt": "Apolo",
+  "titulo_tana": "Apollôn = Apolo",
+  "etiquetas_tana": [
+    "Deidad",
+    "O",
+    "M"
+  ],
+  "imagen": null,
+  "especie": {
+    "texto": "Dios Olimpico",
+    "refs": [
+      {
+        "tana": "ITeremftDCmK",
+        "nombre": "Dios Olimpico"
+      }
+    ]
+  },
+  "residencias": {
+    "texto": "- [Templo de Apolo Patroos (Atenas)](lugares:templo-de-apolo-patroos)\n- [Templo de Apolo Delfinio (Atenas)](lugares:templo-de-apolo-delfinio)\n- [Santuario de Apolo Alexikakos (Atenas)](lugares:santuario-de-apolo-alexikakos)\n- [Altar de Apolo Pythios (Acropolis de Atenas)](lugares:altar-de-apolo-pythios)\n- [Templo de Apolo Zoster (Atenas)](lugares:templo-de-apolo-zoster)",
+    "refs": [
+      {
+        "tana": "0iYjGYISCSgv",
+        "nombre": "Templo de Apolo Patroos (Atenas)",
+        "col": "lugares",
+        "id": "templo-de-apolo-patroos"
+      },
+      {
+        "tana": "hnTfHjHbZZKv",
+        "nombre": "Templo de Apolo Delfinio (Atenas)",
+        "col": "lugares",
+        "id": "templo-de-apolo-delfinio"
+      },
+      {
+        "tana": "QMSXcgKLlVFB",
+        "nombre": "Santuario de Apolo Alexikakos (Atenas)",
+        "col": "lugares",
+        "id": "santuario-de-apolo-alexikakos"
+      },
+      {
+        "tana": "jr5HxEOfSmdI",
+        "nombre": "Altar de Apolo Pythios (Acropolis de Atenas)",
+        "col": "lugares",
+        "id": "altar-de-apolo-pythios"
+      },
+      {
+        "tana": "TzRmZTXbURUP",
+        "nombre": "Templo de Apolo Zoster (Atenas)",
+        "col": "lugares",
+        "id": "templo-de-apolo-zoster"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Deidad"
+  ],
+  "genero": "M",
+  "cultura": "Helénica"
+}

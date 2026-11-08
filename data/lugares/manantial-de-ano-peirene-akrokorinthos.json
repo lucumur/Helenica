@@ -1,0 +1,35 @@
+{
+  "id": "manantial-de-ano-peirene-akrokorinthos",
+  "tana_id": "JXBCI8ztypdl",
+  "nombre": "Manantial de Anō Peirēnē, Akrokórinthos",
+  "nombre_alt": null,
+  "titulo_tana": "Manantial de Anō Peirēnē, Akrokórinthos",
+  "etiquetas_tana": [
+    "fons"
+  ],
+  "imagen": null,
+  "campos": [
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "Fuente de Agua Propia",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Uso sin obra en el periodo geométrico; permitía el refugio aun antes de la muralla. ◐",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Historia:",
+      "texto": "- En el periodo geométrico se utilizaba sin obra; permitía que el peñón funcionara como refugio aun sin muralla. ◐\n- En la fase colonial romana se excavó una cámara y se monumentalizó la captación. ◐\n- Permaneció en uso continuo hasta época otomana. ⬤"
+    }
+  ],
+  "tipos": [
+    "Fuente"
+  ],
+  "pertenece_a": []
+}

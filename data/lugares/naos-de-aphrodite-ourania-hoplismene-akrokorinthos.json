@@ -1,0 +1,97 @@
+{
+  "id": "naos-de-aphrodite-ourania-hoplismene-akrokorinthos",
+  "tana_id": "ikaPRE1ruGA5",
+  "nombre": "Naós de Aphroditē Ouranía Hoplismenē, Akrokórinthos",
+  "nombre_alt": null,
+  "titulo_tana": "Naós de Aphroditē Ouranía Hoplismenē, Akrokórinthos",
+  "etiquetas_tana": [
+    "aedes"
+  ],
+  "imagen": "https://firebasestorage.googleapis.com/v0/b/tagr-prod.appspot.com/o/notespace%2Fniar.oel%40gmail.com%2Fuploads%2F2026-08-30T17%3A11%3A24.527Z-image.png?alt=media&token=a151106c-46d1-4ec0-928e-e098ab741fc8",
+  "campos": [
+    {
+      "clave": "T🏷️",
+      "etiqueta": "Tipo",
+      "texto": "Templo",
+      "refs": []
+    },
+    {
+      "clave": "M🪵",
+      "etiqueta": "Material",
+      "texto": "Piedra de Poros",
+      "refs": []
+    },
+    {
+      "clave": "L🗺️",
+      "etiqueta": "Ubicación",
+      "texto": "[Akrokórinthos, Korinthia (Acrocorinto)](lugares:akrokorinthos-korinthia)",
+      "refs": [
+        {
+          "tana": "dVkbszFyAwoN",
+          "nombre": "Akrokórinthos, Korinthia (Acrocorinto)",
+          "col": "lugares",
+          "id": "akrokorinthos-korinthia"
+        }
+      ]
+    },
+    {
+      "clave": "P📊",
+      "etiqueta": "Propiedades",
+      "texto": "- [Aphroditē Ourania (La Celestial)](entes:aphrodite-ourania)\n- Afrodita era la poliouchos de Corinto. El mito local (Pausanias 2.4.6–2.5.1) dice que [Briareos (Briareo)](entes:briareos)  arbitró entre Poseidón y Helios: el Istmo quedó para el primero, el Akrokorinthos para el segundo, quien lo entregó a Afrodita. Algunas tradiciones vinculan a Medea con la fundación del santuario.\n- Hacia 500 el culto ya era antiguo (actividad votiva desde el Geométrico o incluso el Protogeométrico). La diosa se representaba armada — rasgo poco habitual en Grecia continental y que apunta a influjos orientales (Astarté / Afrodita Ourania). Más tarde Pausanias verá en el templo tres imágenes: Afrodita armada, Helios y Eros con arco. Las monedas romanas de Corinto siguen mostrando el tipo.",
+      "refs": [
+        {
+          "tana": "0qosgWfrL9oQ",
+          "nombre": "Aphroditē Ourania (La Celestial)",
+          "col": "entes",
+          "id": "aphrodite-ourania"
+        },
+        {
+          "tana": "RKXbNwVerr3k",
+          "nombre": "Briareos (Briareo)",
+          "col": "entes",
+          "id": "briareos"
+        }
+      ]
+    },
+    {
+      "clave": "A⚡",
+      "etiqueta": "Poderes",
+      "texto": "- **Libaciones tempranas.** Copas protogeométricas y geométricas en el témenos de la cumbre (Williams): posible culto ya en los s. X–VIII, antes del templete de finales del VII.\n- **Incienso.** Píndaro: las jóvenes «queman las lágrimas rubias del incienso pálido». El incienso es ofrenda típica de Afrodita (y de Adonis); no hace falta víctima sangrienta para el núcleo del rito. (Píndaro, fr. 122).\n- Votos individuales: si se cumplía la petición, se “llevaban” heteras (siervas/prostitutas) a la diosa,costumbre que Ateneo, citando a Cameleonte, atribuye ya a época arcaica.\n- **Súplica colectiva.** En 480, mujeres —heteras y, según otras ramas, esposas— suben a _hiketeuein_. Luego hay _pinax_ o estatuas de bronce y epigrama de Simónides.\n- **Dedicación de personas.** Estrabón: hombres y mujeres _anethessan_ hieródulas-heteras al santuario. Eso es _anathēma_ de cuerpo, no necesariamente coito litúrgico en la cella.\n- **Sacrificio de acción de gracias con presencia de heteras.** Jenofonte de Corinto, para las Victorias Olimpicas de 464: voto de «llevar» heteras; ellas _συνθύουσι_. No es seguro que el sexo con ellas sea el rito; sí que su presencia y el incienso forman parte del cumplimiento.\n- Píndaro compuso el escolio fr. 122 para Jenofonte de Corinto (victorias olímpicas de 464), que había prometido llevar un “rebaño de cien miembros” de jóvenes al bosque de la diosa. El poema no prueba prostitución ritual cotidiana dentro del templete; sí prueba que las heteras participaban en el culto cívico y que su dedicación era un acto de _eusebeia_ reconocida.",
+      "refs": []
+    },
+    {
+      "clave": "F⚙️",
+      "etiqueta": "Función",
+      "texto": "Culto políadico armado",
+      "refs": []
+    },
+    {
+      "clave": "D📝",
+      "etiqueta": "Descripción",
+      "texto": "Edificio en funcionamiento. Píndaro fr. 122 (c. 464 a. C.) alude a ἱερόδουλοι en Corinto, pero su interpretación es controvertida y no debe darse por sentada. ◐",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "En la mayoría de las poleis la acrópolis la guarda Atenea. En Corinto la guarda Afrodita.",
+      "texto": "- Williams lo atribuye al sinecismo del s. VIII y a contactos con el Egeo oriental: una diosa de altura al estilo de Astarté, helenizada como Afrodita.\n- Hay xoana armadas también en Esparta y Citera; Pausanias usa el mismo adjetivo"
+    },
+    {
+      "titulo": "Las monedas imperiales de Corinto muestran a menudo a la diosa del pico **semidesnuda, mirándose en un escudo** (el de Ares como espejo).",
+      "texto": "- Eso casa mal con «armada para combatir» y bien con «armada como atributo de poder y de seducción». Pirenne-Delforge señala la tensión: Pausanias dice _hoplisménē_; el tipo monetario es más _Venus Victrix_ / Capua que hoplita. Las dos lecturas pueden ser fases distintas de la misma estatua, o la moneda romaniza el tipo."
+    },
+    {
+      "titulo": "En el templo no está sola:",
+      "texto": "- **Helios:** el antiguo dueño del pico según el laudo de Briareo; queda como _agalma_ junto a ella.\n- **Eros arquero:** no el niño gordo helenístico, sino el deseo como arma, pareja icónica de una Afrodita que también dispara."
+    },
+    {
+      "titulo": null,
+      "texto": "- La tríada es un programa: cielo (Helios) + pico cedido (Afrodita) + fuerza que une (Eros)."
+    }
+  ],
+  "tipos": [
+    "Edificio sagrado"
+  ],
+  "pertenece_a": []
+}

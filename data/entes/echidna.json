@@ -1,0 +1,30 @@
+{
+  "id": "echidna",
+  "tana_id": "Rq6c2lQ4XxJ1",
+  "nombre": "Echidna",
+  "nombre_alt": "Equidna",
+  "titulo_tana": "Echidna = Equidna",
+  "etiquetas_tana": [
+    "O",
+    "Bestia",
+    "H"
+  ],
+  "imagen": null,
+  "cultura": "Helénica",
+  "especie": {
+    "texto": "Bestia",
+    "refs": [
+      {
+        "tana": "MWq5bPfXL3LM",
+        "nombre": "Bestia"
+      }
+    ]
+  },
+  "campos": [],
+  "secciones": [],
+  "tipos": [
+    "Bestia",
+    "Mortal"
+  ],
+  "genero": null
+}

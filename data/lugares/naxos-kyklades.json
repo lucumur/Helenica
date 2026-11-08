@@ -1,0 +1,43 @@
+{
+  "id": "naxos-kyklades",
+  "tana_id": null,
+  "nombre": "Naxos",
+  "nombre_alt": "Naxos",
+  "titulo_tana": "Naxos (Naxos)",
+  "etiquetas_tana": [
+    "chora",
+    "nesos"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Situación",
+      "texto": "Nesos del Egeo. Capital: Naxos."
+    }
+  ],
+  "tipos": [
+    "Chora",
+    "Isla"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "islas-egeo",
+      "nombre": "Islas del Egeo"
+    }
+  ],
+  "geo": {
+    "punto": [
+      25.453,
+      37.061
+    ],
+    "precision": "aprox"
+  }
+}

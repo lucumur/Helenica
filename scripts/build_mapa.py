@@ -104,12 +104,17 @@ def main():
         g = pg.intersection(Polygon(sz['poligono']).buffer(0))
         if taken is not None:
             g = g.difference(taken)
-        if g.is_empty:
+        if g.is_empty and sz.get('sintetica'):
+            g = Polygon(sz['poligono']).buffer(0)
+        elif g.is_empty:
             continue
         taken = g if taken is None else unary_union([taken, g])
         main_part = max(list(g.geoms) if hasattr(g, 'geoms') else [g], key=lambda p: p.area)
         lab = polylabel(main_part, tolerance=0.005)
-        subs[sz['id']] = {k: sz[k] for k in ('nombre', 'griego', 'padre', 'ficha', 'nota') if sz.get(k)}
+        keep = {k: sz[k] for k in ('nombre', 'griego', 'padre', 'ficha', 'nota', 'nivel') if sz.get(k) not in (None, '')}
+        if sz.get('capital'):
+            keep['capital'] = sz['capital']
+        subs[sz['id']] = keep
         subs[sz['id']].update({'poligonos': rings_of(g, 0.002), 'etiqueta': [round(lab.x, 3), round(lab.y, 3)], 'bbox': [round(v, 3) for v in g.bounds]})
     out = {'schema_version': 1,
            'fuente': 'Generado por scripts/build_mapa.py a partir de zonas.json y tierra.json (Natural Earth, dominio público)',

@@ -1,0 +1,43 @@
+{
+  "id": "andros-kyklades",
+  "tana_id": null,
+  "nombre": "Andros",
+  "nombre_alt": "Andros",
+  "titulo_tana": "Andros (Andros)",
+  "etiquetas_tana": [
+    "chora",
+    "nesos"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Situación",
+      "texto": "Nesos del Egeo. Capital: Andros."
+    }
+  ],
+  "tipos": [
+    "Chora",
+    "Isla"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "islas-egeo",
+      "nombre": "Islas del Egeo"
+    }
+  ],
+  "geo": {
+    "punto": [
+      24.853,
+      37.856
+    ],
+    "precision": "aprox"
+  }
+}

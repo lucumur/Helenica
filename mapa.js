@@ -26,7 +26,7 @@
     { n: 6, k: 4.5, que: 'Regiones amplias, tier 1' },
     { n: 7, k: 5, que: 'Argos, Corinto, Esparta, Elis y Orcómeno' },
     { n: 8, k: 7, que: 'Subregiones, demás lugares, cauces y macizos' },
-    { n: 9, k: 9, que: 'El nombre de la gran área se atenúa' },
+    { n: 9, k: 9, que: 'Islas del Egeo, cada una con nombre y capital' },
     { n: 10, k: 10, que: 'Encuadre de una chora' },
     { n: 11, k: 18, que: 'Encuadre de una polis' },
     { n: 12, k: 60, que: 'Tope de zoom' },
@@ -91,7 +91,22 @@
     const seas = lugares.filter(i => i.es === 'region' && i.pt);
     const subs = geo.subareas || {};
     const SUBC = ['#e0a27c', '#d3b07f', '#cf9670', '#e6bf92', '#c9a07d', '#dcb48a', '#d8a073'];
-    Object.keys(subs).forEach((k, n) => { subs[k].color = SUBC[n % SUBC.length]; });
+    const ISLC = ['#efd0a4', '#e2b98a', '#f0c8b0', '#d9c29a', '#e8d0ae', '#f2c4a2', '#dcc4a6', '#e6be9a', '#f4d2b4', '#d4b896'];
+    let hi = 0, ai = 0;
+    for (const sub of Object.values(subs)) sub.color = sub.padre === 'islas-egeo' ? ISLC[ai++ % ISLC.length] : SUBC[hi++ % SUBC.length];
+    for (const site of sites) {
+      const capSub = Object.values(subs).find(sub => sub.capital && site.items.some(i => i.id === sub.capital.ficha));
+      if (capSub) {
+        site.main = site.items.find(i => i.id === capSub.capital.ficha);
+        site.isle = capSub;
+        site.label = capSub.capital.nombre;
+        site.tier = 'polis-kome';
+        site.kind = 'polis-kome';
+        site.rank = -0.5;
+      } else if (site.items.length && site.items.every(i => Object.values(subs).some(sub => sub.ficha === i.id && !(sub.capital && sub.capital.ficha === i.id)))) {
+        site.isleBody = true;
+      }
+    }
     const poder = Object.fromEntries(per.poderes.map(p => [p.id, p]));
     DATA = { I, tierra, rios, lagos, geo: geo.areas, subs, per, poder, areaInfo, color, regionFicha, lugares, sites, seas, tipo, fisico, physicalByPlace };
     return DATA;
@@ -153,7 +168,7 @@ ${physicalSVG(D, opts.selectedId)}
   <aside id="panel" class="panel" hidden></aside>
   <div id="tip" class="tip" hidden></div>
 </div>
-<p class="atlas-src">Costa y agua de base: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>. Trazados fluviales: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL). Macizos: <a href="https://doi.org/10.48601/earthenv-t9k2-1407" target="_blank" rel="noopener">GMBA Mountain Inventory v2</a> (CC BY 4.0). Las extensiones son cartográficas y aproximadas; los cauces modernos no reconstruyen sus cambios antiguos. Las fronteras regionales son convencionales. Cauces, macizos y el resto de lugares desde el nivel 8.</p>`;
+<p class="atlas-src">Costa y agua de base: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>. Trazados fluviales: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL). Macizos: <a href="https://doi.org/10.48601/earthenv-t9k2-1407" target="_blank" rel="noopener">GMBA Mountain Inventory v2</a> (CC BY 4.0). Las extensiones son cartográficas y aproximadas; los cauces modernos no reconstruyen sus cambios antiguos. Las fronteras regionales son convencionales. Cauces, macizos y el resto de lugares desde el nivel 8. Cada isla del Egeo, desde el nivel 9.</p>`;
     const svg = main.querySelector('#map'), panel = main.querySelector('#panel'), tip = main.querySelector('#tip');
     const gSites = svg.querySelector('.sites'), gLab = svg.querySelector('.alabels'), gSeas = svg.querySelector('.seas'), gHl = svg.querySelector('.hl');
     let view = [0, 0, W, H], selArea = null, selSite = null, T = null;
@@ -171,7 +186,7 @@ ${physicalSVG(D, opts.selectedId)}
         svg.querySelector(`.sb[data-sub="${id}"]`).setAttribute('fill', pw ? pw.color : s.color);
         svg.querySelector(`.sbh[data-sub="${id}"]`).classList.toggle('on', !!(st && st.poder !== OWN[id]));
         const lab = gSL.querySelector(`[data-sub="${id}"] .p`);
-        lab.textContent = st && st.poder !== OWN[id] && pw ? `bajo ${pw.nombre.split(' —')[0]}` : '';
+        lab.textContent = st && st.poder !== OWN[id] && pw ? `bajo ${pw.nombre.split(' —')[0]}` : (s.capital ? s.capital.nombre : '');
       }
       const era = main.querySelector('#era');
       if (p) {
@@ -203,8 +218,8 @@ ${physicalSVG(D, opts.selectedId)}
         .map(([t, c]) => { const [x, y] = P(c); return `<g class="sea-l big" transform="translate(${x},${y})"><text text-anchor="middle">${t}</text></g>`; }).join('');
     gSites.innerHTML = D.sites.map((s, k) => {
       const [x, y] = P(s.pt), t = s.tier;
-      const shape = s.capital ? '<circle class="mk cap" r="5.2"/>' : s.kind === 'monte' ? '<circle class="hit" r="9"/><text class="em" text-anchor="middle" dy=".35em">⛰️</text>' : s.kind === 'rio' ? '<circle class="hit" r="9"/><text class="em" text-anchor="middle" dy=".35em">🌊</text>' : TIER_ICON[t] === 'diamond' ? '<path class="mk" d="M0 -6L6 0L0 6L-6 0Z"/>' : '<circle class="mk" r="4.6"/>';
-      return `<g class="site ${t} k-${s.kind}${s.capital ? ' capital' : ''}" data-k="${k}" transform="translate(${x},${y})" tabindex="0">${shape}<text class="sl" x="8" dy=".35em">${esc(s.label)}</text></g>`;
+      const shape = (s.capital || s.isle) ? '<circle class="mk cap" r="5.2"/>' : s.kind === 'monte' ? '<circle class="hit" r="9"/><text class="em" text-anchor="middle" dy=".35em">⛰️</text>' : s.kind === 'rio' ? '<circle class="hit" r="9"/><text class="em" text-anchor="middle" dy=".35em">🌊</text>' : TIER_ICON[t] === 'diamond' ? '<path class="mk" d="M0 -6L6 0L0 6L-6 0Z"/>' : '<circle class="mk" r="4.6"/>';
+      return `<g class="site ${t} k-${s.kind}${s.capital || s.isle ? ' capital' : ''}" data-k="${k}" transform="translate(${x},${y})" tabindex="0">${shape}<text class="sl" x="8" dy=".35em">${esc(s.label)}</text></g>`;
     }).join('');
 
     function unitsPerPx() { return view[2] / (svg.clientWidth || 1000); }
@@ -216,9 +231,10 @@ ${physicalSVG(D, opts.selectedId)}
       svg.style.setProperty('--u', u);
       const placed = [], sx = x => (x - view[0]) / u, sy = y => (y - view[1]) / u;
       const fits = b => { for (const p of placed) if (!(b[2] < p[0] || b[0] > p[2] || b[3] < p[1] || b[1] > p[3])) return false; placed.push(b); return true; };
-      const subsVisible = k >= zk(8);
+      const subVisible = s => k + 1e-9 >= zk(s.nivel || 8);
       svg.querySelectorAll('.al').forEach(g => {
-        if (subsVisible && Object.values(D.subs).some(s => s.padre === g.dataset.area)) { g.style.display = 'none'; return; }
+        const mine = Object.values(D.subs).filter(s => s.padre === g.dataset.area);
+        if (mine.length && k >= zk(Math.min(...mine.map(s => s.nivel || 8)))) { g.style.display = 'none'; return; }
         const [x, y] = g.getAttribute('transform').match(/translate\(([^)]+)\)/)[1].split(',').map(Number);
         const wpx = (+g.dataset.w * COS * U) / u, name = g.querySelector('.n').textContent;
         g.setAttribute('transform', `translate(${x},${y}) scale(${u})`);
@@ -232,20 +248,22 @@ ${physicalSVG(D, opts.selectedId)}
         const vis = g.classList.contains('big') ? k < 7 : k >= 5, tw = g.textContent.length * 7.5;
         g.style.display = vis && fits([sx(m[0]) - tw / 2, sy(m[1]) - 12, sx(m[0]) + tw / 2, sy(m[1]) + 4]) ? '' : 'none';
       });
-      const subOn = k >= zk(8);
-      svg.classList.toggle('subs-on', subOn);
+      const anySub = Object.values(D.subs).some(subVisible);
+      svg.classList.toggle('subs-on', anySub);
+      svg.querySelectorAll('.sb, .sbh').forEach(p => { const sub = D.subs[p.dataset.sub]; p.style.display = sub && subVisible(sub) ? '' : 'none'; });
       gSL.querySelectorAll('.slb').forEach(g => {
+        const sub = D.subs[g.dataset.sub];
         const x = +g.dataset.x, y = +g.dataset.y, name = g.querySelector('.n').textContent;
         g.setAttribute('transform', `translate(${x},${y}) scale(${u})`);
         const tw = Math.max(name.length * 8.6, g.querySelector('.p').textContent.length * 6.4);
-        g.style.display = subOn && k >= zk(8) && fits([sx(x) - tw / 2, sy(y) - 13, sx(x) + tw / 2, sy(y) + 16]) ? '' : 'none';
+        g.style.display = sub && subVisible(sub) && fits([sx(x) - tw / 2, sy(y) - 13, sx(x) + tw / 2, sy(y) + 16]) ? '' : 'none';
       });
       const nodes = [...gSites.querySelectorAll('.site')].map(g => [g, D.sites[+g.dataset.k]]);
       for (const [g, s] of nodes) {
         const [x, y] = P(s.pt);
         g.setAttribute('transform', `translate(${x},${y}) scale(${u})`);
         const natural = s.kind === 'monte' || s.kind === 'rio';
-        g.style.display = (s.capital || k >= zk(8)) && !g.classList.contains('gone') ? '' : 'none';
+        g.style.display = (!s.isleBody && (s.capital || (s.isle ? subVisible(s.isle) : k >= zk(8)))) && !g.classList.contains('gone') ? '' : 'none';
         g.classList.remove('lab');
       }
       if (!svg.classList.contains('no-lb')) {

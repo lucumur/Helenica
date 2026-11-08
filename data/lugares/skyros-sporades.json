@@ -1,0 +1,43 @@
+{
+  "id": "skyros-sporades",
+  "tana_id": null,
+  "nombre": "Skyros",
+  "nombre_alt": "Esciros",
+  "titulo_tana": "Skyros (Esciros)",
+  "etiquetas_tana": [
+    "chora",
+    "nesos"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Situación",
+      "texto": "Nesos del Egeo. Capital: Esciros."
+    }
+  ],
+  "tipos": [
+    "Chora",
+    "Isla"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "islas-egeo",
+      "nombre": "Islas del Egeo"
+    }
+  ],
+  "geo": {
+    "punto": [
+      24.554,
+      38.85
+    ],
+    "precision": "aprox"
+  }
+}

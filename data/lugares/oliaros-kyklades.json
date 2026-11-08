@@ -1,0 +1,43 @@
+{
+  "id": "oliaros-kyklades",
+  "tana_id": null,
+  "nombre": "Ōliaros",
+  "nombre_alt": "Oliaros",
+  "titulo_tana": "Ōliaros (Oliaros)",
+  "etiquetas_tana": [
+    "chora",
+    "nesos"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Situación",
+      "texto": "Nesos del Egeo. Capital: Oliaros."
+    }
+  ],
+  "tipos": [
+    "Chora",
+    "Isla"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "islas-egeo",
+      "nombre": "Islas del Egeo"
+    }
+  ],
+  "geo": {
+    "punto": [
+      25.056,
+      36.995
+    ],
+    "precision": "aprox"
+  }
+}

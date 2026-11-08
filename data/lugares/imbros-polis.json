@@ -1,0 +1,41 @@
+{
+  "id": "imbros-polis",
+  "tana_id": null,
+  "nombre": "Imbros",
+  "nombre_alt": "Capital de Imbros",
+  "titulo_tana": "Imbros",
+  "etiquetas_tana": [
+    "Polis"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Situación",
+      "texto": "Capital de Imbros. Punto aproximado."
+    }
+  ],
+  "tipos": [
+    "Polis"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "polis-kome",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "imbros-egeo",
+      "nombre": "Imbros"
+    }
+  ],
+  "geo": {
+    "punto": [
+      25.958,
+      40.233
+    ],
+    "precision": "aprox"
+  }
+}

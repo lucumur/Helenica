@@ -1,0 +1,43 @@
+{
+  "id": "skiathos-sporades",
+  "tana_id": null,
+  "nombre": "Skiathos",
+  "nombre_alt": "Esciatos",
+  "titulo_tana": "Skiathos (Esciatos)",
+  "etiquetas_tana": [
+    "chora",
+    "nesos"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Situación",
+      "texto": "Nesos del Egeo. Capital: Esciatos."
+    }
+  ],
+  "tipos": [
+    "Chora",
+    "Isla"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "islas-egeo",
+      "nombre": "Islas del Egeo"
+    }
+  ],
+  "geo": {
+    "punto": [
+      23.459,
+      39.17
+    ],
+    "precision": "aprox"
+  }
+}

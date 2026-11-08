@@ -1,0 +1,43 @@
+{
+  "id": "seriphos-kyklades",
+  "tana_id": null,
+  "nombre": "Sériphos",
+  "nombre_alt": "Serifos",
+  "titulo_tana": "Sériphos (Serifos)",
+  "etiquetas_tana": [
+    "chora",
+    "nesos"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Situación",
+      "texto": "Nesos del Egeo. Capital: Serifos."
+    }
+  ],
+  "tipos": [
+    "Chora",
+    "Isla"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "islas-egeo",
+      "nombre": "Islas del Egeo"
+    }
+  ],
+  "geo": {
+    "punto": [
+      24.473,
+      37.153
+    ],
+    "precision": "aprox"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "lemnos-egeo",
+  "tana_id": null,
+  "nombre": "Lēmnos",
+  "nombre_alt": "Lemnos",
+  "titulo_tana": "Lēmnos (Lemnos)",
+  "etiquetas_tana": [
+    "chora",
+    "nesos"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Situación",
+      "texto": "Nesos del Egeo. Capital: Mirina."
+    }
+  ],
+  "tipos": [
+    "Chora",
+    "Isla"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "islas-egeo",
+      "nombre": "Islas del Egeo"
+    }
+  ],
+  "geo": {
+    "punto": [
+      25.228,
+      39.905
+    ],
+    "precision": "aprox"
+  }
+}

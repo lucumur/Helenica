@@ -1,0 +1,41 @@
+{
+  "id": "myrina-lemnos",
+  "tana_id": null,
+  "nombre": "Mirina",
+  "nombre_alt": "Capital de Lemnos",
+  "titulo_tana": "Mirina",
+  "etiquetas_tana": [
+    "Polis"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Situación",
+      "texto": "Capital de Lemnos. Punto aproximado."
+    }
+  ],
+  "tipos": [
+    "Polis"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "polis-kome",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "lemnos-egeo",
+      "nombre": "Lēmnos"
+    }
+  ],
+  "geo": {
+    "punto": [
+      25.061,
+      39.879
+    ],
+    "precision": "aprox"
+  }
+}

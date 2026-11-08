@@ -1,0 +1,41 @@
+{
+  "id": "ioulis-keos",
+  "tana_id": null,
+  "nombre": "Yulis",
+  "nombre_alt": "Capital de Ceos",
+  "titulo_tana": "Yulis",
+  "etiquetas_tana": [
+    "Polis"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Situación",
+      "texto": "Capital de Ceos. Punto aproximado."
+    }
+  ],
+  "tipos": [
+    "Polis"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "polis-kome",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "keos-kyklades",
+      "nombre": "Kéōs"
+    }
+  ],
+  "geo": {
+    "punto": [
+      24.344,
+      37.662
+    ],
+    "precision": "aprox"
+  }
+}

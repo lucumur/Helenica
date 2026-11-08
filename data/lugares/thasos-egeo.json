@@ -1,0 +1,43 @@
+{
+  "id": "thasos-egeo",
+  "tana_id": null,
+  "nombre": "Thasos",
+  "nombre_alt": "Tasos",
+  "titulo_tana": "Thasos (Tasos)",
+  "etiquetas_tana": [
+    "chora",
+    "nesos"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Situación",
+      "texto": "Nesos del Egeo. Capital: Tasos."
+    }
+  ],
+  "tipos": [
+    "Chora",
+    "Isla"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "islas-egeo",
+      "nombre": "Islas del Egeo"
+    }
+  ],
+  "geo": {
+    "punto": [
+      24.678,
+      40.676
+    ],
+    "precision": "aprox"
+  }
+}

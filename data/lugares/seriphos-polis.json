@@ -1,0 +1,41 @@
+{
+  "id": "seriphos-polis",
+  "tana_id": null,
+  "nombre": "Serifos",
+  "nombre_alt": "Capital de Serifos",
+  "titulo_tana": "Serifos",
+  "etiquetas_tana": [
+    "Polis"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Situación",
+      "texto": "Capital de Serifos. Punto aproximado."
+    }
+  ],
+  "tipos": [
+    "Polis"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "polis-kome",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "seriphos-kyklades",
+      "nombre": "Sériphos"
+    }
+  ],
+  "geo": {
+    "punto": [
+      24.516,
+      37.156
+    ],
+    "precision": "aprox"
+  }
+}

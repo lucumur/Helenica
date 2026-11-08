@@ -1,0 +1,41 @@
+{
+  "id": "ios-polis",
+  "tana_id": null,
+  "nombre": "Ios",
+  "nombre_alt": "Capital de Ios",
+  "titulo_tana": "Ios",
+  "etiquetas_tana": [
+    "Polis"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Situación",
+      "texto": "Capital de Ios. Punto aproximado."
+    }
+  ],
+  "tipos": [
+    "Polis"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "polis-kome",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "ios-kyklades",
+      "nombre": "Ios"
+    }
+  ],
+  "geo": {
+    "punto": [
+      25.282,
+      36.723
+    ],
+    "precision": "aprox"
+  }
+}

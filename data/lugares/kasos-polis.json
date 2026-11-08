@@ -1,0 +1,41 @@
+{
+  "id": "kasos-polis",
+  "tana_id": null,
+  "nombre": "Casos",
+  "nombre_alt": "Capital de Casos",
+  "titulo_tana": "Casos",
+  "etiquetas_tana": [
+    "Polis"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Situación",
+      "texto": "Capital de Casos. Punto aproximado."
+    }
+  ],
+  "tipos": [
+    "Polis"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "polis-kome",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "kasos-egeo",
+      "nombre": "Kasos"
+    }
+  ],
+  "geo": {
+    "punto": [
+      26.923,
+      35.416
+    ],
+    "precision": "aprox"
+  }
+}

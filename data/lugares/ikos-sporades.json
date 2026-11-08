@@ -1,0 +1,43 @@
+{
+  "id": "ikos-sporades",
+  "tana_id": null,
+  "nombre": "Ikos",
+  "nombre_alt": "Icos",
+  "titulo_tana": "Ikos (Icos)",
+  "etiquetas_tana": [
+    "chora",
+    "nesos"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Situación",
+      "texto": "Nesos del Egeo. Capital: Icos."
+    }
+  ],
+  "tipos": [
+    "Chora",
+    "Isla"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "islas-egeo",
+      "nombre": "Islas del Egeo"
+    }
+  ],
+  "geo": {
+    "punto": [
+      23.919,
+      39.22
+    ],
+    "precision": "aprox"
+  }
+}

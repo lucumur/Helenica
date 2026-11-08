@@ -1,0 +1,41 @@
+{
+  "id": "donousa-polis",
+  "tana_id": null,
+  "nombre": "Donusa",
+  "nombre_alt": "Capital de Donusa",
+  "titulo_tana": "Donusa",
+  "etiquetas_tana": [
+    "Polis"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Situación",
+      "texto": "Capital de Donusa. Punto aproximado."
+    }
+  ],
+  "tipos": [
+    "Polis"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "polis-kome",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "donousa-kyklades",
+      "nombre": "Donousa"
+    }
+  ],
+  "geo": {
+    "punto": [
+      25.812,
+      37.106
+    ],
+    "precision": "aprox"
+  }
+}

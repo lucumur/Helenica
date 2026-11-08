@@ -1,0 +1,43 @@
+{
+  "id": "samothrake-egeo",
+  "tana_id": null,
+  "nombre": "Samothrakē",
+  "nombre_alt": "Samotracia",
+  "titulo_tana": "Samothrakē (Samotracia)",
+  "etiquetas_tana": [
+    "chora",
+    "nesos"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Situación",
+      "texto": "Nesos del Egeo. Capital: Samotracia."
+    }
+  ],
+  "tipos": [
+    "Chora",
+    "Isla"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "islas-egeo",
+      "nombre": "Islas del Egeo"
+    }
+  ],
+  "geo": {
+    "punto": [
+      25.598,
+      40.459
+    ],
+    "precision": "aprox"
+  }
+}

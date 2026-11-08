@@ -1,0 +1,41 @@
+{
+  "id": "paros-polis",
+  "tana_id": null,
+  "nombre": "Paros",
+  "nombre_alt": "Capital de Paros",
+  "titulo_tana": "Paros",
+  "etiquetas_tana": [
+    "Polis"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Situación",
+      "texto": "Capital de Paros. Punto aproximado."
+    }
+  ],
+  "tipos": [
+    "Polis"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "polis-kome",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "paros-kyklades",
+      "nombre": "Paros"
+    }
+  ],
+  "geo": {
+    "punto": [
+      25.152,
+      37.085
+    ],
+    "precision": "aprox"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "minoa-amorgos",
+  "tana_id": null,
+  "nombre": "Minoa",
+  "nombre_alt": "Capital de Amorgos",
+  "titulo_tana": "Minoa",
+  "etiquetas_tana": [
+    "Polis"
+  ],
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Situación",
+      "texto": "Capital de Amorgos. Punto aproximado."
+    }
+  ],
+  "tipos": [
+    "Polis"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "polis-kome",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "amorgos-kyklades",
+      "nombre": "Amorgós"
+    }
+  ],
+  "geo": {
+    "punto": [
+      25.863,
+      36.827
+    ],
+    "precision": "aprox"
+  }
+}

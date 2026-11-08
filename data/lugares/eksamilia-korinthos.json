@@ -25,6 +25,7 @@
       22.95,
       37.918
     ],
-    "precision": "aprox"
+    "precision": "aprox",
+    "desde": 1500
   }
 }

@@ -31,6 +31,8 @@
       22.94,
       38.03
     ],
-    "precision": "aprox"
+    "precision": "aprox",
+    "desde": 1688,
+    "hasta": 1715
   }
 }

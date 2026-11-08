@@ -9,7 +9,8 @@ data/entes/<id>.json     dioses, héroes, ninfas, reyes, bestias, epítetos, pue
 data/eventos/<id>.json   relatos míticos, festividades, ritos, hechos históricos
 data/lugares/<id>.json   regiones, poleis, santuarios, ríos, montes, fuentes…
 data/objetos/<id>.json   armas, atributos divinos, agalmata, objetos rituales
-data/mapa/zonas.json     contornos aproximados de las áreas (editable)
+data/mapa/zonas.json     contornos aproximados de las áreas y subregiones (editable)
+data/mapa/periodos.json  fechas del mapa: quién controla cada subregión
 data/mapa/areas.geo.json GENERADO — siluetas de las áreas recortadas a la costa
 data/mapa/tierra.json    costa Natural Earth 1:10m (dominio público); también rios.json y lagos.json
 data/areas.json          grandes áreas geográficas (Hélade, tierras extranjeras, geografía mítica)
@@ -114,4 +115,7 @@ Para agregar un tipo nuevo de cualquier eje, añádelo primero a `data/tipologia
 - **Puntos:** un lugar se ubica con `"geo": { "punto": [longitud, latitud], "precision": "aprox" }` dentro de su ficha. Las choras, ethne y poleis/komai con punto aparecen en el mapa según el zoom. Un edificio o recinto puede llevar el punto de su sitio con `"precision": "heredada", "de": "Corinto"`; esos no se dibujan como marcadores propios, solo sirven para el mini-mapa.
 - **Áreas:** la silueta de cada gran área se genera recortando un contorno aproximado (`data/mapa/zonas.json`) contra la costa real (`data/mapa/tierra.json`, Natural Earth 1:10m). Para mover una frontera, edita los vértices `[lon, lat]` de la zona en `zonas.json`; el orden es la prioridad cuando dos zonas se solapan; `"tipo": "islas"` solo toma islas completas y `"toma_islas": false` impide que una zona continental se quede con islas. GitHub Actions regenera `data/mapa/areas.geo.json` con `scripts/build_mapa.py` (requiere shapely). No editar `areas.geo.json` a mano.
 - Las áreas sin localización terrestre (Inframundo, Geografía mítica, Hiperbórea, Etiopía) no llevan zona: aparecen como accesos fuera del mapa.
+- **Subregiones** (por ahora las 7 del Peloponeso): `subzonas` en `data/mapa/zonas.json`, cada una con `id`, `nombre`, `griego`, `padre` (área), `ficha` opcional, `nota` y `poligono`. Se recortan contra la silueta del área madre y aparecen al acercar el zoom.
+- **Fechas:** `data/mapa/periodos.json` define el selector (900, 600, 300 a.C., 0 d.C.): para cada fecha, un `resumen` y, por subregión, el `poder` que la controla y una `nota`; si el poder no es el propio de la subregión se dibuja rayado. Los colores de los poderes están en `poderes`. Para añadir una fecha, añade un objeto a `periodos` con `id`, `anio` (negativo = a.C.), `etiqueta`, `periodo` (id de tipologia.json) y `subregiones`.
+- **Vigencia de lugares:** `geo.desde` / `geo.hasta` (años, negativos = a.C.) ocultan el punto en las fechas en que el lugar no existía (p. ej. Mesene `desde: -369`).
 - `data/mapa/rios.json` y `lagos.json` vienen de Natural Earth y no se editan.

@@ -20,8 +20,8 @@
   async function load() {
     if (DATA) return DATA;
     const g = window.HEL.getJSON;
-    const [I, tierra, rios, lagos, geo, areas, tipo] = await Promise.all([window.HEL.loadIndex(), g('data/mapa/tierra.json'), g('data/mapa/rios.json'),
-      g('data/mapa/lagos.json'), g('data/mapa/areas.geo.json'), g('data/areas.json'), g('data/tipologia.json')]);
+    const [I, tierra, rios, lagos, geo, areas, tipo, per] = await Promise.all([window.HEL.loadIndex(), g('data/mapa/tierra.json'), g('data/mapa/rios.json'),
+      g('data/mapa/lagos.json'), g('data/mapa/areas.geo.json'), g('data/areas.json'), g('data/tipologia.json'), g('data/mapa/periodos.json')]);
     const areaInfo = new Map(areas.areas.map(a => [a.id, a]));
     let h = 0, f = 0;
     const color = {};
@@ -51,7 +51,11 @@
       return s;
     });
     const seas = lugares.filter(i => i.es === 'region' && i.pt);
-    DATA = { I, tierra, rios, lagos, geo: geo.areas, areaInfo, color, regionFicha, lugares, sites, seas, tipo };
+    const subs = geo.subareas || {};
+    const SUBC = ['#e0a27c', '#d3b07f', '#cf9670', '#e6bf92', '#c9a07d', '#dcb48a', '#d8a073'];
+    Object.keys(subs).forEach((k, n) => { subs[k].color = SUBC[n % SUBC.length]; });
+    const poder = Object.fromEntries(per.poderes.map(p => [p.id, p]));
+    DATA = { I, tierra, rios, lagos, geo: geo.areas, subs, per, poder, areaInfo, color, regionFicha, lugares, sites, seas, tipo };
     return DATA;
   }
 
@@ -69,12 +73,13 @@
     return `<defs>
 <radialGradient id="sea" cx="55%" cy="45%" r="75%"><stop offset="0" stop-color="#d9e6e2"/><stop offset="1" stop-color="#bfd2cf"/></radialGradient>
 <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%"><feDropShadow dx="0" dy="1.2" stdDeviation="1.6" flood-color="#3b4a45" flood-opacity=".28"/></filter>
-<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 0V8" stroke="#8a7e6c" stroke-width="1" opacity=".18"/></pattern>
+<pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(40)"><path d="M0 0V9" stroke="#2a1a10" stroke-width="2.2" opacity=".28"/></pattern>
 </defs>
 <rect class="sea" x="${-W}" y="${-H}" width="${3 * W}" height="${3 * H}" fill="url(#sea)"/>
 <g class="grat">${grat.join('')}</g>
 <g class="land" filter="url(#shadow)"><path d="${land}"/></g>
 <g class="areas">${areas}</g>
+<g class="subs">${Object.entries(D.subs || {}).map(([id, s]) => `<path class="sb" data-sub="${id}" fill="${s.color}" d="${s.poligonos.map(polyPath).join('')}"/><path class="sbh" data-sub="${id}" d="${s.poligonos.map(polyPath).join('')}"/>`).join('')}</g>
 <g class="lakes">${lakes}</g>
 <g class="rivers">${rivers}</g>
 <g class="coast"><path d="${land}"/></g>`;
@@ -89,15 +94,17 @@
     main.innerHTML = `
 <div class="atlas">
   <svg id="map" viewBox="0 0 ${W} ${H}" role="application" aria-label="Mapa del mundo helénico">${baseSVG(D)}
-    <g class="seas"></g><g class="alabels"></g><g class="sites"></g><g class="hl"></g>
+    <g class="seas"></g><g class="slabels"></g><g class="alabels"></g><g class="sites"></g><g class="hl"></g>
   </svg>
   <div class="ui tl">
     <div class="search"><input id="q" type="search" placeholder="Buscar área o lugar…" autocomplete="off" aria-label="Buscar en el mapa"><div id="qr" class="qr" hidden></div></div>
     <div class="layers"><label><input type="checkbox" id="l-rv" checked> Ríos</label><label><input type="checkbox" id="l-pt" checked> Lugares</label><label><input type="checkbox" id="l-lb" checked> Nombres</label></div>
   </div>
+  <div class="ui tc"><div class="when" role="group" aria-label="Fecha">${[['', 'Geografía'], ...D.per.periodos.map(p => [p.id, p.etiqueta])].map(([v, l]) => `<button type="button" data-t="${v}">${l}</button>`).join('')}</div>
+    <div id="era" class="era" hidden></div></div>
   <div class="ui tr zoom"><button id="zi" title="Acercar">+</button><button id="zo" title="Alejar">−</button><button id="zr" title="Vista completa">⤢</button></div>
   <div class="ui bl"><div class="scale"><span id="sbar"></span><b id="slab"></b></div>
-    <div class="legend"><span><i style="background:${HELADE[0]}"></i>Hélade</span><span><i style="background:${FUERA[0]}"></i>Tierras extranjeras</span><span><i class="dm"></i>Chora</span><span><i class="ci"></i>Polis / Kome</span><span><i class="mt"></i>Monte</span><span><i class="rv"></i>Río</span></div>
+    <div class="legend"><span><i style="background:${HELADE[0]}"></i>Hélade</span><span><i style="background:${FUERA[0]}"></i>Tierras extranjeras</span><span><i class="dm"></i>Chora</span><span><i class="ci"></i>Polis / Kome</span><span>⛰️ Monte</span><span>🌊 Río</span></div>
     <div class="offmap">${offmap.map(a => `<button data-area="${a}">✧ ${esc(D.areaInfo.get(a).nombre)}</button>`).join('')}</div>
   </div>
   <aside id="panel" class="panel" hidden></aside>
@@ -106,7 +113,41 @@
 <p class="atlas-src">Costa, ríos y lagos: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a> 1:10m (dominio público). Las fronteras entre áreas son convencionales y aproximadas, no límites históricos; los puntos marcados "aprox." son ubicaciones de referencia.</p>`;
     const svg = main.querySelector('#map'), panel = main.querySelector('#panel'), tip = main.querySelector('#tip');
     const gSites = svg.querySelector('.sites'), gLab = svg.querySelector('.alabels'), gSeas = svg.querySelector('.seas'), gHl = svg.querySelector('.hl');
-    let view = [0, 0, W, H], selArea = null, selSite = null;
+    let view = [0, 0, W, H], selArea = null, selSite = null, T = null;
+    const gSL = svg.querySelector('.slabels');
+    const OWN = { achaia: 'achaia', elis: 'elis', messenia: 'messenia', lakonia: 'esparta', arkadia: 'arkadia', argolis: 'argos', korinthia: 'corinto' };
+    gSL.innerHTML = Object.entries(D.subs).map(([id, s]) => { const [x, y] = P(s.etiqueta); return `<g class="slb" data-sub="${id}" data-x="${x}" data-y="${y}"><text class="n" text-anchor="middle">${esc(s.nombre)}</text><text class="p" text-anchor="middle" dy="13"></text></g>`; }).join('');
+    const per = () => T && D.per.periodos.find(p => p.id === T);
+    const alive = i => { if (!T || !i.vi) return true; const y = per().anio, [a, b] = i.vi; return (a == null || a <= y) && (b == null || y <= b); };
+    function applyTime() {
+      const p = per();
+      main.querySelectorAll('.when button').forEach(b => b.classList.toggle('on', b.dataset.t === (T || '')));
+      svg.classList.toggle('timed', !!p);
+      for (const [id, s] of Object.entries(D.subs)) {
+        const st = p && p.subregiones[id], pw = st && D.poder[st.poder];
+        svg.querySelector(`.sb[data-sub="${id}"]`).setAttribute('fill', pw ? pw.color : s.color);
+        svg.querySelector(`.sbh[data-sub="${id}"]`).classList.toggle('on', !!(st && st.poder !== OWN[id]));
+        const lab = gSL.querySelector(`[data-sub="${id}"] .p`);
+        lab.textContent = st && st.poder !== OWN[id] && pw ? `bajo ${pw.nombre.split(' —')[0]}` : '';
+      }
+      const era = main.querySelector('#era');
+      if (p) {
+        const used = [...new Set(Object.values(p.subregiones).map(x => x.poder))].map(id => D.poder[id]).filter(Boolean);
+        era.innerHTML = `<button type="button" class="emin" title="Plegar o desplegar">▾</button><b>${esc(p.etiqueta)}</b> · ${esc((D.tipo.periodos.find(x => x.id === p.periodo) || {}).nombre || '')}<p>${esc(p.resumen)}</p><div class="pw">${used.map(x => `<span><i style="background:${x.color}"></i>${esc(x.nombre)}</span>`).join('')}<span><i class="hz"></i>dominado por otro poder</span></div>`;
+        era.hidden = false;
+      } else era.hidden = true;
+      D.sites.forEach((s, k) => { const g = gSites.querySelector(`[data-k="${k}"]`); if (g) g.classList.toggle('gone', !s.items.some(alive)); });
+      const u = new URL(location.href); T ? u.searchParams.set('t', T) : u.searchParams.delete('t'); history.replaceState(null, '', u);
+      apply();
+      if (selSite) showSite(selSite, false); else if (selSub) showSub(selSub, false);
+    }
+    let selSub = null;
+    main.querySelector('#era').addEventListener('click', e => { if (e.target.closest('.emin') || e.target.closest('b')) main.querySelector('#era').classList.toggle('min'); });
+    main.querySelector('.when').addEventListener('click', e => {
+      const b = e.target.closest('button'); if (!b) return;
+      T = b.dataset.t || null; applyTime();
+      if (T && W / view[2] < 2.4) fitBox(D.geo.peloponeso.bbox, 0.08);
+    });
 
     // etiquetas de área
     gLab.innerHTML = Object.entries(D.geo).map(([id, a]) => {
@@ -119,7 +160,7 @@
         .map(([t, c]) => { const [x, y] = P(c); return `<g class="sea-l big" transform="translate(${x},${y})"><text text-anchor="middle">${t}</text></g>`; }).join('');
     gSites.innerHTML = D.sites.map((s, k) => {
       const [x, y] = P(s.pt), t = s.tier;
-      const shape = s.kind === 'monte' ? '<path class="mk" d="M0 -6L6 4.5L-6 4.5Z"/>' : s.kind === 'rio' ? '<circle class="mk" r="3.6"/>' : TIER_ICON[t] === 'diamond' ? '<path class="mk" d="M0 -6L6 0L0 6L-6 0Z"/>' : '<circle class="mk" r="4.6"/>';
+      const shape = s.kind === 'monte' ? '<circle class="hit" r="9"/><text class="em" text-anchor="middle" dy=".35em">⛰️</text>' : s.kind === 'rio' ? '<circle class="hit" r="9"/><text class="em" text-anchor="middle" dy=".35em">🌊</text>' : TIER_ICON[t] === 'diamond' ? '<path class="mk" d="M0 -6L6 0L0 6L-6 0Z"/>' : '<circle class="mk" r="4.6"/>';
       return `<g class="site ${t} k-${s.kind}" data-k="${k}" transform="translate(${x},${y})" tabindex="0">${shape}<text class="sl" x="8" dy=".35em">${esc(s.label)}</text></g>`;
     }).join('');
 
@@ -130,7 +171,9 @@
       svg.style.setProperty('--u', u);
       const placed = [], sx = x => (x - view[0]) / u, sy = y => (y - view[1]) / u;
       const fits = b => { for (const p of placed) if (!(b[2] < p[0] || b[0] > p[2] || b[3] < p[1] || b[1] > p[3])) return false; placed.push(b); return true; };
+      const subsVisible = W / view[2] >= 2.4 || !!T;
       svg.querySelectorAll('.al').forEach(g => {
+        if (subsVisible && Object.values(D.subs).some(s => s.padre === g.dataset.area)) { g.style.display = 'none'; return; }
         const [x, y] = g.getAttribute('transform').match(/translate\(([^)]+)\)/)[1].split(',').map(Number);
         const wpx = (+g.dataset.w * COS * U) / u, name = g.querySelector('.n').textContent;
         g.setAttribute('transform', `translate(${x},${y}) scale(${u})`);
@@ -144,11 +187,19 @@
         const vis = g.classList.contains('big') ? k < 7 : k >= 5, tw = g.textContent.length * 7.5;
         g.style.display = vis && fits([sx(m[0]) - tw / 2, sy(m[1]) - 12, sx(m[0]) + tw / 2, sy(m[1]) + 4]) ? '' : 'none';
       });
+      const subOn = k >= 2.4 || !!T;
+      svg.classList.toggle('subs-on', subOn);
+      gSL.querySelectorAll('.slb').forEach(g => {
+        const x = +g.dataset.x, y = +g.dataset.y, name = g.querySelector('.n').textContent;
+        g.setAttribute('transform', `translate(${x},${y}) scale(${u})`);
+        const tw = Math.max(name.length * 8.6, g.querySelector('.p').textContent.length * 6.4);
+        g.style.display = subOn && k >= 2.4 && fits([sx(x) - tw / 2, sy(y) - 13, sx(x) + tw / 2, sy(y) + 16]) ? '' : 'none';
+      });
       const nodes = [...gSites.querySelectorAll('.site')].map(g => [g, D.sites[+g.dataset.k]]);
       for (const [g, s] of nodes) {
         const [x, y] = P(s.pt);
         g.setAttribute('transform', `translate(${x},${y}) scale(${u})`);
-        g.style.display = (s.tier === 'polis-kome' ? k >= 3.2 : k >= 2.2) ? '' : 'none';
+        g.style.display = (s.tier === 'polis-kome' ? k >= 3.2 : k >= 2.2) && !g.classList.contains('gone') ? '' : 'none';
         g.classList.remove('lab');
       }
       if (!svg.classList.contains('no-lb')) {
@@ -157,6 +208,7 @@
           .forEach(([g, s]) => { const [x, y] = P(s.pt), X = sx(x), Y = sy(y); if (X < -50 || Y < -20 || X > svg.clientWidth + 50 || Y > svg.clientHeight + 20) return; if (fits([X - 6, Y - 8, X + 10 + s.label.length * 6.6, Y + 8])) g.classList.add('lab'); });
       }
       svg.classList.toggle('z-hi', k >= 2.5);
+
       const pl = gHl.querySelector('.pulse'); if (pl) pl.setAttribute('transform', pl.getAttribute('transform').replace(/scale\([^)]*\)/, `scale(${u})`));
       // escala
       const kmPerPx = u / U * 111.2, nice = [1, 2, 5, 10, 20, 50, 100, 200, 500, 1000].find(v => v / kmPerPx >= 70) || 1000;
@@ -190,7 +242,7 @@
     // ---------- panel ----------
     const listLink = (i, extra = '') => `<li><button type="button" class="pl" data-go="${esc(i.id)}">${esc(i.n)}${i.alt ? ` <span class="muted">${esc(i.alt)}</span>` : ''}</button>${extra}</li>`;
     function showArea(id, move = true) {
-      selArea = id; selSite = null;
+      selArea = id; selSite = null; selSub = null; svg.querySelectorAll('.sb').forEach(p => p.classList.remove('sel'));
       const info = D.areaInfo.get(id) || { nombre: id }, rf = D.regionFicha[id], geo = D.geo[id];
       const inArea = D.lugares.filter(i => (i.ar || []).includes(id));
       const by = es => inArea.filter(i => i.es === es && (i.pt || i.ptx));
@@ -212,6 +264,31 @@ ${!geo ? '<p class="muted">Sin localización terrestre: no aparece sobre el mapa
       if (move && geo) fitBox(geo.bbox);
       url({ area: id });
     }
+    const inRing = ([x, y], r) => { let c = false; for (let a = 0, b = r.length - 1; a < r.length; b = a++) { const [xi, yi] = r[a], [xj, yj] = r[b]; if ((yi > y) !== (yj > y) && x < (xj - xi) * (y - yi) / (yj - yi) + xi) c = !c; } return c; };
+    const inSub = (pt, s) => s.poligonos.some(p => inRing(pt, p[0]) && !p.slice(1).some(h => inRing(pt, h)));
+    function showSub(id, move = true) {
+      const s = D.subs[id]; if (!s) return;
+      selSub = id; selSite = null; selArea = s.padre;
+      const here = D.lugares.filter(i => i.pt && !i.ph && ['chora', 'ethnos', 'polis-kome'].includes(i.es) && inSub(i.pt, s) && alive(i));
+      const pol = here.filter(i => i.es === 'polis-kome').sort((a, b) => fold(a.n).localeCompare(fold(b.n)));
+      const cho = here.filter(i => i.es !== 'polis-kome');
+      const fi = s.ficha && D.lugares.find(i => i.id === s.ficha);
+      const rows = D.per.periodos.map(p => { const st = p.subregiones[id] || {}, pw = D.poder[st.poder] || {}; return `<li class="${p.id === T ? 'on' : ''}"><button type="button" class="tt" data-t="${p.id}">${esc(p.etiqueta)}</button><span><i style="background:${pw.color || '#ccc'}"></i><b>${esc(pw.nombre || '—')}</b>${st.nota ? ` — ${esc(st.nota)}` : ''}</span></li>`; }).join('');
+      panel.innerHTML = `<button class="x" aria-label="Cerrar">×</button>
+<p class="eyebrow"><span class="sw" style="background:${s.color}"></span>Subregión · <button type="button" class="lnk" data-area="${s.padre}">${esc((D.areaInfo.get(s.padre) || {}).nombre || s.padre)}</button></p>
+<h2>${esc(s.nombre)}</h2>${s.griego ? `<p class="gr">${esc(s.griego)}</p>` : ''}${s.nota ? `<p>${esc(s.nota)}</p>` : ''}
+${fi ? `<div class="acts"><a class="btn" href="${ficha('lugares', fi.id)}">Ficha ↗</a></div>` : ''}
+<h3>A través del tiempo</h3><ul class="tl">${rows}</ul>
+${cho.length ? `<h3>Choras, montes y ríos</h3><ul>${cho.map(i => listLink(i)).join('')}</ul>` : ''}
+${pol.length ? `<h3>Poleis y komai${T ? ` (${esc(per().etiqueta)})` : ''}</h3><ul>${pol.map(i => listLink(i)).join('')}</ul>` : ''}`;
+      panel.hidden = false;
+      svg.classList.add('has-sel');
+      svg.querySelectorAll('.ar').forEach(p => p.classList.toggle('sel', p.dataset.area === s.padre));
+      svg.querySelectorAll('.sb').forEach(p => p.classList.toggle('sel', p.dataset.sub === id));
+      gHl.innerHTML = '';
+      if (move) fitBox(s.bbox, 0.12);
+      url({ sub: id });
+    }
     function showSite(i, move = true) {
       selSite = i;
       const pt = i.pt || i.ptx, a = areaOf(i), info = D.areaInfo.get(a);
@@ -228,7 +305,8 @@ ${fo.length ? `<p class="kv"><b>Forma</b> ${esc(fo.join(' → '))}</p>` : ''}${f
 ${site && site.items.length > 1 ? `<h3>En este mismo punto</h3><ul>${site.items.filter(x => x !== i).map(x => listLink(x)).join('')}</ul>` : ''}
 ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</ul>` : ''}
 <p class="muted small">${pt ? `${pt[1].toFixed(3)}° N, ${pt[0].toFixed(3)}° E · ubicación aproximada` : 'Sin coordenadas'}</p>`;
-      panel.hidden = false;
+      panel.hidden = false; selSub = null;
+      svg.querySelectorAll('.sb').forEach(p => p.classList.remove('sel'));
       svg.querySelectorAll('.ar').forEach(p => p.classList.toggle('sel', p.dataset.area === a));
       svg.classList.add('has-sel');
       if (pt) { const [x, y] = P(pt); gHl.innerHTML = `<g class="pulse" transform="translate(${x},${y})"><circle r="1"/></g>`; gHl.firstChild.setAttribute('transform', `translate(${x},${y}) scale(${unitsPerPx()})`); }
@@ -237,14 +315,16 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
       url({ lugar: i.id });
     }
     function clear() {
-      panel.hidden = true; selArea = selSite = null; gHl.innerHTML = '';
+      panel.hidden = true; selArea = selSite = selSub = null; gHl.innerHTML = '';
+      svg.querySelectorAll('.sb.sel').forEach(n => n.classList.remove('sel'));
       svg.classList.remove('has-sel'); svg.querySelectorAll('.ar.sel,.site.on').forEach(n => n.classList.remove('sel', 'on'));
       url({});
     }
-    function url(q) { const u = new URL(location.href); ['area', 'lugar', 'region'].forEach(k => u.searchParams.delete(k)); Object.entries(q).forEach(([k, v]) => u.searchParams.set(k, v)); history.replaceState(null, '', u); }
+    function url(q) { const u = new URL(location.href); ['area', 'lugar', 'region', 'sub'].forEach(k => u.searchParams.delete(k)); Object.entries(q).forEach(([k, v]) => u.searchParams.set(k, v)); history.replaceState(null, '', u); }
     const byId = id => D.lugares.find(i => i.id === id);
     panel.addEventListener('click', e => {
       if (e.target.closest('.x')) return clear();
+      const tt = e.target.closest('.tt'); if (tt) { T = tt.dataset.t; applyTime(); return; }
       const go = e.target.closest('[data-go]'); if (go) { const i = byId(go.dataset.go); if (i) showSite(i); }
       const ar = e.target.closest('[data-area]'); if (ar) showArea(ar.dataset.area);
     });
@@ -277,6 +357,7 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
       up(e);
       if (moved) return;
       const site = e.target.closest('.site'); if (site) return showSite(D.sites[+site.dataset.k].main);
+      const sb = e.target.closest('.sb,.slb'); if (sb && svg.classList.contains('subs-on')) return showSub(sb.dataset.sub);
       const ar = e.target.closest('.ar,.al'); if (ar) return showArea(ar.dataset.area);
       clear();
     });
@@ -288,11 +369,13 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
     }, { passive: false });
     svg.addEventListener('dblclick', e => { const [cx, cy] = toSvg(e.clientX, e.clientY); setView([cx - view[2] * .3, cy - view[3] * .3, view[2] * .6, view[3] * .6], true); });
     function hover(e) {
-      const site = e.target.closest('.site'), ar = e.target.closest('.ar');
+      const site = e.target.closest('.site'), ar = e.target.closest('.ar'), sb = svg.classList.contains('subs-on') && e.target.closest('.sb');
+      svg.querySelectorAll('.sb.hov').forEach(n => n !== sb && n.classList.remove('hov')); if (sb) sb.classList.add('hov');
       svg.querySelectorAll('.ar.hov').forEach(n => n !== ar && n.classList.remove('hov'));
       if (ar) ar.classList.add('hov');
       let html = '';
       if (site) { const s = D.sites[+site.dataset.k]; html = `<b>${esc(s.main.n)}</b>${s.main.alt ? ` · ${esc(s.main.alt)}` : ''}<br><span>${esc(tierName(D, s.main.es))}${s.items.length > 1 ? ` · ${s.items.length} fichas` : ''}</span>`; }
+      else if (sb) { const s = D.subs[sb.dataset.sub], p = per(), st = p && p.subregiones[sb.dataset.sub], pw = st && D.poder[st.poder]; html = `<b>${esc(s.nombre)}</b>${pw ? `<br><span>${esc(pw.nombre)}</span>` : ''}`; }
       else if (ar) { const info = D.areaInfo.get(ar.dataset.area) || {}; html = `<b>${esc(info.nombre || ar.dataset.area)}</b>`; }
       if (!html) { tip.hidden = true; return; }
       const r = main.querySelector('.atlas').getBoundingClientRect();
@@ -330,7 +413,11 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
     // ---------- estado inicial ----------
     setView([P([15.5, 0])[0], P([0, 44.6])[1], P([33.5, 0])[0] - P([15.5, 0])[0], 0].map((v, i) => i === 3 ? (svg.clientHeight / svg.clientWidth) * (P([33.5, 0])[0] - P([15.5, 0])[0]) : v));
     const sp = new URLSearchParams(location.search);
-    const reg = sp.get('region'), ar = sp.get('area'), lg = sp.get('lugar');
+    const reg = sp.get('region'), ar = sp.get('area'), lg = sp.get('lugar'), sbq = sp.get('sub');
+    if (sp.get('t') && D.per.periodos.some(p => p.id === sp.get('t'))) T = sp.get('t');
+    applyTime();
+    if (sbq && D.subs[sbq]) { showSub(sbq); return; }
+    if (T && !lg && !ar && !reg) fitBox(D.geo.peloponeso.bbox, 0.08, false);
     if (lg && byId(lg)) { const i = byId(lg); if (i.es === 'region' && areaOf(i)) showArea(areaOf(i)); else showSite(i); }
     else if (ar && D.areaInfo.has(ar)) showArea(ar);
     else if (reg) { const i = byId(reg); if (i && areaOf(i)) showArea(areaOf(i)); }

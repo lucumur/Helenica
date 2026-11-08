@@ -73,6 +73,8 @@ for rel, r in recs:
     if g is None:
         continue
     pt = g.get('punto') if isinstance(g, dict) else None
+    if pt is None and isinstance(g, dict) and ('desde' in g or 'hasta' in g):
+        continue
     ok = isinstance(pt, list) and len(pt) == 2 and all(type(x) in (int, float) and math.isfinite(x) for x in pt)
     if not ok or not (-30 <= pt[0] <= 80 and 0 <= pt[1] <= 70):
         errors.append(f'{rel}: geo.punto debe ser [longitud, latitud]')

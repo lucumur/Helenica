@@ -33,6 +33,8 @@
       22.978,
       37.975
     ],
-    "precision": "aprox"
+    "precision": "aprox",
+    "desde": 1928,
+    "hasta": 2011
   }
 }

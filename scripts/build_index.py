@@ -93,6 +93,9 @@ def main():
                     it['pt'] = pt
                     if (rec.get('geo') or {}).get('precision') == 'heredada':
                         it['ph'] = 1
+                g = rec.get('geo') or {}
+                if g.get('desde') is not None or g.get('hasta') is not None:
+                    it['vi'] = [g.get('desde'), g.get('hasta')]
             if rec.get('contenido_en', {}).get('id'):
                 it['en'] = f"{rec['contenido_en']['col']}:{rec['contenido_en']['id']}"
             items.append(it)

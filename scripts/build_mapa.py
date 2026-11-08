@@ -88,12 +88,35 @@ def main():
             'etiqueta': [round(lab.x, 3), round(lab.y, 3)],
             'bbox': [round(v, 3) for v in g.bounds],
         }
+    # Subregiones: contorno ∩ silueta del área madre (sin solapes: gana la primera).
+    subs, taken = {}, None
+    area_geom = {}
+    for z in zonas:
+        pass
+    for sz in json.load(open(os.path.join(M, 'zonas.json'), encoding='utf-8')).get('subzonas', []):
+        par = res.get(sz['padre'])
+        if not par:
+            continue
+        pg = area_geom.get(sz['padre'])
+        if pg is None:
+            pg = unary_union([poly(r) for r in par['poligonos']]).buffer(0)
+            area_geom[sz['padre']] = pg
+        g = pg.intersection(Polygon(sz['poligono']).buffer(0))
+        if taken is not None:
+            g = g.difference(taken)
+        if g.is_empty:
+            continue
+        taken = g if taken is None else unary_union([taken, g])
+        main_part = max(list(g.geoms) if hasattr(g, 'geoms') else [g], key=lambda p: p.area)
+        lab = polylabel(main_part, tolerance=0.005)
+        subs[sz['id']] = {k: sz[k] for k in ('nombre', 'griego', 'padre', 'ficha', 'nota') if sz.get(k)}
+        subs[sz['id']].update({'poligonos': rings_of(g, 0.002), 'etiqueta': [round(lab.x, 3), round(lab.y, 3)], 'bbox': [round(v, 3) for v in g.bounds]})
     out = {'schema_version': 1,
            'fuente': 'Generado por scripts/build_mapa.py a partir de zonas.json y tierra.json (Natural Earth, dominio público)',
-           'areas': res}
+           'areas': res, 'subareas': subs}
     with open(os.path.join(M, 'areas.geo.json'), 'w', encoding='utf-8') as fh:
         json.dump(out, fh, ensure_ascii=False, separators=(',', ':'))
-    print(f'areas.geo.json: {len(res)} áreas')
+    print(f'areas.geo.json: {len(res)} áreas, {len(subs)} subregiones')
 
 
 if __name__ == '__main__':

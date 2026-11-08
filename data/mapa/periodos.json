@@ -1,0 +1,200 @@
+{
+ "descripcion": "Estado político de las subregiones en cada fecha del selector del mapa. 'poder' indica quién controla la subregión; si es distinto de la propia subregión, se dibuja rayado. Fechas negativas = a.C.",
+ "poderes": [
+  {
+   "id": "achaia",
+   "nombre": "Aqueos",
+   "color": "#d48a6a"
+  },
+  {
+   "id": "elis",
+   "nombre": "Eleos",
+   "color": "#c9a35b"
+  },
+  {
+   "id": "messenia",
+   "nombre": "Mesenios",
+   "color": "#8fae6b"
+  },
+  {
+   "id": "esparta",
+   "nombre": "Esparta",
+   "color": "#b5523b"
+  },
+  {
+   "id": "arkadia",
+   "nombre": "Arcadios",
+   "color": "#7f9a83"
+  },
+  {
+   "id": "argos",
+   "nombre": "Argos",
+   "color": "#d6b47a"
+  },
+  {
+   "id": "corinto",
+   "nombre": "Corinto",
+   "color": "#c47f50"
+  },
+  {
+   "id": "macedonia",
+   "nombre": "Macedonia (Antigónidas)",
+   "color": "#6f6aa8"
+  },
+  {
+   "id": "roma",
+   "nombre": "Roma — provincia de Acaya",
+   "color": "#9c3b4a"
+  }
+ ],
+ "periodos": [
+  {
+   "id": "-900",
+   "anio": -900,
+   "etiqueta": "900 a.C.",
+   "periodo": "geometrico",
+   "resumen": "Edad oscura y Geométrico temprano: comunidades por región y dialecto, sin estados territoriales. Esparta aún no domina el Eurotas entero (Amiclas sigue independiente).",
+   "subregiones": {
+    "achaia": {
+     "poder": "achaia",
+     "nota": "Aldeas aqueas de la costa norte."
+    },
+    "elis": {
+     "poder": "elis",
+     "nota": "Eleos de origen etolio; Olimpia como santuario local."
+    },
+    "messenia": {
+     "poder": "messenia",
+     "nota": "Mesenia independiente."
+    },
+    "lakonia": {
+     "poder": "esparta",
+     "nota": "Esparta como grupo de aldeas en el Eurotas medio; el resto de Laconia no está unificado."
+    },
+    "arkadia": {
+     "poder": "arkadia",
+     "nota": "Comunidades arcadias dispersas."
+    },
+    "argolis": {
+     "poder": "argos",
+     "nota": "Argos, centro dorio principal de la Argólide."
+    },
+    "korinthia": {
+     "poder": "corinto",
+     "nota": "Núcleos aldeanos dispersos en torno a manantiales (Corinto geométrica)."
+    }
+   }
+  },
+  {
+   "id": "-600",
+   "anio": -600,
+   "etiqueta": "600 a.C.",
+   "periodo": "arcaico",
+   "resumen": "Arcaico: Esparta ha conquistado Mesenia (guerras mesenias, ss. VIII–VII); Corinto bajo los Cipsélidas (Periandro); Argos rival de Esparta por la Tireátide.",
+   "subregiones": {
+    "achaia": {
+     "poder": "achaia",
+     "nota": "Doce poleis aqueas."
+    },
+    "elis": {
+     "poder": "elis",
+     "nota": "Disputa con Pisa por el control de Olimpia (Élide se impone en el s. VI; fecha discutida)."
+    },
+    "messenia": {
+     "poder": "esparta",
+     "nota": "Conquistada por Esparta; mesenios reducidos a hilotas."
+    },
+    "lakonia": {
+     "poder": "esparta",
+     "nota": "Laconia unificada bajo Esparta, con periecos."
+    },
+    "arkadia": {
+     "poder": "arkadia",
+     "nota": "Poleis arcadias independientes; Tegea resiste a Esparta (batalla de los Grilletes, c. 560)."
+    },
+    "argolis": {
+     "poder": "argos",
+     "nota": "Argos domina la llanura; la Tireátide aún en disputa (Esparta la gana c. 546)."
+    },
+    "korinthia": {
+     "poder": "corinto",
+     "nota": "Tiranía de los Cipsélidas (Periandro, m. c. 585)."
+    }
+   }
+  },
+  {
+   "id": "-300",
+   "anio": -300,
+   "etiqueta": "300 a.C.",
+   "periodo": "helenistico",
+   "resumen": "Helenístico temprano: Mesenia libre desde 369 (fundación de Mesene); Demetrio Poliorcetes ocupa Corinto desde 303 con guarnición en el Acrocorinto; Esparta reducida a Laconia; la Liga Aquea se refundará en 280.",
+   "subregiones": {
+    "achaia": {
+     "poder": "achaia",
+     "nota": "Ciudades aqueas bajo influencia macedonia; la Liga se refunda en 280."
+    },
+    "elis": {
+     "poder": "elis",
+     "nota": "Élide independiente."
+    },
+    "messenia": {
+     "poder": "messenia",
+     "nota": "Independiente desde 369; capital en Mesene."
+    },
+    "lakonia": {
+     "poder": "esparta",
+     "nota": "Esparta independiente pero reducida; sin Mesenia ni las fronteras del norte."
+    },
+    "arkadia": {
+     "poder": "arkadia",
+     "nota": "Megalópolis (371) y poleis arcadias; liga arcadia en declive."
+    },
+    "argolis": {
+     "poder": "argos",
+     "nota": "Argos bajo influencia de los diádocos (Casandro, Demetrio)."
+    },
+    "korinthia": {
+     "poder": "macedonia",
+     "nota": "Guarnición antigónida en el Acrocorinto desde 303 (una de las «cadenas de Grecia»)."
+    }
+   }
+  },
+  {
+   "id": "0",
+   "anio": 0,
+   "etiqueta": "0 d.C.",
+   "periodo": "romano",
+   "resumen": "Romano: todo el Peloponeso en la provincia senatorial de Acaya (27 a.C.), con capital en Corinto, refundada como colonia romana en 44 a.C. Esparta, ciudad libre y federada; Liga de los Eleuterolacones.",
+   "subregiones": {
+    "achaia": {
+     "poder": "roma",
+     "nota": "Patras, colonia romana de Augusto."
+    },
+    "elis": {
+     "poder": "roma",
+     "nota": "Olimpia bajo patronazgo romano."
+    },
+    "messenia": {
+     "poder": "roma",
+     "nota": "Augusto pasa Turia y Feras a Esparta (Pausanias 4.31.1)."
+    },
+    "lakonia": {
+     "poder": "roma",
+     "nota": "Esparta, civitas libera et foederata; las ciudades periecas forman la Liga de los Eleuterolacones."
+    },
+    "arkadia": {
+     "poder": "roma",
+     "nota": "Ciudades arcadias en la provincia."
+    },
+    "argolis": {
+     "poder": "roma",
+     "nota": "Argos en la provincia."
+    },
+    "korinthia": {
+     "poder": "roma",
+     "nota": "Colonia Laus Iulia Corinthiensis (44 a.C.), capital provincial."
+    }
+   }
+  }
+ ]
+}

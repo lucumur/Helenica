@@ -27,13 +27,13 @@
     { n: 7, k: 5, que: 'Argos, Corinto, Esparta, Elis y Orcómeno' },
     { n: 8, k: 7, que: 'Subregiones, demás lugares, cauces y macizos' },
     { n: 9, k: 9, que: 'Islas del Egeo, cada una con nombre y capital' },
-    { n: 10, k: 10, que: 'Encuadre de una chora' },
+    { n: 10, k: 10, que: 'Encuadre de una chora; iconos y nombres de ríos y montes' },
     { n: 11, k: 18, que: 'Encuadre de una polis' },
     { n: 12, k: 60, que: 'Tope de zoom' },
   ];
   const zk = n => ZL[n].k;
   const zlevel = k => { let n = 0; for (const z of ZL) if (k + 1e-9 >= z.k) n = z.n; return n; };
-  // Use the same distance as the visible scale bar, independently of viewport size.
+  // Distancia y anchura de la barra de escala.
   const SCALE_STEPS = [1, 2, 5, 10, 20, 50, 100, 200, 500, 1000];
   const scaleBar = unitsPerPixel => {
     const kmPerPx = unitsPerPixel / U * 111.2;
@@ -170,7 +170,7 @@ ${physicalSVG(D, opts.selectedId)}
   <aside id="panel" class="panel" hidden></aside>
   <div id="tip" class="tip" hidden></div>
 </div>
-<p class="atlas-src">Costa y agua de base: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>. Trazados fluviales: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL). Macizos: <a href="https://doi.org/10.48601/earthenv-t9k2-1407" target="_blank" rel="noopener">GMBA Mountain Inventory v2</a> (CC BY 4.0). Las extensiones son cartográficas y aproximadas; los cauces modernos no reconstruyen sus cambios antiguos. Las fronteras regionales son convencionales. Cauces, macizos y el resto de lugares desde el nivel 8. Cada isla del Egeo, desde el nivel 9.</p>`;
+<p class="atlas-src">Costa y agua de base: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>. Trazados fluviales: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL). Macizos: <a href="https://doi.org/10.48601/earthenv-t9k2-1407" target="_blank" rel="noopener">GMBA Mountain Inventory v2</a> (CC BY 4.0). Las extensiones son cartográficas y aproximadas; los cauces modernos no reconstruyen sus cambios antiguos. Las fronteras regionales son convencionales. Cauces y extensiones montañosas desde el nivel 8; sus iconos y nombres, desde el nivel 10. El resto de lugares, desde el nivel 8. Cada isla del Egeo, desde el nivel 9.</p>`;
     const svg = main.querySelector('#map'), panel = main.querySelector('#panel'), tip = main.querySelector('#tip');
     const gSites = svg.querySelector('.sites'), gLab = svg.querySelector('.alabels'), gSeas = svg.querySelector('.seas'), gHl = svg.querySelector('.hl');
     let view = [0, 0, W, H], selArea = null, selSite = null, T = null;
@@ -228,7 +228,7 @@ ${physicalSVG(D, opts.selectedId)}
     function apply() {
       svg.setAttribute('viewBox', view.join(' '));
       const u = unitsPerPx(), k = W / view[2], scale = scaleBar(u);
-      const naturalVisible = k >= zk(8);
+      const lvl = zlevel(k), naturalVisible = lvl >= 8, naturalSitesVisible = lvl >= 10;
       svg.classList.toggle('natural-detail', naturalVisible);
       svg.style.setProperty('--u', u);
       const placed = [], sx = x => (x - view[0]) / u, sy = y => (y - view[1]) / u;
@@ -265,7 +265,7 @@ ${physicalSVG(D, opts.selectedId)}
         const [x, y] = P(s.pt);
         g.setAttribute('transform', `translate(${x},${y}) scale(${u})`);
         const natural = s.kind === 'monte' || s.kind === 'rio';
-        g.style.display = (!s.isleBody && (s.capital || (s.isle ? subVisible(s.isle) : k >= zk(8)))) && !g.classList.contains('gone') ? '' : 'none';
+        g.style.display = (!s.isleBody && (natural ? naturalSitesVisible : (s.capital || (s.isle ? subVisible(s.isle) : k >= zk(8))))) && !g.classList.contains('gone') ? '' : 'none';
         g.classList.remove('lab');
       }
       if (!svg.classList.contains('no-lb')) {
@@ -278,7 +278,7 @@ ${physicalSVG(D, opts.selectedId)}
       const pl = gHl.querySelector('.pulse'); if (pl) pl.setAttribute('transform', pl.getAttribute('transform').replace(/scale\([^)]*\)/, `scale(${u})`));
       // escala
       main.querySelector('#sbar').style.width = `${scale.pixels}px`; main.querySelector('#slab').textContent = `${scale.km} km`;
-      const lvl = zlevel(k), badge = main.querySelector('#zl');
+      const badge = main.querySelector('#zl');
       badge.textContent = lvl; badge.title = `Nivel ${lvl} · ${ZL[lvl].que}`;
       main.querySelector('#zi').disabled = k >= zk(12); main.querySelector('#zo').disabled = k <= 1.001;
     }

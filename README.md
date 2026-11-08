@@ -26,3 +26,5 @@ Botón **✎ Editar** en la barra de navegación. Pide un token *fine-grained* d
 - Costa, ríos y lagos: **Natural Earth 1:10m**, dominio público ([naturalearthdata.com](https://www.naturalearthdata.com/)).
 - Fronteras de áreas: contornos convencionales en `data/mapa/zonas.json`, recortados con `scripts/build_mapa.py`. No son límites históricos.
 - Puntos: `geo.punto` en cada ficha de lugar; ubicaciones aproximadas.
+- Los iconos de ríos y montes aparecen a **20 km o menos** en la barra de escala. Ríos y macizos con geometría documentada muestran su trazado o extensión y se encuadran completos al seleccionarlos, también en sus mini-mapas.
+- Geometrías físicas: OpenStreetMap (cauces) y GMBA Mountain Inventory v2 (macizos). [Fuentes, cobertura y licencias](data/mapa/FUENTES_FISICAS.md). Las extensiones pendientes conservan el punto de referencia.

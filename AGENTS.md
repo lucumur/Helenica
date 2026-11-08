@@ -70,8 +70,8 @@ Las grandes áreas se definen en `data/areas.json` (`id`, `nombre`, `grupo`, `de
 
 Tipología de lugares (`data/tipologia.json`, tres ejes):
 
-- `escala` (una): `region` (gran región de referencia), `chora` (entidad regional dominada por un centro que reclama sus bordes), `ethnos` (región de un pueblo sin centro dominante), `asentamiento`, `componente` (parte de un asentamiento: acrópolis, ágora, barrio, muralla, edificio), `sitio` (fuera de asentamiento: santuario extraurbano, tumba, monte, río…). La acrópolis es siempre `componente`.
-- `forma` (solo asentamientos; lista con periodo, porque la forma cambia en el tiempo):
+- `escala` (una), en seis tiers de mayor a menor: `region` (1: gran región por nombre; también mares y golfos), `chora` (2: entidad regional dominada por un centro que reclama sus bordes; también ríos, cordilleras y llanuras regionales) o `ethnos` (2: variante sin centro dominante, liga o koinon), `polis-kome` (3: el asentamiento entero, de la aldea a la polis; también islotes, cabos, lagos y montes locales), `demos` (4: barrio o distrito dentro del asentamiento; la acrópolis como unidad), `moira` (5: recinto o sector: ágora, témenos, complejo de santuario, murallas, necrópolis), `oikema` (6: construcción individual: naos, stoa, altar, fuente, tumba, puerta, casa). Los accidentes naturales van en el tier de su tamaño. Una aldea con estatus de demos administrativo (Ática, Eretria) va en tier 3 con la función `demos-civico`.
+- `forma` (solo tier 3, `polis-kome`; lista con periodo, porque la forma cambia en el tiempo):
   ```json
   "forma": [
     { "tipo": "multinucleado", "periodo": "geometrico", "fechas": "1000–800 a.C.", "nota": "…" },
@@ -79,7 +79,7 @@ Tipología de lugares (`data/tipologia.json`, tres ejes):
   ]
   ```
   Tipos: `kome`, `hieropolis`, `anaktoron`, `polis`, `polis-amurallada`, `teichos` (amurallamiento sin élite, tipo Gla), `phrourion`, `multinucleado` (katà kōmas), `mononucleado-difuso`, `polis-sinecizada`. Periodos: `micenico`, `geometrico`, `arcaico`, `clasico`, `helenistico`, `romano`, `tardoantiguo`, `medieval`, `otomano`, `moderno`. Asignar forma solo cuando lo sustente una fuente o el propio texto de la ficha.
-- `funciones` (varias): `sagrado`, `funerario`, `civico`, `comercial`, `portuario`, `epineion`, `emporion`, `apoikia`, `perioikis`, `militar`, `residencial`, `elite`, `hidraulico`, `espectaculos`, `productivo`, `comunicacion`, `natural`.
+- `funciones` (varias): `demos-civico`, `sagrado`, `funerario`, `civico`, `comercial`, `portuario`, `epineion`, `emporion`, `apoikia`, `perioikis`, `militar`, `residencial`, `elite`, `hidraulico`, `espectaculos`, `productivo`, `comunicacion`, `natural`.
 
 Para agregar un tipo nuevo de cualquier eje, añádelo primero a `data/tipologia.json` (id, nombre, descripción); el validador rechaza valores no definidos.
 

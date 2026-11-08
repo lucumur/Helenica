@@ -3,33 +3,45 @@
   "escalas": [
     {
       "id": "region",
+      "tier": 1,
       "nombre": "Región",
-      "descripcion": "Gran región de referencia conocida por nombre, aunque no tenga nombre helénico propio (Peloponeso, Eubea, Tracia)."
+      "descripcion": "Gran región de referencia por nombre (Peloponeso, Eubea, Tracia); también mares y golfos."
     },
     {
       "id": "chora",
+      "tier": 2,
       "nombre": "Chora",
-      "descripcion": "Entidad regional dominada por un centro que reclama sus bordes y límites (Korinthia, Karystia, Laconia)."
+      "descripcion": "Entidad regional dominada por un centro que reclama sus bordes (Korinthia, Karystia, Laconia); también ríos, cordilleras y llanuras regionales."
     },
     {
       "id": "ethnos",
+      "tier": 2,
       "nombre": "Ethnos",
-      "descripcion": "Región de un pueblo sin un centro dominante; liga o koinon (Arcadia, Acaya)."
+      "descripcion": "Variante del tier Chora: región de un pueblo sin centro dominante; liga o koinon (Arcadia, Acaya)."
     },
     {
-      "id": "asentamiento",
-      "nombre": "Asentamiento",
-      "descripcion": "Lugar habitado; su forma se describe por periodos."
+      "id": "polis-kome",
+      "tier": 3,
+      "nombre": "Polis / Kome",
+      "descripcion": "El asentamiento entero, de la aldea a la polis (Corinto, Olinto, Tenea, Nemea); su forma se describe por periodos. También islotes, cabos, lagos y montes locales."
     },
     {
-      "id": "componente",
-      "nombre": "Componente",
-      "descripcion": "Parte de un asentamiento: acrópolis, ágora, barrio, muralla, puerta, edificio."
+      "id": "demos",
+      "tier": 4,
+      "nombre": "Demos",
+      "descripcion": "Barrio o distrito dentro de un asentamiento (Kerameikos, Penteskouphia, Kraneion); la acrópolis como unidad."
     },
     {
-      "id": "sitio",
-      "nombre": "Sitio",
-      "descripcion": "Lugar fuera de un asentamiento: santuario extraurbano, tumba, cueva, monte, río, fuente, cabo."
+      "id": "moira",
+      "tier": 5,
+      "nombre": "Moira",
+      "descripcion": "Recinto o sector: ágora, témenos, complejo de santuario, circuito de murallas, necrópolis; cuevas y cumbres sagradas."
+    },
+    {
+      "id": "oikema",
+      "tier": 6,
+      "nombre": "Oikema",
+      "descripcion": "Construcción individual: naos, stoa, altar, fuente, tumba, puerta, casa."
     }
   ],
   "formas": [
@@ -85,6 +97,11 @@
     }
   ],
   "funciones": [
+    {
+      "id": "demos-civico",
+      "nombre": "Demos (unidad cívica)",
+      "descripcion": "Aldea o distrito con estatus de demos administrativo (Ática de Clistenes, Eretria, Rodas)."
+    },
     {
       "id": "sagrado",
       "nombre": "Sagrado"

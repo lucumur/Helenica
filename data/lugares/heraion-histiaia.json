@@ -16,9 +16,10 @@
   "areas": [
     "eubea"
   ],
-  "escala": "asentamiento",
+  "escala": "polis-kome",
   "forma": [],
   "funciones": [
+    "demos-civico",
     "sagrado"
   ],
   "pertenece_a": []

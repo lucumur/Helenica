@@ -81,9 +81,10 @@
   "areas": [
     "beocia"
   ],
-  "escala": "asentamiento",
+  "escala": "polis-kome",
   "forma": [],
   "funciones": [
+    "demos-civico",
     "portuario"
   ],
   "pertenece_a": [

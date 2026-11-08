@@ -16,7 +16,7 @@
   "areas": [
     "islas-egeo"
   ],
-  "escala": "componente",
+  "escala": "moira",
   "forma": [],
   "funciones": [
     "portuario"

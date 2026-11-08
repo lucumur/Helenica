@@ -16,8 +16,10 @@
   "areas": [
     "peloponeso"
   ],
-  "escala": "asentamiento",
+  "escala": "polis-kome",
   "forma": [],
-  "funciones": [],
+  "funciones": [
+    "demos-civico"
+  ],
   "pertenece_a": []
 }

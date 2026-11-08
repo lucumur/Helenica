@@ -209,7 +209,52 @@ ${col === 'lugares' ? '<p id="area-desc" class="muted"></p>' : ''}${facetPanel}$
       draw();
     });
     $('#new').addEventListener('click', () => window.HEL_EDIT && window.HEL_EDIT.create(col));
+    $('#out').addEventListener('click', e => {
+      const a = e.target.closest('a.row, a.gcard');
+      if (!a || e.button || e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
+      const u = new URL(a.href); e.preventDefault();
+      peek(u.searchParams.get('c'), u.searchParams.get('id'), a);
+    });
     draw();
+  }
+
+  // ---- vista previa: ventana emergente o barra lateral ----
+  let PEEK = null;
+  function peek(c, id, row) {
+    if (!PEEK) {
+      document.body.insertAdjacentHTML('beforeend', `<div id="peek-bg" class="peek-bg" hidden></div>
+<aside id="peek" class="peek" hidden aria-label="Ficha"><div class="peek-bar"><b class="peek-t"></b>
+<button type="button" data-a="edit" title="Editar esta ficha">✎ Editar</button><button type="button" data-a="dock" title="Ventana / barra lateral"></button>
+<a data-a="open" target="_blank" rel="noopener" title="Abrir en pestaña nueva">↗</a><button type="button" data-a="x" title="Cerrar (Esc)">×</button></div><iframe title="Ficha"></iframe></aside>`);
+      const el = document.getElementById('peek'), bg = document.getElementById('peek-bg'), fr = el.querySelector('iframe');
+      let mode = 'modal'; try { mode = localStorage.getItem('helenica-peek') || 'modal'; } catch (e) {}
+      const setMode = m => {
+        mode = m; try { localStorage.setItem('helenica-peek', m); } catch (e) {}
+        el.classList.toggle('docked', m === 'dock'); document.body.classList.toggle('peek-docked', m === 'dock' && !el.hidden);
+        bg.hidden = m === 'dock' || el.hidden;
+        el.querySelector('[data-a=dock]').textContent = m === 'dock' ? '⧉ Ventana' : '⇥ Barra';
+      };
+      const close = () => { el.hidden = true; bg.hidden = true; document.body.classList.remove('peek-docked'); fr.src = 'about:blank'; document.querySelectorAll('#out .peeked').forEach(n => n.classList.remove('peeked')); };
+      const edit = () => {
+        if (!document.body.classList.contains('editing')) { const t = document.getElementById('edit-toggle'); if (t) t.click(); }
+        if (!document.body.classList.contains('editing')) return;
+        const d = fr.contentDocument; if (!d) return;
+        d.body.classList.add('editing'); const b = d.getElementById('ed'); if (b) b.click();
+      };
+      el.querySelector('.peek-bar').addEventListener('click', e => {
+        const b = e.target.closest('[data-a]'); if (!b) return;
+        if (b.dataset.a === 'x') close(); else if (b.dataset.a === 'dock') setMode(mode === 'dock' ? 'modal' : 'dock'); else if (b.dataset.a === 'edit') edit();
+      });
+      bg.addEventListener('click', close);
+      document.addEventListener('keydown', e => { if (e.key === 'Escape' && !el.hidden && !(fr.contentDocument && fr.contentDocument.querySelector('dialog[open]'))) close(); });
+      fr.addEventListener('load', () => { const t = () => { const h = fr.contentDocument && fr.contentDocument.querySelector('h1'); if (h) el.querySelector('.peek-t').textContent = h.textContent; else setTimeout(t, 150); }; t(); });
+      PEEK = { el, fr, show: () => { el.hidden = false; setMode(mode); } };
+    }
+    PEEK.fr.src = `ficha.html?c=${encodeURIComponent(c)}&id=${encodeURIComponent(id)}&embed=1`;
+    PEEK.el.querySelector('[data-a=open]').href = href(c, id);
+    PEEK.el.querySelector('.peek-t').textContent = (row && row.querySelector('.nm') ? row.querySelector('.nm').firstChild.textContent : '');
+    document.querySelectorAll('#out .peeked').forEach(n => n.classList.remove('peeked')); if (row) row.classList.add('peeked');
+    PEEK.show();
   }
 
   // ---- ficha ----
@@ -344,6 +389,16 @@ ${L('Hijos', [...new Set(hi)])}${L('Hermanos', he.slice(0, 30))}</div></div>`;
 
   window.HEL = { COLS, REPO, loadIndex, md, getJSON, iconHTML };
   const page = document.body.dataset.page;
+  if (new URLSearchParams(location.search).has('embed')) {
+    document.body.classList.add('embed');
+    // dentro de la vista previa: las fichas siguen embebidas; el resto abre en la ventana principal
+    document.addEventListener('click', e => {
+      const a = e.target.closest('a[href]'); if (!a || a.target === '_blank' || e.ctrlKey || e.metaKey) return;
+      const u = new URL(a.href, location.href); if (u.origin !== location.origin) return;
+      e.preventDefault();
+      if (/\/ficha\.html$/.test(u.pathname)) { u.searchParams.set('embed', '1'); location.href = u.href; } else window.top.location.href = u.href;
+    });
+  }
   const run = page === 'home' ? home : page === 'ficha' ? ficha : page === 'mapa' ? async () => { header('mapa'); await window.HEL_MAP.init(); } : () => list(page);
   const go = () => run().catch(e => { $('main').innerHTML = `<p class="notice">Error: ${esc(e.message)}</p>`; console.error(e); });
   document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', go) : go();

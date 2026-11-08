@@ -18,13 +18,13 @@
   // Nivel = último umbral alcanzado. k = ancho del atlas / ancho del encuadre.
   const ZL = [
     { n: 0, k: 1, que: 'Áreas, mares grandes, ríos mayores' },
-    { n: 1, k: 2.2, que: 'Regiones amplias, tier 1' },
+    { n: 1, k: 2.2, que: 'Marcas de ríos y montañas' },
     { n: 2, k: 2.4, que: 'Regiones amplias, tier 1' },
     { n: 3, k: 2.5, que: 'Ríos menores' },
     { n: 4, k: 3.2, que: 'Regiones amplias, tier 1' },
     { n: 5, k: 4, que: 'Regiones amplias, tier 1' },
     { n: 6, k: 4.5, que: 'Regiones amplias, tier 1' },
-    { n: 7, k: 5, que: 'Solo regiones amplias, tier 1' },
+    { n: 7, k: 5, que: 'Regiones amplias, ríos y montañas' },
     { n: 8, k: 7, que: 'Subregiones; nombres de monte y río; se apagan los mares grandes' },
     { n: 9, k: 9, que: 'El nombre de la gran área se atenúa' },
     { n: 10, k: 10, que: 'Encuadre de una chora' },
@@ -217,7 +217,7 @@
       for (const [g, s] of nodes) {
         const [x, y] = P(s.pt);
         g.setAttribute('transform', `translate(${x},${y}) scale(${u})`);
-        g.style.display = k >= zk(8) && !g.classList.contains('gone') ? '' : 'none';
+        g.style.display = ((s.kind === 'monte' || s.kind === 'rio') ? k >= zk(1) : k >= zk(8)) && !g.classList.contains('gone') ? '' : 'none';
         g.classList.remove('lab');
       }
       if (!svg.classList.contains('no-lb')) {

@@ -4,12 +4,12 @@
   "nombre_alt": null,
   "imagen": null,
   "tipos": [
-    "Región marítima"
+    "Conjunto de islas"
   ],
   "areas": [
     "islas-egeo"
   ],
-  "escala": "region-maritima",
+  "escala": "archipielago",
   "forma": [],
   "funciones": [],
   "pertenece_a": [

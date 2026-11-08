@@ -14,7 +14,7 @@
   const ficha = (c, id) => `ficha.html?c=${c}&id=${encodeURIComponent(id)}`;
   const HELADE = ['#d9a079', '#e3b98f', '#c98e6a', '#e8c79d', '#d4a483', '#dcae7d', '#c7956f', '#e6bc8b', '#d09a74', '#e0b48c', '#cf9f7e', '#e4c095', '#d6a988', '#dfb184', '#cb936d'];
   const FUERA = ['#b9c6c1', '#c4cbbd', '#b3c0c7', '#c8c3b5', '#bcc8b8', '#c0c4cc', '#b6c3bb', '#c6c0b0', '#bdc7c4', '#c2bfb6', '#b8c4be', '#c5cac0'];
-  const TIER_ICON = { chora: 'diamond', ethnos: 'diamond', 'polis-kome': 'circle', demos: 'small', moira: 'small', oikema: 'small' };
+  const TIER_ICON = { chora: 'diamond', nesos: 'diamond', ethnos: 'diamond', 'polis-kome': 'circle', demos: 'small', moira: 'small', oikema: 'small' };
   // Nivel = último umbral alcanzado. k = ancho del atlas / ancho del encuadre.
   const ZL = [
     { n: 0, k: 1, que: 'Regiones amplias y las cinco capitales' },
@@ -69,7 +69,7 @@
       const a = i.ar[0], cur = regionFicha[a], score = x => (x.id === a ? 0 : 2) + (x.pt ? 4 : 0) + (/mar|kolpos/i.test(x.n) ? 4 : 0);
       if (!cur || score(i) < score(cur)) regionFicha[a] = i;
     }
-    const puntos = lugares.filter(i => i.pt && !i.ph && i.es !== 'region' && ['chora', 'ethnos', 'polis-kome'].includes(i.es));
+    const puntos = lugares.filter(i => i.pt && !i.ph && i.es !== 'region' && ['chora', 'ethnos', 'nesos', 'polis-kome'].includes(i.es));
     // agrupar puntos casi idénticos (fases de un mismo sitio)
     const seen = new Map();
     for (const i of puntos) {
@@ -162,7 +162,7 @@ ${physicalSVG(D, opts.selectedId)}
     <div id="era" class="era" hidden></div></div>
   <div class="ui tr zoom"><b id="zl" title="Nivel de zoom">0</b><button id="zi" title="Acercar">+</button><button id="zo" title="Alejar">−</button><button id="zr" title="Vista completa">⤢</button></div>
   <div class="ui bl"><div class="scale"><span id="sbar"></span><b id="slab"></b></div>
-    <div class="legend"><span><i style="background:${HELADE[0]}"></i>Hélade</span><span><i style="background:${FUERA[0]}"></i>Tierras extranjeras</span><span><i class="dm"></i>Chora</span><span><i class="ci"></i>Polis / Kome</span><span>⛰️ Monte</span><span>🌊 Río</span></div>
+    <div class="legend"><span><i style="background:${HELADE[0]}"></i>Hélade</span><span><i style="background:${FUERA[0]}"></i>Tierras extranjeras</span><span><i class="dm"></i>Eupolis / isla</span><span><i class="ci"></i>Asentamiento</span><span>⛰️ Monte</span><span>🌊 Río</span></div>
     <div class="offmap">${offmap.map(a => `<button data-area="${a}">✧ ${esc(D.areaInfo.get(a).nombre)}</button>`).join('')}</div>
   </div>
   <aside id="panel" class="panel" hidden></aside>
@@ -336,7 +336,7 @@ ${!geo ? '<p class="muted">Sin localización terrestre: no aparece sobre el mapa
       const s = D.subs[id]; if (!s) return;
       selSub = id; selSite = null; selArea = s.padre;
       svg.querySelectorAll('.feature.selected').forEach(p => p.classList.remove('selected'));
-      const here = D.lugares.filter(i => i.pt && !i.ph && ['chora', 'ethnos', 'polis-kome'].includes(i.es) && inSub(i.pt, s) && alive(i));
+      const here = D.lugares.filter(i => i.pt && !i.ph && ['chora', 'ethnos', 'nesos', 'polis-kome'].includes(i.es) && inSub(i.pt, s) && alive(i));
       const pol = here.filter(i => i.es === 'polis-kome').sort((a, b) => fold(a.n).localeCompare(fold(b.n)));
       const cho = here.filter(i => i.es !== 'polis-kome');
       const fi = s.ficha && D.lugares.find(i => i.id === s.ficha);

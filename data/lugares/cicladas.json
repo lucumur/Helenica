@@ -4,12 +4,12 @@
   "nombre_alt": "Kykládes",
   "imagen": null,
   "tipos": [
-    "Región marítima"
+    "Conjunto de islas"
   ],
   "areas": [
     "islas-egeo"
   ],
-  "escala": "region-maritima",
+  "escala": "archipielago",
   "forma": [],
   "funciones": [],
   "pertenece_a": [
@@ -34,7 +34,7 @@
         {
           "col": "lugares",
           "id": "delia-kyklades",
-          "nombre": "Dēlos (isla)"
+          "nombre": "Dēlos"
         },
         {
           "col": "lugares",
@@ -45,11 +45,6 @@
           "col": "lugares",
           "id": "tenos-kyklades",
           "nombre": "Tēnos"
-        },
-        {
-          "col": "lugares",
-          "id": "mykonos-kyklades",
-          "nombre": "Mykonos"
         },
         {
           "col": "lugares",

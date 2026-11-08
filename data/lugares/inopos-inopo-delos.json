@@ -16,7 +16,7 @@
   "areas": [
     "islas-egeo"
   ],
-  "escala": "polis-kome",
+  "escala": "moira",
   "forma": [],
   "funciones": [
     "natural"
@@ -24,7 +24,7 @@
   "pertenece_a": [
     {
       "col": "lugares",
-      "id": "delia-kyklades",
+      "id": "delos-nesos",
       "nombre": "Dēlos (isla)"
     }
   ],

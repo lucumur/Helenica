@@ -1,8 +1,8 @@
 {
   "id": "delia-kyklades",
   "tana_id": "cd0tOiYhJW4W",
-  "nombre": "Dēlos (isla)",
-  "nombre_alt": "Delia",
+  "nombre": "Dēlos",
+  "nombre_alt": "Delos y Mykonos",
   "titulo_tana": "Delia, Kyklades",
   "etiquetas_tana": [
     "chora"
@@ -248,8 +248,7 @@
   ],
   "secciones": [],
   "tipos": [
-    "Chora",
-    "Isla"
+    "Eupolis"
   ],
   "areas": [
     "islas-egeo"
@@ -270,5 +269,23 @@
       37.4
     ],
     "precision": "aprox"
-  }
+  },
+  "contiene": [
+    {
+      "grupo": null,
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "delos-nesos",
+          "nombre": "Dēlos (isla)"
+        },
+        {
+          "col": "lugares",
+          "id": "mykonos-kyklades",
+          "nombre": "Mykonos"
+        }
+      ]
+    }
+  ]
 }

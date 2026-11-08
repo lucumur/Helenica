@@ -8,10 +8,10 @@
       "descripcion": "Gran región de referencia por nombre (Peloponeso, Eubea, Tracia); también mares y golfos."
     },
     {
-      "id": "region-maritima",
+      "id": "archipielago",
       "tier": 2,
-      "nombre": "Región marítima",
-      "descripcion": "Agrupación de islas y mares dentro de una región (Cícladas, Espóradas del Norte)."
+      "nombre": "Conjunto de islas",
+      "descripcion": "Islas cuya importancia es su conexión entre sí (Cícladas, Espóradas del Norte)."
     },
     {
       "id": "ethnos",
@@ -22,8 +22,14 @@
     {
       "id": "chora",
       "tier": 3,
-      "nombre": "Eupolis (polis + chora)",
-      "descripcion": "Una polis con su territorio y alrededores; en las islas, la isla entera (Naxos, Paros). También Korinthia, Karystia; ríos, cordilleras y llanuras de ese tamaño."
+      "nombre": "Eupolis",
+      "descripcion": "Unidad política con su territorio, aunque abarque varias islas (Delos con Mykonos; Korinthia, Karystia). También ríos, cordilleras y llanuras de ese tamaño."
+    },
+    {
+      "id": "nesos",
+      "tier": 4,
+      "nombre": "Nesos (isla)",
+      "descripcion": "La isla como unidad física dentro de una eupolis (Delos, Mykonos)."
     },
     {
       "id": "polis-kome",
@@ -35,7 +41,7 @@
       "id": "demos",
       "tier": 5,
       "nombre": "Sub-asentamiento: barrio / demos",
-      "descripcion": "Barrio o distrito dentro de un asentamiento (Kerameikos, Kraneion); la acrópolis como unidad."
+      "descripcion": "Barrio, distrito o núcleo urbano dentro de un asentamiento o de una isla (Kerameikos; la ciudad de Delos); la acrópolis como unidad."
     },
     {
       "id": "moira",

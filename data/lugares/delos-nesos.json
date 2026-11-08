@@ -1,0 +1,37 @@
+{
+  "id": "delos-nesos",
+  "nombre": "Dēlos (isla)",
+  "nombre_alt": "Delos",
+  "imagen": null,
+  "tipos": [
+    "Isla"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "nesos",
+  "forma": [],
+  "funciones": [
+    "sagrado"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "delia-kyklades",
+      "nombre": "Dēlos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Isla sagrada, lugar de nacimiento de Apolo y Ártemis según el Himno homérico a Apolo; santuario panhelénico."
+  },
+  "geo": {
+    "punto": [
+      25.267,
+      37.397
+    ],
+    "precision": "aprox"
+  },
+  "campos": [],
+  "secciones": [],
+  "fuentes": []
+}

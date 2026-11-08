@@ -145,7 +145,7 @@ for rel, r in list(byid.values()):
     ep = r.get('epoca')
     if ep is not None and not (isinstance(ep, dict) and isinstance(ep.get('anio'), int)):
         errors.append(f'{rel}: epoca debe ser {{"anio": -300, "nota": "…"}}')
-    if r.get('escala') in ('region', 'region-maritima') and ep is None and not set(r.get('areas') or []) & {'inframundo'} and 'Mar' not in ' '.join(r.get('tipos') or []):
+    if r.get('escala') in ('region', 'archipielago') and ep is None and not set(r.get('areas') or []) & {'inframundo'} and 'Mar' not in ' '.join(r.get('tipos') or []):
         warns.append(f'{rel}: región sin epoca (estándar: 300 a.C.)')
 
 for w in warns[:200]: print('AVISO', w)

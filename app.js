@@ -12,6 +12,12 @@
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const fold = s => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
   const href = (c, id) => `ficha.html?c=${c}&id=${encodeURIComponent(id)}`;
+  const iconHTML = value => {
+    const icon = String(value || '').trim();
+    return /^(https?:\/\/|data:image\/)/i.test(icon)
+      ? `<img src="${esc(icon)}" alt="" onerror="this.replaceWith(document.createTextNode('◇'))">`
+      : esc(icon || '＋');
+  };
 
   // ---- datos frescos (misma lógica que Conlang: GitHub Pages cachea 10 min) ----
   const ghPages = /\.github\.io$/i.test(location.hostname);
@@ -284,6 +290,7 @@ ${r.epoca ? dd('Época', `<a href="mapa.html?t=${r.epoca.anio}">${fmtAnio(r.epoc
     const desc = val(r.descripcion);
     main.innerHTML = `
 <section class="hero compact"><p class="eyebrow"><a href="${col}.html" style="text-decoration:none">${COLS[col].p}</a></p>
+<div class="ficha-icon-slot"><span class="ficha-icon${r.icono ? '' : ' empty'}" role="img" aria-label="${r.icono ? 'Icono de la ficha' : 'Espacio para icono'}">${iconHTML(r.icono)}</span><button type="button" class="icon-action edit-only" id="icon-edit">${r.icono ? 'Cambiar icono' : 'Añadir icono'}</button></div>
 <h1>${esc(r.nombre)}</h1>${r.nombre_alt ? `<p style="font:1.2rem var(--serif)">${esc(r.nombre_alt)}</p>` : ''}
 <p>${tagHTML(r.tipos || (r.tipo ? [r.tipo] : []))}${r.genero ? ` <span class="tag">${r.genero === 'M' ? '♂' : '♀'}</span>` : ''}</p>
 ${desc ? `<div style="font-size:1.06rem;max-width:780px">${md(desc)}</div>` : ''}
@@ -292,6 +299,7 @@ ${desc ? `<div style="font-size:1.06rem;max-width:780px">${md(desc)}</div>` : ''
 <p class="muted" style="font-size:.78rem;margin-top:28px">Archivo: <a href="https://github.com/${REPO}/blob/main/data/${col}/${id}.json">data/${col}/${id}.json</a>${r.tana_id ? ` · Tana: <code>${esc(r.tana_id)}</code>` : ''}</p></article>
 <aside>${col === 'lugares' ? '<div id="minimap"></div>' : ''}${r.imagen ? `<img src="${esc(r.imagen)}" alt="${esc(r.nombre)}" loading="lazy" onerror="this.remove()">` : ''}${side}</aside></div>`;
     $('#ed').addEventListener('click', () => window.HEL_EDIT && window.HEL_EDIT.edit(col, id, r));
+    $('#icon-edit').addEventListener('click', () => window.HEL_EDIT && window.HEL_EDIT.icon(col, id, r));
     if (col === 'lugares' && window.HEL_MAP) window.HEL_MAP.mini($('#minimap'), r).catch(e => console.warn('mini-mapa', e));
   }
 
@@ -326,9 +334,10 @@ ${desc ? `<div style="font-size:1.06rem;max-width:780px">${md(desc)}</div>` : ''
 ${L('Hijos', [...new Set(hi)])}${L('Hermanos', he.slice(0, 30))}</div></div>`;
   }
 
-  window.HEL = { COLS, REPO, loadIndex, md, getJSON };
+  window.HEL = { COLS, REPO, loadIndex, md, getJSON, iconHTML };
   const page = document.body.dataset.page;
   const run = page === 'home' ? home : page === 'ficha' ? ficha : page === 'mapa' ? async () => { header('mapa'); await window.HEL_MAP.init(); } : () => list(page);
   const go = () => run().catch(e => { $('main').innerHTML = `<p class="notice">Error: ${esc(e.message)}</p>`; console.error(e); });
   document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', go) : go();
 })();
+

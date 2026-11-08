@@ -102,7 +102,7 @@ Para agregar un tipo nuevo de cualquier eje, añádelo primero a `data/tipologia
 
 **Objetos** — `tipos`, `campos`.
 
-**Comunes a todas** — `campos`: lista de `{ "clave", "etiqueta", "texto", "refs" }` para lo que no tiene clave propia (las claves con emoji vienen de los supertags de Tana: `D📝` Descripción, `F⚙️` Función, `H📜` Historia y mito, `S🧩` Subunidades / partes…). `secciones`: lista de `{ "titulo", "texto" }` con el desarrollo narrativo (versiones por autor, iconografía, culto…). `fuentes`: lista de `{ "titulo", "url" }`.
+**Comunes a todas** — `icono` (opcional): emoji o URL de imagen; las imágenes subidas se guardan como `data:image/…` (máximo 256 KB). Se muestra sobre el título, independiente de `imagen`; se cambia o quita con el botón de icono en modo edición, en las cuatro colecciones. `campos`: lista de `{ "clave", "etiqueta", "texto", "refs" }` para lo que no tiene clave propia (las claves con emoji vienen de los supertags de Tana: `D📝` Descripción, `F⚙️` Función, `H📜` Historia y mito, `S🧩` Subunidades / partes…). `secciones`: lista de `{ "titulo", "texto" }` con el desarrollo narrativo (versiones por autor, iconografía, culto…). `fuentes`: lista de `{ "titulo", "url" }`.
 
 ## Criterios
 
@@ -124,3 +124,4 @@ Para agregar un tipo nuevo de cualquier eje, añádelo primero a `data/tipologia
 - `data/mapa/rios.json` y `lagos.json` vienen de Natural Earth y no se editan.
 - **Accidentes físicos:** `data/mapa/fisico.json` contiene cauces (listas de líneas) y extensiones de macizos (polígonos con huecos) vinculados a fichas mediante `lugares`. Fuentes, licencias y limitaciones en `data/mapa/FUENTES_FISICAS.md`; regeneración con `scripts/build_fisico.py`. No sustituir una geometría faltante por un círculo, una cuenca hidrográfica o un macizo distinto. Las fichas conservan sus puntos originales.
 - **Zoom de accidentes:** cauces de ríos y extensiones de macizos aparecen desde el **nivel 8**. Sus iconos y nombres, incluidos los de tier 4 (`polis-kome`), aparecen desde el **nivel 10**. Usar el nivel numérico mostrado por el mapa (`zlevel`), independientemente de la barra de escala y del tamaño de la ventana; al seleccionar una ficha con geometría se resalta y encuadra su extensión completa, aunque necesite una vista más alejada. Los controles Ríos y Montes también ocultan sus respectivos contornos e iconos.
+

@@ -10,15 +10,15 @@
   const empty = () => ({ texto: '', refs: [] });
 
   const TEMPLATES = {
-    entes: n => ({ id: '', nombre: n, nombre_alt: null, tipos: ['Deidad'], genero: null, cultura: 'Helénica', imagen: null,
+    entes: n => ({ id: '', nombre: n, nombre_alt: null, icono: null, tipos: ['Deidad'], genero: null, cultura: 'Helénica', imagen: null,
       descripcion: empty(), nacimiento: empty(), padres: empty(), conyuges: empty(), hijos: empty(), atributos: empty(),
       posesiones: empty(), residencias: empty(), fallecimiento: empty(), epitetos: empty(), campos: [], secciones: [], fuentes: [] }),
-    eventos: n => ({ id: '', nombre: n, nombre_alt: null, tipo: 'Mítico', imagen: null, descripcion: empty(), cuando: empty(),
+    eventos: n => ({ id: '', nombre: n, nombre_alt: null, icono: null, tipo: 'Mítico', imagen: null, descripcion: empty(), cuando: empty(),
       agentes_activos: empty(), agentes_pasivos: empty(), donde: empty(), elementos: empty(), problema: empty(), desenlace: empty(),
       campos: [], secciones: [], fuentes: [] }),
-    lugares: n => ({ id: '', nombre: n, nombre_alt: null, tipos: ['Lugar'], areas: [], escala: 'asentamiento', forma: [], funciones: [], imagen: null, pertenece_a: [],
+    lugares: n => ({ id: '', nombre: n, nombre_alt: null, icono: null, tipos: ['Lugar'], areas: [], escala: 'asentamiento', forma: [], funciones: [], imagen: null, pertenece_a: [],
       campos: [{ clave: 'D🪪', etiqueta: 'Descripción', texto: '', refs: [] }], secciones: [], fuentes: [] }),
-    objetos: n => ({ id: '', nombre: n, nombre_alt: null, tipos: ['Objeto'], imagen: null,
+    objetos: n => ({ id: '', nombre: n, nombre_alt: null, icono: null, tipos: ['Objeto'], imagen: null,
       campos: [{ clave: 'D📝', etiqueta: 'Descripción', texto: '', refs: [] }], secciones: [], fuentes: [] }),
   };
 
@@ -274,6 +274,53 @@ ${txt('fe-stxt', x.texto, 4, 'Texto')}${linkBtn}</div>`;
     d.showModal();
   }
 
+  function editIcon(col, id, rec) {
+    let d = document.getElementById('hel-icon');
+    if (!d) {
+      document.body.insertAdjacentHTML('beforeend', `<dialog id="hel-icon" class="icon-dialog" aria-labelledby="icon-title"><form method="dialog">
+<h3 id="icon-title">Icono de la ficha</h3>
+<div id="icon-preview" class="ficha-icon empty" role="img" aria-label="Vista previa del icono"></div>
+<label>Emoji o URL de imagen<input id="icon-value" placeholder="🏛️ o https://…" autocomplete="off"></label>
+<label>Subir imagen<input id="icon-file" type="file" accept="image/*,.ico"></label>
+<p class="msg">Imagen de hasta 256 KB. Se conserva su transparencia.</p>
+<div class="bar"><button type="button" class="btn ghost" id="icon-remove">Quitar icono</button><span><button type="button" class="btn ghost" id="icon-cancel">Cancelar</button> <button class="btn" id="icon-save" value="default">Guardar</button></span></div>
+<p class="msg" id="icon-msg" role="status"></p>
+</form></dialog>`);
+      d = document.getElementById('hel-icon');
+    }
+    const input = d.querySelector('#icon-value'), file = d.querySelector('#icon-file'), preview = d.querySelector('#icon-preview');
+    const save = d.querySelector('#icon-save'), msg = d.querySelector('#icon-msg');
+    let value = rec.icono || '', revision = 0;
+    input.value = /^data:image\//i.test(value) ? '' : value;
+    file.value = ''; msg.textContent = ''; save.disabled = false;
+    const render = () => { preview.innerHTML = window.HEL.iconHTML(value); preview.classList.toggle('empty', !value); };
+    const update = next => { revision++; value = next; msg.textContent = ''; save.disabled = false; render(); };
+    input.oninput = () => { file.value = ''; update(input.value.trim()); };
+    d.querySelector('#icon-remove').onclick = () => { input.value = ''; file.value = ''; update(''); };
+    d.querySelector('#icon-cancel').onclick = () => d.close();
+    file.onchange = () => {
+      const selected = file.files[0]; if (!selected) return;
+      if (!selected.type.startsWith('image/') && !/\.ico$/i.test(selected.name)) { msg.textContent = 'Elige un archivo de imagen.'; file.value = ''; return; }
+      if (selected.size > 256 * 1024) { msg.textContent = 'La imagen supera 256 KB. Elige un icono más pequeño.'; file.value = ''; return; }
+      const reader = new FileReader(), version = ++revision;
+      save.disabled = true; msg.textContent = 'Cargando imagen…';
+      reader.onload = () => { if (version !== revision) return; input.value = ''; update(selected.type.startsWith('image/') ? String(reader.result) : String(reader.result).replace(/^data:[^;]*;/, 'data:image/x-icon;')); };
+      reader.onerror = () => { if (version !== revision) return; save.disabled = false; msg.textContent = 'No se pudo leer la imagen.'; };
+      reader.readAsDataURL(selected);
+    };
+    d.querySelector('form').onsubmit = async ev => {
+      ev.preventDefault(); save.disabled = true; msg.textContent = 'Guardando…';
+      try {
+        const path = `data/${col}/${id}.json`, latest = await readFile(path);
+        latest.icono = value || null;
+        await saveFile(path, JSON.stringify(latest, null, 2) + '\n', `Icono de ${latest.nombre}`);
+        location.reload();
+      } catch (e) { msg.textContent = e.message; save.disabled = false; }
+    };
+    d.onclose = () => { revision++; };
+    render(); d.showModal();
+  }
+
   function setEditing(v) {
     document.body.classList.toggle('editing', v);
     const b = document.getElementById('edit-toggle'); if (b) { b.classList.toggle('on', v); b.textContent = v ? '✎ Editando' : '✎ Editar'; }
@@ -281,6 +328,7 @@ ${txt('fe-stxt', x.texto, 4, 'Texto')}${linkBtn}</div>`;
   }
 
   window.HEL_EDIT = {
+    icon: editIcon,
     init() {
       const b = document.getElementById('edit-toggle');
       if (!b) return;
@@ -315,3 +363,4 @@ ${txt('fe-stxt', x.texto, 4, 'Texto')}${linkBtn}</div>`;
     },
   };
 })();
+

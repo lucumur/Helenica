@@ -39,5 +39,13 @@
     "nombre": "Korinthia, Peloponnesos",
     "col": "lugares",
     "id": "korinthia-peloponnesos"
+  },
+  "geo": {
+    "punto": [
+      22.879,
+      37.906
+    ],
+    "precision": "heredada",
+    "de": "Corinto"
   }
 }

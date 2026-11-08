@@ -19,5 +19,13 @@
   "escala": "oikema",
   "forma": [],
   "funciones": [],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "geo": {
+    "punto": [
+      23.32,
+      38.32
+    ],
+    "precision": "heredada",
+    "de": "Tebas"
+  }
 }

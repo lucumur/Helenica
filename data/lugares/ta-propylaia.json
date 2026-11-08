@@ -19,5 +19,13 @@
   "escala": "oikema",
   "forma": [],
   "funciones": [],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "geo": {
+    "punto": [
+      23.7257,
+      37.9715
+    ],
+    "precision": "heredada",
+    "de": "Acrópolis de Atenas"
+  }
 }

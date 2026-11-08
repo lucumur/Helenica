@@ -21,5 +21,13 @@
   "funciones": [
     "hidraulico"
   ],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "geo": {
+    "punto": [
+      21.92,
+      37.175
+    ],
+    "precision": "heredada",
+    "de": "Mesene"
+  }
 }

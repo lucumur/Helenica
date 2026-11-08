@@ -32,5 +32,13 @@
     "nombre": "Segundo Athlos: Matar a la Hidra de Lerna (Argolis)",
     "col": "eventos",
     "id": "segundo-athlos-matar-a-la-hidra-de-lerna"
+  },
+  "geo": {
+    "punto": [
+      22.716,
+      37.552
+    ],
+    "precision": "heredada",
+    "de": "Lerna"
   }
 }

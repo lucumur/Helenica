@@ -32,5 +32,12 @@
     "nombre": "Chalkis, Euboia (Chora)",
     "col": "lugares",
     "id": "chalkis-euboia"
+  },
+  "geo": {
+    "punto": [
+      23.7,
+      38.42
+    ],
+    "precision": "aprox"
   }
 }

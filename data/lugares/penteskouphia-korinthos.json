@@ -65,5 +65,12 @@
   "funciones": [
     "productivo"
   ],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "geo": {
+    "punto": [
+      22.851,
+      37.886
+    ],
+    "precision": "aprox"
+  }
 }

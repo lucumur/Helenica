@@ -27,5 +27,12 @@
       "id": "tracia",
       "nombre": "Tracia"
     }
-  ]
+  ],
+  "geo": {
+    "punto": [
+      23.85,
+      40.79
+    ],
+    "precision": "aprox"
+  }
 }

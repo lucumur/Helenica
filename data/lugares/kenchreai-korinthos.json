@@ -115,5 +115,12 @@
       "col": "lugares",
       "id": "qorinthos-korinthia"
     }
-  ]
+  ],
+  "geo": {
+    "punto": [
+      22.995,
+      37.884
+    ],
+    "precision": "aprox"
+  }
 }

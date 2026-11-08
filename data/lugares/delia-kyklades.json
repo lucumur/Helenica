@@ -262,5 +262,12 @@
       "id": "islas-egeo",
       "nombre": "Islas del Egeo"
     }
-  ]
+  ],
+  "geo": {
+    "punto": [
+      25.27,
+      37.4
+    ],
+    "precision": "aprox"
+  }
 }

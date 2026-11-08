@@ -27,5 +27,12 @@
       "id": "grecia-central",
       "nombre": "Grecia Central"
     }
-  ]
+  ],
+  "geo": {
+    "punto": [
+      23.89,
+      38.08
+    ],
+    "precision": "aprox"
+  }
 }

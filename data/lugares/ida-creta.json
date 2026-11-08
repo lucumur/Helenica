@@ -27,5 +27,12 @@
       "id": "creta",
       "nombre": "Krētē"
     }
-  ]
+  ],
+  "geo": {
+    "punto": [
+      24.77,
+      35.23
+    ],
+    "precision": "aprox"
+  }
 }

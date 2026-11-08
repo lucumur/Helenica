@@ -34,5 +34,13 @@
     "nombre": "Lerna, Argolis (Region)",
     "col": "lugares",
     "id": "lerna-argolis-2"
+  },
+  "geo": {
+    "punto": [
+      23.7265,
+      37.9715
+    ],
+    "precision": "heredada",
+    "de": "Atenas"
   }
 }

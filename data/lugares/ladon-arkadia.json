@@ -27,5 +27,12 @@
     "nombre": "Tercer Athlos: Atrapar a la Cierva de Cerynea (Aquea)",
     "col": "eventos",
     "id": "tercer-athlos-atrapar-a-la-cierva-de-cerynea"
+  },
+  "geo": {
+    "punto": [
+      22.02,
+      37.7
+    ],
+    "precision": "aprox"
   }
 }

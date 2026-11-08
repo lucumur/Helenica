@@ -28,5 +28,12 @@
     "nombre": "Lerna, Argolis (Region)",
     "col": "lugares",
     "id": "lerna-argolis-2"
+  },
+  "geo": {
+    "punto": [
+      22.712,
+      37.562
+    ],
+    "precision": "aprox"
   }
 }

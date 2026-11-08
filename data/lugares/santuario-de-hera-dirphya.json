@@ -21,5 +21,13 @@
   "funciones": [
     "sagrado"
   ],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "geo": {
+    "punto": [
+      23.83,
+      38.6
+    ],
+    "precision": "heredada",
+    "de": "Dirfis"
+  }
 }

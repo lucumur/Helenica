@@ -74,5 +74,13 @@
       "tana": "o7GK_wlqejIX",
       "nombre": "Temenos de Apolo, Delos"
     }
-  ]
+  ],
+  "geo": {
+    "punto": [
+      25.268,
+      37.4
+    ],
+    "precision": "heredada",
+    "de": "Delos"
+  }
 }

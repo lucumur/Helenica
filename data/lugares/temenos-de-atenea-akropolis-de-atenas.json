@@ -97,5 +97,13 @@
       "col": "lugares",
       "id": "akropolis-athenai"
     }
-  ]
+  ],
+  "geo": {
+    "punto": [
+      23.7257,
+      37.9715
+    ],
+    "precision": "heredada",
+    "de": "Acrópolis de Atenas"
+  }
 }

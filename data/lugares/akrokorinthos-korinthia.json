@@ -89,5 +89,12 @@
       "col": "lugares",
       "id": "korinthia-peloponnesos"
     }
-  ]
+  ],
+  "geo": {
+    "punto": [
+      22.87,
+      37.889
+    ],
+    "precision": "aprox"
+  }
 }

@@ -23,5 +23,12 @@
   "funciones": [
     "portuario"
   ],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "geo": {
+    "punto": [
+      24.94,
+      37.445
+    ],
+    "precision": "aprox"
+  }
 }

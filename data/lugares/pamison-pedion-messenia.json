@@ -27,5 +27,12 @@
       "id": "peloponeso",
       "nombre": "Peloponnēsos"
     }
-  ]
+  ],
+  "geo": {
+    "punto": [
+      21.98,
+      37.08
+    ],
+    "precision": "aprox"
+  }
 }

@@ -19,5 +19,13 @@
   "escala": "oikema",
   "forma": [],
   "funciones": [],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "geo": {
+    "punto": [
+      22.857,
+      37.79
+    ],
+    "precision": "heredada",
+    "de": "Tenea"
+  }
 }

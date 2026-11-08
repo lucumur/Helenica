@@ -35,5 +35,13 @@
     "nombre": "Qórinthos, Korinthia (Corinto)",
     "col": "lugares",
     "id": "qorinthos-korinthia"
+  },
+  "geo": {
+    "punto": [
+      22.879,
+      37.906
+    ],
+    "precision": "heredada",
+    "de": "Corinto"
   }
 }

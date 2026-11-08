@@ -39,5 +39,12 @@
   "escala": "demos",
   "forma": [],
   "funciones": [],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "geo": {
+    "punto": [
+      23.4,
+      40.35
+    ],
+    "precision": "aprox"
+  }
 }

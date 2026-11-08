@@ -56,5 +56,13 @@
   "funciones": [
     "sagrado"
   ],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "geo": {
+    "punto": [
+      22.87,
+      37.889
+    ],
+    "precision": "heredada",
+    "de": "Acrocorinto"
+  }
 }

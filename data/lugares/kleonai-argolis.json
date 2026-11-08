@@ -25,5 +25,12 @@
     "nombre": "Primer Athlos: Matar al Leon de Nemea (Argolis)",
     "col": "eventos",
     "id": "primer-athlos-matar-al-leon-de-nemea"
+  },
+  "geo": {
+    "punto": [
+      22.77,
+      37.81
+    ],
+    "precision": "aprox"
   }
 }

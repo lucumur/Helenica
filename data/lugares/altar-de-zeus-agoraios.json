@@ -40,5 +40,13 @@
     "nombre": "Agora de Atenas, Atenas",
     "col": "lugares",
     "id": "agora-de-atenas-atenas"
+  },
+  "geo": {
+    "punto": [
+      23.7265,
+      37.9715
+    ],
+    "precision": "heredada",
+    "de": "Atenas"
   }
 }

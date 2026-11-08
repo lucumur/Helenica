@@ -21,5 +21,12 @@
   "funciones": [
     "demos-civico"
   ],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "geo": {
+    "punto": [
+      23.09,
+      38.95
+    ],
+    "precision": "aprox"
+  }
 }

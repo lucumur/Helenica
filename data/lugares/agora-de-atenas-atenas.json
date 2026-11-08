@@ -65,5 +65,13 @@
     "nombre": "Templo de Apolo Patroos (Atenas)",
     "col": "lugares",
     "id": "templo-de-apolo-patroos"
+  },
+  "geo": {
+    "punto": [
+      23.7265,
+      37.9715
+    ],
+    "precision": "heredada",
+    "de": "Atenas"
   }
 }

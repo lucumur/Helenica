@@ -27,5 +27,12 @@
     "nombre": "Quinto Athlos: Limpiar los Establos de Augias (Elis)",
     "col": "eventos",
     "id": "quinto-athlos-limpiar-los-establos-de-augias"
+  },
+  "geo": {
+    "punto": [
+      21.4,
+      37.9
+    ],
+    "precision": "aprox"
   }
 }

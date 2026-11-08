@@ -28,5 +28,12 @@
     "nombre": "Peiraion, Korinthia (850ac - 146ac)",
     "col": "lugares",
     "id": "peiraion-korinthia"
+  },
+  "geo": {
+    "punto": [
+      22.978,
+      37.972
+    ],
+    "precision": "aprox"
   }
 }

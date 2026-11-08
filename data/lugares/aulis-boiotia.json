@@ -92,5 +92,12 @@
       "tana": "HNRcbao5wr4Q",
       "nombre": "Βοιωτία / Beocia"
     }
-  ]
+  ],
+  "geo": {
+    "punto": [
+      23.6,
+      38.42
+    ],
+    "precision": "aprox"
+  }
 }

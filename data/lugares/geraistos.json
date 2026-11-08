@@ -32,5 +32,12 @@
     "nombre": "Karystia, Euboia",
     "col": "lugares",
     "id": "karystia-euboia"
+  },
+  "geo": {
+    "punto": [
+      24.58,
+      37.97
+    ],
+    "precision": "aprox"
   }
 }

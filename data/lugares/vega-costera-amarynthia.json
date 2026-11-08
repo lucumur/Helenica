@@ -36,5 +36,12 @@
     "nombre": "Eretria, Euboia (Chora)",
     "col": "lugares",
     "id": "eretria-euboia"
+  },
+  "geo": {
+    "punto": [
+      23.88,
+      38.39
+    ],
+    "precision": "aprox"
   }
 }

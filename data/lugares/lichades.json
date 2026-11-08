@@ -21,5 +21,12 @@
   "funciones": [
     "natural"
   ],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "geo": {
+    "punto": [
+      22.9,
+      38.8
+    ],
+    "precision": "aprox"
+  }
 }

@@ -23,7 +23,7 @@
     "Acrópolis"
   ],
   "areas": [
-    "macedonia"
+    "eubea"
   ],
   "escala": "polis-kome",
   "forma": [],
@@ -36,5 +36,12 @@
     "nombre": "Histiaia / Hellopia, Euboia (Chora)",
     "col": "lugares",
     "id": "histiaia"
+  },
+  "geo": {
+    "punto": [
+      22.97,
+      38.86
+    ],
+    "precision": "aprox"
   }
 }

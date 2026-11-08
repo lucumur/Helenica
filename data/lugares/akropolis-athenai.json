@@ -41,5 +41,12 @@
   "funciones": [
     "sagrado"
   ],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "geo": {
+    "punto": [
+      23.7257,
+      37.9705
+    ],
+    "precision": "aprox"
+  }
 }

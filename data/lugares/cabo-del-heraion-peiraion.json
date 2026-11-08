@@ -155,5 +155,13 @@
     "nombre": "Peiraion, Korinthia (850ac - 146ac)",
     "col": "lugares",
     "id": "peiraion-korinthia"
+  },
+  "geo": {
+    "punto": [
+      22.852,
+      38.029
+    ],
+    "precision": "heredada",
+    "de": "Heraion de Perachora"
   }
 }

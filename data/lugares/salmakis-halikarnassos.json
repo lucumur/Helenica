@@ -37,5 +37,13 @@
   "funciones": [
     "hidraulico"
   ],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "geo": {
+    "punto": [
+      27.424,
+      37.035
+    ],
+    "precision": "heredada",
+    "de": "Halicarnaso"
+  }
 }

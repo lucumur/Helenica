@@ -21,5 +21,12 @@
   "escala": "polis-kome",
   "forma": [],
   "funciones": [],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "geo": {
+    "punto": [
+      24.93,
+      37.44
+    ],
+    "precision": "aprox"
+  }
 }

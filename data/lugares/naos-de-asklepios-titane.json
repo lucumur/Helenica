@@ -46,5 +46,13 @@
   "funciones": [
     "sagrado"
   ],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "geo": {
+    "punto": [
+      22.645,
+      37.895
+    ],
+    "precision": "heredada",
+    "de": "Titane"
+  }
 }

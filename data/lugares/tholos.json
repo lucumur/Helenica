@@ -19,5 +19,13 @@
   "escala": "oikema",
   "forma": [],
   "funciones": [],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "geo": {
+    "punto": [
+      23.79,
+      38.395
+    ],
+    "precision": "heredada",
+    "de": "Eretria"
+  }
 }

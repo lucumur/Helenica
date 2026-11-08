@@ -88,9 +88,27 @@ def main():
                 it['es'] = rec.get('escala')
                 it['fo'] = sorted({x.get('tipo') for x in rec.get('forma') or [] if x.get('tipo')})
                 it['fu'] = rec.get('funciones') or []
+                pt = (rec.get('geo') or {}).get('punto')
+                if pt:
+                    it['pt'] = pt
+                    if (rec.get('geo') or {}).get('precision') == 'heredada':
+                        it['ph'] = 1
             if rec.get('contenido_en', {}).get('id'):
                 it['en'] = f"{rec['contenido_en']['col']}:{rec['contenido_en']['id']}"
             items.append(it)
+    # Punto heredado: un lugar sin coordenadas toma las del primer contenedor que las tenga.
+    by = {f"{i['c']}:{i['id']}": i for i in items}
+    for it in items:
+        if it['c'] != 'lugares' or it.get('pt'):
+            continue
+        seen, cur = set(), it
+        while cur and f"{cur['c']}:{cur['id']}" not in seen:
+            seen.add(f"{cur['c']}:{cur['id']}")
+            up = (cur.get('pe') or [None])[0] or cur.get('en')
+            cur = by.get(up) if up else None
+            if cur and cur.get('pt'):
+                it['ptx'] = cur['pt']
+                break
     out = {'schema_version': 1, 'total': len(items), 'items': items}
     with open(os.path.join(DATA, 'index.json'), 'w', encoding='utf-8') as fh:
         json.dump(out, fh, ensure_ascii=False, separators=(',', ':'))

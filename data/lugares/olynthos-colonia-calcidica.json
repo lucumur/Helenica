@@ -149,5 +149,12 @@
     "nombre": "Olynthos / Olinto",
     "col": "lugares",
     "id": "olynthos"
+  },
+  "geo": {
+    "punto": [
+      23.352,
+      40.293
+    ],
+    "precision": "aprox"
   }
 }

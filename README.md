@@ -19,11 +19,10 @@ Botón **✎ Editar** en la barra de navegación. Pide un token *fine-grained* d
 - **Cloudflare Workers** (como Conlang): conectar el repo en *Workers & Pages → Create → Import a repository*; `wrangler.jsonc` ya está configurado (sin comando de build).
 - **GitHub Pages**: *Settings → Pages → Deploy from a branch → main / (root)*.
 
-## Mapa de regiones
+## Mapa
 
-[Mapa interactivo](mapa.html): costa del Mediterráneo oriental, puntos numerados, búsqueda, filtros, zoom y enlaces a las fichas de tier 1. Se accede desde la navegación, Inicio, Lugares y las fichas regionales.
+[Atlas interactivo](mapa.html): Mediterráneo y mar Negro con las grandes áreas recortadas a la costa real, ríos y lagos, choras y poleis que aparecen al acercarse, buscador, panel por área o lugar y enlaces a las fichas. Cada ficha de lugar incluye un mini-mapa.
 
-- `data/mapa/regiones.json`: posiciones de referencia en orden longitud/latitud, ids de las fichas y notas. Tracia y Thrakē comparten un punto; Hades, Katokosmos e Hiperbórea no tienen coordenadas terrestres.
-- `data/mapa/costas.geojson`: recorte simplificado de la capa **Natural Earth land 1:50m**, de dominio público, entre 15–38° E y 29–45° N. [Origen](https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_50m_land.geojson) · [Licencia](https://www.naturalearthdata.com/about/terms-of-use/).
-- La costa es actual y generalizada; los puntos no representan fronteras históricas. El mapa se sirve con los archivos locales, sin un servicio externo de teselas.
-- Al añadir una ficha de tier 1, agregarla también al catálogo del mapa. Mientras no tenga posición, el directorio la conserva como pendiente de ubicación.
+- Costa, ríos y lagos: **Natural Earth 1:10m**, dominio público ([naturalearthdata.com](https://www.naturalearthdata.com/)).
+- Fronteras de áreas: contornos convencionales en `data/mapa/zonas.json`, recortados con `scripts/build_mapa.py`. No son límites históricos.
+- Puntos: `geo.punto` en cada ficha de lugar; ubicaciones aproximadas.

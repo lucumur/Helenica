@@ -71,5 +71,13 @@
       "col": "lugares",
       "id": "temenos-de-atenea-akropolis-de-atenas"
     }
-  ]
+  ],
+  "geo": {
+    "punto": [
+      23.7257,
+      37.9715
+    ],
+    "precision": "heredada",
+    "de": "Acrópolis de Atenas"
+  }
 }

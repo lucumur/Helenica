@@ -19,5 +19,13 @@
   "escala": "moira",
   "forma": [],
   "funciones": [],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "geo": {
+    "punto": [
+      22.4,
+      37.09
+    ],
+    "precision": "heredada",
+    "de": "Esparta"
+  }
 }

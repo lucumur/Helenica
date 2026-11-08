@@ -40,5 +40,12 @@
   "funciones": [
     "residencial"
   ],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "geo": {
+    "punto": [
+      22.882,
+      37.909
+    ],
+    "precision": "aprox"
+  }
 }

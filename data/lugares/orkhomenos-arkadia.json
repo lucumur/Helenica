@@ -23,5 +23,12 @@
   "funciones": [
     "militar"
   ],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "geo": {
+    "punto": [
+      22.3,
+      37.72
+    ],
+    "precision": "aprox"
+  }
 }

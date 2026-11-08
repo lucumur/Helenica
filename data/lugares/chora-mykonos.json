@@ -26,5 +26,12 @@
     }
   ],
   "funciones": [],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "geo": {
+    "punto": [
+      25.33,
+      37.445
+    ],
+    "precision": "aprox"
+  }
 }

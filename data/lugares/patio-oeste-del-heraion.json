@@ -34,5 +34,13 @@
   "funciones": [
     "sagrado"
   ],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "geo": {
+    "punto": [
+      22.852,
+      38.029
+    ],
+    "precision": "heredada",
+    "de": "Heraion de Perachora"
+  }
 }

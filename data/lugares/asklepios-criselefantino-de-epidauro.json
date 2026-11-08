@@ -24,5 +24,13 @@
   "escala": "oikema",
   "forma": [],
   "funciones": [],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "geo": {
+    "punto": [
+      23.074,
+      37.596
+    ],
+    "precision": "heredada",
+    "de": "Epidauro"
+  }
 }

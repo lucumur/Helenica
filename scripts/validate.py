@@ -67,44 +67,24 @@ def scan(obj, rel):
 for rel, rec in recs:
     scan(rec, rel)
 
-# Catálogo del mapa: referencias, tier, coordenadas y cobertura regional.
+# Mapa: puntos de las fichas y zonas de áreas.
+for rel, r in recs:
+    g = r.get('geo')
+    if g is None:
+        continue
+    pt = g.get('punto') if isinstance(g, dict) else None
+    ok = isinstance(pt, list) and len(pt) == 2 and all(type(x) in (int, float) and math.isfinite(x) for x in pt)
+    if not ok or not (-30 <= pt[0] <= 80 and 0 <= pt[1] <= 70):
+        errors.append(f'{rel}: geo.punto debe ser [longitud, latitud]')
 try:
-    atlas = json.load(open(os.path.join(DATA, 'mapa', 'regiones.json'), encoding='utf-8'))
-    regiones = {r['id'] for rel, r in recs if rel.startswith('data/lugares/') and r.get('escala') == 'region'}
-    puntos, mapeadas, numeros = set(), set(), set()
-    for punto in atlas['lugares']:
-        pid = punto.get('id')
-        pref = f'data/mapa/regiones.json ({pid})'
-        if not isinstance(pid, str) or not SLUG.match(pid) or pid in puntos:
-            errors.append(f'{pref}: id inválido o duplicado')
-        puntos.add(pid)
-        if not punto.get('nombre') or punto.get('tipo') not in ('region', 'mar', 'mitica'):
-            errors.append(f'{pref}: nombre o tipo inválido')
-        fichas = punto.get('fichas')
-        if not isinstance(fichas, list) or not fichas:
-            errors.append(f'{pref}: falta la lista de fichas'); continue
-        for rid in fichas:
-            if rid not in regiones:
-                errors.append(f'{pref}: ficha {rid} inexistente o sin escala region')
-            if rid in mapeadas:
-                errors.append(f'{pref}: ficha {rid} asignada a más de una entrada')
-            mapeadas.add(rid)
-        coords = punto.get('coordenadas')
-        if punto.get('tipo') == 'mitica':
-            if coords is not None:
-                errors.append(f'{pref}: un lugar mítico no debe tener coordenadas terrestres')
-        else:
-            valid = isinstance(coords, list) and len(coords) == 2 and all(type(x) in (int, float) and math.isfinite(x) for x in coords)
-            if not valid or not (-180 <= coords[0] <= 180 and -90 <= coords[1] <= 90):
-                errors.append(f'{pref}: coordenadas inválidas; usar [longitud, latitud]')
-            numero = punto.get('numero')
-            if type(numero) is not int or numero < 1 or numero in numeros:
-                errors.append(f'{pref}: número de punto inválido o duplicado')
-            numeros.add(numero)
-    for rid in sorted(regiones - mapeadas):
-        warns.append(f'data/lugares/{rid}.json: región pendiente de ubicación en el mapa')
+    zonas = json.load(open(os.path.join(DATA, 'mapa', 'zonas.json'), encoding='utf-8'))['zonas']
+    for z in zonas:
+        if z.get('area') not in AREAS:
+            errors.append(f'data/mapa/zonas.json: área "{z.get("area")}" no definida en data/areas.json')
+        if z.get('tipo') not in ('continente', 'islas'):
+            errors.append(f'data/mapa/zonas.json ({z.get("area")}): tipo debe ser "continente" o "islas"')
 except Exception as e:
-    errors.append(f'data/mapa/regiones.json: catálogo inválido ({e})')
+    errors.append(f'data/mapa/zonas.json: no se pudo leer ({e})')
 
 for w in warns[:200]: print('AVISO', w)
 for e in errors: print('ERROR', e)

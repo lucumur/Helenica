@@ -19,5 +19,13 @@
   "escala": "moira",
   "forma": [],
   "funciones": [],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "geo": {
+    "punto": [
+      22.48,
+      36.385
+    ],
+    "precision": "heredada",
+    "de": "Ténaro"
+  }
 }

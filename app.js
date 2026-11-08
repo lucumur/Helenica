@@ -261,7 +261,7 @@ ${dd('Elementos', md(val(r.elementos)))}${dd('Problema', md(val(r.problema)))}${
       attrs = `<dl class="attr">${dd('Tipo', tagHTML(r.tipos) + (tt ? ' · ' + inline(tt.texto.replace(/^- /gm, '').replace(/\n/g, ' · ')) : ''))}${dd('Escala', r.escala ? (() => { const x = TIPO.escalas.find(y => y.id === r.escala); return `<a href="lugares.html?escala=${r.escala}">${x && x.tier ? `Tier ${x.tier} · ` : ''}${esc(tName('escalas', r.escala))}</a>`; })() : '')}
 ${dd('Forma', (r.forma || []).length ? `<ul class="md">${r.forma.map(x => { const p = x.periodo && TIPO.periodos.find(y => y.id === x.periodo); return `<li><a href="lugares.html?forma=${encodeURIComponent(x.tipo)}">${esc(tName('formas', x.tipo))}</a>${p || x.fechas ? ` <span class="muted">— ${esc(p ? p.nombre : '')}${x.fechas ? (p ? ', ' : '') + esc(x.fechas) : ''}</span>` : ''}${x.nota ? `<br><span style="font-size:.9rem">${inline(x.nota)}</span>` : ''}</li>`; }).join('')}</ul>` : '')}
 ${dd('Funciones', (r.funciones || []).map(x => `<a class="tag" style="text-decoration:none" href="lugares.html?funcion=${x}">${esc(tName('funciones', x))}</a>`).join(' '))}
-${dd('Mapa', r.escala === 'region' ? `<a href="mapa.html?region=${encodeURIComponent(r.id)}">Localizar esta región ↗</a>` : '')}${dd('Área', (r.areas || []).map(x => `<a href="lugares.html?area=${encodeURIComponent(x)}">${esc(areaName(x))}</a>`).join(', '))}${dd('Pertenece a', chain.map(k => linkKey(k)).join(' › '))}</dl>`;
+${dd('Área', (r.areas || []).map(x => `<a href="lugares.html?area=${encodeURIComponent(x)}">${esc(areaName(x))}</a>`).join(', '))}${dd('Pertenece a', chain.map(k => linkKey(k)).join(' › '))}</dl>`;
       if (contiene.length) side += `<div class="box"><h3>Contiene</h3>${listKeys(contiene)}</div>`;
       if (evs.length) side += `<div class="box"><h3>Eventos aquí</h3>${listKeys(evs)}</div>`;
     } else if (col === 'objetos') {
@@ -290,8 +290,9 @@ ${desc ? `<div style="font-size:1.06rem;max-width:780px">${md(desc)}</div>` : ''
 <p><button class="btn edit-only" id="ed">✎ Editar esta ficha</button></p></section>
 <div class="ficha"><article>${attrs}${secHTML}${fuentesHTML}
 <p class="muted" style="font-size:.78rem;margin-top:28px">Archivo: <a href="https://github.com/${REPO}/blob/main/data/${col}/${id}.json">data/${col}/${id}.json</a>${r.tana_id ? ` · Tana: <code>${esc(r.tana_id)}</code>` : ''}</p></article>
-<aside>${r.imagen ? `<img src="${esc(r.imagen)}" alt="${esc(r.nombre)}" loading="lazy" onerror="this.remove()">` : ''}${side}</aside></div>`;
+<aside>${col === 'lugares' ? '<div id="minimap"></div>' : ''}${r.imagen ? `<img src="${esc(r.imagen)}" alt="${esc(r.nombre)}" loading="lazy" onerror="this.remove()">` : ''}${side}</aside></div>`;
     $('#ed').addEventListener('click', () => window.HEL_EDIT && window.HEL_EDIT.edit(col, id, r));
+    if (col === 'lugares' && window.HEL_MAP) window.HEL_MAP.mini($('#minimap'), r).catch(e => console.warn('mini-mapa', e));
   }
 
   function tree(pa, co, hi, he, name) {

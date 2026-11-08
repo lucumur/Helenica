@@ -34,5 +34,13 @@
   "funciones": [
     "espectaculos"
   ],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "geo": {
+    "punto": [
+      22.879,
+      37.906
+    ],
+    "precision": "heredada",
+    "de": "Corinto"
+  }
 }

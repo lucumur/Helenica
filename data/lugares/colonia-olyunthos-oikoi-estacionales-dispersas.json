@@ -68,5 +68,12 @@
     "nombre": "Olynthos - Colonia Calcidica (750-500aC)",
     "col": "lugares",
     "id": "olynthos-colonia-calcidica"
+  },
+  "geo": {
+    "punto": [
+      23.33,
+      40.31
+    ],
+    "precision": "aprox"
   }
 }

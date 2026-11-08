@@ -22,5 +22,13 @@
     "sagrado",
     "comercial"
   ],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "geo": {
+    "punto": [
+      25.268,
+      37.4
+    ],
+    "precision": "heredada",
+    "de": "Delos"
+  }
 }

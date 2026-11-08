@@ -38,5 +38,12 @@
     "nombre": "Apollon Aleksikakos= El que protege contra el mal",
     "col": "entes",
     "id": "apollon-aleksikakos"
+  },
+  "geo": {
+    "punto": [
+      25.268,
+      37.4
+    ],
+    "precision": "aprox"
   }
 }

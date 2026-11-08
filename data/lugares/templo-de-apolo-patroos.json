@@ -151,5 +151,13 @@
     "nombre": "Apollôn = Apolo",
     "col": "entes",
     "id": "apollon"
+  },
+  "geo": {
+    "punto": [
+      23.7265,
+      37.9715
+    ],
+    "precision": "heredada",
+    "de": "Atenas"
   }
 }

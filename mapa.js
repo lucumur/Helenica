@@ -17,10 +17,9 @@
   const TIER_ICON = { chora: 'diamond', nesos: 'diamond', ethnos: 'diamond', 'polis-kome': 'circle', demos: 'small', moira: 'small', oikema: 'small' };
   // Nivel = último umbral alcanzado. k = ancho del atlas / ancho del encuadre.
   const ZL = [
-    { n: 0, k: 1, que: 'Regiones amplias y las cinco capitales' },
-    { n: 1, k: 2.4, que: 'Regiones amplias, tier 1' },
-    { n: 2, k: 3.2, que: 'Regiones amplias, tier 1' },
-    { n: 3, k: 4.5, que: 'Regiones amplias, tier 1' },
+    { n: 1, k: 1, que: 'Regiones amplias y las cinco capitales' },
+    { n: 2, k: 2.4, que: 'Regiones amplias, tier 1' },
+    { n: 3, k: 3.2, que: 'Regiones amplias, tier 1' },
     { n: 4, k: 5, que: 'Argos, Corinto, Esparta, Elis y Orcómeno' },
     { n: 5, k: 7, que: 'Subregiones, demás lugares, cauces y macizos' },
     { n: 6, k: 9, que: 'Islas del Egeo, cada una con nombre y capital' },
@@ -28,8 +27,8 @@
     { n: 8, k: 18, que: 'Encuadre de una polis' },
     { n: 9, k: 60, que: 'Tope de zoom' },
   ];
-  const zk = n => ZL[n].k;
-  const zlevel = k => { let n = 0; for (const z of ZL) if (k + 1e-9 >= z.k) n = z.n; return n; };
+  const zk = n => ZL[n - 1].k;
+  const zlevel = k => { let n = 1; for (const z of ZL) if (k + 1e-9 >= z.k) n = z.n; return n; };
   // Distancia y anchura de la barra de escala.
   const SCALE_STEPS = [1, 2, 5, 10, 20, 50, 100, 200, 500, 1000];
   const scaleBar = unitsPerPixel => {
@@ -159,7 +158,7 @@ ${physicalSVG(D, opts.selectedId)}
   </div>
   <div class="ui tc"><div class="when" role="group" aria-label="Fecha">${D.per.periodos.map(p => [p.id, p.etiqueta]).map(([v, l]) => `<button type="button" data-t="${v}">${l}</button>`).join('')}</div>
     <div id="era" class="era" hidden></div></div>
-  <div class="ui tr zoom"><b id="zl" title="Nivel de zoom">0</b><button id="zi" title="Acercar">+</button><button id="zo" title="Alejar">−</button><button id="zr" title="Vista completa">⤢</button></div>
+  <div class="ui tr zoom"><b id="zl" title="Nivel de zoom">1</b><button id="zi" title="Acercar">+</button><button id="zo" title="Alejar">−</button><button id="zr" title="Vista completa">⤢</button></div>
   <div class="ui bl"><div class="scale"><span id="sbar"></span><b id="slab"></b></div>
     <div class="legend"><span><i style="background:${HELADE[0]}"></i>Hélade</span><span><i style="background:${FUERA[0]}"></i>Tierras extranjeras</span><span><i class="dm"></i>Eupolis / isla</span><span><i class="ci"></i>Asentamiento</span><span>⛰️ Monte</span><span>🌊 Río</span></div>
     <div class="offmap">${offmap.map(a => `<button data-area="${a}">✧ ${esc(D.areaInfo.get(a).nombre)}</button>`).join('')}</div>
@@ -277,7 +276,7 @@ ${physicalSVG(D, opts.selectedId)}
       // escala
       main.querySelector('#sbar').style.width = `${scale.pixels}px`; main.querySelector('#slab').textContent = `${scale.km} km`;
       const badge = main.querySelector('#zl');
-      badge.textContent = lvl; badge.title = `Nivel ${lvl} · ${ZL[lvl].que}`;
+      badge.textContent = lvl; badge.title = `Nivel ${lvl} · ${ZL[lvl - 1].que}`;
       main.querySelector('#zi').disabled = k >= zk(9); main.querySelector('#zo').disabled = k <= 1.001;
     }
     let viewFrame = 0, wheelBusy = false, wheelDelta = 0, wheelLast = 0;
@@ -459,7 +458,7 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
       const job = wheelQueue.shift();
       if (!job) { wheelBusy = false; return; }
       wheelBusy = true;
-      const level = zlevel(W / view[2]), next = Math.max(0, Math.min(ZL.length - 1, level + job.direction));
+      const level = zlevel(W / view[2]), next = Math.max(ZL[0].n, Math.min(ZL[ZL.length - 1].n, level + job.direction));
       if (next === level) { nextWheelStep(); return; }
       const f = (W / zk(next)) / view[2], [cx, cy] = toSvg(job.x, job.y);
       setView([cx - (cx - view[0]) * f, cy - (cy - view[1]) * f, view[2] * f, view[3] * f], true, nextWheelStep, 220);

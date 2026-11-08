@@ -106,7 +106,7 @@ Para agregar un tipo nuevo de cualquier eje, añádelo primero a `data/tipologia
 
 **Objetos** — `tipos`, `campos`.
 
-**Comunes a todas** — `icono` (opcional): emoji o URL de imagen; las imágenes subidas se guardan como `data:image/…` (máximo 256 KB). Se muestra sobre el título, independiente de `imagen`; se cambia o quita con el botón de icono en modo edición, en las cuatro colecciones. `campos`: lista de `{ "clave", "etiqueta", "texto", "refs" }` para lo que no tiene clave propia (las claves con emoji vienen de los supertags de Tana: `D📝` Descripción, `F⚙️` Función, `H📜` Historia y mito, `S🧩` Subunidades / partes…). `secciones`: lista de `{ "titulo", "texto" }` con el desarrollo narrativo (versiones por autor, iconografía, culto…). `fuentes`: lista de `{ "titulo", "url" }`.
+**Comunes a todas** — `icono` (opcional): emoji, URL de imagen o ruta del repo (`img/…`); las imágenes subidas se encuadran en el editor (arrastrar y zoom) y se guardan recortadas a 256 × 256 px como `data:image/…`. Se muestra siempre en círculo, sobre el título, independiente de `imagen`; se cambia o quita con el botón de icono en modo edición, en las cuatro colecciones. `campos`: lista de `{ "clave", "etiqueta", "texto", "refs" }` para lo que no tiene clave propia (las claves con emoji vienen de los supertags de Tana: `D📝` Descripción, `F⚙️` Función, `H📜` Historia y mito, `S🧩` Subunidades / partes…). `secciones`: lista de `{ "titulo", "texto" }` con el desarrollo narrativo (versiones por autor, iconografía, culto…). `fuentes`: lista de `{ "titulo", "url" }`.
 
 ## Criterios
 

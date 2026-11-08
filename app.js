@@ -14,7 +14,7 @@
   const href = (c, id) => `ficha.html?c=${c}&id=${encodeURIComponent(id)}`;
   const iconHTML = value => {
     const icon = String(value || '').trim();
-    return /^(https?:\/\/|data:image\/)/i.test(icon)
+    return /^(https?:\/\/|data:image\/|img\/)/i.test(icon)
       ? `<img src="${esc(icon)}" alt="" onerror="this.replaceWith(document.createTextNode('◇'))">`
       : esc(icon || '＋');
   };

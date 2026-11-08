@@ -22,8 +22,8 @@ main.wrap{padding:36px 0 72px}
 .hero h1{font:600 clamp(2.4rem,6vw,4.8rem)/1 var(--serif);margin:.1em 0 .25em;letter-spacing:-.02em}
 .hero.compact h1{font-size:clamp(2rem,4.4vw,3.4rem)}
 .ficha-icon-slot{display:flex;align-items:center;gap:12px;margin:18px 0 12px;min-height:64px}
-.ficha-icon{display:inline-flex;align-items:center;justify-content:center;width:64px;height:64px;flex:none;font:48px/1 system-ui;overflow:hidden;border-radius:10px;vertical-align:middle}
-.ficha-icon img{display:block;width:100%;height:100%;object-fit:contain}
+.ficha-icon{display:inline-flex;align-items:center;justify-content:center;width:64px;height:64px;flex:none;font:40px/1 system-ui;overflow:hidden;border-radius:50%;vertical-align:middle}
+.ficha-icon img{display:block;width:100%;height:100%;object-fit:cover}
 .ficha-icon.empty{border:1px dashed var(--line);font-size:24px;color:var(--muted)}
 .icon-action{font:inherit;font-size:.8rem;color:var(--muted);background:none;border:1px solid var(--line);border-radius:7px;padding:5px 9px;cursor:pointer}
 .icon-action:hover{color:var(--ink);border-color:var(--muted)}
@@ -33,6 +33,9 @@ dialog.icon-dialog{width:min(440px,94vw)}
 .icon-dialog input{display:block;width:100%;margin-top:6px;font:inherit;padding:8px;border:1px solid var(--line);border-radius:7px;background:#fff}
 .icon-dialog .bar{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;margin-top:18px}
 .icon-dialog .msg{font-size:.78rem;color:var(--muted)}
+.crop{margin:4px 0 8px}.crop-view{position:relative;width:220px;height:220px;border-radius:50%;overflow:hidden;margin:0 auto;cursor:grab;touch-action:none;background:repeating-conic-gradient(#eee 0 25%,#fff 0 50%) 0 0/16px 16px;box-shadow:0 0 0 1px var(--line)}
+.crop-view:active{cursor:grabbing}.crop-view img{position:absolute;left:0;top:0;max-width:none;user-select:none;pointer-events:none}
+.icon-dialog .crop-z{display:flex;align-items:center;gap:10px;margin:10px 0 4px}.icon-dialog .crop-z input{margin:0;padding:0;flex:1}
 .hero p{font-size:1.08rem;color:var(--muted);max-width:760px;margin:.3em 0}
 .eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.74rem!important;font-weight:800;color:var(--accent)!important;margin:0!important}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}

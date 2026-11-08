@@ -283,9 +283,12 @@ ${txt('fe-stxt', x.texto, 4, 'Texto')}${linkBtn}</div>`;
       document.body.insertAdjacentHTML('beforeend', `<dialog id="hel-icon" class="icon-dialog" aria-labelledby="icon-title"><form method="dialog">
 <h3 id="icon-title">Icono de la ficha</h3>
 <div id="icon-preview" class="ficha-icon empty" role="img" aria-label="Vista previa del icono"></div>
+<div id="icon-crop" class="crop" hidden><div class="crop-view" id="crop-view"><img id="crop-img" alt="" draggable="false"></div>
+<label class="crop-z">Zoom<input id="crop-zoom" type="range" min="1" max="5" step="0.01" value="1"></label>
+<p class="msg">Arrastra la imagen para encuadrarla dentro del círculo; la rueda o el control ajustan el zoom.</p></div>
 <label>Emoji o URL de imagen<input id="icon-value" placeholder="🏛️ o https://…" autocomplete="off"></label>
 <label>Subir imagen<input id="icon-file" type="file" accept="image/*,.ico"></label>
-<p class="msg">Imagen de hasta 256 KB. Se conserva su transparencia.</p>
+<p class="msg">Imagen de hasta 2 MB; se guarda recortada a 256 × 256 px y se conserva su transparencia. El icono se muestra en círculo.</p>
 <div class="bar"><button type="button" class="btn ghost" id="icon-remove">Quitar icono</button><span><button type="button" class="btn ghost" id="icon-cancel">Cancelar</button> <button class="btn" id="icon-save" value="default">Guardar</button></span></div>
 <p class="msg" id="icon-msg" role="status"></p>
 </form></dialog>`);
@@ -296,15 +299,38 @@ ${txt('fe-stxt', x.texto, 4, 'Texto')}${linkBtn}</div>`;
     let value = rec.icono || '', revision = 0;
     input.value = /^data:image\//i.test(value) ? '' : value;
     file.value = ''; msg.textContent = ''; save.disabled = false;
+    // Encuadre: la imagen subida (o la ya guardada como data:) se recorta a un cuadrado que se ve en círculo.
+    const crop = d.querySelector('#icon-crop'), view = d.querySelector('#crop-view'), cimg = d.querySelector('#crop-img'), zoom = d.querySelector('#crop-zoom');
+    const V = 220; let C = null;
+    const place = () => { if (!C) return; const sc = C.s0 * C.z, w = C.w * sc, h = C.h * sc;
+      C.x = Math.min(0, Math.max(V - w, C.x)); C.y = Math.min(0, Math.max(V - h, C.y));
+      cimg.style.width = w + 'px'; cimg.style.height = h + 'px'; cimg.style.transform = `translate(${C.x}px,${C.y}px)`; };
+    const setZoom = (z, cx = V / 2, cy = V / 2) => { if (!C) return; const old = C.s0 * C.z; C.z = Math.max(1, Math.min(5, z)); const k = C.s0 * C.z / old;
+      C.x = cx - (cx - C.x) * k; C.y = cy - (cy - C.y) * k; zoom.value = C.z; place(); };
+    const startCrop = src => { const im = new Image(); im.onload = () => {
+        C = { w: im.naturalWidth || V, h: im.naturalHeight || V, z: 1 }; C.s0 = V / Math.min(C.w, C.h);
+        C.x = (V - C.w * C.s0) / 2; C.y = (V - C.h * C.s0) / 2; cimg.src = src; zoom.value = 1; crop.hidden = false; preview.style.display = 'none'; place(); };
+      im.onerror = () => { C = null; crop.hidden = true; preview.style.display = ''; }; im.src = src; };
+    const stopCrop = () => { C = null; crop.hidden = true; preview.style.display = ''; };
+    let drag = null;
+    view.onpointerdown = e => { if (!C) return; drag = [e.clientX - C.x, e.clientY - C.y]; view.setPointerCapture(e.pointerId); };
+    view.onpointermove = e => { if (!drag) return; C.x = e.clientX - drag[0]; C.y = e.clientY - drag[1]; place(); };
+    view.onpointerup = view.onpointercancel = () => { drag = null; };
+    view.onwheel = e => { if (!C) return; e.preventDefault(); const r = view.getBoundingClientRect(); setZoom(C.z * (e.deltaY < 0 ? 1.08 : 1 / 1.08), e.clientX - r.left, e.clientY - r.top); };
+    zoom.oninput = () => setZoom(+zoom.value);
+    const cropped = () => { const sc = C.s0 * C.z, cv = document.createElement('canvas'); cv.width = cv.height = 256;
+      cv.getContext('2d').drawImage(cimg, -C.x / sc, -C.y / sc, V / sc, V / sc, 0, 0, 256, 256);
+      let out = cv.toDataURL('image/png'); if (out.length > 340000) out = cv.toDataURL('image/webp', 0.9); return out; };
     const render = () => { preview.innerHTML = window.HEL.iconHTML(value); preview.classList.toggle('empty', !value); };
-    const update = next => { revision++; value = next; msg.textContent = ''; save.disabled = false; render(); };
+    const update = next => { revision++; value = next; msg.textContent = ''; save.disabled = false; render(); if (/^data:image\/(?!x-icon)/i.test(next)) startCrop(next); else stopCrop(); };
     input.oninput = () => { file.value = ''; update(input.value.trim()); };
+    stopCrop();
     d.querySelector('#icon-remove').onclick = () => { input.value = ''; file.value = ''; update(''); };
     d.querySelector('#icon-cancel').onclick = () => d.close();
     file.onchange = () => {
       const selected = file.files[0]; if (!selected) return;
       if (!selected.type.startsWith('image/') && !/\.ico$/i.test(selected.name)) { msg.textContent = 'Elige un archivo de imagen.'; file.value = ''; return; }
-      if (selected.size > 256 * 1024) { msg.textContent = 'La imagen supera 256 KB. Elige un icono más pequeño.'; file.value = ''; return; }
+      if (selected.size > 2 * 1024 * 1024) { msg.textContent = 'La imagen supera 2 MB. Elige una más pequeña.'; file.value = ''; return; }
       const reader = new FileReader(), version = ++revision;
       save.disabled = true; msg.textContent = 'Cargando imagen…';
       reader.onload = () => { if (version !== revision) return; input.value = ''; update(selected.type.startsWith('image/') ? String(reader.result) : String(reader.result).replace(/^data:[^;]*;/, 'data:image/x-icon;')); };
@@ -315,13 +341,14 @@ ${txt('fe-stxt', x.texto, 4, 'Texto')}${linkBtn}</div>`;
       ev.preventDefault(); save.disabled = true; msg.textContent = 'Guardando…';
       try {
         const path = `data/${col}/${id}.json`, latest = await readFile(path);
-        latest.icono = value || null;
+        latest.icono = (C && value ? cropped() : value) || null;
         await saveFile(path, JSON.stringify(latest, null, 2) + '\n', `Icono de ${latest.nombre}`);
         location.reload();
       } catch (e) { msg.textContent = e.message; save.disabled = false; }
     };
     d.onclose = () => { revision++; };
     render(); d.showModal();
+    if (/^data:image\/(?!x-icon)/i.test(value)) startCrop(value);
   }
 
   function setEditing(v) {

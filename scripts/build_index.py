@@ -69,7 +69,7 @@ def main():
             it = {
                 'c': col, 'id': rec['id'], 'n': rec.get('nombre'), 'alt': rec.get('nombre_alt'),
                 't': rec.get('tipos') or ([rec['tipo']] if rec.get('tipo') else []),
-                'r': plain(desc), 'img': bool(rec.get('imagen')),
+                'r': plain(desc), 'img': rec.get('imagen') or None,
                 'out': sorted(links),
             }
             if col == 'entes':

@@ -124,6 +124,11 @@
   const loadAreas = async () => { if (!AREAS) [AREAS, TIPO] = await Promise.all([getJSON('data/areas.json'), getJSON('data/tipologia.json')]); return AREAS; };
   const tName = (k, id) => { const x = TIPO && TIPO[k].find(a => a.id === id); return x ? x.nombre : id; };
   const areaName = id => { const x = AREAS && AREAS.areas.find(a => a.id === id); return x ? x.nombre : id; };
+  function cardHTML(i) {
+    return `<a class="gcard" href="${href(i.c, i.id)}">${i.img ? `<div class="ph"><img loading="lazy" src="${esc(i.img)}" alt="" onerror="this.parentNode.remove()"></div>` : ''}
+<div class="bd"><div class="nm">${esc(i.n)}${i.alt ? `<small>${esc(i.alt)}</small>` : ''}</div><div>${tagHTML(i.t)}</div>
+<div class="rs">${esc(i.r || '')}</div>${i.ar && i.ar.length && AREAS ? `<div class="muted" style="font-size:.75rem;margin-top:6px">${esc(i.ar.map(areaName).join(', '))}${i.cu ? ' · ' + esc(i.cu) : ''}</div>` : (i.cu ? `<div class="muted" style="font-size:.75rem;margin-top:6px">${esc(i.cu)}</div>` : '')}</div></a>`;
+  }
   function rowHTML(i) {
     return `<a class="row" href="${href(i.c, i.id)}"><div class="nm">${esc(i.n)}${i.alt ? `<small>${esc(i.alt)}</small>` : ''}</div>
 <div><div>${tagHTML(i.t)} <span class="muted" style="font-size:.75rem">${COLS[i.c].s}${i.cu ? ' · ' + esc(i.cu) : ''}${i.ar && i.ar.length && AREAS ? ' · ' + esc(i.ar.map(areaName).join(', ')) : ''}</span></div><div class="rs">${esc(i.r || '')}</div></div></a>`;
@@ -136,23 +141,24 @@
     if (col === 'lugares') await loadAreas();
     const all = I.items.filter(i => i.c === col).sort((a, b) => fold(a.n).localeCompare(fold(b.n)));
     const tipos = [...new Set(all.flatMap(i => i.t || []))].sort((a, b) => a.localeCompare(b));
+    let vista = 'tabla'; try { vista = localStorage.getItem('helenica-vista') || 'tabla'; } catch (e) {}
     const QP = new URLSearchParams(location.search);
     const st = { q: '', t: new Set(), a: QP.get('area') || '', es: QP.get('escala') || '', fo: QP.get('forma') || '', fu: QP.get('funcion') || '' };
     const FACETS = [['es', 'escala', 'escalas', 'Tier', i => [i.es]], ['fo', 'forma', 'formas', 'Forma', i => i.fo || []], ['fu', 'funcion', 'funciones', 'Función', i => i.fu || []]];
     const facetPanel = col !== 'lugares' ? '' : `<div id="facets">${FACETS.map(([k, qp, tk, lbl, get]) => `<div class="area-grp"><span class="area-lbl">${lbl}</span>${TIPO[tk].map(x => { const n = all.filter(i => get(i).includes(x.id)).length; return n ? `<button class="chip area" data-k="${k}" data-v="${x.id}" title="${esc(x.descripcion || '')}">${x.tier ? `<b style="opacity:.55">${x.tier}</b> ` : ''}${esc(x.nombre)} <span class="muted">${n}</span></button>` : ''; }).join('')}</div>`).join('')}</div>`;
-    const areaPanel = col !== 'lugares' ? '' : `<div id="areas">${AREAS.grupos.map(g => `<div class="area-grp"><span class="area-lbl">${esc(g.nombre)}</span>${AREAS.areas.filter(x => x.grupo === g.id).map(x => { const n = all.filter(i => (i.ar || []).includes(x.id)).length; return `<button class="chip area${n ? '' : ' empty'}" data-a="${x.id}" title="${esc(x.descripcion)}">${esc(x.nombre)} <span class="muted">${n}</span></button>`; }).join('')}</div>`).join('')}<p id="area-desc" class="muted"></p></div>`;
+    const areaPanel = col !== 'lugares' ? '' : `<select id="area-sel" class="sel"><option value="">Todas las áreas</option>${AREAS.grupos.map(g => { const opts = AREAS.areas.filter(x => x.grupo === g.id).map(x => [x, all.filter(i => (i.ar || []).includes(x.id)).length]).filter(([, n]) => n); return opts.length ? `<optgroup label="${esc(g.nombre)}">${opts.map(([x, n]) => `<option value="${x.id}"${st.a === x.id ? ' selected' : ''}>${esc(x.nombre)} (${n})</option>`).join('')}</optgroup>` : ''; }).join('')}</select>`;
     $('main').innerHTML = `
 <section class="hero compact"><p class="eyebrow">${all.length} fichas</p><h1>${COLS[col].p}</h1><p>${COLS[col].d}</p></section>
-<div class="tool-row"><input type="search" id="q" placeholder="Filtrar por nombre o descripción…" autocomplete="off">
+<div class="tool-row"><input type="search" id="q" placeholder="Filtrar por nombre o descripción…" autocomplete="off">${areaPanel}
+<span class="seg" id="vista"><button type="button" data-v="tabla">☰ Tabla</button><button type="button" data-v="fichas">▦ Fichas</button></span>
 <button class="btn edit-only" id="new">+ Nueva ficha</button></div>
-${areaPanel}${facetPanel}<div class="chips" id="chips">${tipos.map(t => `<button class="chip" data-t="${esc(t)}">${esc(t)} <span class="muted">${all.filter(i => (i.t || []).includes(t)).length}</span></button>`).join('')}</div>
+${col === 'lugares' ? '<p id="area-desc" class="muted"></p>' : ''}${facetPanel}<div class="chips" id="chips">${tipos.map(t => `<button class="chip" data-t="${esc(t)}">${esc(t)} <span class="muted">${all.filter(i => (i.t || []).includes(t)).length}</span></button>`).join('')}</div>
 <nav class="alphabet" id="abc"></nav><div id="out"></div>`;
     const draw = () => {
       const v = fold(st.q);
       const rows = all.filter(i => (!v || fold(`${i.n} ${i.alt || ''} ${i.r || ''}`).includes(v)) && (!st.t.size || (i.t || []).some(t => st.t.has(t))) && (!st.a || (i.ar || []).includes(st.a))
         && (col !== 'lugares' || FACETS.every(([k, , , , get]) => !st[k] || get(i).includes(st[k]))));
       if (col === 'lugares') {
-        document.querySelectorAll('#areas .chip.area').forEach(b => b.classList.toggle('on', b.dataset.a === st.a));
         document.querySelectorAll('#facets .chip.area').forEach(b => b.classList.toggle('on', st[b.dataset.k] === b.dataset.v));
         const ar = AREAS.areas.find(x => x.id === st.a);
         const parts = [ar ? `<strong>${esc(ar.nombre)}</strong> — ${esc(ar.descripcion)}` : '', ...FACETS.filter(([k]) => st[k]).map(([k, , tk]) => { const x = TIPO[tk].find(y => y.id === st[k]); return x ? `<strong>${esc(x.nombre)}</strong>${x.descripcion ? ' — ' + esc(x.descripcion) : ''}` : ''; })].filter(Boolean);
@@ -163,16 +169,21 @@ ${areaPanel}${facetPanel}<div class="chips" id="chips">${tipos.map(t => `<button
       const ordered = [...groups].sort((a, b) => a[0] === '#' ? 1 : b[0] === '#' ? -1 : a[0].localeCompare(b[0]));
       groups.clear(); ordered.forEach(([k, v]) => groups.set(k, v));
       $('#abc').innerHTML = [...groups.keys()].map(L => `<a href="#L-${L}">${L}</a>`).join('');
-      $('#out').innerHTML = [...groups].map(([L, is]) => `<h2 class="letter" id="L-${L}">${L}</h2><div class="list">${is.map(rowHTML).join('')}</div>`).join('') || '<p class="muted">Sin resultados.</p>';
+      const cards = vista === 'fichas';
+      document.querySelectorAll('#vista button').forEach(b => b.classList.toggle('on', b.dataset.v === vista));
+      $('#out').innerHTML = [...groups].map(([L, is]) => `<h2 class="letter" id="L-${L}">${L}</h2><div class="${cards ? 'grid' : 'list'}">${is.map(cards ? cardHTML : rowHTML).join('')}</div>`).join('') || '<p class="muted">Sin resultados.</p>';
     };
     $('#q').addEventListener('input', e => { st.q = e.target.value.trim(); draw(); });
     $('#chips').addEventListener('click', e => {
       const b = e.target.closest('.chip'); if (!b) return;
       const t = b.dataset.t; st.t.has(t) ? st.t.delete(t) : st.t.add(t); b.classList.toggle('on'); draw();
     });
-    if (col === 'lugares') $('#areas').addEventListener('click', e => {
-      const b = e.target.closest('.chip.area'); if (!b) return;
-      st.a = st.a === b.dataset.a ? '' : b.dataset.a;
+    $('#vista').addEventListener('click', e => {
+      const b = e.target.closest('button'); if (!b) return;
+      vista = b.dataset.v; try { localStorage.setItem('helenica-vista', vista); } catch (er) {} draw();
+    });
+    if (col === 'lugares') $('#area-sel').addEventListener('change', e => {
+      st.a = e.target.value;
       const u = new URL(location.href); st.a ? u.searchParams.set('area', st.a) : u.searchParams.delete('area'); history.replaceState(null, '', u);
       draw();
     });

@@ -18,7 +18,7 @@ main.atlas-main{width:100%;max-width:none;padding:0}
 #map.no-rv .rivers,#map.no-rv .lakes{display:none}
 #map.no-rv .feature.rio,#map.no-rv .site.k-rio{display:none!important}
 #map.no-mt .feature.monte,#map.no-mt .site.k-monte{display:none!important}
-.physical .feature{display:none;cursor:pointer}
+.physical .feature{display:none;cursor:pointer;outline:none}
 #map.natural-detail .physical .feature,.physical .feature.selected{display:block}
 .physical .extent{vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}
 .physical .monte .extent{fill:#8b7757;fill-opacity:.17;stroke:#7c684b;stroke-opacity:.65;stroke-width:1;stroke-dasharray:3 2}

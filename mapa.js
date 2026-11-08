@@ -283,7 +283,12 @@ ${physicalSVG(D, opts.selectedId)}
       badge.textContent = lvl; badge.title = `Nivel ${lvl} · ${ZL[lvl].que}`;
       main.querySelector('#zi').disabled = k >= zk(12); main.querySelector('#zo').disabled = k <= 1.001;
     }
-    function setView(v, animate) {
+    let viewFrame = 0, wheelBusy = false, wheelDelta = 0, wheelLast = 0;
+    const wheelQueue = [];
+    function setView(v, animate, onDone, duration = 420) {
+      if (viewFrame) { cancelAnimationFrame(viewFrame); viewFrame = 0; }
+      // La navegación directa interrumpe los pasos pendientes de la rueda.
+      if (!onDone) { wheelQueue.length = 0; wheelBusy = false; wheelDelta = 0; }
       const asp = (svg.clientHeight || 600) / (svg.clientWidth || 1000);
       let w = Math.min(W, Math.max(W / 60, v[2])), h = w * asp;
       if (h > H) { h = H; w = h / asp; }
@@ -291,10 +296,15 @@ ${physicalSVG(D, opts.selectedId)}
       let x = cx - w / 2, y = cy - h / 2;
       x = Math.max(Math.min(x, W - w), Math.min(0, W - w)); y = Math.max(Math.min(y, H - h), Math.min(0, H - h));
       const target = [x, y, w, h];
-      if (!animate) { view = target; apply(); return; }
-      const from = [...view], t0 = performance.now(), dur = 420;
-      const step = t => { const p = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - p, 3); view = from.map((a, i) => a + (target[i] - a) * e); apply(); if (p < 1) requestAnimationFrame(step); };
-      requestAnimationFrame(step);
+      if (!animate) { view = target; apply(); if (onDone) onDone(); return; }
+      const from = [...view], t0 = performance.now();
+      const step = t => {
+        const p = Math.min(1, (t - t0) / duration), e = 1 - Math.pow(1 - p, 3);
+        view = from.map((a, i) => a + (target[i] - a) * e); apply();
+        if (p < 1) viewFrame = requestAnimationFrame(step);
+        else { viewFrame = 0; if (onDone) onDone(); }
+      };
+      viewFrame = requestAnimationFrame(step);
     }
     // el panel tapa parte del mapa: desplazar el encuadre para que el objetivo quede a la vista
     const offset = vw => { const cw = svg.clientWidth || 1000, ch = svg.clientHeight || 600, s = vw / cw;
@@ -409,7 +419,7 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
     let drag = null, moved = false, pressedTarget = null;
     const pts = new Map();
     const toSvg = (cx, cy) => { const r = svg.getBoundingClientRect(); return [view[0] + (cx - r.left) / r.width * view[2], view[1] + (cy - r.top) / r.height * view[3]]; };
-    svg.addEventListener('pointerdown', e => { if (e.button > 0) return; pressedTarget = e.target; pts.set(e.pointerId, [e.clientX, e.clientY]); svg.setPointerCapture(e.pointerId); moved = false; drag = { v: [...view], pts: new Map(pts) }; });
+    svg.addEventListener('pointerdown', e => { if (e.button > 0) return; setView(view); pressedTarget = e.target; pts.set(e.pointerId, [e.clientX, e.clientY]); svg.setPointerCapture(e.pointerId); moved = false; drag = { v: [...view], pts: new Map(pts) }; });
     svg.addEventListener('pointermove', e => {
       if (!pts.has(e.pointerId)) { hover(e); return; }
       pts.set(e.pointerId, [e.clientX, e.clientY]);
@@ -448,10 +458,26 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
       if (f || s) { e.preventDefault(); if (f) openFeature(f.dataset.feature); else showSite(D.sites[+s.dataset.k].main); }
     });
     svg.addEventListener('pointercancel', up);
+    function nextWheelStep() {
+      const job = wheelQueue.shift();
+      if (!job) { wheelBusy = false; return; }
+      wheelBusy = true;
+      const level = zlevel(W / view[2]), next = Math.max(0, Math.min(ZL.length - 1, level + job.direction));
+      if (next === level) { nextWheelStep(); return; }
+      const f = (W / zk(next)) / view[2], [cx, cy] = toSvg(job.x, job.y);
+      setView([cx - (cx - view[0]) * f, cy - (cy - view[1]) * f, view[2] * f, view[3] * f], true, nextWheelStep, 220);
+    }
     svg.addEventListener('wheel', e => {
       e.preventDefault();
-      const f = Math.exp(e.deltaY * (e.deltaMode ? 0.05 : 0.0016)), [cx, cy] = toSvg(e.clientX, e.clientY);
-      setView([cx - (cx - view[0]) * f, cy - (cy - view[1]) * f, view[2] * f, view[3] * f]);
+      if (!e.deltaY || pts.size) return;
+      const now = performance.now(), delta = e.deltaY * (e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? svg.clientHeight : 1);
+      if (now - wheelLast > 180 || Math.sign(delta) !== Math.sign(wheelDelta)) wheelDelta = 0;
+      wheelLast = now; wheelDelta += delta;
+      // Una muesca por nivel; agrupar los eventos pequeños de un trackpad.
+      if (Math.abs(wheelDelta) < 60) return;
+      if (wheelQueue.length < ZL.length) wheelQueue.push({ direction: wheelDelta < 0 ? 1 : -1, x: e.clientX, y: e.clientY });
+      wheelDelta = 0;
+      if (!wheelBusy) nextWheelStep();
     }, { passive: false });
     svg.addEventListener('dblclick', e => { const [cx, cy] = toSvg(e.clientX, e.clientY); setView([cx - view[2] * .3, cy - view[3] * .3, view[2] * .6, view[3] * .6], true); });
     function hover(e) {
@@ -531,3 +557,4 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
 
   window.HEL_MAP = { init, mini, project: P };
 })();
+

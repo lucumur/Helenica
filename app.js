@@ -7,7 +7,7 @@
     lugares: { s: 'Lugar', p: 'Lugares', d: 'Regiones, poleis, santuarios, ríos, montes y fuentes.' },
     objetos: { s: 'Objeto', p: 'Objetos', d: 'Armas, atributos divinos, agalmata y objetos rituales.' },
   };
-  const REPO = 'lucumur/helenica';
+  const REPO = 'lucumur/Helenica';
   const $ = (s, r = document) => r.querySelector(s);
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const fold = s => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
@@ -262,7 +262,7 @@ ${dd('Elementos', md(val(r.elementos)))}${dd('Problema', md(val(r.problema)))}${
 ${dd('Forma', (r.forma || []).length ? `<ul class="md">${r.forma.map(x => { const p = x.periodo && TIPO.periodos.find(y => y.id === x.periodo); return `<li><a href="lugares.html?forma=${encodeURIComponent(x.tipo)}">${esc(tName('formas', x.tipo))}</a>${p || x.fechas ? ` <span class="muted">— ${esc(p ? p.nombre : '')}${x.fechas ? (p ? ', ' : '') + esc(x.fechas) : ''}</span>` : ''}${x.nota ? `<br><span style="font-size:.9rem">${inline(x.nota)}</span>` : ''}</li>`; }).join('')}</ul>` : '')}
 ${dd('Funciones', (r.funciones || []).map(x => `<a class="tag" style="text-decoration:none" href="lugares.html?funcion=${x}">${esc(tName('funciones', x))}</a>`).join(' '))}
 ${dd('Área', (r.areas || []).map(x => `<a href="lugares.html?area=${encodeURIComponent(x)}">${esc(areaName(x))}</a>`).join(', '))}${dd('Pertenece a', chain.map(k => linkKey(k)).join(' › '))}</dl>`;
-      if (contiene.length) side += `<div class="box"><h3>Contiene</h3>${listKeys(contiene)}</div>`;
+      attrs = attrs.replace(/<\/dl>$/, dd('Contiene', contieneHTML(r, contiene)) + '</dl>');
       if (evs.length) side += `<div class="box"><h3>Eventos aquí</h3>${listKeys(evs)}</div>`;
     } else if (col === 'objetos') {
       const evs = mark(I.evEl.get(K));
@@ -293,6 +293,25 @@ ${desc ? `<div style="font-size:1.06rem;max-width:780px">${md(desc)}</div>` : ''
 <aside>${col === 'lugares' ? '<div id="minimap"></div>' : ''}${r.imagen ? `<img src="${esc(r.imagen)}" alt="${esc(r.nombre)}" loading="lazy" onerror="this.remove()">` : ''}${side}</aside></div>`;
     $('#ed').addEventListener('click', () => window.HEL_EDIT && window.HEL_EDIT.edit(col, id, r));
     if (col === 'lugares' && window.HEL_MAP) window.HEL_MAP.mini($('#minimap'), r).catch(e => console.warn('mini-mapa', e));
+  }
+
+  // «Contiene»: grupos curados en la ficha (r.contiene) + hijos que declaran pertenece_a y no están listados (agrupados por tier).
+  function contieneHTML(r, inverse) {
+    const tierOf = k => { const it = IDX.by.get(k), x = it && TIPO && TIPO.escalas.find(y => y.id === it.es); return x ? x : null; };
+    const item = (k, nota) => { const it = IDX.by.get(k); if (!it) return ''; const t = tierOf(k);
+      return `<li>${linkKey(k)}${t && t.tier ? ` <span class="tier-b">T${t.tier}</span>` : ''}${nota ? `<span class="cnota">${inline(nota)}</span>` : ''}</li>`; };
+    const listed = new Set(), out = [];
+    (r.contiene || []).forEach(g => {
+      const ks = (g.lugares || []).filter(x => x.id).map(x => { const k = `lugares:${x.id}`; listed.add(k); return [k, x.nota]; });
+      out.push(`<div class="cgrupo"><h4>${esc(g.grupo || 'Sin grupo')} <span class="muted">· ${ks.length}</span></h4>${g.nota ? `<p class="cnota">${inline(g.nota)}</p>` : ''}<ul class="clist">${ks.map(([k, n]) => item(k, n)).join('')}</ul></div>`);
+    });
+    const rest = inverse.filter(k => !listed.has(k));
+    if (rest.length) {
+      const by = new Map();
+      rest.forEach(k => { const t = tierOf(k), key = t ? `${t.tier ? `Tier ${t.tier} · ` : ''}${t.nombre}` : 'Otros'; if (!by.has(key)) by.set(key, []); by.get(key).push(k); });
+      [...by.entries()].sort().forEach(([lbl, ks]) => out.push(`<div class="cgrupo"><h4>${esc((r.contiene || []).length ? 'Sin agrupar · ' + lbl : lbl)} <span class="muted">· ${ks.length}</span></h4><ul class="clist">${ks.sort((a, b) => IDX.by.get(a).n.localeCompare(IDX.by.get(b).n)).map(k => item(k)).join('')}</ul></div>`));
+    }
+    return out.join('');
   }
 
   function tree(pa, co, hi, he, name) {

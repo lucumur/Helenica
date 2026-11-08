@@ -26,7 +26,13 @@
     }
   ],
   "funciones": [],
-  "pertenece_a": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "mykonos-kyklades",
+      "nombre": "Mykonos"
+    }
+  ],
   "geo": {
     "punto": [
       25.33,

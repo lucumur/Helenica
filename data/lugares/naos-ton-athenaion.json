@@ -21,13 +21,19 @@
   "funciones": [
     "sagrado"
   ],
-  "pertenece_a": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "delia-kyklades",
+      "nombre": "Dēlos (isla)"
+    }
+  ],
   "geo": {
     "punto": [
-      23.7265,
-      37.9715
+      25.268,
+      37.401
     ],
     "precision": "heredada",
-    "de": "Atenas"
+    "de": "Dēlos"
   }
 }

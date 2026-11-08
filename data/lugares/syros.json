@@ -21,7 +21,13 @@
   "escala": "polis-kome",
   "forma": [],
   "funciones": [],
-  "pertenece_a": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "syros-kyklades",
+      "nombre": "Syros, Kyklades"
+    }
+  ],
   "geo": {
     "punto": [
       24.93,

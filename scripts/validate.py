@@ -125,6 +125,22 @@ try:
 except Exception as e:
     errors.append(f'data/mapa/fisico.json: no se pudo validar ({e})')
 
+# «Contiene» curado: cada lugar listado debe declarar pertenece_a → la ficha, y cada hijo directo debe estar listado.
+byid = {r.get('id'): (rel, r) for rel, r in recs if rel.startswith('lugares/') or '/lugares/' in rel}
+for rel, r in list(byid.values()):
+    if not r.get('contiene'): continue
+    listed = set()
+    for g in r['contiene']:
+        if not isinstance(g, dict) or not isinstance(g.get('lugares'), list):
+            errors.append(f'{rel}: contiene debe ser una lista de grupos {{grupo, nota, lugares}}'); continue
+        for x in g['lugares']:
+            cid = x.get('id'); listed.add(cid)
+            if cid in byid and not any(p.get('id') == r['id'] for p in byid[cid][1].get('pertenece_a') or []):
+                warns.append(f"{rel}: contiene {cid}, pero {cid} no declara pertenece_a {r['id']}")
+    for cid, (crel, c) in byid.items():
+        if cid not in listed and any(p.get('id') == r['id'] for p in c.get('pertenece_a') or []):
+            warns.append(f"{rel}: {cid} pertenece a esta ficha pero no está en ningún grupo de contiene")
+
 for w in warns[:200]: print('AVISO', w)
 for e in errors: print('ERROR', e)
 print(f'{len(recs)} fichas · {len(errors)} errores · {len(warns)} avisos')

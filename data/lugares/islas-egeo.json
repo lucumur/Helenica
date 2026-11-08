@@ -22,5 +22,202 @@
       "titulo": "Criterio de delimitación",
       "texto": "Esta ficha representa una gran agrupación geográfica del catálogo de Helénica. Su denominación organiza la navegación y no implica una unidad política antigua."
     }
+  ],
+  "contiene": [
+    {
+      "grupo": "Cícladas",
+      "nota": "Kykládes, «las del círculo» en torno a Delos. El núcleo antiguo (Delos, Rheneia, Mykonos, Tenos, Andros, Keos, Kythnos, Seriphos, Siphnos, Paros, Naxos, Syros) es estable; Melos, Thera, Anaphe, Ios, Sikinos, Pholegandros y Amorgos aparecen en otras fuentes (p. ej. Estrabón 10.5) entre las Espóradas. Aquí se sigue el uso moderno.",
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "delia-kyklades",
+          "nombre": "Dēlos (isla)"
+        },
+        {
+          "col": "lugares",
+          "id": "andros-kyklades",
+          "nombre": "Andros"
+        },
+        {
+          "col": "lugares",
+          "id": "tenos-kyklades",
+          "nombre": "Tēnos"
+        },
+        {
+          "col": "lugares",
+          "id": "mykonos-kyklades",
+          "nombre": "Mykonos"
+        },
+        {
+          "col": "lugares",
+          "id": "syros-kyklades",
+          "nombre": "Syros, Kyklades"
+        },
+        {
+          "col": "lugares",
+          "id": "keos-kyklades",
+          "nombre": "Kéōs"
+        },
+        {
+          "col": "lugares",
+          "id": "kythnos-kyklades",
+          "nombre": "Kýthnos"
+        },
+        {
+          "col": "lugares",
+          "id": "seriphos-kyklades",
+          "nombre": "Sériphos"
+        },
+        {
+          "col": "lugares",
+          "id": "siphnos-kyklades",
+          "nombre": "Síphnos"
+        },
+        {
+          "col": "lugares",
+          "id": "paros-kyklades",
+          "nombre": "Paros"
+        },
+        {
+          "col": "lugares",
+          "id": "oliaros-kyklades",
+          "nombre": "Ōliaros"
+        },
+        {
+          "col": "lugares",
+          "id": "naxos-kyklades",
+          "nombre": "Naxos"
+        },
+        {
+          "col": "lugares",
+          "id": "donousa-kyklades",
+          "nombre": "Donousa"
+        },
+        {
+          "col": "lugares",
+          "id": "amorgos-kyklades",
+          "nombre": "Amorgós"
+        },
+        {
+          "col": "lugares",
+          "id": "ios-kyklades",
+          "nombre": "Ios"
+        },
+        {
+          "col": "lugares",
+          "id": "sikinos-kyklades",
+          "nombre": "Síkinos"
+        },
+        {
+          "col": "lugares",
+          "id": "pholegandros-kyklades",
+          "nombre": "Pholegandros"
+        },
+        {
+          "col": "lugares",
+          "id": "kimolos-kyklades",
+          "nombre": "Kímōlos"
+        },
+        {
+          "col": "lugares",
+          "id": "melos-kyklades",
+          "nombre": "Mēlos"
+        },
+        {
+          "col": "lugares",
+          "id": "thera-kyklades",
+          "nombre": "Thēra"
+        },
+        {
+          "col": "lugares",
+          "id": "anaphe-kyklades",
+          "nombre": "Anaphē"
+        }
+      ]
+    },
+    {
+      "grupo": "Espóradas del norte",
+      "nota": "Nombre moderno. En la Antigüedad, islas frente a Magnesia; Skyros se asocia a Aquiles y Teseo, y fue cleruquía ateniense desde 476/5 a.C.",
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "skiathos-sporades",
+          "nombre": "Skiathos"
+        },
+        {
+          "col": "lugares",
+          "id": "peparethos-sporades",
+          "nombre": "Peparethos"
+        },
+        {
+          "col": "lugares",
+          "id": "ikos-sporades",
+          "nombre": "Ikos"
+        },
+        {
+          "col": "lugares",
+          "id": "skyros-sporades",
+          "nombre": "Skyros"
+        }
+      ]
+    },
+    {
+      "grupo": "Islas del norte del Egeo",
+      "nota": "Islas frente a la costa tracia. Thasos colonizada desde Paros (s. VII a.C.); Lemnos e Imbros, de población no griega hasta la conquista ateniense (Milcíades, c. 500 a.C.).",
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "thasos-egeo",
+          "nombre": "Thasos"
+        },
+        {
+          "col": "lugares",
+          "id": "samothrake-egeo",
+          "nombre": "Samothrakē"
+        },
+        {
+          "col": "lugares",
+          "id": "lemnos-egeo",
+          "nombre": "Lēmnos"
+        },
+        {
+          "col": "lugares",
+          "id": "imbros-egeo",
+          "nombre": "Imbros"
+        }
+      ]
+    },
+    {
+      "grupo": "Espóradas del sur",
+      "nota": "Islas entre las Cícladas y la costa caria. «Dodecaneso» es denominación moderna; las islas dorias mayores (Rodas, Kos) se agrupan en Dóride asiática.",
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "astypalaia-egeo",
+          "nombre": "Astypalaia"
+        },
+        {
+          "col": "lugares",
+          "id": "patmos-egeo",
+          "nombre": "Patmos"
+        },
+        {
+          "col": "lugares",
+          "id": "kasos-egeo",
+          "nombre": "Kasos"
+        }
+      ]
+    },
+    {
+      "grupo": "Egeo oriental",
+      "nota": "Islas menores frente a Jonia; Chios, Samos y Lesbos se agrupan con Jonia y Eólide.",
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "psyra-egeo",
+          "nombre": "Psyra"
+        }
+      ]
+    }
   ]
 }

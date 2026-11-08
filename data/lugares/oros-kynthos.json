@@ -16,7 +16,7 @@
   "areas": [
     "islas-egeo"
   ],
-  "escala": "chora",
+  "escala": "moira",
   "forma": [],
   "funciones": [
     "natural"
@@ -24,8 +24,8 @@
   "pertenece_a": [
     {
       "col": "lugares",
-      "id": "islas-egeo",
-      "nombre": "Islas del Egeo"
+      "id": "delia-kyklades",
+      "nombre": "Dēlos (isla)"
     }
   ],
   "geo": {

@@ -112,3 +112,40 @@ button.chip.area.empty{opacity:.45}
 /* Acceso al atlas desde Inicio y Lugares. */
 a.btn{text-decoration:none;display:inline-block}
 .atlas-entry{margin:24px 0 0}
+/* Contiene (subdivisiones) */
+.cgrupo{margin:0 0 14px}.cgrupo h4{margin:0 0 4px;font:600 1rem var(--serif)}
+.cgrupo>.cnota{margin:0 0 6px;font-size:.88rem;color:var(--muted)}
+.clist{margin:0;padding:0;list-style:none;columns:2 220px;column-gap:22px}
+.clist li{break-inside:avoid;padding:2px 0}.clist .cnota{display:block;font-size:.82rem;color:var(--muted)}
+.tier-b{font:700 .66rem ui-monospace,monospace;color:var(--muted);border:1px solid var(--line);border-radius:5px;padding:0 4px;margin-left:3px}
+/* Editor de formulario */
+dialog.fe{width:min(900px,96vw);max-height:92vh;padding:0}
+dialog.fe form{display:flex;flex-direction:column;max-height:92vh}
+.fe-head{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;border-bottom:1px solid var(--line)}
+.fe-head h3{margin:0;font-family:var(--serif)}
+#fe-body{overflow:auto;padding:6px 18px 12px}
+dialog.fe .bar{padding:10px 18px;border-top:1px solid var(--line);margin:0}
+.fe section{border-bottom:1px dashed var(--line);padding:12px 0}
+.fe h4{margin:0 0 8px;font:700 .78rem Inter,sans-serif;text-transform:uppercase;letter-spacing:.1em;color:var(--accent)}
+.fe h4 small{text-transform:none;letter-spacing:0;color:var(--muted);font-weight:500}
+.fe label{display:block;font-size:.8rem;font-weight:700;color:var(--muted);margin:0 0 8px}
+.fe input,.fe select,.fe textarea{font:inherit;font-size:.92rem;font-weight:400;color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:6px 9px;background:#fff;width:100%;box-sizing:border-box}
+.fe textarea{height:auto;font-family:inherit;resize:vertical}
+.fe input.bad{border-color:#c0392b;background:#fff3f0}
+.fe-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 12px}
+.fe-row{display:flex;gap:6px;align-items:center;margin:0 0 6px}
+.fe-row input,.fe-row select{flex:1}
+.fe button[type=button]{font:inherit;font-size:.82rem;border:1px solid var(--line);background:var(--paper);border-radius:7px;padding:4px 9px;cursor:pointer;white-space:nowrap}
+.fe button[type=button]:hover{border-color:var(--accent)}
+.fe-chips,.fe-pe{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:4px}
+.fe-chips select,.fe-pe input{width:auto;flex:1 1 200px}
+.fe-chip{display:inline-flex;align-items:center;gap:4px;background:var(--chip,#efe6d5);border-radius:999px;padding:2px 4px 2px 10px;font-size:.84rem;font-weight:600;color:var(--ink)}
+.fe .fe-chip .x{border:0!important;background:none!important;padding:0 5px!important;font-size:1rem!important}
+.fe-grupo{border:1px solid var(--line);border-radius:10px;padding:10px;margin:0 0 10px;background:#fffdf8}
+.fe-gname{font-weight:700!important;font-family:var(--serif)!important;font-size:1.02rem!important}
+.fe-li{display:grid;grid-template-columns:14px 1.3fr 1fr auto auto auto;gap:6px;align-items:center;margin:5px 0}
+.fe-li .h{color:var(--line);cursor:default}
+.fe-sec{margin:0 0 10px}.fe-sec textarea{margin-bottom:4px}
+.fe .hint{font-size:.8rem;color:var(--muted);margin:0 0 8px}
+.fe-link{margin-top:4px}
+@media (max-width:640px){.fe-grid{grid-template-columns:1fr}.fe-li{grid-template-columns:1fr auto auto auto}.fe-li .h{display:none}.fe-li .fe-nota{grid-column:1/-1;order:9}}

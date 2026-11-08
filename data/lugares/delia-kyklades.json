@@ -1,8 +1,8 @@
 {
   "id": "delia-kyklades",
   "tana_id": "cd0tOiYhJW4W",
-  "nombre": "Delia, Kyklades",
-  "nombre_alt": null,
+  "nombre": "Dēlos (isla)",
+  "nombre_alt": "Delia",
   "titulo_tana": "Delia, Kyklades",
   "etiquetas_tana": [
     "chora"
@@ -248,7 +248,8 @@
   ],
   "secciones": [],
   "tipos": [
-    "Chora"
+    "Chora",
+    "Isla"
   ],
   "areas": [
     "islas-egeo"

@@ -22,7 +22,13 @@
     "sagrado",
     "comercial"
   ],
-  "pertenece_a": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "delia-kyklades",
+      "nombre": "Dēlos (isla)"
+    }
+  ],
   "geo": {
     "punto": [
       25.268,

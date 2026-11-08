@@ -18,17 +18,16 @@
   // Nivel = último umbral alcanzado. k = ancho del atlas / ancho del encuadre.
   const ZL = [
     { n: 1, k: 1, que: 'Regiones amplias y las cinco capitales' },
-    { n: 2, reduccion: 0.5, que: 'Regiones amplias, tier 1' },
+    { n: 2, reduccion: 0.7, que: 'Regiones amplias, tier 1' },
     { n: 3, reduccion: 0.5, que: 'Regiones amplias, tier 1' },
     { n: 4, reduccion: 0.45, que: 'Argos, Corinto, Esparta, Elis y Orcómeno' },
-    { n: 5, reduccion: 0.4, que: 'Subregiones, demás lugares, cauces y macizos' },
-    { n: 6, reduccion: 0.35, que: 'Islas del Egeo, cada una con nombre y capital' },
-    { n: 7, reduccion: 0.35, que: 'Encuadre de una chora; iconos y nombres de ríos y montes' },
-    { n: 8, reduccion: 0.3, que: 'Encuadre de una polis' },
-    { n: 9, reduccion: 0.3, que: 'Tope de zoom' },
+    { n: 5, reduccion: 0.45, que: 'Subregiones, demás lugares, cauces y macizos' },
+    { n: 6, reduccion: 0.4, que: 'Islas del Egeo, cada una con nombre y capital' },
+    { n: 7, reduccion: 0.4, que: 'Encuadre de una chora; iconos y nombres de ríos y montes' },
   ];
   // Cada porcentaje reduce el ancho visible respecto al nivel anterior.
   for (let i = 1; i < ZL.length; i++) ZL[i].k = ZL[i - 1].k / (1 - ZL[i].reduccion);
+  const MAX_ZOOM = ZL[ZL.length - 1].n;
   const zk = n => ZL[n - 1].k;
   const zlevel = k => { let n = 1; for (const z of ZL) if (k + 1e-9 >= z.k) n = z.n; return n; };
   // Distancia y anchura de la barra de escala.
@@ -279,7 +278,7 @@ ${physicalSVG(D, opts.selectedId)}
       main.querySelector('#sbar').style.width = `${scale.pixels}px`; main.querySelector('#slab').textContent = `${scale.km} km`;
       const badge = main.querySelector('#zl');
       badge.textContent = lvl; badge.title = `Nivel ${lvl} · ${ZL[lvl - 1].que}`;
-      main.querySelector('#zi').disabled = k + 1e-9 >= zk(9); main.querySelector('#zo').disabled = k <= 1.001;
+      main.querySelector('#zi').disabled = k + 1e-9 >= zk(MAX_ZOOM); main.querySelector('#zo').disabled = k <= 1.001;
     }
     let viewFrame = 0, wheelTarget = null, wheelVelocity = 0, wheelTime = 0;
     let wheelDelta = 0, wheelLast = 0, wheelDirection = 0, wheelAnchor = null;
@@ -290,7 +289,7 @@ ${physicalSVG(D, opts.selectedId)}
     }
     function constrainView(v) {
       const asp = (svg.clientHeight || 600) / (svg.clientWidth || 1000);
-      let w = Math.min(W, Math.max(W / zk(9), v[2])), h = w * asp;
+      let w = Math.min(W, Math.max(W / zk(MAX_ZOOM), v[2])), h = w * asp;
       if (h > H) { h = H; w = h / asp; }
       const cx = v[0] + v[2] / 2, cy = v[1] + v[3] / 2;
       let x = cx - w / 2, y = cy - h / 2;
@@ -493,7 +492,7 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
         if (viewFrame) cancelAnimationFrame(viewFrame);
         wheelVelocity = 0; wheelTime = performance.now();
       }
-      wheelTarget = Math.max(ZL[0].n, Math.min(ZL[ZL.length - 1].n, base + direction));
+      wheelTarget = Math.max(ZL[0].n, Math.min(MAX_ZOOM, base + direction));
       wheelDirection = direction; wheelAnchor = { x, y };
       if (!active) viewFrame = requestAnimationFrame(wheelFrame);
     }

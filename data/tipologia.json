@@ -117,12 +117,13 @@
   "funciones": [
     {
       "id": "demos-civico",
-      "nombre": "Demos (unidad cívica)",
-      "descripcion": "Aldea o distrito con estatus de demos administrativo (Ática de Clistenes, Eretria, Rodas)."
+      "nombre": "Demos",
+      "descripcion": "Aldea o distrito con estatus de demos administrativo (Ática de Clístenes, Eretria, Rodas)."
     },
     {
       "id": "sagrado",
-      "nombre": "Sagrado"
+      "nombre": "Hieron",
+      "descripcion": "Santuario, témenos, templo, altar o lugar de culto."
     },
     {
       "id": "funerario",
@@ -138,23 +139,13 @@
     },
     {
       "id": "portuario",
-      "nombre": "Portuario"
-    },
-    {
-      "id": "epineion",
-      "nombre": "Epineion (puerto de una polis)"
-    },
-    {
-      "id": "emporion",
-      "nombre": "Emporion"
+      "nombre": "Portuario",
+      "descripcion": "Puerto, fondeadero o epineion (puerto de una polis)."
     },
     {
       "id": "apoikia",
-      "nombre": "Apoikia (colonia)"
-    },
-    {
-      "id": "perioikis",
-      "nombre": "Perioikis (dependiente)"
+      "nombre": "Apoikia",
+      "descripcion": "Colonia."
     },
     {
       "id": "militar",
@@ -165,16 +156,13 @@
       "nombre": "Residencial"
     },
     {
-      "id": "elite",
-      "nombre": "Élite"
-    },
-    {
       "id": "hidraulico",
       "nombre": "Hidráulico"
     },
     {
       "id": "espectaculos",
-      "nombre": "Espectáculos y atletismo"
+      "nombre": "Ocio",
+      "descripcion": "Espectáculos y atletismo: teatro, estadio, gimnasio, palestra."
     },
     {
       "id": "productivo",
@@ -182,7 +170,8 @@
     },
     {
       "id": "comunicacion",
-      "nombre": "Comunicación (vía, paso)"
+      "nombre": "Ódico",
+      "descripcion": "Vías y pasos (de hodós, camino)."
     },
     {
       "id": "natural",
@@ -193,52 +182,72 @@
     {
       "id": "micenico",
       "nombre": "Micénico",
-      "fechas": "ca. 1600–1100 a.C."
+      "fechas": "ca. 1600–1100 a.C.",
+      "desde": -1600,
+      "hasta": -1100
     },
     {
       "id": "geometrico",
       "nombre": "Geométrico",
-      "fechas": "ca. 1000–750 a.C."
+      "fechas": "ca. 1000–750 a.C.",
+      "desde": -1000,
+      "hasta": -750
     },
     {
       "id": "arcaico",
       "nombre": "Arcaico",
-      "fechas": "ca. 750–480 a.C."
+      "fechas": "ca. 750–480 a.C.",
+      "desde": -750,
+      "hasta": -480
     },
     {
       "id": "clasico",
       "nombre": "Clásico",
-      "fechas": "480–323 a.C."
+      "fechas": "480–323 a.C.",
+      "desde": -480,
+      "hasta": -323
     },
     {
       "id": "helenistico",
       "nombre": "Helenístico",
-      "fechas": "323–146 a.C."
+      "fechas": "323–146 a.C.",
+      "desde": -323,
+      "hasta": -146
     },
     {
       "id": "romano",
       "nombre": "Romano",
-      "fechas": "146 a.C.–ca. 300 d.C."
+      "fechas": "146 a.C.–ca. 300 d.C.",
+      "desde": -146,
+      "hasta": 300
     },
     {
       "id": "tardoantiguo",
       "nombre": "Tardoantiguo y bizantino temprano",
-      "fechas": "ca. 300–1000 d.C."
+      "fechas": "ca. 300–1000 d.C.",
+      "desde": 300,
+      "hasta": 1000
     },
     {
       "id": "medieval",
       "nombre": "Medieval",
-      "fechas": "1000–1460"
+      "fechas": "1000–1460",
+      "desde": 1000,
+      "hasta": 1460
     },
     {
       "id": "otomano",
       "nombre": "Otomano y veneciano",
-      "fechas": "1460–1821"
+      "fechas": "1460–1821",
+      "desde": 1460,
+      "hasta": 1821
     },
     {
       "id": "moderno",
       "nombre": "Moderno",
-      "fechas": "1821–"
+      "fechas": "1821–",
+      "desde": 1821,
+      "hasta": null
     }
   ]
 }

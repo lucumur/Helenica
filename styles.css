@@ -162,3 +162,5 @@ dialog.fe .bar{padding:10px 18px;border-top:1px solid var(--line);margin:0}
 .fe-link{margin-top:4px}
 @media (max-width:640px){.fe-grid{grid-template-columns:1fr}.fe-li{grid-template-columns:1fr auto auto auto}.fe-li .h{display:none}.fe-li .fe-nota{grid-column:1/-1;order:9}}
 
+
+.tags-fold{margin:6px 0 4px}.tags-fold>summary{cursor:pointer;font-size:.85rem;color:var(--muted,#7a6a5a);list-style:none;display:inline-block;padding:2px 0}.tags-fold>summary::before{content:'▸ '}.tags-fold[open]>summary::before{content:'▾ '}.tags-fold .chips{margin-top:6px}

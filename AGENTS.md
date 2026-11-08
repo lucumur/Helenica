@@ -97,7 +97,8 @@ Tipología de lugares (`data/tipologia.json`, tres ejes):
   ]
   ```
   Tipos: `kome`, `hieropolis`, `anaktoron`, `polis`, `polis-amurallada`, `teichos` (amurallamiento sin élite, tipo Gla), `phrourion`, `multinucleado` (katà kōmas), `mononucleado-difuso`, `polis-sinecizada`. Periodos: `micenico`, `geometrico`, `arcaico`, `clasico`, `helenistico`, `romano`, `tardoantiguo`, `medieval`, `otomano`, `moderno`. Asignar forma solo cuando lo sustente una fuente o el propio texto de la ficha.
-- `funciones` (varias): `demos-civico`, `sagrado`, `funerario`, `civico`, `comercial`, `portuario`, `epineion`, `emporion`, `apoikia`, `perioikis`, `militar`, `residencial`, `elite`, `hidraulico`, `espectaculos`, `productivo`, `comunicacion`, `natural`.
+- `funciones` (varias; id → nombre): `demos-civico` Demos, `sagrado` Hieron, `funerario`, `civico`, `comercial`, `portuario` (incluye el epineion), `apoikia`, `militar`, `residencial`, `hidraulico`, `espectaculos` Ocio, `productivo`, `comunicacion` Ódico, `natural`.
+- La lista de lugares filtra por Tier, Fecha y Función. Fecha = las del selector del mapa; una ficha entra si su `epoca.anio` es esa fecha, si su vigencia (`geo.desde`/`hasta`) la incluye o si un periodo de su `forma` la cubre (rangos en `tipologia.json` → `periodos[].desde/hasta`). Las etiquetas (`tipos`) quedan plegadas bajo «Etiquetas».
 
 Para agregar un tipo nuevo de cualquier eje, añádelo primero a `data/tipologia.json` (id, nombre, descripción); el validador rechaza valores no definidos.
 

@@ -53,6 +53,9 @@ def outlinks(obj, acc):
 
 def main():
     items = []
+    years = [p['anio'] for p in json.load(open(os.path.join(DATA, 'mapa', 'periodos.json'), encoding='utf-8'))['periodos']]
+    rng = {p['id']: (p.get('desde'), p.get('hasta')) for p in json.load(open(os.path.join(DATA, 'tipologia.json'), encoding='utf-8'))['periodos']}
+    inr = lambda y, a, b: (a is None or a <= y) and (b is None or y <= b)
     for col in COLS:
         for path in sorted(glob.glob(os.path.join(DATA, col, '*.json'))):
             with open(path, encoding='utf-8') as fh:
@@ -96,6 +99,17 @@ def main():
                 g = rec.get('geo') or {}
                 if g.get('desde') is not None or g.get('hasta') is not None:
                     it['vi'] = [g.get('desde'), g.get('hasta')]
+                # Fechas del selector que cubre: época de referencia, vigencia (geo.desde/hasta) o periodos de su forma.
+                fe = set()
+                if (rec.get('epoca') or {}).get('anio') in years:
+                    fe.add(rec['epoca']['anio'])
+                if 'vi' in it:
+                    fe.update(y for y in years if inr(y, *it['vi']))
+                for x in rec.get('forma') or []:
+                    if x.get('periodo') in rng:
+                        fe.update(y for y in years if inr(y, *rng[x['periodo']]))
+                if fe:
+                    it['fe'] = sorted(fe)
             if rec.get('contenido_en', {}).get('id'):
                 it['en'] = f"{rec['contenido_en']['col']}:{rec['contenido_en']['id']}"
             items.append(it)

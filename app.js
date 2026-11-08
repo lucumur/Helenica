@@ -145,13 +145,20 @@
   async function list(col) {
     header(col);
     const I = await loadIndex();
-    if (col === 'lugares') await loadAreas();
+    if (col === 'lugares') {
+      await loadAreas();
+      if (!TIPO.fechas) {
+        const per = await getJSON('data/mapa/periodos.json');
+        const pn = y => (TIPO.periodos.find(x => x.desde != null && x.desde <= y && (x.hasta == null || y < x.hasta)) || {}).nombre;
+        TIPO.fechas = per.periodos.map(x => ({ id: String(x.anio), nombre: x.etiqueta, descripcion: `${pn(x.anio) || ''} · lugares cuya época, vigencia o forma incluye esa fecha` }));
+      }
+    }
     const all = I.items.filter(i => i.c === col).sort((a, b) => fold(a.n).localeCompare(fold(b.n)));
     const tipos = [...new Set(all.flatMap(i => i.t || []))].sort((a, b) => a.localeCompare(b));
     let vista = 'tabla'; try { vista = localStorage.getItem('helenica-vista') || 'tabla'; } catch (e) {}
     const QP = new URLSearchParams(location.search);
-    const st = { q: '', t: new Set(), a: QP.get('area') || '', es: QP.get('escala') || '', fo: QP.get('forma') || '', fu: QP.get('funcion') || '' };
-    const FACETS = [['es', 'escala', 'escalas', 'Tier', i => [i.es]], ['fo', 'forma', 'formas', 'Forma', i => i.fo || []], ['fu', 'funcion', 'funciones', 'Función', i => i.fu || []]];
+    const st = { q: '', t: new Set(), a: QP.get('area') || '', es: QP.get('escala') || '', fe: QP.get('fecha') || '', fu: QP.get('funcion') || '' };
+    const FACETS = [['es', 'escala', 'escalas', 'Tier', i => [i.es]], ['fe', 'fecha', 'fechas', 'Fecha', i => (i.fe || []).map(String)], ['fu', 'funcion', 'funciones', 'Función', i => i.fu || []]];
     const facetPanel = col !== 'lugares' ? '' : `<div id="facets">${FACETS.map(([k, qp, tk, lbl, get]) => `<div class="area-grp"><span class="area-lbl">${lbl}</span>${TIPO[tk].map(x => { const n = all.filter(i => get(i).includes(x.id)).length; return n ? `<button class="chip area" data-k="${k}" data-v="${x.id}" title="${esc(x.descripcion || '')}">${x.tier != null ? `<b style="opacity:.55">${x.tier}</b> ` : ''}${esc(x.nombre)} <span class="muted">${n}</span></button>` : ''; }).join('')}</div>`).join('')}</div>`;
     const areaPanel = col !== 'lugares' ? '' : `<select id="area-sel" class="sel"><option value="">Todas las áreas</option>${AREAS.grupos.map(g => { const opts = AREAS.areas.filter(x => x.grupo === g.id).map(x => [x, all.filter(i => (i.ar || []).includes(x.id)).length]); return opts.length ? `<optgroup label="${esc(g.nombre)}">${opts.map(([x, n]) => `<option value="${x.id}"${st.a === x.id ? ' selected' : ''}>${esc(x.nombre)} (${n})</option>`).join('')}</optgroup>` : ''; }).join('')}</select>`;
     $('main').innerHTML = `
@@ -159,7 +166,7 @@
 <div class="tool-row"><input type="search" id="q" placeholder="Filtrar por nombre o descripción…" autocomplete="off">${areaPanel}
 <span class="seg" id="vista"><button type="button" data-v="tabla">☰ Tabla</button><button type="button" data-v="fichas">▦ Fichas</button></span>
 ${col === 'lugares' ? '<a class="btn ghost" href="mapa.html">Ver mapa ↗</a>' : ''}<button class="btn edit-only" id="new">+ Nueva ficha</button></div>
-${col === 'lugares' ? '<p id="area-desc" class="muted"></p>' : ''}${facetPanel}<div class="chips" id="chips">${tipos.map(t => `<button class="chip" data-t="${esc(t)}">${esc(t)} <span class="muted">${all.filter(i => (i.t || []).includes(t)).length}</span></button>`).join('')}</div>
+${col === 'lugares' ? '<p id="area-desc" class="muted"></p>' : ''}${facetPanel}${col === 'lugares' ? `<details class="tags-fold"><summary>Etiquetas <span class="muted">${tipos.length}</span></summary>` : ''}<div class="chips" id="chips">${tipos.map(t => `<button class="chip" data-t="${esc(t)}">${esc(t)} <span class="muted">${all.filter(i => (i.t || []).includes(t)).length}</span></button>`).join('')}</div>${col === 'lugares' ? '</details>' : ''}
 <nav class="alphabet" id="abc"></nav><div id="out"></div>`;
     const draw = () => {
       const v = fold(st.q);

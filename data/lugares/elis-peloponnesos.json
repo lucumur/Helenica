@@ -1,0 +1,35 @@
+{
+  "tana_id": null,
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Situación",
+      "texto": "Punto de referencia de la polis, aproximado."
+    }
+  ],
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "id": "elis-peloponnesos",
+  "nombre": "Ēlis",
+  "nombre_alt": "Elis",
+  "titulo_tana": "Ēlis (Elis)",
+  "etiquetas_tana": [
+    "Polis"
+  ],
+  "tipos": [
+    "Polis"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "polis-kome",
+  "geo": {
+    "punto": [
+      21.374,
+      37.892
+    ],
+    "precision": "aprox"
+  }
+}

@@ -39,6 +39,7 @@ main.atlas-main{width:100%;max-width:none;padding:0}
 .sea-l.big text{font-size:15px;letter-spacing:.3em;fill:#5b807b;opacity:.85}
 .site{cursor:pointer;outline:none}
 .site .mk{fill:#7a2e14;stroke:#fffaf0;stroke-width:1.6}
+.site.capital .mk{fill:#1c3330;stroke:#fffaf0;stroke-width:1.8}
 .site.chora .mk,.site.ethnos .mk{fill:#1f3a5f}
 .site:hover .mk,.site:focus .mk{stroke:#111;stroke-width:2.2}
 .site.on .mk{fill:#c2410c;stroke:#111;stroke-width:2.4}

@@ -17,15 +17,15 @@
   const TIER_ICON = { chora: 'diamond', ethnos: 'diamond', 'polis-kome': 'circle', demos: 'small', moira: 'small', oikema: 'small' };
   // Nivel = último umbral alcanzado. k = ancho del atlas / ancho del encuadre.
   const ZL = [
-    { n: 0, k: 1, que: 'Áreas, mares grandes, ríos mayores' },
-    { n: 1, k: 2.2, que: 'Cauce de ríos y extensión de montañas' },
+    { n: 0, k: 1, que: 'Regiones amplias y las cinco capitales' },
+    { n: 1, k: 2.2, que: 'Regiones amplias y las cinco capitales' },
     { n: 2, k: 2.4, que: 'Regiones amplias, tier 1' },
-    { n: 3, k: 2.5, que: 'Ríos menores de la costa' },
+    { n: 3, k: 2.5, que: 'Regiones amplias y las cinco capitales' },
     { n: 4, k: 3.2, que: 'Regiones amplias, tier 1' },
     { n: 5, k: 4, que: 'Regiones amplias, tier 1' },
     { n: 6, k: 4.5, que: 'Regiones amplias, tier 1' },
-    { n: 7, k: 5, que: 'Regiones amplias, cauces y macizos' },
-    { n: 8, k: 7, que: 'Subregiones' },
+    { n: 7, k: 5, que: 'Argos, Corinto, Esparta, Elis y Orcómeno' },
+    { n: 8, k: 7, que: 'Subregiones, demás lugares, cauces y macizos' },
     { n: 9, k: 9, que: 'El nombre de la gran área se atenúa' },
     { n: 10, k: 10, que: 'Encuadre de una chora' },
     { n: 11, k: 18, que: 'Encuadre de una polis' },
@@ -41,6 +41,14 @@
     return { km, pixels: km / kmPerPx };
   };
   const naturalKind = i => (i.t || []).includes('Monte') ? 'monte' : (i.t || []).includes('Río') ? 'rio' : null;
+  // Visibles en todo zoom anterior al nivel 8. El resto de lugares espera a ese nivel.
+  const CAPITAL = {
+    'argos-argolis': 'Argos',
+    'qorinthos-korinthia': 'Corinto',
+    'esparta-laconia': 'Esparta',
+    'elis-peloponnesos': 'Elis',
+    'orkhomenos-arkadia': 'Orcómeno',
+  };
 
   let DATA = null;
   async function load() {
@@ -72,10 +80,12 @@
     }
     const sites = [...seen.values()].map(s => {
       s.items.sort((a, b) => (a.es === 'polis-kome' ? 0 : 1) - (b.es === 'polis-kome' ? 0 : 1) || a.n.length - b.n.length);
-      s.main = s.items[0]; s.tier = s.items.some(i => i.es === 'polis-kome') ? 'polis-kome' : s.main.es;
+      const cap = s.items.find(i => CAPITAL[i.id]);
+      s.capital = !!cap;
+      s.main = cap || s.items[0]; s.tier = s.items.some(i => i.es === 'polis-kome') ? 'polis-kome' : s.main.es;
       s.kind = naturalKind(s.main) || s.tier;
-      s.label = s.main.n.replace(/\s*\(.*$/, '').split(',')[0].trim();
-      s.rank = (s.tier === 'polis-kome' ? 0 : s.kind === 'monte' || s.kind === 'rio' ? 2 : 1) - Math.min(s.items.length, 4) * .1;
+      s.label = cap ? CAPITAL[cap.id] : s.main.n.replace(/\s*\(.*$/, '').split(',')[0].trim();
+      s.rank = (cap ? -1 : s.tier === 'polis-kome' ? 0 : s.kind === 'monte' || s.kind === 'rio' ? 2 : 1) - Math.min(s.items.length, 4) * .1;
       return s;
     });
     const seas = lugares.filter(i => i.es === 'region' && i.pt);
@@ -143,7 +153,7 @@ ${physicalSVG(D, opts.selectedId)}
   <aside id="panel" class="panel" hidden></aside>
   <div id="tip" class="tip" hidden></div>
 </div>
-<p class="atlas-src">Costa y agua de base: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>. Trazados fluviales: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL). Macizos: <a href="https://doi.org/10.48601/earthenv-t9k2-1407" target="_blank" rel="noopener">GMBA Mountain Inventory v2</a> (CC BY 4.0). Las extensiones son cartográficas y aproximadas; los cauces modernos no reconstruyen sus cambios antiguos. Las fronteras regionales son convencionales. Cauces y macizos desde el nivel 1.</p>`;
+<p class="atlas-src">Costa y agua de base: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>. Trazados fluviales: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL). Macizos: <a href="https://doi.org/10.48601/earthenv-t9k2-1407" target="_blank" rel="noopener">GMBA Mountain Inventory v2</a> (CC BY 4.0). Las extensiones son cartográficas y aproximadas; los cauces modernos no reconstruyen sus cambios antiguos. Las fronteras regionales son convencionales. Cauces, macizos y el resto de lugares desde el nivel 8.</p>`;
     const svg = main.querySelector('#map'), panel = main.querySelector('#panel'), tip = main.querySelector('#tip');
     const gSites = svg.querySelector('.sites'), gLab = svg.querySelector('.alabels'), gSeas = svg.querySelector('.seas'), gHl = svg.querySelector('.hl');
     let view = [0, 0, W, H], selArea = null, selSite = null, T = null;
@@ -193,15 +203,15 @@ ${physicalSVG(D, opts.selectedId)}
         .map(([t, c]) => { const [x, y] = P(c); return `<g class="sea-l big" transform="translate(${x},${y})"><text text-anchor="middle">${t}</text></g>`; }).join('');
     gSites.innerHTML = D.sites.map((s, k) => {
       const [x, y] = P(s.pt), t = s.tier;
-      const shape = s.kind === 'monte' ? '<circle class="hit" r="9"/><text class="em" text-anchor="middle" dy=".35em">⛰️</text>' : s.kind === 'rio' ? '<circle class="hit" r="9"/><text class="em" text-anchor="middle" dy=".35em">🌊</text>' : TIER_ICON[t] === 'diamond' ? '<path class="mk" d="M0 -6L6 0L0 6L-6 0Z"/>' : '<circle class="mk" r="4.6"/>';
-      return `<g class="site ${t} k-${s.kind}" data-k="${k}" transform="translate(${x},${y})" tabindex="0">${shape}<text class="sl" x="8" dy=".35em">${esc(s.label)}</text></g>`;
+      const shape = s.capital ? '<circle class="mk cap" r="5.2"/>' : s.kind === 'monte' ? '<circle class="hit" r="9"/><text class="em" text-anchor="middle" dy=".35em">⛰️</text>' : s.kind === 'rio' ? '<circle class="hit" r="9"/><text class="em" text-anchor="middle" dy=".35em">🌊</text>' : TIER_ICON[t] === 'diamond' ? '<path class="mk" d="M0 -6L6 0L0 6L-6 0Z"/>' : '<circle class="mk" r="4.6"/>';
+      return `<g class="site ${t} k-${s.kind}${s.capital ? ' capital' : ''}" data-k="${k}" transform="translate(${x},${y})" tabindex="0">${shape}<text class="sl" x="8" dy=".35em">${esc(s.label)}</text></g>`;
     }).join('');
 
     function unitsPerPx() { return view[2] / (svg.clientWidth || 1000); }
     function apply() {
       svg.setAttribute('viewBox', view.join(' '));
       const u = unitsPerPx(), k = W / view[2], scale = scaleBar(u);
-      const naturalVisible = k >= zk(1);
+      const naturalVisible = k >= zk(8);
       svg.classList.toggle('natural-detail', naturalVisible);
       svg.style.setProperty('--u', u);
       const placed = [], sx = x => (x - view[0]) / u, sy = y => (y - view[1]) / u;
@@ -235,15 +245,15 @@ ${physicalSVG(D, opts.selectedId)}
         const [x, y] = P(s.pt);
         g.setAttribute('transform', `translate(${x},${y}) scale(${u})`);
         const natural = s.kind === 'monte' || s.kind === 'rio';
-        g.style.display = (natural ? naturalVisible : k >= zk(8)) && !g.classList.contains('gone') ? '' : 'none';
+        g.style.display = (s.capital || k >= zk(8)) && !g.classList.contains('gone') ? '' : 'none';
         g.classList.remove('lab');
       }
       if (!svg.classList.contains('no-lb')) {
-        nodes.filter(([g, s]) => g.style.display !== 'none' && (g.classList.contains('on') || s.kind === 'monte' || s.kind === 'rio' || k >= (s.tier === 'polis-kome' ? 4.5 : 4)))
+        nodes.filter(([g, s]) => g.style.display !== 'none' && (g.classList.contains('on') || s.capital || k >= zk(8)))
           .sort((a, b) => (b[0].classList.contains('on') - a[0].classList.contains('on')) || a[1].rank - b[1].rank)
           .forEach(([g, s]) => { const [x, y] = P(s.pt), X = sx(x), Y = sy(y); if (X < -50 || Y < -20 || X > svg.clientWidth + 50 || Y > svg.clientHeight + 20) return; if (fits([X - 6, Y - 8, X + 10 + s.label.length * 6.6, Y + 8])) g.classList.add('lab'); });
       }
-      svg.classList.toggle('z-hi', k >= zk(3));
+      svg.classList.toggle('z-hi', k >= zk(8));
 
       const pl = gHl.querySelector('.pulse'); if (pl) pl.setAttribute('transform', pl.getAttribute('transform').replace(/scale\([^)]*\)/, `scale(${u})`));
       // escala

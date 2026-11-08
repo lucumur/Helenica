@@ -1,0 +1,35 @@
+{
+  "tana_id": null,
+  "imagen": null,
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Situación",
+      "texto": "Punto de referencia de la polis, aproximado."
+    }
+  ],
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "id": "argos-argolis",
+  "nombre": "Argos, Argolis",
+  "nombre_alt": "Argos",
+  "titulo_tana": "Argos, Argolis",
+  "etiquetas_tana": [
+    "Polis"
+  ],
+  "tipos": [
+    "Polis"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "polis-kome",
+  "geo": {
+    "punto": [
+      22.72,
+      37.631
+    ],
+    "precision": "aprox"
+  }
+}

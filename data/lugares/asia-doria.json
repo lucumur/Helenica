@@ -17,5 +17,9 @@
     "texto": "Dóride asiática y sus islas asociadas, entre ellas Cos y Rodas; incluye Halicarnaso y Cnido."
   },
   "campos": [],
-  "secciones": []
+  "secciones": [],
+  "epoca": {
+    "anio": -300,
+    "nota": null
+  }
 }

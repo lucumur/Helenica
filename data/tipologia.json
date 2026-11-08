@@ -8,34 +8,40 @@
       "descripcion": "Gran región de referencia por nombre (Peloponeso, Eubea, Tracia); también mares y golfos."
     },
     {
-      "id": "chora",
+      "id": "region-maritima",
       "tier": 2,
-      "nombre": "Chora",
-      "descripcion": "Entidad regional dominada por un centro que reclama sus bordes (Korinthia, Karystia, Laconia); también ríos, cordilleras y llanuras regionales."
+      "nombre": "Región marítima",
+      "descripcion": "Agrupación de islas y mares dentro de una región (Cícladas, Espóradas del Norte)."
     },
     {
       "id": "ethnos",
       "tier": 2,
       "nombre": "Ethnos",
-      "descripcion": "Variante del tier Chora: región de un pueblo sin centro dominante; liga o koinon (Arcadia, Acaya)."
+      "descripcion": "Región de un pueblo sin centro dominante; liga o koinon (Arcadia, Acaya)."
+    },
+    {
+      "id": "chora",
+      "tier": 3,
+      "nombre": "Eupolis (polis + chora)",
+      "descripcion": "Una polis con su territorio y alrededores; en las islas, la isla entera (Naxos, Paros). También Korinthia, Karystia; ríos, cordilleras y llanuras de ese tamaño."
     },
     {
       "id": "polis-kome",
-      "tier": 3,
-      "nombre": "Polis / Kome",
-      "descripcion": "El asentamiento entero, de la aldea a la polis (Corinto, Olinto, Tenea, Nemea); su forma se describe por periodos. También islotes, cabos, lagos y montes locales."
+      "tier": 4,
+      "nombre": "Asentamiento (polis / kome)",
+      "descripcion": "El asentamiento en sí, de la aldea a la ciudad (Corinto, Olinto, Tenea); su forma se describe por periodos. También islotes, cabos, lagos y montes locales."
     },
     {
       "id": "demos",
-      "tier": 4,
-      "nombre": "Demos",
-      "descripcion": "Barrio o distrito dentro de un asentamiento (Kerameikos, Penteskouphia, Kraneion); la acrópolis como unidad."
+      "tier": 5,
+      "nombre": "Sub-asentamiento: barrio / demos",
+      "descripcion": "Barrio o distrito dentro de un asentamiento (Kerameikos, Kraneion); la acrópolis como unidad."
     },
     {
       "id": "moira",
       "tier": 5,
-      "nombre": "Moira",
-      "descripcion": "Recinto o sector: ágora, témenos, complejo de santuario, circuito de murallas, necrópolis; cuevas y cumbres sagradas."
+      "nombre": "Sub-asentamiento: recinto / paraje",
+      "descripcion": "Recinto, sector o paraje: ágora, témenos, santuario, murallas, necrópolis, bosque, finca; cuevas y cumbres."
     },
     {
       "id": "oikema",

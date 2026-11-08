@@ -261,7 +261,7 @@ ${dd('Elementos', md(val(r.elementos)))}${dd('Problema', md(val(r.problema)))}${
       attrs = `<dl class="attr">${dd('Tipo', tagHTML(r.tipos) + (tt ? ' · ' + inline(tt.texto.replace(/^- /gm, '').replace(/\n/g, ' · ')) : ''))}${dd('Escala', r.escala ? (() => { const x = TIPO.escalas.find(y => y.id === r.escala); return `<a href="lugares.html?escala=${r.escala}">${x && x.tier ? `Tier ${x.tier} · ` : ''}${esc(tName('escalas', r.escala))}</a>`; })() : '')}
 ${dd('Forma', (r.forma || []).length ? `<ul class="md">${r.forma.map(x => { const p = x.periodo && TIPO.periodos.find(y => y.id === x.periodo); return `<li><a href="lugares.html?forma=${encodeURIComponent(x.tipo)}">${esc(tName('formas', x.tipo))}</a>${p || x.fechas ? ` <span class="muted">— ${esc(p ? p.nombre : '')}${x.fechas ? (p ? ', ' : '') + esc(x.fechas) : ''}</span>` : ''}${x.nota ? `<br><span style="font-size:.9rem">${inline(x.nota)}</span>` : ''}</li>`; }).join('')}</ul>` : '')}
 ${dd('Funciones', (r.funciones || []).map(x => `<a class="tag" style="text-decoration:none" href="lugares.html?funcion=${x}">${esc(tName('funciones', x))}</a>`).join(' '))}
-${dd('Área', (r.areas || []).map(x => `<a href="lugares.html?area=${encodeURIComponent(x)}">${esc(areaName(x))}</a>`).join(', '))}${dd('Pertenece a', chain.map(k => linkKey(k)).join(' › '))}</dl>`;
+${r.epoca ? dd('Época', `<a href="mapa.html?t=${r.epoca.anio}">${fmtAnio(r.epoca.anio)}</a>${(() => { const pr = periodoDe(r.epoca.anio); return pr ? ` <span class="muted">· ${esc(pr.nombre)}</span>` : ''; })()}${r.epoca.nota ? `<div style="font-size:.92rem;margin-top:3px">${inline(r.epoca.nota)}</div>` : '<div class="muted" style="font-size:.85rem">Situación en esa fecha: pendiente.</div>'}`) : ''}${dd('Área', (r.areas || []).map(x => `<a href="lugares.html?area=${encodeURIComponent(x)}">${esc(areaName(x))}</a>`).join(', '))}${dd('Pertenece a', chain.map(k => linkKey(k)).join(' › '))}</dl>`;
       attrs = attrs.replace(/<\/dl>$/, dd('Contiene', contieneHTML(r, contiene)) + '</dl>');
       if (evs.length) side += `<div class="box"><h3>Eventos aquí</h3>${listKeys(evs)}</div>`;
     } else if (col === 'objetos') {
@@ -295,6 +295,10 @@ ${desc ? `<div style="font-size:1.06rem;max-width:780px">${md(desc)}</div>` : ''
     if (col === 'lugares' && window.HEL_MAP) window.HEL_MAP.mini($('#minimap'), r).catch(e => console.warn('mini-mapa', e));
   }
 
+  const fmtAnio = a => a < 0 ? `${-a} a.C.` : `${a} d.C.`;
+  // Periodo de tipologia cuyo rango «ca. 323–31 a.C.» contiene el año.
+  const periodoDe = a => (TIPO.periodos || []).find(p => { const m = (p.fechas || '').replace(/ca\.\s*/g, '').match(/(\d+)\s*(a\.C\.|d\.C\.)?\s*[–-]\s*(\d+)\s*(a\.C\.|d\.C\.)/); if (!m) return false;
+    const e2 = m[4] === 'a.C.' ? -m[3] : +m[3], e1 = (m[2] || m[4]) === 'a.C.' ? -m[1] : +m[1]; return a >= e1 && a <= e2; });
   // «Contiene»: grupos curados en la ficha (r.contiene) + hijos que declaran pertenece_a y no están listados (agrupados por tier).
   function contieneHTML(r, inverse) {
     const tierOf = k => { const it = IDX.by.get(k), x = it && TIPO && TIPO.escalas.find(y => y.id === it.es); return x ? x : null; };
@@ -303,7 +307,7 @@ ${desc ? `<div style="font-size:1.06rem;max-width:780px">${md(desc)}</div>` : ''
     const listed = new Set(), out = [];
     (r.contiene || []).forEach(g => {
       const ks = (g.lugares || []).filter(x => x.id).map(x => { const k = `lugares:${x.id}`; listed.add(k); return [k, x.nota]; });
-      out.push(`<div class="cgrupo"><h4>${esc(g.grupo || 'Sin grupo')} <span class="muted">· ${ks.length}</span></h4>${g.nota ? `<p class="cnota">${inline(g.nota)}</p>` : ''}<ul class="clist">${ks.map(([k, n]) => item(k, n)).join('')}</ul></div>`);
+      out.push(`<div class="cgrupo">${g.grupo ? `<h4>${esc(g.grupo)} <span class="muted">· ${ks.length}</span></h4>` : ''}${g.nota ? `<p class="cnota">${inline(g.nota)}</p>` : ''}<ul class="clist">${ks.map(([k, n]) => item(k, n)).join('')}</ul></div>`);
     });
     const rest = inverse.filter(k => !listed.has(k));
     if (rest.length) {

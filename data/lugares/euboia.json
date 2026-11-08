@@ -27,5 +27,9 @@
   "pertenece_a": [],
   "descripcion": {
     "texto": "Calcis, Eretria, Histiea, Caristo y el estrecho del Euripo."
+  },
+  "epoca": {
+    "anio": -300,
+    "nota": null
   }
 }

@@ -1,0 +1,52 @@
+{
+  "id": "egeo-oriental",
+  "nombre": "Egeo Oriental",
+  "nombre_alt": null,
+  "imagen": null,
+  "tipos": [
+    "Región marítima"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "region-maritima",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "islas-egeo",
+      "nombre": "Islas del Egeo"
+    }
+  ],
+  "epoca": {
+    "anio": -300,
+    "nota": "Psyra, islote frente a Chios."
+  },
+  "descripcion": {
+    "texto": "Islas menores frente a Jonia; Chios, Samos y Lesbos se agrupan con Jonia y Eólide."
+  },
+  "contiene": [
+    {
+      "grupo": null,
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "psyra-egeo",
+          "nombre": "Psyra"
+        }
+      ]
+    }
+  ],
+  "geo": {
+    "punto": [
+      25.6,
+      38.6
+    ],
+    "precision": "aprox"
+  },
+  "campos": [],
+  "secciones": [],
+  "fuentes": []
+}

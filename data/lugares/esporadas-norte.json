@@ -1,0 +1,67 @@
+{
+  "id": "esporadas-norte",
+  "nombre": "Espóradas del Norte",
+  "nombre_alt": "Sporádes",
+  "imagen": null,
+  "tipos": [
+    "Región marítima"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "region-maritima",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "islas-egeo",
+      "nombre": "Islas del Egeo"
+    }
+  ],
+  "epoca": {
+    "anio": -300,
+    "nota": "Órbita macedonia. Skyros, cleruquía ateniense desde 476/5 a.C., junto con Lemnos e Imbros; su posesión por Atenas fue reconocida y disputada por los diádocos."
+  },
+  "descripcion": {
+    "texto": "Nombre moderno. En la Antigüedad, islas frente a Magnesia; Skyros se asocia a Aquiles y Teseo."
+  },
+  "contiene": [
+    {
+      "grupo": null,
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "skiathos-sporades",
+          "nombre": "Skiathos"
+        },
+        {
+          "col": "lugares",
+          "id": "peparethos-sporades",
+          "nombre": "Peparethos"
+        },
+        {
+          "col": "lugares",
+          "id": "ikos-sporades",
+          "nombre": "Ikos"
+        },
+        {
+          "col": "lugares",
+          "id": "skyros-sporades",
+          "nombre": "Skyros"
+        }
+      ]
+    }
+  ],
+  "geo": {
+    "punto": [
+      23.9,
+      39.15
+    ],
+    "precision": "aprox"
+  },
+  "campos": [],
+  "secciones": [],
+  "fuentes": []
+}

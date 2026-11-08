@@ -23,5 +23,9 @@
   "pertenece_a": [],
   "descripcion": {
     "texto": "Territorios macedonios. Para la navegación arcaica y clásica, Calcídica se incluye en Tracia; la expansión posterior del reino no determina esta agrupación."
+  },
+  "epoca": {
+    "anio": -300,
+    "nota": null
   }
 }

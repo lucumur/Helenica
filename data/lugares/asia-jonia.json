@@ -17,5 +17,9 @@
     "texto": "Jonia continental y sus islas asociadas, entre ellas Quíos y Samos. Esmirna se incluye aquí según su etapa jonia."
   },
   "campos": [],
-  "secciones": []
+  "secciones": [],
+  "epoca": {
+    "anio": -300,
+    "nota": null
+  }
 }

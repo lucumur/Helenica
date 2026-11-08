@@ -1,0 +1,152 @@
+{
+  "id": "cicladas",
+  "nombre": "Cícladas",
+  "nombre_alt": "Kykládes",
+  "imagen": null,
+  "tipos": [
+    "Región marítima"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "region-maritima",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "islas-egeo",
+      "nombre": "Islas del Egeo"
+    }
+  ],
+  "epoca": {
+    "anio": -300,
+    "nota": "Koinón de los Nesiotas (Liga de los Isleños), fundado c. 314 a.C. bajo Antígono Monoftalmos con centro en Delos, independiente de Atenas desde 314. Hegemonía naval antigónida (Demetrio Poliorcetes) hasta c. 287, cuando la liga pasa a la órbita ptolemaica."
+  },
+  "descripcion": {
+    "texto": "Kykládes, «las del círculo» en torno a Delos. El núcleo antiguo (Delos, Rheneia, Mykonos, Tenos, Andros, Keos, Kythnos, Seriphos, Siphnos, Paros, Naxos, Syros) es estable; Melos, Thera, Anaphe, Ios, Sikinos, Pholegandros y Amorgos aparecen en otras fuentes (Estrabón 10.5) entre las Espóradas. Aquí se sigue el uso moderno."
+  },
+  "contiene": [
+    {
+      "grupo": null,
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "delia-kyklades",
+          "nombre": "Dēlos (isla)"
+        },
+        {
+          "col": "lugares",
+          "id": "andros-kyklades",
+          "nombre": "Andros"
+        },
+        {
+          "col": "lugares",
+          "id": "tenos-kyklades",
+          "nombre": "Tēnos"
+        },
+        {
+          "col": "lugares",
+          "id": "mykonos-kyklades",
+          "nombre": "Mykonos"
+        },
+        {
+          "col": "lugares",
+          "id": "syros-kyklades",
+          "nombre": "Syros, Kyklades"
+        },
+        {
+          "col": "lugares",
+          "id": "keos-kyklades",
+          "nombre": "Kéōs"
+        },
+        {
+          "col": "lugares",
+          "id": "kythnos-kyklades",
+          "nombre": "Kýthnos"
+        },
+        {
+          "col": "lugares",
+          "id": "seriphos-kyklades",
+          "nombre": "Sériphos"
+        },
+        {
+          "col": "lugares",
+          "id": "siphnos-kyklades",
+          "nombre": "Síphnos"
+        },
+        {
+          "col": "lugares",
+          "id": "paros-kyklades",
+          "nombre": "Paros"
+        },
+        {
+          "col": "lugares",
+          "id": "oliaros-kyklades",
+          "nombre": "Ōliaros"
+        },
+        {
+          "col": "lugares",
+          "id": "naxos-kyklades",
+          "nombre": "Naxos"
+        },
+        {
+          "col": "lugares",
+          "id": "donousa-kyklades",
+          "nombre": "Donousa"
+        },
+        {
+          "col": "lugares",
+          "id": "amorgos-kyklades",
+          "nombre": "Amorgós"
+        },
+        {
+          "col": "lugares",
+          "id": "ios-kyklades",
+          "nombre": "Ios"
+        },
+        {
+          "col": "lugares",
+          "id": "sikinos-kyklades",
+          "nombre": "Síkinos"
+        },
+        {
+          "col": "lugares",
+          "id": "pholegandros-kyklades",
+          "nombre": "Pholegandros"
+        },
+        {
+          "col": "lugares",
+          "id": "kimolos-kyklades",
+          "nombre": "Kímōlos"
+        },
+        {
+          "col": "lugares",
+          "id": "melos-kyklades",
+          "nombre": "Mēlos"
+        },
+        {
+          "col": "lugares",
+          "id": "thera-kyklades",
+          "nombre": "Thēra"
+        },
+        {
+          "col": "lugares",
+          "id": "anaphe-kyklades",
+          "nombre": "Anaphē"
+        }
+      ]
+    }
+  ],
+  "geo": {
+    "punto": [
+      25.2,
+      37.1
+    ],
+    "precision": "aprox"
+  },
+  "campos": [],
+  "secciones": [],
+  "fuentes": []
+}

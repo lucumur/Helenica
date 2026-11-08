@@ -25,5 +25,9 @@
     "nombre": "Tercer Athlos: Atrapar a la Cierva de Cerynea (Aquea)",
     "col": "eventos",
     "id": "tercer-athlos-atrapar-a-la-cierva-de-cerynea"
+  },
+  "epoca": {
+    "anio": -300,
+    "nota": null
   }
 }

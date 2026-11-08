@@ -141,6 +141,13 @@ for rel, r in list(byid.values()):
         if cid not in listed and any(p.get('id') == r['id'] for p in c.get('pertenece_a') or []):
             warns.append(f"{rel}: {cid} pertenece a esta ficha pero no está en ningún grupo de contiene")
 
+for rel, r in list(byid.values()):
+    ep = r.get('epoca')
+    if ep is not None and not (isinstance(ep, dict) and isinstance(ep.get('anio'), int)):
+        errors.append(f'{rel}: epoca debe ser {{"anio": -300, "nota": "…"}}')
+    if r.get('escala') in ('region', 'region-maritima') and ep is None and not set(r.get('areas') or []) & {'inframundo'} and 'Mar' not in ' '.join(r.get('tipos') or []):
+        warns.append(f'{rel}: región sin epoca (estándar: 300 a.C.)')
+
 for w in warns[:200]: print('AVISO', w)
 for e in errors: print('ERROR', e)
 print(f'{len(recs)} fichas · {len(errors)} errores · {len(warns)} avisos')

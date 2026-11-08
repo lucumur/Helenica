@@ -17,5 +17,9 @@
     "texto": "Creta y sus dependencias insulares; incluye Cnosos y el monte Ida cretense."
   },
   "campos": [],
-  "secciones": []
+  "secciones": [],
+  "epoca": {
+    "anio": -300,
+    "nota": null
+  }
 }

@@ -17,5 +17,9 @@
     "texto": "La isla de Chipre, sus reinos y sus ciudades."
   },
   "campos": [],
-  "secciones": []
+  "secciones": [],
+  "epoca": {
+    "anio": -300,
+    "nota": null
+  }
 }

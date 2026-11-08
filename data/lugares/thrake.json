@@ -19,5 +19,9 @@
   "escala": "region",
   "forma": [],
   "funciones": [],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "epoca": {
+    "anio": -300,
+    "nota": null
+  }
 }

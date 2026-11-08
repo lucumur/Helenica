@@ -17,5 +17,9 @@
     "texto": "Regiones tesalias y territorios periféricos, incluidos Ftiótide, Magnesia y el Pelión."
   },
   "campos": [],
-  "secciones": []
+  "secciones": [],
+  "epoca": {
+    "anio": -300,
+    "nota": null
+  }
 }

@@ -22,5 +22,9 @@
   "pertenece_a": [],
   "descripcion": {
     "texto": "Territorios tracios del norte del Egeo, incluida Calcídica en el marco arcaico y clásico, y el Quersoneso Tracio junto al Helesponto. Son penínsulas distintas. Referencias: Tucídides, Historia 1.58–59 y 2.99."
+  },
+  "epoca": {
+    "anio": -300,
+    "nota": null
   }
 }

@@ -17,5 +17,9 @@
     "texto": "Eólide continental y sus islas asociadas, entre ellas Lesbos y Ténedos."
   },
   "campos": [],
-  "secciones": []
+  "secciones": [],
+  "epoca": {
+    "anio": -300,
+    "nota": null
+  }
 }

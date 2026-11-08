@@ -22,5 +22,9 @@
       "titulo": "Criterio de delimitación",
       "texto": "Esta ficha representa una gran agrupación geográfica del catálogo de Helénica. Su denominación organiza la navegación y no implica una unidad política antigua."
     }
-  ]
+  ],
+  "epoca": {
+    "anio": -300,
+    "nota": null
+  }
 }

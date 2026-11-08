@@ -29,8 +29,8 @@
   "pertenece_a": [
     {
       "col": "lugares",
-      "id": "islas-egeo",
-      "nombre": "Islas del Egeo"
+      "id": "egeo-oriental",
+      "nombre": "Egeo Oriental"
     }
   ],
   "geo": {

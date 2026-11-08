@@ -127,7 +127,7 @@
 <button type="button" class="up" title="Subir">↑</button><button type="button" class="dn" title="Bajar">↓</button><button type="button" class="x" title="Quitar">×</button></div>`;
   }
   function grupoBlock(g) {
-    return `<fieldset class="fe-grupo"><div class="fe-row"><input class="fe-gname" placeholder="Nombre del grupo (p. ej. Cícladas)" value="${E(g.grupo || '')}">
+    return `<fieldset class="fe-grupo"><div class="fe-row"><input class="fe-gname" placeholder="Nombre del grupo (opcional)" value="${E(g.grupo || '')}">
 <button type="button" class="gup" title="Subir grupo">↑</button><button type="button" class="gdn" title="Bajar grupo">↓</button><button type="button" class="gx" title="Quitar grupo">Quitar grupo</button></div>
 ${txt('fe-gnota', g.nota, 2, 'Nota del grupo')}
 <div class="fe-lis">${(g.lugares || []).map(lugarRow).join('')}</div>
@@ -163,6 +163,10 @@ ${txt('fe-stxt', x.texto, 4, 'Texto')}${linkBtn}</div>`;
 <label>Funciones${chips('funciones', rec.funciones || [], T.funciones, '+ Añadir función')}</label>
 <label>Pertenece a<div class="fe-pe">${pe.map(x => chip(x.id, (REF.I.by.get('lugares:' + x.id) || { n: x.nombre || x.id }).n)).join('')}<input class="fe-pe-in" list="dl-lug" placeholder="+ Buscar lugar contenedor…"></div></label>
 <div class="fe-grid"><label>Latitud<input id="f-lat" type="number" step="0.001" value="${E(geo[1])}"></label><label>Longitud<input id="f-lon" type="number" step="0.001" value="${E(geo[0])}"></label></div>
+</section>
+<section><h4>Época de referencia <small>— fecha en que se describe esta región (estándar: 300 a.C.)</small></h4>
+<div class="fe-grid"><label>Año<select id="f-anio"><option value="">— sin época —</option>${[-900, -600, -300, 0].map(a => `<option value="${a}"${rec.epoca && rec.epoca.anio === a ? ' selected' : ''}>${a < 0 ? -a + ' a.C.' : a + ' d.C.'}</option>`).join('')}${rec.epoca && ![-900, -600, -300, 0].includes(rec.epoca.anio) ? `<option value="${rec.epoca.anio}" selected>${rec.epoca.anio}</option>` : ''}</select></label><span></span></div>
+<label>Situación en esa fecha${txt('f-epn', (rec.epoca && rec.epoca.nota) || '', 2, 'Quién la controla, ligas, cambios…')}</label>
 </section>
 <section><h4>Descripción</h4>${txt('f-desc', (rec.descripcion && rec.descripcion.texto) || '', 3)}${linkBtn}</section>
 <section><h4>Contiene <small>— sub-regiones del tier inferior, en grupos</small></h4>
@@ -244,6 +248,8 @@ ${txt('fe-stxt', x.texto, 4, 'Texto')}${linkBtn}</div>`;
       obj.descripcion = desc ? { ...(rec.descripcion || {}), texto: desc } : null;
       if (!obj.descripcion) delete obj.descripcion;
       if (!obj.contiene.length) delete obj.contiene;
+      const anio = $('#f-anio').value;
+      if (anio !== '') obj.epoca = { anio: +anio, nota: $('.f-epn').value.trim() || null }; else delete obj.epoca;
       const lat = parseFloat($('#f-lat').value), lon = parseFloat($('#f-lon').value);
       if (!isNaN(lat) && !isNaN(lon)) obj.geo = { ...(rec.geo || {}), punto: [lon, lat], precision: 'aprox' }, delete obj.geo.de;
       // Sincronizar pertenece_a de los lugares añadidos o quitados de «Contiene».

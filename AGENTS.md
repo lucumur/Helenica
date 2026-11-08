@@ -114,7 +114,7 @@ Para agregar un tipo nuevo de cualquier eje, añádelo primero a `data/tipologia
 
 `mapa.html` (con `mapa.js` y `mapa.css`) dibuja un atlas propio en SVG, sin librerías externas. Cada ficha de lugar también muestra un mini-mapa.
 
-- **Niveles de zoom:** nueve niveles, del 1 al 9. El nivel 4 conserva el acercamiento `k = 5`; se eliminó el paso intermedio `k = 4.5`. `subzonas[].nivel` en `zonas.json` usa la numeración actual (islas: nivel 6).
+- **Niveles de zoom:** nueve niveles, del 1 al 9. El ancho visible se reduce respecto al nivel anterior en 50%, 40%, 40%, 40%, 38%, 37.56%, 37.56% y 37.56%; los factores `k` se calculan acumulativamente a partir de esos porcentajes. Anchos aproximados a 38° N: 4907, 2454, 1472, 883, 530, 329, 205, 128 y 80 km. El límite de acercamiento se obtiene del nivel 9, sin un factor fijo independiente. `subzonas[].nivel` en `zonas.json` usa la numeración actual (islas: nivel 6).
 - **Rueda del ratón:** avanzar o retroceder un nivel numérico por paso, con animación y anclaje bajo el cursor. Los pasos rápidos se procesan consecutivamente; agrupar los deltas pequeños de trackpad. Arrastrar o navegar directamente cancela la animación y los pasos pendientes.
 
 - **Puntos:** un lugar se ubica con `"geo": { "punto": [longitud, latitud], "precision": "aprox" }` dentro de su ficha. Las choras, ethne y poleis/komai con punto aparecen en el mapa según el zoom. Un edificio o recinto puede llevar el punto de su sitio con `"precision": "heredada", "de": "Corinto"`; esos no se dibujan como marcadores propios, solo sirven para el mini-mapa.

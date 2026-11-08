@@ -20,10 +20,9 @@
     { n: 1, k: 1, que: 'Regiones amplias y las cinco capitales' },
     { n: 2, reduccion: 0.7, que: 'Regiones amplias, tier 1' },
     { n: 3, reduccion: 0.5, que: 'Regiones amplias, tier 1' },
-    { n: 4, reduccion: 0.45, que: 'Argos, Corinto, Esparta, Elis y Orcómeno' },
-    { n: 5, reduccion: 0.45, que: 'Subregiones, demás lugares, cauces y macizos' },
-    { n: 6, reduccion: 0.4, que: 'Islas del Egeo, cada una con nombre y capital' },
-    { n: 7, reduccion: 0.4, que: 'Encuadre de una chora; iconos y nombres de ríos y montes' },
+    { n: 4, reduccion: 0.5, que: 'Argos, Corinto, Esparta, Elis y Orcómeno' },
+    { n: 5, reduccion: 0.5, que: 'Subregiones, demás lugares, cauces y macizos' },
+    { n: 6, reduccion: 0.5, que: 'Islas del Egeo; iconos y nombres de ríos y montes; tope de zoom' },
   ];
   // Cada porcentaje reduce el ancho visible respecto al nivel anterior.
   for (let i = 1; i < ZL.length; i++) ZL[i].k = ZL[i - 1].k / (1 - ZL[i].reduccion);
@@ -167,7 +166,7 @@ ${physicalSVG(D, opts.selectedId)}
   <aside id="panel" class="panel" hidden></aside>
   <div id="tip" class="tip" hidden></div>
 </div>
-<p class="atlas-src">Costa y agua de base: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>. Trazados fluviales: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL). Macizos: <a href="https://doi.org/10.48601/earthenv-t9k2-1407" target="_blank" rel="noopener">GMBA Mountain Inventory v2</a> (CC BY 4.0). Las extensiones son cartográficas y aproximadas; los cauces modernos no reconstruyen sus cambios antiguos. Las fronteras regionales son convencionales. Cauces y extensiones montañosas desde el nivel 5; sus iconos y nombres, desde el nivel 7. El resto de lugares, desde el nivel 5. Cada isla del Egeo, desde el nivel 6.</p>`;
+<p class="atlas-src">Costa y agua de base: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>. Trazados fluviales: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL). Macizos: <a href="https://doi.org/10.48601/earthenv-t9k2-1407" target="_blank" rel="noopener">GMBA Mountain Inventory v2</a> (CC BY 4.0). Las extensiones son cartográficas y aproximadas; los cauces modernos no reconstruyen sus cambios antiguos. Las fronteras regionales son convencionales. Cauces y extensiones montañosas desde el nivel 5; sus iconos y nombres, desde el nivel 6. El resto de lugares, desde el nivel 5. Cada isla del Egeo, desde el nivel 6.</p>`;
     const svg = main.querySelector('#map'), panel = main.querySelector('#panel'), tip = main.querySelector('#tip');
     const gSites = svg.querySelector('.sites'), gLab = svg.querySelector('.alabels'), gSeas = svg.querySelector('.seas'), gHl = svg.querySelector('.hl');
     let view = [0, 0, W, H], selArea = null, selSite = null, T = '-300';
@@ -226,7 +225,7 @@ ${physicalSVG(D, opts.selectedId)}
     function apply() {
       svg.setAttribute('viewBox', view.join(' '));
       const u = unitsPerPx(), k = W / view[2], scale = scaleBar(u);
-      const lvl = zlevel(k), naturalVisible = lvl >= 5, naturalSitesVisible = lvl >= 7;
+      const lvl = zlevel(k), naturalVisible = lvl >= 5, naturalSitesVisible = lvl >= MAX_ZOOM;
       svg.classList.toggle('natural-detail', naturalVisible);
       svg.style.setProperty('--u', u);
       const placed = [], sx = x => (x - view[0]) / u, sy = y => (y - view[1]) / u;

@@ -1,10 +1,10 @@
 {
   "id": "illyrioi-900",
-  "nombre": "Illyrioi",
+  "nombre": "Illurioi",
   "nombre_alt": "Ilirios",
   "nombre_griego": "Ἰλλυριοί",
-  "endonimo": null,
-  "endonimo_nota": "Desconocido. En origen, nombre de una sola tribu (Plinio: *Illyrii proprie dicti*).",
+  "endonimo": "Hudluria†",
+  "endonimo_nota": "Reconstruido: Eichner deriva el etnónimo de IE *ud-lo- «acuático» («serpiente de agua»; cf. griego ὕδρος), con asimilación dl > ll.",
   "imagen": null,
   "tipos": [
     "Zona continental"

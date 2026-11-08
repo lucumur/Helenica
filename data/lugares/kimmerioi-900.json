@@ -1,0 +1,33 @@
+{
+  "id": "kimmerioi-900",
+  "nombre": "Kimmerioi",
+  "nombre_alt": "Cimeria",
+  "nombre_griego": "Κιμμέριοι",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido. En asirio, Gimirri (desde 714 a.C.).",
+  "imagen": null,
+  "tipos": [
+    "Zona continental"
+  ],
+  "areas": [
+    "sauromatia"
+  ],
+  "escala": "continental",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Estepa póntica al norte del mar Negro, del Dniéster al Kubán, y Crimea. Pastores de los horizontes Chernogórovka y Novocherkask."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- La identificación de esos horizontes con los cimerios de las fuentes (Odisea 11.14; anales asirios) es discutida."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

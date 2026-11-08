@@ -150,7 +150,7 @@ ${txt('fe-stxt', x.texto, 4, 'Texto')}${linkBtn}</div>`;
   async function editLugar(id, rec) {
     await refs();
     const d = formDialog(), T = REF.tipo;
-    const tierOf = e => (T.escalas.find(x => x.id === e) || {}).tier || 9;
+    const tierOf = e => (T.escalas.find(x => x.id === e) || {}).tier ?? 9;
     d.querySelector('#fe-t').textContent = `Editar: ${rec.nombre}`;
     const pe = (rec.pertenece_a || []).filter(x => x.id);
     const geo = rec.geo && rec.geo.punto && rec.geo.precision !== 'heredada' ? rec.geo.punto : ['', ''];
@@ -158,7 +158,9 @@ ${txt('fe-stxt', x.texto, 4, 'Texto')}${linkBtn}</div>`;
 <section><h4>Identidad</h4>
 <div class="fe-grid"><label>Nombre<input id="f-nombre" value="${E(rec.nombre)}"></label><label>Nombre alternativo<input id="f-alt" value="${E(rec.nombre_alt || '')}"></label>
 <label>Tipos <small>(separados por coma)</small><input id="f-tipos" value="${E((rec.tipos || []).join(', '))}"></label>
-<label>Escala<select id="f-escala"><option value="">—</option>${T.escalas.map(o => `<option value="${o.id}"${o.id === rec.escala ? ' selected' : ''}>${o.tier ? `Tier ${o.tier} · ` : ''}${E(o.nombre)}</option>`).join('')}</select></label></div>
+<label>Escala<select id="f-escala"><option value="">—</option>${T.escalas.map(o => `<option value="${o.id}"${o.id === rec.escala ? ' selected' : ''}>${o.tier != null ? `Tier ${o.tier} · ` : ''}${E(o.nombre)}</option>`).join('')}</select></label>
+<label>Nombre griego <small>(caracteres)</small><input id="f-gr" lang="grc" value="${E(rec.nombre_griego || '')}"></label><label>Endónimo<input id="f-endo" value="${E(rec.endonimo || '')}"></label>
+<label>Nota del endónimo<input id="f-endon" value="${E(rec.endonimo_nota || '')}"></label><span></span></div>
 <label>Área${chips('areas', rec.areas || [], REF.areas, '+ Añadir área')}</label>
 <label>Funciones${chips('funciones', rec.funciones || [], T.funciones, '+ Añadir función')}</label>
 <label>Pertenece a<div class="fe-pe">${pe.map(x => chip(x.id, (REF.I.by.get('lugares:' + x.id) || { n: x.nombre || x.id }).n)).join('')}<input class="fe-pe-in" list="dl-lug" placeholder="+ Buscar lugar contenedor…"></div></label>
@@ -233,6 +235,7 @@ ${txt('fe-stxt', x.texto, 4, 'Texto')}${linkBtn}</div>`;
       const nombre = $('#f-nombre').value.trim(); if (!nombre) { m.textContent = 'Falta el nombre.'; return; }
       const name = i => (REF.I.by.get('lugares:' + i) || {}).n || i;
       const obj = { ...rec, nombre, nombre_alt: $('#f-alt').value.trim() || null,
+        nombre_griego: $('#f-gr').value.trim() || null, endonimo: $('#f-endo').value.trim() || null, endonimo_nota: $('#f-endon').value.trim() || null,
         tipos: $('#f-tipos').value.split(',').map(x => x.trim()).filter(Boolean),
         escala: $('#f-escala').value || null,
         areas: $$('[data-chips=areas] .fe-chip').map(c => c.dataset.v),

@@ -31,6 +31,16 @@ main.atlas-main{width:100%;max-width:none;padding:0}
 #map.no-pt .sites{display:none}
 #map.no-lb .alabels,#map.no-lb .seas,#map.no-lb .sl{display:none}
 .al{cursor:pointer}
+.z0{display:none;stroke:#fffaf0;stroke-width:1.1;stroke-opacity:.9;vector-effect:non-scaling-stroke;fill-opacity:.85;cursor:pointer;transition:fill-opacity .15s}
+.z0:hover{fill-opacity:1;stroke:#5b3a24;stroke-width:1.4}
+#map.has-sel .z0:not(.sel){fill-opacity:.45}
+.z0.sel{fill-opacity:1;stroke:#2a1a10;stroke-width:2.2}
+#map.t0-on .areas{display:none}
+#map.no-lb .z0labels{display:none}
+.z0l{cursor:pointer}
+.z0l text{paint-order:stroke;stroke:#fbf6ea;stroke-width:3.5px;stroke-linejoin:round;fill:#3a2a1e}
+.z0l .n{font:600 14px var(--serif);letter-spacing:.06em}
+.z0l .g{font:italic 12px var(--serif);fill:#6a4a34}
 .al text{paint-order:stroke;stroke:#fbf6ea;stroke-width:3.5px;stroke-linejoin:round;fill:#3a2a1e}
 .al .n{font:600 13px var(--serif);letter-spacing:.06em;text-transform:uppercase}
 .al.hel .n{font-size:14px;fill:#4a2a16}

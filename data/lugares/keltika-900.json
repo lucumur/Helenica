@@ -1,0 +1,33 @@
+{
+  "id": "keltika-900",
+  "nombre": "Keltikā",
+  "nombre_alt": "Céltica",
+  "nombre_griego": "Κελτικᾱ́",
+  "endonimo": "Celtae",
+  "endonimo_nota": "César, Bellum Gallicum 1.1: «ipsorum lingua Celtae». Testimonio muy posterior.",
+  "imagen": null,
+  "tipos": [
+    "Zona continental"
+  ],
+  "areas": [
+    "hiperborea"
+  ],
+  "escala": "continental",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Europa central y occidental al norte de los Alpes y de los Pirineos: Campos de Urnas tardíos, en transición al Hallstatt (c. 800)."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Ancestros probables de los celtas históricos; la atribución lingüística para esta fecha es discutida."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

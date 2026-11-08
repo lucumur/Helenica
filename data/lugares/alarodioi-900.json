@@ -1,0 +1,33 @@
+{
+  "id": "alarodioi-900",
+  "nombre": "Alarodioi",
+  "nombre_alt": "Urartu",
+  "nombre_griego": "Ἀλαρόδιοι",
+  "endonimo": "Biainili",
+  "endonimo_nota": "Urarteo: nombre del reino en sus propias inscripciones.",
+  "imagen": null,
+  "tipos": [
+    "Zona continental"
+  ],
+  "areas": [
+    "anatolia"
+  ],
+  "escala": "continental",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Tierras altas armenias en torno al lago Van. Hacia 900 a.C. son las confederaciones de Nairi y Uruatri de las fuentes asirias; el reino se consolida con Arame (c. 860) y Sarduri I (c. 830)."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Ἀλαρόδιοι es el nombre de Heródoto (3.94, 7.79); su identificación con Urartu es la más aceptada."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

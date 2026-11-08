@@ -1,0 +1,33 @@
+{
+  "id": "phoinika-900",
+  "nombre": "Phoinīkā",
+  "nombre_alt": "Fenicia",
+  "nombre_griego": "Φοινίκᾱ",
+  "endonimo": "Kanaʿan",
+  "endonimo_nota": "Discutido: no consta como nombre colectivo propio; acadio de Amarna Kinaḫna, púnico tardío «Chanani» (Agustín). Cada ciudad se nombraba aparte.",
+  "imagen": null,
+  "tipos": [
+    "Zona continental"
+  ],
+  "areas": [
+    "levante"
+  ],
+  "escala": "continental",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Franja costera de las ciudades fenicias: Arwad, Biblos, Sidón y Tiro. Tiro, bajo Hiram I (c. 970–936) e Itobaal I (c. 887–856), encabeza la expansión marítima."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Kition (Chipre) se funda hacia 850 y Cartago en 814 según la tradición; ambas son posteriores a esta fecha."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

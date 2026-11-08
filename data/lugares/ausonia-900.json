@@ -1,0 +1,33 @@
+{
+  "id": "ausonia-900",
+  "nombre": "Ausoniā",
+  "nombre_alt": "Ausonia (Italia)",
+  "nombre_griego": "Αὐσονίᾱ",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido. El osco Víteliú es muy posterior.",
+  "imagen": null,
+  "tipos": [
+    "Zona continental"
+  ],
+  "areas": [
+    "italia"
+  ],
+  "escala": "continental",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Italia peninsular, el valle del Po y Sicilia. Cultura villanoviana (protoetrusca) en Etruria y Bolonia, pueblos itálicos en los Apeninos, sículos y sicanos en Sicilia."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Sin colonias griegas todavía (Pitecusa, c. 770).\n- Cerdeña y Córcega (nurágicos) quedan sin zona."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

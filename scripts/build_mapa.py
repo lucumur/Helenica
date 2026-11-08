@@ -3,7 +3,8 @@
 
 Entrada:
   data/mapa/tierra.json  costa de Natural Earth 1:10m (dominio público), ya recortada y simplificada
-  data/mapa/zonas.json   contornos aproximados de cada área, en [lon, lat], en orden de prioridad
+  data/mapa/zonas.json   contornos aproximados de cada área, en [lon, lat], en orden de prioridad;
+                         también los de tier 0 por fecha (clave "tier0"), que toman nombres de su ficha
 
 Reglas:
   - zona "continente": corta la tierra firme (el gran polígono Eurasia-África) y toma además
@@ -116,12 +117,39 @@ def main():
             keep['capital'] = sz['capital']
         subs[sz['id']] = keep
         subs[sz['id']].update({'poligonos': rings_of(g, 0.002), 'etiqueta': [round(lab.x, 3), round(lab.y, 3)], 'bbox': [round(v, 3) for v in g.bounds]})
+    # Tier 0: zonas continentales por fecha. Mismo recorte que las áreas, independiente de ellas.
+    tier0 = {}
+    for anio, zs in (json.load(open(os.path.join(M, 'zonas.json'), encoding='utf-8')).get('tier0') or {}).items():
+        if not isinstance(zs, list):
+            continue
+        taken_t, taken_i, out_z = [], set(), []
+        for z in zs:
+            zg = zone_geom(z)
+            cut = big.intersection(zg)
+            for a in taken_t:
+                cut = cut.difference(a)
+            parts = [cut] if not cut.is_empty else []
+            if parts:
+                taken_t.append(cut)
+            for i, isl in enumerate(islands):
+                if i not in taken_i and zg.contains(isl.representative_point()):
+                    parts.append(isl); taken_i.add(i)
+            if not parts:
+                continue
+            g = unary_union(parts)
+            main_part = max(list(g.geoms) if hasattr(g, 'geoms') else [g], key=lambda p: p.area)
+            lab = polylabel(main_part, tolerance=0.01)
+            rec = json.load(open(os.path.join(ROOT, 'data', 'lugares', z['ficha'] + '.json'), encoding='utf-8'))
+            out_z.append({'ficha': z['ficha'], 'color': z.get('color'), 'nombre': rec.get('nombre'), 'nombre_alt': rec.get('nombre_alt'),
+                          'nombre_griego': rec.get('nombre_griego'), 'endonimo': rec.get('endonimo'), 'endonimo_nota': rec.get('endonimo_nota'),
+                          'poligonos': rings_of(g, 0.01), 'etiqueta': [round(lab.x, 3), round(lab.y, 3)], 'bbox': [round(v, 3) for v in g.bounds]})
+        tier0[anio] = out_z
     out = {'schema_version': 1,
            'fuente': 'Generado por scripts/build_mapa.py a partir de zonas.json y tierra.json (Natural Earth, dominio público)',
-           'areas': res, 'subareas': subs}
+           'areas': res, 'subareas': subs, 'tier0': tier0}
     with open(os.path.join(M, 'areas.geo.json'), 'w', encoding='utf-8') as fh:
         json.dump(out, fh, ensure_ascii=False, separators=(',', ':'))
-    print(f'areas.geo.json: {len(res)} áreas, {len(subs)} subregiones')
+    print(f'areas.geo.json: {len(res)} áreas, {len(subs)} subregiones, tier 0: ' + ', '.join(f'{k} ({len(v)})' for k, v in tier0.items()))
 
 
 if __name__ == '__main__':

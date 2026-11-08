@@ -1,0 +1,33 @@
+{
+  "id": "libya-continental-900",
+  "nombre": "Libyā",
+  "nombre_alt": "Libia",
+  "nombre_griego": "Λιβύᾱ",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido. En egipcio, rbw (Libu), nombre de una tribu.",
+  "imagen": null,
+  "tipos": [
+    "Zona continental"
+  ],
+  "areas": [
+    "libya"
+  ],
+  "escala": "continental",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "África al oeste de Egipto: Cirenaica, Sirte, Tripolitania, el Magreb y el Sahara. Pueblos libios (Libu, Meshwesh), que en Egipto gobiernan como dinastía XXII."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Anterior a Cartago (814, tradición) y a Cirene (c. 631)."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

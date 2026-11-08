@@ -17,7 +17,7 @@
   const TIER_ICON = { chora: 'diamond', nesos: 'diamond', ethnos: 'diamond', 'polis-kome': 'circle', demos: 'small', moira: 'small', oikema: 'small' };
   // Nivel = último umbral alcanzado. k = ancho del atlas / ancho del encuadre.
   const ZL = [
-    { n: 1, k: 1, que: 'Regiones amplias y las cinco capitales' },
+    { n: 1, k: 1, que: 'Zonas continentales (tier 0) si la fecha las tiene; si no, regiones amplias. Las cinco capitales' },
     { n: 2, reduccion: 0.7, que: 'Regiones amplias, tier 1' },
     { n: 3, reduccion: 0.5, que: 'Regiones amplias, tier 1' },
     { n: 4, reduccion: 0.5, que: 'Argos, Corinto, Esparta, Elis y Orcómeno' },
@@ -104,7 +104,8 @@
       }
     }
     const poder = Object.fromEntries(per.poderes.map(p => [p.id, p]));
-    DATA = { I, tierra, rios, lagos, geo: geo.areas, subs, per, poder, areaInfo, color, regionFicha, lugares, sites, seas, tipo, fisico, physicalByPlace };
+    const t0 = geo.tier0 || {};
+    DATA = { I, tierra, rios, lagos, geo: geo.areas, subs, t0, per, poder, areaInfo, color, regionFicha, lugares, sites, seas, tipo, fisico, physicalByPlace };
     return DATA;
   }
 
@@ -134,6 +135,7 @@
 <g class="grat">${grat.join('')}</g>
 <g class="land" filter="url(#shadow)"><path d="${land}"/></g>
 <g class="areas">${areas}</g>
+<g class="t0">${Object.entries(D.t0 || {}).map(([y, zs]) => zs.map(z => `<path class="z0" data-t0="${y}" data-z0="${esc(z.ficha)}" fill="${z.color || '#d8c8a8'}" d="${z.poligonos.map(polyPath).join('')}"/>`).join('')).join('')}</g>
 <g class="subs">${Object.entries(D.subs || {}).map(([id, s]) => `<path class="sb" data-sub="${id}" fill="${s.color}" d="${s.poligonos.map(polyPath).join('')}"/><path class="sbh" data-sub="${id}" d="${s.poligonos.map(polyPath).join('')}"/>`).join('')}</g>
 <g class="lakes">${lakes}</g>
 <g class="rivers">${rivers}</g>
@@ -150,7 +152,7 @@ ${physicalSVG(D, opts.selectedId)}
     main.innerHTML = `
 <div class="atlas">
   <svg id="map" viewBox="0 0 ${W} ${H}" role="application" aria-label="Mapa del mundo helénico">${baseSVG(D)}
-    <g class="seas"></g><g class="slabels"></g><g class="alabels"></g><g class="sites"></g><g class="hl"></g>
+    <g class="seas"></g><g class="slabels"></g><g class="alabels"></g><g class="z0labels"></g><g class="sites"></g><g class="hl"></g>
   </svg>
   <div class="ui tl">
     <div class="search"><input id="q" type="search" placeholder="Buscar área o lugar…" autocomplete="off" aria-label="Buscar en el mapa"><div id="qr" class="qr" hidden></div></div>
@@ -166,7 +168,7 @@ ${physicalSVG(D, opts.selectedId)}
   <aside id="panel" class="panel" hidden></aside>
   <div id="tip" class="tip" hidden></div>
 </div>
-<p class="atlas-src">Costa y agua de base: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>. Trazados fluviales: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL). Macizos: <a href="https://doi.org/10.48601/earthenv-t9k2-1407" target="_blank" rel="noopener">GMBA Mountain Inventory v2</a> (CC BY 4.0). Las extensiones son cartográficas y aproximadas; los cauces modernos no reconstruyen sus cambios antiguos. Las fronteras regionales son convencionales. Cauces y extensiones montañosas desde el nivel 5; sus iconos y nombres, desde el nivel 6. El resto de lugares, desde el nivel 5. Cada isla del Egeo, desde el nivel 6.</p>`;
+<p class="atlas-src">Costa y agua de base: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>. Trazados fluviales: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL). Macizos: <a href="https://doi.org/10.48601/earthenv-t9k2-1407" target="_blank" rel="noopener">GMBA Mountain Inventory v2</a> (CC BY 4.0). Las extensiones son cartográficas y aproximadas; los cauces modernos no reconstruyen sus cambios antiguos. Las fronteras regionales son convencionales. Cauces y extensiones montañosas desde el nivel 5; sus iconos y nombres, desde el nivel 6. El resto de lugares, desde el nivel 5. Cada isla del Egeo, desde el nivel 6. En el nivel 1, las fechas con zonas continentales (tier 0) las muestran en lugar de las áreas.</p>`;
     const svg = main.querySelector('#map'), panel = main.querySelector('#panel'), tip = main.querySelector('#tip');
     const gSites = svg.querySelector('.sites'), gLab = svg.querySelector('.alabels'), gSeas = svg.querySelector('.seas'), gHl = svg.querySelector('.hl');
     let view = [0, 0, W, H], selArea = null, selSite = null, T = '-300';
@@ -203,7 +205,7 @@ ${physicalSVG(D, opts.selectedId)}
       const b = e.target.closest('button'); if (!b) return;
       if (!D.per.periodos.some(p => p.id === b.dataset.t)) return;
       T = b.dataset.t; applyTime();
-      if (T && W / view[2] < zk(5)) fitBox(D.geo.peloponeso.bbox, 0.08);
+      if (T && W / view[2] < zk(5) && !(D.t0[T] && zlevel(W / view[2]) === 1)) fitBox(D.geo.peloponeso.bbox, 0.08);
     });
 
     // etiquetas de área
@@ -212,6 +214,9 @@ ${physicalSVG(D, opts.selectedId)}
       const gr = greekName(info, rf);
       return `<g class="al${info.grupo === 'helade' ? ' hel' : ''}" data-area="${id}" data-w="${a.bbox[2] - a.bbox[0]}" transform="translate(${x},${y})"><text class="n" text-anchor="middle">${esc(gr || info.nombre || id)}</text>${gr ? `<text class="g" text-anchor="middle" dy="14">${esc(info.nombre)}</text>` : ''}</g>`;
     }).join('');
+    const gZ0 = svg.querySelector('.z0labels');
+    gZ0.innerHTML = Object.entries(D.t0).map(([y, zs]) => zs.map(z => { const [x, yy] = P(z.etiqueta); return `<g class="z0l" data-t0="${y}" data-z0="${esc(z.ficha)}" data-w="${z.bbox[2] - z.bbox[0]}" data-x="${x}" data-y="${yy}"><text class="n" text-anchor="middle">${esc(z.nombre)}</text><text class="g" text-anchor="middle" dy="14">${esc(z.nombre_alt || '')}</text></g>`; }).join('')).join('');
+    const zone0 = id => { for (const zs of Object.values(D.t0)) { const z = zs.find(x => x.ficha === id); if (z) return z; } return null; };
     gSeas.innerHTML = D.seas.map(i => { const [x, y] = P(i.pt); return `<g class="sea-l" transform="translate(${x},${y})"><text text-anchor="middle">${esc(i.alt || i.n)}</text></g>`; }).join('')
       + [['Mar Egeo', [25.2, 38.9]], ['Mar Jónico', [19.2, 37.6]], ['Ponto Euxino', [34.5, 43.3]], ['Mar Mediterráneo', [18.5, 34.6]], ['Propóntide', [28.0, 40.72]], ['Mar Adriático', [16.0, 42.6]], ['Mar Tirreno', [12.0, 39.6]]]
         .map(([t, c]) => { const [x, y] = P(c); return `<g class="sea-l big" transform="translate(${x},${y})"><text text-anchor="middle">${t}</text></g>`; }).join('');
@@ -226,12 +231,23 @@ ${physicalSVG(D, opts.selectedId)}
       svg.setAttribute('viewBox', view.join(' '));
       const u = unitsPerPx(), k = W / view[2], scale = scaleBar(u);
       const lvl = zlevel(k), naturalVisible = lvl >= 5, naturalSitesVisible = lvl >= MAX_ZOOM;
+      const t0on = lvl === 1 && !!(T && D.t0[T]);
+      svg.classList.toggle('t0-on', t0on);
       svg.classList.toggle('natural-detail', naturalVisible);
       svg.style.setProperty('--u', u);
       const placed = [], sx = x => (x - view[0]) / u, sy = y => (y - view[1]) / u;
       const fits = b => { for (const p of placed) if (!(b[2] < p[0] || b[0] > p[2] || b[3] < p[1] || b[1] > p[3])) return false; placed.push(b); return true; };
       const subVisible = s => k + 1e-9 >= zk(s.nivel ?? 5);
+      svg.querySelectorAll('.z0').forEach(p => { p.style.display = t0on && p.dataset.t0 === T ? 'inline' : 'none'; });
+      gZ0.querySelectorAll('.z0l').forEach(g => {
+        if (!t0on || g.dataset.t0 !== T) { g.style.display = 'none'; return; }
+        const x = +g.dataset.x, y = +g.dataset.y, name = g.querySelector('.n').textContent;
+        g.setAttribute('transform', `translate(${x},${y}) scale(${u})`);
+        const tw = Math.max(name.length, g.querySelector('.g').textContent.length) * 8.4;
+        g.style.display = fits([sx(x) - tw / 2, sy(y) - 14, sx(x) + tw / 2, sy(y) + 18]) ? '' : 'none';
+      });
       svg.querySelectorAll('.al').forEach(g => {
+        if (t0on) { g.style.display = 'none'; return; }
         const mine = Object.values(D.subs).filter(s => s.padre === g.dataset.area);
         if (mine.length && k >= zk(Math.min(...mine.map(s => s.nivel ?? 5)))) { g.style.display = 'none'; return; }
         const [x, y] = g.getAttribute('transform').match(/translate\(([^)]+)\)/)[1].split(',').map(Number);
@@ -349,6 +365,23 @@ ${!geo ? '<p class="muted">Sin localización terrestre: no aparece sobre el mapa
       if (move && geo) fitBox(geo.bbox);
       url({ area: id });
     }
+    function showZone0(id) {
+      const z = zone0(id); if (!z) return;
+      selArea = selSite = selSub = null;
+      const i = byId(id) || {}, y = Object.keys(D.t0).find(k => D.t0[k].includes(z)), p = D.per.periodos.find(x => x.id === y);
+      const row = (k, v, n) => v ? `<p class="kv"><b>${k}</b> ${esc(v)}${n ? `<br><span class="muted small">${esc(n)}</span>` : ''}</p>` : '';
+      panel.innerHTML = `<button class="x" aria-label="Cerrar">×</button>
+<p class="eyebrow"><span class="sw" style="background:${z.color}"></span>Zona continental · ${esc(p ? p.etiqueta : y)}</p>
+<h2>${esc(z.nombre)}</h2>${z.nombre_griego ? `<p class="gr">${esc(z.nombre_griego)}</p>` : ''}
+${row('Nombre tradicional', z.nombre_alt)}${row('Griego transliterado', z.nombre)}${row('Griego', z.nombre_griego)}${row('Endónimo', z.endonimo || '—', z.endonimo_nota)}
+${i.r ? `<p>${esc(i.r)}</p>` : ''}
+<div class="acts"><a class="btn" href="${ficha('lugares', id)}">Abrir ficha ↗</a></div>`;
+      panel.hidden = false;
+      svg.classList.add('has-sel');
+      svg.querySelectorAll('.z0').forEach(n => n.classList.toggle('sel', n.dataset.z0 === id));
+      gHl.innerHTML = '';
+      url({ lugar: id });
+    }
     const inRing = ([x, y], r) => { let c = false; for (let a = 0, b = r.length - 1; a < r.length; b = a++) { const [xi, yi] = r[a], [xj, yj] = r[b]; if ((yi > y) !== (yj > y) && x < (xj - xi) * (y - yi) / (yj - yi) + xi) c = !c; } return c; };
     const inSub = (pt, s) => s.poligonos.some(p => inRing(pt, p[0]) && !p.slice(1).some(h => inRing(pt, h)));
     function showSub(id, move = true) {
@@ -408,7 +441,7 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
       panel.hidden = true; selArea = selSite = selSub = null; gHl.innerHTML = '';
       svg.querySelectorAll('.sb.sel').forEach(n => n.classList.remove('sel'));
       svg.querySelectorAll('.feature.selected').forEach(n => n.classList.remove('selected'));
-      svg.classList.remove('has-sel'); svg.querySelectorAll('.ar.sel,.site.on').forEach(n => n.classList.remove('sel', 'on'));
+      svg.classList.remove('has-sel'); svg.querySelectorAll('.ar.sel,.z0.sel,.site.on').forEach(n => n.classList.remove('sel', 'on'));
       url({});
     }
     function url(q) { const u = new URL(location.href); ['area', 'lugar', 'region', 'sub'].forEach(k => u.searchParams.delete(k)); Object.entries(q).forEach(([k, v]) => u.searchParams.set(k, v)); history.replaceState(null, '', u); }
@@ -451,6 +484,7 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
       const site = target.closest('.site'); if (site) return showSite(D.sites[+site.dataset.k].main);
       const feature = target.closest('.feature'); if (feature) return openFeature(feature.dataset.feature);
       const sb = target.closest('.sb,.slb'); if (sb && svg.classList.contains('subs-on')) return showSub(sb.dataset.sub);
+      const z0 = target.closest('.z0,.z0l'); if (z0) return showZone0(z0.dataset.z0);
       const ar = target.closest('.ar,.al'); if (ar) return showArea(ar.dataset.area);
       clear();
     });
@@ -508,7 +542,7 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
     }, { passive: false });
     svg.addEventListener('dblclick', e => { const [cx, cy] = toSvg(e.clientX, e.clientY); setView([cx - view[2] * .3, cy - view[3] * .3, view[2] * .6, view[3] * .6], true); });
     function hover(e) {
-      const site = e.target.closest('.site'), ar = e.target.closest('.ar'), sb = svg.classList.contains('subs-on') && e.target.closest('.sb'), feature = e.target.closest('.feature');
+      const site = e.target.closest('.site'), z0 = e.target.closest('.z0'), ar = e.target.closest('.ar'), sb = svg.classList.contains('subs-on') && e.target.closest('.sb'), feature = e.target.closest('.feature');
       svg.querySelectorAll('.sb.hov').forEach(n => n !== sb && n.classList.remove('hov')); if (sb) sb.classList.add('hov');
       svg.querySelectorAll('.ar.hov').forEach(n => n !== ar && n.classList.remove('hov'));
       if (ar) ar.classList.add('hov');
@@ -516,6 +550,7 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
       if (site) { const s = D.sites[+site.dataset.k]; html = `<b>${esc(s.main.n)}</b>${s.main.alt ? ` · ${esc(s.main.alt)}` : ''}<br><span>${esc(tierName(D, s.main.es))}${s.items.length > 1 ? ` · ${s.items.length} fichas` : ''}</span>`; }
       else if (feature) { const f = D.fisico.accidentes.find(x => x.id === feature.dataset.feature); html = `<b>${esc(f.nombre)}</b><br><span>${f.tipo === 'rio' ? 'Cauce del río' : 'Extensión del macizo'}</span>`; }
       else if (sb) { const s = D.subs[sb.dataset.sub], p = per(), st = p && p.subregiones[sb.dataset.sub], pw = st && D.poder[st.poder]; html = `<b>${esc(s.nombre)}</b>${pw ? `<br><span>${esc(pw.nombre)}</span>` : ''}`; }
+      else if (z0) { const z = zone0(z0.dataset.z0); html = `<b>${esc(z.nombre)}</b> · ${esc(z.nombre_alt || '')}<br><span>${esc(z.nombre_griego || '')}${z.endonimo ? ` · ${esc(z.endonimo)}` : ''}</span>`; }
       else if (ar) { const info = D.areaInfo.get(ar.dataset.area) || {}; html = `<b>${esc(info.nombre || ar.dataset.area)}</b>`; }
       if (!html) { tip.hidden = true; return; }
       const r = main.querySelector('.atlas').getBoundingClientRect();
@@ -558,8 +593,9 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
     if (sp.get('t') && D.per.periodos.some(p => p.id === sp.get('t'))) T = sp.get('t');
     applyTime();
     if (sbq && D.subs[sbq]) { showSub(sbq); return; }
-    if (sp.get('t') === T && !lg && !ar && !reg) fitBox(D.geo.peloponeso.bbox, 0.08, false);
-    if (lg && byId(lg)) { const i = byId(lg); if (i.es === 'region' && areaOf(i)) showArea(areaOf(i)); else showSite(i); }
+    if (sp.get('t') === T && !D.t0[T] && !lg && !ar && !reg) fitBox(D.geo.peloponeso.bbox, 0.08, false);
+    if (lg && zone0(lg)) { const y = Object.keys(D.t0).find(k => D.t0[k].some(z => z.ficha === lg)); if (y !== T) { T = y; applyTime(); } setView([0, 0, W, H]); showZone0(lg); }
+    else if (lg && byId(lg)) { const i = byId(lg); if (i.es === 'region' && areaOf(i)) showArea(areaOf(i)); else showSite(i); }
     else if (ar && D.areaInfo.has(ar)) showArea(ar);
     else if (reg) { const i = byId(reg); if (i && areaOf(i)) showArea(areaOf(i)); }
   }
@@ -569,7 +605,9 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
     const D = await load();
     const i = D.lugares.find(x => x.id === rec.id); if (!i) return;
     const geometry = D.physicalByPlace.get(i.id);
-    const a = areaOf(i), pt = geometry ? geometry.punto : i.pt || i.ptx, geo = a && D.geo[a];
+    let z0 = null;
+    if (i.es === 'continental') for (const zs of Object.values(D.t0)) z0 = z0 || zs.find(z => z.ficha === i.id);
+    const a = areaOf(i), pt = geometry ? geometry.punto : i.pt || i.ptx, geo = z0 || (a && D.geo[a]);
     if (!pt && !geo) return;
     let box;
     if (geometry) box = geometry.bbox;
@@ -579,7 +617,7 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
     let w = (x1 - x0) * 1.25, h = w * 0.62; if ((y1 - y0) * 1.25 > h) { h = (y1 - y0) * 1.25; w = h / 0.62; }
     const cx = (x0 + x1) / 2, cy = (y0 + y1) / 2, u = w / 300;
     const mk = pt ? (() => { const [x, y] = P(pt); return `<g transform="translate(${x},${y}) scale(${u})"><circle r="9" class="mm-halo"/><circle r="4.5" class="mm-dot"/></g>`; })() : '';
-    el.innerHTML = `<a class="minimap" href="mapa.html?lugar=${encodeURIComponent(i.id)}" title="Abrir en el mapa"><svg viewBox="${cx - w / 2} ${cy - h / 2} ${w} ${h}" style="--u:${u}">${baseSVG(D, { selectedId: geometry && geometry.id })}<g class="mm-sel">${geo && !geometry ? `<path d="${geo.poligonos.map(polyPath).join('')}"/>` : ''}</g>${mk}</svg><span>${esc(a ? (D.areaInfo.get(a) || {}).nombre || '' : '')}${rec.geo && rec.geo.precision === 'heredada' ? ` · punto de ${esc(rec.geo.de || 'su sitio')}` : ''} · Ver en el mapa ↗</span></a>`;
+    el.innerHTML = `<a class="minimap" href="mapa.html?lugar=${encodeURIComponent(i.id)}" title="Abrir en el mapa"><svg viewBox="${cx - w / 2} ${cy - h / 2} ${w} ${h}" style="--u:${u}">${baseSVG(D, { selectedId: geometry && geometry.id })}<g class="mm-sel">${geo && !geometry ? `<path d="${geo.poligonos.map(polyPath).join('')}"/>` : ''}</g>${mk}</svg><span>${esc(z0 ? 'Zona continental' : a ? (D.areaInfo.get(a) || {}).nombre || '' : '')}${rec.geo && rec.geo.precision === 'heredada' ? ` · punto de ${esc(rec.geo.de || 'su sitio')}` : ''} · Ver en el mapa ↗</span></a>`;
   }
 
   window.HEL_MAP = { init, mini, project: P };

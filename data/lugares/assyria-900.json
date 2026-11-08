@@ -1,0 +1,33 @@
+{
+  "id": "assyria-900",
+  "nombre": "Assyriā",
+  "nombre_alt": "Asiria",
+  "nombre_griego": "Ἀσσυρίᾱ",
+  "endonimo": "Māt Aššur",
+  "endonimo_nota": "Acadio: «país de Aššur».",
+  "imagen": null,
+  "tipos": [
+    "Zona continental"
+  ],
+  "areas": [
+    "persia"
+  ],
+  "escala": "continental",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Núcleo asirio del Tigris medio (Aššur, Nínive, Kalhu) y la Alta Mesopotamia hasta el Jabur. Adad-nirari II (911–891) recupera el territorio perdido ante los arameos; Assurnasirpal II (883–859) traslada la capital a Kalhu."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Babilonia, al sur, queda fuera de esta zona."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

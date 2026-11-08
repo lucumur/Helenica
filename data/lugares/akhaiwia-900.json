@@ -1,0 +1,44 @@
+{
+  "id": "akhaiwia-900",
+  "nombre": "Akhaiwiā",
+  "nombre_alt": "Acaya",
+  "nombre_griego": "Ἀχαιϝίᾱ",
+  "endonimo": "Akhaiwiā",
+  "endonimo_nota": "Lineal B a-ka-wi-ja-de, «hacia Akhaiwiā» (PY Fr 1234).",
+  "imagen": null,
+  "tipos": [
+    "Zona continental"
+  ],
+  "areas": [
+    "peloponeso",
+    "grecia-central",
+    "grecia-occidental",
+    "tesalia",
+    "epiro",
+    "eubea",
+    "islas-egeo",
+    "creta",
+    "chipre",
+    "asia-eolia",
+    "asia-jonia",
+    "asia-doria"
+  ],
+  "escala": "continental",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Mundo griego del Geométrico temprano: Grecia continental al sur del Olimpo, Epiro, las islas del Jónico y del Egeo, Creta, Chipre y la franja costera eolia, jonia y doria de Asia. Sin estado común: comunidades organizadas por región y dialecto."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Forma respaldada por el lineal B: a-ka-wi-ja-de (PY Fr 1234). Clásico Ἀχαΐα; en Homero, Ἀχαιΐς (γαῖα) y el gentilicio Ἀχαιοί (*Ἀχαιϝοί), probable origen del hitita Aḫḫiyawa.\n- «Hellas» todavía no designa al conjunto.\n- En Chipre, reinos grecochipriotas; Kition fenicia es posterior (c. 850)."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

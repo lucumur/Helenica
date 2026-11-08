@@ -1,0 +1,33 @@
+{
+  "id": "aigyptos-900",
+  "nombre": "Aigyptos",
+  "nombre_alt": "Egipto",
+  "nombre_griego": "Αἴγυπτος",
+  "endonimo": "Kāmat",
+  "endonimo_nota": "Reconstrucción (km.t, «la tierra negra»); copto Kēme. Hacia 900 a.C. la pronunciación ya evolucionaba hacia la forma copta.",
+  "imagen": null,
+  "tipos": [
+    "Zona continental"
+  ],
+  "areas": [
+    "egipto"
+  ],
+  "escala": "continental",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Valle y delta del Nilo y el Sinaí. Tercer Periodo Intermedio: dinastía XXII, de origen libio, con sede en Bubastis y Tanis (Osorkón I, c. 922–887)."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- En micénico ya aparece el gentilicio a3-ku-pi-ti-jo (Aiguptios)."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

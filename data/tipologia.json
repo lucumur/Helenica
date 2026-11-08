@@ -2,6 +2,12 @@
   "schema_version": 1,
   "escalas": [
     {
+      "id": "continental",
+      "tier": 0,
+      "nombre": "Zona continental",
+      "descripcion": "Esfera político-cultural de escala continental en una fecha dada (Akhaiwiā, Asiria, Egipto en 900 a.C.). Solo se dibuja en el nivel de zoom 1, según la fecha del selector."
+    },
+    {
       "id": "region",
       "tier": 1,
       "nombre": "Región",

@@ -1,0 +1,33 @@
+{
+  "id": "tartassos-900",
+  "nombre": "Tartāssos",
+  "nombre_alt": "Tartessos",
+  "nombre_griego": "Ταρτᾱσσός",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Zona continental"
+  ],
+  "areas": [
+    "iberia"
+  ],
+  "escala": "continental",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Suroeste de la península ibérica: bajo Guadalquivir, Huelva y el Algarve, en el Bronce Final atlántico, antes de la orientalización fenicia."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Forma griega reconstruida: supone que la η jonia de Ταρτησσός (Heródoto 1.163, 4.152) procede de ā; si era ē original, la forma sería Tartēssos.\n- Posible relación con el hebreo Taršīš.\n- El resto de Iberia queda sin zona."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

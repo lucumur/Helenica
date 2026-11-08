@@ -1,0 +1,33 @@
+{
+  "id": "phrygia-900",
+  "nombre": "Phrygiā",
+  "nombre_alt": "Frigia y estados neohititas",
+  "nombre_griego": "Φρυγίᾱ",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido. En asirio, Mušku (identificación con los frigios discutida).",
+  "imagen": null,
+  "tipos": [
+    "Zona continental"
+  ],
+  "areas": [
+    "anatolia"
+  ],
+  "escala": "continental",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Anatolia interior, de la Tróade al Éufrates, con los estados luvitas del sureste: Tabal, Karkemish, Gurgum, Kummuh y Pattina. Frigios asentados en Gordion."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- El reino frigio unificado es posterior (s. VIII).\n- La costa egea, griega, pertenece a Akhaiwiā."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

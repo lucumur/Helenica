@@ -85,6 +85,21 @@ try:
             errors.append(f'data/mapa/zonas.json: área "{z.get("area")}" no definida en data/areas.json')
         if z.get('tipo') not in ('continente', 'islas'):
             errors.append(f'data/mapa/zonas.json ({z.get("area")}): tipo debe ser "continente" o "islas"')
+    lug = {r.get('id'): r for rel, r in recs if '/lugares/' in rel or rel.startswith('lugares')}
+    for anio, zs in (json.load(open(os.path.join(DATA, 'mapa', 'zonas.json'), encoding='utf-8')).get('tier0') or {}).items():
+        if not isinstance(zs, list):
+            continue
+        for z in zs:
+            r = lug.get(z.get('ficha'))
+            lab = f'data/mapa/zonas.json (tier0 {anio}, {z.get("ficha")})'
+            if r is None:
+                errors.append(f'{lab}: ficha inexistente'); continue
+            if r.get('escala') != 'continental':
+                errors.append(f'{lab}: la ficha debe tener escala "continental"')
+            if (r.get('epoca') or {}).get('anio') != int(anio):
+                warns.append(f'{lab}: la época de la ficha no coincide con la fecha')
+            if not r.get('nombre_griego') or not r.get('nombre_alt'):
+                warns.append(f'{lab}: faltan nombre_griego o nombre_alt')
 except Exception as e:
     errors.append(f'data/mapa/zonas.json: no se pudo leer ({e})')
 

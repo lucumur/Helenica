@@ -152,7 +152,7 @@
     const QP = new URLSearchParams(location.search);
     const st = { q: '', t: new Set(), a: QP.get('area') || '', es: QP.get('escala') || '', fo: QP.get('forma') || '', fu: QP.get('funcion') || '' };
     const FACETS = [['es', 'escala', 'escalas', 'Tier', i => [i.es]], ['fo', 'forma', 'formas', 'Forma', i => i.fo || []], ['fu', 'funcion', 'funciones', 'Función', i => i.fu || []]];
-    const facetPanel = col !== 'lugares' ? '' : `<div id="facets">${FACETS.map(([k, qp, tk, lbl, get]) => `<div class="area-grp"><span class="area-lbl">${lbl}</span>${TIPO[tk].map(x => { const n = all.filter(i => get(i).includes(x.id)).length; return n ? `<button class="chip area" data-k="${k}" data-v="${x.id}" title="${esc(x.descripcion || '')}">${x.tier ? `<b style="opacity:.55">${x.tier}</b> ` : ''}${esc(x.nombre)} <span class="muted">${n}</span></button>` : ''; }).join('')}</div>`).join('')}</div>`;
+    const facetPanel = col !== 'lugares' ? '' : `<div id="facets">${FACETS.map(([k, qp, tk, lbl, get]) => `<div class="area-grp"><span class="area-lbl">${lbl}</span>${TIPO[tk].map(x => { const n = all.filter(i => get(i).includes(x.id)).length; return n ? `<button class="chip area" data-k="${k}" data-v="${x.id}" title="${esc(x.descripcion || '')}">${x.tier != null ? `<b style="opacity:.55">${x.tier}</b> ` : ''}${esc(x.nombre)} <span class="muted">${n}</span></button>` : ''; }).join('')}</div>`).join('')}</div>`;
     const areaPanel = col !== 'lugares' ? '' : `<select id="area-sel" class="sel"><option value="">Todas las áreas</option>${AREAS.grupos.map(g => { const opts = AREAS.areas.filter(x => x.grupo === g.id).map(x => [x, all.filter(i => (i.ar || []).includes(x.id)).length]); return opts.length ? `<optgroup label="${esc(g.nombre)}">${opts.map(([x, n]) => `<option value="${x.id}"${st.a === x.id ? ' selected' : ''}>${esc(x.nombre)} (${n})</option>`).join('')}</optgroup>` : ''; }).join('')}</select>`;
     $('main').innerHTML = `
 <section class="hero compact"><p class="eyebrow">${all.length} fichas</p><h1>${COLS[col].p}</h1><p>${COLS[col].d}</p></section>
@@ -264,7 +264,7 @@ ${dd('Elementos', md(val(r.elementos)))}${dd('Problema', md(val(r.problema)))}${
       mark(chain);
       const contiene = mark(I.cont.get(K)), evs = mark(I.evDo.get(K));
       const tt = (r.campos || []).find(c => c.clave === 'T🏷️');
-      attrs = `<dl class="attr">${dd('Tipo', tagHTML(r.tipos) + (tt ? ' · ' + inline(tt.texto.replace(/^- /gm, '').replace(/\n/g, ' · ')) : ''))}${dd('Escala', r.escala ? (() => { const x = TIPO.escalas.find(y => y.id === r.escala); return `<a href="lugares.html?escala=${r.escala}">${x && x.tier ? `Tier ${x.tier} · ` : ''}${esc(tName('escalas', r.escala))}</a>`; })() : '')}
+      attrs = `<dl class="attr">${dd('Tipo', tagHTML(r.tipos) + (tt ? ' · ' + inline(tt.texto.replace(/^- /gm, '').replace(/\n/g, ' · ')) : ''))}${dd('Escala', r.escala ? (() => { const x = TIPO.escalas.find(y => y.id === r.escala); return `<a href="lugares.html?escala=${r.escala}">${x && x.tier != null ? `Tier ${x.tier} · ` : ''}${esc(tName('escalas', r.escala))}</a>`; })() : '')}
 ${dd('Forma', (r.forma || []).length ? `<ul class="md">${r.forma.map(x => { const p = x.periodo && TIPO.periodos.find(y => y.id === x.periodo); return `<li><a href="lugares.html?forma=${encodeURIComponent(x.tipo)}">${esc(tName('formas', x.tipo))}</a>${p || x.fechas ? ` <span class="muted">— ${esc(p ? p.nombre : '')}${x.fechas ? (p ? ', ' : '') + esc(x.fechas) : ''}</span>` : ''}${x.nota ? `<br><span style="font-size:.9rem">${inline(x.nota)}</span>` : ''}</li>`; }).join('')}</ul>` : '')}
 ${dd('Funciones', (r.funciones || []).map(x => `<a class="tag" style="text-decoration:none" href="lugares.html?funcion=${x}">${esc(tName('funciones', x))}</a>`).join(' '))}
 ${r.epoca ? dd('Época', `<a href="mapa.html?t=${r.epoca.anio}">${fmtAnio(r.epoca.anio)}</a>${(() => { const pr = periodoDe(r.epoca.anio); return pr ? ` <span class="muted">· ${esc(pr.nombre)}</span>` : ''; })()}${r.epoca.nota ? `<div style="font-size:.92rem;margin-top:3px">${inline(r.epoca.nota)}</div>` : '<div class="muted" style="font-size:.85rem">Situación en esa fecha: pendiente.</div>'}`) : ''}${dd('Área', (r.areas || []).map(x => `<a href="lugares.html?area=${encodeURIComponent(x)}">${esc(areaName(x))}</a>`).join(', '))}${dd('Pertenece a', chain.map(k => linkKey(k)).join(' › '))}</dl>`;
@@ -292,6 +292,7 @@ ${r.epoca ? dd('Época', `<a href="mapa.html?t=${r.epoca.anio}">${fmtAnio(r.epoc
 <section class="hero compact"><p class="eyebrow"><a href="${col}.html" style="text-decoration:none">${COLS[col].p}</a></p>
 <div class="ficha-icon-slot"><span class="ficha-icon${r.icono ? '' : ' empty'}" role="img" aria-label="${r.icono ? 'Icono de la ficha' : 'Espacio para icono'}">${iconHTML(r.icono)}</span><button type="button" class="icon-action edit-only" id="icon-edit">${r.icono ? 'Cambiar icono' : 'Añadir icono'}</button></div>
 <h1>${esc(r.nombre)}</h1>${r.nombre_alt ? `<p style="font:1.2rem var(--serif)">${esc(r.nombre_alt)}</p>` : ''}
+${r.nombre_griego || r.endonimo || r.endonimo_nota ? `<p class="nombres"${r.endonimo_nota ? ` title="${esc(r.endonimo_nota)}"` : ''}>${r.nombre_griego ? `<span lang="grc">${esc(r.nombre_griego)}</span>` : ''}${r.nombre_griego && (r.endonimo || r.endonimo_nota) ? ' · ' : ''}${r.endonimo || r.endonimo_nota ? `<span class="muted">Endónimo:</span> ${esc(r.endonimo || '—')}${r.endonimo_nota ? `<br><span class="muted" style="font-size:.85rem">${esc(r.endonimo_nota)}</span>` : ''}` : ''}</p>` : ''}
 <p>${tagHTML(r.tipos || (r.tipo ? [r.tipo] : []))}${r.genero ? ` <span class="tag">${r.genero === 'M' ? '♂' : '♀'}</span>` : ''}</p>
 ${desc ? `<div style="font-size:1.06rem;max-width:780px">${md(desc)}</div>` : ''}
 <p><button class="btn edit-only" id="ed">✎ Editar esta ficha</button></p></section>
@@ -311,7 +312,7 @@ ${desc ? `<div style="font-size:1.06rem;max-width:780px">${md(desc)}</div>` : ''
   function contieneHTML(r, inverse) {
     const tierOf = k => { const it = IDX.by.get(k), x = it && TIPO && TIPO.escalas.find(y => y.id === it.es); return x ? x : null; };
     const item = (k, nota) => { const it = IDX.by.get(k); if (!it) return ''; const t = tierOf(k);
-      return `<li>${linkKey(k)}${t && t.tier ? ` <span class="tier-b">T${t.tier}</span>` : ''}${nota ? `<span class="cnota">${inline(nota)}</span>` : ''}</li>`; };
+      return `<li>${linkKey(k)}${t && t.tier != null ? ` <span class="tier-b">T${t.tier}</span>` : ''}${nota ? `<span class="cnota">${inline(nota)}</span>` : ''}</li>`; };
     const listed = new Set(), out = [];
     (r.contiene || []).forEach(g => {
       const ks = (g.lugares || []).filter(x => x.id).map(x => { const k = `lugares:${x.id}`; listed.add(k); return [k, x.nota]; });
@@ -320,7 +321,7 @@ ${desc ? `<div style="font-size:1.06rem;max-width:780px">${md(desc)}</div>` : ''
     const rest = inverse.filter(k => !listed.has(k));
     if (rest.length) {
       const by = new Map();
-      rest.forEach(k => { const t = tierOf(k), key = t ? `${t.tier ? `Tier ${t.tier} · ` : ''}${t.nombre}` : 'Otros'; if (!by.has(key)) by.set(key, []); by.get(key).push(k); });
+      rest.forEach(k => { const t = tierOf(k), key = t ? `${t.tier != null ? `Tier ${t.tier} · ` : ''}${t.nombre}` : 'Otros'; if (!by.has(key)) by.set(key, []); by.get(key).push(k); });
       [...by.entries()].sort().forEach(([lbl, ks]) => out.push(`<div class="cgrupo"><h4>${esc((r.contiene || []).length ? 'Sin agrupar · ' + lbl : lbl)} <span class="muted">· ${ks.length}</span></h4><ul class="clist">${ks.sort((a, b) => IDX.by.get(a).n.localeCompare(IDX.by.get(b).n)).map(k => item(k)).join('')}</ul></div>`));
     }
     return out.join('');

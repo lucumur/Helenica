@@ -1,0 +1,33 @@
+{
+  "id": "syria-900",
+  "nombre": "Syriā",
+  "nombre_alt": "Siria aramea",
+  "nombre_griego": "Συρίᾱ",
+  "endonimo": "Aram",
+  "endonimo_nota": "Arameo ʾrm; solo designa a los arameos.",
+  "imagen": null,
+  "tipos": [
+    "Zona continental"
+  ],
+  "areas": [
+    "levante"
+  ],
+  "escala": "continental",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Siria interior y Palestina: reinos arameos (Damasco, Hamat), Israel y Judá, filisteos y Transjordania."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- La «Syria» griega incluye Palestina (Heródoto: Παλαιστίνη Συρίη); el endónimo Aram cubre solo a los arameos.\n- Los estados luvitas del norte (Karkemish, Pattina, Gurgum) se agrupan con Frigia."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

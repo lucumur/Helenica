@@ -15,23 +15,31 @@
   const HELADE = ['#d9a079', '#e3b98f', '#c98e6a', '#e8c79d', '#d4a483', '#dcae7d', '#c7956f', '#e6bc8b', '#d09a74', '#e0b48c', '#cf9f7e', '#e4c095', '#d6a988', '#dfb184', '#cb936d'];
   const FUERA = ['#b9c6c1', '#c4cbbd', '#b3c0c7', '#c8c3b5', '#bcc8b8', '#c0c4cc', '#b6c3bb', '#c6c0b0', '#bdc7c4', '#c2bfb6', '#b8c4be', '#c5cac0'];
   const TIER_ICON = { chora: 'diamond', ethnos: 'diamond', 'polis-kome': 'circle', demos: 'small', moira: 'small', oikema: 'small' };
-  // Use the same distance as the visible scale bar, independently of viewport size.
-  const SCALE_STEPS = [1, 2, 5, 10, 20, 50, 100, 200, 500, 1000];
-  const scaleBar = unitsPerPixel => {
-    const kmPerPx = unitsPerPixel / U * 111.2;
-    const km = SCALE_STEPS.find(v => v / kmPerPx >= 70) || 1000;
-    return { km, pixels: km / kmPerPx };
-  };
-  const naturalKind = i => (i.t || []).includes('Monte') ? 'monte' : (i.t || []).includes('Río') ? 'rio' : null;
+  // Nivel = último umbral alcanzado. k = ancho del atlas / ancho del encuadre.
+  const ZL = [
+    { n: 0, k: 1, que: 'Áreas, mares grandes, ríos mayores' },
+    { n: 1, k: 2.2, que: 'Marcas de chora, ethnos, monte y río' },
+    { n: 2, k: 2.4, que: 'Subregiones' },
+    { n: 3, k: 2.5, que: 'Ríos menores' },
+    { n: 4, k: 3.2, que: 'Marcas de polis y kome' },
+    { n: 5, k: 4, que: 'Nombres de chora y ethnos' },
+    { n: 6, k: 4.5, que: 'Nombres de polis y kome' },
+    { n: 7, k: 5, que: 'Mares de las fichas' },
+    { n: 8, k: 7, que: 'Nombres de monte y río; se apagan los mares grandes' },
+    { n: 9, k: 9, que: 'El nombre de la gran área se atenúa' },
+    { n: 10, k: 10, que: 'Encuadre de una chora' },
+    { n: 11, k: 18, que: 'Encuadre de una polis' },
+    { n: 12, k: 60, que: 'Tope de zoom' },
+  ];
+  const zk = n => ZL[n].k;
+  const zlevel = k => { let n = 0; for (const z of ZL) if (k + 1e-9 >= z.k) n = z.n; return n; };
 
   let DATA = null;
   async function load() {
     if (DATA) return DATA;
     const g = window.HEL.getJSON;
-    const [I, tierra, rios, lagos, geo, areas, tipo, per, fisico] = await Promise.all([window.HEL.loadIndex(), g('data/mapa/tierra.json'), g('data/mapa/rios.json'),
-      g('data/mapa/lagos.json'), g('data/mapa/areas.geo.json'), g('data/areas.json'), g('data/tipologia.json'), g('data/mapa/periodos.json'), g('data/mapa/fisico.json')]);
-    const physicalByPlace = new Map();
-    for (const f of fisico.accidentes) for (const id of f.lugares) physicalByPlace.set(id, f);
+    const [I, tierra, rios, lagos, geo, areas, tipo, per] = await Promise.all([window.HEL.loadIndex(), g('data/mapa/tierra.json'), g('data/mapa/rios.json'),
+      g('data/mapa/lagos.json'), g('data/mapa/areas.geo.json'), g('data/areas.json'), g('data/tipologia.json'), g('data/mapa/periodos.json')]);
     const areaInfo = new Map(areas.areas.map(a => [a.id, a]));
     let h = 0, f = 0;
     const color = {};
@@ -47,15 +55,15 @@
     // agrupar puntos casi idénticos (fases de un mismo sitio)
     const seen = new Map();
     for (const i of puntos) {
-      const geometry = physicalByPlace.get(i.id);
-      const k = geometry ? `fisico:${geometry.id}` : `${naturalKind(i) || 'lugar'}:${i.pt.map(v => v.toFixed(2)).join(',')}`;
-      if (!seen.has(k)) seen.set(k, { pt: geometry ? geometry.punto : i.pt, items: [], geometry });
+      const k = i.pt.map(v => v.toFixed(2)).join(',');
+      if (!seen.has(k)) seen.set(k, { pt: i.pt, items: [] });
       seen.get(k).items.push(i);
     }
     const sites = [...seen.values()].map(s => {
       s.items.sort((a, b) => (a.es === 'polis-kome' ? 0 : 1) - (b.es === 'polis-kome' ? 0 : 1) || a.n.length - b.n.length);
       s.main = s.items[0]; s.tier = s.items.some(i => i.es === 'polis-kome') ? 'polis-kome' : s.main.es;
-      s.kind = naturalKind(s.main) || s.tier;
+      const t = s.main.t || [];
+      s.kind = s.tier !== 'polis-kome' && t.includes('Monte') ? 'monte' : s.tier !== 'polis-kome' && t.includes('Río') ? 'rio' : s.tier;
       s.label = s.main.n.replace(/\s*\(.*$/, '').split(',')[0].trim();
       s.rank = (s.tier === 'polis-kome' ? 0 : s.kind === 'monte' || s.kind === 'rio' ? 2 : 1) - Math.min(s.items.length, 4) * .1;
       return s;
@@ -65,16 +73,12 @@
     const SUBC = ['#e0a27c', '#d3b07f', '#cf9670', '#e6bf92', '#c9a07d', '#dcb48a', '#d8a073'];
     Object.keys(subs).forEach((k, n) => { subs[k].color = SUBC[n % SUBC.length]; });
     const poder = Object.fromEntries(per.poderes.map(p => [p.id, p]));
-    DATA = { I, tierra, rios, lagos, geo: geo.areas, subs, per, poder, areaInfo, color, regionFicha, lugares, sites, seas, tipo, fisico, physicalByPlace };
+    DATA = { I, tierra, rios, lagos, geo: geo.areas, subs, per, poder, areaInfo, color, regionFicha, lugares, sites, seas, tipo };
     return DATA;
   }
 
   const tierName = (D, id) => (D.tipo.escalas.find(x => x.id === id) || {}).nombre || id;
   const areaOf = i => (i.ar || [])[0];
-  const physicalPath = f => f.tipo === 'rio' ? f.lineas.map(line).join('') : f.poligonos.map(polyPath).join('');
-  function physicalSVG(D, selectedId) {
-    return `<g class="physical">${D.fisico.accidentes.map(f => `<g class="feature ${f.tipo}${f.id === selectedId ? ' selected' : ''}" data-feature="${esc(f.id)}" tabindex="0" role="button" aria-label="${esc(f.nombre)}"><path class="extent" d="${physicalPath(f)}" fill-rule="evenodd"/>${f.tipo === 'rio' ? `<path class="feature-hit" d="${physicalPath(f)}"/>` : ''}<title>${esc(f.nombre)}</title></g>`).join('')}</g>`;
-  }
 
   function baseSVG(D, opts = {}) {
     const land = D.tierra.poligonos.map(polyPath).join('');
@@ -96,7 +100,6 @@
 <g class="subs">${Object.entries(D.subs || {}).map(([id, s]) => `<path class="sb" data-sub="${id}" fill="${s.color}" d="${s.poligonos.map(polyPath).join('')}"/><path class="sbh" data-sub="${id}" d="${s.poligonos.map(polyPath).join('')}"/>`).join('')}</g>
 <g class="lakes">${lakes}</g>
 <g class="rivers">${rivers}</g>
-${physicalSVG(D, opts.selectedId)}
 <g class="coast"><path d="${land}"/></g>`;
   }
 
@@ -113,11 +116,11 @@ ${physicalSVG(D, opts.selectedId)}
   </svg>
   <div class="ui tl">
     <div class="search"><input id="q" type="search" placeholder="Buscar área o lugar…" autocomplete="off" aria-label="Buscar en el mapa"><div id="qr" class="qr" hidden></div></div>
-    <div class="layers"><label><input type="checkbox" id="l-rv" checked> Ríos</label><label><input type="checkbox" id="l-mt" checked> Montes</label><label><input type="checkbox" id="l-pt" checked> Lugares</label><label><input type="checkbox" id="l-lb" checked> Nombres</label></div>
+    <div class="layers"><label><input type="checkbox" id="l-rv" checked> Ríos</label><label><input type="checkbox" id="l-pt" checked> Lugares</label><label><input type="checkbox" id="l-lb" checked> Nombres</label></div>
   </div>
   <div class="ui tc"><div class="when" role="group" aria-label="Fecha">${[['', 'Geografía'], ...D.per.periodos.map(p => [p.id, p.etiqueta])].map(([v, l]) => `<button type="button" data-t="${v}">${l}</button>`).join('')}</div>
     <div id="era" class="era" hidden></div></div>
-  <div class="ui tr zoom"><button id="zi" title="Acercar">+</button><button id="zo" title="Alejar">−</button><button id="zr" title="Vista completa">⤢</button></div>
+  <div class="ui tr zoom"><b id="zl" title="Nivel de zoom">0</b><button id="zi" title="Acercar">+</button><button id="zo" title="Alejar">−</button><button id="zr" title="Vista completa">⤢</button></div>
   <div class="ui bl"><div class="scale"><span id="sbar"></span><b id="slab"></b></div>
     <div class="legend"><span><i style="background:${HELADE[0]}"></i>Hélade</span><span><i style="background:${FUERA[0]}"></i>Tierras extranjeras</span><span><i class="dm"></i>Chora</span><span><i class="ci"></i>Polis / Kome</span><span>⛰️ Monte</span><span>🌊 Río</span></div>
     <div class="offmap">${offmap.map(a => `<button data-area="${a}">✧ ${esc(D.areaInfo.get(a).nombre)}</button>`).join('')}</div>
@@ -125,7 +128,7 @@ ${physicalSVG(D, opts.selectedId)}
   <aside id="panel" class="panel" hidden></aside>
   <div id="tip" class="tip" hidden></div>
 </div>
-<p class="atlas-src">Costa y agua de base: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>. Trazados fluviales: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL). Macizos: <a href="https://doi.org/10.48601/earthenv-t9k2-1407" target="_blank" rel="noopener">GMBA Mountain Inventory v2</a> (CC BY 4.0). Las extensiones son cartográficas y aproximadas; los cauces modernos no reconstruyen sus cambios antiguos. Las fronteras regionales son convencionales. Iconos naturales desde una escala de 20 km.</p>`;
+<p class="atlas-src">Costa, ríos y lagos: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a> 1:10m (dominio público). Las fronteras entre áreas son convencionales y aproximadas, no límites históricos; los puntos marcados "aprox." son ubicaciones de referencia.</p>`;
     const svg = main.querySelector('#map'), panel = main.querySelector('#panel'), tip = main.querySelector('#tip');
     const gSites = svg.querySelector('.sites'), gLab = svg.querySelector('.alabels'), gSeas = svg.querySelector('.seas'), gHl = svg.querySelector('.hl');
     let view = [0, 0, W, H], selArea = null, selSite = null, T = null;
@@ -161,7 +164,7 @@ ${physicalSVG(D, opts.selectedId)}
     main.querySelector('.when').addEventListener('click', e => {
       const b = e.target.closest('button'); if (!b) return;
       T = b.dataset.t || null; applyTime();
-      if (T && W / view[2] < 2.4) fitBox(D.geo.peloponeso.bbox, 0.08);
+      if (T && W / view[2] < zk(2)) fitBox(D.geo.peloponeso.bbox, 0.08);
     });
 
     // etiquetas de área
@@ -182,13 +185,11 @@ ${physicalSVG(D, opts.selectedId)}
     function unitsPerPx() { return view[2] / (svg.clientWidth || 1000); }
     function apply() {
       svg.setAttribute('viewBox', view.join(' '));
-      const u = unitsPerPx(), k = W / view[2], scale = scaleBar(u);
-      const naturalVisible = scale.km <= 20;
-      svg.classList.toggle('natural-detail', naturalVisible);
+      const u = unitsPerPx(), k = W / view[2];
       svg.style.setProperty('--u', u);
       const placed = [], sx = x => (x - view[0]) / u, sy = y => (y - view[1]) / u;
       const fits = b => { for (const p of placed) if (!(b[2] < p[0] || b[0] > p[2] || b[3] < p[1] || b[1] > p[3])) return false; placed.push(b); return true; };
-      const subsVisible = W / view[2] >= 2.4 || !!T;
+      const subsVisible = k >= zk(2) || !!T;
       svg.querySelectorAll('.al').forEach(g => {
         if (subsVisible && Object.values(D.subs).some(s => s.padre === g.dataset.area)) { g.style.display = 'none'; return; }
         const [x, y] = g.getAttribute('transform').match(/translate\(([^)]+)\)/)[1].split(',').map(Number);
@@ -196,41 +197,43 @@ ${physicalSVG(D, opts.selectedId)}
         g.setAttribute('transform', `translate(${x},${y}) scale(${u})`);
         const tw = name.length * 8.4, show = wpx > name.length * 7.2 && fits([sx(x) - tw / 2, sy(y) - 14, sx(x) + tw / 2, sy(y) + (g.querySelector('.g') ? 18 : 4)]);
         g.style.display = show ? '' : 'none';
-        g.classList.toggle('dim', k > 9);
+        g.classList.toggle('dim', k >= zk(9));
       });
       gSeas.querySelectorAll('.sea-l').forEach(g => {
         const m = g.getAttribute('transform').match(/translate\(([^)]+)\)/)[1].split(',').map(Number);
         g.setAttribute('transform', `translate(${m[0]},${m[1]}) scale(${u})`);
-        const vis = g.classList.contains('big') ? k < 7 : k >= 5, tw = g.textContent.length * 7.5;
+        const vis = g.classList.contains('big') ? k < zk(8) : k >= zk(7), tw = g.textContent.length * 7.5;
         g.style.display = vis && fits([sx(m[0]) - tw / 2, sy(m[1]) - 12, sx(m[0]) + tw / 2, sy(m[1]) + 4]) ? '' : 'none';
       });
-      const subOn = k >= 2.4 || !!T;
+      const subOn = k >= zk(2) || !!T;
       svg.classList.toggle('subs-on', subOn);
       gSL.querySelectorAll('.slb').forEach(g => {
         const x = +g.dataset.x, y = +g.dataset.y, name = g.querySelector('.n').textContent;
         g.setAttribute('transform', `translate(${x},${y}) scale(${u})`);
         const tw = Math.max(name.length * 8.6, g.querySelector('.p').textContent.length * 6.4);
-        g.style.display = subOn && k >= 2.4 && fits([sx(x) - tw / 2, sy(y) - 13, sx(x) + tw / 2, sy(y) + 16]) ? '' : 'none';
+        g.style.display = subOn && k >= zk(2) && fits([sx(x) - tw / 2, sy(y) - 13, sx(x) + tw / 2, sy(y) + 16]) ? '' : 'none';
       });
       const nodes = [...gSites.querySelectorAll('.site')].map(g => [g, D.sites[+g.dataset.k]]);
       for (const [g, s] of nodes) {
         const [x, y] = P(s.pt);
         g.setAttribute('transform', `translate(${x},${y}) scale(${u})`);
-        const natural = s.kind === 'monte' || s.kind === 'rio';
-        g.style.display = (natural ? naturalVisible : s.tier === 'polis-kome' ? k >= 3.2 : k >= 2.2) && !g.classList.contains('gone') ? '' : 'none';
+        g.style.display = (s.tier === 'polis-kome' ? k >= zk(4) : k >= zk(1)) && !g.classList.contains('gone') ? '' : 'none';
         g.classList.remove('lab');
       }
       if (!svg.classList.contains('no-lb')) {
-        nodes.filter(([g, s]) => g.style.display !== 'none' && (g.classList.contains('on') || s.kind === 'monte' || s.kind === 'rio' || k >= (s.tier === 'polis-kome' ? 4.5 : 4)))
+        nodes.filter(([g, s]) => g.style.display !== 'none' && (g.classList.contains('on') || k >= (s.tier === 'polis-kome' ? zk(6) : s.kind === 'chora' || s.kind === 'ethnos' ? zk(5) : zk(8))))
           .sort((a, b) => (b[0].classList.contains('on') - a[0].classList.contains('on')) || a[1].rank - b[1].rank)
           .forEach(([g, s]) => { const [x, y] = P(s.pt), X = sx(x), Y = sy(y); if (X < -50 || Y < -20 || X > svg.clientWidth + 50 || Y > svg.clientHeight + 20) return; if (fits([X - 6, Y - 8, X + 10 + s.label.length * 6.6, Y + 8])) g.classList.add('lab'); });
       }
-      svg.classList.toggle('z-hi', k >= 2.5);
+      svg.classList.toggle('z-hi', k >= zk(3));
 
       const pl = gHl.querySelector('.pulse'); if (pl) pl.setAttribute('transform', pl.getAttribute('transform').replace(/scale\([^)]*\)/, `scale(${u})`));
       // escala
-      main.querySelector('#sbar').style.width = `${scale.pixels}px`; main.querySelector('#slab').textContent = `${scale.km} km`;
-      main.querySelector('#zi').disabled = k >= 60; main.querySelector('#zo').disabled = k <= 1.001;
+      const kmPerPx = u / U * 111.2, nice = [1, 2, 5, 10, 20, 50, 100, 200, 500, 1000].find(v => v / kmPerPx >= 70) || 1000;
+      main.querySelector('#sbar').style.width = `${nice / kmPerPx}px`; main.querySelector('#slab').textContent = `${nice} km`;
+      const lvl = zlevel(k), badge = main.querySelector('#zl');
+      badge.textContent = lvl; badge.title = `Nivel ${lvl} · ${ZL[lvl].que}`;
+      main.querySelector('#zi').disabled = k >= zk(12); main.querySelector('#zo').disabled = k <= 1.001;
     }
     function setView(v, animate) {
       const asp = (svg.clientHeight || 600) / (svg.clientWidth || 1000);
@@ -260,7 +263,6 @@ ${physicalSVG(D, opts.selectedId)}
     const listLink = (i, extra = '') => `<li><button type="button" class="pl" data-go="${esc(i.id)}">${esc(i.n)}${i.alt ? ` <span class="muted">${esc(i.alt)}</span>` : ''}</button>${extra}</li>`;
     function showArea(id, move = true) {
       selArea = id; selSite = null; selSub = null; svg.querySelectorAll('.sb').forEach(p => p.classList.remove('sel'));
-      svg.querySelectorAll('.feature.selected').forEach(p => p.classList.remove('selected'));
       const info = D.areaInfo.get(id) || { nombre: id }, rf = D.regionFicha[id], geo = D.geo[id];
       const inArea = D.lugares.filter(i => (i.ar || []).includes(id));
       const by = es => inArea.filter(i => i.es === es && (i.pt || i.ptx));
@@ -287,7 +289,6 @@ ${!geo ? '<p class="muted">Sin localización terrestre: no aparece sobre el mapa
     function showSub(id, move = true) {
       const s = D.subs[id]; if (!s) return;
       selSub = id; selSite = null; selArea = s.padre;
-      svg.querySelectorAll('.feature.selected').forEach(p => p.classList.remove('selected'));
       const here = D.lugares.filter(i => i.pt && !i.ph && ['chora', 'ethnos', 'polis-kome'].includes(i.es) && inSub(i.pt, s) && alive(i));
       const pol = here.filter(i => i.es === 'polis-kome').sort((a, b) => fold(a.n).localeCompare(fold(b.n)));
       const cho = here.filter(i => i.es !== 'polis-kome');
@@ -310,8 +311,7 @@ ${pol.length ? `<h3>Poleis y komai${T ? ` (${esc(per().etiqueta)})` : ''}</h3><u
     }
     function showSite(i, move = true) {
       selSite = i;
-      const geometry = D.physicalByPlace.get(i.id);
-      const pt = geometry ? geometry.punto : i.pt || i.ptx, a = areaOf(i), info = D.areaInfo.get(a);
+      const pt = i.pt || i.ptx, a = areaOf(i), info = D.areaInfo.get(a);
       const site = D.sites.find(s => s.items.includes(i));
       const fo = (i.fo || []).map(f => (D.tipo.formas.find(x => x.id === f) || {}).nombre || f);
       const fu = (i.fu || []).map(f => (D.tipo.funciones.find(x => x.id === f) || {}).nombre || f);
@@ -322,7 +322,6 @@ ${pol.length ? `<h3>Poleis y komai${T ? ` (${esc(per().etiqueta)})` : ''}</h3><u
 ${i.r ? `<p>${esc(i.r)}</p>` : ''}
 ${fo.length ? `<p class="kv"><b>Forma</b> ${esc(fo.join(' → '))}</p>` : ''}${fu.length ? `<p class="kv"><b>Función</b> ${esc(fu.join(', '))}</p>` : ''}
 <div class="acts"><a class="btn" href="${ficha('lugares', i.id)}">Abrir ficha ↗</a></div>
-${geometry ? `<p class="small">${geometry.tipo === 'rio' ? 'Trazado del cauce' : 'Extensión del macizo'} · <a href="${esc(D.fisico.fuentes[geometry.fuente].url)}" target="_blank" rel="noopener">${esc(D.fisico.fuentes[geometry.fuente].nombre)}</a>. ${esc(geometry.nota || '')}</p>` : naturalKind(i) ? '<p class="muted small">Extensión pendiente de documentar; se muestra el punto de referencia.</p>' : ''}
 ${site && site.items.length > 1 ? `<h3>En este mismo punto</h3><ul>${site.items.filter(x => x !== i).map(x => listLink(x)).join('')}</ul>` : ''}
 ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</ul>` : ''}
 <p class="muted small">${pt ? `${pt[1].toFixed(3)}° N, ${pt[0].toFixed(3)}° E · ubicación aproximada` : 'Sin coordenadas'}</p>`;
@@ -330,17 +329,14 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
       svg.querySelectorAll('.sb').forEach(p => p.classList.remove('sel'));
       svg.querySelectorAll('.ar').forEach(p => p.classList.toggle('sel', p.dataset.area === a));
       svg.classList.add('has-sel');
-      svg.querySelectorAll('.feature').forEach(p => p.classList.toggle('selected', !!geometry && p.dataset.feature === geometry.id));
       if (pt) { const [x, y] = P(pt); gHl.innerHTML = `<g class="pulse" transform="translate(${x},${y})"><circle r="1"/></g>`; gHl.firstChild.setAttribute('transform', `translate(${x},${y}) scale(${unitsPerPx()})`); }
       gSites.querySelectorAll('.site').forEach(g => g.classList.toggle('on', D.sites[+g.dataset.k] === site)); apply();
-      if (move && geometry) fitBox(geometry.bbox, 0.12);
-      else if (move && pt) flyTo(pt, Math.max(W / view[2], i.es === 'chora' || i.es === 'ethnos' ? 10 : 18));
+      if (move && pt) flyTo(pt, Math.max(W / view[2], i.es === 'chora' || i.es === 'ethnos' ? zk(10) : zk(11)));
       url({ lugar: i.id });
     }
     function clear() {
       panel.hidden = true; selArea = selSite = selSub = null; gHl.innerHTML = '';
       svg.querySelectorAll('.sb.sel').forEach(n => n.classList.remove('sel'));
-      svg.querySelectorAll('.feature.selected').forEach(n => n.classList.remove('selected'));
       svg.classList.remove('has-sel'); svg.querySelectorAll('.ar.sel,.site.on').forEach(n => n.classList.remove('sel', 'on'));
       url({});
     }
@@ -355,10 +351,10 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
     main.querySelector('.offmap').addEventListener('click', e => { const b = e.target.closest('[data-area]'); if (b) showArea(b.dataset.area, false); });
 
     // ---------- interacción en el mapa ----------
-    let drag = null, moved = false, pressedTarget = null;
+    let drag = null, moved = false;
     const pts = new Map();
     const toSvg = (cx, cy) => { const r = svg.getBoundingClientRect(); return [view[0] + (cx - r.left) / r.width * view[2], view[1] + (cy - r.top) / r.height * view[3]]; };
-    svg.addEventListener('pointerdown', e => { if (e.button > 0) return; pressedTarget = e.target; pts.set(e.pointerId, [e.clientX, e.clientY]); svg.setPointerCapture(e.pointerId); moved = false; drag = { v: [...view], pts: new Map(pts) }; });
+    svg.addEventListener('pointerdown', e => { if (e.button > 0) return; pts.set(e.pointerId, [e.clientX, e.clientY]); svg.setPointerCapture(e.pointerId); moved = false; drag = { v: [...view], pts: new Map(pts) }; });
     svg.addEventListener('pointermove', e => {
       if (!pts.has(e.pointerId)) { hover(e); return; }
       pts.set(e.pointerId, [e.clientX, e.clientY]);
@@ -380,21 +376,10 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
     svg.addEventListener('pointerup', e => {
       up(e);
       if (moved) return;
-      const target = pressedTarget || e.target;
-      const site = target.closest('.site'); if (site) return showSite(D.sites[+site.dataset.k].main);
-      const feature = target.closest('.feature'); if (feature) return openFeature(feature.dataset.feature);
-      const sb = target.closest('.sb,.slb'); if (sb && svg.classList.contains('subs-on')) return showSub(sb.dataset.sub);
-      const ar = target.closest('.ar,.al'); if (ar) return showArea(ar.dataset.area);
+      const site = e.target.closest('.site'); if (site) return showSite(D.sites[+site.dataset.k].main);
+      const sb = e.target.closest('.sb,.slb'); if (sb && svg.classList.contains('subs-on')) return showSub(sb.dataset.sub);
+      const ar = e.target.closest('.ar,.al'); if (ar) return showArea(ar.dataset.area);
       clear();
-    });
-    function openFeature(id) {
-      const f = D.fisico.accidentes.find(x => x.id === id), i = f && f.lugares.map(byId).find(Boolean);
-      if (i) showSite(i);
-    }
-    svg.addEventListener('keydown', e => {
-      if (e.key !== 'Enter' && e.key !== ' ') return;
-      const f = e.target.closest('.feature'), s = e.target.closest('.site');
-      if (f || s) { e.preventDefault(); if (f) openFeature(f.dataset.feature); else showSite(D.sites[+s.dataset.k].main); }
     });
     svg.addEventListener('pointercancel', up);
     svg.addEventListener('wheel', e => {
@@ -404,13 +389,12 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
     }, { passive: false });
     svg.addEventListener('dblclick', e => { const [cx, cy] = toSvg(e.clientX, e.clientY); setView([cx - view[2] * .3, cy - view[3] * .3, view[2] * .6, view[3] * .6], true); });
     function hover(e) {
-      const site = e.target.closest('.site'), ar = e.target.closest('.ar'), sb = svg.classList.contains('subs-on') && e.target.closest('.sb'), feature = e.target.closest('.feature');
+      const site = e.target.closest('.site'), ar = e.target.closest('.ar'), sb = svg.classList.contains('subs-on') && e.target.closest('.sb');
       svg.querySelectorAll('.sb.hov').forEach(n => n !== sb && n.classList.remove('hov')); if (sb) sb.classList.add('hov');
       svg.querySelectorAll('.ar.hov').forEach(n => n !== ar && n.classList.remove('hov'));
       if (ar) ar.classList.add('hov');
       let html = '';
       if (site) { const s = D.sites[+site.dataset.k]; html = `<b>${esc(s.main.n)}</b>${s.main.alt ? ` · ${esc(s.main.alt)}` : ''}<br><span>${esc(tierName(D, s.main.es))}${s.items.length > 1 ? ` · ${s.items.length} fichas` : ''}</span>`; }
-      else if (feature) { const f = D.fisico.accidentes.find(x => x.id === feature.dataset.feature); html = `<b>${esc(f.nombre)}</b><br><span>${f.tipo === 'rio' ? 'Cauce del río' : 'Extensión del macizo'}</span>`; }
       else if (sb) { const s = D.subs[sb.dataset.sub], p = per(), st = p && p.subregiones[sb.dataset.sub], pw = st && D.poder[st.poder]; html = `<b>${esc(s.nombre)}</b>${pw ? `<br><span>${esc(pw.nombre)}</span>` : ''}`; }
       else if (ar) { const info = D.areaInfo.get(ar.dataset.area) || {}; html = `<b>${esc(info.nombre || ar.dataset.area)}</b>`; }
       if (!html) { tip.hidden = true; return; }
@@ -422,7 +406,6 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
     main.querySelector('#zo').onclick = () => setView([view[0] - view[2] * .333, view[1] - view[3] * .333, view[2] * 1.667, view[3] * 1.667], true);
     main.querySelector('#zr').onclick = () => setView([0, 0, W, H], true);
     main.querySelector('#l-rv').onchange = e => svg.classList.toggle('no-rv', !e.target.checked);
-    main.querySelector('#l-mt').onchange = e => svg.classList.toggle('no-mt', !e.target.checked);
     main.querySelector('#l-pt').onchange = e => svg.classList.toggle('no-pt', !e.target.checked);
     main.querySelector('#l-lb').onchange = e => svg.classList.toggle('no-lb', !e.target.checked);
     document.addEventListener('keydown', e => { if (e.key === 'Escape') clear(); });
@@ -464,18 +447,16 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
   async function mini(el, rec) {
     const D = await load();
     const i = D.lugares.find(x => x.id === rec.id); if (!i) return;
-    const geometry = D.physicalByPlace.get(i.id);
-    const a = areaOf(i), pt = geometry ? geometry.punto : i.pt || i.ptx, geo = a && D.geo[a];
+    const a = areaOf(i), pt = i.pt || i.ptx, geo = a && D.geo[a];
     if (!pt && !geo) return;
     let box;
-    if (geometry) box = geometry.bbox;
-    else if (pt && i.es !== 'region') { const w = i.es === 'chora' || i.es === 'ethnos' ? 2.4 : 1.6; box = [pt[0] - w, pt[1] - w * .62, pt[0] + w, pt[1] + w * .62]; }
+    if (pt && i.es !== 'region') { const w = i.es === 'chora' || i.es === 'ethnos' ? 2.4 : 1.6; box = [pt[0] - w, pt[1] - w * .62, pt[0] + w, pt[1] + w * .62]; }
     else box = geo.bbox;
     const [x0, y0] = P([box[0], box[3]]), [x1, y1] = P([box[2], box[1]]);
     let w = (x1 - x0) * 1.25, h = w * 0.62; if ((y1 - y0) * 1.25 > h) { h = (y1 - y0) * 1.25; w = h / 0.62; }
     const cx = (x0 + x1) / 2, cy = (y0 + y1) / 2, u = w / 300;
     const mk = pt ? (() => { const [x, y] = P(pt); return `<g transform="translate(${x},${y}) scale(${u})"><circle r="9" class="mm-halo"/><circle r="4.5" class="mm-dot"/></g>`; })() : '';
-    el.innerHTML = `<a class="minimap" href="mapa.html?lugar=${encodeURIComponent(i.id)}" title="Abrir en el mapa"><svg viewBox="${cx - w / 2} ${cy - h / 2} ${w} ${h}" style="--u:${u}">${baseSVG(D, { selectedId: geometry && geometry.id })}<g class="mm-sel">${geo && !geometry ? `<path d="${geo.poligonos.map(polyPath).join('')}"/>` : ''}</g>${mk}</svg><span>${esc(a ? (D.areaInfo.get(a) || {}).nombre || '' : '')}${rec.geo && rec.geo.precision === 'heredada' ? ` · punto de ${esc(rec.geo.de || 'su sitio')}` : ''} · Ver en el mapa ↗</span></a>`;
+    el.innerHTML = `<a class="minimap" href="mapa.html?lugar=${encodeURIComponent(i.id)}" title="Abrir en el mapa"><svg viewBox="${cx - w / 2} ${cy - h / 2} ${w} ${h}" style="--u:${u}">${baseSVG(D)}<g class="mm-sel">${geo ? `<path d="${geo.poligonos.map(polyPath).join('')}"/>` : ''}</g>${mk}</svg><span>${esc(a ? (D.areaInfo.get(a) || {}).nombre || '' : '')}${rec.geo && rec.geo.precision === 'heredada' ? ` · punto de ${esc(rec.geo.de || 'su sitio')}` : ''} · Ver en el mapa ↗</span></a>`;
   }
 
   window.HEL_MAP = { init, mini, project: P };

@@ -29,8 +29,15 @@
     {
       "clave": "filiacion",
       "etiqueta": "Filiación",
-      "texto": "**Doria**, colonizada desde Epidauro (Heródoto 8.46; Pausanias 2.29.5). En el mito, sustrato de mirmidones y eácidas.",
-      "refs": []
+      "texto": "[Dōrieis](entes:dorieis) — Colonizada desde Epidauro (Heródoto 8.46; Pausanias 2.29.5). En el mito, sustrato de mirmidones y eácidas.",
+      "refs": [
+        {
+          "col": "entes",
+          "id": "dorieis",
+          "nombre": "Dōrieis"
+        }
+      ],
+      "nota": "Colonizada desde Epidauro (Heródoto 8.46; Pausanias 2.29.5). En el mito, sustrato de mirmidones y eácidas."
     },
     {
       "clave": "ocupacion",

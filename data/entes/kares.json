@@ -1,0 +1,20 @@
+{
+  "id": "kares",
+  "nombre": "Kares",
+  "nombre_alt": "Carios",
+  "nombre_griego": "Κᾶρες",
+  "icono": null,
+  "tipos": [
+    "Phylai"
+  ],
+  "genero": null,
+  "cultura": "Anatolia",
+  "imagen": null,
+  "descripcion": {
+    "texto": "Pueblo de Caria (Asia Menor). La tradición los sitúa también en islas del Egeo y en Epidauro antes de los dorios (Pausanias 2.26.1–2). No griegos.",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "fuentes": []
+}

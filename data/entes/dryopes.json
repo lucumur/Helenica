@@ -1,0 +1,20 @@
+{
+  "id": "dryopes",
+  "nombre": "Dryopes",
+  "nombre_alt": "Dríopes",
+  "nombre_griego": "Δρύοπες",
+  "icono": null,
+  "tipos": [
+    "Phylai"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "imagen": null,
+  "descripcion": {
+    "texto": "Pueblo pre-dorio expulsado de la Dríopide (en torno al Parnaso y el Eta); se asienta en Asine, Hermíone y Eíones (Heródoto 8.43, 8.73; Pausanias 4.34.9).",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "fuentes": []
+}

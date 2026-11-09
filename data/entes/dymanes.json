@@ -1,0 +1,20 @@
+{
+  "id": "dymanes",
+  "nombre": "Dymanes",
+  "nombre_alt": "Dimanes",
+  "nombre_griego": "Δυμᾶνες",
+  "icono": null,
+  "tipos": [
+    "Phylai"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "imagen": null,
+  "descripcion": {
+    "texto": "Una de las tres phylai dorias, epónima de Dimas, hijo de Egimio. Ver [Dōrieis](entes:dorieis).",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "fuentes": []
+}

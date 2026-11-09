@@ -29,8 +29,35 @@
     {
       "clave": "filiacion",
       "etiqueta": "Filiación",
-      "texto": "Doria: Teménidas, con las tribus Hylleis, Dymanes y Pamphyloi más los Hyrnathioi. Sustrato aqueo (los *Danaoi* de la tradición).",
-      "refs": []
+      "texto": "[Dōrieis](entes:dorieis), [Hylleis](entes:hylleis), [Dymanes](entes:dymanes), [Pamphyloi](entes:pamphyloi), [Axaioi](entes:axaioi) — Teménidas. Sustrato aqueo (los *Danaoi* de la tradición). La cuarta phyle, los [Hyrnathioi](entes:hyrnathioi), probablemente es posterior.",
+      "refs": [
+        {
+          "col": "entes",
+          "id": "dorieis",
+          "nombre": "Dōrieis"
+        },
+        {
+          "col": "entes",
+          "id": "hylleis",
+          "nombre": "Hylleis"
+        },
+        {
+          "col": "entes",
+          "id": "dymanes",
+          "nombre": "Dymanes"
+        },
+        {
+          "col": "entes",
+          "id": "pamphyloi",
+          "nombre": "Pamphyloi"
+        },
+        {
+          "col": "entes",
+          "id": "axaioi",
+          "nombre": "Axaioi"
+        }
+      ],
+      "nota": "Teménidas. Sustrato aqueo (los *Danaoi* de la tradición). La cuarta phyle, los [Hyrnathioi](entes:hyrnathioi), probablemente es posterior."
     },
     {
       "clave": "ocupacion",

@@ -1,0 +1,20 @@
+{
+  "id": "dorieis",
+  "nombre": "Dōrieis",
+  "nombre_alt": "Dorios",
+  "nombre_griego": "Δωριεῖς",
+  "icono": null,
+  "tipos": [
+    "Phylai"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "imagen": null,
+  "descripcion": {
+    "texto": "Pueblo griego de dialecto dorio. Según la tradición, llegan al Peloponeso con el retorno de los Heráclidas. Se dividen en tres phylai: [Hylleis](entes:hylleis), [Dymanes](entes:dymanes) y [Pamphyloi](entes:pamphyloi).",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "fuentes": []
+}

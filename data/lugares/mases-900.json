@@ -29,8 +29,15 @@
     {
       "clave": "filiacion",
       "etiqueta": "Filiación",
-      "texto": "Dríope probable, por su vínculo con Hermíone (inferido).",
-      "refs": []
+      "texto": "[Dryopes](entes:dryopes) — Probable, por su vínculo con Hermíone (inferido).",
+      "refs": [
+        {
+          "col": "entes",
+          "id": "dryopes",
+          "nombre": "Dryopes"
+        }
+      ],
+      "nota": "Probable, por su vínculo con Hermíone (inferido)."
     },
     {
       "clave": "ocupacion",

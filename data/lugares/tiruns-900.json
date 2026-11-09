@@ -29,8 +29,20 @@
     {
       "clave": "filiacion",
       "etiqueta": "Filiación",
-      "texto": "Población posmicénica que se doriza (atribución discutida).",
-      "refs": []
+      "texto": "[Axaioi](entes:axaioi), [Dōrieis](entes:dorieis) — Población posmicénica que se doriza (atribución discutida).",
+      "refs": [
+        {
+          "col": "entes",
+          "id": "axaioi",
+          "nombre": "Axaioi"
+        },
+        {
+          "col": "entes",
+          "id": "dorieis",
+          "nombre": "Dōrieis"
+        }
+      ],
+      "nota": "Población posmicénica que se doriza (atribución discutida)."
     },
     {
       "clave": "ocupacion",

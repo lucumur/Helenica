@@ -29,8 +29,20 @@
     {
       "clave": "filiacion",
       "etiqueta": "Filiación",
-      "texto": "**Jonia** de origen (Piteo y Teseo; lazos con el Ática), con colonos dorios llegados de Argos (Pausanias 2.30.10). Mixta en 900.",
-      "refs": []
+      "texto": "[Jonios](entes:jonios), [Dōrieis](entes:dorieis) — Jonia de origen (Piteo y Teseo; lazos con el Ática), con colonos dorios llegados de Argos (Pausanias 2.30.10). Mixta en 900.",
+      "refs": [
+        {
+          "col": "entes",
+          "id": "jonios",
+          "nombre": "Jonios"
+        },
+        {
+          "col": "entes",
+          "id": "dorieis",
+          "nombre": "Dōrieis"
+        }
+      ],
+      "nota": "Jonia de origen (Piteo y Teseo; lazos con el Ática), con colonos dorios llegados de Argos (Pausanias 2.30.10). Mixta en 900."
     },
     {
       "clave": "ocupacion",

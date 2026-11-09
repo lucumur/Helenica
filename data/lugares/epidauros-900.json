@@ -29,8 +29,25 @@
     {
       "clave": "filiacion",
       "etiqueta": "Filiación",
-      "texto": "Jonia o caria antes de los dorios; doria con Deifontes, llegado de Argos (Pausanias 2.26.1–2).",
-      "refs": []
+      "texto": "[Jonios](entes:jonios), [Kares](entes:kares), [Dōrieis](entes:dorieis) — Jonios o carios antes de los dorios; dorios con Deifontes, llegado de Argos (Pausanias 2.26.1–2).",
+      "refs": [
+        {
+          "col": "entes",
+          "id": "jonios",
+          "nombre": "Jonios"
+        },
+        {
+          "col": "entes",
+          "id": "kares",
+          "nombre": "Kares"
+        },
+        {
+          "col": "entes",
+          "id": "dorieis",
+          "nombre": "Dōrieis"
+        }
+      ],
+      "nota": "Jonios o carios antes de los dorios; dorios con Deifontes, llegado de Argos (Pausanias 2.26.1–2)."
     },
     {
       "clave": "ocupacion",

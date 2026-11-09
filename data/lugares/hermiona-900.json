@@ -29,8 +29,15 @@
     {
       "clave": "filiacion",
       "etiqueta": "Filiación",
-      "texto": "**Dríope** (Heródoto 8.43).",
-      "refs": []
+      "texto": "[Dryopes](entes:dryopes) — Heródoto 8.43.",
+      "refs": [
+        {
+          "col": "entes",
+          "id": "dryopes",
+          "nombre": "Dryopes"
+        }
+      ],
+      "nota": "Heródoto 8.43."
     },
     {
       "clave": "ocupacion",

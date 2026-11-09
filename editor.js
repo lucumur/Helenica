@@ -151,11 +151,25 @@ ${txt('fe-stxt', x.texto, 4, 'Texto')}${linkBtn}</div>`;
   const CARAC = [['filiacion', 'Filiación', 'Dríopes, jonios, dorios, aqueos…'], ['ocupacion', 'Ocupación', 'Desde cuándo está habitada'],
     ['gobierno', 'Gobierno', 'Rey, subordinación, buleuterion, oligarquía…'], ['defensa', 'Defensa', 'Amurallada, doble amurallada, acrópolis…'],
     ['mercado', 'Mercado', 'Ágora, puerto, punto de comercio…'], ['alimento', 'Alimento', 'Cultivos y pastoreo (si es relevante)']];
+  // Filiación: phylai (entes con tipo «Phylai») elegidas como chips, más una nota libre a la derecha.
+  const phylai = () => REF.I.items.filter(i => i.c === 'entes' && (i.t || []).includes('Phylai')).sort((a, b) => a.n.localeCompare(b.n));
+  let NEW_PH = [];
+  function filRow(rec) {
+    const c = (rec.campos || []).find(x => x.clave === 'filiacion') || {};
+    const sel = (c.refs || []).filter(r => r.col === 'entes' && r.id);
+    const nota = c.nota != null ? c.nota : (sel.length ? '' : c.texto || '');
+    return `<div class="fe-fil"><label>Filiación <small>— phylai (griegas o no)</small><div class="fe-chips fe-ph">${sel.map(r => chip(r.id, (REF.I.by.get('entes:' + r.id) || { n: r.nombre || r.id }).n)).join('')}
+<input class="fe-ph-in" list="dl-phy" placeholder="+ Elegir phyle…"><button type="button" class="fe-ph-new" title="Crear una phyle nueva en entes">+ Nueva</button></div></label>
+<label>Nota${txt('f-fil-nota', nota, 2, 'Fuentes, matices, inferencias…')}</label></div>`;
+  }
   async function editLugar(id, rec) {
     await refs();
     const d = formDialog(), T = REF.tipo;
     const tierOf = e => (T.escalas.find(x => x.id === e) || {}).tier ?? 9;
     d.querySelector('#fe-t').textContent = `Editar: ${rec.nombre}`;
+    NEW_PH = [];
+    let dl = d.querySelector('#dl-phy'); if (!dl) { d.insertAdjacentHTML('beforeend', '<datalist id="dl-phy"></datalist>'); dl = d.querySelector('#dl-phy'); }
+    dl.innerHTML = phylai().map(i => `<option value="${E(pickVal(i))}">`).join('');
     const pe = (rec.pertenece_a || []).filter(x => x.id);
     const geo = rec.geo && rec.geo.punto && rec.geo.precision !== 'heredada' ? rec.geo.punto : ['', ''];
     d.querySelector('#fe-body').innerHTML = `
@@ -176,7 +190,7 @@ ${txt('fe-stxt', x.texto, 4, 'Texto')}${linkBtn}</div>`;
 </section>
 <section><h4>Descripción</h4>${txt('f-desc', (rec.descripcion && rec.descripcion.texto) || '', 3)}${linkBtn}</section>
 <section><h4>Características <small>— sobre todo para eupoleis (tier 3); markdown, vacío = no se guarda</small></h4>
-${CARAC.map(([k, l, ph]) => `<label>${E(l)}${txt('f-c-' + k, ((rec.campos || []).find(c => c.clave === k) || {}).texto || '', 2, ph)}</label>`).join('')}
+${CARAC.map(([k, l, ph]) => k === 'filiacion' ? filRow(rec) : `<label>${E(l)}${txt('f-c-' + k, ((rec.campos || []).find(c => c.clave === k) || {}).texto || '', 2, ph)}</label>`).join('')}
 </section>
 <section><h4>Contiene <small>— sub-regiones del tier inferior, en grupos</small></h4>
 <p class="hint">Al guardar, cada lugar añadido pasa a «pertenecer a» esta ficha, y cada lugar quitado deja de hacerlo.</p>
@@ -191,6 +205,18 @@ ${CARAC.map(([k, l, ph]) => `<label>${E(l)}${txt('f-c-' + k, ((rec.campos || [])
     body.onclick = ev => {
       const b = ev.target.closest('button'); if (!b) return;
       const c = b.classList;
+      if (c.contains('fe-ph-new')) {
+        const v = prompt('Nueva phyle (p. ej. "Lelegoi = Léleges"):'); if (!v) return;
+        const [prim, alt] = v.split(/\s*=\s*/), pid = slugify(prim);
+        const box = b.closest('.fe-ph');
+        if (box.querySelector(`.fe-chip[data-v="${pid}"]`)) return;
+        const ex = REF.I.by.get('entes:' + pid);
+        if (!ex) NEW_PH.push({ id: pid, nombre: prim.trim(), nombre_alt: alt ? alt.trim() : null, nombre_griego: null, icono: null, tipos: ['Phylai'], genero: null, cultura: null, imagen: null,
+          descripcion: { texto: '', refs: [] }, campos: [], secciones: [], fuentes: [] });
+        else if (!(ex.t || []).includes('Phylai') && !confirm(`Ya existe «${ex.n}» en entes, sin la etiqueta Phylai. ¿Usarla igualmente?`)) return;
+        b.previousElementSibling.insertAdjacentHTML('beforebegin', chip(pid, ex ? ex.n : prim.trim()));
+        return;
+      }
       if (b.id === 'f-addg') { ins('#f-grupos', grupoBlock({ lugares: [{}] })); return; }
       if (b.id === 'f-adds') { ins('#f-secs', seccionRow({})); return; }
       if (b.id === 'f-addf') { ins('#f-fuentes', fuenteRow({})); return; }
@@ -220,6 +246,11 @@ ${CARAC.map(([k, l, ph]) => `<label>${E(l)}${txt('f-c-' + k, ((rec.campos || [])
         if (!box.querySelector(`.fe-chip[data-v="${t.value}"]`)) t.insertAdjacentHTML('beforebegin', chip(t.value, t.selectedOptions[0].textContent));
         t.value = '';
       }
+      if (t.classList.contains('fe-ph-in')) {
+        const it = parsePick(t.value, 'entes'); if (!it) return;
+        if (!t.parentNode.querySelector(`.fe-chip[data-v="${it.id}"]`)) t.insertAdjacentHTML('beforebegin', chip(it.id, it.n));
+        t.value = ''; return;
+      }
       if (t.classList.contains('fe-pe-in')) {
         const it = parsePick(t.value, 'lugares'); if (!it) return;
         if (!t.parentNode.querySelector(`.fe-chip[data-v="${it.id}"]`)) t.insertAdjacentHTML('beforebegin', chip(it.id, it.n));
@@ -231,7 +262,7 @@ ${CARAC.map(([k, l, ph]) => `<label>${E(l)}${txt('f-c-' + k, ((rec.campos || [])
         if (it && tierOf(it.es) <= tierOf(body.querySelector('#f-escala').value)) t.title = 'Ojo: su tier no es inferior al de esta ficha';
       }
     };
-    body.oninput = ev => { const t = ev.target; if ((t.classList.contains('fe-pe-in') || t.classList.contains('fe-pick')) && / — [a-z0-9-]+$/.test(t.value)) body.onchange(ev); };
+    body.oninput = ev => { const t = ev.target; if ((t.classList.contains('fe-pe-in') || t.classList.contains('fe-ph-in') || t.classList.contains('fe-pick')) && / — [a-z0-9-]+$/.test(t.value)) body.onchange(ev); };
     const m = d.querySelector('#fe-m'), btn = d.querySelector('#fe-s');
     m.textContent = '';
     btn.onclick = async ev => {
@@ -255,7 +286,10 @@ ${CARAC.map(([k, l, ph]) => `<label>${E(l)}${txt('f-c-' + k, ((rec.campos || [])
           lugares: [...g.querySelectorAll('.fe-li')].filter(r => r.dataset.id).map(r => ({ col: 'lugares', id: r.dataset.id, nombre: name(r.dataset.id), ...(r.querySelector('.fe-nota').value.trim() ? { nota: r.querySelector('.fe-nota').value.trim() } : {}) })) }))
           .filter(g => g.grupo || g.lugares.length) };
       const keep = (rec.campos || []).filter(c => !CARAC.some(([k]) => k === c.clave));
-      obj.campos = [...keep, ...CARAC.map(([k, l]) => ({ clave: k, etiqueta: l, texto: $('.f-c-' + k).value.trim(), refs: [] })).filter(c => c.texto)];
+      const phSel = $$('.fe-ph .fe-chip').map(ch => ({ col: 'entes', id: ch.dataset.v, nombre: ch.firstChild.textContent.trim() }));
+      const phNota = $('.f-fil-nota').value.trim(), phLinks = phSel.map(r => `[${r.nombre}](entes:${r.id})`).join(', ');
+      const fil = phSel.length || phNota ? [{ clave: 'filiacion', etiqueta: 'Filiación', texto: phLinks && phNota ? `${phLinks} — ${phNota}` : phLinks || phNota, refs: phSel, nota: phNota }] : [];
+      obj.campos = [...fil, ...keep, ...CARAC.filter(([k]) => k !== 'filiacion').map(([k, l]) => ({ clave: k, etiqueta: l, texto: $('.f-c-' + k).value.trim(), refs: [] })).filter(c => c.texto)];
       const desc = $('.f-desc').value.trim();
       obj.descripcion = desc ? { ...(rec.descripcion || {}), texto: desc } : null;
       if (!obj.descripcion) delete obj.descripcion;
@@ -271,6 +305,7 @@ ${CARAC.map(([k, l, ph]) => `<label>${E(l)}${txt('f-c-' + k, ((rec.campos || [])
       btn.disabled = true; m.textContent = 'Guardando…';
       try {
         const files = [{ path: `data/lugares/${id}.json`, text: JSON.stringify(obj, null, 2) + '\n' }];
+        for (const e of NEW_PH.filter(e => phSel.some(r => r.id === e.id))) files.push({ path: `data/entes/${e.id}.json`, text: JSON.stringify(e, null, 2) + '\n' });
         for (const cid of [...add, ...del]) {
           const c = await readFile(`data/lugares/${cid}.json`);
           let pa = (c.pertenece_a || []).filter(x => x.id !== id);

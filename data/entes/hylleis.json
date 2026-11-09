@@ -1,0 +1,20 @@
+{
+  "id": "hylleis",
+  "nombre": "Hylleis",
+  "nombre_alt": "Hileos",
+  "nombre_griego": "Ὑλλεῖς",
+  "icono": null,
+  "tipos": [
+    "Phylai"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "imagen": null,
+  "descripcion": {
+    "texto": "Una de las tres phylai dorias, epónima de Hilo, hijo de Heracles. Ver [Dōrieis](entes:dorieis).",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "fuentes": []
+}

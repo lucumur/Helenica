@@ -1,0 +1,20 @@
+{
+  "id": "hyrnathioi",
+  "nombre": "Hyrnathioi",
+  "nombre_alt": "Hirnatios",
+  "nombre_griego": "Ὑρνάθιοι",
+  "icono": null,
+  "tipos": [
+    "Phylai"
+  ],
+  "genero": null,
+  "cultura": "Helénica",
+  "imagen": null,
+  "descripcion": {
+    "texto": "Cuarta phyle de Argos, de los no dorios incorporados; epónima de Hirneto, hija de Témeno. Atestiguada en inscripciones clásicas; su existencia hacia 900 a.C. es dudosa.",
+    "refs": []
+  },
+  "campos": [],
+  "secciones": [],
+  "fuentes": []
+}

@@ -16,9 +16,11 @@
   "areas": [
     "peloponeso"
   ],
-  "escala": "oikema",
+  "escala": "moira",
   "forma": [],
-  "funciones": [],
+  "funciones": [
+    "natural"
+  ],
   "pertenece_a": [
     {
       "col": "lugares",
@@ -32,5 +34,18 @@
       37.56
     ],
     "precision": "aprox"
-  }
+  },
+  "contiene": [
+    {
+      "grupo": null,
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "naos-de-athena-saitis-monte-pontinos",
+          "nombre": "Naos de Athēna Saitis, Monte Pontinos"
+        }
+      ]
+    }
+  ]
 }

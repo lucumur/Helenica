@@ -47,9 +47,11 @@
   "areas": [
     "peloponeso"
   ],
-  "escala": "oikema",
+  "escala": "moira",
   "forma": [],
-  "funciones": [],
+  "funciones": [
+    "natural"
+  ],
   "pertenece_a": [
     {
       "col": "lugares",

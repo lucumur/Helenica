@@ -31,8 +31,8 @@
   "pertenece_a": [
     {
       "col": "lugares",
-      "id": "lerna-argolis-2",
-      "nombre": "Lerna (Kome), Argos"
+      "id": "pontinos-lerna",
+      "nombre": "Pontinos (Monte), Lerna"
     }
   ],
   "contenido_en": {
@@ -43,10 +43,10 @@
   },
   "geo": {
     "punto": [
-      23.7265,
-      37.9715
+      22.7,
+      37.56
     ],
     "precision": "heredada",
-    "de": "Atenas"
+    "de": "Monte Pontinos"
   }
 }

@@ -154,8 +154,8 @@
   "nombre_griego": "Λέρνᾱ",
   "contiene": [
     {
-      "grupo": "Partes",
-      "nota": "Tier 6",
+      "grupo": "Parajes",
+      "nota": "Tier 5",
       "lugares": [
         {
           "col": "lugares",
@@ -181,11 +181,6 @@
           "col": "lugares",
           "id": "lerna-cienaga-lerna-chora-argolis-region",
           "nombre": "Ciénaga, Lerna"
-        },
-        {
-          "col": "lugares",
-          "id": "naos-de-athena-saitis-monte-pontinos",
-          "nombre": "Naos de Athēna Saitis, Monte Pontinos"
         }
       ]
     }

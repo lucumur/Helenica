@@ -21,10 +21,11 @@
   "areas": [
     "peloponeso"
   ],
-  "escala": "oikema",
+  "escala": "moira",
   "forma": [],
   "funciones": [
-    "hidraulico"
+    "hidraulico",
+    "natural"
   ],
   "pertenece_a": [
     {

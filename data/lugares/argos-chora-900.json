@@ -77,23 +77,29 @@
     "desde": -900,
     "hasta": -900
   },
-  "fuentes": [],
   "contiene": [
     {
-      "grupo": "",
-      "nota": null,
+      "grupo": "Acrópolis",
+      "nota": "Tier 5, directamente bajo la eupolis",
       "lugares": [
         {
           "col": "lugares",
           "id": "larisa-argos",
           "nombre": "Larisa, Argos"
-        },
+        }
+      ]
+    },
+    {
+      "grupo": "Komai",
+      "nota": "Tier 4; subordinación a Argos inferida",
+      "lugares": [
         {
           "col": "lugares",
-          "id": "lerna-argolis-2",
+          "id": "lerna-argolis",
           "nombre": "Lerna, Argolis"
         }
       ]
     }
-  ]
+  ],
+  "fuentes": []
 }

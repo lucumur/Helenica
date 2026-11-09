@@ -1,0 +1,80 @@
+{
+  "id": "troizan-900",
+  "nombre": "Troizān",
+  "nombre_alt": "Trecén",
+  "nombre_griego": "Τροιζᾱ́ν",
+  "endonimo": "Troizān",
+  "endonimo_nota": "Forma doria (epigráfico Τροζάν); Homero, Il. 2.561 (Τροιζήν).",
+  "imagen": null,
+  "tipos": [
+    "Eupolis"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "argos-900",
+      "nombre": "Argos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Ciudad de la llanura de Trecén, frente a Calauria (Poros)."
+  },
+  "campos": [
+    {
+      "clave": "filiacion",
+      "etiqueta": "Filiación",
+      "texto": "**Jonia** de origen (Piteo y Teseo; lazos con el Ática), con colonos dorios llegados de Argos (Pausanias 2.30.10). Mixta en 900.",
+      "refs": []
+    },
+    {
+      "clave": "ocupacion",
+      "etiqueta": "Ocupación",
+      "texto": "Micénica; geométrica.",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Tradición de reyes (Piteo es figura heroica). Autónoma.",
+      "refs": []
+    },
+    {
+      "clave": "defensa",
+      "etiqueta": "Defensa",
+      "texto": "Acrópolis de Trecén.",
+      "refs": []
+    },
+    {
+      "clave": "mercado",
+      "etiqueta": "Mercado",
+      "texto": "**Puerto** de Pogon (Heródoto 8.42). Santuario de Poseidón en Calauria: actividad desde el Heládico tardío IIIC y exvotos del s. VIII; la anfictionía es arcaica.",
+      "refs": []
+    },
+    {
+      "clave": "alimento",
+      "etiqueta": "Alimento",
+      "texto": "Llanura fértil: olivo y cereal.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  },
+  "geo": {
+    "punto": [
+      23.357,
+      37.497
+    ],
+    "precision": "aprox",
+    "desde": -900,
+    "hasta": -900
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "hermiona-900",
+  "nombre": "Hermionā",
+  "nombre_alt": "Hermíone",
+  "nombre_griego": "Ἑρμιόνᾱ",
+  "endonimo": "Hermionā",
+  "endonimo_nota": "Homero, Il. 2.560 (Ἑρμιόνη); forma con ā reconstruida (dórico epigráfico Ἑρμιών).",
+  "imagen": null,
+  "tipos": [
+    "Eupolis"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "argos-900",
+      "nombre": "Argos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Ciudad dríope en la península de Bisti."
+  },
+  "campos": [
+    {
+      "clave": "filiacion",
+      "etiqueta": "Filiación",
+      "texto": "**Dríope** (Heródoto 8.43).",
+      "refs": []
+    },
+    {
+      "clave": "ocupacion",
+      "etiqueta": "Ocupación",
+      "texto": "Micénica; hallazgos geométricos escasos.",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Autónoma.",
+      "refs": []
+    },
+    {
+      "clave": "defensa",
+      "etiqueta": "Defensa",
+      "texto": "Acrópolis en la península de Bisti; murallas posteriores.",
+      "refs": []
+    },
+    {
+      "clave": "mercado",
+      "etiqueta": "Mercado",
+      "texto": "**Puerto** a ambos lados de Bisti. Su epineion es [Masēs](lugares:mases-900). La púrpura de Hermíone se documenta más tarde.",
+      "refs": []
+    },
+    {
+      "clave": "alimento",
+      "etiqueta": "Alimento",
+      "texto": "Pesca y olivo.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  },
+  "geo": {
+    "punto": [
+      23.252,
+      37.385
+    ],
+    "precision": "aprox",
+    "desde": -900,
+    "hasta": -900
+  }
+}

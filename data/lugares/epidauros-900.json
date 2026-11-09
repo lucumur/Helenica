@@ -1,0 +1,80 @@
+{
+  "id": "epidauros-900",
+  "nombre": "Epidauros",
+  "nombre_alt": "Epidauro",
+  "nombre_griego": "Ἐπίδαυρος",
+  "endonimo": "Epidauros",
+  "endonimo_nota": "Homero, Il. 2.561 (ἀμπελόεντ᾽ Ἐπίδαυρον, «Epidauro rica en viñas»).",
+  "imagen": null,
+  "tipos": [
+    "Eupolis"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "argos-900",
+      "nombre": "Argos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Ciudad costera del golfo Sarónico, en la península de Nisi."
+  },
+  "campos": [
+    {
+      "clave": "filiacion",
+      "etiqueta": "Filiación",
+      "texto": "Jonia o caria antes de los dorios; doria con Deifontes, llegado de Argos (Pausanias 2.26.1–2).",
+      "refs": []
+    },
+    {
+      "clave": "ocupacion",
+      "etiqueta": "Ocupación",
+      "texto": "Micénica; geométrica. Apolo Maleatas en el monte Cinortio: altar de cenizas micénico, retomado en el s. VIII. El Asclepeion es del s. VI en adelante.",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Monarquía según la tradición (Deifontes). La oligarquía de los 180 (*artynai*, Plutarco, *Cuestiones griegas* 1) es arcaica. Domina [Aigina](lugares:aigina-900) (Heródoto 5.83).",
+      "refs": []
+    },
+    {
+      "clave": "defensa",
+      "etiqueta": "Defensa",
+      "texto": "Acrópolis en la península de Nisi.",
+      "refs": []
+    },
+    {
+      "clave": "mercado",
+      "etiqueta": "Mercado",
+      "texto": "**Puertos** a ambos lados de Nisi, con salida al Sarónico.",
+      "refs": []
+    },
+    {
+      "clave": "alimento",
+      "etiqueta": "Alimento",
+      "texto": "**Vid** (ἀμπελόεις), olivo.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  },
+  "geo": {
+    "punto": [
+      23.157,
+      37.636
+    ],
+    "precision": "aprox",
+    "desde": -900,
+    "hasta": -900
+  }
+}

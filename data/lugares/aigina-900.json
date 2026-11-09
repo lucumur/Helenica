@@ -1,0 +1,80 @@
+{
+  "id": "aigina-900",
+  "nombre": "Aigina",
+  "nombre_alt": "Egina",
+  "nombre_griego": "Αἴγινα",
+  "endonimo": "Aigina",
+  "endonimo_nota": "Homero, Il. 2.562.",
+  "imagen": null,
+  "tipos": [
+    "Eupolis"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "argos-900",
+      "nombre": "Argos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Isla del golfo Sarónico con su centro en Kolonna."
+  },
+  "campos": [
+    {
+      "clave": "filiacion",
+      "etiqueta": "Filiación",
+      "texto": "**Doria**, colonizada desde Epidauro (Heródoto 8.46; Pausanias 2.29.5). En el mito, sustrato de mirmidones y eácidas.",
+      "refs": []
+    },
+    {
+      "clave": "ocupacion",
+      "etiqueta": "Ocupación",
+      "texto": "Kolonna, ocupada sin interrupción desde el Neolítico y el Heládico antiguo; geométrica. Afaya con figurillas micénicas; su templo es del s. VII.",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "**Subordinada a Epidauro** (Heródoto 5.83).",
+      "refs": []
+    },
+    {
+      "clave": "defensa",
+      "etiqueta": "Defensa",
+      "texto": "Kolonna, con murallas prehistóricas del Heládico medio.",
+      "refs": []
+    },
+    {
+      "clave": "mercado",
+      "etiqueta": "Mercado",
+      "texto": "**Puertos**; inicio del comercio marítimo, que florecerá en los ss. VII–VI.",
+      "refs": []
+    },
+    {
+      "clave": "alimento",
+      "etiqueta": "Alimento",
+      "texto": "Suelo pobre: cereal, olivo y pesca.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  },
+  "geo": {
+    "punto": [
+      23.427,
+      37.751
+    ],
+    "precision": "aprox",
+    "desde": -900,
+    "hasta": -900
+  }
+}

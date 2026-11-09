@@ -1,0 +1,80 @@
+{
+  "id": "asina-900",
+  "nombre": "Asinā",
+  "nombre_alt": "Asine",
+  "nombre_griego": "Ἀσίνᾱ",
+  "endonimo": "Asinā",
+  "endonimo_nota": "Homero, Il. 2.560 (Ἀσίνη); forma con ā reconstruida.",
+  "imagen": null,
+  "tipos": [
+    "Eupolis"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "argos-900",
+      "nombre": "Argos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Ciudad costera dríope en la bahía de Asine."
+  },
+  "campos": [
+    {
+      "clave": "filiacion",
+      "etiqueta": "Filiación",
+      "texto": "**Dríope** (Heródoto 8.73; Pausanias 4.34.9).",
+      "refs": []
+    },
+    {
+      "clave": "ocupacion",
+      "etiqueta": "Ocupación",
+      "texto": "Desde el Heládico antiguo; micénica; una de las pocas con ocupación continua en el Protogeométrico y el Geométrico.",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Autónoma. Argos la destruye c. 710 por aliarse con Esparta; los asineos se refugian en Messenia (Pausanias 2.36.4–5).",
+      "refs": []
+    },
+    {
+      "clave": "defensa",
+      "etiqueta": "Defensa",
+      "texto": "Acrópolis del Kastraki, ocupada en el Geométrico.",
+      "refs": []
+    },
+    {
+      "clave": "mercado",
+      "etiqueta": "Mercado",
+      "texto": "**Puerto** en la bahía (βαθὺν κατὰ κόλπον, «en el hondo golfo», Il. 2.560); comercio marítimo.",
+      "refs": []
+    },
+    {
+      "clave": "alimento",
+      "etiqueta": "Alimento",
+      "texto": "Pesca; llanura costera.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  },
+  "geo": {
+    "punto": [
+      22.872,
+      37.527
+    ],
+    "precision": "aprox",
+    "desde": -900,
+    "hasta": -900
+  }
+}

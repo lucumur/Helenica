@@ -1,0 +1,80 @@
+{
+  "id": "nauplia-900",
+  "nombre": "Nauplia",
+  "nombre_alt": "Nauplia",
+  "nombre_griego": "Ναυπλίᾱ",
+  "endonimo": "Nauplia",
+  "endonimo_nota": "Forma con ā reconstruida.",
+  "imagen": null,
+  "tipos": [
+    "Eupolis"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "argos-900",
+      "nombre": "Argos"
+    }
+  ],
+  "descripcion": {
+    "texto": "El fondeadero natural del golfo argólico. Ver [Nauplia](lugares:nauplia-argolis)."
+  },
+  "campos": [
+    {
+      "clave": "filiacion",
+      "etiqueta": "Filiación",
+      "texto": "Discutida: la tradición la hace fundación de Nauplio, hijo de Poseidón, o de egipcios llegados con Dánao (Pausanias 4.35.2). No doria.",
+      "refs": []
+    },
+    {
+      "clave": "ocupacion",
+      "etiqueta": "Ocupación",
+      "texto": "Micénica (tumbas de cámara). Tumbas geométricas en la Acronauplia y en Pronoia.",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Autónoma. Argos expulsa a los nauplios c. 700 y estos se refugian en Mothone (Pausanias 4.24.4; 4.35.2).",
+      "refs": []
+    },
+    {
+      "clave": "defensa",
+      "etiqueta": "Defensa",
+      "texto": "Promontorio rocoso de la Acronauplia; sin murallas atestiguadas en 900.",
+      "refs": []
+    },
+    {
+      "clave": "mercado",
+      "etiqueta": "Mercado",
+      "texto": "**Puerto**: el principal del golfo. Será miembro de la anfictionía de Calauria (Estrabón 8.6.14).",
+      "refs": []
+    },
+    {
+      "clave": "alimento",
+      "etiqueta": "Alimento",
+      "texto": "Pesca.",
+      "refs": []
+    }
+  ],
+  "secciones": [],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  },
+  "geo": {
+    "punto": [
+      22.8,
+      37.565
+    ],
+    "precision": "aprox",
+    "desde": -900,
+    "hasta": -900
+  }
+}

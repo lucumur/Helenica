@@ -35,5 +35,75 @@
   "epoca": {
     "anio": -900,
     "nota": null
-  }
+  },
+  "contiene": [
+    {
+      "grupo": "Llanura argiva",
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "argos-chora-900",
+          "nombre": "Argos"
+        },
+        {
+          "col": "lugares",
+          "id": "tiruns-900",
+          "nombre": "Tiruns"
+        },
+        {
+          "col": "lugares",
+          "id": "nauplia-900",
+          "nombre": "Nauplia"
+        },
+        {
+          "col": "lugares",
+          "id": "asina-900",
+          "nombre": "Asinā"
+        }
+      ]
+    },
+    {
+      "grupo": "Acté",
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "hermiona-900",
+          "nombre": "Hermionā"
+        },
+        {
+          "col": "lugares",
+          "id": "mases-900",
+          "nombre": "Masēs"
+        },
+        {
+          "col": "lugares",
+          "id": "eionai-900",
+          "nombre": "Ēionai"
+        },
+        {
+          "col": "lugares",
+          "id": "troizan-900",
+          "nombre": "Troizān"
+        },
+        {
+          "col": "lugares",
+          "id": "epidauros-900",
+          "nombre": "Epidauros"
+        }
+      ]
+    },
+    {
+      "grupo": "Islas",
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "aigina-900",
+          "nombre": "Aigina"
+        }
+      ]
+    }
+  ]
 }

@@ -147,6 +147,10 @@ ${txt('fe-stxt', x.texto, 4, 'Texto')}${linkBtn}</div>`;
 <input class="fe-fof" placeholder="Fechas" value="${E(x.fechas || '')}"><input class="fe-fon" placeholder="Nota" value="${E(x.nota || '')}"><button type="button" class="fx">×</button></div>`;
   }
 
+  // Características de una eupolis: se guardan en «campos» con estas claves.
+  const CARAC = [['filiacion', 'Filiación', 'Dríopes, jonios, dorios, aqueos…'], ['ocupacion', 'Ocupación', 'Desde cuándo está habitada'],
+    ['gobierno', 'Gobierno', 'Rey, subordinación, buleuterion, oligarquía…'], ['defensa', 'Defensa', 'Amurallada, doble amurallada, acrópolis…'],
+    ['mercado', 'Mercado', 'Ágora, puerto, punto de comercio…'], ['alimento', 'Alimento', 'Cultivos y pastoreo (si es relevante)']];
   async function editLugar(id, rec) {
     await refs();
     const d = formDialog(), T = REF.tipo;
@@ -171,6 +175,9 @@ ${txt('fe-stxt', x.texto, 4, 'Texto')}${linkBtn}</div>`;
 <label>Situación en esa fecha${txt('f-epn', (rec.epoca && rec.epoca.nota) || '', 2, 'Quién la controla, ligas, cambios…')}</label>
 </section>
 <section><h4>Descripción</h4>${txt('f-desc', (rec.descripcion && rec.descripcion.texto) || '', 3)}${linkBtn}</section>
+<section><h4>Características <small>— sobre todo para eupoleis (tier 3); markdown, vacío = no se guarda</small></h4>
+${CARAC.map(([k, l, ph]) => `<label>${E(l)}${txt('f-c-' + k, ((rec.campos || []).find(c => c.clave === k) || {}).texto || '', 2, ph)}</label>`).join('')}
+</section>
 <section><h4>Contiene <small>— sub-regiones del tier inferior, en grupos</small></h4>
 <p class="hint">Al guardar, cada lugar añadido pasa a «pertenecer a» esta ficha, y cada lugar quitado deja de hacerlo.</p>
 <div id="f-grupos">${(rec.contiene || []).map(grupoBlock).join('')}</div>
@@ -247,6 +254,8 @@ ${txt('fe-stxt', x.texto, 4, 'Texto')}${linkBtn}</div>`;
         contiene: $$('.fe-grupo').map(g => ({ grupo: g.querySelector('.fe-gname').value.trim(), nota: g.querySelector('.fe-gnota').value.trim() || null,
           lugares: [...g.querySelectorAll('.fe-li')].filter(r => r.dataset.id).map(r => ({ col: 'lugares', id: r.dataset.id, nombre: name(r.dataset.id), ...(r.querySelector('.fe-nota').value.trim() ? { nota: r.querySelector('.fe-nota').value.trim() } : {}) })) }))
           .filter(g => g.grupo || g.lugares.length) };
+      const keep = (rec.campos || []).filter(c => !CARAC.some(([k]) => k === c.clave));
+      obj.campos = [...keep, ...CARAC.map(([k, l]) => ({ clave: k, etiqueta: l, texto: $('.f-c-' + k).value.trim(), refs: [] })).filter(c => c.texto)];
       const desc = $('.f-desc').value.trim();
       obj.descripcion = desc ? { ...(rec.descripcion || {}), texto: desc } : null;
       if (!obj.descripcion) delete obj.descripcion;

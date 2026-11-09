@@ -1,0 +1,47 @@
+{
+  "id": "nucleo-sur-argos",
+  "nombre": "Núcleo Sur, Argos",
+  "nombre_alt": "Núcleo al pie de la Larisa",
+  "nombre_griego": null,
+  "endonimo": null,
+  "endonimo_nota": null,
+  "imagen": null,
+  "tipos": [
+    "Lugar"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "demos",
+  "forma": [],
+  "funciones": [
+    "residencial",
+    "funerario"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "argos-chora-900",
+      "nombre": "Argos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Agrupación de casas y tumbas geométricas al pie sur y este de la Larisa, en la zona del futuro ágora y del teatro: el grupo más denso del Argos *katà kōmas*."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Sin nombre antiguo: núcleo reconstruido a partir de la distribución de tumbas; su número y sus límites son discutidos.\n- Los núcleos se funden en una ciudad continua a finales del s. VIII."
+    }
+  ],
+  "geo": {
+    "punto": [
+      22.723,
+      37.629
+    ],
+    "precision": "aprox",
+    "desde": -1050,
+    "hasta": -700
+  }
+}

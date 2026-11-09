@@ -1,8 +1,8 @@
 {
   "id": "larisa-argos",
   "tana_id": "wtXvEoQb0UEy",
-  "nombre": "Larisa, Argos",
-  "nombre_alt": "Ciudadela",
+  "nombre": "Larisa (Ciudadela), Argos",
+  "nombre_alt": "Larisa",
   "titulo_tana": "Larisa, Argos (Ciudadela)",
   "etiquetas_tana": [
     "Lugar"
@@ -34,12 +34,19 @@
   "funciones": [
     "militar"
   ],
-  "pertenece_a": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "argos-chora-900",
+      "nombre": "Argos"
+    }
+  ],
   "geo": {
     "punto": [
       22.716,
       37.635
     ],
     "precision": "aprox"
-  }
+  },
+  "nombre_griego": "Λάρισα"
 }

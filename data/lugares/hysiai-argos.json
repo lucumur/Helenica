@@ -1,0 +1,51 @@
+{
+  "id": "hysiai-argos",
+  "nombre": "Hysiai (Kome), Argos",
+  "nombre_alt": "Hisias",
+  "nombre_griego": "Ὑσιαί",
+  "endonimo": null,
+  "endonimo_nota": null,
+  "imagen": null,
+  "tipos": [
+    "Lugar"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "polis-kome",
+  "forma": [
+    {
+      "tipo": "kome",
+      "periodo": "geometrico",
+      "nota": "Inferido"
+    }
+  ],
+  "funciones": [
+    "residencial",
+    "militar"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "argos-chora-900",
+      "nombre": "Argos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Kome de frontera en el paso hacia Tegea (llanura de Achladokampos)."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Ocupación en 900 a.C. no documentada: inferida.\n- Batalla de Hisias (669 a.C.) entre Argos y Esparta (Pausanias 2.24.7)."
+    }
+  ],
+  "geo": {
+    "punto": [
+      22.556,
+      37.519
+    ],
+    "precision": "aprox"
+  }
+}

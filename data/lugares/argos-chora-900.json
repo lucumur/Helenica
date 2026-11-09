@@ -80,13 +80,50 @@
   "fuentes": [],
   "contiene": [
     {
-      "grupo": "",
-      "nota": null,
+      "grupo": "Ciudadela y barrios",
+      "nota": "Tier 5",
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "larisa-argos",
+          "nombre": "Larisa (Ciudadela), Argos"
+        },
+        {
+          "col": "lugares",
+          "id": "nucleo-sur-argos",
+          "nombre": "Núcleo Sur, Argos"
+        }
+      ]
+    },
+    {
+      "grupo": "Necrópolis",
+      "nota": "Tier 5",
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "deiras-argos",
+          "nombre": "Deiras (Necrópolis), Argos"
+        }
+      ]
+    },
+    {
+      "grupo": "Komai",
+      "nota": "Tier 4; subordinación a Argos inferida",
       "lugares": [
         {
           "col": "lugares",
           "id": "lerna-argolis-2",
           "nombre": "Lerna, Argolis"
+        },
+        {
+          "col": "lugares",
+          "id": "prosymna-argos",
+          "nombre": "Prosymna (Kome), Argos"
+        },
+        {
+          "col": "lugares",
+          "id": "hysiai-argos",
+          "nombre": "Hysiai (Kome), Argos"
         }
       ]
     }

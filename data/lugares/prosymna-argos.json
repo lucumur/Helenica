@@ -1,0 +1,52 @@
+{
+  "id": "prosymna-argos",
+  "nombre": "Prosymna (Kome), Argos",
+  "nombre_alt": "Prosimna",
+  "nombre_griego": "Προσύμνᾱ",
+  "endonimo": null,
+  "endonimo_nota": null,
+  "imagen": null,
+  "tipos": [
+    "Lugar"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "polis-kome",
+  "forma": [
+    {
+      "tipo": "kome",
+      "periodo": "geometrico",
+      "fechas": "1000–800 a.C.",
+      "nota": "Inferido a partir de tumbas geométricas"
+    }
+  ],
+  "funciones": [
+    "residencial",
+    "funerario"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "argos-chora-900",
+      "nombre": "Argos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Kome al noreste de la llanura, junto al lugar del futuro Hereo argivo. Tumbas micénicas y geométricas."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- El culto de Hera (Hereo) arranca a finales del s. VIII; antes hay culto en tumbas micénicas.\n- Subordinación a Argos en 900 a.C.: inferida."
+    }
+  ],
+  "geo": {
+    "punto": [
+      22.778,
+      37.69
+    ],
+    "precision": "aprox"
+  }
+}

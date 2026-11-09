@@ -1,0 +1,44 @@
+{
+  "id": "deiras-argos",
+  "nombre": "Deiras (Necrópolis), Argos",
+  "nombre_alt": "Deiras",
+  "nombre_griego": "Δειράς",
+  "endonimo": null,
+  "endonimo_nota": null,
+  "imagen": null,
+  "tipos": [
+    "Lugar"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "moira",
+  "forma": [],
+  "funciones": [
+    "funerario"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "argos-chora-900",
+      "nombre": "Argos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Collado entre la Larisa y la Aspis. Necrópolis micénica de tumbas de cámara, reutilizada con enterramientos geométricos."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- El santuario de Apolo Pitaeo y Atenea Oxiderkes en la Deiras (Pausanias 2.24.1) es arcaico, posterior a 900 a.C."
+    }
+  ],
+  "geo": {
+    "punto": [
+      22.718,
+      37.639
+    ],
+    "precision": "aprox"
+  }
+}

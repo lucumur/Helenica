@@ -1,0 +1,39 @@
+{
+  "id": "kunourioi-900",
+  "nombre": "Kunourioi",
+  "nombre_alt": "Cinuria",
+  "nombre_griego": "Κυνούριοι",
+  "endonimo": "Kunourioi",
+  "endonimo_nota": "Heródoto 8.73; ausente en Homero.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "ethnos",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "iason-argos-900",
+      "nombre": "Iason Argos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Franja entre la Argólide y Laconia (Tireátide)."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Según Heródoto, jonios autóctonos dorizados bajo Argos.\n- Disputada entre Argos y Esparta hasta 546 a.C."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

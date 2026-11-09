@@ -1,0 +1,39 @@
+{
+  "id": "lakedaimon-900",
+  "nombre": "Lakedaimōn",
+  "nombre_alt": "Laconia",
+  "nombre_griego": "Λακεδαίμων",
+  "endonimo": "Lakedaimōn",
+  "endonimo_nota": "Homero, Il. 2.581–590.",
+  "imagen": null,
+  "tipos": [
+    "Dominio de jure"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "ethnos",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "iason-argos-900",
+      "nombre": "Iason Argos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Dominio heroico de Menelao: Esparta, Amyklai, Helos, Las, Etilo y Faris; Citera."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- En 900 a.C. Esparta es dórica y aún no domina el Eurotas entero: Amyklai sigue aquea hasta c. 750."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

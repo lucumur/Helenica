@@ -1,0 +1,39 @@
+{
+  "id": "arkades-900",
+  "nombre": "Arkades",
+  "nombre_alt": "Arcadia",
+  "nombre_griego": "Ἀρκάδες",
+  "endonimo": "Arkades",
+  "endonimo_nota": "Homero, Il. 2.603–614 (contingente de Agapénor).",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "ethnos",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "iason-argos-900",
+      "nombre": "Iason Argos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Feneo, Orcómeno, Estínfalo, Tegea, Mantinea y Parrasia. Etnia y dialecto (arcadio) sin unidad política, que no llega hasta 370 a.C."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Pausanias (8.27.4) cuenta también Kynourioi arcadios (Gortis, Teutis…) entre los sinecizados en Megalópolis."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

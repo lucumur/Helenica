@@ -29,11 +29,65 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- *Peloponnēsos* (Πελοπόννᾱσος) aún no está atestiguado: aparece con Tirteo (Πέλοπος νῆσον) y el Himno homérico a Apolo.\n- Chorai pendientes: Aigialēwes, Argeioi, Korinthioi, Arkades, Waleioi, Pisatai, Messānioi, Kunourioi, Lakōnes."
+      "texto": "- *Peloponnēsos* (Πελοπόννᾱσος) aún no está atestiguado: aparece con Tirteo (Πέλοπος νῆσον) y el Himno homérico a Apolo."
     }
   ],
   "epoca": {
     "anio": -900,
     "nota": null
-  }
+  },
+  "contiene": [
+    {
+      "grupo": "Dominios de jure",
+      "nota": "Identidad heroica heredada, aunque el poder efectivo sea otro",
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "mukanai-900",
+          "nombre": "Mukānai"
+        },
+        {
+          "col": "lugares",
+          "id": "argos-900",
+          "nombre": "Argos"
+        },
+        {
+          "col": "lugares",
+          "id": "lakedaimon-900",
+          "nombre": "Lakedaimōn"
+        },
+        {
+          "col": "lugares",
+          "id": "messana-900",
+          "nombre": "Messānā"
+        }
+      ]
+    },
+    {
+      "grupo": "Pueblos",
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "arkades-900",
+          "nombre": "Arkades"
+        },
+        {
+          "col": "lugares",
+          "id": "epeioi-900",
+          "nombre": "Epeioi"
+        },
+        {
+          "col": "lugares",
+          "id": "pisatai-900",
+          "nombre": "Pisātai"
+        },
+        {
+          "col": "lugares",
+          "id": "kunourioi-900",
+          "nombre": "Kunourioi"
+        }
+      ]
+    }
+  ]
 }

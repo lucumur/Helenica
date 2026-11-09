@@ -1,0 +1,39 @@
+{
+  "id": "argos-900",
+  "nombre": "Argos",
+  "nombre_alt": "Argólide (dominio de Diomedes)",
+  "nombre_griego": "Ἄργος",
+  "endonimo": "Argos",
+  "endonimo_nota": "Homero, Il. 2.559–568.",
+  "imagen": null,
+  "tipos": [
+    "Dominio de jure"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "ethnos",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "iason-argos-900",
+      "nombre": "Iason Argos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Dominio heroico de Diomedes: Argos, Tirinto, Hermíone, Asine, Trecén, Eíones, Epidauro, Egina y Mases."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Hacia 900 a.C. Argos es además el centro dominante de facto de la península."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

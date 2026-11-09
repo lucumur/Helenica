@@ -19,7 +19,13 @@
   "escala": "polis-kome",
   "forma": [],
   "funciones": [],
-  "pertenece_a": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "argos-chora-900",
+      "nombre": "Argos"
+    }
+  ],
   "contenido_en": {
     "tana": "e30B_D73-DJ3",
     "nombre": "Lerna, Argolis (Region)",

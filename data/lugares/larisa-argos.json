@@ -34,7 +34,13 @@
   "funciones": [
     "militar"
   ],
-  "pertenece_a": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "argos-chora-900",
+      "nombre": "Argos"
+    }
+  ],
   "geo": {
     "punto": [
       22.716,

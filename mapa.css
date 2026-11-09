@@ -94,7 +94,11 @@ main.atlas-main{width:100%;max-width:none;padding:0}
 .legend i.dm{width:9px;height:9px;border-radius:0;background:#1f3a5f;transform:rotate(45deg)}.legend i.ci{width:9px;height:9px;border-radius:50%;background:#7a2e14}
 .offmap{display:flex;flex-wrap:wrap;gap:6px}
 .offmap button{font:600 .76rem var(--serif);padding:5px 10px;border-radius:8px;border:1px solid #cbbbd0;background:rgba(246,240,247,.95);color:#4e395f;cursor:pointer}
-.panel{position:absolute;z-index:4;top:14px;right:64px;bottom:14px;width:min(360px,calc(100% - 90px));overflow:auto;background:rgba(255,252,245,.98);border:1px solid var(--line);border-top:4px solid var(--accent);border-radius:6px 6px 14px 14px;box-shadow:0 14px 40px #2a1a1030;padding:20px 22px 22px}
+.panel{position:absolute;z-index:4;top:0;right:0;bottom:0;width:min(380px,calc(100% - 90px));overflow:auto;background:rgba(255,252,245,.98);border-left:1px solid var(--line);box-shadow:-10px 0 30px #2a1a1022;padding:20px 22px 22px}
+.panel::before{content:'';position:absolute;left:0;top:0;right:0;height:4px;background:var(--accent)}
+@media(min-width:761px){.atlas:has(> .panel:not([hidden])) .ui.tr{right:calc(min(380px,100% - 90px) + 14px)}}
+.panel .pg{font:700 .74rem system-ui;color:var(--accent-2);margin:10px 0 2px}
+.panel .acts .btn{font-size:.82rem}
 .panel .x{position:absolute;top:8px;right:10px;border:0;background:none;font-size:1.5rem;line-height:1;cursor:pointer;color:var(--muted)}
 .panel h2{font:600 1.9rem/1.1 var(--serif);margin:6px 0 4px}
 .panel .gr{font:italic 1.05rem var(--serif);color:var(--muted);margin:0 0 10px}
@@ -151,9 +155,9 @@ main.atlas-main{width:100%;max-width:none;padding:0}
 .when button{border:0;background:none;font:600 .82rem var(--serif);padding:9px 13px;cursor:pointer;color:var(--muted);white-space:nowrap}
 .when button+button{border-left:1px solid #e3d9c6}
 .when button.on{background:var(--ink);color:var(--paper)}
-.era{position:relative;background:rgba(255,252,245,.96);border:1px solid #d8cdb9;border-radius:11px;padding:9px 34px 9px 13px;font-size:.78rem;box-shadow:0 4px 16px #2a1a1018;max-width:480px}
-.era b{cursor:pointer}.era .emin{position:absolute;top:6px;right:8px;border:0;background:none;cursor:pointer;color:var(--muted);font-size:.9rem}
-.era.min p,.era.min .pw{display:none}.era.min .emin{transform:rotate(-90deg)}
+.era{position:relative;background:rgba(255,252,245,.94);border:1px solid #d8cdb9;border-radius:11px;padding:8px 30px 8px 12px;font-size:.75rem;box-shadow:0 4px 16px #2a1a1018}
+.era b{cursor:pointer}.era .ex{position:absolute;top:3px;right:6px;border:0;background:none;cursor:pointer;color:var(--muted);font-size:1.15rem;line-height:1;padding:2px 4px}.era .ex:hover{color:var(--accent)}
+.era.min p,.era.min .pw{display:none}
 .era p{margin:.3em 0 .5em;color:#4a3f33}
 .era .pw{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:.74rem;color:var(--muted)}
 .era .pw span{display:flex;align-items:center;gap:5px}.era .pw i{width:11px;height:11px;border-radius:3px;display:inline-block}
@@ -165,3 +169,4 @@ main.atlas-main{width:100%;max-width:none;padding:0}
 .panel .tl i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
 @media(max-width:1100px){.ui.tc{top:auto;bottom:14px;left:auto;right:14px;transform:none;justify-items:end;width:min(460px,calc(100% - 28px))}.ui.bl .legend{display:none}}
 @media(max-width:760px){.ui.tc{bottom:auto;top:118px;left:14px;right:14px;justify-items:start}.when button{padding:7px 9px;font-size:.74rem}.era{display:none}}
+@media(min-width:761px) and (max-width:1100px){.atlas:has(> .panel:not([hidden])) .ui.tc{right:calc(min(380px,100% - 90px) + 14px)}}

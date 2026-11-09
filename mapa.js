@@ -158,9 +158,9 @@ ${physicalSVG(D, opts.selectedId)}
   <div class="ui tl">
     <div class="search"><input id="q" type="search" placeholder="Buscar área o lugar…" autocomplete="off" aria-label="Buscar en el mapa"><div id="qr" class="qr" hidden></div></div>
     <div class="layers"><label><input type="checkbox" id="l-rv" checked> Ríos</label><label><input type="checkbox" id="l-mt" checked> Montes</label><label><input type="checkbox" id="l-pt" checked> Lugares</label><label><input type="checkbox" id="l-lb" checked> Nombres</label></div>
+    <div id="era" class="era" hidden></div>
   </div>
-  <div class="ui tc"><div class="when" role="group" aria-label="Fecha">${D.per.periodos.map(p => [p.id, p.etiqueta]).map(([v, l]) => `<button type="button" data-t="${v}">${l}</button>`).join('')}</div>
-    <div id="era" class="era" hidden></div></div>
+  <div class="ui tc"><div class="when" role="group" aria-label="Fecha">${D.per.periodos.map(p => [p.id, p.etiqueta]).map(([v, l]) => `<button type="button" data-t="${v}">${l}</button>`).join('')}</div></div>
   <div class="ui tr zoom"><b id="zl" title="Nivel de zoom">1</b><button id="zi" title="Acercar">+</button><button id="zo" title="Alejar">−</button><button id="zr" title="Vista completa">⤢</button></div>
   <div class="ui bl"><div class="scale"><span id="sbar"></span><b id="slab"></b></div>
     <div class="legend"><span><i style="background:${HELADE[0]}"></i>Hélade</span><span><i style="background:${FUERA[0]}"></i>Tierras extranjeras</span><span><i class="dm"></i>Eupolis / isla</span><span><i class="ci"></i>Asentamiento</span><span>⛰️ Monte</span><span>🌊 Río</span></div>
@@ -192,8 +192,8 @@ ${physicalSVG(D, opts.selectedId)}
       const era = main.querySelector('#era');
       if (p) {
         const used = [...new Set(Object.values(p.subregiones).map(x => x.poder))].map(id => D.poder[id]).filter(Boolean);
-        era.innerHTML = `<button type="button" class="emin" title="Plegar o desplegar">▾</button><b>${esc(p.etiqueta)}</b> · ${esc((D.tipo.periodos.find(x => x.id === p.periodo) || {}).nombre || '')}<p>${esc(p.resumen)}</p><div class="pw">${used.map(x => `<span><i style="background:${x.color}"></i>${esc(x.nombre)}</span>`).join('')}<span><i class="hz"></i>dominado por otro poder</span></div>`;
-        era.hidden = false;
+        era.innerHTML = `<button type="button" class="ex" title="Cerrar (se reabre al pulsar la fecha)" aria-label="Cerrar">×</button><b title="Plegar o desplegar">${esc(p.etiqueta)}</b> · ${esc((D.tipo.periodos.find(x => x.id === p.periodo) || {}).nombre || '')}<p>${esc(p.resumen)}</p><div class="pw">${used.map(x => `<span><i style="background:${x.color}"></i>${esc(x.nombre)}</span>`).join('')}<span><i class="hz"></i>dominado por otro poder</span></div>`;
+        era.hidden = eraClosed;
       } else era.hidden = true;
       D.sites.forEach((s, k) => { const g = gSites.querySelector(`[data-k="${k}"]`); if (g) g.classList.toggle('gone', !s.items.some(alive)); });
       const u = new URL(location.href); T ? u.searchParams.set('t', T) : u.searchParams.delete('t'); history.replaceState(null, '', u);
@@ -201,11 +201,15 @@ ${physicalSVG(D, opts.selectedId)}
       if (selSite) showSite(selSite, false); else if (selSub) showSub(selSub, false);
     }
     let selSub = null;
-    main.querySelector('#era').addEventListener('click', e => { if (e.target.closest('.emin') || e.target.closest('b')) main.querySelector('#era').classList.toggle('min'); });
+    let eraClosed = false;
+    main.querySelector('#era').addEventListener('click', e => {
+      const era = main.querySelector('#era');
+      if (e.target.closest('.ex')) { eraClosed = true; era.hidden = true; } else if (e.target.closest('b')) era.classList.toggle('min');
+    });
     main.querySelector('.when').addEventListener('click', e => {
       const b = e.target.closest('button'); if (!b) return;
       if (!D.per.periodos.some(p => p.id === b.dataset.t)) return;
-      T = b.dataset.t; applyTime();
+      T = b.dataset.t; eraClosed = false; applyTime();
       const lv = zlevel(W / view[2]);
       if (T && W / view[2] < zk(3) && !(D.t0[T] && lv === 1) && !(D.t1[T] && lv === 2)) fitBox(D.geo.peloponeso.bbox, 0.08);
     });
@@ -357,6 +361,27 @@ ${physicalSVG(D, opts.selectedId)}
     const flyTo = (pt, k = 14) => { const [x, y] = P(pt), w = W / k, asp = svg.clientHeight / svg.clientWidth, [ox, oy] = offset(w); setView([x - w / 2 + ox, y - w * asp / 2 + oy, w, w * asp], true); };
 
     // ---------- panel ----------
+    const editBtn = id => id ? `<button type="button" class="btn ghost edit-only" data-edit="${esc(id)}">✎ Editar</button>` : '';
+    async function editFicha(id) {
+      if (!window.HEL_EDIT) return;
+      try { window.HEL_EDIT.edit('lugares', id, await window.HEL.getJSON(`data/lugares/${id}.json`)); } catch (e) { alert(e.message); }
+    }
+    // Componentes: grupos de «contiene» y, además, los hijos que declaran pertenecer a la ficha.
+    async function fillParts(id) {
+      const box = panel.querySelector('.parts'); if (!box) return;
+      let rec = {};
+      try { rec = await window.HEL.getJSON(`data/lugares/${id}.json`); } catch (e) { /* sin ficha */ }
+      if (panel.querySelector('.parts') !== box) return;
+      const name = x => (byId(x.id) || {}).n || x.nombre || x.id, alt = x => (byId(x.id) || {}).alt || '';
+      const item = x => `<li><button type="button" class="pl" ${zone0(x.id) || zone1(x.id) ? 'data-zone' : 'data-go'}="${esc(x.id)}">${esc(name(x))}${alt(x) ? ` <span class="muted">${esc(alt(x))}</span>` : ''}</button></li>`;
+      const groups = (rec.contiene || []).map(g => ({ grupo: g.grupo, nota: g.nota, lugares: (g.lugares || []).filter(x => x.id) }));
+      const listed = new Set(groups.flatMap(g => g.lugares.map(x => x.id)));
+      const extra = D.lugares.filter(i => (i.pe || []).includes(`lugares:${id}`) && !listed.has(i.id)).map(i => ({ id: i.id }));
+      if (extra.length) groups.push({ grupo: groups.length ? 'Otros' : null, lugares: extra });
+      box.innerHTML = groups.length
+        ? `<h3>Componentes</h3>${groups.map(g => `${g.grupo ? `<p class="pg">${esc(g.grupo)}${g.nota ? ` <span class="muted">— ${esc(g.nota)}</span>` : ''}</p>` : ''}<ul>${g.lugares.map(item).join('')}</ul>`).join('')}`
+        : `<h3>Componentes</h3><p class="muted">Sin componentes todavía.<span class="edit-only"> Añádelos con ✎ Editar → «Contiene».</span></p>`;
+    }
     const listLink = (i, extra = '') => `<li><button type="button" class="pl" data-go="${esc(i.id)}">${esc(i.n)}${i.alt ? ` <span class="muted">${esc(i.alt)}</span>` : ''}</button>${extra}</li>`;
     function showArea(id, move = true) {
       selArea = id; selSite = null; selSub = null; svg.querySelectorAll('.sb').forEach(p => p.classList.remove('sel'));
@@ -370,7 +395,7 @@ ${physicalSVG(D, opts.selectedId)}
 <p class="eyebrow"><span class="sw" style="background:${D.color[id]}"></span>${esc(info.grupo === 'helade' ? 'Hélade' : info.grupo === 'mitica' ? 'Geografía mítica' : 'Tierra extranjera')}</p>
 <h2>${esc(greekName(info, rf) || info.nombre)}</h2>${greekName(info, rf) ? `<p class="gr">${esc(info.nombre)}</p>` : ''}
 <p>${esc(info.descripcion || '')}</p>
-<div class="acts">${rf ? `<a class="btn" href="${ficha('lugares', rf.id)}">Ficha de la región ↗</a>` : ''}<a class="btn ghost" href="lugares.html?area=${encodeURIComponent(id)}">${inArea.length} lugares en la lista ↗</a></div>
+<div class="acts">${rf ? `<a class="btn" href="${ficha('lugares', rf.id)}">Ficha de la región ↗</a>${editBtn(rf.id)}` : ''}<a class="btn ghost" href="lugares.html?area=${encodeURIComponent(id)}">${inArea.length} lugares en la lista ↗</a></div>
 ${counts.length ? `<div class="tiers">${counts.map(([e, n]) => `<span><b>${n}</b> ${esc(e.nombre)}</span>`).join('')}</div>` : ''}
 ${choras.length ? `<h3>Choras y ethne</h3><ul>${choras.map(i => listLink(i)).join('')}</ul>` : ''}
 ${poleis.length ? `<h3>Poleis y komai</h3><ul>${poleis.sort((a, b) => fold(a.n).localeCompare(fold(b.n))).map(i => listLink(i)).join('')}</ul>` : ''}
@@ -387,19 +412,20 @@ ${!geo ? '<p class="muted">Sin localización terrestre: no aparece sobre el mapa
       const t1 = !zone0(id);
       selArea = selSite = selSub = null;
       const i = byId(id) || {}, y = z.anio, p = D.per.periodos.find(x => x.id === y);
-      const kids = t1 ? [] : (D.t1[y] || []).filter(c => c.padre === id), up = t1 && z.padre && zone0(z.padre);
+      const up = t1 && z.padre && zone0(z.padre);
       const row = (k, v, n) => v ? `<p class="kv"><b>${k}</b> ${esc(v)}${n ? `<br><span class="muted small">${esc(n)}</span>` : ''}</p>` : '';
       panel.innerHTML = `<button class="x" aria-label="Cerrar">×</button>
 <p class="eyebrow"><span class="sw" style="background:${z.color}"></span>${t1 ? `Región${z.tipos[0] ? ` (${esc(z.tipos[0])})` : ''}` : 'Zona continental'} · ${esc(p ? p.etiqueta : y)}${up ? ` · <button type="button" class="lnk" data-zone="${esc(up.ficha)}">${esc(up.nombre)}</button>` : ''}</p>
 <h2>${esc(z.nombre)}</h2>${z.nombre_griego ? `<p class="gr">${esc(z.nombre_griego)}</p>` : ''}
 ${row('Nombre tradicional', z.nombre_alt)}${row('Griego transliterado', z.nombre)}${row('Griego', z.nombre_griego)}${row('Endónimo', z.endonimo || '—', z.endonimo_nota)}
 ${i.r ? `<p>${esc(i.r)}</p>` : ''}
-<div class="acts"><a class="btn" href="${ficha('lugares', id)}">Abrir ficha ↗</a></div>
-${kids.length ? `<h3>Regiones</h3><ul>${kids.map(c => `<li><button type="button" class="pl" data-zone="${esc(c.ficha)}">${esc(c.nombre)} <span class="muted">${esc(c.nombre_alt || '')}</span></button></li>`).join('')}</ul>` : ''}`;
+<div class="acts"><a class="btn" href="${ficha('lugares', id)}">Abrir ficha ↗</a>${editBtn(id)}</div>
+<div class="parts"></div>`;
       panel.hidden = false;
       svg.classList.add('has-sel');
       svg.querySelectorAll('.z0').forEach(n => n.classList.toggle('sel', n.dataset.z0 === id));
       svg.querySelectorAll('.z1').forEach(n => n.classList.toggle('sel', n.dataset.z1 === id));
+      fillParts(id);
       gHl.innerHTML = '';
       url({ lugar: id });
     }
@@ -417,7 +443,7 @@ ${kids.length ? `<h3>Regiones</h3><ul>${kids.map(c => `<li><button type="button"
       panel.innerHTML = `<button class="x" aria-label="Cerrar">×</button>
 <p class="eyebrow"><span class="sw" style="background:${s.color}"></span>Subregión · <button type="button" class="lnk" data-area="${s.padre}">${esc((D.areaInfo.get(s.padre) || {}).nombre || s.padre)}</button></p>
 <h2>${esc(s.nombre)}</h2>${s.nombre_es ? `<p class="gr">${esc(s.nombre_es)}</p>` : ''}${s.nota ? `<p>${esc(s.nota)}</p>` : ''}
-${fi ? `<div class="acts"><a class="btn" href="${ficha('lugares', fi.id)}">Ficha ↗</a></div>` : ''}
+${fi ? `<div class="acts"><a class="btn" href="${ficha('lugares', fi.id)}">Ficha ↗</a>${editBtn(fi.id)}</div>` : ''}
 <h3>A través del tiempo</h3><ul class="tl">${rows}</ul>
 ${cho.length ? `<h3>Choras, montes y ríos</h3><ul>${cho.map(i => listLink(i)).join('')}</ul>` : ''}
 ${pol.length ? `<h3>Poleis y komai${T ? ` (${esc(per().etiqueta)})` : ''}</h3><ul>${pol.map(i => listLink(i)).join('')}</ul>` : ''}`;
@@ -442,7 +468,7 @@ ${pol.length ? `<h3>Poleis y komai${T ? ` (${esc(per().etiqueta)})` : ''}</h3><u
 <h2>${esc(i.n)}</h2>${i.alt ? `<p class="gr">${esc(i.alt)}</p>` : ''}
 ${i.r ? `<p>${esc(i.r)}</p>` : ''}
 ${fo.length ? `<p class="kv"><b>Forma</b> ${esc(fo.join(' → '))}</p>` : ''}${fu.length ? `<p class="kv"><b>Función</b> ${esc(fu.join(', '))}</p>` : ''}
-<div class="acts"><a class="btn" href="${ficha('lugares', i.id)}">Abrir ficha ↗</a></div>
+<div class="acts"><a class="btn" href="${ficha('lugares', i.id)}">Abrir ficha ↗</a>${editBtn(i.id)}</div>
 ${geometry ? `<p class="small">${geometry.tipo === 'rio' ? 'Trazado del cauce' : 'Extensión del macizo'} · <a href="${esc(D.fisico.fuentes[geometry.fuente].url)}" target="_blank" rel="noopener">${esc(D.fisico.fuentes[geometry.fuente].nombre)}</a>. ${esc(geometry.nota || '')}</p>` : naturalKind(i) ? '<p class="muted small">Extensión pendiente de documentar; se muestra el punto de referencia.</p>' : ''}
 ${site && site.items.length > 1 ? `<h3>En este mismo punto</h3><ul>${site.items.filter(x => x !== i).map(x => listLink(x)).join('')}</ul>` : ''}
 ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</ul>` : ''}
@@ -469,9 +495,10 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
     const byId = id => D.lugares.find(i => i.id === id);
     panel.addEventListener('click', e => {
       if (e.target.closest('.x')) return clear();
+      const ed = e.target.closest('[data-edit]'); if (ed) return editFicha(ed.dataset.edit);
       const tt = e.target.closest('.tt'); if (tt) { T = tt.dataset.t; applyTime(); return; }
       const zn = e.target.closest('[data-zone]'); if (zn) { const z = zone1(zn.dataset.zone); if (z && zlevel(W / view[2]) === 1) flyTo(z.etiqueta, zk(2) * 1.05); else if (!z && zlevel(W / view[2]) > 1) setView([0, 0, W, H], true); return showZone0(zn.dataset.zone); }
-      const go = e.target.closest('[data-go]'); if (go) { const i = byId(go.dataset.go); if (i) showSite(i); }
+      const go = e.target.closest('[data-go]'); if (go) { const i = byId(go.dataset.go); if (i && (i.pt || i.ptx || D.physicalByPlace.has(i.id))) showSite(i); else if (i) location.href = ficha('lugares', i.id); }
       const ar = e.target.closest('[data-area]'); if (ar) showArea(ar.dataset.area);
     });
     main.querySelector('.offmap').addEventListener('click', e => { const b = e.target.closest('[data-area]'); if (b) showArea(b.dataset.area, false); });

@@ -104,8 +104,8 @@
       }
     }
     const poder = Object.fromEntries(per.poderes.map(p => [p.id, p]));
-    const t0 = geo.tier0 || {}, t1 = geo.tier1 || {};
-    DATA = { I, tierra, rios, lagos, geo: geo.areas, subs, t0, t1, per, poder, areaInfo, color, regionFicha, lugares, sites, seas, tipo, fisico, physicalByPlace };
+    const t0 = geo.tier0 || {}, t1 = geo.tier1 || {}, t2 = geo.tier2 || {};
+    DATA = { I, tierra, rios, lagos, geo: geo.areas, subs, t0, t1, t2, per, poder, areaInfo, color, regionFicha, lugares, sites, seas, tipo, fisico, physicalByPlace };
     return DATA;
   }
 
@@ -137,6 +137,7 @@
 <g class="areas">${areas}</g>
 <g class="t0">${Object.entries(D.t0 || {}).map(([y, zs]) => zs.map(z => `<path class="z0" data-t0="${y}" data-z0="${esc(z.ficha)}" fill="${z.color || '#d8c8a8'}" d="${z.poligonos.map(polyPath).join('')}"/>`).join('')).join('')}</g>
 <g class="t1">${Object.entries(D.t1 || {}).map(([y, zs]) => zs.map(z => `<path class="z1" data-t1="${y}" data-z1="${esc(z.ficha)}" fill="${z.color || '#d8c8a8'}" d="${z.poligonos.map(polyPath).join('')}"/>`).join('')).join('')}</g>
+<g class="t2">${Object.entries(D.t2 || {}).map(([y, zs]) => zs.map(z => `<path class="z2" data-t2="${y}" data-z2="${esc(z.ficha)}" fill="${z.color || '#d8c8a8'}" d="${z.poligonos.map(polyPath).join('')}"/>`).join('')).join('')}</g>
 <g class="subs">${Object.entries(D.subs || {}).map(([id, s]) => `<path class="sb" data-sub="${id}" fill="${s.color}" d="${s.poligonos.map(polyPath).join('')}"/><path class="sbh" data-sub="${id}" d="${s.poligonos.map(polyPath).join('')}"/>`).join('')}</g>
 <g class="lakes">${lakes}</g>
 <g class="rivers">${rivers}</g>
@@ -153,7 +154,7 @@ ${physicalSVG(D, opts.selectedId)}
     main.innerHTML = `
 <div class="atlas">
   <svg id="map" viewBox="0 0 ${W} ${H}" role="application" aria-label="Mapa del mundo helénico">${baseSVG(D)}
-    <g class="seas"></g><g class="slabels"></g><g class="alabels"></g><g class="z1labels"></g><g class="z0labels"></g><g class="sites"></g><g class="hl"></g>
+    <g class="seas"></g><g class="slabels"></g><g class="alabels"></g><g class="z1labels"></g><g class="z2labels"></g><g class="z0labels"></g><g class="sites"></g><g class="hl"></g>
   </svg>
   <div class="ui tl">
     <div class="search"><input id="q" type="search" placeholder="Buscar área o lugar…" autocomplete="off" aria-label="Buscar en el mapa"><div id="qr" class="qr" hidden></div></div>
@@ -225,7 +226,9 @@ ${physicalSVG(D, opts.selectedId)}
     const gZ1 = svg.querySelector('.z1labels');
     gZ1.innerHTML = Object.entries(D.t1).map(([y, zs]) => zs.map(z => { const [x, yy] = P(z.etiqueta); return `<g class="z1l" data-t1="${y}" data-z1="${esc(z.ficha)}" data-x="${x}" data-y="${yy}"><text class="n" text-anchor="middle">${esc(z.nombre)}</text><text class="g" text-anchor="middle" dy="13">${esc(z.nombre_alt || '')}</text></g>`; }).join('')).join('');
     const zoneIn = (T0, id) => { for (const [y, zs] of Object.entries(T0)) { const z = zs.find(x => x.ficha === id); if (z) return Object.assign(z, { anio: y }); } return null; };
-    const zone0 = id => zoneIn(D.t0, id), zone1 = id => zoneIn(D.t1, id);
+    const zone0 = id => zoneIn(D.t0, id), zone1 = id => zoneIn(D.t1, id), zone2 = id => zoneIn(D.t2, id);
+    const gZ2 = svg.querySelector('.z2labels');
+    gZ2.innerHTML = Object.entries(D.t2).map(([y, zs]) => zs.map(z => { const [x, yy] = P(z.etiqueta); return `<g class="z2l" data-t2="${y}" data-z2="${esc(z.ficha)}" data-x="${x}" data-y="${yy}"><text class="n" text-anchor="middle">${esc(z.nombre)}</text><text class="g" text-anchor="middle" dy="13">${esc(z.nombre_alt || '')}</text></g>`; }).join('')).join('');
     gSeas.innerHTML = D.seas.map(i => { const [x, y] = P(i.pt); return `<g class="sea-l" transform="translate(${x},${y})"><text text-anchor="middle">${esc(i.alt || i.n)}</text></g>`; }).join('')
       + [['Mar Egeo', [25.2, 38.9]], ['Mar Jónico', [19.2, 37.6]], ['Ponto Euxino', [34.5, 43.3]], ['Mar Mediterráneo', [18.5, 34.6]], ['Propóntide', [28.0, 40.72]], ['Mar Adriático', [16.0, 42.6]], ['Mar Tirreno', [12.0, 39.6]]]
         .map(([t, c]) => { const [x, y] = P(c); return `<g class="sea-l big" transform="translate(${x},${y})"><text text-anchor="middle">${t}</text></g>`; }).join('');
@@ -247,7 +250,8 @@ ${physicalSVG(D, opts.selectedId)}
       svg.style.setProperty('--u', u);
       const placed = [], sx = x => (x - view[0]) / u, sy = y => (y - view[1]) / u;
       const fits = b => { for (const p of placed) if (!(b[2] < p[0] || b[0] > p[2] || b[3] < p[1] || b[1] > p[3])) return false; placed.push(b); return true; };
-      const subVisible = s => k + 1e-9 >= zk(s.nivel ?? 3);
+      const t2areas = new Set(lvl >= 3 && T && D.t2[T] ? D.t2[T].flatMap(z => z.areas) : []);
+      const subVisible = s => k + 1e-9 >= zk(s.nivel ?? 3) && !t2areas.has(s.padre);
       svg.querySelectorAll('.z0').forEach(p => { p.style.display = t0on && p.dataset.t0 === T ? 'inline' : 'none'; });
       gZ0.querySelectorAll('.z0l').forEach(g => {
         if (!t0on || g.dataset.t0 !== T) { g.style.display = 'none'; return; }
@@ -258,7 +262,15 @@ ${physicalSVG(D, opts.selectedId)}
       });
       // Tier 1: domina el nivel 2; en el nivel 3 queda bajo las subregiones (sin nombre donde estas lo tapan).
       svg.querySelectorAll('.z1').forEach(p => { p.style.display = t1on && p.dataset.t1 === T ? 'inline' : 'none'; });
-      const subAreas = new Set(Object.values(D.subs).filter(subVisible).map(s => s.padre));
+      const subAreas = new Set([...Object.values(D.subs).filter(subVisible).map(s => s.padre), ...t2areas]);
+      svg.querySelectorAll('.z2').forEach(p => { p.style.display = t2areas.size && p.dataset.t2 === T ? 'inline' : 'none'; });
+      gZ2.querySelectorAll('.z2l').forEach(g => {
+        if (!t2areas.size || g.dataset.t2 !== T) { g.style.display = 'none'; return; }
+        const x = +g.dataset.x, y = +g.dataset.y, name = g.querySelector('.n').textContent;
+        g.setAttribute('transform', `translate(${x},${y}) scale(${u})`);
+        const tw = Math.max(name.length * 8, g.querySelector('.g').textContent.length * 6.6);
+        g.style.display = fits([sx(x) - tw / 2, sy(y) - 13, sx(x) + tw / 2, sy(y) + 16]) ? '' : 'none';
+      });
       gZ1.querySelectorAll('.z1l').forEach(g => {
         const z = t1on && g.dataset.t1 === T && zone1(g.dataset.z1);
         if (!z || (lvl === 3 && z.areas.some(a => subAreas.has(a)))) { g.style.display = 'none'; return; }
@@ -270,7 +282,7 @@ ${physicalSVG(D, opts.selectedId)}
       svg.querySelectorAll('.al').forEach(g => {
         if (t0on || t1on) { g.style.display = 'none'; return; }
         const mine = Object.values(D.subs).filter(s => s.padre === g.dataset.area);
-        if (mine.length && k >= zk(Math.min(...mine.map(s => s.nivel ?? 3)))) { g.style.display = 'none'; return; }
+        if ((mine.length && k >= zk(Math.min(...mine.map(s => s.nivel ?? 3)))) || t2areas.has(g.dataset.area)) { g.style.display = 'none'; return; }
         const [x, y] = g.getAttribute('transform').match(/translate\(([^)]+)\)/)[1].split(',').map(Number);
         const wpx = (+g.dataset.w * COS * U) / u, name = g.querySelector('.n').textContent;
         g.setAttribute('transform', `translate(${x},${y}) scale(${u})`);
@@ -284,7 +296,7 @@ ${physicalSVG(D, opts.selectedId)}
         const vis = g.classList.contains('big') ? k < zk(3) : k >= zk(2), tw = g.textContent.length * 7.5;
         g.style.display = vis && fits([sx(m[0]) - tw / 2, sy(m[1]) - 12, sx(m[0]) + tw / 2, sy(m[1]) + 4]) ? '' : 'none';
       });
-      const anySub = Object.values(D.subs).some(subVisible);
+      const anySub = Object.values(D.subs).some(subVisible) || t2areas.size > 0;
       svg.classList.toggle('subs-on', anySub);
       svg.querySelectorAll('.sb, .sbh').forEach(p => { const sub = D.subs[p.dataset.sub]; p.style.display = sub && subVisible(sub) ? '' : 'none'; });
       gSL.querySelectorAll('.slb').forEach(g => {
@@ -373,7 +385,7 @@ ${physicalSVG(D, opts.selectedId)}
       try { rec = await window.HEL.getJSON(`data/lugares/${id}.json`); } catch (e) { /* sin ficha */ }
       if (panel.querySelector('.parts') !== box) return;
       const name = x => (byId(x.id) || {}).n || x.nombre || x.id, alt = x => (byId(x.id) || {}).alt || '';
-      const item = x => `<li><button type="button" class="pl" ${zone0(x.id) || zone1(x.id) ? 'data-zone' : 'data-go'}="${esc(x.id)}">${esc(name(x))}${alt(x) ? ` <span class="muted">${esc(alt(x))}</span>` : ''}</button></li>`;
+      const item = x => `<li><button type="button" class="pl" ${zone0(x.id) || zone1(x.id) || zone2(x.id) ? 'data-zone' : 'data-go'}="${esc(x.id)}">${esc(name(x))}${alt(x) ? ` <span class="muted">${esc(alt(x))}</span>` : ''}</button></li>`;
       const groups = (rec.contiene || []).map(g => ({ grupo: g.grupo, nota: g.nota, lugares: (g.lugares || []).filter(x => x.id) }));
       const listed = new Set(groups.flatMap(g => g.lugares.map(x => x.id)));
       const extra = D.lugares.filter(i => (i.pe || []).includes(`lugares:${id}`) && !listed.has(i.id)).map(i => ({ id: i.id }));
@@ -408,14 +420,14 @@ ${!geo ? '<p class="muted">Sin localización terrestre: no aparece sobre el mapa
       url({ area: id });
     }
     function showZone0(id) {
-      const z = zone0(id) || zone1(id); if (!z) return;
-      const t1 = !zone0(id);
+      const z = zone0(id) || zone1(id) || zone2(id); if (!z) return;
+      const t1 = !zone0(id), lv = zone0(id) ? 0 : zone1(id) ? 1 : 2;
       selArea = selSite = selSub = null;
       const i = byId(id) || {}, y = z.anio, p = D.per.periodos.find(x => x.id === y);
-      const up = t1 && z.padre && zone0(z.padre);
+      const up = t1 && z.padre && (zone0(z.padre) || zone1(z.padre));
       const row = (k, v, n) => v ? `<p class="kv"><b>${k}</b> ${esc(v)}${n ? `<br><span class="muted small">${esc(n)}</span>` : ''}</p>` : '';
       panel.innerHTML = `<button class="x" aria-label="Cerrar">×</button>
-<p class="eyebrow"><span class="sw" style="background:${z.color}"></span>${t1 ? `Región${z.tipos[0] ? ` (${esc(z.tipos[0])})` : ''}` : 'Zona continental'} · ${esc(p ? p.etiqueta : y)}${up ? ` · <button type="button" class="lnk" data-zone="${esc(up.ficha)}">${esc(up.nombre)}</button>` : ''}</p>
+<p class="eyebrow"><span class="sw" style="background:${z.color}"></span>${t1 ? `${lv === 2 ? 'Ethnos' : 'Región'}${z.tipos[0] ? ` (${esc(z.tipos[0])})` : ''}` : 'Zona continental'} · ${esc(p ? p.etiqueta : y)}${up ? ` · <button type="button" class="lnk" data-zone="${esc(up.ficha)}">${esc(up.nombre)}</button>` : ''}</p>
 <h2>${esc(z.nombre)}</h2>${z.nombre_griego ? `<p class="gr">${esc(z.nombre_griego)}</p>` : ''}
 ${row('Nombre tradicional', z.nombre_alt)}${row('Griego transliterado', z.nombre)}${row('Griego', z.nombre_griego)}${row('Endónimo', z.endonimo || '—', z.endonimo_nota)}
 ${i.r ? `<p>${esc(i.r)}</p>` : ''}
@@ -425,6 +437,7 @@ ${i.r ? `<p>${esc(i.r)}</p>` : ''}
       svg.classList.add('has-sel');
       svg.querySelectorAll('.z0').forEach(n => n.classList.toggle('sel', n.dataset.z0 === id));
       svg.querySelectorAll('.z1').forEach(n => n.classList.toggle('sel', n.dataset.z1 === id));
+      svg.querySelectorAll('.z2').forEach(n => n.classList.toggle('sel', n.dataset.z2 === id));
       fillParts(id);
       gHl.innerHTML = '';
       url({ lugar: id });
@@ -488,7 +501,7 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
       panel.hidden = true; selArea = selSite = selSub = null; gHl.innerHTML = '';
       svg.querySelectorAll('.sb.sel').forEach(n => n.classList.remove('sel'));
       svg.querySelectorAll('.feature.selected').forEach(n => n.classList.remove('selected'));
-      svg.classList.remove('has-sel'); svg.querySelectorAll('.ar.sel,.z0.sel,.z1.sel,.site.on').forEach(n => n.classList.remove('sel', 'on'));
+      svg.classList.remove('has-sel'); svg.querySelectorAll('.ar.sel,.z0.sel,.z1.sel,.z2.sel,.site.on').forEach(n => n.classList.remove('sel', 'on'));
       url({});
     }
     function url(q) { const u = new URL(location.href); ['area', 'lugar', 'region', 'sub'].forEach(k => u.searchParams.delete(k)); Object.entries(q).forEach(([k, v]) => u.searchParams.set(k, v)); history.replaceState(null, '', u); }
@@ -497,7 +510,9 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
       if (e.target.closest('.x')) return clear();
       const ed = e.target.closest('[data-edit]'); if (ed) return editFicha(ed.dataset.edit);
       const tt = e.target.closest('.tt'); if (tt) { T = tt.dataset.t; applyTime(); return; }
-      const zn = e.target.closest('[data-zone]'); if (zn) { const z = zone1(zn.dataset.zone); if (z && zlevel(W / view[2]) === 1) flyTo(z.etiqueta, zk(2) * 1.05); else if (!z && zlevel(W / view[2]) > 1) setView([0, 0, W, H], true); return showZone0(zn.dataset.zone); }
+      const zn = e.target.closest('[data-zone]'); if (zn) { const id = zn.dataset.zone, l = zlevel(W / view[2]), z1 = zone1(id), z2 = zone2(id);
+        if (z2 && l < 3) fitBox(z2.bbox, 0.25); else if (z1 && l === 1) flyTo(z1.etiqueta, zk(2) * 1.05); else if (z1 && l > 3) flyTo(z1.etiqueta, zk(2) * 1.05); else if (!z1 && !z2 && l > 1) setView([0, 0, W, H], true);
+        return showZone0(id); }
       const go = e.target.closest('[data-go]'); if (go) { const i = byId(go.dataset.go); if (i && (i.pt || i.ptx || D.physicalByPlace.has(i.id))) showSite(i); else if (i) location.href = ficha('lugares', i.id); }
       const ar = e.target.closest('[data-area]'); if (ar) showArea(ar.dataset.area);
     });
@@ -534,6 +549,7 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
       const feature = target.closest('.feature'); if (feature) return openFeature(feature.dataset.feature);
       const sb = target.closest('.sb,.slb'); if (sb && svg.classList.contains('subs-on')) return showSub(sb.dataset.sub);
       const z0 = target.closest('.z0,.z0l'); if (z0) return showZone0(z0.dataset.z0);
+      const z2 = target.closest('.z2,.z2l'); if (z2) return showZone0(z2.dataset.z2);
       const z1 = target.closest('.z1,.z1l'); if (z1) return showZone0(z1.dataset.z1);
       const ar = target.closest('.ar,.al'); if (ar) return showArea(ar.dataset.area);
       clear();
@@ -592,7 +608,7 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
     }, { passive: false });
     svg.addEventListener('dblclick', e => { const [cx, cy] = toSvg(e.clientX, e.clientY); setView([cx - view[2] * .3, cy - view[3] * .3, view[2] * .6, view[3] * .6], true); });
     function hover(e) {
-      const site = e.target.closest('.site'), z0 = e.target.closest('.z0') || e.target.closest('.z1'), ar = e.target.closest('.ar'), sb = svg.classList.contains('subs-on') && e.target.closest('.sb'), feature = e.target.closest('.feature');
+      const site = e.target.closest('.site'), z0 = e.target.closest('.z0') || e.target.closest('.z1') || e.target.closest('.z2'), ar = e.target.closest('.ar'), sb = svg.classList.contains('subs-on') && e.target.closest('.sb'), feature = e.target.closest('.feature');
       svg.querySelectorAll('.sb.hov').forEach(n => n !== sb && n.classList.remove('hov')); if (sb) sb.classList.add('hov');
       svg.querySelectorAll('.ar.hov').forEach(n => n !== ar && n.classList.remove('hov'));
       if (ar) ar.classList.add('hov');
@@ -600,7 +616,7 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
       if (site) { const s = D.sites[+site.dataset.k]; html = `<b>${esc(s.main.n)}</b>${s.main.alt ? ` · ${esc(s.main.alt)}` : ''}<br><span>${esc(tierName(D, s.main.es))}${s.items.length > 1 ? ` · ${s.items.length} fichas` : ''}</span>`; }
       else if (feature) { const f = D.fisico.accidentes.find(x => x.id === feature.dataset.feature); html = `<b>${esc(f.nombre)}</b><br><span>${f.tipo === 'rio' ? 'Cauce del río' : 'Extensión del macizo'}</span>`; }
       else if (sb) { const s = D.subs[sb.dataset.sub], p = per(), st = p && p.subregiones[sb.dataset.sub], pw = st && D.poder[st.poder]; html = `<b>${esc(s.nombre)}</b>${pw ? `<br><span>${esc(pw.nombre)}</span>` : ''}`; }
-      else if (z0) { const z = zone0(z0.dataset.z0) || zone1(z0.dataset.z1); html = `<b>${esc(z.nombre)}</b> · ${esc(z.nombre_alt || '')}<br><span>${esc(z.nombre_griego || '')}${z.endonimo ? ` · ${esc(z.endonimo)}` : ''}</span>`; }
+      else if (z0) { const z = zone0(z0.dataset.z0) || zone1(z0.dataset.z1) || zone2(z0.dataset.z2); html = `<b>${esc(z.nombre)}</b> · ${esc(z.nombre_alt || '')}<br><span>${esc(z.nombre_griego || '')}${z.endonimo ? ` · ${esc(z.endonimo)}` : ''}</span>`; }
       else if (ar) { const info = D.areaInfo.get(ar.dataset.area) || {}; html = `<b>${esc(info.nombre || ar.dataset.area)}</b>`; }
       if (!html) { tip.hidden = true; return; }
       const r = main.querySelector('.atlas').getBoundingClientRect();
@@ -645,6 +661,7 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
     if (sbq && D.subs[sbq]) { showSub(sbq); return; }
     if (sp.get('t') === T && !D.t0[T] && !lg && !ar && !reg) fitBox(D.geo.peloponeso.bbox, 0.08, false);
     if (lg && zone0(lg)) { const y = zone0(lg).anio; if (y !== T) { T = y; applyTime(); } setView([0, 0, W, H]); showZone0(lg); }
+    else if (lg && zone2(lg)) { const z = zone2(lg); if (z.anio !== T) { T = z.anio; applyTime(); } fitBox(z.bbox, 0.25, false); if (zlevel(W / view[2]) < 3) flyTo(z.etiqueta, zk(3) * 1.02); showZone0(lg); }
     else if (lg && zone1(lg)) { const z = zone1(lg); if (z.anio !== T) { T = z.anio; applyTime(); } flyTo(z.etiqueta, zk(2) * 1.05); showZone0(lg); }
     else if (lg && byId(lg)) { const i = byId(lg); if (i.es === 'region' && areaOf(i)) showArea(areaOf(i)); else showSite(i); }
     else if (ar && D.areaInfo.has(ar)) showArea(ar);
@@ -659,6 +676,7 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
     let z0 = null;
     if (i.es === 'continental') for (const zs of Object.values(D.t0)) z0 = z0 || zs.find(z => z.ficha === i.id);
     if (i.es === 'region') for (const zs of Object.values(D.t1)) z0 = z0 || zs.find(z => z.ficha === i.id);
+    if (i.es === 'ethnos') for (const zs of Object.values(D.t2)) z0 = z0 || zs.find(z => z.ficha === i.id);
     const a = areaOf(i), pt = geometry ? geometry.punto : i.pt || i.ptx, geo = z0 || (a && D.geo[a]);
     if (!pt && !geo) return;
     let box;
@@ -669,7 +687,7 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
     let w = (x1 - x0) * 1.25, h = w * 0.62; if ((y1 - y0) * 1.25 > h) { h = (y1 - y0) * 1.25; w = h / 0.62; }
     const cx = (x0 + x1) / 2, cy = (y0 + y1) / 2, u = w / 300;
     const mk = pt ? (() => { const [x, y] = P(pt); return `<g transform="translate(${x},${y}) scale(${u})"><circle r="9" class="mm-halo"/><circle r="4.5" class="mm-dot"/></g>`; })() : '';
-    el.innerHTML = `<a class="minimap" href="mapa.html?lugar=${encodeURIComponent(i.id)}" title="Abrir en el mapa"><svg viewBox="${cx - w / 2} ${cy - h / 2} ${w} ${h}" style="--u:${u}">${baseSVG(D, { selectedId: geometry && geometry.id })}<g class="mm-sel">${geo && !geometry ? `<path d="${geo.poligonos.map(polyPath).join('')}"/>` : ''}</g>${mk}</svg><span>${esc(z0 ? (i.es === 'region' ? 'Región' : 'Zona continental') : a ? (D.areaInfo.get(a) || {}).nombre || '' : '')}${rec.geo && rec.geo.precision === 'heredada' ? ` · punto de ${esc(rec.geo.de || 'su sitio')}` : ''} · Ver en el mapa ↗</span></a>`;
+    el.innerHTML = `<a class="minimap" href="mapa.html?lugar=${encodeURIComponent(i.id)}" title="Abrir en el mapa"><svg viewBox="${cx - w / 2} ${cy - h / 2} ${w} ${h}" style="--u:${u}">${baseSVG(D, { selectedId: geometry && geometry.id })}<g class="mm-sel">${geo && !geometry ? `<path d="${geo.poligonos.map(polyPath).join('')}"/>` : ''}</g>${mk}</svg><span>${esc(z0 ? (i.es === 'ethnos' ? 'Ethnos' : i.es === 'region' ? 'Región' : 'Zona continental') : a ? (D.areaInfo.get(a) || {}).nombre || '' : '')}${rec.geo && rec.geo.precision === 'heredada' ? ` · punto de ${esc(rec.geo.de || 'su sitio')}` : ''} · Ver en el mapa ↗</span></a>`;
   }
 
   window.HEL_MAP = { init, mini, project: P };

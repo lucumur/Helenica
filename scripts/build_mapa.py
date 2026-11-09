@@ -6,7 +6,7 @@ Entrada:
   data/mapa/zonas.json   contornos aproximados de cada área, en [lon, lat], en orden de prioridad;
                          también los de tier 0 por fecha (clave "tier0"), que toman nombres de su ficha,
                          y los de tier 1 por fecha (clave "tier1"), recortados además contra la zona de tier 0
-                         a la que pertenece su ficha (pertenece_a)
+                         a la que pertenece su ficha (pertenece_a); igual los de tier 2 (clave "tier2") contra su región de tier 1
 
 Reglas:
   - zona "continente": corta la tierra firme (el gran polígono Eurasia-África) y toma además
@@ -147,49 +147,56 @@ def main():
                           'nombre_griego': rec.get('nombre_griego'), 'endonimo': rec.get('endonimo'), 'endonimo_nota': rec.get('endonimo_nota'),
                           'poligonos': rings_of(g, 0.01), 'etiqueta': [round(lab.x, 3), round(lab.y, 3)], 'bbox': [round(v, 3) for v in g.bounds]})
         tier0[anio] = out_z
-    # Tier 1: regiones por fecha. "tipo": "islas" solo toma islas completas; "toma_islas": false no toma islas.
-    # Cada región se recorta además contra la zona de tier 0 de su ficha (pertenece_a), si existe en esa fecha.
-    tier1 = {}
-    for anio, zs in (json.load(open(os.path.join(M, 'zonas.json'), encoding='utf-8')).get('tier1') or {}).items():
-        if not isinstance(zs, list):
-            continue
-        taken_t, taken_i, out_z = [], set(), []
-        for z in zs:
-            zg = zone_geom(z)
-            parts = []
-            if z.get('tipo') != 'islas':
-                cut = big.intersection(zg)
-                for a in taken_t:
-                    cut = cut.difference(a)
-                if not cut.is_empty:
-                    parts.append(cut); taken_t.append(cut)
-            if z.get('toma_islas') is not False:
-                for i, isl in enumerate(islands):
-                    if i not in taken_i and zg.contains(isl.representative_point()):
-                        parts.append(isl); taken_i.add(i)
-            if not parts:
+    # Tiers 1 y 2 por fecha: "tipo": "islas" solo toma islas completas; "toma_islas": false no toma islas.
+    # Cada contorno se recorta además contra la zona del tier superior de su ficha (pertenece_a), si existe en esa fecha.
+    def build_tier(key, parents):
+        res_t, geoms = {}, {}
+        for anio, zs in (json.load(open(os.path.join(M, 'zonas.json'), encoding='utf-8')).get(key) or {}).items():
+            if not isinstance(zs, list):
                 continue
-            rec = json.load(open(os.path.join(ROOT, 'data', 'lugares', z['ficha'] + '.json'), encoding='utf-8'))
-            g = unary_union(parts)
-            padre = next((r['id'] for r in rec.get('pertenece_a') or [] if r['id'] in t0geom.get(anio, {})), None)
-            if padre:
-                g = g.intersection(t0geom[anio][padre])
-            if g.is_empty:
-                continue
-            main_part = max(list(g.geoms) if hasattr(g, 'geoms') else [g], key=lambda p: p.area)
-            lab = polylabel(main_part, tolerance=0.005)
-            out_z.append({'ficha': z['ficha'], 'color': z.get('color'), 'padre': padre, 'areas': rec.get('areas') or [],
-                          'tipos': rec.get('tipos') or [], 'nombre': rec.get('nombre'), 'nombre_alt': rec.get('nombre_alt'),
-                          'nombre_griego': rec.get('nombre_griego'), 'endonimo': rec.get('endonimo'), 'endonimo_nota': rec.get('endonimo_nota'),
-                          'poligonos': rings_of(g, 0.003), 'etiqueta': [round(lab.x, 3), round(lab.y, 3)], 'bbox': [round(v, 3) for v in g.bounds]})
-        tier1[anio] = out_z
+            taken_t, taken_i, out_z = [], set(), []
+            for z in zs:
+                zg = zone_geom(z)
+                parts = []
+                if z.get('tipo') != 'islas':
+                    cut = big.intersection(zg)
+                    for a in taken_t:
+                        cut = cut.difference(a)
+                    if not cut.is_empty:
+                        parts.append(cut); taken_t.append(cut)
+                if z.get('toma_islas') is not False:
+                    for i, isl in enumerate(islands):
+                        if i not in taken_i and zg.contains(isl.representative_point()):
+                            parts.append(isl); taken_i.add(i)
+                if not parts:
+                    continue
+                rec = json.load(open(os.path.join(ROOT, 'data', 'lugares', z['ficha'] + '.json'), encoding='utf-8'))
+                g = unary_union(parts)
+                padre = next((r['id'] for r in rec.get('pertenece_a') or [] if r['id'] in parents.get(anio, {})), None)
+                if padre:
+                    g = g.intersection(parents[anio][padre])
+                g = unary_union([p for p in (list(g.geoms) if hasattr(g, 'geoms') else [g]) if p.geom_type == 'Polygon' and p.area > 1e-6])
+                if g.is_empty:
+                    continue
+                geoms.setdefault(anio, {})[z['ficha']] = g
+                main_part = max(list(g.geoms) if hasattr(g, 'geoms') else [g], key=lambda p: p.area)
+                lab = polylabel(main_part, tolerance=0.005)
+                out_z.append({'ficha': z['ficha'], 'color': z.get('color'), 'padre': padre, 'areas': rec.get('areas') or [],
+                              'tipos': rec.get('tipos') or [], 'nombre': rec.get('nombre'), 'nombre_alt': rec.get('nombre_alt'),
+                              'nombre_griego': rec.get('nombre_griego'), 'endonimo': rec.get('endonimo'), 'endonimo_nota': rec.get('endonimo_nota'),
+                              'poligonos': rings_of(g, 0.003), 'etiqueta': [round(lab.x, 3), round(lab.y, 3)], 'bbox': [round(v, 3) for v in g.bounds]})
+            res_t[anio] = out_z
+        return res_t, geoms
+    tier1, t1geom = build_tier('tier1', t0geom)
+    tier2, _ = build_tier('tier2', t1geom)
     out = {'schema_version': 1,
            'fuente': 'Generado por scripts/build_mapa.py a partir de zonas.json y tierra.json (Natural Earth, dominio público)',
-           'areas': res, 'subareas': subs, 'tier0': tier0, 'tier1': tier1}
+           'areas': res, 'subareas': subs, 'tier0': tier0, 'tier1': tier1, 'tier2': tier2}
     with open(os.path.join(M, 'areas.geo.json'), 'w', encoding='utf-8') as fh:
         json.dump(out, fh, ensure_ascii=False, separators=(',', ':'))
     print(f'areas.geo.json: {len(res)} áreas, {len(subs)} subregiones, tier 0: ' + ', '.join(f'{k} ({len(v)})' for k, v in tier0.items())
-          + ', tier 1: ' + ', '.join(f'{k} ({len(v)})' for k, v in tier1.items()))
+          + ', tier 1: ' + ', '.join(f'{k} ({len(v)})' for k, v in tier1.items())
+          + ', tier 2: ' + ', '.join(f'{k} ({len(v)})' for k, v in tier2.items()))
 
 
 if __name__ == '__main__':

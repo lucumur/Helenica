@@ -1,0 +1,34 @@
+{
+  "id": "phokewes-900",
+  "nombre": "Phōkēwes",
+  "nombre_alt": "Fócide",
+  "nombre_griego": "Φωκῆϝες",
+  "endonimo": "Phōkēwes",
+  "endonimo_nota": "Homero, Il. 2.517 (Φωκῆες); la digamma de la forma es reconstruida.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "grecia-central"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "akhaiwia-900",
+      "nombre": "Akhaiwiā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Fócide (con Delfos), Lócride opuntia, epicnémide y ozolia, y Dóride. Dialectos griegos noroccidentales."
+  },
+  "campos": [],
+  "secciones": [],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

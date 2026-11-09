@@ -1,0 +1,39 @@
+{
+  "id": "iason-argos-900",
+  "nombre": "Iason Argos",
+  "nombre_alt": "Peloponeso",
+  "nombre_griego": "Ἴασον Ἄργος",
+  "endonimo": "Iason Argos",
+  "endonimo_nota": "Homero, Od. 18.246 (Ἴασον Ἄργος); los comentaristas antiguos lo entendían como el Peloponeso entero.",
+  "imagen": null,
+  "tipos": [
+    "Área insulada"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "akhaiwia-900",
+      "nombre": "Akhaiwiā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Peloponeso, Citera, Egina y Megáride. Hacia 900 a.C. la potencia de la península es Argos; Esparta aún no domina (Amyklai aquea hasta c. 750, Messenia independiente hasta c. 730–710)."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- *Peloponnēsos* (Πελοπόννᾱσος) aún no está atestiguado: aparece con Tirteo (Πέλοπος νῆσον) y el Himno homérico a Apolo.\n- Chorai pendientes: Aigialēwes, Argeioi, Korinthioi, Arkades, Waleioi, Pisatai, Messānioi, Kunourioi, Lakōnes."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "thessalia-900",
+  "nombre": "Thessaliā",
+  "nombre_alt": "Tesalia",
+  "nombre_griego": "Θεσσαλίᾱ",
+  "endonimo": "Petthaloi",
+  "endonimo_nota": "Etnónimo epigráfico tesalio (Πετθαλοί, Φετθαλοί), dialecto eolio.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "tesalia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "akhaiwia-900",
+      "nombre": "Akhaiwiā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Tesalia, de dialecto eolio."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- El nombre de región no está en Homero; es posterior (Heródoto)."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

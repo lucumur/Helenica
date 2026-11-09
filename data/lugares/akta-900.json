@@ -1,0 +1,39 @@
+{
+  "id": "akta-900",
+  "nombre": "Aktā",
+  "nombre_alt": "Ática",
+  "nombre_griego": "Ἀκτᾱ́",
+  "endonimo": "Aktā",
+  "endonimo_nota": "Nombre antiguo del Ática, «la costa» (Heródoto; Estrabón 9.1.3); forma con ā conservada, reconstruida para 900 a.C.",
+  "imagen": null,
+  "tipos": [
+    "Área insulada"
+  ],
+  "areas": [
+    "grecia-central"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "akhaiwia-900",
+      "nombre": "Akhaiwiā"
+    }
+  ],
+  "descripcion": {
+    "texto": "El Ática, de dialecto jónico (ático)."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- *Attikā* es la alternativa más reconocible."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

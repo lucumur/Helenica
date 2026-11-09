@@ -1,0 +1,39 @@
+{
+  "id": "doriewes-900",
+  "nombre": "Dōriēwes",
+  "nombre_alt": "Dóride asiática",
+  "nombre_griego": "Δωριῆϝες",
+  "endonimo": "Dōriēwes",
+  "endonimo_nota": "Forma con digamma reconstruida; Homero, Od. 19.177 (Δωριέες, en Creta).",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "asia-doria"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "akhaiwia-900",
+      "nombre": "Akhaiwiā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Rodas, Cos, Cnido y Halicarnaso."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- La Hexápolis doria es posterior."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

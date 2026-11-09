@@ -1,0 +1,39 @@
+{
+  "id": "kupros-900",
+  "nombre": "Kupros",
+  "nombre_alt": "Chipre",
+  "nombre_griego": "Κύπρος",
+  "endonimo": "Kupros",
+  "endonimo_nota": "Lineal B ku-pi-ri-jo, «chipriota».",
+  "imagen": null,
+  "tipos": [
+    "Área insulada"
+  ],
+  "areas": [
+    "chipre"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "akhaiwia-900",
+      "nombre": "Akhaiwiā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Chipre, mayoritariamente de habla griega (arcado-chipriota) desde c. 1100 a.C., con enclaves eteochipriotas (Amathus)."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Estrabón (14.6.3) menciona una *Akhaiōn aktē* en la isla.\n- Kition fenicia es posterior (c. 850–820 a.C.)."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

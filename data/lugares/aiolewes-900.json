@@ -1,0 +1,34 @@
+{
+  "id": "aiolewes-900",
+  "nombre": "Aiolēwes",
+  "nombre_alt": "Eólide",
+  "nombre_griego": "Αἰολῆϝες",
+  "endonimo": "Aiolēwes",
+  "endonimo_nota": "Forma con digamma reconstruida (Αἰολεῖς).",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "asia-eolia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "akhaiwia-900",
+      "nombre": "Akhaiwiā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Lesbos, Ténedos y la costa eolia de Asia."
+  },
+  "campos": [],
+  "secciones": [],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

@@ -12,7 +12,7 @@
   "funciones": [],
   "pertenece_a": [],
   "id": "argos-argolis",
-  "nombre": "Argos, Argolis",
+  "nombre": "Argos (Polis), Argewía",
   "nombre_alt": "Argos",
   "titulo_tana": "Argos, Argolis",
   "etiquetas_tana": [
@@ -31,5 +31,9 @@
       37.631
     ],
     "precision": "aprox"
-  }
+  },
+  "nombre_griego": null,
+  "endonimo": null,
+  "endonimo_nota": null,
+  "fuentes": []
 }

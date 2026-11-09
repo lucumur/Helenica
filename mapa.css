@@ -37,6 +37,16 @@ main.atlas-main{width:100%;max-width:none;padding:0}
 .z0.sel{fill-opacity:1;stroke:#2a1a10;stroke-width:2.2}
 #map.t0-on .areas{display:none}
 #map.no-lb .z0labels{display:none}
+.z1{display:none;stroke:#fffaf0;stroke-width:1;stroke-opacity:.9;vector-effect:non-scaling-stroke;fill-opacity:.88;cursor:pointer;transition:fill-opacity .15s}
+.z1:hover{fill-opacity:1;stroke:#5b3a24;stroke-width:1.4}
+#map.has-sel .z1:not(.sel){fill-opacity:.5}
+.z1.sel{fill-opacity:1;stroke:#2a1a10;stroke-width:2.2}
+#map.t1-on .areas{display:none}
+#map.no-lb .z1labels{display:none}
+.z1l{cursor:pointer}
+.z1l text{paint-order:stroke;stroke:#fbf6ea;stroke-width:3.5px;stroke-linejoin:round;fill:#3a2a1e}
+.z1l .n{font:600 13px var(--serif);letter-spacing:.05em}
+.z1l .g{font:italic 11px var(--serif);fill:#6a4a34}
 .z0l{cursor:pointer}
 .z0l text{paint-order:stroke;stroke:#fbf6ea;stroke-width:3.5px;stroke-linejoin:round;fill:#3a2a1e}
 .z0l .n{font:600 14px var(--serif);letter-spacing:.06em}

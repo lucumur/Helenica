@@ -130,7 +130,13 @@
   "escala": "chora",
   "forma": [],
   "funciones": [],
-  "pertenece_a": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "argos-chora-900",
+      "nombre": "Argos"
+    }
+  ],
   "contenido_en": {
     "tana": "BPmEWjakjBne",
     "nombre": "Segundo Athlos: Matar a la Hidra de Lerna (Argolis)",

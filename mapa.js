@@ -14,7 +14,7 @@
   const ficha = (c, id) => `ficha.html?c=${c}&id=${encodeURIComponent(id)}`;
   const HELADE = ['#d9a079', '#e3b98f', '#c98e6a', '#e8c79d', '#d4a483', '#dcae7d', '#c7956f', '#e6bc8b', '#d09a74', '#e0b48c', '#cf9f7e', '#e4c095', '#d6a988', '#dfb184', '#cb936d'];
   const FUERA = ['#b9c6c1', '#c4cbbd', '#b3c0c7', '#c8c3b5', '#bcc8b8', '#c0c4cc', '#b6c3bb', '#c6c0b0', '#bdc7c4', '#c2bfb6', '#b8c4be', '#c5cac0'];
-  const TIER_ICON = { chora: 'diamond', nesos: 'diamond', ethnos: 'diamond', 'polis-kome': 'circle', demos: 'small', moira: 'small', oikema: 'small' };
+  const TIER_ICON = { chora: 'diamond', nesos: 'diamond', ethnos: 'diamond', dominio: 'diamond', 'polis-kome': 'circle', demos: 'small', moira: 'small', oikema: 'small' };
   // Nivel = último umbral alcanzado. k = ancho del atlas / ancho del encuadre.
   const ZL = [
     { n: 1, k: 1, que: 'Tier 0: zonas continentales si la fecha las tiene; si no, áreas. Las cinco capitales' },
@@ -427,7 +427,7 @@ ${!geo ? '<p class="muted">Sin localización terrestre: no aparece sobre el mapa
       const up = t1 && z.padre && (zone0(z.padre) || zone1(z.padre));
       const row = (k, v, n) => v ? `<p class="kv"><b>${k}</b> ${esc(v)}${n ? `<br><span class="muted small">${esc(n)}</span>` : ''}</p>` : '';
       panel.innerHTML = `<button class="x" aria-label="Cerrar">×</button>
-<p class="eyebrow"><span class="sw" style="background:${z.color}"></span>${t1 ? `${lv === 2 ? 'Ethnos' : 'Región'}${z.tipos[0] ? ` (${esc(z.tipos[0])})` : ''}` : 'Zona continental'} · ${esc(p ? p.etiqueta : y)}${up ? ` · <button type="button" class="lnk" data-zone="${esc(up.ficha)}">${esc(up.nombre)}</button>` : ''}</p>
+<p class="eyebrow"><span class="sw" style="background:${z.color}"></span>${t1 ? (tn => z.tipos[0] && fold(z.tipos[0]).includes(fold(tn)) ? esc(z.tipos[0]) : `${tn}${z.tipos[0] ? ` (${esc(z.tipos[0])})` : ''}`)(lv === 2 ? tierName(D, (byId(id) || {}).es || 'ethnos') : 'Región') : 'Zona continental'} · ${esc(p ? p.etiqueta : y)}${up ? ` · <button type="button" class="lnk" data-zone="${esc(up.ficha)}">${esc(up.nombre)}</button>` : ''}</p>
 <h2>${esc(z.nombre)}</h2>${z.nombre_griego ? `<p class="gr">${esc(z.nombre_griego)}</p>` : ''}
 ${row('Nombre tradicional', z.nombre_alt)}${row('Griego transliterado', z.nombre)}${row('Griego', z.nombre_griego)}${row('Endónimo', z.endonimo || '—', z.endonimo_nota)}
 ${i.r ? `<p>${esc(i.r)}</p>` : ''}
@@ -676,7 +676,7 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
     let z0 = null;
     if (i.es === 'continental') for (const zs of Object.values(D.t0)) z0 = z0 || zs.find(z => z.ficha === i.id);
     if (i.es === 'region') for (const zs of Object.values(D.t1)) z0 = z0 || zs.find(z => z.ficha === i.id);
-    if (i.es === 'ethnos') for (const zs of Object.values(D.t2)) z0 = z0 || zs.find(z => z.ficha === i.id);
+    if (i.es === 'ethnos' || i.es === 'dominio') for (const zs of Object.values(D.t2)) z0 = z0 || zs.find(z => z.ficha === i.id);
     const a = areaOf(i), pt = geometry ? geometry.punto : i.pt || i.ptx, geo = z0 || (a && D.geo[a]);
     if (!pt && !geo) return;
     let box;
@@ -687,7 +687,7 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
     let w = (x1 - x0) * 1.25, h = w * 0.62; if ((y1 - y0) * 1.25 > h) { h = (y1 - y0) * 1.25; w = h / 0.62; }
     const cx = (x0 + x1) / 2, cy = (y0 + y1) / 2, u = w / 300;
     const mk = pt ? (() => { const [x, y] = P(pt); return `<g transform="translate(${x},${y}) scale(${u})"><circle r="9" class="mm-halo"/><circle r="4.5" class="mm-dot"/></g>`; })() : '';
-    el.innerHTML = `<a class="minimap" href="mapa.html?lugar=${encodeURIComponent(i.id)}" title="Abrir en el mapa"><svg viewBox="${cx - w / 2} ${cy - h / 2} ${w} ${h}" style="--u:${u}">${baseSVG(D, { selectedId: geometry && geometry.id })}<g class="mm-sel">${geo && !geometry ? `<path d="${geo.poligonos.map(polyPath).join('')}"/>` : ''}</g>${mk}</svg><span>${esc(z0 ? (i.es === 'ethnos' ? 'Ethnos' : i.es === 'region' ? 'Región' : 'Zona continental') : a ? (D.areaInfo.get(a) || {}).nombre || '' : '')}${rec.geo && rec.geo.precision === 'heredada' ? ` · punto de ${esc(rec.geo.de || 'su sitio')}` : ''} · Ver en el mapa ↗</span></a>`;
+    el.innerHTML = `<a class="minimap" href="mapa.html?lugar=${encodeURIComponent(i.id)}" title="Abrir en el mapa"><svg viewBox="${cx - w / 2} ${cy - h / 2} ${w} ${h}" style="--u:${u}">${baseSVG(D, { selectedId: geometry && geometry.id })}<g class="mm-sel">${geo && !geometry ? `<path d="${geo.poligonos.map(polyPath).join('')}"/>` : ''}</g>${mk}</svg><span>${esc(z0 ? (i.es === 'ethnos' || i.es === 'dominio' ? tierName(D, i.es) : i.es === 'region' ? 'Región' : 'Zona continental') : a ? (D.areaInfo.get(a) || {}).nombre || '' : '')}${rec.geo && rec.geo.precision === 'heredada' ? ` · punto de ${esc(rec.geo.de || 'su sitio')}` : ''} · Ver en el mapa ↗</span></a>`;
   }
 
   window.HEL_MAP = { init, mini, project: P };

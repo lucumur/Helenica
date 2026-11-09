@@ -26,6 +26,12 @@
       "descripcion": "Región de un pueblo sin centro dominante; liga o koinon (Arcadia, Acaya)."
     },
     {
+      "id": "dominio",
+      "tier": 2,
+      "nombre": "Dominio",
+      "descripcion": "Territorio bajo un poder o una identidad heredada (p. ej. un dominio heroico de jure) que no coincide necesariamente con un pueblo (Mukānai, Argos en 900 a.C.)."
+    },
+    {
       "id": "chora",
       "tier": 3,
       "nombre": "Eupolis",

@@ -1,7 +1,7 @@
 {
   "id": "pontinos-lerna-2",
   "tana_id": "fu4-T2NNkFlB",
-  "nombre": "Pontinos, Lerna",
+  "nombre": "Pontinos (Río), Lerna",
   "nombre_alt": "Rio",
   "titulo_tana": "Pontinos, Lerna (Rio)",
   "etiquetas_tana": [
@@ -17,12 +17,18 @@
   "areas": [
     "peloponeso"
   ],
-  "escala": "polis-kome",
+  "escala": "oikema",
   "forma": [],
   "funciones": [
     "natural"
   ],
-  "pertenece_a": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "lerna-argolis-2",
+      "nombre": "Lerna (Kome), Argos"
+    }
+  ],
   "contenido_en": {
     "tana": "e30B_D73-DJ3",
     "nombre": "Lerna, Argolis (Region)",

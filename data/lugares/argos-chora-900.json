@@ -23,7 +23,7 @@
     }
   ],
   "descripcion": {
-    "texto": "Centro dominante de la llanura argiva hacia 900 a.C.: núcleos dispersos al pie de Larisa y Aspis. Ver [Argos](lugares:argos-argolis), [Larisa](lugares:larisa-argos) y [Lerna](lugares:lerna-argolis)."
+    "texto": "Centro dominante de la llanura argiva hacia 900 a.C.: núcleos dispersos al pie de Larisa y Aspis. Ver [Argos](lugares:argos-argolis), [Larisa](lugares:larisa-argos) y [Lerna](lugares:lerna-argolis-2)."
   },
   "campos": [
     {
@@ -113,7 +113,7 @@
         {
           "col": "lugares",
           "id": "lerna-argolis-2",
-          "nombre": "Lerna, Argolis"
+          "nombre": "Lerna (Kome), Argos"
         },
         {
           "col": "lugares",

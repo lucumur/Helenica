@@ -1,7 +1,7 @@
 {
   "id": "alkyonia-lerna",
   "tana_id": "Cgm0LEIYUVKg",
-  "nombre": "Alkyonia, Lerna",
+  "nombre": "Alkyonia (Laguna), Lerna",
   "nombre_alt": "Cienega",
   "titulo_tana": "Alkyonia, Lerna (Cienega)",
   "etiquetas_tana": [
@@ -47,15 +47,14 @@
   "areas": [
     "peloponeso"
   ],
-  "escala": "polis-kome",
+  "escala": "oikema",
   "forma": [],
   "funciones": [],
   "pertenece_a": [
     {
-      "tana": "e30B_D73-DJ3",
-      "nombre": "Lerna, Argolis (Region)",
       "col": "lugares",
-      "id": "lerna-argolis-2"
+      "id": "lerna-argolis-2",
+      "nombre": "Lerna (Kome), Argos"
     }
   ],
   "contenido_en": {

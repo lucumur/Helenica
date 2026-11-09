@@ -1,8 +1,8 @@
 {
   "id": "lerna-argolis-2",
   "tana_id": "e30B_D73-DJ3",
-  "nombre": "Lerna, Argolis",
-  "nombre_alt": "Region",
+  "nombre": "Lerna (Kome), Argos",
+  "nombre_alt": "Lerna",
   "titulo_tana": "Lerna, Argolis (Region)",
   "etiquetas_tana": [
     "Lugar"
@@ -52,14 +52,8 @@
     {
       "clave": "S🧩",
       "etiqueta": "Subunidades / partes",
-      "texto": "- [Lerna, Argolis (Demos)](lugares:lerna-argolis)\n- [Alkyonia, Lerna (Cienega)](lugares:alkyonia-lerna)\n- [Amymonē (Fuente), Lerna (Chora), Argolis (Región)](lugares:amymone-fuente-lerna-chora-argolis-region)\n- Amphiaraos, Lerna (Fuente)\n- [Pontinos, Lerna (Monte)](lugares:pontinos-lerna)\n- [Pontinos, Lerna (Rio)](lugares:pontinos-lerna-2)\n- [Naos de Athēna Saitis, Monte Pontinos (Templo)](lugares:naos-de-athena-saitis-monte-pontinos)\n- Apobathmoi, Lerna (Puerto)",
+      "texto": "- [Alkyonia, Lerna (Cienega)](lugares:alkyonia-lerna)\n- [Amymonē (Fuente), Lerna (Chora), Argolis (Región)](lugares:amymone-fuente-lerna-chora-argolis-region)\n- Amphiaraos, Lerna (Fuente)\n- [Pontinos, Lerna (Monte)](lugares:pontinos-lerna)\n- [Pontinos, Lerna (Rio)](lugares:pontinos-lerna-2)\n- [Naos de Athēna Saitis, Monte Pontinos (Templo)](lugares:naos-de-athena-saitis-monte-pontinos)\n- Apobathmoi, Lerna (Puerto)",
       "refs": [
-        {
-          "tana": "O4tYm6cQa-Bk",
-          "nombre": "Lerna, Argolis (Demos)",
-          "col": "lugares",
-          "id": "lerna-argolis"
-        },
         {
           "tana": "Cgm0LEIYUVKg",
           "nombre": "Alkyonia, Lerna (Cienega)",
@@ -127,8 +121,15 @@
   "areas": [
     "peloponeso"
   ],
-  "escala": "chora",
-  "forma": [],
+  "escala": "polis-kome",
+  "forma": [
+    {
+      "tipo": "kome",
+      "periodo": "geometrico",
+      "fechas": "1000–800 a.C.",
+      "nota": "Tumbas geométricas; subordinación a Argos inferida"
+    }
+  ],
   "funciones": [],
   "pertenece_a": [
     {
@@ -149,5 +150,44 @@
       37.56
     ],
     "precision": "aprox"
-  }
+  },
+  "nombre_griego": "Λέρνᾱ",
+  "contiene": [
+    {
+      "grupo": "Partes",
+      "nota": "Tier 6",
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "alkyonia-lerna",
+          "nombre": "Alkyonia (Laguna), Lerna"
+        },
+        {
+          "col": "lugares",
+          "id": "amymone-fuente-lerna-chora-argolis-region",
+          "nombre": "Amymōnē (Fuente), Lerna"
+        },
+        {
+          "col": "lugares",
+          "id": "pontinos-lerna",
+          "nombre": "Pontinos (Monte), Lerna"
+        },
+        {
+          "col": "lugares",
+          "id": "pontinos-lerna-2",
+          "nombre": "Pontinos (Río), Lerna"
+        },
+        {
+          "col": "lugares",
+          "id": "lerna-cienaga-lerna-chora-argolis-region",
+          "nombre": "Ciénaga, Lerna"
+        },
+        {
+          "col": "lugares",
+          "id": "naos-de-athena-saitis-monte-pontinos",
+          "nombre": "Naos de Athēna Saitis, Monte Pontinos"
+        }
+      ]
+    }
+  ]
 }

@@ -28,7 +28,13 @@
   "funciones": [
     "sagrado"
   ],
-  "pertenece_a": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "lerna-argolis-2",
+      "nombre": "Lerna (Kome), Argos"
+    }
+  ],
   "contenido_en": {
     "tana": "e30B_D73-DJ3",
     "nombre": "Lerna, Argolis (Region)",

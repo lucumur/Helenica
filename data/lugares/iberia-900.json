@@ -23,7 +23,7 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Ἴβηρες aparece desde Hecateo; la η podría ser original y no se cambia a ā."
+      "texto": "- Ἴβηρες aparece desde Hecateo; la η podría ser original y no se cambia a ā.\n- Alcance de las fuentes: Las fuentes geográficas citadas son de época de Augusto y explican un nombre cuyo alcance varió. No acreditan una identidad ibérica común en 900 a.C.; la agrupación del resto peninsular y Baleares, con las exclusiones del mapa, es editorial."
     }
   ],
   "epoca": {
@@ -62,6 +62,16 @@
           "nombre": "Ibēres"
         }
       ]
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Estrabón, Geografía 3.1.2–3 — Iberia como península delimitada por mares y Pirineos",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/3A%2A.html#1.2"
+    },
+    {
+      "titulo": "Estrabón, Geografía 3.4.19 — cambios históricos en la extensión del nombre Iberia",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/3D%2A.html#4.19"
     }
   ]
 }

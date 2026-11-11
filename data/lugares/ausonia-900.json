@@ -23,7 +23,7 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Sin colonias griegas todavía (Pitecusa, c. 770).\n- Cerdeña y Córcega (nurágicos) quedan sin zona."
+      "texto": "- Sin colonias griegas todavía (Pitecusa, c. 770).\n- Cerdeña y Córcega (nurágicos) quedan sin zona.\n- Alcance de las fuentes: La referencia a los ausones se concentra en Italia meridional y es posterior a 900 a.C. Ausoniā se usa aquí como rótulo continental: no demuestra que el valle del Po, toda Italia y Sicilia compartieran ese nombre o una identidad política común en esa fecha."
     }
   ],
   "epoca": {
@@ -91,6 +91,16 @@
           "nombre": "Ombrikoi"
         }
       ]
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Estrabón, Geografía 5.4.3 — ausones y ópicos en Campania; tradición del nombre Ausonia",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/5D%2A.html#4.3"
+    },
+    {
+      "titulo": "Metropolitan Museum, Italian Peninsula, 1000 B.C.–1 A.D. — diversidad cultural de Italia y secuencia protovillanoviana/villanoviana",
+      "url": "https://artistproject.metmuseum.org/toah/ht/04/eust.html"
     }
   ]
 }

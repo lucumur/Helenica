@@ -23,7 +23,7 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Κελτοί es el nombre griego más antiguo (Hecateo; Heródoto 2.33, 4.49); Γαλάται se generaliza en el s. III a.C., tras la invasión de 279.\n- Ancestros probables de los celtas históricos; la atribución lingüística para esta fecha es discutida.\n- Aquitania, al sur de la Garona, pertenece a Auskoi."
+      "texto": "- Κελτοί es el nombre griego más antiguo (Hecateo; Heródoto 2.33, 4.49); Γαλάται se generaliza en el s. III a.C., tras la invasión de 279.\n- Ancestros probables de los celtas históricos; la atribución lingüística para esta fecha es discutida.\n- Aquitania, al sur de la Garona, pertenece a Auskoi.\n- Alcance de las fuentes: Keltoi es un rótulo retrospectivo para este mapa: los textos citados son posteriores y la cultura material de campos de urnas no demuestra por sí sola una lengua o identidad celta homogénea en 900 a.C."
     }
   ],
   "epoca": {
@@ -82,6 +82,20 @@
           "nombre": "Bitouriges"
         }
       ]
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Heródoto, Historias 2.33 — Keltoí, Pirene y las fuentes del Istro; geografía griega del s. V a.C.",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Herodotus/2A%2A.html#33"
+    },
+    {
+      "titulo": "César, Guerra de las Galias 1.1 — Celtae y Galli; distribución de los pueblos de la Galia en el s. I a.C.",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Gallic_War/1A%2A.html#1"
+    },
+    {
+      "titulo": "Pope, Re-approaching Celts: Origins, Society, and Social Change (2022) — revisión crítica de las relaciones entre arqueología e identidad celta",
+      "url": "https://link.springer.com/article/10.1007/s10814-021-09157-1"
     }
   ]
 }

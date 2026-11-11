@@ -23,7 +23,7 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Ἀλαρόδιοι es el nombre de Heródoto (3.94, 7.79); su identificación con Urartu es la más aceptada."
+      "texto": "- Ἀλαρόδιοι es el nombre de Heródoto (3.94, 7.79); su identificación con Urartu es la más aceptada.\n- Alcance de las fuentes: Alarodioi es un etnónimo griego atestiguado en Heródoto, siglos después de 900 a.C., no un endónimo urarteo contemporáneo. La asociación con Urartu no acredita que el reino unificado ni toda su extensión posterior existieran ya en esta fecha."
     }
   ],
   "epoca": {
@@ -62,6 +62,20 @@
           "nombre": "Thōspītis"
         }
       ]
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Heródoto, Historias 3.94 — Alaródioi junto a matienos y saspires en el sistema tributario persa",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Herodotus/3D%2A.html#94"
+    },
+    {
+      "titulo": "Heródoto, Historias 7.79 — alarodios y saspires en el ejército de Jerjes",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Herodotus/7B%2A.html#79"
+    },
+    {
+      "titulo": "History Museum of Armenia, Urartu: The Kingdom of Van (9th–6th cc. BC) — núcleo del lago Van y cronología del reino",
+      "url": "https://historymuseum.am/en/exhibitions_type/urartu-the-kingdom-of-van-9th-6th-cc-bc/"
     }
   ]
 }

@@ -23,7 +23,7 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Gentilicio homérico Θρήϊκες (*Il.* 2.844); la tierra, Θρῄκη (*Il.* 20.485). La forma con ā sale de quitar el paso jonio ā > η.\n- En Lemnos, los Σίντιες de Homero; la estela de Lemnos (lengua tirsénica) es posterior."
+      "texto": "- Gentilicio homérico Θρήϊκες (*Il.* 2.844); la tierra, Θρῄκη (*Il.* 20.485). La forma con ā sale de quitar el paso jonio ā > η.\n- En Lemnos, los Σίντιες de Homero; la estela de Lemnos (lengua tirsénica) es posterior.\n- Alcance de las fuentes: La forma Thrāikes es una retroversión de la vocalización jonia. Los textos sitúan pueblos tracios en los Balcanes orientales, pero no acreditan una frontera uniforme desde el Estrimón hasta los Cárpatos y el Dniéster en 900 a.C., ni una identidad tracia de todos los habitantes de Lemnos."
     }
   ],
   "epoca": {
@@ -91,6 +91,16 @@
           "nombre": "Agathursoi"
         }
       ]
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Homero, Ilíada 2.844–845 — Thrḗikes y su vinculación al Helesponto",
+      "url": "https://www.theoi.com/Text/HomerIliad2.html"
+    },
+    {
+      "titulo": "Heródoto, Historias 5.1–3 — Tracia, Estrimón y diversidad de los pueblos tracios (s. V a.C.)",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Herodotus/5A%2A.html#1"
     }
   ]
 }

@@ -23,7 +23,7 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Σαρδώ, tema en -ō (Heródoto 1.170); no hay forma con ā. Nombre griego arcaico alternativo: Ἰχνοῦσσα, «la huella» (Timeo, en Plinio).\n- La relación con los šrdn (shardana) de los Pueblos del Mar es discutida.\n- Κύρνος es el nombre griego de Córcega (Heródoto 1.165)."
+      "texto": "- Σαρδώ, tema en -ō (Heródoto 1.170); no hay forma con ā. Nombre griego arcaico alternativo: Ἰχνοῦσσα, «la huella» (Timeo, en Plinio).\n- La relación con los šrdn (shardana) de los Pueblos del Mar es discutida.\n- Κύρνος es el nombre griego de Córcega (Heródoto 1.165).\n- Alcance de las fuentes: Heródoto respalda la identificación de ambas islas, no el uso de esos nombres en 900 a.C. ni su unidad política. La evidencia nurágica de Cerdeña y la documentación arqueológica corsa corresponden a contextos distintos; la ficha conjunta es una agrupación cartográfica."
     }
   ],
   "epoca": {
@@ -57,6 +57,20 @@
           "nombre": "Kurnioi"
         }
       ]
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Heródoto, Historias 1.165–166 y 1.170 — Kýrnos (Córcega) y Sardṓ (Cerdeña), nombres griegos del s. V a.C.",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Herodotus/1C%2A.html#165"
+    },
+    {
+      "titulo": "Metropolitan Museum, Sardinian Giants — Mont'e Prama y la Cerdeña nurágica del primer Hierro",
+      "url": "https://www.metmuseum.org/perspectives/sardinian-giants"
+    },
+    {
+      "titulo": "Collectivité de Corse, Cauria — contexto arqueológico y ubicación de los conjuntos prehistóricos corsos",
+      "url": "https://www.isula.corsica/patrimoine/Cauria_r41.html"
     }
   ]
 }

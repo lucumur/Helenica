@@ -4,7 +4,7 @@
   "nombre_alt": "Acaya",
   "nombre_griego": "Ἀχαιϝίᾱ",
   "endonimo": "Akhaiwiā",
-  "endonimo_nota": "Lineal B a-ka-wi-ja-de, «hacia Akhaiwiā» (PY Fr 1234).",
+  "endonimo_nota": "Propuesta basada en el lineal B a-ka-wi-ja-de (KN C 914, Cnosos): posible «hacia Akhaiwiā», con interpretación alternativa como referencia festiva.",
   "imagen": null,
   "tipos": [
     "Zona continental"
@@ -34,7 +34,7 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Forma respaldada por el lineal B: a-ka-wi-ja-de (PY Fr 1234). Clásico Ἀχαΐα; en Homero, Ἀχαιΐς (γαῖα) y el gentilicio Ἀχαιοί (*Ἀχαιϝοί), probable origen del hitita Aḫḫiyawa.\n- «Hellas» todavía no designa al conjunto.\n- En Chipre, reinos grecochipriotas; Kition fenicia es posterior (c. 850)."
+      "texto": "- El lineal B a-ka-wi-ja-de (KN C 914, Cnosos) admite una interpretación toponímica y otra festiva. Clásico Ἀχαΐα; en Homero, Ἀχαιΐς (γαῖα) y el gentilicio Ἀχαιοί (*Ἀχαιϝοί), probable origen del hitita Aḫḫiyawa.\n- «Hellas» todavía no designa al conjunto.\n- En Chipre, reinos grecochipriotas; Kition fenicia es posterior (c. 850).\n- Alcance de las fuentes: La lectura de KN C 914 es discutida: puede aludir a un lugar o a una celebración. Ni esa tablilla ni el catálogo homérico acreditan un país llamado Akhaiwiā con toda la extensión aquí dibujada en 900 a.C.; el nombre funciona como rótulo del ámbito griego."
     }
   ],
   "epoca": {
@@ -135,6 +135,24 @@
           "nombre": "Dōriēwes"
         }
       ]
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "García Ramón, Mycenaean Onomastics (2011), pp. 237 y 239 — a-ka-wi-ja y su posible interpretación como topónimo",
+      "url": "https://ifl.phil-fak.uni-koeln.de/fileadmin/linguistik/Personen/HVS/Garcia_Ramon/PDFs/GR82.pdf"
+    },
+    {
+      "titulo": "Hiller, Mycenaean Religion and Cult (2011) — KN C 914 y la interpretación alternativa de a-ka-wi-ja-de como referencia festiva",
+      "url": "https://e-edu.nbu.bg/pluginfile.php/752688/mod_resource/content/1/HillerS.Mycenaean%20Religion%20and%20Cult.pdf"
+    },
+    {
+      "titulo": "Homero, Ilíada 2.484–759 — catálogo de contingentes aqueos y su geografía; tradición épica posterior",
+      "url": "https://www.theoi.com/Text/HomerIliad2.html"
+    },
+    {
+      "titulo": "Metropolitan Museum, Geometric Art in Ancient Greece — contexto arqueológico griego, ca. 900–700 a.C.",
+      "url": "https://www.metmuseum.org/essays/geometric-art-in-ancient-greece"
     }
   ]
 }

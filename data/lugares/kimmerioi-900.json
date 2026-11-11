@@ -23,7 +23,7 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- La identificación de esos horizontes con los cimerios de las fuentes (Odisea 11.14; anales asirios) es discutida."
+      "texto": "- La identificación de esos horizontes con los cimerios de las fuentes (Odisea 11.14; anales asirios) es discutida.\n- Alcance de las fuentes: La localización póntica procede de tradiciones posteriores; las menciones asirias seguras son del s. VIII a.C. La correspondencia entre los cimerios y los horizontes arqueológicos de las estepas, y por tanto sus límites hacia 900 a.C., sigue discutida."
     }
   ],
   "epoca": {
@@ -57,6 +57,16 @@
           "nombre": "Kimmeriā"
         }
       ]
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Heródoto, Historias 4.11–12 — tradición cimeria en el norte del Ponto, el Tyras y el Bósforo cimerio",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Herodotus/4A%2A.html#11"
+    },
+    {
+      "titulo": "Tokhtas'ev, Cimmerians, Encyclopaedia Iranica — nombres griegos y cuneiformes; discusión de su ubicación y atribución arqueológica",
+      "url": "https://www.iranicaonline.org/articles/cimmerians-nomads/"
     }
   ]
 }

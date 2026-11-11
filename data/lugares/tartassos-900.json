@@ -23,7 +23,7 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Forma griega reconstruida: supone que la η jonia de Ταρτησσός (Heródoto 1.163, 4.152) procede de ā; si era ē original, la forma sería Tartēssos.\n- Posible relación con el hebreo Taršīš.\n- El resto de Iberia queda sin zona."
+      "texto": "- Forma griega reconstruida: supone que la η jonia de Ταρτησσός (Heródoto 1.163, 4.152) procede de ā; si era ē original, la forma sería Tartēssos.\n- Posible relación con el hebreo Taršīš.\n- El resto de Iberia queda sin zona.\n- Alcance de las fuentes: Los textos localizan Tartessos en el suroeste ibérico, pero son posteriores a 900 a.C. La arqueología documenta asentamientos y contactos; no fija una capital identificada con certeza ni las fronteras del polígono. Tartāssos sigue siendo una reconstrucción alternativa a Tartēssos."
     }
   ],
   "epoca": {
@@ -52,6 +52,20 @@
           "nombre": "Mastiānoi"
         }
       ]
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Heródoto, Historias 1.163 — Tartēssós, los foceos y Argantonio; testimonio del s. V a.C.",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Herodotus/1C%2A.html#163"
+    },
+    {
+      "titulo": "Estrabón, Geografía 3.2.11 — tradición que relaciona Tartessos con el Betis y su desembocadura",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/3B%2A.html#2.11"
+    },
+    {
+      "titulo": "Fernández-Miranda, Huelva, ciudad de los tartesios (1986) — evidencia arqueológica en Huelva y el Bajo Guadalquivir",
+      "url": "https://www.ub.edu/ipoa/wp-content/uploads/2021/07/1986AuOrFernandezM.pdf"
     }
   ]
 }

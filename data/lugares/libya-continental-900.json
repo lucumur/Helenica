@@ -23,7 +23,7 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Anterior a Cartago (814, tradición) y a Cirene (c. 631)."
+      "texto": "- Anterior a Cartago (814, tradición) y a Cirene (c. 631).\n- Alcance de las fuentes: La Libia de las fuentes griegas comprende distintos pueblos del norte de África. Libuā es una retroversión dialectal de Libýē; el uso continental y los límites saharianos del mapa son una generalización geográfica, no un territorio unificado atestiguado en 900 a.C."
     }
   ],
   "epoca": {
@@ -72,6 +72,16 @@
           "nombre": "Garamantes"
         }
       ]
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Homero, Odisea 4.85–89 — Libýē y sus rebaños; testimonio literario arcaico",
+      "url": "https://www.theoi.com/Text/HomerOdyssey4.html"
+    },
+    {
+      "titulo": "Heródoto, Historias 4.168–199 — pueblos, costa y oasis de Libia, desde Egipto hacia occidente (s. V a.C.)",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Herodotus/4G%2A.html#168"
     }
   ]
 }

@@ -23,7 +23,7 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Βαβυλωνίη en Heródoto; aquí con ā."
+      "texto": "- Βαβυλωνίη en Heródoto; aquí con ā.\n- Alcance de las fuentes: Karduniaš es el nombre empleado en la Crónica sincrónica, compuesta después de 810 a.C. y conservada en copias posteriores, para el país al sur de Asiria. Babulōniā es la forma griega adoptada aquí; los textos no fijan todo el contorno de 900 a.C."
     }
   ],
   "epoca": {
@@ -51,6 +51,16 @@
           "nombre": "Babulōn"
         }
       ]
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Crónica sincrónica (ABC 21), edición traducida de Grayson y Glassner en Livius — Karduniaš y conflictos fronterizos con Asiria",
+      "url": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-21-synchronic-chronicle/"
+    },
+    {
+      "titulo": "Heródoto, Historias 1.178–193 — Babilonia junto al Éufrates y geografía de la llanura babilónica (s. V a.C.)",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Herodotus/1D%2A.html#178"
     }
   ]
 }

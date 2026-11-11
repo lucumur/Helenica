@@ -24,7 +24,7 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Nombre reconstruido a partir de los Ausci de Aquitania (César, *Bellum Gallicum* 3.27); de ahí la cruz.\n- Ἀκυιτανοί (Estrabón 4.1.1) y Οὐάσκωνες (Estrabón 3.4.10) son del s. I a.C. y demasiado tardíos para esta fecha.\n- El aquitano es paleovasco (antropónimos y teónimos en inscripciones romanas): establecido. Su extensión hacia 900 a.C. es incierta."
+      "texto": "- Nombre reconstruido a partir de los Ausci de Aquitania (César, *Bellum Gallicum* 3.27); de ahí la cruz.\n- Ἀκυιτανοί (Estrabón 4.1.1) y Οὐάσκωνες (Estrabón 3.4.10) son del s. I a.C. y demasiado tardíos para esta fecha.\n- El aquitano es paleovasco (antropónimos y teónimos en inscripciones romanas): establecido. Su extensión hacia 900 a.C. es incierta.\n- Alcance de las fuentes: Auskoi† es una reconstrucción editorial basada en Ausci, no un nombre documentado en 900 a.C. Los testimonios lingüísticos son mucho más tardíos y no permiten trasladar con seguridad sus límites al primer Hierro ni extender el nombre de una tribu a toda el área."
     }
   ],
   "epoca": {
@@ -53,6 +53,20 @@
           "nombre": "Iakkētanoi†"
         }
       ]
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "César, Guerra de las Galias 3.27 — Ausci entre los pueblos de Aquitania (s. I a.C.)",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Gallic_War/3%2A.html#27"
+    },
+    {
+      "titulo": "César, Guerra de las Galias 1.1 — Aquitania entre Garona, Pirineos y océano",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Gallic_War/1A%2A.html#1"
+    },
+    {
+      "titulo": "Gorrochategui, Aquitano y Vascónico, Palaeohispanica 20 (2020), pp. 721–748 — onomástica y distribución paleovascas",
+      "url": "https://ifc.dpz.es/recursos/publicaciones/38/77/20gorrochategui.pdf"
     }
   ]
 }

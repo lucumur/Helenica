@@ -105,6 +105,7 @@ try:
     ESCALA = {'tier0': {'continental'}, 'tier1': {'region'}, 'tier2': {'ethnos', 'dominio'}}
     SUPERIOR = {'tier1': 'tier0', 'tier2': 'tier1'}
     con_contorno = {k: {a: {z.get('ficha') for z in zs} for a, zs in (_Z.get(k) or {}).items() if isinstance(zs, list)} for k in ESCALA}
+    todos = {z.get('ficha'): z for k in ESCALA for zs in (_Z.get(k) or {}).values() if isinstance(zs, list) for z in zs}
     for key in ESCALA:
         for anio, zs in (_Z.get(key) or {}).items():
             if not isinstance(zs, list):
@@ -116,6 +117,13 @@ try:
                     errors.append(f'{lab}: ficha repetida en la misma fecha')
                 vistos.add(z.get('ficha'))
                 p = z.get('poligono')
+                if p is None and z.get('igual_que'):
+                    visto, cur = set(), z
+                    while cur is not None and 'poligono' not in cur and cur.get('ficha') not in visto:
+                        visto.add(cur.get('ficha')); cur = todos.get(cur.get('igual_que'))
+                    if cur is None or 'poligono' not in cur:
+                        errors.append(f'{lab}: igual_que "{z.get("igual_que")}" no lleva a ningún contorno'); continue
+                    p = cur['poligono']
                 anillos = p if isinstance(p, list) and p and isinstance(p[0], list) and p[0] and isinstance(p[0][0], list) else [p]
                 for an in anillos:
                     if not (isinstance(an, list) and len(an) >= 3 and all(isinstance(c, list) and len(c) == 2 and all(type(x) in (int, float) and math.isfinite(x) for x in c) and -30 <= c[0] <= 80 and 0 <= c[1] <= 70 for c in an)):
@@ -129,7 +137,7 @@ try:
                     errors.append(f'{lab}: la ficha debe tener escala {" o ".join(sorted(ESCALA[key]))}')
                 if (r.get('epoca') or {}).get('anio') != int(anio):
                     warns.append(f'{lab}: la época de la ficha no coincide con la fecha')
-                if not any(x.get('id') in con_contorno[SUPERIOR[key]].get(anio, set()) for x in r.get('pertenece_a') or []):
+                if con_contorno[SUPERIOR[key]].get(anio) and not any(x.get('id') in con_contorno[SUPERIOR[key]][anio] for x in r.get('pertenece_a') or []):
                     warns.append(f'{lab}: pertenece_a no apunta a ninguna zona de {SUPERIOR[key]} con contorno en esa fecha')
                 if not r.get('nombre_griego') or not r.get('nombre_alt'):
                     warns.append(f'{lab}: faltan nombre_griego o nombre_alt')
@@ -196,6 +204,24 @@ for rel, r in list(byid.values()):
     for cid, (crel, c) in byid.items():
         if cid not in listed and any(p.get('id') == r['id'] for p in c.get('pertenece_a') or []):
             warns.append(f"{rel}: {cid} pertenece a esta ficha pero no está en ningún grupo de contiene")
+
+# Linaje entre fechas: sucede_a apunta a fichas de una fecha anterior; hereda exige un único antecesor.
+for rel, r in list(byid.values()):
+    sa = r.get('sucede_a')
+    if sa is not None and not (isinstance(sa, list) and all(isinstance(x, dict) and x.get('col') == 'lugares' and x.get('id') for x in sa)):
+        errors.append(f'{rel}: sucede_a debe ser una lista de referencias a lugares'); continue
+    an = (r.get('epoca') or {}).get('anio')
+    for x in sa or []:
+        if x['id'] == r.get('id'):
+            errors.append(f'{rel}: sucede_a apunta a la propia ficha'); continue
+        prev = byid.get(x['id'])
+        pan = prev and (prev[1].get('epoca') or {}).get('anio')
+        if prev and isinstance(an, int) and isinstance(pan, int) and pan >= an:
+            errors.append(f"{rel}: sucede_a {x['id']} no es de una fecha anterior")
+        elif prev and not (isinstance(an, int) and isinstance(pan, int)):
+            warns.append(f"{rel}: sucede_a {x['id']} sin epoca en una de las dos fichas")
+    if r.get('hereda') and len(sa or []) != 1:
+        errors.append(f'{rel}: hereda exige exactamente una ficha en sucede_a')
 
 for rel, r in list(byid.values()):
     ep = r.get('epoca')

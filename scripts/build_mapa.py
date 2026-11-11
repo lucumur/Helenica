@@ -30,6 +30,30 @@ def poly(rings):
     return Polygon(rings[0], rings[1:]).buffer(0)
 
 
+HEREDABLES = ('poligono', 'tipo', 'toma_islas', 'corta_islas', 'color')
+
+
+def resolver_iguales(zonas):
+    """«igual_que»: un contorno de tier 0–2 puede remitir al de otra ficha (normalmente la misma región en la
+    fecha anterior) en vez de repetir el polígono. Hereda también tipo, toma_islas, corta_islas y color."""
+    src = {}
+    for key in ('tier0', 'tier1', 'tier2'):
+        for zs in (zonas.get(key) or {}).values():
+            if isinstance(zs, list):
+                for z in zs:
+                    src[z['ficha']] = z
+    for z in src.values():
+        seen, cur = set(), z
+        while 'poligono' not in cur and cur.get('igual_que') in src and cur['ficha'] not in seen:
+            seen.add(cur['ficha'])
+            cur = src[cur['igual_que']]
+        if cur is not z and 'poligono' in cur:
+            for k in HEREDABLES:
+                if k in cur and k not in z:
+                    z[k] = cur[k]
+    return zonas
+
+
 def zone_geom(z):
     p = z['poligono']
     if isinstance(p[0][0], list):
@@ -56,7 +80,9 @@ def rings_of(g, tol):
 
 def main():
     tierra = json.load(open(os.path.join(M, 'tierra.json'), encoding='utf-8'))['poligonos']
-    zonas = json.load(open(os.path.join(M, 'zonas.json'), encoding='utf-8'))['zonas']
+    ZONAS = resolver_iguales(json.load(open(os.path.join(M, 'zonas.json'), encoding='utf-8')))
+    avisos = []
+    zonas = ZONAS['zonas']
     lands = [poly(r) for r in tierra]
     lands = [l for l in lands if not l.is_empty]
     big = max(lands, key=lambda g: g.area)
@@ -98,7 +124,7 @@ def main():
     area_geom = {}
     for z in zonas:
         pass
-    for sz in json.load(open(os.path.join(M, 'zonas.json'), encoding='utf-8')).get('subzonas', []):
+    for sz in ZONAS.get('subzonas', []):
         par = res.get(sz['padre'])
         if not par:
             continue
@@ -123,11 +149,14 @@ def main():
         subs[sz['id']].update({'poligonos': rings_of(g, 0.002), 'etiqueta': [round(lab.x, 3), round(lab.y, 3)], 'bbox': [round(v, 3) for v in g.bounds]})
     # Tier 0: zonas continentales por fecha. Mismo recorte que las áreas, independiente de ellas.
     tier0, t0geom = {}, {}
-    for anio, zs in (json.load(open(os.path.join(M, 'zonas.json'), encoding='utf-8')).get('tier0') or {}).items():
+    for anio, zs in (ZONAS.get('tier0') or {}).items():
         if not isinstance(zs, list):
             continue
         taken_t, taken_i, out_z = [], set(), []
         for z in zs:
+            if 'poligono' not in z:
+                avisos.append(f'tier0 {anio}: {z["ficha"]} no tiene poligono ni un igual_que válido')
+                continue
             zg = zone_geom(z)
             cut = big.intersection(zg)
             for a in taken_t:
@@ -153,11 +182,14 @@ def main():
     # Cada contorno se recorta además contra la zona del tier superior de su ficha (pertenece_a), si existe en esa fecha.
     def build_tier(key, parents):
         res_t, geoms = {}, {}
-        for anio, zs in (json.load(open(os.path.join(M, 'zonas.json'), encoding='utf-8')).get(key) or {}).items():
+        for anio, zs in (ZONAS.get(key) or {}).items():
             if not isinstance(zs, list):
                 continue
             taken_t, taken_i, cut_i, out_z = [], set(), {}, []
             for z in zs:
+                if 'poligono' not in z:
+                    avisos.append(f'{key} {anio}: {z["ficha"]} no tiene poligono ni un igual_que válido')
+                    continue
                 zg = zone_geom(z)
                 rec = json.load(open(os.path.join(ROOT, 'data', 'lugares', z['ficha'] + '.json'), encoding='utf-8'))
                 padre = next((r['id'] for r in rec.get('pertenece_a') or [] if r['id'] in parents.get(anio, {})), None)
@@ -208,7 +240,6 @@ def main():
                               'poligonos': rings_of(g, 0.003), 'etiqueta': [round(lab.x, 3), round(lab.y, 3)], 'bbox': [round(v, 3) for v in g.bounds]})
             res_t[anio] = out_z
         return res_t, geoms
-    avisos = []
     tier1, t1geom = build_tier('tier1', t0geom)
     tier2, t2geom = build_tier('tier2', t1geom)
 

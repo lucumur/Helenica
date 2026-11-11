@@ -26,11 +26,31 @@
     .then(r => { if (!r.ok) throw new Error(`${url}: ${r.status}`); return r.json(); });
 
   let IDX = null;
+  // Linaje de un lugar entre fechas: todas las fichas unidas a esta por sucede_a, hacia atrás y hacia delante.
+  function linaje(K) {
+    const seen = new Set([K]), q = [K];
+    while (q.length) { const k = q.shift(), it = IDX.by.get(k); for (const n of [...((it && it.sa) || []), ...IDX.suc.get(k)]) if (!seen.has(n) && IDX.by.has(n)) { seen.add(n); q.push(n); } }
+    return [...seen].map(k => IDX.by.get(k)).filter(i => i && i.ep != null).sort((a, b) => a.ep - b.ep);
+  }
+  // Herencia: los campos que la ficha deja vacíos se toman del antecesor (sucede_a único), encadenando si este también hereda.
+  const vacio = v => v == null || v === '' || (Array.isArray(v) && !v.length) || (typeof v === 'object' && !Array.isArray(v) && !String(v.texto || '').trim() && !('punto' in v));
+  async function heredar(r, depth = 0) {
+    if (!r.hereda || !(r.sucede_a || []).length || depth > 6) return r;
+    let a; try { a = await heredar(await getJSON(`data/lugares/${r.sucede_a[0].id}.json`), depth + 1); } catch (e) { return r; }
+    const de = (a.epoca || {}).anio, tag = k => ({ ...k, _de: k._de != null ? k._de : de });
+    const out = { ...r, _h: {} };
+    for (const k of ['descripcion', 'imagen', 'icono', 'fuentes', 'funciones', 'areas', 'tipos']) if (vacio(r[k]) && !vacio(a[k])) { out[k] = a[k]; out._h[k] = (a._h && a._h[k]) != null ? a._h[k] : de; }
+    if (vacio(r.endonimo) && vacio(r.endonimo_nota) && !(vacio(a.endonimo) && vacio(a.endonimo_nota))) { out.endonimo = a.endonimo; out.endonimo_nota = a.endonimo_nota; out._h.endonimo = de; }
+    if (!(r.geo && r.geo.punto) && a.geo && a.geo.punto) out.geo = { ...(r.geo || {}), punto: a.geo.punto, precision: a.geo.precision || 'aprox' };
+    out.campos = [...(r.campos || []), ...(a.campos || []).filter(c => !(r.campos || []).some(x => x.clave === c.clave)).map(tag)];
+    out.secciones = [...(r.secciones || []), ...(a.secciones || []).filter(s => !(r.secciones || []).some(x => x.titulo === s.titulo)).map(tag)];
+    return out;
+  }
   async function loadIndex() {
     if (IDX) return IDX;
     const d = await getJSON('data/index.json');
     const by = new Map(), inv = k => { const m = new Map(); return { m, add(a, b) { if (!m.has(a)) m.set(a, new Set()); m.get(a).add(b); }, get(a) { return [...(m.get(a) || [])]; } }; };
-    const hijos = inv(), back = inv(), asp = inv(), cont = inv(), evDo = inv(), evAg = inv(), evEl = inv(), hijosDe = inv();
+    const hijos = inv(), back = inv(), asp = inv(), cont = inv(), evDo = inv(), evAg = inv(), evEl = inv(), hijosDe = inv(), suc = inv();
     for (const it of d.items) by.set(`${it.c}:${it.id}`, it);
     for (const it of d.items) {
       const k = `${it.c}:${it.id}`;
@@ -38,12 +58,13 @@
       (it.pa || []).forEach(p => { hijos.add(p, k); hijosDe.add(k, p); });
       (it.asp || []).forEach(p => asp.add(p, k));
       (it.pe || []).forEach(p => cont.add(p, k));
+      (it.sa || []).forEach(p => suc.add(p, k));
       if (it.en && it.c === 'lugares') cont.add(it.en, k);
       (it.do || []).forEach(p => evDo.add(p, k));
       (it.ag || []).forEach(p => evAg.add(p, k));
       (it.el || []).forEach(p => evEl.add(p, k));
     }
-    IDX = { items: d.items, by, hijos, back, asp, cont, evDo, evAg, evEl };
+    IDX = { items: d.items, by, hijos, back, asp, cont, evDo, evAg, evEl, suc, linaje };
     return IDX;
   }
 
@@ -271,6 +292,9 @@ ${col === 'lugares' ? '<p id="area-desc" class="muted"></p>' : ''}${facetPanel}$
     try { [r] = await Promise.all([getJSON(`data/${col}/${id}.json`), loadIndex()]); }
     catch (e) { main.innerHTML = `<p class="notice">No se pudo cargar la ficha (${esc(e.message)}).</p>`; return; }
     document.title = `${r.nombre} · Helénica`;
+    const raw = r;
+    if (col === 'lugares') r = await heredar(r);
+    const hd = a => a != null ? `<span class="hered" title="Heredado de la ficha de esa fecha">↩ ${fmtAnio(a)}</span>` : '';
     const K = `${col}:${id}`, I = IDX, shown = new Set([K]);
     const mark = ks => { ks.forEach(k => shown.add(k)); return ks; };
     const refKeys = v => ((v && v.refs) || []).filter(x => x.id).map(x => `${x.col}:${x.id}`);
@@ -322,6 +346,12 @@ ${dd('Forma', (r.forma || []).length ? `<ul class="md">${r.forma.map(x => { cons
 ${dd('Funciones', (r.funciones || []).map(x => `<a class="tag" style="text-decoration:none" href="lugares.html?funcion=${x}">${esc(tName('funciones', x))}</a>`).join(' '))}
 ${r.epoca ? dd('Época', `<a href="mapa.html?t=${r.epoca.anio}">${fmtAnio(r.epoca.anio)}</a>${(() => { const pr = periodoDe(r.epoca.anio); return pr ? ` <span class="muted">· ${esc(pr.nombre)}</span>` : ''; })()}${r.epoca.nota ? `<div style="font-size:.92rem;margin-top:3px">${inline(r.epoca.nota)}</div>` : '<div class="muted" style="font-size:.85rem">Situación en esa fecha: pendiente.</div>'}`) : ''}${dd('Área', (r.areas || []).map(x => `<a href="lugares.html?area=${encodeURIComponent(x)}">${esc(areaName(x))}</a>`).join(', '))}${dd('Pertenece a', chain.map(k => linkKey(k)).join(' › '))}</dl>`;
       attrs = attrs.replace(/<\/dl>$/, dd('Contiene', contieneHTML(r, contiene)) + '</dl>');
+      const lin = I.linaje(K);
+      if (lin.length > 1) {
+        mark(lin.map(i => `lugares:${i.id}`));
+        const years = [...new Set(lin.map(i => i.ep))];
+        attrs = `<nav class="linaje" aria-label="La misma región en otras fechas">${years.map(y => `<span class="ly${y === (r.epoca || {}).anio ? ' now' : ''}"><b>${fmtAnio(y)}</b>${lin.filter(i => i.ep === y).map(i => i.id === id ? `<span class="cur">${esc(i.n)}</span>` : `<a href="${href('lugares', i.id)}">${esc(i.n)}</a>`).join(' · ')}</span>`).join('<span class="ar">→</span>')}</nav>` + attrs;
+      }
       if (evs.length) side += `<div class="box"><h3>Eventos aquí</h3>${listKeys(evs)}</div>`;
     } else if (col === 'objetos') {
       const evs = mark(I.evEl.get(K));
@@ -330,10 +360,10 @@ ${r.epoca ? dd('Época', `<a href="mapa.html?t=${r.epoca.anio}">${fmtAnio(r.epoc
       if (evs.length) side += `<div class="box"><h3>Aparece en</h3>${listKeys(evs)}</div>`;
     }
     const campos = (r.campos || []).filter(c => !(col === 'lugares' && c.clave === 'H🔼') && !(col !== 'entes' && col !== 'eventos' && c.clave === 'T🏷️'));
-    if (campos.length) attrs += `<dl class="attr">${campos.map(c => dd(esc(c.etiqueta), md(c.texto))).join('')}</dl>`;
+    if (campos.length) attrs += `<dl class="attr">${campos.map(c => dd(esc(c.etiqueta) + hd(c._de), md(c.texto))).join('')}</dl>`;
     const secs = r.secciones || [];
     const secHTML = secs.map((s, i) => s.titulo
-      ? `<details class="sec"${secs.length <= 3 || i === 0 ? ' open' : ''}><summary>${inline(s.titulo)}</summary>${md(s.texto)}</details>`
+      ? `<details class="sec"${secs.length <= 3 || i === 0 ? ' open' : ''}><summary>${inline(s.titulo)}${hd(s._de)}</summary>${md(s.texto)}</details>`
       : `<div class="sec">${md(s.texto)}</div>`).join('');
     const fuentes = (r.fuentes || []).filter(f => f.titulo || f.url);
     const fuentesHTML = fuentes.length ? `<details class="sec" open><summary>Fuentes</summary><ul class="md">${fuentes.map(f => `<li>${f.url ? `<a class="ext" href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.titulo || f.url)}</a>` : inline(f.titulo)}</li>`).join('')}</ul></details>` : '';
@@ -347,13 +377,13 @@ ${r.epoca ? dd('Época', `<a href="mapa.html?t=${r.epoca.anio}">${fmtAnio(r.epoc
 <h1>${esc(r.nombre)}</h1>${r.nombre_alt ? `<p style="font:1.2rem var(--serif)">${esc(r.nombre_alt)}</p>` : ''}
 ${r.nombre_griego || r.endonimo || r.endonimo_nota ? `<p class="nombres"${r.endonimo_nota ? ` title="${esc(r.endonimo_nota)}"` : ''}>${r.nombre_griego ? `<span lang="grc">${esc(r.nombre_griego)}</span>` : ''}${r.nombre_griego && (r.endonimo || r.endonimo_nota) ? ' · ' : ''}${r.endonimo || r.endonimo_nota ? `<span class="muted">Endónimo:</span> ${esc(r.endonimo || '—')}${r.endonimo_nota ? `<br><span class="muted" style="font-size:.85rem">${esc(r.endonimo_nota)}</span>` : ''}` : ''}</p>` : ''}
 <p>${tagHTML(r.tipos || (r.tipo ? [r.tipo] : []))}${r.genero ? ` <span class="tag">${r.genero === 'M' ? '♂' : '♀'}</span>` : ''}</p>
-${desc ? `<div style="font-size:1.06rem;max-width:780px">${md(desc)}</div>` : ''}
+${desc ? `<div style="font-size:1.06rem;max-width:780px">${md(desc)}${r._h && r._h.descripcion != null ? `<p style="margin:.2em 0 0">${hd(r._h.descripcion)}</p>` : ''}</div>` : ''}
 <p><button class="btn edit-only" id="ed">✎ Editar esta ficha</button></p></section>
 <div class="ficha"><article>${attrs}${secHTML}${fuentesHTML}
 <p class="muted" style="font-size:.78rem;margin-top:28px">Archivo: <a href="https://github.com/${REPO}/blob/main/data/${col}/${id}.json">data/${col}/${id}.json</a>${r.tana_id ? ` · Tana: <code>${esc(r.tana_id)}</code>` : ''}</p></article>
 <aside>${col === 'lugares' ? '<div id="minimap"></div>' : ''}${r.imagen ? `<img src="${esc(r.imagen)}" alt="${esc(r.nombre)}" loading="lazy" onerror="this.remove()">` : ''}${side}</aside></div>`;
-    $('#ed').addEventListener('click', () => window.HEL_EDIT && window.HEL_EDIT.edit(col, id, r));
-    $('#icon-edit').addEventListener('click', () => window.HEL_EDIT && window.HEL_EDIT.icon(col, id, r));
+    $('#ed').addEventListener('click', () => window.HEL_EDIT && window.HEL_EDIT.edit(col, id, raw));
+    $('#icon-edit').addEventListener('click', () => window.HEL_EDIT && window.HEL_EDIT.icon(col, id, raw));
     if (col === 'lugares' && window.HEL_MAP) window.HEL_MAP.mini($('#minimap'), r).catch(e => console.warn('mini-mapa', e));
   }
 

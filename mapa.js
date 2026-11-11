@@ -200,8 +200,15 @@ ${physicalSVG(D, opts.selectedId)}
       const u = new URL(location.href); T ? u.searchParams.set('t', T) : u.searchParams.delete('t'); history.replaceState(null, '', u);
       apply();
       if (selSite) showSite(selSite, false); else if (selSub) showSub(selSub, false);
+      else if (selZone && !BE) {
+        // La zona elegida pertenece a otra fecha: saltar a la ficha de su linaje (sucede_a) en la fecha nueva.
+        const z = anyZone(selZone);
+        if (z && z.anio !== T) { const rel = D.I.linaje(`lugares:${selZone}`).find(i => String(i.ep) === T && anyZone(i.id)); if (rel) showZone0(rel.id); else clear(); }
+      }
     }
-    let selSub = null;
+    let selSub = null, selZone = null;
+    const anyZone = id => zone0(id) || zone1(id) || zone2(id);
+    const fmtY = a => a < 0 ? `${-a} a.C.` : `${a} d.C.`;
     let eraClosed = false;
     main.querySelector('#era').addEventListener('click', e => {
       const era = main.querySelector('#era');
@@ -246,7 +253,9 @@ ${physicalSVG(D, opts.selectedId)}
       const lvl = zlevel(k), naturalVisible = lvl >= 4, naturalSitesVisible = lvl >= MAX_ZOOM;
       const t0on = lvl === 1 && !!(T && D.t0[T]), t1on = (lvl === 2 || lvl === 3) && !!(T && D.t1[T]);
       svg.classList.toggle('t0-on', t0on);
-      svg.classList.toggle('t1-on', t1on);
+      const t1part = t1on && !D.t0[T], t1areas = new Set(t1part ? D.t1[T].flatMap(z => z.areas) : []);
+      svg.classList.toggle('t1-on', t1on && !t1part);
+      svg.querySelectorAll('.ar').forEach(p => { p.style.display = t1part && t1areas.has(p.dataset.area) ? 'none' : ''; });
       svg.classList.toggle('natural-detail', naturalVisible);
       svg.style.setProperty('--u', u);
       const placed = [], sx = x => (x - view[0]) / u, sy = y => (y - view[1]) / u;
@@ -281,7 +290,7 @@ ${physicalSVG(D, opts.selectedId)}
         g.style.display = fits([sx(x) - tw / 2, sy(y) - 13, sx(x) + tw / 2, sy(y) + 16]) ? '' : 'none';
       });
       svg.querySelectorAll('.al').forEach(g => {
-        if (t0on || t1on) { g.style.display = 'none'; return; }
+        if (t0on || (t1on && (!t1part || t1areas.has(g.dataset.area)))) { g.style.display = 'none'; return; }
         const mine = Object.values(D.subs).filter(s => s.padre === g.dataset.area);
         if ((mine.length && k >= zk(Math.min(...mine.map(s => s.nivel ?? 3)))) || t2areas.has(g.dataset.area)) { g.style.display = 'none'; return; }
         const [x, y] = g.getAttribute('transform').match(/translate\(([^)]+)\)/)[1].split(',').map(Number);
@@ -398,7 +407,7 @@ ${physicalSVG(D, opts.selectedId)}
     }
     const listLink = (i, extra = '') => `<li><button type="button" class="pl" data-go="${esc(i.id)}">${esc(i.n)}${i.alt ? ` <span class="muted">${esc(i.alt)}</span>` : ''}</button>${extra}</li>`;
     function showArea(id, move = true) {
-      selArea = id; selSite = null; selSub = null; svg.querySelectorAll('.sb').forEach(p => p.classList.remove('sel'));
+      selArea = id; selSite = null; selSub = null; selZone = null; svg.querySelectorAll('.sb').forEach(p => p.classList.remove('sel'));
       svg.querySelectorAll('.feature.selected').forEach(p => p.classList.remove('selected'));
       const info = D.areaInfo.get(id) || { nombre: id }, rf = D.regionFicha[id], geo = D.geo[id];
       const inArea = D.lugares.filter(i => (i.ar || []).includes(id));
@@ -424,7 +433,8 @@ ${!geo ? '<p class="muted">Sin localización terrestre: no aparece sobre el mapa
     function showZone0(id) {
       const z = zone0(id) || zone1(id) || zone2(id); if (!z) return;
       const t1 = !zone0(id), lv = zone0(id) ? 0 : zone1(id) ? 1 : 2;
-      selArea = selSite = selSub = null;
+      selArea = selSite = selSub = null; selZone = id;
+      const lin = D.I.linaje(`lugares:${id}`).filter(x => x.id !== id);
       const i = byId(id) || {}, y = z.anio, p = D.per.periodos.find(x => x.id === y);
       const up = t1 && z.padre && (zone0(z.padre) || zone1(z.padre));
       const row = (k, v, n) => v ? `<p class="kv"><b>${k}</b> ${esc(v)}${n ? `<br><span class="muted small">${esc(n)}</span>` : ''}</p>` : '';
@@ -433,6 +443,7 @@ ${!geo ? '<p class="muted">Sin localización terrestre: no aparece sobre el mapa
 <h2>${esc(z.nombre)}</h2>${z.nombre_griego ? `<p class="gr">${esc(z.nombre_griego)}</p>` : ''}
 ${row('Nombre tradicional', z.nombre_alt)}${row('Griego transliterado', z.nombre)}${row('Griego', z.nombre_griego)}${row('Endónimo', z.endonimo || '—', z.endonimo_nota)}
 ${i.r ? `<p>${esc(i.r)}</p>` : ''}
+${lin.length ? `<p class="kv"><b>Otras fechas</b> ${lin.map(x => `<button type="button" class="lnk" data-rel="${esc(x.id)}" data-y="${x.ep}">${fmtY(x.ep)} · ${esc(x.n)}</button>`).join(' &nbsp; ')}</p>` : ''}
 <div class="acts"><a class="btn" href="${ficha('lugares', id)}">Abrir ficha ↗</a>${editBtn(id)}<button type="button" class="btn ghost edit-only" data-border="${esc(id)}">⬡ Editar frontera</button></div>
 ${z.cobertura != null ? `<p class="edit-only cob${z.cobertura < 0.995 ? ' warn' : ''}">Sus subdivisiones cubren el ${(Math.floor(z.cobertura * 1000) / 10).toFixed(1)} %.${(z.huecos || []).length ? ` Huecos: ${z.huecos.map((h, n) => `<button type="button" class="lnk" data-fly="${h[0]},${h[1]}">${n + 1}</button>`).join(' ')}` : ''}</p>` : ''}
 <div class="parts"></div>`;
@@ -489,7 +500,7 @@ ${geometry ? `<p class="small">${geometry.tipo === 'rio' ? 'Trazado del cauce' :
 ${site && site.items.length > 1 ? `<h3>En este mismo punto</h3><ul>${site.items.filter(x => x !== i).map(x => listLink(x)).join('')}</ul>` : ''}
 ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</ul>` : ''}
 <p class="muted small">${pt ? `${pt[1].toFixed(3)}° N, ${pt[0].toFixed(3)}° E · ubicación aproximada` : 'Sin coordenadas'}</p>`;
-      panel.hidden = false; selSub = null;
+      panel.hidden = false; selSub = null; selZone = null;
       svg.querySelectorAll('.sb').forEach(p => p.classList.remove('sel'));
       svg.querySelectorAll('.ar').forEach(p => p.classList.toggle('sel', p.dataset.area === a));
       svg.classList.add('has-sel');
@@ -502,7 +513,7 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
     }
     function clear() {
       if (BE && !borderStop()) return;
-      panel.hidden = true; selArea = selSite = selSub = null; gHl.innerHTML = '';
+      panel.hidden = true; selArea = selSite = selSub = selZone = null; gHl.innerHTML = '';
       svg.querySelectorAll('.sb.sel').forEach(n => n.classList.remove('sel'));
       svg.querySelectorAll('.feature.selected').forEach(n => n.classList.remove('selected'));
       svg.classList.remove('has-sel'); svg.querySelectorAll('.ar.sel,.z0.sel,.z1.sel,.z2.sel,.site.on').forEach(n => n.classList.remove('sel', 'on'));
@@ -517,6 +528,7 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
       const bd = e.target.closest('[data-border]'); if (bd) return borderStart(bd.dataset.border);
       const fl = e.target.closest('[data-fly]'); if (fl) return flyTo(fl.dataset.fly.split(',').map(Number), zk(4));
       const ed = e.target.closest('[data-edit]'); if (ed) return editFicha(ed.dataset.edit);
+      const rl = e.target.closest('[data-rel]'); if (rl) { const y = rl.dataset.y, rid = rl.dataset.rel; if (BE && !borderStop()) return; if (D.per.periodos.some(p => p.id === y) && anyZone(rid)) { T = y; eraClosed = false; applyTime(); return showZone0(rid); } location.href = ficha('lugares', rid); return; }
       const tt = e.target.closest('.tt'); if (tt) { T = tt.dataset.t; applyTime(); return; }
       const zn = e.target.closest('[data-zone]'); if (zn) { const id = zn.dataset.zone, l = zlevel(W / view[2]), z1 = zone1(id), z2 = zone2(id);
         if (z2 && l < 3) fitBox(z2.bbox, 0.25); else if (z1 && l === 1) flyTo(z1.etiqueta, zk(2) * 1.05); else if (z1 && l > 3) flyTo(z1.etiqueta, zk(2) * 1.05); else if (!z1 && !z2 && l > 1) setView([0, 0, W, H], true);
@@ -584,7 +596,10 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
       let key = null, year = null;
       for (const k of Object.keys(TIERKEY)) for (const [y, zs] of Object.entries(zonas[k] || {})) if (Array.isArray(zs) && zs.some(z => z.ficha === id)) { key = k; year = y; }
       if (!key) return alert('Esta ficha no tiene contorno en data/mapa/zonas.json.');
-      BE = { key, year, list: zonas[key][year], dirty: new Set(), busy: false };
+      // Un contorno «igual_que» se edita sobre una copia del original; al guardarlo pasa a tener polígono propio.
+      const todos = new Map(Object.keys(TIERKEY).flatMap(k => Object.values(zonas[k] || {}).filter(Array.isArray).flat()).map(z => [z.ficha, z]));
+      for (const z of zonas[key][year]) { let c = z, n = 0; while (c && !c.poligono && n++ < 8) c = todos.get(c.igual_que); if (!z.poligono && c && c.poligono) { z.poligono = JSON.parse(JSON.stringify(c.poligono)); for (const k of ['color', 'tipo', 'toma_islas', 'corta_islas']) if (!(k in z) && k in c) z[k] = c[k]; } }
+      BE = { key, year, list: zonas[key][year].filter(z => z.poligono), dirty: new Set(), busy: false };
       gB.innerHTML = '<clipPath id="bclip"><path clip-rule="evenodd"/></clipPath><g class="bfills" clip-path="url(#bclip)"></g><g class="blines"></g><g class="bhandles"></g>';
       svg.classList.add('bediting');
       beSelect(id);
@@ -600,7 +615,7 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
       try {
         stat.textContent = 'Guardando…';
         const latest = await window.HEL_EDIT.readFile('data/mapa/zonas.json'), lst = (latest[BE.key] || {})[BE.year] || [];
-        for (const id of ids) { const src = BE.list.find(z => z.ficha === id), dst = lst.find(z => z.ficha === id); if (src && dst) dst.poligono = src.poligono; }
+        for (const id of ids) { const src = BE.list.find(z => z.ficha === id), dst = lst.find(z => z.ficha === id); if (src && dst) { for (const k of ['color', 'tipo', 'toma_islas', 'corta_islas']) if (dst.igual_que && !(k in dst) && k in src) dst[k] = src[k]; dst.poligono = src.poligono; delete dst.igual_que; } }
         const names = ids.map(id => (beGeo(id) || {}).nombre || id);
         await window.HEL_EDIT.saveFile('data/mapa/zonas.json', JSON.stringify(latest, null, 1) + '\n', `Frontera: ${names.slice(0, 4).join(', ')}${names.length > 4 ? '…' : ''}`);
         BE.dirty.clear(); borderPanel();

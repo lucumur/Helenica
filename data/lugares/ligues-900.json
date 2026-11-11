@@ -1,0 +1,39 @@
+{
+  "id": "ligues-900",
+  "nombre": "Ligues",
+  "nombre_alt": "Ligures",
+  "nombre_griego": "Λίγυες",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "italia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "ausonia-900",
+      "nombre": "Ausoniā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Arco ligur, Apeninos del noroeste y el Piamonte hasta los Alpes. Cultura protogolasequiana al norte del Po."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Hesíodo, fr. 150 M-W (Λίγυς). Hecateo, *FGrHist* 1 F 53–58."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

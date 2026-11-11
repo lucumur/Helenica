@@ -1,0 +1,39 @@
+{
+  "id": "saspeires-900",
+  "nombre": "Saspeires",
+  "nombre_alt": "Saspires (Araxes)",
+  "nombre_griego": "Σάσπειρες",
+  "endonimo": "Etiuni",
+  "endonimo_nota": "Urartio, nombre de la confederación del Araxes (s. VIII); equivalencia aproximada.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "anatolia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "alarodioi-900",
+      "nombre": "Alarodioi"
+    }
+  ],
+  "descripcion": {
+    "texto": "Llanura del Araxes, el Ararat y el lago Seván."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Heródoto 1.104 y 4.37: entre los colcos y los medos."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

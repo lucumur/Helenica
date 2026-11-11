@@ -1,0 +1,39 @@
+{
+  "id": "phruges-900",
+  "nombre": "Phruges",
+  "nombre_alt": "Frigios",
+  "nombre_griego": "Φρύγες",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido. En acadio Mušku (identificación discutida).",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "anatolia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "phrygia-900",
+      "nombre": "Phrugiā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Meseta occidental, del Sangario al lago salado. Gordion, poblado frigio temprano; el reino unificado es del s. VIII."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Homero, *Il.* 2.862–863 y 3.184–187."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

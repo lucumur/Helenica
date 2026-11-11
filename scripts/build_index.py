@@ -113,6 +113,12 @@ def main():
                     it['se'] = rec['serie']
             elif col == 'lugares':
                 it['pe'] = ids(rec, 'pertenece_a')
+                if rec.get('sucede_a'):
+                    it['sa'] = ids(rec, 'sucede_a')
+                    if rec.get('hereda') and len(it['sa']) == 1:
+                        it['he'] = 1
+                if isinstance((rec.get('epoca') or {}).get('anio'), int):
+                    it['ep'] = rec['epoca']['anio']
                 it['ar'] = rec.get('areas') or []
                 it['es'] = rec.get('escala')
                 it['fo'] = sorted({x.get('tipo') for x in rec.get('forma') or [] if x.get('tipo')})
@@ -141,6 +147,18 @@ def main():
             items.append(it)
     # Punto heredado: un lugar sin coordenadas toma las del primer contenedor que las tenga.
     by = {f"{i['c']}:{i['id']}": i for i in items}
+    # Herencia entre fechas: una ficha con hereda toma del antecesor el resumen y el punto que le falten.
+    for it in items:
+        seen, cur = set(), it
+        while cur.get('he') and cur['id'] not in seen and not (it.get('r') and it.get('pt')):
+            seen.add(cur['id'])
+            cur = by.get(cur['sa'][0])
+            if not cur:
+                break
+            if not it.get('r') and cur.get('r'):
+                it['r'] = cur['r']
+            if not it.get('pt') and cur.get('pt'):
+                it['pt'] = cur['pt']
     for it in items:
         if it['c'] != 'lugares' or it.get('pt'):
             continue

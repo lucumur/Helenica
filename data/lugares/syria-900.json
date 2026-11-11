@@ -29,5 +29,58 @@
   "epoca": {
     "anio": -900,
     "nota": null
-  }
+  },
+  "contiene": [
+    {
+      "grupo": null,
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "palaistinoi-900",
+          "nombre": "Palaistīnoi"
+        },
+        {
+          "col": "lugares",
+          "id": "iouda-900",
+          "nombre": "Iouda"
+        },
+        {
+          "col": "lugares",
+          "id": "israel-900",
+          "nombre": "Israēl"
+        },
+        {
+          "col": "lugares",
+          "id": "ammon-900",
+          "nombre": "Ammōn"
+        },
+        {
+          "col": "lugares",
+          "id": "moab-900",
+          "nombre": "Mōab"
+        },
+        {
+          "col": "lugares",
+          "id": "edom-900",
+          "nombre": "Edōm"
+        },
+        {
+          "col": "lugares",
+          "id": "damaskos-900",
+          "nombre": "Damaskos"
+        },
+        {
+          "col": "lugares",
+          "id": "amathe-900",
+          "nombre": "Amathē"
+        },
+        {
+          "col": "lugares",
+          "id": "arimoi-900",
+          "nombre": "Arimoi"
+        }
+      ]
+    }
+  ]
 }

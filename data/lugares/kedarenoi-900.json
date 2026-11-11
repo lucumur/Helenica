@@ -1,0 +1,39 @@
+{
+  "id": "kedarenoi-900",
+  "nombre": "Kēdarēnoi",
+  "nombre_alt": "Quedar",
+  "nombre_griego": "Κηδαρηνοί",
+  "endonimo": "Qēdār",
+  "endonimo_nota": "Hebreo; acadio Qidri (s. VIII).",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "levante"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "eremboi-900",
+      "nombre": "Eremboi"
+    }
+  ],
+  "descripcion": {
+    "texto": "Wadi Sirhán y el oasis de Duma: nómadas camelleros."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Sin nombre griego de época: forma de los Setenta. Establecido: árabes camelleros en Qarqar (853 a.C.); el nombre de Quedar es del s. VIII."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

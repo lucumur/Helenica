@@ -1,0 +1,40 @@
+{
+  "id": "barduetai-900",
+  "nombre": "Barduētai†",
+  "nombre_alt": "Várdulos (costa cantábrica oriental)",
+  "nombre_griego": "Βαρδυῆται†",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "iberia",
+    "hiperborea"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "auskoi-900",
+      "nombre": "Auskoi†"
+    }
+  ],
+  "descripcion": {
+    "texto": "Costa y montes del Cantábrico oriental."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Nombre de atestiguación tardía, usado a falta de uno de época: Estrabón 3.3.7 y 3.4.12. Reconstrucción para 900 a.C., marcada con cruz."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "kares-900",
+  "nombre": "Kāres",
+  "nombre_alt": "Carios",
+  "nombre_griego": "Κᾶρες",
+  "endonimo": "Karkiša",
+  "endonimo_nota": "Hitita (s. XIII a.C.); identificación probable.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "anatolia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "phrygia-900",
+      "nombre": "Phrugiā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Interior al sur del Meandro. La costa es ya griega (jonios y dorios)."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Homero, *Il.* 2.867–869: «carios de habla bárbara»."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

@@ -29,5 +29,28 @@
   "epoca": {
     "anio": -900,
     "nota": null
-  }
+  },
+  "contiene": [
+    {
+      "grupo": null,
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "soukhoi-900",
+          "nombre": "Soukhoi†"
+        },
+        {
+          "col": "lugares",
+          "id": "khaldaioi-900",
+          "nombre": "Khaldaioi"
+        },
+        {
+          "col": "lugares",
+          "id": "babulon-900",
+          "nombre": "Babulōn"
+        }
+      ]
+    }
+  ]
 }

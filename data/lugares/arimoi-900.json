@@ -1,0 +1,39 @@
+{
+  "id": "arimoi-900",
+  "nombre": "Arimoi",
+  "nombre_alt": "Arameos del norte",
+  "nombre_griego": "Ἄριμοι",
+  "endonimo": "ʾAram",
+  "endonimo_nota": "Arameo; acadio Aramu, Aḫlamû.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "levante"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "syria-900",
+      "nombre": "Suriā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Siria del norte y la estepa hasta el Éufrates: Bīt-Agūsi (Arpad), Bīt-Adini (Til Barsip) y Tadmor."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Homero, *Il.* 2.783 (εἰν Ἀρίμοις). La identificación con los arameos es de Posidonio (Estrabón 16.4.27): discutida."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

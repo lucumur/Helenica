@@ -187,6 +187,8 @@ ${txt('fe-stxt', x.texto, 4, 'Texto')}${linkBtn}</div>`;
 <section><h4>Época de referencia <small>— fecha en que se describe esta región (estándar: 300 a.C.)</small></h4>
 <div class="fe-grid"><label>Año<select id="f-anio"><option value="">— sin época —</option>${[-900, -600, -300, 0].map(a => `<option value="${a}"${rec.epoca && rec.epoca.anio === a ? ' selected' : ''}>${a < 0 ? -a + ' a.C.' : a + ' d.C.'}</option>`).join('')}${rec.epoca && ![-900, -600, -300, 0].includes(rec.epoca.anio) ? `<option value="${rec.epoca.anio}" selected>${rec.epoca.anio}</option>` : ''}</select></label><span></span></div>
 <label>Situación en esa fecha${txt('f-epn', (rec.epoca && rec.epoca.nota) || '', 2, 'Quién la controla, ligas, cambios…')}</label>
+<label>Sucede a <small>— la misma región en la fecha anterior (varias si es una fusión)</small><div class="fe-pe fe-sa">${(rec.sucede_a || []).filter(x => x.id).map(x => chip(x.id, (REF.I.by.get('lugares:' + x.id) || { n: x.nombre || x.id }).n)).join('')}<input class="fe-pe-in" list="dl-lug" placeholder="+ Buscar la ficha anterior…"></div></label>
+<label class="fe-check"><input type="checkbox" id="f-hereda"${rec.hereda ? ' checked' : ''}> Hereda de la ficha anterior lo que aquí quede vacío (descripción, características, notas, fuentes, endónimo, punto)</label>
 </section>
 <section><h4>Descripción</h4>${txt('f-desc', (rec.descripcion && rec.descripcion.texto) || '', 3)}${linkBtn}</section>
 <section><h4>Características <small>— sobre todo para eupoleis (tier 3); markdown, vacío = no se guarda</small></h4>
@@ -278,7 +280,7 @@ ${CARAC.map(([k, l, ph]) => k === 'filiacion' ? filRow(rec) : `<label>${E(l)}${t
         escala: $('#f-escala').value || null,
         areas: $$('[data-chips=areas] .fe-chip').map(c => c.dataset.v),
         funciones: $$('[data-chips=funciones] .fe-chip').map(c => c.dataset.v),
-        pertenece_a: $$('.fe-pe .fe-chip').map(c => ({ col: 'lugares', id: c.dataset.v, nombre: name(c.dataset.v) })),
+        pertenece_a: $$('.fe-pe:not(.fe-sa) .fe-chip').map(c => ({ col: 'lugares', id: c.dataset.v, nombre: name(c.dataset.v) })),
         forma: $$('.fe-fo').map(r => ({ tipo: r.querySelector('.fe-fot').value, periodo: r.querySelector('.fe-fop').value || null, fechas: r.querySelector('.fe-fof').value.trim() || null, nota: r.querySelector('.fe-fon').value.trim() || null })).filter(x => x.tipo),
         secciones: $$('.fe-sec').map(r => ({ titulo: r.querySelector('.fe-stit').value.trim(), texto: r.querySelector('.fe-stxt').value.trim() })).filter(x => x.titulo || x.texto),
         fuentes: $$('.fe-fu').map(r => ({ titulo: r.querySelector('.fe-ftit').value.trim(), url: r.querySelector('.fe-furl').value.trim() || null })).filter(x => x.titulo || x.url),
@@ -294,6 +296,12 @@ ${CARAC.map(([k, l, ph]) => k === 'filiacion' ? filRow(rec) : `<label>${E(l)}${t
       obj.descripcion = desc ? { ...(rec.descripcion || {}), texto: desc } : null;
       if (!obj.descripcion) delete obj.descripcion;
       if (!obj.contiene.length) delete obj.contiene;
+      const sa = $$('.fe-sa .fe-chip').map(c => ({ col: 'lugares', id: c.dataset.v, nombre: name(c.dataset.v) }));
+      if (sa.length) obj.sucede_a = sa; else delete obj.sucede_a;
+      if ($('#f-hereda').checked) {
+        if (sa.length !== 1) { m.textContent = 'Para heredar hace falta exactamente una ficha en «Sucede a».'; return; }
+        obj.hereda = true;
+      } else delete obj.hereda;
       const anio = $('#f-anio').value;
       if (anio !== '') obj.epoca = { anio: +anio, nota: $('.f-epn').value.trim() || null }; else delete obj.epoca;
       const lat = parseFloat($('#f-lat').value), lon = parseFloat($('#f-lon').value);
@@ -402,7 +410,7 @@ ${CARAC.map(([k, l, ph]) => k === 'filiacion' ? filRow(rec) : `<label>${E(l)}${t
   }
 
   window.HEL_EDIT = {
-    icon: editIcon,
+    icon: editIcon, readFile, saveFile,
     init() {
       const b = document.getElementById('edit-toggle');
       if (!b) return;

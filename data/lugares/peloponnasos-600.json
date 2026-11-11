@@ -1,0 +1,41 @@
+{
+  "id": "peloponnasos-600",
+  "nombre": "Peloponnāsos",
+  "nombre_alt": "Peloponeso",
+  "nombre_griego": "Πελοπόννᾱσος",
+  "endonimo": "Peloponnāsos",
+  "endonimo_nota": "Forma doria. Atestiguado desde Tirteo, fr. 2 West (Πέλοπος νῆσον), y el Himno homérico a Apolo 250 (Πελοπόννησον).",
+  "imagen": null,
+  "tipos": [
+    "Área insulada"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "sucede_a": [
+    {
+      "col": "lugares",
+      "id": "iason-argos-900",
+      "nombre": "Iason Argos"
+    }
+  ],
+  "hereda": true,
+  "descripcion": {
+    "texto": "Peloponeso, Citera, Egina y Megáride. Hacia 600 a.C. Esparta domina Laconia y Mesenia; tiranías en el istmo: Periandro en Corinto, Clístenes en Sición."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Establecido: conquista espartana de Mesenia completada en el s. VII; Cipsélidas en Corinto y Ortagóridas en Sición.\n- Discutido: las fechas de Fidón de Argos (entre el s. VIII y c. 600) y de las guerras mesenias.\n- Olimpia: la tradición la da a los pisatas hasta c. 570 (Pausanias 6.22); después, a Elis.\n- Mégara, independiente desde el s. VIII, queda dentro del contorno heredado de 900 a.C. hasta que la fecha tenga sus propias regiones."
+    }
+  ],
+  "epoca": {
+    "anio": -600,
+    "nota": "Esparta, potencia del sur; Argos en retroceso tras Fidón; tiranías en Corinto y Sición; Arcadia y Acaya independientes."
+  }
+}

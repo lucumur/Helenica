@@ -1,0 +1,39 @@
+{
+  "id": "sikeloi-900",
+  "nombre": "Sikeloi",
+  "nombre_alt": "Sículos (Sicilia oriental)",
+  "nombre_griego": "Σικελοί",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "italia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "ausonia-900",
+      "nombre": "Ausoniā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Sicilia oriental y las islas Eolias. Cultura de Pantalica; sin colonias griegas (Naxos, 734)."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Homero, *Od.* 20.383 y 24.211. Tucídides 6.2.4–5."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

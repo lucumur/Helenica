@@ -1,0 +1,39 @@
+{
+  "id": "tursanoi-900",
+  "nombre": "Tursānoi",
+  "nombre_alt": "Tirrenos (Etruria)",
+  "nombre_griego": "Τυρσᾱνοί",
+  "endonimo": "Rasenna",
+  "endonimo_nota": "Autodenominación etrusca según Dionisio de Halicarnaso 1.30.3 y la epigrafía (raśna); no atestiguada en 900.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "italia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "ausonia-900",
+      "nombre": "Ausoniā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Entre el Arno, el Tíber y el mar. Cultura villanoviana: aldeas protourbanas en Veyes, Tarquinia, Vulci."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Hesíodo, *Teogonía* 1016 (Τυρσηνοί, forma jonia).\n- Establecido: continuidad villanoviano–etrusco."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

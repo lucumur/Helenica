@@ -1,0 +1,40 @@
+{
+  "id": "tarbelloi-900",
+  "nombre": "Tarbelloi†",
+  "nombre_alt": "Tarbelos (Aquitania)",
+  "nombre_griego": "Τάρβελλοι†",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "iberia",
+    "hiperborea"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "auskoi-900",
+      "nombre": "Auskoi†"
+    }
+  ],
+  "descripcion": {
+    "texto": "Al norte del Pirineo: las Landas y la cuenca del Adur y el Garona."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Nombre de atestiguación tardía, usado a falta de uno de época: Estrabón 4.2.1. Reconstrucción para 900 a.C., marcada con cruz."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

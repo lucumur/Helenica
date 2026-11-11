@@ -1,0 +1,39 @@
+{
+  "id": "nasamones-900",
+  "nombre": "Nasamōnes",
+  "nombre_alt": "Nasamones (Gran Sirte)",
+  "nombre_griego": "Νασαμῶνες",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "libya"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "libya-continental-900",
+      "nombre": "Libuā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Gran Sirte y el oasis de Augila, con los Psilos."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Heródoto 2.32 y 4.172."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

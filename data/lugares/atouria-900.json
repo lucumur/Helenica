@@ -1,0 +1,39 @@
+{
+  "id": "atouria-900",
+  "nombre": "Atouriā",
+  "nombre_alt": "Asiria propia",
+  "nombre_griego": "Ἀτουρίᾱ",
+  "endonimo": "Māt Aššur",
+  "endonimo_nota": "Acadio, «país de Asur».",
+  "imagen": null,
+  "tipos": [
+    "Reino"
+  ],
+  "areas": [
+    "persia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "assyria-900",
+      "nombre": "Assuriā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Triángulo de Asur, Nínive y Arbela, sobre el Tigris. Adad-nirari II (911–891) inicia la expansión neoasiria."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Nombre de atestiguación tardía, usado a falta de uno de época: Estrabón 16.1.1, del arameo Āthūr."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

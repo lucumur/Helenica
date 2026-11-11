@@ -1,0 +1,39 @@
+{
+  "id": "mastianoi-900",
+  "nombre": "Mastiānoi",
+  "nombre_alt": "Mastienos (costa sureste)",
+  "nombre_griego": "Μαστιᾱνοί",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "iberia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "tartassos-900",
+      "nombre": "Tartāssos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Costa mediterránea del estrecho al cabo de Palos y la alta Andalucía."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Hecateo, *FGrHist* 1 F 40–44 (Μαστιηνοί, forma jonia); Polibio 3.33 (Μαστιανοί)."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

@@ -29,5 +29,53 @@
   "epoca": {
     "anio": -900,
     "nota": null
-  }
+  },
+  "contiene": [
+    {
+      "grupo": null,
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "pieres-900",
+          "nombre": "Pieres"
+        },
+        {
+          "col": "lugares",
+          "id": "amathia-900",
+          "nombre": "Āmathiā"
+        },
+        {
+          "col": "lugares",
+          "id": "mugdones-900",
+          "nombre": "Mugdones"
+        },
+        {
+          "col": "lugares",
+          "id": "makednoi-900",
+          "nombre": "Makednoi"
+        },
+        {
+          "col": "lugares",
+          "id": "briges-900",
+          "nombre": "Briges"
+        },
+        {
+          "col": "lugares",
+          "id": "pelagones-900",
+          "nombre": "Pelagones"
+        },
+        {
+          "col": "lugares",
+          "id": "paiones-axios-900",
+          "nombre": "Paiones"
+        },
+        {
+          "col": "lugares",
+          "id": "dardanoi-900",
+          "nombre": "Dardanoi"
+        }
+      ]
+    }
+  ]
 }

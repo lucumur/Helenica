@@ -1,0 +1,39 @@
+{
+  "id": "maxues-900",
+  "nombre": "Maxues",
+  "nombre_alt": "Maxies (Tunicia)",
+  "nombre_griego": "Μάξυες",
+  "endonimo": "Mašawaša",
+  "endonimo_nota": "Egipcio mšwš (mashauash), atestiguado desde Amenhotep III; identificación con los Μάξυες probable, no segura.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "libya"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "libya-continental-900",
+      "nombre": "Libuā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Al oeste del lago Tritonis: agricultores libios. Útica, fundación fenicia según la tradición (1101 a.C.); Cartago aún no existe (814)."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Heródoto 4.191."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

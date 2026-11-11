@@ -1,0 +1,39 @@
+{
+  "id": "kurnioi-900",
+  "nombre": "Kurnioi",
+  "nombre_alt": "Corsos (Córcega)",
+  "nombre_griego": "Κύρνιοι",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "italia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "kyrnos-900",
+      "nombre": "Kurnos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Toda la isla. Sin fuentes para dividirla en 900 a.C.: una sola región."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Heródoto 1.165–167 y 7.165."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

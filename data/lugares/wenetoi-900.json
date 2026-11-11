@@ -1,0 +1,39 @@
+{
+  "id": "wenetoi-900",
+  "nombre": "Wenetoi",
+  "nombre_alt": "Vénetos",
+  "nombre_griego": "Ϝενετοί",
+  "endonimo": "Venetoi",
+  "endonimo_nota": "Autodenominación deducida de la epigrafía venética posterior (s. VI en adelante); no atestiguada en 900.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "italia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "ausonia-900",
+      "nombre": "Ausoniā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Llanura al norte del Po hasta el fondo del Adriático. Cultura de Este en su fase inicial."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Heródoto 1.196 y 5.9 (Ἐνετοί). Los Ἐνετοί de *Il.* 2.852 son paflagonios: la identificación es tradición posterior."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

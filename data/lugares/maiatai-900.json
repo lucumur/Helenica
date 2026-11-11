@@ -1,0 +1,39 @@
+{
+  "id": "maiatai-900",
+  "nombre": "Maiātai",
+  "nombre_alt": "Meotas (Meótide y Kubán)",
+  "nombre_griego": "Μαιᾶται",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "sauromatia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "kimmerioi-900",
+      "nombre": "Kimmerioi"
+    }
+  ],
+  "descripcion": {
+    "texto": "Orilla oriental de la Meótide y el bajo Kubán, con los sindos."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Heródoto 4.123 (Μαιῆται, forma jonia)."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

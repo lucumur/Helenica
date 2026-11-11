@@ -29,5 +29,83 @@
   "epoca": {
     "anio": -900,
     "nota": null
-  }
+  },
+  "contiene": [
+    {
+      "grupo": null,
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "troes-900",
+          "nombre": "Trōes"
+        },
+        {
+          "col": "lugares",
+          "id": "musoi-900",
+          "nombre": "Mūsoi"
+        },
+        {
+          "col": "lugares",
+          "id": "bebrukes-900",
+          "nombre": "Bebrukes"
+        },
+        {
+          "col": "lugares",
+          "id": "paphlagones-900",
+          "nombre": "Paphlagones"
+        },
+        {
+          "col": "lugares",
+          "id": "halizones-900",
+          "nombre": "Halizōnes"
+        },
+        {
+          "col": "lugares",
+          "id": "maiones-900",
+          "nombre": "Māiones"
+        },
+        {
+          "col": "lugares",
+          "id": "kares-900",
+          "nombre": "Kāres"
+        },
+        {
+          "col": "lugares",
+          "id": "lukioi-900",
+          "nombre": "Lukioi"
+        },
+        {
+          "col": "lugares",
+          "id": "pamphuloi-900",
+          "nombre": "Pamphūloi"
+        },
+        {
+          "col": "lugares",
+          "id": "solumoi-900",
+          "nombre": "Solumoi"
+        },
+        {
+          "col": "lugares",
+          "id": "kilikes-900",
+          "nombre": "Kilikes"
+        },
+        {
+          "col": "lugares",
+          "id": "keteioi-900",
+          "nombre": "Kēteioi"
+        },
+        {
+          "col": "lugares",
+          "id": "leukosuroi-900",
+          "nombre": "Leukosuroi"
+        },
+        {
+          "col": "lugares",
+          "id": "phruges-900",
+          "nombre": "Phruges"
+        }
+      ]
+    }
+  ]
 }

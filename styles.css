@@ -190,3 +190,13 @@ body.peek-docked{padding-right:var(--peek-w)}
 .li-ic.big{width:44px;height:44px;font-size:30px;margin:0 0 6px;float:none;display:flex}
 .fe-fil{display:grid;grid-template-columns:1fr 1fr;gap:0 12px;align-items:start}.fe-ph input{flex:1 1 140px}.fe-ph-new{font-size:.8rem}
 @media (max-width:640px){.fe-fil{grid-template-columns:1fr}}
+
+/* Linaje entre fechas */
+.fe-check{display:flex;gap:8px;align-items:flex-start;font-weight:400}.fe-check input{width:auto;margin-top:3px}
+.linaje{display:flex;flex-wrap:wrap;align-items:center;gap:6px 4px;margin:0 0 20px;font-size:.9rem}
+.linaje .ly{display:inline-flex;flex-wrap:wrap;gap:4px;align-items:center;border:1px solid var(--line);border-radius:999px;padding:3px 10px;background:#fffaf0}
+.linaje .ly b{font:700 .68rem system-ui;letter-spacing:.06em;color:var(--muted);margin-right:2px}
+.linaje .ly.now{border-color:var(--accent);background:#fff}
+.linaje a{text-decoration:none;color:var(--accent-2)}.linaje .cur{font-weight:700}
+.linaje .ar{color:var(--muted)}
+.hered{font:500 .72rem system-ui;color:var(--muted);margin-left:6px;white-space:nowrap}

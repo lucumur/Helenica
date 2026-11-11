@@ -1,0 +1,39 @@
+{
+  "id": "arados-900",
+  "nombre": "Arados",
+  "nombre_alt": "Árados (Arwad)",
+  "nombre_griego": "Ἄραδος",
+  "endonimo": "Arwad",
+  "endonimo_nota": "Fenicio ʾrwd; acadio Armada/Aruada (Tiglatpileser I, c. 1100 a.C.).",
+  "imagen": null,
+  "tipos": [
+    "Reino"
+  ],
+  "areas": [
+    "levante"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "phoinika-900",
+      "nombre": "Phoinīkā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Ciudad insular del norte fenicio y su perea continental (Amrit, Sumur), hasta el Eleutero."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- La forma griega Ἄραδος es posterior (Heródoto 7.98)."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

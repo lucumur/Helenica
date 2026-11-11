@@ -1,0 +1,39 @@
+{
+  "id": "iolaeioi-900",
+  "nombre": "Iolāeioi",
+  "nombre_alt": "Iolaenses (centro y sur)",
+  "nombre_griego": "Ἰολᾱ́ειοι",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido. En latín Ilienses.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "italia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "sardo-900",
+      "nombre": "Sardō"
+    }
+  ],
+  "descripcion": {
+    "texto": "Centro y sur: el Campidano y las costas donde aparecen los primeros fenicios (estela de Nora, s. IX–VIII). Apogeo final de la cultura nurágica."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Nombre de atestiguación tardía, usado a falta de uno de época: Diodoro 4.29–30 y 5.15; Estrabón 5.2.7. La derivación de Iolao es etiología griega."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

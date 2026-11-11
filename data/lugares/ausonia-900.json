@@ -29,5 +29,68 @@
   "epoca": {
     "anio": -900,
     "nota": null
-  }
+  },
+  "contiene": [
+    {
+      "grupo": null,
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "elumoi-900",
+          "nombre": "Elumoi"
+        },
+        {
+          "col": "lugares",
+          "id": "sikanoi-900",
+          "nombre": "Sikānoi"
+        },
+        {
+          "col": "lugares",
+          "id": "sikeloi-900",
+          "nombre": "Sikeloi"
+        },
+        {
+          "col": "lugares",
+          "id": "ligues-900",
+          "nombre": "Ligues"
+        },
+        {
+          "col": "lugares",
+          "id": "wenetoi-900",
+          "nombre": "Wenetoi"
+        },
+        {
+          "col": "lugares",
+          "id": "tursanoi-900",
+          "nombre": "Tursānoi"
+        },
+        {
+          "col": "lugares",
+          "id": "latinoi-900",
+          "nombre": "Latīnoi"
+        },
+        {
+          "col": "lugares",
+          "id": "opikoi-900",
+          "nombre": "Opikoi"
+        },
+        {
+          "col": "lugares",
+          "id": "iapuges-900",
+          "nombre": "Iāpuges"
+        },
+        {
+          "col": "lugares",
+          "id": "oinotroi-900",
+          "nombre": "Oinōtroi"
+        },
+        {
+          "col": "lugares",
+          "id": "ombrikoi-900",
+          "nombre": "Ombrikoi"
+        }
+      ]
+    }
+  ]
 }

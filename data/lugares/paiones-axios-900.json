@@ -1,0 +1,39 @@
+{
+  "id": "paiones-axios-900",
+  "nombre": "Paiones",
+  "nombre_alt": "Peonia del Axio",
+  "nombre_griego": "Παίονες",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "macedonia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "paiones-900",
+      "nombre": "Paiones"
+    }
+  ],
+  "descripcion": {
+    "texto": "Valle medio del Axio, núcleo de los peonios."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Homero, *Il.* 2.848–850: peonios «de Amidón, junto al Axio de ancha corriente»."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "israel-900",
+  "nombre": "Israēl",
+  "nombre_alt": "Israel",
+  "nombre_griego": "Ἰσραήλ",
+  "endonimo": "Yiśrāʾēl",
+  "endonimo_nota": "Hebreo; ya en la estela de Merneptah (c. 1208 a.C.) y en la de Mesha (s. IX).",
+  "imagen": null,
+  "tipos": [
+    "Reino"
+  ],
+  "areas": [
+    "levante"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "syria-900",
+      "nombre": "Suriā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Samaria, Galilea y Galaad. Capital en Tirsá bajo Basá; Samaria se funda con Omrí (c. 880)."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Sin nombre griego de época: forma de los Setenta."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

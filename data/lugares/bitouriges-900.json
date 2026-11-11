@@ -1,0 +1,39 @@
+{
+  "id": "bitouriges-900",
+  "nombre": "Bitouriges",
+  "nombre_alt": "Bituriges (Galia central)",
+  "nombre_griego": "Βιτούριγες",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "hiperborea"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "keltoi-900",
+      "nombre": "Keltoi"
+    }
+  ],
+  "descripcion": {
+    "texto": "Galia central y occidental, del Loira al Macizo Central."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Nombre de atestiguación tardía, usado a falta de uno de época: Estrabón 4.2.2. Livio 5.34 les da la hegemonía de la Céltica hacia 600 a.C. (tradición)."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

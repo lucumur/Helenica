@@ -1,0 +1,39 @@
+{
+  "id": "sithones-900",
+  "nombre": "Sithōnes",
+  "nombre_alt": "Sitones (Calcídica)",
+  "nombre_griego": "Σίθωνες",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "tracia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "thraikes-900",
+      "nombre": "Thrāikes"
+    }
+  ],
+  "descripcion": {
+    "texto": "Las tres penínsulas de la Calcídica. Asentamientos eubeos tempranos discutidos (Torone, Mende)."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Heródoto 7.122 (Σιθωνίη). Establecido: cerámica protogeométrica de tipo eubeo en Torone; discutido si implica colonos."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "thebai-900",
+  "nombre": "Thēbai",
+  "nombre_alt": "Alto y Medio Egipto (Tebaida)",
+  "nombre_griego": "Θῆβαι",
+  "endonimo": "Wāsat",
+  "endonimo_nota": "Egipcio wꜣst (vocalización reconstruida), nombre de la ciudad; el Alto Egipto es šmꜥw.",
+  "imagen": null,
+  "tipos": [
+    "Reino"
+  ],
+  "areas": [
+    "egipto"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "aigyptos-900",
+      "nombre": "Aiguptos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Valle del Nilo de Heracleópolis a Elefantina y los oasis. Gobernado desde Tebas por el sumo sacerdote de Amón, cargo que hacia 900 a.C. ocupan hijos de Osorkón I."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Establecido: Homero conoce la Tebas egipcia «de cien puertas» (*Il.* 9.381–384).\n- La autonomía tebana respecto de Tanis es de hecho, no formal."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

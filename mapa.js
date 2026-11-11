@@ -154,7 +154,7 @@ ${physicalSVG(D, opts.selectedId)}
     main.innerHTML = `
 <div class="atlas">
   <svg id="map" viewBox="0 0 ${W} ${H}" role="application" aria-label="Mapa del mundo helénico">${baseSVG(D)}
-    <g class="seas"></g><g class="slabels"></g><g class="alabels"></g><g class="z1labels"></g><g class="z2labels"></g><g class="z0labels"></g><g class="sites"></g><g class="hl"></g>
+    <g class="seas"></g><g class="slabels"></g><g class="alabels"></g><g class="z1labels"></g><g class="z2labels"></g><g class="z0labels"></g><g class="sites"></g><g class="hl"></g><g class="bedit"></g>
   </svg>
   <div class="ui tl">
     <div class="search"><input id="q" type="search" placeholder="Buscar área o lugar…" autocomplete="off" aria-label="Buscar en el mapa"><div id="qr" class="qr" hidden></div></div>
@@ -200,8 +200,15 @@ ${physicalSVG(D, opts.selectedId)}
       const u = new URL(location.href); T ? u.searchParams.set('t', T) : u.searchParams.delete('t'); history.replaceState(null, '', u);
       apply();
       if (selSite) showSite(selSite, false); else if (selSub) showSub(selSub, false);
+      else if (selZone && !BE) {
+        // La zona elegida pertenece a otra fecha: saltar a la ficha de su linaje (sucede_a) en la fecha nueva.
+        const z = anyZone(selZone);
+        if (z && z.anio !== T) { const rel = D.I.linaje(`lugares:${selZone}`).find(i => String(i.ep) === T && anyZone(i.id)); if (rel) showZone0(rel.id); else clear(); }
+      }
     }
-    let selSub = null;
+    let selSub = null, selZone = null;
+    const anyZone = id => zone0(id) || zone1(id) || zone2(id);
+    const fmtY = a => a < 0 ? `${-a} a.C.` : `${a} d.C.`;
     let eraClosed = false;
     main.querySelector('#era').addEventListener('click', e => {
       const era = main.querySelector('#era');
@@ -210,6 +217,7 @@ ${physicalSVG(D, opts.selectedId)}
     main.querySelector('.when').addEventListener('click', e => {
       const b = e.target.closest('button'); if (!b) return;
       if (!D.per.periodos.some(p => p.id === b.dataset.t)) return;
+      if (BE && !borderStop()) return;
       T = b.dataset.t; eraClosed = false; applyTime();
       const lv = zlevel(W / view[2]);
       if (T && W / view[2] < zk(3) && !(D.t0[T] && lv === 1) && !(D.t1[T] && lv === 2)) fitBox(D.geo.peloponeso.bbox, 0.08);
@@ -245,7 +253,9 @@ ${physicalSVG(D, opts.selectedId)}
       const lvl = zlevel(k), naturalVisible = lvl >= 4, naturalSitesVisible = lvl >= MAX_ZOOM;
       const t0on = lvl === 1 && !!(T && D.t0[T]), t1on = (lvl === 2 || lvl === 3) && !!(T && D.t1[T]);
       svg.classList.toggle('t0-on', t0on);
-      svg.classList.toggle('t1-on', t1on);
+      const t1part = t1on && !D.t0[T], t1areas = new Set(t1part ? D.t1[T].flatMap(z => z.areas) : []);
+      svg.classList.toggle('t1-on', t1on && !t1part);
+      svg.querySelectorAll('.ar').forEach(p => { p.style.display = t1part && t1areas.has(p.dataset.area) ? 'none' : ''; });
       svg.classList.toggle('natural-detail', naturalVisible);
       svg.style.setProperty('--u', u);
       const placed = [], sx = x => (x - view[0]) / u, sy = y => (y - view[1]) / u;
@@ -280,7 +290,7 @@ ${physicalSVG(D, opts.selectedId)}
         g.style.display = fits([sx(x) - tw / 2, sy(y) - 13, sx(x) + tw / 2, sy(y) + 16]) ? '' : 'none';
       });
       svg.querySelectorAll('.al').forEach(g => {
-        if (t0on || t1on) { g.style.display = 'none'; return; }
+        if (t0on || (t1on && (!t1part || t1areas.has(g.dataset.area)))) { g.style.display = 'none'; return; }
         const mine = Object.values(D.subs).filter(s => s.padre === g.dataset.area);
         if ((mine.length && k >= zk(Math.min(...mine.map(s => s.nivel ?? 3)))) || t2areas.has(g.dataset.area)) { g.style.display = 'none'; return; }
         const [x, y] = g.getAttribute('transform').match(/translate\(([^)]+)\)/)[1].split(',').map(Number);
@@ -327,6 +337,7 @@ ${physicalSVG(D, opts.selectedId)}
       const badge = main.querySelector('#zl');
       badge.textContent = lvl; badge.title = `Nivel ${lvl} · ${ZL[lvl - 1].que}`;
       main.querySelector('#zi').disabled = k + 1e-9 >= zk(MAX_ZOOM); main.querySelector('#zo').disabled = k <= 1.001;
+      borderHandles();
     }
     let viewFrame = 0, wheelTarget = null, wheelVelocity = 0, wheelTime = 0;
     let wheelDelta = 0, wheelLast = 0, wheelDirection = 0, wheelAnchor = null;
@@ -396,7 +407,7 @@ ${physicalSVG(D, opts.selectedId)}
     }
     const listLink = (i, extra = '') => `<li><button type="button" class="pl" data-go="${esc(i.id)}">${esc(i.n)}${i.alt ? ` <span class="muted">${esc(i.alt)}</span>` : ''}</button>${extra}</li>`;
     function showArea(id, move = true) {
-      selArea = id; selSite = null; selSub = null; svg.querySelectorAll('.sb').forEach(p => p.classList.remove('sel'));
+      selArea = id; selSite = null; selSub = null; selZone = null; svg.querySelectorAll('.sb').forEach(p => p.classList.remove('sel'));
       svg.querySelectorAll('.feature.selected').forEach(p => p.classList.remove('selected'));
       const info = D.areaInfo.get(id) || { nombre: id }, rf = D.regionFicha[id], geo = D.geo[id];
       const inArea = D.lugares.filter(i => (i.ar || []).includes(id));
@@ -422,7 +433,8 @@ ${!geo ? '<p class="muted">Sin localización terrestre: no aparece sobre el mapa
     function showZone0(id) {
       const z = zone0(id) || zone1(id) || zone2(id); if (!z) return;
       const t1 = !zone0(id), lv = zone0(id) ? 0 : zone1(id) ? 1 : 2;
-      selArea = selSite = selSub = null;
+      selArea = selSite = selSub = null; selZone = id;
+      const lin = D.I.linaje(`lugares:${id}`).filter(x => x.id !== id);
       const i = byId(id) || {}, y = z.anio, p = D.per.periodos.find(x => x.id === y);
       const up = t1 && z.padre && (zone0(z.padre) || zone1(z.padre));
       const row = (k, v, n) => v ? `<p class="kv"><b>${k}</b> ${esc(v)}${n ? `<br><span class="muted small">${esc(n)}</span>` : ''}</p>` : '';
@@ -431,7 +443,9 @@ ${!geo ? '<p class="muted">Sin localización terrestre: no aparece sobre el mapa
 <h2>${esc(z.nombre)}</h2>${z.nombre_griego ? `<p class="gr">${esc(z.nombre_griego)}</p>` : ''}
 ${row('Nombre tradicional', z.nombre_alt)}${row('Griego transliterado', z.nombre)}${row('Griego', z.nombre_griego)}${row('Endónimo', z.endonimo || '—', z.endonimo_nota)}
 ${i.r ? `<p>${esc(i.r)}</p>` : ''}
-<div class="acts"><a class="btn" href="${ficha('lugares', id)}">Abrir ficha ↗</a>${editBtn(id)}</div>
+${lin.length ? `<p class="kv"><b>Otras fechas</b> ${lin.map(x => `<button type="button" class="lnk" data-rel="${esc(x.id)}" data-y="${x.ep}">${fmtY(x.ep)} · ${esc(x.n)}</button>`).join(' &nbsp; ')}</p>` : ''}
+<div class="acts"><a class="btn" href="${ficha('lugares', id)}">Abrir ficha ↗</a>${editBtn(id)}<button type="button" class="btn ghost edit-only" data-border="${esc(id)}">⬡ Editar frontera</button></div>
+${z.cobertura != null ? `<p class="edit-only cob${z.cobertura < 0.995 ? ' warn' : ''}">Sus subdivisiones cubren el ${(Math.floor(z.cobertura * 1000) / 10).toFixed(1)} %.${(z.huecos || []).length ? ` Huecos: ${z.huecos.map((h, n) => `<button type="button" class="lnk" data-fly="${h[0]},${h[1]}">${n + 1}</button>`).join(' ')}` : ''}</p>` : ''}
 <div class="parts"></div>`;
       panel.hidden = false;
       svg.classList.add('has-sel');
@@ -486,7 +500,7 @@ ${geometry ? `<p class="small">${geometry.tipo === 'rio' ? 'Trazado del cauce' :
 ${site && site.items.length > 1 ? `<h3>En este mismo punto</h3><ul>${site.items.filter(x => x !== i).map(x => listLink(x)).join('')}</ul>` : ''}
 ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</ul>` : ''}
 <p class="muted small">${pt ? `${pt[1].toFixed(3)}° N, ${pt[0].toFixed(3)}° E · ubicación aproximada` : 'Sin coordenadas'}</p>`;
-      panel.hidden = false; selSub = null;
+      panel.hidden = false; selSub = null; selZone = null;
       svg.querySelectorAll('.sb').forEach(p => p.classList.remove('sel'));
       svg.querySelectorAll('.ar').forEach(p => p.classList.toggle('sel', p.dataset.area === a));
       svg.classList.add('has-sel');
@@ -498,7 +512,8 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
       url({ lugar: i.id });
     }
     function clear() {
-      panel.hidden = true; selArea = selSite = selSub = null; gHl.innerHTML = '';
+      if (BE && !borderStop()) return;
+      panel.hidden = true; selArea = selSite = selSub = selZone = null; gHl.innerHTML = '';
       svg.querySelectorAll('.sb.sel').forEach(n => n.classList.remove('sel'));
       svg.querySelectorAll('.feature.selected').forEach(n => n.classList.remove('selected'));
       svg.classList.remove('has-sel'); svg.querySelectorAll('.ar.sel,.z0.sel,.z1.sel,.z2.sel,.site.on').forEach(n => n.classList.remove('sel', 'on'));
@@ -508,7 +523,12 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
     const byId = id => D.lugares.find(i => i.id === id);
     panel.addEventListener('click', e => {
       if (e.target.closest('.x')) return clear();
+      if (e.target.closest('[data-bsave]')) return borderSave();
+      if (e.target.closest('[data-bcancel]')) { const id = BE && BE.sel; if (borderStop()) showZone0(id); return; }
+      const bd = e.target.closest('[data-border]'); if (bd) return borderStart(bd.dataset.border);
+      const fl = e.target.closest('[data-fly]'); if (fl) return flyTo(fl.dataset.fly.split(',').map(Number), zk(4));
       const ed = e.target.closest('[data-edit]'); if (ed) return editFicha(ed.dataset.edit);
+      const rl = e.target.closest('[data-rel]'); if (rl) { const y = rl.dataset.y, rid = rl.dataset.rel; if (BE && !borderStop()) return; if (D.per.periodos.some(p => p.id === y) && anyZone(rid)) { T = y; eraClosed = false; applyTime(); return showZone0(rid); } location.href = ficha('lugares', rid); return; }
       const tt = e.target.closest('.tt'); if (tt) { T = tt.dataset.t; applyTime(); return; }
       const zn = e.target.closest('[data-zone]'); if (zn) { const id = zn.dataset.zone, l = zlevel(W / view[2]), z1 = zone1(id), z2 = zone2(id);
         if (z2 && l < 3) fitBox(z2.bbox, 0.25); else if (z1 && l === 1) flyTo(z1.etiqueta, zk(2) * 1.05); else if (z1 && l > 3) flyTo(z1.etiqueta, zk(2) * 1.05); else if (!z1 && !z2 && l > 1) setView([0, 0, W, H], true);
@@ -517,6 +537,130 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
       const ar = e.target.closest('[data-area]'); if (ar) showArea(ar.dataset.area);
     });
     main.querySelector('.offmap').addEventListener('click', e => { const b = e.target.closest('[data-area]'); if (b) showArea(b.dataset.area, false); });
+
+    // ---------- editor de fronteras (modo edición) ----------
+    // Edita los contornos de data/mapa/zonas.json del mismo tier y fecha. Los vértices con las mismas coordenadas
+    // en varios contornos se mueven juntos (frontera compartida); soltar un vértice sobre otro lo une a él.
+    const unP = ([x, y]) => [x / (COS * U) + LON0, LAT0 - y / U];
+    const gB = svg.querySelector('.bedit');
+    const ringsOf = z => Array.isArray(z.poligono[0][0]) ? z.poligono : [z.poligono];
+    const samePt = (a, b) => Math.abs(a[0] - b[0]) < 1e-6 && Math.abs(a[1] - b[1]) < 1e-6;
+    const r3 = v => Math.round(v * 1000) / 1000;
+    const TIERKEY = { tier0: 'Tier 0', tier1: 'Tier 1', tier2: 'Tier 2' };
+    let BE = null;
+    const beGeo = id => (BE.key === 'tier0' ? zone0 : BE.key === 'tier1' ? zone1 : zone2)(id);
+    const beCur = () => BE.list.find(z => z.ficha === BE.sel);
+    const bePath = z => ringsOf(z).map(ring).join('');
+    function beSelect(id) {
+      BE.sel = id;
+      const me = beGeo(id); BE.padre = me && me.padre || null;
+      const par = BE.padre && (zone0(BE.padre) || zone1(BE.padre));
+      BE.sib = BE.list.filter(z => { const g = beGeo(z.ficha); return ((g && g.padre) || null) === BE.padre; });
+      gB.querySelector('#bclip path').setAttribute('d', par ? par.poligonos.map(polyPath).join('') : D.tierra.poligonos.map(polyPath).join(''));
+      borderPanel(); borderShapes();
+    }
+    function borderShapes() {
+      const z = beCur();
+      gB.querySelector('.bfills').innerHTML = [...BE.sib].reverse().map(o => `<path class="bf${o === z ? ' on' : ''}" fill="${o.color || '#d8c8a8'}" d="${bePath(o)}"/>`).join('');
+      gB.querySelector('.blines').innerHTML = BE.sib.filter(o => o !== z).map(o => `<path class="bo" d="${bePath(o)}"/>`).join('') + `<path class="bo on" d="${bePath(z)}"/>`;
+      borderHandles();
+    }
+    function borderHandles() {
+      if (!BE) return;
+      const z = beCur(), R = 5.5 * unitsPerPx();
+      let mid = '', vs = '';
+      ringsOf(z).forEach((rg, ri) => rg.forEach((c, i) => {
+        const [x, y] = P(c), [x2, y2] = P(rg[(i + 1) % rg.length]);
+        mid += `<circle class="bm" data-r="${ri}" data-i="${i}" cx="${(x + x2) / 2}" cy="${(y + y2) / 2}" r="${R * .6}"/>`;
+        const shared = BE.list.some(o => o !== z && ringsOf(o).some(r => r.some(q => samePt(q, c))));
+        vs += `<circle class="bv${shared ? ' sh' : ''}" data-r="${ri}" data-i="${i}" cx="${x}" cy="${y}" r="${R}"/>`;
+      }));
+      gB.querySelector('.bhandles').innerHTML = mid + vs;
+    }
+    function borderPanel() {
+      const g = beGeo(BE.sel) || {}, p = D.per.periodos.find(x => x.id === BE.year), n = BE.dirty.size;
+      panel.innerHTML = `<button class="x" aria-label="Cerrar">×</button>
+<p class="eyebrow">Editar frontera · ${TIERKEY[BE.key]} · ${esc(p ? p.etiqueta : BE.year)}</p>
+<h2>${esc(g.nombre || BE.sel)}</h2>
+<p>Arrastra un vértice para moverlo. Los vértices rellenos son compartidos con otra región y se mueven juntos; con <b>Alt</b> se separa solo el de esta.</p>
+<p>Suelta un vértice sobre el de otra región para unirlos. Pulsa un punto pequeño para añadir un vértice; doble clic en un vértice lo borra.</p>
+<p>Pulsa otra región del mismo nivel para editar la suya. Si dos contornos se solapan, gana el que va antes en la lista.</p>
+<p class="muted" id="bstat">${n ? `${n} contorno${n > 1 ? 's' : ''} con cambios sin guardar.` : 'Sin cambios.'}</p>
+<div class="acts"><button type="button" class="btn" data-bsave${n ? '' : ' disabled'}>Guardar</button><button type="button" class="btn ghost" data-bcancel>Salir</button></div>`;
+      panel.hidden = false;
+    }
+    async function borderStart(id) {
+      if (!window.HEL_EDIT) return;
+      let zonas;
+      try { zonas = await window.HEL_EDIT.readFile('data/mapa/zonas.json'); } catch (e) { return alert(e.message); }
+      let key = null, year = null;
+      for (const k of Object.keys(TIERKEY)) for (const [y, zs] of Object.entries(zonas[k] || {})) if (Array.isArray(zs) && zs.some(z => z.ficha === id)) { key = k; year = y; }
+      if (!key) return alert('Esta ficha no tiene contorno en data/mapa/zonas.json.');
+      // Un contorno «igual_que» se edita sobre una copia del original; al guardarlo pasa a tener polígono propio.
+      const todos = new Map(Object.keys(TIERKEY).flatMap(k => Object.values(zonas[k] || {}).filter(Array.isArray).flat()).map(z => [z.ficha, z]));
+      for (const z of zonas[key][year]) { let c = z, n = 0; while (c && !c.poligono && n++ < 8) c = todos.get(c.igual_que); if (!z.poligono && c && c.poligono) { z.poligono = JSON.parse(JSON.stringify(c.poligono)); for (const k of ['color', 'tipo', 'toma_islas', 'corta_islas']) if (!(k in z) && k in c) z[k] = c[k]; } }
+      BE = { key, year, list: zonas[key][year].filter(z => z.poligono), dirty: new Set(), busy: false };
+      gB.innerHTML = '<clipPath id="bclip"><path clip-rule="evenodd"/></clipPath><g class="bfills" clip-path="url(#bclip)"></g><g class="blines"></g><g class="bhandles"></g>';
+      svg.classList.add('bediting');
+      beSelect(id);
+      const g0 = beGeo(id); if (g0) fitBox(g0.bbox, 0.3);
+    }
+    function borderStop() {
+      if (BE && BE.dirty.size && !confirm('Hay cambios de frontera sin guardar. ¿Salir sin guardarlos?')) return false;
+      BE = null; gB.innerHTML = ''; svg.classList.remove('bediting');
+      return true;
+    }
+    async function borderSave() {
+      const stat = panel.querySelector('#bstat'), ids = [...BE.dirty];
+      try {
+        stat.textContent = 'Guardando…';
+        const latest = await window.HEL_EDIT.readFile('data/mapa/zonas.json'), lst = (latest[BE.key] || {})[BE.year] || [];
+        for (const id of ids) { const src = BE.list.find(z => z.ficha === id), dst = lst.find(z => z.ficha === id); if (src && dst) { for (const k of ['color', 'tipo', 'toma_islas', 'corta_islas']) if (dst.igual_que && !(k in dst) && k in src) dst[k] = src[k]; dst.poligono = src.poligono; delete dst.igual_que; } }
+        const names = ids.map(id => (beGeo(id) || {}).nombre || id);
+        await window.HEL_EDIT.saveFile('data/mapa/zonas.json', JSON.stringify(latest, null, 1) + '\n', `Frontera: ${names.slice(0, 4).join(', ')}${names.length > 4 ? '…' : ''}`);
+        BE.dirty.clear(); borderPanel();
+        panel.querySelector('#bstat').textContent = 'Guardado. GitHub regenera las siluetas en uno o dos minutos; recarga entonces la página.';
+      } catch (e) { stat.textContent = `No se pudo guardar: ${e.message}`; }
+    }
+    function borderPick(e) {
+      const pt = unP(toSvg(e.clientX, e.clientY));
+      const hit = BE.sib.find(z => ringsOf(z).some(r => inRing(pt, r))) || BE.list.find(z => ringsOf(z).some(r => inRing(pt, r)));
+      if (hit && hit.ficha !== BE.sel) beSelect(hit.ficha);
+    }
+    gB.addEventListener('pointerdown', e => {
+      const h = e.target.closest('.bv,.bm'); if (!h || !BE || e.button > 0) return;
+      e.stopPropagation(); e.preventDefault();
+      const rg = ringsOf(beCur())[+h.dataset.r]; let i = +h.dataset.i;
+      if (h.classList.contains('bm')) {
+        const a = rg[i], b = rg[(i + 1) % rg.length], m = [r3((a[0] + b[0]) / 2), r3((a[1] + b[1]) / 2)];
+        for (const o of BE.list) for (const r of ringsOf(o)) for (let j = 0; j < r.length; j++) {
+          const p = r[j], q = r[(j + 1) % r.length];
+          if ((samePt(p, a) && samePt(q, b)) || (samePt(p, b) && samePt(q, a))) { r.splice(j + 1, 0, [...m]); BE.dirty.add(o.ficha); break; }
+        }
+        i = rg.findIndex(p => samePt(p, m));
+      }
+      const c0 = [...rg[i]], grp = [];
+      if (e.altKey) { grp.push(rg[i]); BE.dirty.add(BE.sel); }
+      else for (const o of BE.list) for (const r of ringsOf(o)) for (const q of r) if (samePt(q, c0)) { grp.push(q); BE.dirty.add(o.ficha); }
+      BE.busy = true;
+      const move = ev => { const [lon, lat] = unP(toSvg(ev.clientX, ev.clientY)); grp.forEach(q => { q[0] = r3(lon); q[1] = r3(lat); }); borderShapes(); };
+      const end = ev => {
+        window.removeEventListener('pointermove', move); window.removeEventListener('pointerup', end); window.removeEventListener('pointercancel', end);
+        const here = P(grp[0]), lim = 9 * unitsPerPx(); let best = null, bd = lim;
+        for (const o of BE.list) for (const r of ringsOf(o)) for (const q of r) { if (grp.includes(q)) continue; const [x, y] = P(q), d = Math.hypot(x - here[0], y - here[1]); if (d < bd) { bd = d; best = q; } }
+        if (best) grp.forEach(q => { q[0] = best[0]; q[1] = best[1]; });
+        borderShapes(); borderPanel();
+        setTimeout(() => { if (BE) BE.busy = false; }, 0);
+      };
+      window.addEventListener('pointermove', move); window.addEventListener('pointerup', end); window.addEventListener('pointercancel', end);
+    });
+    gB.addEventListener('dblclick', e => {
+      const h = e.target.closest('.bv'); if (!h || !BE) return;
+      e.stopPropagation(); e.preventDefault();
+      const c = [...ringsOf(beCur())[+h.dataset.r][+h.dataset.i]];
+      for (const o of BE.list) for (const r of ringsOf(o)) { const j = r.findIndex(q => samePt(q, c)); if (j >= 0 && r.length > 3) { r.splice(j, 1); BE.dirty.add(o.ficha); } }
+      borderShapes(); borderPanel();
+    });
 
     // ---------- interacción en el mapa ----------
     let drag = null, moved = false, pressedTarget = null;
@@ -543,7 +687,9 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
     const up = e => { pts.delete(e.pointerId); drag = pts.size ? { v: [...view], pts: new Map(pts) } : null; };
     svg.addEventListener('pointerup', e => {
       up(e);
+      if (BE && BE.busy) return;
       if (moved) return;
+      if (BE) return borderPick(e);
       const target = pressedTarget || e.target;
       const site = target.closest('.site'); if (site) return showSite(D.sites[+site.dataset.k].main);
       const feature = target.closest('.feature'); if (feature) return openFeature(feature.dataset.feature);

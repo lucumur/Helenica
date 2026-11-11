@@ -1,0 +1,40 @@
+{
+  "id": "iakketanoi-900",
+  "nombre": "Iakkētanoi†",
+  "nombre_alt": "Jacetanos (alto Ebro y Pirineo)",
+  "nombre_griego": "Ἰακκητανοί†",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "iberia",
+    "hiperborea"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "auskoi-900",
+      "nombre": "Auskoi†"
+    }
+  ],
+  "descripcion": {
+    "texto": "Vertiente sur del Pirineo occidental y central, hasta el Ebro."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Nombre de atestiguación tardía, usado a falta de uno de época: Estrabón 3.4.10. Reconstrucción para 900 a.C., marcada con cruz."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

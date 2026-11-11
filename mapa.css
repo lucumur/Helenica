@@ -179,3 +179,16 @@ main.atlas-main{width:100%;max-width:none;padding:0}
 @media(max-width:1100px){.ui.tc{top:auto;bottom:14px;left:auto;right:14px;transform:none;justify-items:end;width:min(460px,calc(100% - 28px))}.ui.bl .legend{display:none}}
 @media(max-width:760px){.ui.tc{bottom:auto;top:118px;left:14px;right:14px;justify-items:start}.when button{padding:7px 9px;font-size:.74rem}.era{display:none}}
 @media(min-width:761px) and (max-width:1100px){.atlas:has(> .panel:not([hidden])) .ui.tc{right:calc(min(380px,100% - 90px) + 14px)}}
+
+/* Editor de fronteras */
+.bedit .bf{fill-opacity:.9;stroke:none}
+.bedit .bo{fill:none;stroke:#2a1a10;stroke-opacity:.45;stroke-width:1;stroke-dasharray:4 3;vector-effect:non-scaling-stroke;pointer-events:none}
+.bedit .bo.on{stroke:#a8461f;stroke-opacity:1;stroke-width:2;stroke-dasharray:none}
+.bedit .bv{fill:#fffaf0;stroke:#a8461f;stroke-width:2;vector-effect:non-scaling-stroke;cursor:grab;touch-action:none}
+.bedit .bv.sh{fill:#a8461f}
+.bedit .bm{fill:#a8461f;fill-opacity:.35;stroke:none;cursor:copy}
+.bedit .bm:hover{fill-opacity:.9}
+#map.bediting .z0labels,#map.bediting .z1labels,#map.bediting .z2labels,#map.bediting .sites{pointer-events:none;opacity:.55}
+.panel .cob{display:none;font-size:.8rem;color:var(--muted)}
+.panel .cob.warn{color:#9c3b1a}
+.panel .btn[disabled]{opacity:.45;cursor:default}

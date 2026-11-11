@@ -29,5 +29,38 @@
   "epoca": {
     "anio": -900,
     "nota": null
-  }
+  },
+  "contiene": [
+    {
+      "grupo": null,
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "madianitai-900",
+          "nombre": "Madianītai"
+        },
+        {
+          "col": "lugares",
+          "id": "thaimanoi-900",
+          "nombre": "Thaimanoi"
+        },
+        {
+          "col": "lugares",
+          "id": "kedarenoi-900",
+          "nombre": "Kēdarēnoi"
+        },
+        {
+          "col": "lugares",
+          "id": "skanitai-900",
+          "nombre": "Skānītai"
+        },
+        {
+          "col": "lugares",
+          "id": "agraioi-900",
+          "nombre": "Agraioi"
+        }
+      ]
+    }
+  ]
 }

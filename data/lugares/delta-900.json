@@ -1,0 +1,39 @@
+{
+  "id": "delta-900",
+  "nombre": "Delta",
+  "nombre_alt": "Bajo Egipto (Delta)",
+  "nombre_griego": "Δέλτα",
+  "endonimo": "Tā-Miḥu",
+  "endonimo_nota": "Reconstrucción vocalizada de tꜣ-mḥw, «tierra del norte».",
+  "imagen": null,
+  "tipos": [
+    "Reino"
+  ],
+  "areas": [
+    "egipto"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "aigyptos-900",
+      "nombre": "Aiguptos"
+    }
+  ],
+  "descripcion": {
+    "texto": "El Delta y Menfis. Sede de la dinastía XXII, libia: Tanis y Bubastis (Osorkón I). Jefaturas de los mashauash en el Delta occidental."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Nombre de atestiguación tardía, usado a falta de uno de época: Heródoto 2.13–15."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "matianoi-900",
+  "nombre": "Matiānoi",
+  "nombre_alt": "Matienos (Urmía)",
+  "nombre_griego": "Ματιᾱνοί",
+  "endonimo": "Mannāya",
+  "endonimo_nota": "Acadio (desde 843 a.C.); la equivalencia manneos–matienos es aproximada.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "anatolia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "alarodioi-900",
+      "nombre": "Alarodioi"
+    }
+  ],
+  "descripcion": {
+    "texto": "Cuenca del lago Urmía y el Zagros norte. Hasanlu IV."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Heródoto 1.72 y 5.49 (Ματιηνοί, forma jonia)."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

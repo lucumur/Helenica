@@ -1,0 +1,39 @@
+{
+  "id": "leukosuroi-900",
+  "nombre": "Leukosuroi",
+  "nombre_alt": "Leucosirios (Tabal y Capadocia)",
+  "nombre_griego": "Λευκόσυροι",
+  "endonimo": "Tabal",
+  "endonimo_nota": "Acadio (desde 837 a.C.), para los principados luvitas del Tauro.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "anatolia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "phrygia-900",
+      "nombre": "Phrugiā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Meseta al sur y al este del Halis: principados luvitas de Tabal."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Nombre de atestiguación tardía, usado a falta de uno de época: Estrabón 12.3.9. Heródoto 1.72 llama «sirios» a los capadocios."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

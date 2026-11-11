@@ -1,0 +1,39 @@
+{
+  "id": "thospitis-900",
+  "nombre": "Thōspītis",
+  "nombre_alt": "País de Van (Biainili)",
+  "nombre_griego": "Θωσπῖτις",
+  "endonimo": "Biainili",
+  "endonimo_nota": "Urartio. En acadio Uruaṭri (desde el s. XIII) y Nairi.",
+  "imagen": null,
+  "tipos": [
+    "Reino"
+  ],
+  "areas": [
+    "anatolia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "alarodioi-900",
+      "nombre": "Alarodioi"
+    }
+  ],
+  "descripcion": {
+    "texto": "Cuenca del lago Van: núcleo del futuro reino de Urartu, aún una confederación de príncipes (Arame, c. 860, es el primer rey conocido)."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Nombre de atestiguación tardía, usado a falta de uno de época: Ptolomeo 5.13.18, de Tushpa. Los Ἀλαρόδιοι de Heródoto 3.94 conservan el nombre Urartu."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

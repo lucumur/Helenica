@@ -1,0 +1,39 @@
+{
+  "id": "kolkhoi-900",
+  "nombre": "Kolkhoi",
+  "nombre_alt": "Colcos",
+  "nombre_griego": "Κόλχοι",
+  "endonimo": "Qulḫa",
+  "endonimo_nota": "Urartio (s. VIII a.C.).",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "colquide"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "aia-900",
+      "nombre": "Aiā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Llanura del Fasis. Cultura cólquida del Bronce Final: metalurgia del bronce y el hierro."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Eumelo de Corinto, fr. 3 Bernabé; Heródoto 2.104."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

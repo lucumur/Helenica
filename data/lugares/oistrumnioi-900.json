@@ -1,0 +1,39 @@
+{
+  "id": "oistrumnioi-900",
+  "nombre": "Oistrumnioi†",
+  "nombre_alt": "Estrimnios (noroeste atlántico)",
+  "nombre_griego": "Οἰστρύμνιοι†",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "iberia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "iberia-900",
+      "nombre": "Ibēriā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Galicia y la cornisa cantábrica: metalurgia del Bronce Atlántico y ruta del estaño."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Avieno, *Ora maritima* 90–119 (Oestrymnis), sobre un periplo del s. VI a.C. Forma griega retrovertida, marcada con cruz.\n- Discutido: otros sitúan Oestrymnis en Bretaña."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

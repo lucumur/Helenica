@@ -1,0 +1,39 @@
+{
+  "id": "amathe-900",
+  "nombre": "Amathē",
+  "nombre_alt": "Hamat",
+  "nombre_griego": "Ἀμάθη",
+  "endonimo": "Ḥamāt",
+  "endonimo_nota": "Arameo y luvita jeroglífico (Imatu).",
+  "imagen": null,
+  "tipos": [
+    "Reino"
+  ],
+  "areas": [
+    "levante"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "syria-900",
+      "nombre": "Suriā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Valle medio del Orontes. Reino luvita-arameo de Hamat; dinastía de Parita y Urhilina en el s. IX."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Nombre de atestiguación tardía, usado a falta de uno de época: Josefo, *Antigüedades* 1.138."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

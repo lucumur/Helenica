@@ -1,0 +1,39 @@
+{
+  "id": "kikones-900",
+  "nombre": "Kikones",
+  "nombre_alt": "Cicones",
+  "nombre_griego": "Κίκονες",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "tracia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "thraikes-900",
+      "nombre": "Thrāikes"
+    }
+  ],
+  "descripcion": {
+    "texto": "Costa del Nesto al Hebro, con Ismaro."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Homero, *Il.* 2.846 y *Od.* 9.39–61."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

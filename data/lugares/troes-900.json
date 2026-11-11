@@ -1,0 +1,39 @@
+{
+  "id": "troes-900",
+  "nombre": "Trōes",
+  "nombre_alt": "Troyanos (Tróade)",
+  "nombre_griego": "Τρῶες",
+  "endonimo": "Wilusa",
+  "endonimo_nota": "Hitita (s. XIII a.C.); identificación con Ilios generalmente aceptada, no unánime. Taruisa para Troya.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "anatolia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "phrygia-900",
+      "nombre": "Phrugiā"
+    }
+  ],
+  "descripcion": {
+    "texto": "La Tróade, con el Ida y el Helesponto asiático. Troya VIIb3: poblado modesto con cerámica de tradición balcánica."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Homero, *Il.* 2.816–839 (troyanos y dárdanos).\n- Criterio «de jure»: identidad heredada del pasado heroico; los colonos eolios llegan en el s. VIII."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

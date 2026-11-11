@@ -1,0 +1,39 @@
+{
+  "id": "briges-900",
+  "nombre": "Briges",
+  "nombre_alt": "Briges",
+  "nombre_griego": "Βρίγες",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "macedonia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "paiones-900",
+      "nombre": "Paiones"
+    }
+  ],
+  "descripcion": {
+    "texto": "Lincos y Eordea, hasta el lago Licnitis."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Heródoto 7.73: nombre de los frigios mientras vivieron en Europa. Establecido el parentesco; discutidas la fecha y la ruta de la migración."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

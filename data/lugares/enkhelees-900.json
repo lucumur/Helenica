@@ -1,0 +1,39 @@
+{
+  "id": "enkhelees-900",
+  "nombre": "Enkhelees",
+  "nombre_alt": "Enqueleos",
+  "nombre_griego": "Ἐγχελέες",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "grecia-occidental"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "illyrioi-900",
+      "nombre": "Illurioi"
+    }
+  ],
+  "descripcion": {
+    "texto": "Del Neretva al lago Licnitis (Ohrid), con las bocas de Kotor. Tierra del exilio de Cadmo y Harmonía."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Hecateo, *FGrHist* 1 F 103; Heródoto 5.61 y 9.43."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

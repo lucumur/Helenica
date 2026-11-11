@@ -29,5 +29,68 @@
   "epoca": {
     "anio": -900,
     "nota": null
-  }
+  },
+  "contiene": [
+    {
+      "grupo": null,
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "sinties-900",
+          "nombre": "Sinties"
+        },
+        {
+          "col": "lugares",
+          "id": "sithones-900",
+          "nombre": "Sithōnes"
+        },
+        {
+          "col": "lugares",
+          "id": "edonoi-900",
+          "nombre": "Ēdōnoi"
+        },
+        {
+          "col": "lugares",
+          "id": "kikones-900",
+          "nombre": "Kikones"
+        },
+        {
+          "col": "lugares",
+          "id": "dolonkoi-900",
+          "nombre": "Dolonkoi"
+        },
+        {
+          "col": "lugares",
+          "id": "thunoi-900",
+          "nombre": "Thūnoi"
+        },
+        {
+          "col": "lugares",
+          "id": "satrai-900",
+          "nombre": "Satrai"
+        },
+        {
+          "col": "lugares",
+          "id": "odrusai-900",
+          "nombre": "Odrusai"
+        },
+        {
+          "col": "lugares",
+          "id": "triballoi-900",
+          "nombre": "Triballoi"
+        },
+        {
+          "col": "lugares",
+          "id": "getai-900",
+          "nombre": "Getai"
+        },
+        {
+          "col": "lugares",
+          "id": "agathursoi-900",
+          "nombre": "Agathursoi"
+        }
+      ]
+    }
+  ]
 }

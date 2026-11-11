@@ -1,0 +1,39 @@
+{
+  "id": "edom-900",
+  "nombre": "Edōm",
+  "nombre_alt": "Edom",
+  "nombre_griego": "Ἐδώμ",
+  "endonimo": "ʾEdōm",
+  "endonimo_nota": "Hebreo; egipcio ʾidm (papiro Anastasi VI).",
+  "imagen": null,
+  "tipos": [
+    "Reino"
+  ],
+  "areas": [
+    "levante"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "syria-900",
+      "nombre": "Suriā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Del mar Muerto al golfo de Áqaba, con el Arabá: minería del cobre en Feinán, en su apogeo en los ss. X–IX."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Sin nombre griego de época: forma de los Setenta. Establecido: producción de cobre a gran escala en Feinán; discutido si implica un reino."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "libues-900",
+  "nombre": "Libues",
+  "nombre_alt": "Libios (Cirenaica y Marmárica)",
+  "nombre_griego": "Λίβυες",
+  "endonimo": "Libu",
+  "endonimo_nota": "Egipcio rbw (libu), atestiguado desde Ramsés II; da nombre a toda la zona.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "libya"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "libya-continental-900",
+      "nombre": "Libuā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Cirenaica, Marmárica y los oasis hasta Siwa: los libu, vecinos de Egipto. Cirene aún no existe (631)."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Homero, *Od.* 4.85 (Λιβύη). Heródoto 4.168–171: Adirmáquidas, Giligamas, Asbistas."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

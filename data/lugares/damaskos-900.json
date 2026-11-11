@@ -1,0 +1,39 @@
+{
+  "id": "damaskos-900",
+  "nombre": "Damaskos",
+  "nombre_alt": "Aram-Damasco",
+  "nombre_griego": "Δαμασκός",
+  "endonimo": "ʾAram Dammeśeq",
+  "endonimo_nota": "Arameo y hebreo; en acadio Ša-imērišu.",
+  "imagen": null,
+  "tipos": [
+    "Reino"
+  ],
+  "areas": [
+    "levante"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "syria-900",
+      "nombre": "Suriā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Oasis de Damasco, la Becá, Basán y el Haurán. Reino arameo de Ben-Hadad I."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- La forma griega es posterior."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

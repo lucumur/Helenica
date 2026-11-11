@@ -1,0 +1,39 @@
+{
+  "id": "thaimanoi-900",
+  "nombre": "Thaimanoi",
+  "nombre_alt": "Taima y Dedán",
+  "nombre_griego": "Θαιμανοί",
+  "endonimo": "Taymāʾ",
+  "endonimo_nota": "Árabe; acadio Tema (s. VIII).",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "levante"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "eremboi-900",
+      "nombre": "Eremboi"
+    }
+  ],
+  "descripcion": {
+    "texto": "Oasis caravaneros de Taima y Dedán, en la ruta del incienso."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Nombre de atestiguación tardía, usado a falta de uno de época: Ptolomeo 6.7."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

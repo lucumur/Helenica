@@ -13,6 +13,8 @@ Reglas:
     las islas cuyo punto interior cae dentro.
   - zona "islas": solo toma islas completas. "toma_islas": false impide que una zona continental se quede con islas.
   - si dos zonas se solapan, gana la que aparece antes en zonas.json.
+  - tiers 1 y 2: el contorno solo actúa dentro de su zona madre; "corta_islas": true reparte una isla
+    entre varias regiones (toma el trozo que cae en el contorno en vez de la isla entera).
 
 Requiere shapely (pip install shapely). Uso: python scripts/build_mapa.py
 """
@@ -154,27 +156,45 @@ def main():
         for anio, zs in (json.load(open(os.path.join(M, 'zonas.json'), encoding='utf-8')).get(key) or {}).items():
             if not isinstance(zs, list):
                 continue
-            taken_t, taken_i, out_z = [], set(), []
+            taken_t, taken_i, cut_i, out_z = [], set(), {}, []
             for z in zs:
                 zg = zone_geom(z)
+                rec = json.load(open(os.path.join(ROOT, 'data', 'lugares', z['ficha'] + '.json'), encoding='utf-8'))
+                padre = next((r['id'] for r in rec.get('pertenece_a') or [] if r['id'] in parents.get(anio, {})), None)
+                pg = parents[anio][padre] if padre else None
+                # El contorno solo actúa dentro de su zona madre: así no le quita terreno a regiones de otra zona.
+                zc = zg.intersection(pg) if pg is not None else zg
                 parts = []
                 if z.get('tipo') != 'islas':
-                    cut = big.intersection(zg)
+                    cut = big.intersection(zc)
                     for a in taken_t:
                         cut = cut.difference(a)
                     if not cut.is_empty:
                         parts.append(cut); taken_t.append(cut)
-                if z.get('toma_islas') is not False:
+                if z.get('corta_islas'):
+                    # Reparte una isla grande entre varias regiones: toma solo el trozo que cae en el contorno.
                     for i, isl in enumerate(islands):
-                        if i not in taken_i and zg.contains(isl.representative_point()):
-                            parts.append(isl); taken_i.add(i)
+                        if i in taken_i or not zc.intersects(isl):
+                            continue
+                        piece = isl.intersection(zc)
+                        if i in cut_i:
+                            piece = piece.difference(cut_i[i])
+                        if piece.is_empty or piece.area < 1e-6:
+                            continue
+                        parts.append(piece)
+                        cut_i[i] = piece if i not in cut_i else unary_union([cut_i[i], piece])
+                elif z.get('toma_islas') is not False:
+                    for i, isl in enumerate(islands):
+                        if i in taken_i or not zg.contains(isl.representative_point()):
+                            continue
+                        if pg is not None and not pg.intersects(isl):
+                            continue
+                        parts.append(isl.difference(cut_i[i]) if i in cut_i else isl); taken_i.add(i)
                 if not parts:
                     continue
-                rec = json.load(open(os.path.join(ROOT, 'data', 'lugares', z['ficha'] + '.json'), encoding='utf-8'))
                 g = unary_union(parts)
-                padre = next((r['id'] for r in rec.get('pertenece_a') or [] if r['id'] in parents.get(anio, {})), None)
                 if padre:
-                    g = g.intersection(parents[anio][padre])
+                    g = g.intersection(pg)
                 g = unary_union([p for p in (list(g.geoms) if hasattr(g, 'geoms') else [g]) if p.geom_type == 'Polygon' and p.area > 1e-6])
                 if g.is_empty:
                     continue

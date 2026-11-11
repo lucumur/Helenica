@@ -1,0 +1,39 @@
+{
+  "id": "agathursoi-900",
+  "nombre": "Agathursoi",
+  "nombre_alt": "Agatirsos (Cárpatos)",
+  "nombre_griego": "Ἀγάθυρσοι",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "tracia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "thraikes-900",
+      "nombre": "Thrāikes"
+    }
+  ],
+  "descripcion": {
+    "texto": "Al norte del Istro: los Cárpatos y sus llanuras. Oro de Transilvania."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Heródoto 4.48 y 4.104. Vigencia en 900 inferida."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

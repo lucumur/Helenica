@@ -1,0 +1,39 @@
+{
+  "id": "sidon-900",
+  "nombre": "Sīdōn",
+  "nombre_alt": "Sidón",
+  "nombre_griego": "Σῑδών",
+  "endonimo": "Ṣīdūn",
+  "endonimo_nota": "Fenicio ṣdn. Los fenicios en general son Σιδόνες en Homero (*Il.* 23.743).",
+  "imagen": null,
+  "tipos": [
+    "Reino"
+  ],
+  "areas": [
+    "levante"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "phoinika-900",
+      "nombre": "Phoinīkā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Sidón y su costa, de Berito a Sarepta. Hacia 900 a.C. subordinada de hecho a Tiro: los reyes tirios se titulan «rey de los sidonios»."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Establecido: Homero conoce Sidón y no Tiro.\n- Discutido: el alcance de la unión Tiro-Sidón antes de Itobaal I (c. 887)."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "bublos-900",
+  "nombre": "Bublos",
+  "nombre_alt": "Biblos",
+  "nombre_griego": "Βύβλος",
+  "endonimo": "Gubal",
+  "endonimo_nota": "Fenicio gbl; inscripción de Ahiram (c. 1000 a.C.). Acadio Gubla.",
+  "imagen": null,
+  "tipos": [
+    "Reino"
+  ],
+  "areas": [
+    "levante"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "phoinika-900",
+      "nombre": "Phoinīkā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Reino de Gubal, de la costa bajo el Líbano. Reyes atestiguados por epigrafía propia hacia 900 a.C.: Yehimilk, Abibaal (c. 925), Elibaal (c. 900)."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Βύβλος es adaptación griega de Gubal; βύβλος, «papiro», sale del nombre de la ciudad."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

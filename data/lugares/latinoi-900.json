@@ -1,0 +1,39 @@
+{
+  "id": "latinoi-900",
+  "nombre": "Latīnoi",
+  "nombre_alt": "Latinos (Lacio)",
+  "nombre_griego": "Λατῖνοι",
+  "endonimo": "Latīnī",
+  "endonimo_nota": "Latín; no atestiguado en 900.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "italia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "ausonia-900",
+      "nombre": "Ausoniā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Lacio antiguo, del Tíber a los montes Albanos. Cultura lacial II: aldeas en el Palatino y Alba."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Hesíodo, *Teogonía* 1013 (Latino, hijo de Circe y Odiseo)."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "elisukoi-900",
+  "nombre": "Elisukoi",
+  "nombre_alt": "Elísicos (Languedoc)",
+  "nombre_griego": "Ἐλίσυκοι",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "hiperborea"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "keltoi-900",
+      "nombre": "Keltoi"
+    }
+  ],
+  "descripcion": {
+    "texto": "Del Pirineo al Ródano. Campos de Urnas del Languedoc (Mailhac)."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Hecateo, *FGrHist* 1 F 53; Heródoto 7.165."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

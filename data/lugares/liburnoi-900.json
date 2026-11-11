@@ -1,0 +1,39 @@
+{
+  "id": "liburnoi-900",
+  "nombre": "Liburnoi",
+  "nombre_alt": "Liburnos",
+  "nombre_griego": "Λιβυρνοί",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "grecia-occidental"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "illyrioi-900",
+      "nombre": "Illurioi"
+    }
+  ],
+  "descripcion": {
+    "texto": "Costa e islas del Quarnero al río Krka. Marinos: la tradición les atribuye Corcira antes de los corintios."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Hecateo, *FGrHist* 1 F 93. Estrabón 6.2.4 (Corcira)."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

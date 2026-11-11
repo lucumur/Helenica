@@ -1,0 +1,39 @@
+{
+  "id": "skanitai-900",
+  "nombre": "Skānītai",
+  "nombre_alt": "Escenitas (desierto sirio)",
+  "nombre_griego": "Σκᾱνῖται",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido. Es un nombre descriptivo griego: «los de las tiendas».",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "levante"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "eremboi-900",
+      "nombre": "Eremboi"
+    }
+  ],
+  "descripcion": {
+    "texto": "Desierto sirio entre Damasco y el Éufrates."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Nombre de atestiguación tardía, usado a falta de uno de época: Estrabón 16.1.26 (Σκηνῖται)."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

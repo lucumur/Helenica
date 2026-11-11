@@ -1,0 +1,39 @@
+{
+  "id": "hulloi-900",
+  "nombre": "Hulloi",
+  "nombre_alt": "Hilos (Dalmacia central)",
+  "nombre_griego": "Ὕλλοι",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "grecia-occidental"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "illyrioi-900",
+      "nombre": "Illurioi"
+    }
+  ],
+  "descripcion": {
+    "texto": "Costa e islas del Krka al Neretva."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Pseudo-Escílax 22; Apolonio de Rodas 4.524. El vínculo con Hilo, hijo de Heracles, es etiología griega."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

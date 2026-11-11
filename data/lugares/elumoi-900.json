@@ -1,0 +1,39 @@
+{
+  "id": "elumoi-900",
+  "nombre": "Elumoi",
+  "nombre_alt": "Élimos (Sicilia occidental)",
+  "nombre_griego": "Ἔλυμοι",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "italia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "ausonia-900",
+      "nombre": "Ausoniā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Extremo occidental de Sicilia: Érice, Segesta, Entela."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Tucídides 6.2.3, que les da origen troyano (tradición, no hecho)."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

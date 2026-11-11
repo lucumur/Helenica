@@ -1,0 +1,39 @@
+{
+  "id": "iapodes-900",
+  "nombre": "Iapodes",
+  "nombre_alt": "Yápodes",
+  "nombre_griego": "Ἰάποδες",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "grecia-occidental"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "illyrioi-900",
+      "nombre": "Illurioi"
+    }
+  ],
+  "descripcion": {
+    "texto": "Interior montañoso tras los liburnos: Lika y el alto Una."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Nombre de atestiguación tardía, usado a falta de uno de época: Estrabón 7.5.4. Hecateo (F 97) ya conoce un pueblo de nombre afín."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

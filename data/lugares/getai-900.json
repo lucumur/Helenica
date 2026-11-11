@@ -1,0 +1,39 @@
+{
+  "id": "getai-900",
+  "nombre": "Getai",
+  "nombre_alt": "Getas",
+  "nombre_griego": "Γέται",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "tracia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "thraikes-900",
+      "nombre": "Thrāikes"
+    }
+  ],
+  "descripcion": {
+    "texto": "Entre el Hemo y el Istro, con la costa del Ponto."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Heródoto 4.93–96."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

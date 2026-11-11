@@ -1,0 +1,39 @@
+{
+  "id": "autariatai-900",
+  "nombre": "Autariātai",
+  "nombre_alt": "Autariatas",
+  "nombre_griego": "Αὐταριᾶται",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "grecia-occidental"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "illyrioi-900",
+      "nombre": "Illurioi"
+    }
+  ],
+  "descripcion": {
+    "texto": "Interior: Bosnia oriental y el alto Drina. Cultura de Glasinac."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Nombre de atestiguación tardía, usado a falta de uno de época: Pseudo-Escílax 24; Estrabón 7.5.11."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "tauriskoi-900",
+  "nombre": "Tauriskoi",
+  "nombre_alt": "Tauriscos (Alpes orientales)",
+  "nombre_griego": "Ταυρίσκοι",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "hiperborea"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "keltoi-900",
+      "nombre": "Keltoi"
+    }
+  ],
+  "descripcion": {
+    "texto": "Alpes orientales. Minas de sal de Hallstatt en explotación."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Nombre de atestiguación tardía, usado a falta de uno de época: Polibio 2.15.8."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

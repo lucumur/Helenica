@@ -1,0 +1,39 @@
+{
+  "id": "haniokhoi-900",
+  "nombre": "Hāniokhoi",
+  "nombre_alt": "Heníocos",
+  "nombre_griego": "Ἁ̄νίοχοι",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "colquide"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "aia-900",
+      "nombre": "Aiā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Costa de la actual Abjasia."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Pseudo-Escílax 71; Aristóteles, *Política* 1338b. «Aurigas»: nombre griego, ligado a los Dioscuros por etiología."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

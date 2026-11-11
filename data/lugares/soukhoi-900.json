@@ -1,0 +1,39 @@
+{
+  "id": "soukhoi-900",
+  "nombre": "Soukhoi†",
+  "nombre_alt": "Suju (Éufrates medio)",
+  "nombre_griego": "Σοῦχοι†",
+  "endonimo": "Sūḫu",
+  "endonimo_nota": "Acadio; gobernadores propios en Anat.",
+  "imagen": null,
+  "tipos": [
+    "Reino"
+  ],
+  "areas": [
+    "persia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "babylonia-900",
+      "nombre": "Babulōniā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Éufrates medio, de Hit a Anat: país de Suju, tributario intermitente de Asiria y de Babilonia."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Sin nombre griego: forma helenizada del endónimo, marcada con cruz."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "taulantioi-900",
+  "nombre": "Taulantioi",
+  "nombre_alt": "Taulantios",
+  "nombre_griego": "Ταυλάντιοι",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "grecia-occidental"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "illyrioi-900",
+      "nombre": "Illurioi"
+    }
+  ],
+  "descripcion": {
+    "texto": "Llanura costera del Drin al Aoos. Epidamno aún no existe (627)."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Hecateo, *FGrHist* 1 F 99, 101; Tucídides 1.24."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

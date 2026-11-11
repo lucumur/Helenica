@@ -1,0 +1,39 @@
+{
+  "id": "thunoi-900",
+  "nombre": "Thūnoi",
+  "nombre_alt": "Tinos (Propóntide y Bósforo)",
+  "nombre_griego": "Θῡνοί",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "tracia"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "thraikes-900",
+      "nombre": "Thrāikes"
+    }
+  ],
+  "descripcion": {
+    "texto": "Tracia del sureste, de la Propóntide al mar Negro."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Heródoto 1.28; Jenofonte, *Anábasis* 7.2.22."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

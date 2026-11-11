@@ -191,6 +191,7 @@ def main():
                             continue
                         parts.append(isl.difference(cut_i[i]) if i in cut_i else isl); taken_i.add(i)
                 if not parts:
+                    avisos.append(f'{key} {anio}: {z["ficha"]} no toma ningún terreno (contorno fuera de su zona o tapado por otro)')
                     continue
                 g = unary_union(parts)
                 if padre:
@@ -207,8 +208,34 @@ def main():
                               'poligonos': rings_of(g, 0.003), 'etiqueta': [round(lab.x, 3), round(lab.y, 3)], 'bbox': [round(v, 3) for v in g.bounds]})
             res_t[anio] = out_z
         return res_t, geoms
+    avisos = []
     tier1, t1geom = build_tier('tier1', t0geom)
-    tier2, _ = build_tier('tier2', t1geom)
+    tier2, t2geom = build_tier('tier2', t1geom)
+
+    # Cobertura: qué parte de cada zona cubren sus subdivisiones del tier siguiente, y dónde quedan huecos.
+    def cobertura(nombre, padres_out, padres_geom, hijos_out, hijos_geom):
+        for anio, zs in padres_out.items():
+            hijos = {}
+            for h in hijos_out.get(anio, []):
+                if h.get('padre'):
+                    hijos.setdefault(h['padre'], []).append(hijos_geom[anio][h['ficha']])
+            vacias = [z['ficha'] for z in zs if z['ficha'] not in hijos]
+            if hijos and vacias:
+                avisos.append(f'{nombre} {anio}: {len(vacias)} de {len(zs)} zonas sin subdivisiones' + (': ' + ', '.join(vacias) if len(vacias) <= 12 else ''))
+            for z in zs:
+                hs = hijos.get(z['ficha'])
+                if not hs:
+                    continue
+                pg = padres_geom[anio][z['ficha']]
+                u = unary_union(hs)
+                z['cobertura'] = round(min(1, u.intersection(pg).area / pg.area), 4)
+                gap = pg.difference(u.buffer(0.005))
+                partes = sorted([p for p in (list(gap.geoms) if hasattr(gap, 'geoms') else [gap]) if p.area > 0.003], key=lambda p: -p.area)[:8]
+                z['huecos'] = [[round(p.representative_point().x, 2), round(p.representative_point().y, 2)] for p in partes]
+                if z['cobertura'] < 0.995:
+                    avisos.append(f'{nombre} {anio}: las subdivisiones de {z["ficha"]} cubren el {z["cobertura"] * 100:.1f} %; huecos en ' + ', '.join(f'{h[0]} E {h[1]} N' for h in z['huecos']))
+    cobertura('tier0', tier0, t0geom, tier1, t1geom)
+    cobertura('tier1', tier1, t1geom, tier2, t2geom)
     out = {'schema_version': 1,
            'fuente': 'Generado por scripts/build_mapa.py a partir de zonas.json y tierra.json (Natural Earth, dominio público)',
            'areas': res, 'subareas': subs, 'tier0': tier0, 'tier1': tier1, 'tier2': tier2}
@@ -217,6 +244,8 @@ def main():
     print(f'areas.geo.json: {len(res)} áreas, {len(subs)} subregiones, tier 0: ' + ', '.join(f'{k} ({len(v)})' for k, v in tier0.items())
           + ', tier 1: ' + ', '.join(f'{k} ({len(v)})' for k, v in tier1.items())
           + ', tier 2: ' + ', '.join(f'{k} ({len(v)})' for k, v in tier2.items()))
+    for a in avisos:
+        print('AVISO', a)
 
 
 if __name__ == '__main__':

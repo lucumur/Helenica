@@ -100,6 +100,47 @@ try:
                 warns.append(f'{lab}: la época de la ficha no coincide con la fecha')
             if not r.get('nombre_griego') or not r.get('nombre_alt'):
                 warns.append(f'{lab}: faltan nombre_griego o nombre_alt')
+    # Tiers 1 y 2 por fecha: ficha, escala, época, zona madre con contorno en la misma fecha y contorno bien formado.
+    _Z = json.load(open(os.path.join(DATA, 'mapa', 'zonas.json'), encoding='utf-8'))
+    ESCALA = {'tier0': {'continental'}, 'tier1': {'region'}, 'tier2': {'ethnos', 'dominio'}}
+    SUPERIOR = {'tier1': 'tier0', 'tier2': 'tier1'}
+    con_contorno = {k: {a: {z.get('ficha') for z in zs} for a, zs in (_Z.get(k) or {}).items() if isinstance(zs, list)} for k in ESCALA}
+    for key in ESCALA:
+        for anio, zs in (_Z.get(key) or {}).items():
+            if not isinstance(zs, list):
+                continue
+            vistos = set()
+            for z in zs:
+                lab = f'data/mapa/zonas.json ({key} {anio}, {z.get("ficha")})'
+                if z.get('ficha') in vistos:
+                    errors.append(f'{lab}: ficha repetida en la misma fecha')
+                vistos.add(z.get('ficha'))
+                p = z.get('poligono')
+                anillos = p if isinstance(p, list) and p and isinstance(p[0], list) and p[0] and isinstance(p[0][0], list) else [p]
+                for an in anillos:
+                    if not (isinstance(an, list) and len(an) >= 3 and all(isinstance(c, list) and len(c) == 2 and all(type(x) in (int, float) and math.isfinite(x) for x in c) and -30 <= c[0] <= 80 and 0 <= c[1] <= 70 for c in an)):
+                        errors.append(f'{lab}: contorno inválido (mínimo tres vértices [longitud, latitud])'); break
+                if key == 'tier0':
+                    continue
+                r = lug.get(z.get('ficha'))
+                if r is None:
+                    errors.append(f'{lab}: ficha inexistente'); continue
+                if r.get('escala') not in ESCALA[key]:
+                    errors.append(f'{lab}: la ficha debe tener escala {" o ".join(sorted(ESCALA[key]))}')
+                if (r.get('epoca') or {}).get('anio') != int(anio):
+                    warns.append(f'{lab}: la época de la ficha no coincide con la fecha')
+                if not any(x.get('id') in con_contorno[SUPERIOR[key]].get(anio, set()) for x in r.get('pertenece_a') or []):
+                    warns.append(f'{lab}: pertenece_a no apunta a ninguna zona de {SUPERIOR[key]} con contorno en esa fecha')
+                if not r.get('nombre_griego') or not r.get('nombre_alt'):
+                    warns.append(f'{lab}: faltan nombre_griego o nombre_alt')
+    # Fichas fechadas de tier 0–2 que no tienen contorno en su fecha.
+    for rid, r in lug.items():
+        an = (r.get('epoca') or {}).get('anio')
+        if an is None or not str(rid).endswith(str(an)):
+            continue
+        for key, escalas in ESCALA.items():
+            if r.get('escala') in escalas and str(an) in con_contorno[key] and rid not in con_contorno[key][str(an)]:
+                warns.append(f'data/lugares/{rid}.json: ficha de {key} sin contorno en data/mapa/zonas.json para {an}')
 except Exception as e:
     errors.append(f'data/mapa/zonas.json: no se pudo leer ({e})')
 

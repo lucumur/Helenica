@@ -402,7 +402,7 @@ ${CARAC.map(([k, l, ph]) => k === 'filiacion' ? filRow(rec) : `<label>${E(l)}${t
   }
 
   window.HEL_EDIT = {
-    icon: editIcon,
+    icon: editIcon, readFile, saveFile,
     init() {
       const b = document.getElementById('edit-toggle');
       if (!b) return;

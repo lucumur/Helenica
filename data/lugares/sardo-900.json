@@ -1,10 +1,10 @@
 {
   "id": "sardo-900",
-  "nombre": "Sardō",
-  "nombre_alt": "Cerdeña",
-  "nombre_griego": "Σαρδώ",
+  "nombre": "Sardō y Kurnos",
+  "nombre_alt": "Cerdeña y Córcega",
+  "nombre_griego": "Σαρδὼ καὶ Κύρνος",
   "endonimo": null,
-  "endonimo_nota": "Desconocido. Fenicio šrdn (estela de Nora, s. IX–VIII), primera atestiguación del nombre; exónimo.",
+  "endonimo_nota": "Desconocidos. Sardō: fenicio šrdn (estela de Nora, s. IX–VIII), primera atestiguación del nombre; exónimo. Kurnos: desconocido.",
   "imagen": null,
   "tipos": [
     "Zona continental"
@@ -17,13 +17,13 @@
   "funciones": [],
   "pertenece_a": [],
   "descripcion": {
-    "texto": "Cerdeña nurágica."
+    "texto": "Cerdeña nurágica y Córcega, en su órbita cultural (cultura torreana). Una sola zona en tier 0; en tier 1 se separan las regiones de cada isla."
   },
   "campos": [],
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Σαρδώ, tema en -ō (Heródoto 1.170); no hay forma con ā. Nombre griego arcaico alternativo: Ἰχνοῦσσα, «la huella» (Timeo, en Plinio).\n- La relación con los šrdn (shardana) de los Pueblos del Mar es discutida."
+      "texto": "- Σαρδώ, tema en -ō (Heródoto 1.170); no hay forma con ā. Nombre griego arcaico alternativo: Ἰχνοῦσσα, «la huella» (Timeo, en Plinio).\n- La relación con los šrdn (shardana) de los Pueblos del Mar es discutida.\n- Κύρνος es el nombre griego de Córcega (Heródoto 1.165)."
     }
   ],
   "epoca": {
@@ -50,6 +50,11 @@
           "col": "lugares",
           "id": "iolaeioi-900",
           "nombre": "Iolāeioi"
+        },
+        {
+          "col": "lugares",
+          "id": "kurnioi-900",
+          "nombre": "Kurnioi"
         }
       ]
     }

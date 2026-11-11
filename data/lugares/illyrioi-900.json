@@ -23,7 +23,7 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- El nombre aparece desde Hecateo; la extensión a todo el grupo es posterior."
+      "texto": "- El nombre aparece desde Hecateo; la extensión a todo el grupo es posterior.\n- Alcance de las fuentes: Las fuentes delimitan ámbitos ilirios históricos y discuten su diversidad; no prueban un bloque étnico o lingüístico único en todo el polígono en 900 a.C. Hudluria† es una reconstrucción, no un endónimo territorial atestiguado por estas fuentes."
     }
   ],
   "epoca": {
@@ -77,6 +77,16 @@
           "nombre": "Pannonioi"
         }
       ]
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Estrabón, Geografía 7.5.1–4 — pueblos llamados ilirios y su localización junto al Adriático",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/7E%2A.html#5.1"
+    },
+    {
+      "titulo": "Falileyev, The Silent Europe, Palaeohispanica 20 (2020), pp. 887–919 — onomástica y límites del concepto lingüístico «ilirio»",
+      "url": "https://ifc.dpz.es/recursos/publicaciones/38/77/25falileyev.pdf"
     }
   ]
 }

@@ -23,7 +23,7 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Babilonia, al sur, queda fuera de esta zona."
+      "texto": "- Babilonia, al sur, queda fuera de esta zona.\n- Alcance de las fuentes: La inscripción es contemporánea del entorno de 900 a.C. y respalda el nombre asirio. La síntesis del Met abarca varios siglos: las conquistas posteriores no deben trasladarse a esta fecha; los límites del mapa son aproximados."
     }
   ],
   "epoca": {
@@ -52,6 +52,16 @@
           "nombre": "Atouriā"
         }
       ]
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Royal Inscriptions of Assyria online, Adad-nērārī II 1 (Q006020) — titulatura asiria e inscripción del reinado de 911–891 a.C.",
+      "url": "https://oracc.museum.upenn.edu/riao/Q006020/"
+    },
+    {
+      "titulo": "Metropolitan Museum, Assyria, 1365–609 B.C. — núcleo del Tigris y desarrollo territorial asirio",
+      "url": "https://www.metmuseum.org/essays/assyria-1365-609-b-c"
     }
   ]
 }

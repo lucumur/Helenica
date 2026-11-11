@@ -23,7 +23,7 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Los Παίονες del Axios aparecen en la *Ilíada* (2.848). La alternativa homérica para la llanura, Ἠμαθίη (*Il.* 14.226), tiene forma con ā dudosa."
+      "texto": "- Los Παίονες del Axios aparecen en la *Ilíada* (2.848). La alternativa homérica para la llanura, Ἠμαθίη (*Il.* 14.226), tiene forma con ā dudosa.\n- Alcance de las fuentes: La tradición homérica vincula el nombre con el Axios; es un testimonio arcaico posterior a la fecha del mapa. No acredita que toda la Macedonia posterior y el litoral termaico constituyeran una misma unidad peonia en 900 a.C."
     }
   ],
   "epoca": {
@@ -76,6 +76,16 @@
           "nombre": "Dardanoi"
         }
       ]
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Homero, Ilíada 2.848–850 — Paíones de Amidón, junto al río Axios",
+      "url": "https://www.theoi.com/Text/HomerIliad2.html"
+    },
+    {
+      "titulo": "Falileyev, The Silent Europe (2020), p. 904 — peonios en los valles del Axios/Vardar y Astibos/Bregalnica",
+      "url": "https://ifc.dpz.es/recursos/publicaciones/38/77/25falileyev.pdf"
     }
   ]
 }

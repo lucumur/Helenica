@@ -23,7 +23,7 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- El reino frigio unificado es posterior (s. VIII).\n- La costa egea, griega, pertenece a Akhaiwiā."
+      "texto": "- La formación estatal frigia en Gordion se documenta durante el s. IX; su extensión posterior no debe proyectarse íntegra sobre 900 a.C.\n- La costa egea, griega, pertenece a Akhaiwiā.\n- Alcance de las fuentes: La arqueología de Gordion documenta formación estatal en el s. IX a.C., pero no una Frigia que abarcara toda Anatolia interior. Los reinos luvitas y neohititas incluidos en esta zona son una agrupación del mapa, no provincias frigias demostradas para 900 a.C."
     }
   ],
   "epoca": {
@@ -106,6 +106,20 @@
           "nombre": "Phruges"
         }
       ]
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Homero, Ilíada 2.862–863 — Phrýges y Ascania; testimonio épico arcaico",
+      "url": "https://www.theoi.com/Text/HomerIliad2.html"
+    },
+    {
+      "titulo": "Rose y otros, Fieldwork at Phrygian Gordion, 2016–2023, American Journal of Archaeology (2025) — Gordion como centro frigio en los siglos IX–VII a.C.",
+      "url": "https://ajaonline.org/field-report/fieldwork-at-phrygian-gordion-2016-2023/"
+    },
+    {
+      "titulo": "UNESCO, Gordion — ubicación de la capital frigia en Anatolia central y documentación arqueológica",
+      "url": "https://whc.unesco.org/en/list/1669/"
     }
   ]
 }

@@ -23,7 +23,7 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- La «Syria» griega incluye Palestina (Heródoto: Παλαιστίνη Συρίη); el endónimo Aram cubre solo a los arameos.\n- Los estados luvitas del norte (Karkemish, Pattina, Gurgum) se agrupan con Frigia."
+      "texto": "- La «Syria» griega incluye Palestina (Heródoto: Παλαιστίνη Συρίη); el endónimo Aram cubre solo a los arameos.\n- Los estados luvitas del norte (Karkemish, Pattina, Gurgum) se agrupan con Frigia.\n- Alcance de las fuentes: Suriā es una retroversión del nombre griego posterior. Las fuentes ayudan a localizar Siria y Palestina, pero Aram se refiere al ámbito arameo y no es endónimo colectivo de Israel, Judá, Filistea y todos los demás pueblos incluidos."
     }
   ],
   "epoca": {
@@ -81,6 +81,20 @@
           "nombre": "Arimoi"
         }
       ]
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Estrabón, Geografía 1.2.34 — Sýroi y Aramaîoi en la discusión de los nombres Siria y Aram",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/1B2%2A.html#2.34"
+    },
+    {
+      "titulo": "Heródoto, Historias 3.91 — Fenicia y Siria Palestina hasta los límites de Egipto (s. V a.C.)",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Herodotus/3D%2A.html#91"
+    },
+    {
+      "titulo": "Metropolitan Museum, Eastern Mediterranean, 1000 B.C.–1 A.D. — contexto regional de los reinos arameos y del Levante",
+      "url": "https://www.metmuseum.org/toah/ht/04/wae.html"
     }
   ]
 }

@@ -23,7 +23,7 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Kition (Chipre) se funda hacia 850 y Cartago en 814 según la tradición; ambas son posteriores a esta fecha."
+      "texto": "- Kition (Chipre) se funda hacia 850 y Cartago en 814 según la tradición; ambas son posteriores a esta fecha.\n- Alcance de las fuentes: Las fuentes sitúan el núcleo fenicio en la costa levantina; no documentan un estado territorial común. Phoinīkā es la retroversión dialectal adoptada aquí, no una grafía documentada en 900 a.C."
     }
   ],
   "epoca": {
@@ -57,6 +57,16 @@
           "nombre": "Turos"
         }
       ]
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Homero, Odisea 4.83–85 — Phoiníkē y Sidón; testimonio literario arcaico",
+      "url": "https://www.theoi.com/Text/HomerOdyssey4.html"
+    },
+    {
+      "titulo": "Metropolitan Museum, The Phoenicians (1500–300 B.C.) — nombre griego y costa de Tiro, Sidón, Biblos y Arwad",
+      "url": "https://www.metmuseum.org/essays/the-phoenicians-1500-300-b-c"
     }
   ]
 }

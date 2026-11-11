@@ -23,7 +23,7 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Αἶα es el nombre argonáutico y el más antiguo; Κολχίς es posterior. Ver [Aia](lugares:aia-kolchis)."
+      "texto": "- Αἶα es el nombre argonáutico y el más antiguo; Κολχίς es posterior. Ver [Aia](lugares:aia-kolchis).\n- Alcance de las fuentes: Aia es una localización de la tradición argonáutica, transmitida por fuentes posteriores, no un reino caucásico documentado en 900 a.C. Su relación con el Fasis apoya el núcleo colco; no prueba que todo el Cáucaso ni el horizonte de Koban compartieran ese nombre."
     }
   ],
   "epoca": {
@@ -62,6 +62,20 @@
           "nombre": "Gargarēwes"
         }
       ]
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Estrabón, Geografía 1.2.39–40 — ciudad de Aia junto al Fasis y tradición de Eetes",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/1B2%2A.html#2.39"
+    },
+    {
+      "titulo": "Estrabón, Geografía 11.2.17–19 — Cólquide, Fasis y costa oriental del mar Negro",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/11B%2A.html#2.17"
+    },
+    {
+      "titulo": "Hamburg y Lorenzon, Before Meeting the Greeks: Kutaisi Influence in Late Bronze and Early Iron Age Colchian Settlements (2022), Journal of Field Archaeology — contexto arqueológico de Georgia occidental; registro de la Universidad de Helsinki",
+      "url": "https://researchportal.helsinki.fi/en/publications/before-meeting-the-greeks-kutaisi-influence-in-late-bronze-and-ea/"
     }
   ]
 }

@@ -23,7 +23,7 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Ἐρεμβοί en la *Odisea* (4.84); Estrabón (1.2.34) los identifica con los árabes, identificación antigua pero discutida."
+      "texto": "- Ἐρεμβοί en la *Odisea* (4.84); Estrabón (1.2.34) los identifica con los árabes, identificación antigua pero discutida.\n- Alcance de las fuentes: La identificación de los Eremboi con los árabes es una interpretación antigua discutida. Las fuentes no permiten fijar su territorio en 900 a.C.; su proyección sobre la Arabia noroccidental es una hipótesis cartográfica."
     }
   ],
   "epoca": {
@@ -61,6 +61,20 @@
           "nombre": "Agraioi"
         }
       ]
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Homero, Odisea 4.83–85 — primera mención literaria de los Eremboí, sin localización precisa",
+      "url": "https://www.theoi.com/Text/HomerOdyssey4.html"
+    },
+    {
+      "titulo": "Estrabón, Geografía 1.2.34 — discusión de Eremboí y su identificación con los árabes",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/1B2%2A.html#2.34"
+    },
+    {
+      "titulo": "Estrabón, Geografía 16.4.27 — interpretaciones de Eremboí, árabes y trogloditas",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/16D%2A.html#4.27"
     }
   ]
 }

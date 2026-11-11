@@ -5,6 +5,8 @@
   'use strict';
   const LON0 = -10, LAT0 = 48.5, LON1 = 46, LAT1 = 24, COS = Math.cos(38 * Math.PI / 180), U = 100;
   const W = (LON1 - LON0) * COS * U, H = (LAT0 - LAT1) * U;
+  // Margen gris a la derecha (25 % del ancho) para poder correr el mapa cuando la ficha lateral tapa el borde este.
+  const XR = W * 1.25;
   const P = ([lon, lat]) => [(lon - LON0) * COS * U, (LAT0 - lat) * U];
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const fold = s => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
@@ -153,7 +155,7 @@ ${physicalSVG(D, opts.selectedId)}
     const offmap = ['inframundo', 'geografia-mitica', 'hiperborea', 'aithiopia'].filter(a => D.areaInfo.has(a));
     main.innerHTML = `
 <div class="atlas">
-  <svg id="map" viewBox="0 0 ${W} ${H}" role="application" aria-label="Mapa del mundo helénico">${baseSVG(D)}
+  <svg id="map" viewBox="0 0 ${W} ${H}" role="application" aria-label="Mapa del mundo helénico">${baseSVG(D)}<rect class="pad" x="${W}" y="${-H}" width="${2 * W}" height="${3 * H}"/><path class="pad-edge" d="M${W} ${-H}V${2 * H}"/>
     <g class="seas"></g><g class="slabels"></g><g class="alabels"></g><g class="z1labels"></g><g class="z2labels"></g><g class="z0labels"></g><g class="sites"></g><g class="hl"></g><g class="bedit"></g>
   </svg>
   <div class="ui tl">
@@ -173,7 +175,7 @@ ${physicalSVG(D, opts.selectedId)}
 <p class="atlas-src">Costa y agua de base: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>. Trazados fluviales: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL). Macizos: <a href="https://doi.org/10.48601/earthenv-t9k2-1407" target="_blank" rel="noopener">GMBA Mountain Inventory v2</a> (CC BY 4.0). Las extensiones son cartográficas y aproximadas; los cauces modernos no reconstruyen sus cambios antiguos. Las fronteras regionales son convencionales. Subregiones desde el nivel 3; choras, ethne, cauces y extensiones montañosas desde el nivel 4; asentamientos, cada isla del Egeo e iconos y nombres de ríos y montes, desde el nivel 5. En el nivel 1, las fechas con zonas continentales (tier 0) las muestran en lugar de las áreas; en los niveles 2 y 3, las fechas con regiones (tier 1) las muestran en lugar de las áreas.</p>`;
     const svg = main.querySelector('#map'), panel = main.querySelector('#panel'), tip = main.querySelector('#tip');
     const gSites = svg.querySelector('.sites'), gLab = svg.querySelector('.alabels'), gSeas = svg.querySelector('.seas'), gHl = svg.querySelector('.hl');
-    let view = [0, 0, W, H], selArea = null, selSite = null, T = '-300';
+    let view = [0, 0, W, H], selArea = null, selSite = null, T = '-900';
     const gSL = svg.querySelector('.slabels');
     const OWN = { achaia: 'achaia', elis: 'elis', messenia: 'messenia', lakonia: 'esparta', arkadia: 'arkadia', argolis: 'argos', korinthia: 'corinto' };
     gSL.innerHTML = Object.entries(D.subs).map(([id, s]) => { const [x, y] = P(s.etiqueta); return `<g class="slb" data-sub="${id}" data-x="${x}" data-y="${y}"><text class="n" text-anchor="middle">${esc(s.nombre)}</text><text class="p" text-anchor="middle" dy="13"></text></g>`; }).join('');
@@ -352,7 +354,7 @@ ${physicalSVG(D, opts.selectedId)}
       if (h > H) { h = H; w = h / asp; }
       const cx = v[0] + v[2] / 2, cy = v[1] + v[3] / 2;
       let x = cx - w / 2, y = cy - h / 2;
-      x = Math.max(Math.min(x, W - w), Math.min(0, W - w)); y = Math.max(Math.min(y, H - h), Math.min(0, H - h));
+      x = Math.max(Math.min(x, XR - w), Math.min(0, W - w)); y = Math.max(Math.min(y, H - h), Math.min(0, H - h));
       return [x, y, w, h];
     }
     function setView(v, animate) {

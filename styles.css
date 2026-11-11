@@ -179,6 +179,7 @@ body.embed main.wrap{padding:14px 0 40px}
 .peek-t{flex:1;font:600 1.05rem var(--serif);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .peek-bar button,.peek-bar a{font:inherit;font-size:.85rem;border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:3px 11px;cursor:pointer;color:inherit;text-decoration:none}
 .peek-bar [data-a=x]{font-size:1.1rem;line-height:1;padding:3px 10px}
+.peek[hidden],.peek-bg[hidden]{display:none}
 .peek iframe{flex:1;border:0;width:100%;background:var(--paper)}
 body.peek-docked{padding-right:var(--peek-w)}
 #out .peeked{outline:2px solid var(--accent,#a8461f);outline-offset:-2px}

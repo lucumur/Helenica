@@ -64,6 +64,24 @@
       "refs": []
     },
     {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo con veranos cálidos y secos e inviernos suaves; el sector más lluvioso de las tierras bajas del Peloponeso, por su fachada al mar Jónico.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "La Élide hueca (Κοίλη Ἦλις): llanura aluvial del Peneo con lagunas costeras; al este, la meseta de Fóloe y el borde del [Erimanto](lugares:oros-erymanthos-arkadia); cabo Quelonatas (Cilene) al oeste; colinas de la Pisátide en torno a Olimpia (monte Cronio).",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "[Peneo](lugares:peneios-elis) (eje de la Élide hueca); [Alfeo](lugares:alpheios-elis), el río mayor del Peloponeso, como frontera sur; el Cladeo, que pasa por Olimpia.",
+      "refs": []
+    },
+    {
       "clave": "santuario",
       "etiqueta": "Santuario principal",
       "texto": "Olimpia: exvotos desde fines del s. X o el IX",
@@ -91,7 +109,7 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- En Homero, Ἐπειοί y Ἠλεῖοι designan al mismo pueblo dentro del relato de Néstor (Il. 11.671 y siguientes).\n- Pausanias (5.4.1–2): Óxilo no expulsa a los epeos; les deja sus tierras y asienta etolios entre ellos. Es convivencia, no conquista.\n- Ϝαλεῖοι está atestiguado en bronces de Olimpia del s. VI. Relacionar Ϝᾶλις con «valle» (lat. *vallis*) es una propuesta no segura.\n- La Pisátide entra como zona de frontera: ya en la Antigüedad se dudaba de que Pisa fuera una entidad política. Ver [Pisātai](lugares:pisatai-900).\n- Hacia 600 a.C. los epeos desaparecen de la capa étnica y los eleos ocupan las dos.\n- Gobernantes que da la tradición o la épica: Óxilo → Laias; después, laguna hasta Ífito (Paus. 5.4) (C).\n- (C): dato de tradición sin respaldo independiente. Los nombres de líderes salen de listas dinásticas o de la épica: son memoria, no historia comprobada."
+      "texto": "- En Homero, Ἐπειοί y Ἠλεῖοι designan al mismo pueblo dentro del relato de Néstor (Il. 11.671 y siguientes).\n- Pausanias (5.4.1–2): Óxilo no expulsa a los epeos; les deja sus tierras y asienta etolios entre ellos. Es convivencia, no conquista.\n- Ϝαλεῖοι está atestiguado en bronces de Olimpia del s. VI. Relacionar Ϝᾶλις con «valle» (lat. *vallis*) es una propuesta no segura.\n- La Pisátide entra como zona de frontera: ya en la Antigüedad se dudaba de que Pisa fuera una entidad política. Ver [Pisātai](lugares:pisatai-900).\n- Hacia 600 a.C. los epeos desaparecen de la capa étnica y los eleos ocupan las dos.\n- Gobernantes que da la tradición o la épica: Óxilo → Laias; después, laguna hasta Ífito (Paus. 5.4) (C).\n- Rasgos generales del clima actual; para 900 a.C. se asumen similares. La sequía del colapso (c. 1200–850 en el Mediterráneo oriental) es un debate abierto a escala local.\n- (C): dato de tradición sin respaldo independiente. Los nombres de líderes salen de listas dinásticas o de la épica: son memoria, no historia comprobada."
     }
   ],
   "epoca": {

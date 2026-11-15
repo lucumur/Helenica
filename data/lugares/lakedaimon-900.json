@@ -64,6 +64,24 @@
       "refs": []
     },
     {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo con contraste: valle del Eurotas de veranos muy cálidos e inviernos frescos; nieve en el Taigeto hasta la primavera; cabo Malea seco y ventoso.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "«La hueca Lacedemonia, llena de barrancos» (κοίλη Λακεδαίμων κητώεσσα, Il. 2.581): el valle del Eurotas entre el [Taigeto](lugares:taygetos-lakonia) (2.407 m) y el [Parnón](lugares:parnon-lakonia); llanura y marismas de Helos en la desembocadura; las penínsulas de Ténaro y Malea; Citera.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "Eurotas y su afluente el Enunte; marismas de Helos.",
+      "refs": []
+    },
+    {
       "clave": "santuario",
       "etiqueta": "Santuario principal",
       "texto": "Amiclas: exvotos protogeométricos",
@@ -91,7 +109,7 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Protogeométrico laconio: muy conservador, prolongado hasta mediados del s. VIII y aislado (Coulson, *BSA* 80, 1985).\n- El Menelaion de Terapne recibe culto heroico desde el s. VIII, no en 900.\n- Dominio heroico de Menelao (Il. 2.581–590): Esparta, Amiclas, Helos, Las, Etilo y Faris; Citera.\n- Gobernantes que da la tradición o la épica: Equéstrato (Agíada) / Euripón (Euripóntida), según la cronología tradicional (C).\n- (C): dato de tradición sin respaldo independiente. Los nombres de líderes salen de listas dinásticas o de la épica: son memoria, no historia comprobada."
+      "texto": "- Protogeométrico laconio: muy conservador, prolongado hasta mediados del s. VIII y aislado (Coulson, *BSA* 80, 1985).\n- El Menelaion de Terapne recibe culto heroico desde el s. VIII, no en 900.\n- Dominio heroico de Menelao (Il. 2.581–590): Esparta, Amiclas, Helos, Las, Etilo y Faris; Citera.\n- Gobernantes que da la tradición o la épica: Equéstrato (Agíada) / Euripón (Euripóntida), según la cronología tradicional (C).\n- Rasgos generales del clima actual; para 900 a.C. se asumen similares. La sequía del colapso (c. 1200–850 en el Mediterráneo oriental) es un debate abierto a escala local.\n- (C): dato de tradición sin respaldo independiente. Los nombres de líderes salen de listas dinásticas o de la épica: son memoria, no historia comprobada."
     }
   ],
   "epoca": {

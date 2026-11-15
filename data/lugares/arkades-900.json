@@ -64,6 +64,24 @@
       "refs": []
     },
     {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo de montaña con rasgo continental: inviernos fríos con nieve y las lluvias más altas de la península.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Macizos de Cilene (2.374 m), [Erimanto](lugares:oros-erymanthos-arkadia), [Aroania](lugares:ore-aroania-arkadia), [Ménalo](lugares:oros-mainalon-arkadia), [Liceo](lugares:oros-lykaion) y [Partenio](lugares:oros-parthenion-arkadia); mesetas cerradas a unos 650 m (Tegea y Mantinea) y cuencas kársticas (Estínfalo, Feneo, Orcómeno); la cuenca de Megalópolis.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "Nacimiento del [Alfeo](lugares:alpheios-elis) y su gran afluente el [Ladón](lugares:ladon-arkadia); el [Erimanto](lugares:erymanthos-arkadia); el Helisonte; lagos estacionales de Estínfalo y Feneo, que desaguan por sumideros kársticos (katavothres); la [Estigia](lugares:cascada-de-styx-de-nonakris-arkadia).",
+      "refs": []
+    },
+    {
       "clave": "santuario",
       "etiqueta": "Santuario principal",
       "texto": "[Monte Liceo](lugares:oros-lykaion): altar de ceniza con depósitos desde la Edad del Bronce",
@@ -91,7 +109,7 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Pausanias (8.27.4) cuenta también Kynourioi arcadios (Gortis, Teutis…) entre los sinecizados en Megalópolis.\n- Zona de baja visibilidad arqueológica en el Protogeométrico; Tegea recibe influencias laconias y argivas.\n- Gobernantes que da la tradición o la épica: Bucolión / Fíalo, en la lista real de Pausanias 8.5 (C).\n- (C): dato de tradición sin respaldo independiente. Los nombres de líderes salen de listas dinásticas o de la épica: son memoria, no historia comprobada."
+      "texto": "- Pausanias (8.27.4) cuenta también Kynourioi arcadios (Gortis, Teutis…) entre los sinecizados en Megalópolis.\n- Zona de baja visibilidad arqueológica en el Protogeométrico; Tegea recibe influencias laconias y argivas.\n- Gobernantes que da la tradición o la épica: Bucolión / Fíalo, en la lista real de Pausanias 8.5 (C).\n- Rasgos generales del clima actual; para 900 a.C. se asumen similares. La sequía del colapso (c. 1200–850 en el Mediterráneo oriental) es un debate abierto a escala local.\n- (C): dato de tradición sin respaldo independiente. Los nombres de líderes salen de listas dinásticas o de la épica: son memoria, no historia comprobada."
     }
   ],
   "epoca": {

@@ -64,6 +64,24 @@
       "refs": []
     },
     {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "El más seco del Peloponeso: veranos calurosos y lluvias escasas, a sotavento de Arcadia. Homero la llama «Argos la muy sedienta» (πολυδίψιον Ἄργος, Il. 4.171).",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Llanura aluvial argiva (Argos, Tirinto, Nauplia) con la ciénaga de Lerna; montes Artemisio y Lirceo al oeste y Aracneo al este; la colina de Larisa; la península de la Akté y el volcán de Metana.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "Ríos estacionales: Ínaco y Caradro; manantiales permanentes: Erasino (según la creencia antigua, el desagüe de Estínfalo, Hdt. 6.76) y las fuentes de Lerna con el [Pontino](lugares:pontinos-lerna-2). El mito de Poseidón secando los ríos argivos explica su escasez (Paus. 2.15.5).",
+      "refs": []
+    },
+    {
       "clave": "santuario",
       "etiqueta": "Santuario principal",
       "texto": "Sin santuario regional claro: el Hereo es del s. VIII",
@@ -91,7 +109,7 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Danaoi: término épico genérico para la población pre-doria cuyo endónimo se perdió. Respaldo de época: la tierra de *Tanaja* en la lista de Kom el-Hetan (ver [Danaia](lugares:danaia-1250)).\n- La cuarta tribu argiva, los Hyrnathioi, lleva el epónimo de Hirneto, hija de Témeno: el sustrato entra en el sistema dorio por vía materna y pierde su propio nombre (compárese con los Aigialeis de Sición, Hdt. 5.68).\n- Asine es dríope e independiente hasta su destrucción por Argos (c. 710).\n- Epidauro: Pitireo, descendiente de Ion, la entrega a Deifontes sin combate (Paus. 2.26.2).\n- Micenas es una aldea en la órbita de Argos; para el dominio heroico, ver [Mukānai](lugares:mukanai-900).\n- Dominio heroico de Diomedes (Il. 2.559–568): Argos, Tirinto, Hermíone, Asine, Trecén, Eíones, Epidauro, Egina y Mases.\n- Gobernantes que da la tradición o la épica: Temenidas: Ciso → Medón, rey «solo de nombre» (Paus. 2.19.2).\n- (C): dato de tradición sin respaldo independiente. Los nombres de líderes salen de listas dinásticas o de la épica: son memoria, no historia comprobada."
+      "texto": "- Danaoi: término épico genérico para la población pre-doria cuyo endónimo se perdió. Respaldo de época: la tierra de *Tanaja* en la lista de Kom el-Hetan (ver [Danaia](lugares:danaia-1250)).\n- La cuarta tribu argiva, los Hyrnathioi, lleva el epónimo de Hirneto, hija de Témeno: el sustrato entra en el sistema dorio por vía materna y pierde su propio nombre (compárese con los Aigialeis de Sición, Hdt. 5.68).\n- Asine es dríope e independiente hasta su destrucción por Argos (c. 710).\n- Epidauro: Pitireo, descendiente de Ion, la entrega a Deifontes sin combate (Paus. 2.26.2).\n- Micenas es una aldea en la órbita de Argos; para el dominio heroico, ver [Mukānai](lugares:mukanai-900).\n- Dominio heroico de Diomedes (Il. 2.559–568): Argos, Tirinto, Hermíone, Asine, Trecén, Eíones, Epidauro, Egina y Mases.\n- Gobernantes que da la tradición o la épica: Temenidas: Ciso → Medón, rey «solo de nombre» (Paus. 2.19.2).\n- Rasgos generales del clima actual; para 900 a.C. se asumen similares. La sequía del colapso (c. 1200–850 en el Mediterráneo oriental) es un debate abierto a escala local.\n- (C): dato de tradición sin respaldo independiente. Los nombres de líderes salen de listas dinásticas o de la épica: son memoria, no historia comprobada."
     }
   ],
   "epoca": {

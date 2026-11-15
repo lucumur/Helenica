@@ -154,9 +154,10 @@ ${txt('fe-stxt', x.texto, 4, 'Texto')}${linkBtn}</div>`;
   // Ficha de región (tiers 0–2): mismas «campos», con estas claves. «gobierno» se comparte con las características de eupolis.
   const RCAMP = [['cultura_primaria', 'Cultura primaria', 'Élite o grupo dominante'], ['cultura_base', 'Cultura base', 'Población mayoritaria'],
     ['cultura_sustrato', 'Cultura sustrato', 'Capa anterior'], ['idioma', 'Idioma', 'Dialecto, atestiguado o retroproyectado'],
-    ['poblacion', 'Población', 'Muy baja, baja, media, alta'], ['santuario', 'Santuario principal', 'Lugar y evidencia'],
+    ['poblacion', 'Población', 'Muy baja, baja, media, alta'], ['clima', 'Clima', 'Rasgos del clima'],
+    ['topografia', 'Topografía', 'Montañas, llanuras, desiertos de importancia'], ['hidrografia', 'Hidrografía', 'Ríos, lagos, fuentes'], ['santuario', 'Santuario principal', 'Lugar y evidencia'],
     ['grupo_cultual', 'Grupo cultual', 'Divinidad o tipo de culto'], ['lider', 'Nombre del líder', 'Cómo se llama al gobernante: wanax, basileus, archagetas…']];
-  const RORDER = ['cultura_primaria', 'cultura_base', 'cultura_sustrato', 'idioma', 'poblacion', 'santuario', 'grupo_cultual', 'gobierno', 'lider'];
+  const RORDER = ['cultura_primaria', 'cultura_base', 'cultura_sustrato', 'idioma', 'poblacion', 'clima', 'topografia', 'hidrografia', 'santuario', 'grupo_cultual', 'gobierno', 'lider'];
   // Filiación: phylai (entes con tipo «Phylai») elegidas como chips, más una nota libre a la derecha.
   const phylai = () => REF.I.items.filter(i => i.c === 'entes' && (i.t || []).includes('Phylai')).sort((a, b) => a.n.localeCompare(b.n));
   let NEW_PH = [];

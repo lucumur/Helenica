@@ -64,6 +64,24 @@
       "refs": []
     },
     {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo seco: costa oriental a sotavento del Parnón.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Vertiente oriental del [Parnón](lugares:parnon-lakonia), abrupta hasta el mar; pequeñas llanuras costeras: la Tireátide (Astros) y la de Prasias.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "Tano, frontera entre Argos y la Tireátide (Paus. 2.38.7); torrentes cortos del Parnón.",
+      "refs": []
+    },
+    {
       "clave": "santuario",
       "etiqueta": "Santuario principal",
       "texto": "Desconocido",
@@ -91,7 +109,7 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Nunca fue región con identidad material propia: es un territorio definido por sus vecinos.\n- Ninguna localidad cinuria figura en el Catálogo de las Naves, ni con Diomedes ni con Menelao.\n- Heródoto (8.73): jonios autóctonos, dorizados «bajo el gobierno argivo y con el tiempo». La Tireátide es argiva hasta la Batalla de los Campeones (c. 546; Hdt. 1.82) y después lacedemonia.\n- (C): dato de tradición sin respaldo independiente. Los nombres de líderes salen de listas dinásticas o de la épica: son memoria, no historia comprobada."
+      "texto": "- Nunca fue región con identidad material propia: es un territorio definido por sus vecinos.\n- Ninguna localidad cinuria figura en el Catálogo de las Naves, ni con Diomedes ni con Menelao.\n- Heródoto (8.73): jonios autóctonos, dorizados «bajo el gobierno argivo y con el tiempo». La Tireátide es argiva hasta la Batalla de los Campeones (c. 546; Hdt. 1.82) y después lacedemonia.\n- Rasgos generales del clima actual; para 900 a.C. se asumen similares. La sequía del colapso (c. 1200–850 en el Mediterráneo oriental) es un debate abierto a escala local.\n- (C): dato de tradición sin respaldo independiente. Los nombres de líderes salen de listas dinásticas o de la épica: son memoria, no historia comprobada."
     }
   ],
   "epoca": {

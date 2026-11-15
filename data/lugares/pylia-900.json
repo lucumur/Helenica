@@ -64,6 +64,24 @@
       "refs": []
     },
     {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo húmedo en la costa occidental; llanura de Mesenia con veranos muy cálidos; nieve en el Taigeto buena parte del invierno.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Llanura de Mesenia (alta, Esteniclaro; baja, Macaria); la sierra del [Egaleo](lugares:aigaleos-messenia), que dividía las dos provincias de Pilo; el [Itome](lugares:ithome-messenia); el [Taigeto](lugares:taygetos-lakonia) como límite oriental; franja costera trifilia con lagunas (Caiafa); bahía de Navarino con Esfacteria; cabo Acritas.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "[Pamiso](lugares:pamisos-messenia) (llanura de Mesenia); Neda, entre Trifilia y Mesenia; Anigro, en Trifilia; [Alfeo](lugares:alpheios-elis) como frontera norte.",
+      "refs": []
+    },
+    {
       "clave": "santuario",
       "etiqueta": "Santuario principal",
       "texto": "Desconocido",
@@ -91,7 +109,7 @@
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Despoblamiento drástico de Mesenia occidental tras el palacio de Ano Englianós (Davis ed., *Sandy Pylos*, 1998). El asentamiento mejor conocido de la Edad Oscura es Nichoria, en el interior.\n- Kaukōnes: Od. 3.366; Hdt. 4.148; Estrabón 8.3.17–19. Heródoto (1.147) llama «caucones pilios» a los Codridas que encabezan la migración jonia.\n- «Trifilia» es una construcción del s. IV a.C. (Nielsen 1997) y Mesene como ciudad es del 369 a.C.: los dos nombres son anacrónicos para esta fecha.\n- Sustituye en el mapa a [Messānā](lugares:messana-900) y a la parte trifilia de [Pisātai](lugares:pisatai-900).\n- Gobernantes que da la tradición o la épica: — (Aipýtidas, sin nombre seguro para esta fecha) (C).\n- (C): dato de tradición sin respaldo independiente. Los nombres de líderes salen de listas dinásticas o de la épica: son memoria, no historia comprobada."
+      "texto": "- Despoblamiento drástico de Mesenia occidental tras el palacio de Ano Englianós (Davis ed., *Sandy Pylos*, 1998). El asentamiento mejor conocido de la Edad Oscura es Nichoria, en el interior.\n- Kaukōnes: Od. 3.366; Hdt. 4.148; Estrabón 8.3.17–19. Heródoto (1.147) llama «caucones pilios» a los Codridas que encabezan la migración jonia.\n- «Trifilia» es una construcción del s. IV a.C. (Nielsen 1997) y Mesene como ciudad es del 369 a.C.: los dos nombres son anacrónicos para esta fecha.\n- Sustituye en el mapa a [Messānā](lugares:messana-900) y a la parte trifilia de [Pisātai](lugares:pisatai-900).\n- Gobernantes que da la tradición o la épica: — (Aipýtidas, sin nombre seguro para esta fecha) (C).\n- Rasgos generales del clima actual; para 900 a.C. se asumen similares. La sequía del colapso (c. 1200–850 en el Mediterráneo oriental) es un debate abierto a escala local.\n- (C): dato de tradición sin respaldo independiente. Los nombres de líderes salen de listas dinásticas o de la épica: son memoria, no historia comprobada."
     }
   ],
   "epoca": {

@@ -177,7 +177,7 @@ ${physicalSVG(D, opts.selectedId)}
     const gSites = svg.querySelector('.sites'), gLab = svg.querySelector('.alabels'), gSeas = svg.querySelector('.seas'), gHl = svg.querySelector('.hl');
     let view = [0, 0, W, H], selArea = null, selSite = null, T = '-900';
     const gSL = svg.querySelector('.slabels');
-    const RFIELDS = ['cultura_primaria', 'cultura_base', 'cultura_sustrato', 'idioma', 'poblacion', 'santuario', 'grupo_cultual', 'gobierno', 'lider'];
+    const RFIELDS = ['cultura_primaria', 'cultura_base', 'cultura_sustrato', 'idioma', 'poblacion', 'clima', 'topografia', 'hidrografia', 'santuario', 'grupo_cultual', 'gobierno', 'lider'];
     const OWN = { achaia: 'achaia', elis: 'elis', messenia: 'messenia', lakonia: 'esparta', arkadia: 'arkadia', argolis: 'argos', korinthia: 'corinto' };
     gSL.innerHTML = Object.entries(D.subs).map(([id, s]) => { const [x, y] = P(s.etiqueta); return `<g class="slb" data-sub="${id}" data-x="${x}" data-y="${y}"><text class="n" text-anchor="middle">${esc(s.nombre)}</text><text class="p" text-anchor="middle" dy="13"></text></g>`; }).join('');
     const per = () => T && D.per.periodos.find(p => p.id === T);

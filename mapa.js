@@ -177,6 +177,7 @@ ${physicalSVG(D, opts.selectedId)}
     const gSites = svg.querySelector('.sites'), gLab = svg.querySelector('.alabels'), gSeas = svg.querySelector('.seas'), gHl = svg.querySelector('.hl');
     let view = [0, 0, W, H], selArea = null, selSite = null, T = '-900';
     const gSL = svg.querySelector('.slabels');
+    const RFIELDS = ['cultura_primaria', 'cultura_base', 'cultura_sustrato', 'idioma', 'poblacion', 'santuario', 'grupo_cultual', 'gobierno', 'lider'];
     const OWN = { achaia: 'achaia', elis: 'elis', messenia: 'messenia', lakonia: 'esparta', arkadia: 'arkadia', argolis: 'argos', korinthia: 'corinto' };
     gSL.innerHTML = Object.entries(D.subs).map(([id, s]) => { const [x, y] = P(s.etiqueta); return `<g class="slb" data-sub="${id}" data-x="${x}" data-y="${y}"><text class="n" text-anchor="middle">${esc(s.nombre)}</text><text class="p" text-anchor="middle" dy="13"></text></g>`; }).join('');
     const per = () => T && D.per.periodos.find(p => p.id === T);
@@ -447,9 +448,16 @@ ${row('Nombre tradicional', z.nombre_alt)}${row('Griego transliterado', z.nombre
 ${i.r ? `<p>${esc(i.r)}</p>` : ''}
 ${lin.length ? `<p class="kv"><b>Otras fechas</b> ${lin.map(x => `<button type="button" class="lnk" data-rel="${esc(x.id)}" data-y="${x.ep}">${fmtY(x.ep)} · ${esc(x.n)}</button>`).join(' &nbsp; ')}</p>` : ''}
 <div class="acts"><a class="btn" href="${ficha('lugares', id)}">Abrir ficha ↗</a>${editBtn(id)}<button type="button" class="btn ghost edit-only" data-border="${esc(id)}">⬡ Editar frontera</button></div>
+<div class="rf"></div>
 ${z.cobertura != null ? `<p class="edit-only cob${z.cobertura < 0.995 ? ' warn' : ''}">Sus subdivisiones cubren el ${(Math.floor(z.cobertura * 1000) / 10).toFixed(1)} %.${(z.huecos || []).length ? ` Huecos: ${z.huecos.map((h, n) => `<button type="button" class="lnk" data-fly="${h[0]},${h[1]}">${n + 1}</button>`).join(' ')}` : ''}</p>` : ''}
 <div class="parts"></div>`;
       panel.hidden = false;
+      // Ficha de región (tiers 0–2): cultura, idioma, población, culto, gobierno y líder, leídos de la ficha.
+      window.HEL.getJSON(`data/lugares/${id}.json`).then(rec => {
+        const el = panel.querySelector('.rf'); if (selZone !== id || !el) return;
+        const plain = t => String(t || '').replace(/\[([^\]]+)\]\([^)]*\)/g, '$1').replace(/[*_]/g, '');
+        el.innerHTML = RFIELDS.map(k => (rec.campos || []).find(c => c.clave === k && c.texto)).filter(Boolean).map(c => row(esc(c.etiqueta), plain(c.texto))).join('');
+      }).catch(() => {});
       svg.classList.add('has-sel');
       svg.querySelectorAll('.z0').forEach(n => n.classList.toggle('sel', n.dataset.z0 === id));
       svg.querySelectorAll('.z1').forEach(n => n.classList.toggle('sel', n.dataset.z1 === id));

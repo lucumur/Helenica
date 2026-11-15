@@ -151,6 +151,12 @@ ${txt('fe-stxt', x.texto, 4, 'Texto')}${linkBtn}</div>`;
   const CARAC = [['filiacion', 'Filiación', 'Dríopes, jonios, dorios, aqueos…'], ['ocupacion', 'Ocupación', 'Desde cuándo está habitada'],
     ['gobierno', 'Gobierno', 'Rey, subordinación, buleuterion, oligarquía…'], ['defensa', 'Defensa', 'Amurallada, doble amurallada, acrópolis…'],
     ['mercado', 'Mercado', 'Ágora, puerto, punto de comercio…'], ['alimento', 'Alimento', 'Cultivos y pastoreo (si es relevante)']];
+  // Ficha de región (tiers 0–2): mismas «campos», con estas claves. «gobierno» se comparte con las características de eupolis.
+  const RCAMP = [['cultura_primaria', 'Cultura primaria', 'Élite o grupo dominante'], ['cultura_base', 'Cultura base', 'Población mayoritaria'],
+    ['cultura_sustrato', 'Cultura sustrato', 'Capa anterior'], ['idioma', 'Idioma', 'Dialecto, atestiguado o retroproyectado'],
+    ['poblacion', 'Población', 'Muy baja, baja, media, alta'], ['santuario', 'Santuario principal', 'Lugar y evidencia'],
+    ['grupo_cultual', 'Grupo cultual', 'Divinidad o tipo de culto'], ['lider', 'Nombre del líder', 'Dinastía o nombre; (C) si solo es tradición']];
+  const RORDER = ['cultura_primaria', 'cultura_base', 'cultura_sustrato', 'idioma', 'poblacion', 'santuario', 'grupo_cultual', 'gobierno', 'lider'];
   // Filiación: phylai (entes con tipo «Phylai») elegidas como chips, más una nota libre a la derecha.
   const phylai = () => REF.I.items.filter(i => i.c === 'entes' && (i.t || []).includes('Phylai')).sort((a, b) => a.n.localeCompare(b.n));
   let NEW_PH = [];
@@ -193,6 +199,9 @@ ${txt('fe-stxt', x.texto, 4, 'Texto')}${linkBtn}</div>`;
 <section><h4>Descripción</h4>${txt('f-desc', (rec.descripcion && rec.descripcion.texto) || '', 3)}${linkBtn}</section>
 <section><h4>Características <small>— sobre todo para eupoleis (tier 3); markdown, vacío = no se guarda</small></h4>
 ${CARAC.map(([k, l, ph]) => k === 'filiacion' ? filRow(rec) : `<label>${E(l)}${txt('f-c-' + k, ((rec.campos || []).find(c => c.clave === k) || {}).texto || '', 2, ph)}</label>`).join('')}
+</section>
+<section><h4>Ficha de región <small>— regiones, ethne y dominios (tiers 0–2); el gobierno se escribe arriba, en Características; vacío = no se guarda</small></h4>
+${RCAMP.map(([k, l, ph]) => `<label>${E(l)}${txt('f-r-' + k, ((rec.campos || []).find(c => c.clave === k) || {}).texto || '', 2, ph)}</label>`).join('')}
 </section>
 <section><h4>Contiene <small>— sub-regiones del tier inferior, en grupos</small></h4>
 <p class="hint">Al guardar, cada lugar añadido pasa a «pertenecer a» esta ficha, y cada lugar quitado deja de hacerlo.</p>
@@ -287,11 +296,17 @@ ${CARAC.map(([k, l, ph]) => k === 'filiacion' ? filRow(rec) : `<label>${E(l)}${t
         contiene: $$('.fe-grupo').map(g => ({ grupo: g.querySelector('.fe-gname').value.trim(), nota: g.querySelector('.fe-gnota').value.trim() || null,
           lugares: [...g.querySelectorAll('.fe-li')].filter(r => r.dataset.id).map(r => ({ col: 'lugares', id: r.dataset.id, nombre: name(r.dataset.id), ...(r.querySelector('.fe-nota').value.trim() ? { nota: r.querySelector('.fe-nota').value.trim() } : {}) })) }))
           .filter(g => g.grupo || g.lugares.length) };
-      const keep = (rec.campos || []).filter(c => !CARAC.some(([k]) => k === c.clave));
+      const keep = (rec.campos || []).filter(c => !CARAC.some(([k]) => k === c.clave) && !RCAMP.some(([k]) => k === c.clave));
       const phSel = $$('.fe-ph .fe-chip').map(ch => ({ col: 'entes', id: ch.dataset.v, nombre: ch.firstChild.textContent.trim() }));
       const phNota = $('.f-fil-nota').value.trim(), phLinks = phSel.map(r => `[${r.nombre}](entes:${r.id})`).join(', ');
       const fil = phSel.length || phNota ? [{ clave: 'filiacion', etiqueta: 'Filiación', texto: phLinks && phNota ? `${phLinks} — ${phNota}` : phLinks || phNota, refs: phSel, nota: phNota }] : [];
-      obj.campos = [...fil, ...keep, ...CARAC.filter(([k]) => k !== 'filiacion').map(([k, l]) => ({ clave: k, etiqueta: l, texto: $('.f-c-' + k).value.trim(), refs: [] })).filter(c => c.texto)];
+      const prev = k => (rec.campos || []).find(c => c.clave === k) || {};
+      const nuevos = [...CARAC.filter(([k]) => k !== 'filiacion').map(([k, l]) => ({ clave: k, etiqueta: l, texto: $('.f-c-' + k).value.trim() })),
+        ...RCAMP.map(([k, l]) => ({ clave: k, etiqueta: l, texto: $('.f-r-' + k).value.trim() }))]
+        .filter(c => c.texto).map(c => ({ ...c, refs: prev(c.clave).texto === c.texto ? prev(c.clave).refs || [] : [] }));
+      const esRegion = nuevos.some(c => RCAMP.some(([k]) => k === c.clave));
+      const rank = c => esRegion && RORDER.includes(c.clave) ? RORDER.indexOf(c.clave) : 100;
+      obj.campos = [...fil, ...keep, ...nuevos.sort((a, b) => rank(a) - rank(b))];
       const desc = $('.f-desc').value.trim();
       obj.descripcion = desc ? { ...(rec.descripcion || {}), texto: desc } : null;
       if (!obj.descripcion) delete obj.descripcion;

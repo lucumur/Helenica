@@ -1,10 +1,10 @@
 {
   "id": "kunourioi-900",
-  "nombre": "Kunourioi",
+  "nombre": "Kunouriā",
   "nombre_alt": "Cinuria",
-  "nombre_griego": "Κυνούριοι",
+  "nombre_griego": "Κυνουρίᾱ",
   "endonimo": "Kunourioi",
-  "endonimo_nota": "Heródoto 8.73; ausente en Homero.",
+  "endonimo_nota": "Hdt. 8.73.",
   "imagen": null,
   "tipos": [
     "Pro-tribu"
@@ -22,14 +22,76 @@
       "nombre": "Iason Argos"
     }
   ],
+  "sucede_a": [
+    {
+      "col": "lugares",
+      "id": "kunouria-1250",
+      "nombre": "Kunouriā"
+    }
+  ],
   "descripcion": {
-    "texto": "Franja entre la Argólide y Laconia (Tireátide)."
+    "texto": "Vertiente oriental del Parnón y Tireátide, entre la Argólide y Laconia. Población pre-doria sin centro ni reino."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "—",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Danaoi no dorizados",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "Iawones, según la memoria ática que recoge Heródoto (8.73) (C)",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Aqueo",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Muy baja",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "Desconocido",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "—",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Acéfalo: aldeas sin poder supralocal",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "—",
+      "refs": []
+    }
+  ],
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Según Heródoto, jonios autóctonos dorizados bajo Argos.\n- Disputada entre Argos y Esparta hasta 546 a.C."
+      "texto": "- Nunca fue región con identidad material propia: es un territorio definido por sus vecinos.\n- Ninguna localidad cinuria figura en el Catálogo de las Naves, ni con Diomedes ni con Menelao.\n- Heródoto (8.73): jonios autóctonos, dorizados «bajo el gobierno argivo y con el tiempo». La Tireátide es argiva hasta la Batalla de los Campeones (c. 546; Hdt. 1.82) y después lacedemonia.\n- (C): dato de tradición sin respaldo independiente. Los nombres de líderes salen de listas dinásticas o de la épica: son memoria, no historia comprobada."
     }
   ],
   "epoca": {

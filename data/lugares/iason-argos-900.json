@@ -22,6 +22,13 @@
       "nombre": "Akhaiwiā"
     }
   ],
+  "sucede_a": [
+    {
+      "col": "lugares",
+      "id": "iason-argos-1250",
+      "nombre": "Iason Argos"
+    }
+  ],
   "descripcion": {
     "texto": "Peloponeso, Citera, Egina y Megáride. Hacia 900 a.C. la potencia de la península es Argos; Esparta aún no domina (Amyklai aquea hasta c. 750, Messenia independiente hasta c. 730–710)."
   },
@@ -38,8 +45,54 @@
   },
   "contiene": [
     {
-      "grupo": "Dominios de jure",
-      "nota": "Identidad heroica heredada, aunque el poder efectivo sea otro",
+      "grupo": "Regiones",
+      "nota": "Una ficha por región, con su cultura de sustrato y su élite",
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "epeioi-900",
+          "nombre": "Epeiā"
+        },
+        {
+          "col": "lugares",
+          "id": "pylia-900",
+          "nombre": "Puliā"
+        },
+        {
+          "col": "lugares",
+          "id": "aigialeia-900",
+          "nombre": "Aigialeia"
+        },
+        {
+          "col": "lugares",
+          "id": "korinthia-900",
+          "nombre": "Korinthiā"
+        },
+        {
+          "col": "lugares",
+          "id": "arkades-900",
+          "nombre": "Arkadiā"
+        },
+        {
+          "col": "lugares",
+          "id": "argos-900",
+          "nombre": "Argolis"
+        },
+        {
+          "col": "lugares",
+          "id": "lakedaimon-900",
+          "nombre": "Lakedaimoniā"
+        },
+        {
+          "col": "lugares",
+          "id": "kunourioi-900",
+          "nombre": "Kunouriā"
+        }
+      ]
+    },
+    {
+      "grupo": "Capa heroica (sin contorno)",
+      "nota": "Dominios y pueblos de la versión anterior, conservados por sus enlaces",
       "lugares": [
         {
           "col": "lugares",
@@ -48,44 +101,13 @@
         },
         {
           "col": "lugares",
-          "id": "argos-900",
-          "nombre": "Argos"
-        },
-        {
-          "col": "lugares",
-          "id": "lakedaimon-900",
-          "nombre": "Lakedaimōn"
-        },
-        {
-          "col": "lugares",
           "id": "messana-900",
           "nombre": "Messānā"
-        }
-      ]
-    },
-    {
-      "grupo": "Pueblos",
-      "nota": null,
-      "lugares": [
-        {
-          "col": "lugares",
-          "id": "arkades-900",
-          "nombre": "Arkades"
-        },
-        {
-          "col": "lugares",
-          "id": "epeioi-900",
-          "nombre": "Epeioi"
         },
         {
           "col": "lugares",
           "id": "pisatai-900",
           "nombre": "Pisātai"
-        },
-        {
-          "col": "lugares",
-          "id": "kunourioi-900",
-          "nombre": "Kunourioi"
         }
       ]
     }

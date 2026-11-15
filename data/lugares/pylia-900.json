@@ -1,0 +1,101 @@
+{
+  "id": "pylia-900",
+  "nombre": "Puliā",
+  "nombre_alt": "Pylia (Trifilia y Mesenia)",
+  "nombre_griego": "†Πυλίᾱ",
+  "endonimo": null,
+  "endonimo_nota": "Desconocido. Nombre de región formado sobre Pulos (†); Estrabón (8.3.17) registra Kaukōniā para todo el occidente, de Dime a Mesenia.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "ethnos",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "iason-argos-900",
+      "nombre": "Iason Argos"
+    }
+  ],
+  "sucede_a": [
+    {
+      "col": "lugares",
+      "id": "pulos-1250",
+      "nombre": "Pulos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Del Alfeo al cabo Acritas: Trifilia y Mesenia. El antiguo reino de Pilo, casi despoblado tras la destrucción de c. 1180; población caucona sin élite externa conocida, salvo la tradición de los Aipýtidas en Esteniclaro."
+  },
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "Sin élite externa atestiguada; Aipýtidas en Esteniclaro según la tradición (Paus. 4.3.6–8) (C)",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Kaukōnes",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "Danaoi (población pre-doria cuyo endónimo se perdió)",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Aqueo",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Muy baja",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "Desconocido",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "—",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Acéfalo: aldeas sin poder supralocal",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "— (Aipýtidas, sin nombre seguro para esta fecha) (C)",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Despoblamiento drástico de Mesenia occidental tras el palacio de Ano Englianós (Davis ed., *Sandy Pylos*, 1998). El asentamiento mejor conocido de la Edad Oscura es Nichoria, en el interior.\n- Kaukōnes: Od. 3.366; Hdt. 4.148; Estrabón 8.3.17–19. Heródoto (1.147) llama «caucones pilios» a los Codridas que encabezan la migración jonia.\n- «Trifilia» es una construcción del s. IV a.C. (Nielsen 1997) y Mesene como ciudad es del 369 a.C.: los dos nombres son anacrónicos para esta fecha.\n- Sustituye en el mapa a [Messānā](lugares:messana-900) y a la parte trifilia de [Pisātai](lugares:pisatai-900).\n- (C): dato de tradición sin respaldo independiente. Los nombres de líderes salen de listas dinásticas o de la épica: son memoria, no historia comprobada."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

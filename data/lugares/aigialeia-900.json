@@ -1,0 +1,101 @@
+{
+  "id": "aigialeia-900",
+  "nombre": "Aigialeia",
+  "nombre_alt": "Aigialeia (Acaya)",
+  "nombre_griego": "Αἰγιάλεια",
+  "endonimo": "Aigialeia",
+  "endonimo_nota": "Nombre antiguo de la costa aquea y de Sición (Hdt. 7.94; Paus. 2.5.6; 7.1).",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "ethnos",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "iason-argos-900",
+      "nombre": "Iason Argos"
+    }
+  ],
+  "sucede_a": [
+    {
+      "col": "lugares",
+      "id": "aigialos-1250",
+      "nombre": "Aigialos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Costa norte del Peloponeso, del Lariso al Sitas: la futura Acaya. Aqueos desplazados de la Argólide y Laconia sobre un sustrato jonio."
+  },
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "Akhaioi: casa de Tisámeno, hijo de Orestes (Paus. 7.1.7)",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Akhaioi",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "Iawones: las doce ciudades jonias del Egialo (Hdt. 1.145; 7.94)",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Aqueo (en época histórica, del grupo noroccidental)",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Baja",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "Hélice (no localizado)",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "[Poseidōn](entes:poseidaon) Heliconio, origen según Estrabón (8.7.2) del culto común del Panjonio (B/C)",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Dinastía",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "Tisaménidas, hasta Ógigo (Polibio 2.41.4–5) (C)",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- «Akhaioi» se reserva para el único lugar donde el étnico sobrevive en época histórica; en el resto del Peloponeso el sustrato pre-dorio se llama Danaoi.\n- Los aqueos de Tisámeno no se dorizan: son los pre-dorios desplazados por la llegada doria.\n- No hay dialecto jónico atestiguado en el Peloponeso: la identidad jonia del sustrato es tradicional, y en parte memoria ática.\n- (C): dato de tradición sin respaldo independiente. Los nombres de líderes salen de listas dinásticas o de la épica: son memoria, no historia comprobada."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

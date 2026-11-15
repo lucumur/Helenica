@@ -188,9 +188,9 @@ ${physicalSVG(D, opts.selectedId)}
       for (const [id, s] of Object.entries(D.subs)) {
         const st = p && p.subregiones[id], pw = st && D.poder[st.poder];
         svg.querySelector(`.sb[data-sub="${id}"]`).setAttribute('fill', pw ? pw.color : s.color);
-        svg.querySelector(`.sbh[data-sub="${id}"]`).classList.toggle('on', !!(st && st.poder !== OWN[id]));
+        svg.querySelector(`.sbh[data-sub="${id}"]`).classList.toggle('on', !!(st && st.poder !== OWN[id] && !st.propio));
         const lab = gSL.querySelector(`[data-sub="${id}"] .p`);
-        lab.textContent = st && st.poder !== OWN[id] && pw ? `bajo ${pw.nombre.split(' —')[0]}` : (s.capital && fold(s.capital.nombre) !== fold(s.nombre) ? s.capital.nombre : '');
+        lab.textContent = st && st.poder !== OWN[id] && !st.propio && pw ? `bajo ${pw.nombre.split(' —')[0]}` : (s.capital && fold(s.capital.nombre) !== fold(s.nombre) ? s.capital.nombre : '');
       }
       const era = main.querySelector('#era');
       if (p) {

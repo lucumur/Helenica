@@ -1,0 +1,94 @@
+{
+  "id": "lakedaimon-1250",
+  "nombre": "Lakedaimōn",
+  "nombre_alt": "Lacedemonia",
+  "nombre_griego": "Λακεδαίμων",
+  "endonimo": "Lakedaimōn",
+  "endonimo_nota": "Homero (Il. 2.581). El archivo en lineal B de Ayios Vasileios confirma un palacio en la región; el nombre de época no es seguro.",
+  "imagen": null,
+  "tipos": [
+    "Reino"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "dominio",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "iason-argos-1250",
+      "nombre": "Iason Argos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Esfera palacial de Laconia, con centro en Ayios Vasileios y el Menelaion de Terapne; incluye Citera."
+  },
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "Élite palacial micénica",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Danaoi",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "Léleges (C)",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Griego micénico (archivo de Ayios Vasileios)",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Media–alta",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "Amiclas: figurillas micénicas; la continuidad hasta época histórica es discutida",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "Potnia / divinidad vegetal",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Palacial (Ayios Vasileios)",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "Desconocido · épico: Menelao (C)",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- El palacio del Menelaion es anterior al apogeo de Ayios Vasileios.\n- (C): dato de tradición sin respaldo independiente. Los nombres de líderes salen de listas dinásticas o de la épica: son memoria, no historia comprobada."
+    }
+  ],
+  "epoca": {
+    "anio": -1250,
+    "nota": null
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": "danaia-1250",
+  "nombre": "Danaia",
+  "nombre_alt": "Danaia (Argólide)",
+  "nombre_griego": "†Δαναΐᾱ",
+  "endonimo": "Tanaja",
+  "endonimo_nota": "Lista egipcia de Kom el-Hetan (Amenhotep III, s. XIV a.C.), que nombra Tanaja junto a Micenas y Nauplia. Δαναοί en Homero. «Danaia» es una formación nuestra (†).",
+  "imagen": null,
+  "tipos": [
+    "Reino"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "dominio",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "iason-argos-1250",
+      "nombre": "Iason Argos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Esfera palacial bicéfala de Micenas y Tirinto, con Midea y Argos como centros secundarios, el valle de Nemea y la Akté en la órbita tirintia."
+  },
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "Élite palacial micénica",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Danaoi",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "Pelasgos, dríopes (C)",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Griego micénico (lineal B)",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Alta",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "Centro de culto de Micenas; santuarios de la ciudadela baja de Tirinto; en la Akté, Apolo Maleatas (Epidauro) y Ayios Konstantinos (Metana)",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "Sistema de Potnia + calificador",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Palacial bicéfalo: Micenas y Tirinto, integradas pero no subordinadas",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "Desconocido · épico: Agamenón (Micenas), Diomedes (Argos y Tirinto) (C)",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Partición interna que sugiere el Catálogo (B/C): esfera micénica (Micenas y Nemea; en la épica también Corinto y el Egialo, Il. 2.569–580) y esfera tirintia (Tirinto, Argos, Asine, Nauplia y la Akté, Il. 2.559–568).\n- Modelo de Micenas y Tirinto «integradas pero no subordinadas»: Wright, Voutsaki, Nakassis.\n- En 900 a.C. el nombre sobrevive como memoria: población danaa bajo élite doria en [Argolis](lugares:argos-900).\n- (C): dato de tradición sin respaldo independiente. Los nombres de líderes salen de listas dinásticas o de la épica: son memoria, no historia comprobada."
+    }
+  ],
+  "epoca": {
+    "anio": -1250,
+    "nota": null
+  }
+}

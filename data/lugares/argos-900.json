@@ -1,13 +1,13 @@
 {
   "id": "argos-900",
-  "nombre": "Argewía",
-  "nombre_alt": "Argeia (dominio de Diomedes)",
-  "nombre_griego": "Ἄργος",
-  "endonimo": "Argewoi",
-  "endonimo_nota": "Homero, Il. 2.559–568.",
+  "nombre": "Argolis",
+  "nombre_alt": "Argólide",
+  "nombre_griego": "Ἀργολίς",
+  "endonimo": "Argeiā",
+  "endonimo_nota": "Ἀργεία, el territorio de Argos. La epigrafía argiva arcaica escribe ΑΡΓΕΙΟΙ sin digamma junto a ΔΙϜΙ (Jackson, ZPE 132, 2000): la forma Argewia no está atestiguado. Ἀργολίς es de atestiguación tardía.",
   "imagen": null,
   "tipos": [
-    "Dominio de jure"
+    "Reino"
   ],
   "areas": [
     "peloponeso"
@@ -22,14 +22,76 @@
       "nombre": "Iason Argos"
     }
   ],
+  "sucede_a": [
+    {
+      "col": "lugares",
+      "id": "danaia-1250",
+      "nombre": "Danaia"
+    }
+  ],
   "descripcion": {
-    "texto": "Dominio heroico de Diomedes: Argos, Tirinto, Hermíone, Asine, Trecén, Eíones, Epidauro, Egina y Mases."
+    "texto": "Llanura argiva con Micenas y Tirinto, Asine, Nauplia, la Akté (Epidauro, Trecén, Hermíone, Metana) y Egina. Danaos bajo élite doria temenida; dríopes y jonios en la costa."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "Dorieis: Temenidai",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Danaoi (población pre-doria, integrada en la tribu de los Hyrnathioi)",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "Dryopes en Asine, Hermíone y Eíones (Hdt. 8.43, 8.73; Paus. 4.34.9); Iawones en Epidauro y Trecén (Paus. 2.26)",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Dórico / aqueo",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Media (la mayor del Peloponeso)",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "Sin santuario regional claro: el Hereo es del s. VIII",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "[Hēra](entes:hera) argiva (anticipación)",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Dinastía de poder limitado",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "Temenidas: Ciso → Medón, rey «solo de nombre» (Paus. 2.19.2)",
+      "refs": []
+    }
+  ],
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Hacia 900 a.C. Argos es además el centro dominante de facto de la península."
+      "texto": "- Danaoi: término épico genérico para la población pre-doria cuyo endónimo se perdió. Respaldo de época: la tierra de *Tanaja* en la lista de Kom el-Hetan (ver [Danaia](lugares:danaia-1250)).\n- La cuarta tribu argiva, los Hyrnathioi, lleva el epónimo de Hirneto, hija de Témeno: el sustrato entra en el sistema dorio por vía materna y pierde su propio nombre (compárese con los Aigialeis de Sición, Hdt. 5.68).\n- Asine es dríope e independiente hasta su destrucción por Argos (c. 710).\n- Epidauro: Pitireo, descendiente de Ion, la entrega a Deifontes sin combate (Paus. 2.26.2).\n- Micenas es una aldea en la órbita de Argos; para el dominio heroico, ver [Mukānai](lugares:mukanai-900).\n- Dominio heroico de Diomedes (Il. 2.559–568): Argos, Tirinto, Hermíone, Asine, Trecén, Eíones, Epidauro, Egina y Mases.\n- (C): dato de tradición sin respaldo independiente. Los nombres de líderes salen de listas dinásticas o de la épica: son memoria, no historia comprobada."
     }
   ],
   "epoca": {

@@ -2,6 +2,26 @@
  "descripcion": "Estado político de las subregiones en cada fecha del selector del mapa. 'poder' indica quién controla la subregión; si es distinto de la propia subregión, se dibuja rayado. Fechas negativas = a.C.",
  "poderes": [
   {
+   "id": "pulos",
+   "nombre": "Pulos (Pilo)",
+   "color": "#7fa05c"
+  },
+  {
+   "id": "danaia",
+   "nombre": "Danaia (Micenas y Tirinto)",
+   "color": "#cfa66a"
+  },
+  {
+   "id": "lakedaimon",
+   "nombre": "Lakedaimōn (Ayios Vasileios)",
+   "color": "#a85a3f"
+  },
+  {
+   "id": "jefaturas",
+   "nombre": "Jefaturas sin palacio",
+   "color": "#b8ab92"
+  },
+  {
    "id": "achaia",
    "nombre": "Aqueos",
    "color": "#d48a6a"
@@ -48,6 +68,49 @@
   }
  ],
  "periodos": [
+  {
+   "id": "-1250",
+   "anio": -1250,
+   "etiqueta": "1250 a.C.",
+   "periodo": "micenico",
+   "resumen": "Apogeo palacial micénico (Heládico Tardío IIIB), antes de las destrucciones de c. 1200–1180: reinos de Pilo, de Micenas y Tirinto y de Laconia; Élide, Acaya y Arcadia sin palacio.",
+   "subregiones": {
+    "achaia": {
+     "poder": "jefaturas",
+     "propio": true,
+     "nota": "Egialo sin palacio; necrópolis de cámara en Egio y Patras."
+    },
+    "elis": {
+     "poder": "jefaturas",
+     "propio": true,
+     "nota": "Epeos sin palacio."
+    },
+    "messenia": {
+     "poder": "pulos",
+     "propio": true,
+     "nota": "Reino palacial de Pilo (pu-ro), en dos provincias."
+    },
+    "lakonia": {
+     "poder": "lakedaimon",
+     "propio": true,
+     "nota": "Palacio de Ayios Vasileios."
+    },
+    "arkadia": {
+     "poder": "jefaturas",
+     "propio": true,
+     "nota": "Ocupación escasa; el Liceo como santuario de cumbre."
+    },
+    "argolis": {
+     "poder": "danaia",
+     "propio": true,
+     "nota": "Micenas y Tirinto, esfera palacial bicéfala."
+    },
+    "korinthia": {
+     "poder": "danaia",
+     "nota": "Órbita de Micenas: Korakou, Tsoungiza y el muro del Istmo."
+    }
+   }
+  },
   {
    "id": "-900",
    "anio": -900,

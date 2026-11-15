@@ -1,10 +1,10 @@
 {
   "id": "arkades-900",
-  "nombre": "Arkades",
+  "nombre": "Arkadiā",
   "nombre_alt": "Arcadia",
-  "nombre_griego": "Ἀρκάδες",
+  "nombre_griego": "Ἀρκαδίᾱ",
   "endonimo": "Arkades",
-  "endonimo_nota": "Homero, Il. 2.603–614 (contingente de Agapénor).",
+  "endonimo_nota": "Il. 2.603–614.",
   "imagen": null,
   "tipos": [
     "Pro-tribu"
@@ -22,14 +22,76 @@
       "nombre": "Iason Argos"
     }
   ],
+  "sucede_a": [
+    {
+      "col": "lugares",
+      "id": "arkadia-1250",
+      "nombre": "Arkadiā"
+    }
+  ],
   "descripcion": {
-    "texto": "Feneo, Orcómeno, Estínfalo, Tegea, Mantinea y Parrasia. Etnia y dialecto (arcadio) sin unidad política, que no llega hasta 370 a.C."
+    "texto": "Centro del Peloponeso: Feneo, Orcómeno, Estínfalo, Tegea, Mantinea, Parrasia y la cuenca de Megalópolis. Etnia y dialecto sin unidad política, que no llega hasta 370 a.C."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "Arkades",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Arkades",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "Pre-dorios no identificados (pelasgos en la tradición) (C)",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Arcadio (continuación directa del micénico)",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Baja",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "[Monte Liceo](lugares:oros-lykaion): altar de ceniza con depósitos desde la Edad del Bronce",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "[Zeus](entes:zeus) de cumbre",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Jefaturas locales",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "Bucolión / Fíalo, en la lista real de Pausanias 8.5 (C)",
+      "refs": []
+    }
+  ],
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Pausanias (8.27.4) cuenta también Kynourioi arcadios (Gortis, Teutis…) entre los sinecizados en Megalópolis."
+      "texto": "- Pausanias (8.27.4) cuenta también Kynourioi arcadios (Gortis, Teutis…) entre los sinecizados en Megalópolis.\n- Zona de baja visibilidad arqueológica en el Protogeométrico; Tegea recibe influencias laconias y argivas.\n- (C): dato de tradición sin respaldo independiente. Los nombres de líderes salen de listas dinásticas o de la épica: son memoria, no historia comprobada."
     }
   ],
   "epoca": {

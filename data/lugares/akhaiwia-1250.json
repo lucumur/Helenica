@@ -1,0 +1,57 @@
+{
+  "id": "akhaiwia-1250",
+  "nombre": "Akhaiwiā",
+  "nombre_alt": "Acaya (Aḫḫiyawa)",
+  "nombre_griego": "Ἀχαιϝίᾱ",
+  "endonimo": "Akhaiwiā",
+  "endonimo_nota": "Hitita Aḫḫiyawa (textos de los s. XIV–XIII a.C.); lineal B a-ka-wi-ja-de (KN C 914), de lectura discutida.",
+  "imagen": null,
+  "tipos": [
+    "Zona continental"
+  ],
+  "areas": [
+    "peloponeso",
+    "grecia-central",
+    "grecia-occidental",
+    "tesalia",
+    "epiro",
+    "eubea",
+    "islas-egeo",
+    "creta",
+    "chipre",
+    "asia-eolia",
+    "asia-jonia",
+    "asia-doria"
+  ],
+  "escala": "continental",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Mundo micénico en el apogeo palacial (Heládico Tardío IIIB), antes de las destrucciones de c. 1200–1180. Por ahora solo están definidas las regiones del Peloponeso."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Contorno tomado de [Akhaiwiā](lugares:akhaiwia-900) (900 a.C.) hasta que se definan las demás regiones de esta fecha.\n- La identificación de Aḫḫiyawa con el mundo micénico es la mayoritaria, no unánime."
+    }
+  ],
+  "epoca": {
+    "anio": -1250,
+    "nota": null
+  },
+  "contiene": [
+    {
+      "grupo": null,
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "iason-argos-1250",
+          "nombre": "Iason Argos"
+        }
+      ]
+    }
+  ]
+}

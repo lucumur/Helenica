@@ -1,0 +1,101 @@
+{
+  "id": "korinthia-900",
+  "nombre": "Korinthiā",
+  "nombre_alt": "Corintia",
+  "nombre_griego": "Κορινθίᾱ",
+  "endonimo": "Korinthos",
+  "endonimo_nota": "Κόρινθος ya en Homero (Il. 2.570); Ἐφύρη como nombre tradicional antiguo de la ciudad. Nombre de región de atestiguación tardía.",
+  "imagen": null,
+  "tipos": [
+    "Reino"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "dominio",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "iason-argos-900",
+      "nombre": "Iason Argos"
+    }
+  ],
+  "sucede_a": [
+    {
+      "col": "lugares",
+      "id": "korinthia-1250",
+      "nombre": "Korinthiā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Corintia, Sicionia, Fliasia, el valle de Nemea y la Megáride. Población eolia (Ephyraioi) bajo una élite doria."
+  },
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "Dorieis: casa de Aletes",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Aioleis (Ephyraioi): Tucídides 4.42.2 (los dorios de Aletes combaten desde el Soligeo contra los corintios «que eran eolios»)",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "Aigialeis (Iawones) en Sición: tribu no doria (Hdt. 5.68)",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Dórico (élite) / aqueo (base)",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Baja–media",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "Istmia: banquetes rituales desde el s. XI–X",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "[Poseidōn](entes:poseidaon) y potencias marinas",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Dinastía en transición (Aletidai → Bakkhiadai)",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "Baquis (c. 926–891 a.C., cronología de Diodoro 7.9) (C)",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Aquí «eolio» es una categoría genealógica (los Eólidas del *Catálogo* hesiódico), no dialectal: el corintio epigráfico es dórico.\n- La casa sisífida (Sísifo, Glauco, Belerofonte) es eólida: el linaje desplazado, conservado como patrimonio emblemático por Eumelo.\n- Sición: dórica con Falces, hijo de Témeno (Paus. 2.6.7), sobre la tribu Aigialeis.\n- La Megáride entra por su dependencia tradicional de Corinto hasta el s. VIII.\n- Sustituye en el mapa a la mitad oriental de [Mukānai](lugares:mukanai-900).\n- (C): dato de tradición sin respaldo independiente. Los nombres de líderes salen de listas dinásticas o de la épica: son memoria, no historia comprobada."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

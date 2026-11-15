@@ -1,0 +1,94 @@
+{
+  "id": "korinthia-1250",
+  "nombre": "Korinthiā",
+  "nombre_alt": "Corintia",
+  "nombre_griego": "Κορινθίᾱ",
+  "endonimo": "Ephurā",
+  "endonimo_nota": "Ἐφύρη, nombre tradicional antiguo de Corinto; Κόρινθος ya en Il. 2.570. Nombre de región de atestiguación tardía.",
+  "imagen": null,
+  "tipos": [
+    "Dominio"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "dominio",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "iason-argos-1250",
+      "nombre": "Iason Argos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Corintia, Sicionia y la Megáride en la órbita de Micenas: Korakou, el valle de Nemea (Tsoungiza) y el muro ciclópeo del Istmo."
+  },
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "Órbita de Micenas",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Aioleis / Ephyraioi (C)",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "—",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Griego micénico",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Media",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "—",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "—",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Dependiente de Micenas",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "Épico: Agamenón (C)",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- En el Catálogo, Corinto y Sición pertenecen al reino de Agamenón (Il. 2.569–580).\n- La fecha del muro del Istmo y su función defensiva frente al norte son interpretaciones.\n- (C): dato de tradición sin respaldo independiente. Los nombres de líderes salen de listas dinásticas o de la épica: son memoria, no historia comprobada."
+    }
+  ],
+  "epoca": {
+    "anio": -1250,
+    "nota": null
+  }
+}

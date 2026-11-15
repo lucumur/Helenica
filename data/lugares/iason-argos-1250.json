@@ -1,0 +1,99 @@
+{
+  "id": "iason-argos-1250",
+  "nombre": "Iason Argos",
+  "nombre_alt": "Peloponeso",
+  "nombre_griego": "Ἴασον Ἄργος",
+  "endonimo": "Iason Argos",
+  "endonimo_nota": "Homero, Od. 18.246. Nombre épico, no atestiguado en lineal B.",
+  "imagen": null,
+  "tipos": [
+    "Área insulada"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "region",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "akhaiwia-1250",
+      "nombre": "Akhaiwiā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Peloponeso hacia 1250 a.C.: tres esferas palaciales (Pulos, Danaia y Lakedaimōn), la órbita micénica de Corintia y periferias sin palacio (Élide, Egialo, Arcadia y Cinuria)."
+  },
+  "campos": [],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- En el Heládico Tardío IIIB la cerámica es una koiné bastante uniforme: las regiones de esta fecha se definen por la estructura palacial y no por la cultura material, al revés que en 900 a.C.\n- Variante pendiente: el colapso en curso (c. 1190), con Pilo destruido y destrucciones en la Argólide.\n- El Catálogo de las Naves (Il. 2.494–759) no es un mapa de 1250: combina capas de distintas épocas.\n- (C): dato de tradición sin respaldo independiente. Los nombres de líderes salen de listas dinásticas o de la épica: son memoria, no historia comprobada."
+    }
+  ],
+  "epoca": {
+    "anio": -1250,
+    "nota": null
+  },
+  "contiene": [
+    {
+      "grupo": "Reinos palaciales",
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "pulos-1250",
+          "nombre": "Pulos"
+        },
+        {
+          "col": "lugares",
+          "id": "danaia-1250",
+          "nombre": "Danaia"
+        },
+        {
+          "col": "lugares",
+          "id": "lakedaimon-1250",
+          "nombre": "Lakedaimōn"
+        }
+      ]
+    },
+    {
+      "grupo": "Órbita palacial",
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "korinthia-1250",
+          "nombre": "Korinthiā"
+        }
+      ]
+    },
+    {
+      "grupo": "Periferias sin palacio",
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "epeia-1250",
+          "nombre": "Epeiā"
+        },
+        {
+          "col": "lugares",
+          "id": "aigialos-1250",
+          "nombre": "Aigialos"
+        },
+        {
+          "col": "lugares",
+          "id": "arkadia-1250",
+          "nombre": "Arkadiā"
+        },
+        {
+          "col": "lugares",
+          "id": "kunouria-1250",
+          "nombre": "Kunouriā"
+        }
+      ]
+    }
+  ]
+}

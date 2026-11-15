@@ -27,6 +27,13 @@
   "forma": [],
   "funciones": [],
   "pertenece_a": [],
+  "sucede_a": [
+    {
+      "col": "lugares",
+      "id": "akhaiwia-1250",
+      "nombre": "Akhaiwiā"
+    }
+  ],
   "descripcion": {
     "texto": "Mundo griego del Geométrico temprano: Grecia continental al sur del Olimpo, Epiro, las islas del Jónico y del Egeo, Creta, Chipre y la franja costera eolia, jonia y doria de Asia. Sin estado común: comunidades organizadas por región y dialecto."
   },

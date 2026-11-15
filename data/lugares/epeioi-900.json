@@ -1,10 +1,10 @@
 {
   "id": "epeioi-900",
-  "nombre": "Epeioi",
-  "nombre_alt": "Élide septentrional",
-  "nombre_griego": "Ἐπειοί",
+  "nombre": "Epeiā",
+  "nombre_alt": "Epeia (Élide)",
+  "nombre_griego": "†Ἐπείᾱ",
   "endonimo": "Epeioi",
-  "endonimo_nota": "Homero, Il. 2.615–624.",
+  "endonimo_nota": "Étnico homérico (Il. 2.615–624; 11.671–761). El nombre de la región es una formación nuestra (†) sobre el étnico.",
   "imagen": null,
   "tipos": [
     "Pro-tribu"
@@ -22,14 +22,76 @@
       "nombre": "Iason Argos"
     }
   ],
+  "sucede_a": [
+    {
+      "col": "lugares",
+      "id": "epeia-1250",
+      "nombre": "Epeiā"
+    }
+  ],
   "descripcion": {
-    "texto": "Buprasion, Élide, Hirmine, Mírsino y la roca Olenia: el norte de Élide y el occidente de Acaya (territorio de Dime, Estrabón 8.3.8–10)."
+    "texto": "Élide hueca (valle del Peneo) y la Pisátide hasta el Alfeo. Población epea bajo una élite etolia (los Waleioi de Óxilo) que en los dos siglos siguientes impone su nombre a la región."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "Aitoloi (Waleioi, Ϝαλεῖοι): élite etolia de Óxilo (Paus. 5.3–4)",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Epeioi",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "Aioleis, por la genealogía de Endimión, hijo de Cálice, hija de Eolo (C)",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Noroccidental en la élite; aqueo (continuación del micénico) en la base",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Baja",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "Olimpia: exvotos desde fines del s. X o el IX",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "Divinidad de cumbre y recinto, con exvotos de toros y caballos; [Zeus](entes:zeus) es atribución posterior (C)",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Éthnos con élite etolia, sin centro (Elis como polis es del 471 a.C.)",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "Óxilo → Laias; después, laguna hasta Ífito (Paus. 5.4) (C)",
+      "refs": []
+    }
+  ],
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Capa heroica: según la tradición, hacia 900 a.C. ya están los eleos de Óxilo (Waleioi, Ϝαλεῖοι)."
+      "texto": "- En Homero, Ἐπειοί y Ἠλεῖοι designan al mismo pueblo dentro del relato de Néstor (Il. 11.671 y siguientes).\n- Pausanias (5.4.1–2): Óxilo no expulsa a los epeos; les deja sus tierras y asienta etolios entre ellos. Es convivencia, no conquista.\n- Ϝαλεῖοι está atestiguado en bronces de Olimpia del s. VI. Relacionar Ϝᾶλις con «valle» (lat. *vallis*) es una propuesta no segura.\n- La Pisátide entra como zona de frontera: ya en la Antigüedad se dudaba de que Pisa fuera una entidad política. Ver [Pisātai](lugares:pisatai-900).\n- Hacia 600 a.C. los epeos desaparecen de la capa étnica y los eleos ocupan las dos.\n- (C): dato de tradición sin respaldo independiente. Los nombres de líderes salen de listas dinásticas o de la épica: son memoria, no historia comprobada."
     }
   ],
   "epoca": {

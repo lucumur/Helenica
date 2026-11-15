@@ -1,0 +1,94 @@
+{
+  "id": "aigialos-1250",
+  "nombre": "Aigialos",
+  "nombre_alt": "Egialo (Acaya)",
+  "nombre_griego": "Αἰγιαλός",
+  "endonimo": "Aigialos",
+  "endonimo_nota": "Il. 2.575 (Αἰγιαλόν τ᾽ ἀνὰ πάντα).",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "ethnos",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "iason-argos-1250",
+      "nombre": "Iason Argos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Costa norte del Peloponeso sin palacio: necrópolis de cámara de Egio y Patras."
+  },
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "Élites locales",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Iawones / Aigialeis (C)",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "Pelasgos (Hdt. 7.94)",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Micénico periférico",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Baja–media",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "—",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "—",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Jefaturas",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "Épico: bajo Agamenón (C)",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Florece en el Heládico Tardío IIIC como zona refugio, después de esta fecha.\n- (C): dato de tradición sin respaldo independiente. Los nombres de líderes salen de listas dinásticas o de la épica: son memoria, no historia comprobada."
+    }
+  ],
+  "epoca": {
+    "anio": -1250,
+    "nota": null
+  }
+}

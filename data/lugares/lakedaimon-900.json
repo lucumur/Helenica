@@ -1,13 +1,13 @@
 {
   "id": "lakedaimon-900",
-  "nombre": "Lakedaimōn",
-  "nombre_alt": "Laconia",
-  "nombre_griego": "Λακεδαίμων",
+  "nombre": "Lakedaimoniā",
+  "nombre_alt": "Lacedemonia",
+  "nombre_griego": "†Λακεδαιμονίᾱ",
   "endonimo": "Lakedaimōn",
-  "endonimo_nota": "Homero, Il. 2.581–590.",
+  "endonimo_nota": "Λακεδαίμων, Homero (Il. 2.581). Λακωνική es un adjetivo clásico, anacrónico para esta fecha.",
   "imagen": null,
   "tipos": [
-    "Dominio de jure"
+    "Reino"
   ],
   "areas": [
     "peloponeso"
@@ -22,14 +22,76 @@
       "nombre": "Iason Argos"
     }
   ],
+  "sucede_a": [
+    {
+      "col": "lugares",
+      "id": "lakedaimon-1250",
+      "nombre": "Lakedaimōn"
+    }
+  ],
   "descripcion": {
-    "texto": "Dominio heroico de Menelao: Esparta, Amyklai, Helos, Las, Etilo y Faris; Citera."
+    "texto": "Valle del Eurotas, Laconia meridional y Citera. Aldeas dorias en el alto Eurotas sobre población danaa; Amiclas y el bajo Eurotas siguen sin dorizar."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "Dorieis (Lakones): Agíadas y Euripóntidas",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Danaoi",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "Amyklaioi: bloque no dorizado con Faris y Geronthras, conquistado por Teleclo (Paus. 3.2.6)",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Dórico / aqueo",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Baja–media",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "Amiclas: exvotos protogeométricos",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "Héroe-dios pre-dorio (Jacinto)",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Jefaturas de aldea (obai) con diarquía",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "Equéstrato (Agíada) / Euripón (Euripóntida), según la cronología tradicional (C)",
+      "refs": []
+    }
+  ],
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- En 900 a.C. Esparta es dórica y aún no domina el Eurotas entero: Amyklai sigue aquea hasta c. 750."
+      "texto": "- Protogeométrico laconio: muy conservador, prolongado hasta mediados del s. VIII y aislado (Coulson, *BSA* 80, 1985).\n- El Menelaion de Terapne recibe culto heroico desde el s. VIII, no en 900.\n- Dominio heroico de Menelao (Il. 2.581–590): Esparta, Amiclas, Helos, Las, Etilo y Faris; Citera.\n- (C): dato de tradición sin respaldo independiente. Los nombres de líderes salen de listas dinásticas o de la épica: son memoria, no historia comprobada."
     }
   ],
   "epoca": {

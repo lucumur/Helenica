@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Río mayor de Tesprotia y frontera entre Tesprotia y Caonia frente a Corcira (Tucídides 1.46.4)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "nacimientos",
+      "etiqueta": "Nacimientos",
+      "texto": "",
+      "refs": []
+    },
+    {
+      "clave": "desembocadura",
+      "etiqueta": "Desembocadura",
+      "texto": "",
+      "refs": []
+    },
+    {
+      "clave": "forma_potamica",
+      "etiqueta": "Forma potámica",
+      "texto": "",
+      "refs": []
+    },
+    {
+      "clave": "afluentes",
+      "etiqueta": "Afluentes",
+      "texto": "",
+      "refs": []
+    },
+    {
+      "clave": "recorrido",
+      "etiqueta": "Recorrido",
+      "texto": "",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

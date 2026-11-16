@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Río de Tesprotia que atraviesa un hondo desfiladero hasta el antiguo lago Aquerusio y el mar Jónico; asociado en el mito a la entrada del Hades (Od. 10.513; Hdt. 5.92)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "nacimientos",
+      "etiqueta": "Nacimientos",
+      "texto": "",
+      "refs": []
+    },
+    {
+      "clave": "desembocadura",
+      "etiqueta": "Desembocadura",
+      "texto": "",
+      "refs": []
+    },
+    {
+      "clave": "forma_potamica",
+      "etiqueta": "Forma potámica",
+      "texto": "",
+      "refs": []
+    },
+    {
+      "clave": "afluentes",
+      "etiqueta": "Afluentes",
+      "texto": "",
+      "refs": []
+    },
+    {
+      "clave": "recorrido",
+      "etiqueta": "Recorrido",
+      "texto": "",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

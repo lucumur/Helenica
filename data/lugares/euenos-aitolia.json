@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Río de Etolia que baja del monte Eta junto a Calidón hacia el golfo de Patras (Il. 2.639; antes Licormas)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "nacimientos",
+      "etiqueta": "Nacimientos",
+      "texto": "",
+      "refs": []
+    },
+    {
+      "clave": "desembocadura",
+      "etiqueta": "Desembocadura",
+      "texto": "",
+      "refs": []
+    },
+    {
+      "clave": "forma_potamica",
+      "etiqueta": "Forma potámica",
+      "texto": "",
+      "refs": []
+    },
+    {
+      "clave": "afluentes",
+      "etiqueta": "Afluentes",
+      "texto": "",
+      "refs": []
+    },
+    {
+      "clave": "recorrido",
+      "etiqueta": "Recorrido",
+      "texto": "",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

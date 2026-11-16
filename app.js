@@ -8,6 +8,8 @@
     objetos: { s: 'Objeto', p: 'Objetos', d: 'Armas, atributos divinos, agalmata y objetos rituales.' },
   };
   const REPO = 'lucumur/Helenica';
+  const FLUVIALES = [['nacimientos', 'Nacimientos'], ['desembocadura', 'Desembocadura'],
+    ['forma_potamica', 'Forma potámica'], ['afluentes', 'Afluentes'], ['recorrido', 'Recorrido']];
   const $ = (s, r = document) => r.querySelector(s);
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const fold = s => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
@@ -350,6 +352,10 @@ ${dd('Forma', (r.forma || []).length ? `<ul class="md">${r.forma.map(x => { cons
 ${dd('Funciones', (r.funciones || []).map(x => `<a class="tag" style="text-decoration:none" href="lugares.html?funcion=${x}">${esc(tName('funciones', x))}</a>`).join(' '))}
 ${r.epoca ? dd('Época', `<a href="mapa.html?t=${r.epoca.anio}">${fmtAnio(r.epoca.anio)}</a>${(() => { const pr = periodoDe(r.epoca.anio); return pr ? ` <span class="muted">· ${esc(pr.nombre)}</span>` : ''; })()}${r.epoca.nota ? `<div style="font-size:.92rem;margin-top:3px">${inline(r.epoca.nota)}</div>` : '<div class="muted" style="font-size:.85rem">Situación en esa fecha: pendiente.</div>'}`) : ''}${dd('Área', (r.areas || []).map(x => `<a href="lugares.html?area=${encodeURIComponent(x)}">${esc(areaName(x))}</a>`).join(', '))}${dd('Pertenece a', chain.map(k => linkKey(k)).join(' › '))}</dl>`;
       attrs = attrs.replace(/<\/dl>$/, dd('Contiene', contieneHTML(r, contiene)) + '</dl>');
+      if ((r.tipos || []).includes('Río')) attrs += `<section class="ficha-rio"><h2>Ficha de río</h2><dl class="attr">${FLUVIALES.map(([k, l]) => {
+        const c = (r.campos || []).find(x => x.clave === k);
+        return dd(l + hd(c && c._de), md(c && c.texto), true);
+      }).join('')}</dl></section>`;
       const lin = I.linaje(K);
       if (lin.length > 1) {
         mark(lin.map(i => `lugares:${i.id}`));
@@ -363,7 +369,8 @@ ${r.epoca ? dd('Época', `<a href="mapa.html?t=${r.epoca.anio}">${fmtAnio(r.epoc
       attrs = `<dl class="attr">${dd('Tipo', tagHTML(r.tipos) + (tt ? ' · ' + inline(tt.texto.replace(/^- /gm, '').replace(/\n/g, ' · ')) : ''))}</dl>`;
       if (evs.length) side += `<div class="box"><h3>Aparece en</h3>${listKeys(evs)}</div>`;
     }
-    const campos = (r.campos || []).filter(c => !(col === 'lugares' && c.clave === 'H🔼') && !(col !== 'entes' && col !== 'eventos' && c.clave === 'T🏷️'));
+    const campos = (r.campos || []).filter(c => !(col === 'lugares' && c.clave === 'H🔼') && !(col !== 'entes' && col !== 'eventos' && c.clave === 'T🏷️') &&
+      !(col === 'lugares' && (r.tipos || []).includes('Río') && FLUVIALES.some(([k]) => k === c.clave)));
     if (campos.length) attrs += `<dl class="attr">${campos.map(c => dd(esc(c.etiqueta) + hd(c._de), md(c.texto))).join('')}</dl>`;
     const secs = r.secciones || [];
     const secHTML = secs.map((s, i) => s.titulo

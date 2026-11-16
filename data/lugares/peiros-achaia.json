@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Principal río de Acaya occidental: desciende del Erimanto por Fara hacia Oleno y Dime (Hdt. 1.145; Paus. 7.22.1)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "nacimientos",
+      "etiqueta": "Nacimientos",
+      "texto": "",
+      "refs": []
+    },
+    {
+      "clave": "desembocadura",
+      "etiqueta": "Desembocadura",
+      "texto": "",
+      "refs": []
+    },
+    {
+      "clave": "forma_potamica",
+      "etiqueta": "Forma potámica",
+      "texto": "",
+      "refs": []
+    },
+    {
+      "clave": "afluentes",
+      "etiqueta": "Afluentes",
+      "texto": "",
+      "refs": []
+    },
+    {
+      "clave": "recorrido",
+      "etiqueta": "Recorrido",
+      "texto": "",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

@@ -164,6 +164,11 @@ ${txt('fe-stxt', x.texto, 4, 'Texto')}${linkBtn}</div>`;
     ['ciudades_pie', 'Ciudades al pie', 'Poleis, komai y choras en las faldas o piedemonte'],
     ['en_la_montana', 'Asentamientos y estructuras sobre la montaña', 'Santuarios de cumbre, cuevas, fortalezas, aldeas de altura…'],
     ['fauna_flora', 'Fauna y flora especial', 'Bestias míticas, fauna silvestre, bosques, plantas medicinales o endémicas…']];
+  const FCAMP = [['nacimientos', 'Nacimientos', 'Fuentes, manantiales o cabeceras; lugar y evidencia'],
+    ['desembocadura', 'Desembocadura', 'Mar, lago o río receptor; cambios antiguos documentados'],
+    ['forma_potamica', 'Forma potámica', 'Dios fluvial, enlace a su ficha y representación atestiguada, cuando exista'],
+    ['afluentes', 'Afluentes', 'Principales cursos que recibe; enlaces a sus fichas'],
+    ['recorrido', 'Recorrido', 'Regiones, valles y lugares que atraviesa, desde la cabecera hasta su desembocadura']];
   // Filiación: phylai (entes con tipo «Phylai») elegidas como chips, más una nota libre a la derecha.
   const phylai = () => REF.I.items.filter(i => i.c === 'entes' && (i.t || []).includes('Phylai')).sort((a, b) => a.n.localeCompare(b.n));
   let NEW_PH = [];
@@ -212,6 +217,9 @@ ${RCAMP.map(([k, l, ph]) => `<label>${E(l)}${txt('f-r-' + k, ((rec.campos || [])
 </section>
 <section><h4>Ficha de montaña <small>— montes y macizos; markdown, vacío = no se guarda</small></h4>
 ${MCAMP.map(([k, l, ph]) => `<label>${E(l)}${txt('f-m-' + k, ((rec.campos || []).find(c => c.clave === k) || {}).texto || '', 2, ph)}</label>`).join('')}
+</section>
+<section id="f-rio"${(rec.tipos || []).includes('Río') ? '' : ' hidden'}><h4>Ficha de río</h4>
+${FCAMP.map(([k, l, ph]) => `<label>${E(l)}${txt('f-fl-' + k, ((rec.campos || []).find(c => c.clave === k) || {}).texto || '', 3, ph)}${linkBtn}</label>`).join('')}
 </section>
 <section><h4>Contiene <small>— sub-regiones del tier inferior, en grupos</small></h4>
 <p class="hint">Al guardar, cada lugar añadido pasa a «pertenecer a» esta ficha, y cada lugar quitado deja de hacerlo.</p>
@@ -283,7 +291,9 @@ ${MCAMP.map(([k, l, ph]) => `<label>${E(l)}${txt('f-m-' + k, ((rec.campos || [])
         if (it && tierOf(it.es) <= tierOf(body.querySelector('#f-escala').value)) t.title = 'Ojo: su tier no es inferior al de esta ficha';
       }
     };
-    body.oninput = ev => { const t = ev.target; if ((t.classList.contains('fe-pe-in') || t.classList.contains('fe-ph-in') || t.classList.contains('fe-pick')) && / — [a-z0-9-]+$/.test(t.value)) body.onchange(ev); };
+    body.oninput = ev => { const t = ev.target;
+      if (t.id === 'f-tipos') body.querySelector('#f-rio').hidden = !t.value.split(',').some(x => x.trim() === 'Río');
+      if ((t.classList.contains('fe-pe-in') || t.classList.contains('fe-ph-in') || t.classList.contains('fe-pick')) && / — [a-z0-9-]+$/.test(t.value)) body.onchange(ev); };
     const m = d.querySelector('#fe-m'), btn = d.querySelector('#fe-s');
     m.textContent = '';
     btn.onclick = async ev => {
@@ -306,7 +316,7 @@ ${MCAMP.map(([k, l, ph]) => `<label>${E(l)}${txt('f-m-' + k, ((rec.campos || [])
         contiene: $$('.fe-grupo').map(g => ({ grupo: g.querySelector('.fe-gname').value.trim(), nota: g.querySelector('.fe-gnota').value.trim() || null,
           lugares: [...g.querySelectorAll('.fe-li')].filter(r => r.dataset.id).map(r => ({ col: 'lugares', id: r.dataset.id, nombre: name(r.dataset.id), ...(r.querySelector('.fe-nota').value.trim() ? { nota: r.querySelector('.fe-nota').value.trim() } : {}) })) }))
           .filter(g => g.grupo || g.lugares.length) };
-      const keep = (rec.campos || []).filter(c => !CARAC.some(([k]) => k === c.clave) && !RCAMP.some(([k]) => k === c.clave) && !MCAMP.some(([k]) => k === c.clave));
+      const keep = (rec.campos || []).filter(c => !CARAC.some(([k]) => k === c.clave) && !RCAMP.some(([k]) => k === c.clave) && !MCAMP.some(([k]) => k === c.clave) && !FCAMP.some(([k]) => k === c.clave));
       const phSel = $$('.fe-ph .fe-chip').map(ch => ({ col: 'entes', id: ch.dataset.v, nombre: ch.firstChild.textContent.trim() }));
       const phNota = $('.f-fil-nota').value.trim(), phLinks = phSel.map(r => `[${r.nombre}](entes:${r.id})`).join(', ');
       const fil = phSel.length || phNota ? [{ clave: 'filiacion', etiqueta: 'Filiación', texto: phLinks && phNota ? `${phLinks} — ${phNota}` : phLinks || phNota, refs: phSel, nota: phNota }] : [];
@@ -317,7 +327,11 @@ ${MCAMP.map(([k, l, ph]) => `<label>${E(l)}${txt('f-m-' + k, ((rec.campos || [])
         .filter(c => c.texto).map(c => ({ ...c, refs: prev(c.clave).texto === c.texto ? prev(c.clave).refs || [] : [] }));
       const esRegion = nuevos.some(c => RCAMP.some(([k]) => k === c.clave));
       const rank = c => esRegion && RORDER.includes(c.clave) ? RORDER.indexOf(c.clave) : 100;
-      obj.campos = [...fil, ...keep, ...nuevos.sort((a, b) => rank(a) - rank(b))];
+      const fluviales = FCAMP.map(([k, l]) => {
+        const anterior = prev(k), texto = $('.f-fl-' + k).value.trim();
+        return { ...anterior, clave: k, etiqueta: l, texto, refs: anterior.texto === texto ? anterior.refs || [] : [] };
+      }).filter(c => obj.tipos.includes('Río') || c.texto || (rec.campos || []).some(p => p.clave === c.clave));
+      obj.campos = [...fil, ...keep, ...nuevos.sort((a, b) => rank(a) - rank(b)), ...fluviales];
       const desc = $('.f-desc').value.trim();
       obj.descripcion = desc ? { ...(rec.descripcion || {}), texto: desc } : null;
       if (!obj.descripcion) delete obj.descripcion;

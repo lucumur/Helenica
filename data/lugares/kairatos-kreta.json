@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Río que pasa al pie de Cnosos hacia el mar de Creta (Estrabón 10.4.8; antiguo nombre de Cnosos)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "nacimientos",
+      "etiqueta": "Nacimientos",
+      "texto": "",
+      "refs": []
+    },
+    {
+      "clave": "desembocadura",
+      "etiqueta": "Desembocadura",
+      "texto": "",
+      "refs": []
+    },
+    {
+      "clave": "forma_potamica",
+      "etiqueta": "Forma potámica",
+      "texto": "",
+      "refs": []
+    },
+    {
+      "clave": "afluentes",
+      "etiqueta": "Afluentes",
+      "texto": "",
+      "refs": []
+    },
+    {
+      "clave": "recorrido",
+      "etiqueta": "Recorrido",
+      "texto": "",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

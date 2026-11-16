@@ -12,31 +12,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Macizo del Erymanthos, en Élide oriental; identificación topográfica recogida por el Dictionary of Greek and Roman Geography, «Elis».",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Mar Jónico. Estrabón lo sitúa entre Chelōnatas y Kyllēnē; el cauce moderno sale al sur de Chelōnatas. Deben distinguirse las posiciones antiguas y actuales (Estrabón 8.3.4; Smith, «Elis»).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "No se identifica automáticamente con Pēneios de Tesalia. Las fuentes geográficas aquí citadas no fijan una personificación local con genealogía propia.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Ladōn de Élide, documentado junto a Pylos eleo (Paus. 6.22.5): es distinto del [Ladōn arcadio](lugares:ladon-arkadia), que pertenece a la cuenca del Alfeo.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "De los barrancos orientales avanza por el valle y la llanura de Ēlis; Estrabón lo hace pasar por la ciudad junto al gimnasio (8.3.2). Su desembocadura y canales históricos no coinciden necesariamente con los actuales.",
       "refs": []
     }
   ],
@@ -66,5 +66,19 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Pausanias, Descripción de Grecia 6.19–26",
+      "url": "https://www.theoi.com/Text/Pausanias6B.html"
+    },
+    {
+      "titulo": "Estrabón, Geografía 8.3: Élide y ríos del Peloponeso",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/8C*.html"
+    },
+    {
+      "titulo": "W. Smith, Dictionary of Greek and Roman Geography, «Elis»: cabeceras y cambios de desembocadura",
+      "url": "https://www.gtp.gr/destinations/ancientelis"
+    }
+  ]
 }

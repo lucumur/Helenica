@@ -87,31 +87,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Territorio de Phlious, en las cabeceras montañosas al sur de su llanura. La conexión subterránea con el Meandro es tradición (C), no nacimiento hidrológico demostrado (Paus. 2.5.2–3).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Golfo de Corinto, tras atravesar el territorio de Sikyōn (Paus. 2.5.2).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Asōpos de Phlious y Sikyōn, padre mítico de ninfas epónimas (C). Eliano, Historia varia 2.33, atestigua su representación bovina entre fliasios y sicionios. No confundir automáticamente sus genealogías con las del Asopo beocio (Paus. 2.5.2).",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Las fuentes antiguas aquí citadas describen el curso principal, pero no ofrecen una lista segura de afluentes con nombre; no equivale a que carezca de ellos.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Recorre la llanura de Phlious y desciende hacia el norte por Sikyonia hasta su costa en el golfo de Corinto (Paus. 2.5.2).",
       "refs": []
     }
   ],
@@ -141,5 +141,15 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Pausanias, Descripción de Grecia 2.1–14",
+      "url": "https://www.theoi.com/Text/Pausanias2A.html"
+    },
+    {
+      "titulo": "Eliano, Historia varia 2.33: formas humanas y taurinas de los dioses fluviales",
+      "url": "https://www.theoi.com/Cult/PotamoiCult.html"
+    }
+  ]
 }

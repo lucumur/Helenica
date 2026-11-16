@@ -12,31 +12,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Monte Keryneia, en el sector arcadio de las montañas que descienden hacia Acaya (Paus. 7.25.5).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Costa de Acaya en el golfo de Corinto, en el sector de Keryneia y Helikē; el punto de salida ha variado con la sedimentación de la llanura litoral.",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "No se ha documentado una personificación individual en los pasajes consultados. La cierva cerinitia y la etimología de Keryneia no bastan para establecer un dios fluvial propio.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Los pasajes citados no individualizan afluentes con nombre; se conserva esa limitación documental.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Torrente que baja desde Arcadia por el territorio de Keryneia hacia la llanura costera de Acaya (Paus. 7.25.5).",
       "refs": []
     }
   ],
@@ -64,5 +64,11 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Pausanias, Descripción de Grecia 7.17–27",
+      "url": "https://www.theoi.com/Text/Pausanias7B.html"
+    }
+  ]
 }

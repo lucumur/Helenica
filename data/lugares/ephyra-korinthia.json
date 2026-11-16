@@ -12,31 +12,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "No procede como dato fluvial: Ephyra es el topónimo tradicional de Corinto; la clasificación importada como Río necesita revisión (Paus. 2.1.1).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "No procede: no se ha identificado un cauce corintio independiente denominado Ephyra en la fuente citada.",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "La figura asociada es Ephyra, hija de Océano y epónima de la tierra de Corinto, según Eumelo transmitido por Pausanias (C; 2.1.1); no es prueba de un río llamado Ephyra.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "No procede mientras la ficha corresponda al topónimo de Corinto.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Pausanias vincula Ephyra/Ephyraia con Corinto; no describe un recorrido fluvial (2.1.1). Se conserva el identificador y el contenido importado, sin inventar un río.",
       "refs": []
     }
   ],
@@ -59,5 +59,11 @@
       "nombre": "Peloponnēsos"
     }
   ],
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Pausanias, Descripción de Grecia 2.1–14",
+      "url": "https://www.theoi.com/Text/Pausanias2A.html"
+    }
+  ]
 }

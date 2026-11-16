@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Montaña arcadia del mismo nombre según Pausanias; recibe las aguas de la cascada de [Styx](lugares:cascada-de-styx-de-nonakris-arkadia) en el macizo de los Aroania (7.25.11; 8.18.4).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Golfo de Corinto, en la costa de Acaya próxima a Aigai (Paus. 7.25.11–12).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Los pasajes geográficos citados no describen una imagen ni un culto individual del Krāthis aqueo. No se traslada a esta ficha la tradición de un homónimo itálico.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Agua de la [cascada de Styx](lugares:cascada-de-styx-de-nonakris-arkadia), documentada expresamente por Pausanias 8.18.4.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Desde las montañas arcadias y el entorno de Nónacris desciende hacia el norte por Acaya hasta el golfo de Corinto. Pausanias lo describe como un curso que no se seca (7.25.11).",
       "refs": []
     }
   ],
@@ -65,5 +65,15 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Pausanias, Descripción de Grecia 7.17–27",
+      "url": "https://www.theoi.com/Text/Pausanias7B.html"
+    },
+    {
+      "titulo": "Pausanias, Descripción de Grecia 8.17–35",
+      "url": "https://www.theoi.com/Text/Pausanias8B.html"
+    }
+  ]
 }

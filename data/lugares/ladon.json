@@ -12,31 +12,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Fuentes en el territorio de Kleitōr, a unos cincuenta estadios de Lykouria. Pausanias presenta como noticia no comprobada la alimentación subterránea desde la cuenca de Pheneos (8.20.1).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "[Alpheios](lugares:alpheios-elis), tras recorrer Arcadia occidental (Paus. 5.7.1; Estrabón 8.3.12).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Ladōn, hijo de Océano y Tetis en la tradición (C; Hes. Th. 337–345), padre de la ninfa Thelpousa (C; Paus. 8.25.2). Es el dios del río arcadio, distinto del dragón homónimo de las Hespérides.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Aroanios del territorio de Kleitōr, cuya red incluye el río Kleitōr (Paus. 8.19.4–8.21.2). La filiación divina no se usa para deducir confluencias físicas.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Por Leukasion, Mesoboa, Nasoi, Oryx/Halous y Thaliades; pasa junto a Thelpousa y el santuario de Deméter en Onkeion antes de alcanzar el Alfeo (Paus. 8.25.2–4).",
       "refs": []
     }
   ],
@@ -66,5 +66,23 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Pausanias, Descripción de Grecia 8.17–35",
+      "url": "https://www.theoi.com/Text/Pausanias8B.html"
+    },
+    {
+      "titulo": "Pausanias, Descripción de Grecia 5.1–15",
+      "url": "https://www.theoi.com/Text/Pausanias5A.html"
+    },
+    {
+      "titulo": "Hesíodo, Teogonía 337–370: ríos y Oceánides",
+      "url": "https://chs.harvard.edu/primary-source/hesiod-theogony-sb/"
+    },
+    {
+      "titulo": "Estrabón, Geografía 8.3: Élide y ríos del Peloponeso",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/8C*.html"
+    }
+  ]
 }

@@ -12,31 +12,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Monte Lampeia, parte del macizo del Erimanto según Pausanias (8.24.4).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "[Alpheios](lugares:alpheios-elis), en el límite occidental de Arcadia (Paus. 8.24.4).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Erymanthos: los psophidios le dedicaron templo e imagen (Paus. 8.24.12). Eliano 2.33 especifica una figura humana.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "En torno a Psōphis confluye la red local descrita por Pausanias, que menciona allí un Aroanios (8.24.3). No se identifica por el solo nombre con el Aroanios del territorio de Kleitōr.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Desde Lampeia pasa por Psōphis y baja hacia el Alfeo, dejando Pholoē a la derecha y el territorio de Thelpousa a la izquierda (Paus. 8.24.3–4).",
       "refs": []
     }
   ],
@@ -66,5 +66,15 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Pausanias, Descripción de Grecia 8.17–35",
+      "url": "https://www.theoi.com/Text/Pausanias8B.html"
+    },
+    {
+      "titulo": "Eliano, Historia varia 2.33: formas humanas y taurinas de los dioses fluviales",
+      "url": "https://www.theoi.com/Cult/PotamoiCult.html"
+    }
+  ]
 }

@@ -65,13 +65,13 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Bajo valle del Asopo; costa del Euripo frente a Eubea; Áulide.",
+      "texto": "Bajo valle del [Asopo](lugares:asopos-thebai); costa del Euripo frente a Eubea; Áulide.",
       "refs": []
     },
     {
       "clave": "hidrografia",
       "etiqueta": "Hidrografía",
-      "texto": "Asopo.",
+      "texto": "[Asopo](lugares:asopos-thebai).",
       "refs": []
     },
     {

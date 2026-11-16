@@ -65,13 +65,13 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Tzumerka y Pindo.",
+      "texto": "[Tzumerka](lugares:athamanika-epeiros) y [Pindo](lugares:pindos-thessalia).",
       "refs": []
     },
     {
       "clave": "hidrografia",
       "etiqueta": "Hidrografía",
-      "texto": "Aqueloo (curso alto); Aracto.",
+      "texto": "[Aqueloo](lugares:akheloos-aitolia) (curso alto); [Aracto](lugares:arakhthos-epeiros).",
       "refs": []
     },
     {

@@ -1,0 +1,37 @@
+{
+  "id": "eurotas-lakonia",
+  "nombre": "Eurōtās, Lakōnia",
+  "nombre_alt": "Río Eurotas",
+  "nombre_griego": "Εὐρώτας",
+  "imagen": null,
+  "tipos": [
+    "Río"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "peloponeso",
+      "nombre": "Peloponnēsos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Río principal de Laconia: nace entre Arcadia y Laconia, cruza el valle de Esparta y Amiclas y desagua en el golfo Laconio junto a Helos."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      22.43,
+      37.07
+    ],
+    "precision": "aprox"
+  }
+}

@@ -65,13 +65,13 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Monte Otris; llanura de Fársalo; costa de Halos.",
+      "texto": "Monte [Otris](lugares:othrys-thessalia); llanura de Fársalo; costa de Halos.",
       "refs": []
     },
     {
       "clave": "hidrografia",
       "etiqueta": "Hidrografía",
-      "texto": "Enipeo y Apídano (cursos altos).",
+      "texto": "[Enipeo](lugares:enipeus-thessalia) y Apídano (cursos altos).",
       "refs": []
     },
     {

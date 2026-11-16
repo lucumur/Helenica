@@ -1,0 +1,32 @@
+{
+  "id": "latmos-ionia",
+  "nombre": "Latmos, Karia–Iōnia",
+  "nombre_alt": "Monte Latmo",
+  "nombre_griego": "Λάτμος",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "asia-jonia",
+    "anatolia"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Macizo granítico sobre el golfo de Mileto y la desembocadura del Meandro (1.375 m), ligado al mito de Endimión."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      27.55,
+      37.48
+    ],
+    "precision": "aprox"
+  }
+}

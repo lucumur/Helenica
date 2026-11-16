@@ -1,0 +1,37 @@
+{
+  "id": "helikon-boiotia",
+  "nombre": "Helikōn, Boiōtia",
+  "nombre_alt": "Monte Helicón",
+  "nombre_griego": "Ἑλικών",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "grecia-central"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "grecia-central",
+      "nombre": "Grecia Central"
+    }
+  ],
+  "descripcion": {
+    "texto": "Macizo occidental de Beocia sobre el golfo de Corinto (1.748 m); morada de las Musas en Hesíodo (Teogonía 1–24)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      22.88,
+      38.35
+    ],
+    "precision": "aprox"
+  }
+}

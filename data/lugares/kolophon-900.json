@@ -65,13 +65,13 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Valle del Caístro; monte Coreso de Éfeso.",
+      "texto": "Valle del [Caístro](lugares:kaystros-ionia); monte Coreso de Éfeso.",
       "refs": []
     },
     {
       "clave": "hidrografia",
       "etiqueta": "Hidrografía",
-      "texto": "Caístro (Il. 2.461); Halesos.",
+      "texto": "[Caístro](lugares:kaystros-ionia) (Il. 2.461); Halesos.",
       "refs": []
     },
     {

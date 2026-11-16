@@ -1,0 +1,37 @@
+{
+  "id": "athamanika-epeiros",
+  "nombre": "Athamanika Orē, Ēpeiros",
+  "nombre_alt": "Montes Atamanios (Tzoumerka)",
+  "nombre_griego": "Ἀθαμανικὰ ὄρη",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "epiro"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "epiro",
+      "nombre": "Ēpeiros"
+    }
+  ],
+  "descripcion": {
+    "texto": "Alta cadena del sureste de Epiro entre el Aracto y el Aqueloo (2.393 m)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      21.17,
+      39.47
+    ],
+    "precision": "aprox"
+  }
+}

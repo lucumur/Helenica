@@ -1,0 +1,37 @@
+{
+  "id": "thesprotika-epeiros",
+  "nombre": "Thesprōtika Orē, Ēpeiros",
+  "nombre_alt": "Montes Tesprotos",
+  "nombre_griego": "Θεσπρωτικὰ ὄρη",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "epiro"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "epiro",
+      "nombre": "Ēpeiros"
+    }
+  ],
+  "descripcion": {
+    "texto": "Sierras interiores de Tesprotia que enmarcan el desfiladero del Aqueronte y la cuenca del Luro."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      20.79,
+      39.37
+    ],
+    "precision": "aprox"
+  }
+}

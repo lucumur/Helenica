@@ -1,0 +1,37 @@
+{
+  "id": "parnassos-phokis",
+  "nombre": "Parnāssos, Phōkis",
+  "nombre_alt": "Monte Parnaso",
+  "nombre_griego": "Παρνασσός",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "grecia-central"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "grecia-central",
+      "nombre": "Grecia Central"
+    }
+  ],
+  "descripcion": {
+    "texto": "Macizo calcáreo de la Fócide (2.457 m), consagrado a Apolo y las Musas sobre Delfos y el valle del Cefiso."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      22.62,
+      38.53
+    ],
+    "precision": "aprox"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "kephisos-attike",
+  "nombre": "Kēphisos, Attikē",
+  "nombre_alt": "Río Cefiso (Ática)",
+  "nombre_griego": "Κηφισός",
+  "imagen": null,
+  "tipos": [
+    "Río"
+  ],
+  "areas": [
+    "grecia-central"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "grecia-central",
+      "nombre": "Grecia Central"
+    }
+  ],
+  "descripcion": {
+    "texto": "Corriente principal de la llanura de Atenas: desciende entre el Parnes y el Pentélico hasta la bahía de Falero."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      23.72,
+      38.02
+    ],
+    "precision": "aprox"
+  }
+}

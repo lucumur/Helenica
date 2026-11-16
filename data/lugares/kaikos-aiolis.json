@@ -1,0 +1,37 @@
+{
+  "id": "kaikos-aiolis",
+  "nombre": "Kaïkos, Aiolis",
+  "nombre_alt": "Río Caico",
+  "nombre_griego": "Κάϊκος",
+  "imagen": null,
+  "tipos": [
+    "Río"
+  ],
+  "areas": [
+    "asia-eolia"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "asia-eolia",
+      "nombre": "Aiolis"
+    }
+  ],
+  "descripcion": {
+    "texto": "Río mayor de Eólide septentrional y Misia: riega la llanura de Teutrania y Pérgamo hasta el golfo Elaítico frente a Lesbos (Hdt. 6.28)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      27.25,
+      39.05
+    ],
+    "precision": "aprox"
+  }
+}

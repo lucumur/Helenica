@@ -65,13 +65,13 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Llanura de la Mesaoria y piedemonte del Troodos, con el cobre de Tamaso.",
+      "texto": "Llanura de la Mesaoria y piedemonte del [Troodos](lugares:troodos-kypros), con el cobre de Tamaso.",
       "refs": []
     },
     {
       "clave": "hidrografia",
       "etiqueta": "Hidrografía",
-      "texto": "Yalias; Pedieo (curso alto).",
+      "texto": "Yalias; [Pedieo](lugares:pedieos-kypros) (curso alto).",
       "refs": []
     },
     {

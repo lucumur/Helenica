@@ -1,0 +1,37 @@
+{
+  "id": "pindos-thessalia",
+  "nombre": "Pindos, Thessalia",
+  "nombre_alt": "Cordillera del Pindo (Agrafa)",
+  "nombre_griego": "Πίνδος",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "tesalia"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "tesalia",
+      "nombre": "Thessalia"
+    }
+  ],
+  "descripcion": {
+    "texto": "Espinazo montañoso que separa Tesalia de Epiro y Etolia; sector meridional en Ágrafa."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      21.65,
+      39.15
+    ],
+    "precision": "aprox"
+  }
+}

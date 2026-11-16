@@ -1,0 +1,37 @@
+{
+  "id": "knemis-lokris",
+  "nombre": "Knēmis, Lokris",
+  "nombre_alt": "Monte Cnemis y Calídromo",
+  "nombre_griego": "Κνημίς",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "grecia-central"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "grecia-central",
+      "nombre": "Grecia Central"
+    }
+  ],
+  "descripcion": {
+    "texto": "Cadena costera de Lócride que desciende hacia las Termópilas y el canal de Eubea (Calídromo y Cnemis)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      22.73,
+      38.71
+    ],
+    "precision": "aprox"
+  }
+}

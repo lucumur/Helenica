@@ -1,0 +1,37 @@
+{
+  "id": "hylaithos-lokris",
+  "nombre": "Hylaithos, Lokris",
+  "nombre_alt": "Río Hileto (Mornos)",
+  "nombre_griego": "Ὑλαῖθος",
+  "imagen": null,
+  "tipos": [
+    "Río"
+  ],
+  "areas": [
+    "grecia-central"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "grecia-central",
+      "nombre": "Grecia Central"
+    }
+  ],
+  "descripcion": {
+    "texto": "Río de los confines entre Etolia y Lócride ozolia que drena el macizo del Vardusia y desemboca junto a Naupacto."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      22.05,
+      38.5
+    ],
+    "precision": "aprox"
+  }
+}

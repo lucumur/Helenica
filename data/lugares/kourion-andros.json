@@ -1,0 +1,37 @@
+{
+  "id": "kourion-andros",
+  "nombre": "Kourion, Andros",
+  "nombre_alt": "Monte de Andros (Kouvara)",
+  "nombre_griego": "Κούριον",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "andros-kyklades",
+      "nombre": "Andros"
+    }
+  ],
+  "descripcion": {
+    "texto": "Espinazo montañoso central de Andros (995 m)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      24.85,
+      37.84
+    ],
+    "precision": "aprox"
+  }
+}

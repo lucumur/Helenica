@@ -1,0 +1,37 @@
+{
+  "id": "iardanos-kreta",
+  "nombre": "Iardanos, Krētē",
+  "nombre_alt": "Río Yárdano",
+  "nombre_griego": "Ἰάρδανος",
+  "imagen": null,
+  "tipos": [
+    "Río"
+  ],
+  "areas": [
+    "creta"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "creta",
+      "nombre": "Krētē"
+    }
+  ],
+  "descripcion": {
+    "texto": "Río de Creta occidental en territorio de los cidonios (Od. 3.292)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      23.89,
+      35.51
+    ],
+    "precision": "aprox"
+  }
+}

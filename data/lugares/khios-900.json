@@ -65,13 +65,13 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Quíos montañosa; península de Eritras (Mimante); golfo de Esmirna al norte.",
+      "texto": "Quíos montañosa; península de Eritras ([Mimante](lugares:mimas-ionia)); golfo de Esmirna al norte.",
       "refs": []
     },
     {
       "clave": "hidrografia",
       "etiqueta": "Hidrografía",
-      "texto": "El Hermo al norte, frontera con la Eólide.",
+      "texto": "El [Hermo](lugares:hermos-aiolis) al norte, frontera con la Eólide.",
       "refs": []
     },
     {

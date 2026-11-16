@@ -25,11 +25,30 @@
   "descripcion": {
     "texto": "Epiro, de griego noroccidental (Thesprōtoi, Molossoi, Khaones). Frontera con los Illurioi."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo muy lluvioso en la vertiente jónica y de alta montaña con nieves invernales en las sierras del Pindo.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Relieve muy compartimentado de valles paralelos y sierras calcáreas: [Montes Ceraunios](lugares:keraunia-epeiros) sobre la costa, el macizo de [Timfe](lugares:tymphe-epeiros), el [Tómaro](lugares:tomaros-epeiros) sobre Dodona, los [Montes Atamanios](lugares:athamanika-epeiros) y los [Montes Tesprotos](lugares:thesprotika-epeiros); golfo de Ambracia al sur.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "Cursos largos de montaña: el [Aoo](lugares:aoos-epeiros) hacia el Adriático, el [Tíamis](lugares:thyamis-epeiros) en Tesprotia, el [Aqueronte](lugares:akheron-epeiros) hacia el Jónico y el [Aracto](lugares:arakhthos-epeiros) hacia el golfo de Ambracia.",
+      "refs": []
+    }
+  ],
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- *Ēpeiros* como nombre de región es posterior."
+      "texto": "- *Ēpeiros* como nombre de región es posterior.\n- Rasgos generales del clima actual; para 900 a.C. se asumen similares. La sequía del colapso (c. 1200–850 en el Mediterráneo oriental) es un debate abierto a escala local."
     }
   ],
   "epoca": {

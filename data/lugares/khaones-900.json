@@ -65,13 +65,13 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Montes Acroceraunios; llanura de Butroto.",
+      "texto": "[Montes Acroceraunios](lugares:keraunia-epeiros); llanura de Butroto.",
       "refs": []
     },
     {
       "clave": "hidrografia",
       "etiqueta": "Hidrografía",
-      "texto": "Tiamis (Kalamas); el Aoo al norte.",
+      "texto": "[Tíamis](lugares:thyamis-epeiros) (Kalamas); el [Aoo](lugares:aoos-epeiros) al norte.",
       "refs": []
     },
     {

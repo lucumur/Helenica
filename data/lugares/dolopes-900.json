@@ -65,13 +65,13 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Pindo meridional; valles altos y pastos de verano.",
+      "texto": "[Pindo](lugares:pindos-thessalia) meridional; valles altos y pastos de verano.",
       "refs": []
     },
     {
       "clave": "hidrografia",
       "etiqueta": "Hidrografía",
-      "texto": "Aqueloo (curso alto).",
+      "texto": "[Aqueloo](lugares:akheloos-aitolia) (curso alto).",
       "refs": []
     },
     {

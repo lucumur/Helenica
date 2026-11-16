@@ -1,0 +1,31 @@
+{
+  "id": "tmolos-ionia",
+  "nombre": "Tmōlos, Lydia",
+  "nombre_alt": "Monte Tmolo",
+  "nombre_griego": "Τμῶλος",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "anatolia"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Cordillera lidia sobre Sardis (2.157 m) que separa las cuencas del Hermo y el Caístro (Il. 2.866)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      28.05,
+      38.33
+    ],
+    "precision": "aprox"
+  }
+}

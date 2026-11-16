@@ -25,11 +25,30 @@
   "descripcion": {
     "texto": "Tesalia, de dialecto eolio."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Continental de llanura encerrada: inviernos fríos con nieve en las sierras perimetrales y veranos calurosos en las llanuras centrales.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Gran cuenca interior cerrada por el [Olimpo](lugares:olympos-thessalia) al nordeste, el [Osa](lugares:ossa-thessalia) y el [Pelión](lugares:pelion-thessalia) sobre el Egeo, el [Otris](lugares:othrys-thessalia) al sur, el [Pindo](lugares:pindos-thessalia) y el [Cercetio](lugares:kerketion-thessalia) al oeste, y los [Montes Camvunios](lugares:kamvounia-thessalia) al norte; el valle de Tempe abre el paso al mar y el golfo Pagasético al sur.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "El [Peneo](lugares:peneios-thessalia) y su red de afluentes —[Enipeo](lugares:enipeus-thessalia), [Titaresio](lugares:titaresios-thessalia) (Il. 2.751), [Pamiso tesalio](lugares:pamisos-thessalia) y [Leteo de Trica](lugares:lethaios-trikka)— que convergen en la llanura y desaguan por Tempe.",
+      "refs": []
+    }
+  ],
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- El nombre de región no está en Homero; es posterior (Heródoto)."
+      "texto": "- El nombre de región no está en Homero; es posterior (Heródoto).\n- Rasgos generales del clima actual; para 900 a.C. se asumen similares. La sequía del colapso (c. 1200–850 en el Mediterráneo oriental) es un debate abierto a escala local."
     }
   ],
   "epoca": {

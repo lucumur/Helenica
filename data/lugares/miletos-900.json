@@ -65,13 +65,13 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Llanura aluvial del Meandro; monte Mícale; en Samos, el Kerketeus.",
+      "texto": "Llanura aluvial del [Meandro](lugares:maiandros-ionia); monte [Mícale](lugares:mykale-ionia); en Samos, el [Kerketeus](lugares:kerketeus-samos).",
       "refs": []
     },
     {
       "clave": "hidrografia",
       "etiqueta": "Hidrografía",
-      "texto": "Meandro; Ímbraso de Samos.",
+      "texto": "[Meandro](lugares:maiandros-ionia); Ímbraso de Samos.",
       "refs": []
     },
     {

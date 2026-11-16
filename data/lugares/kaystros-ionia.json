@@ -1,0 +1,37 @@
+{
+  "id": "kaystros-ionia",
+  "nombre": "Kaÿstros, Iōnia",
+  "nombre_alt": "Río Caístro",
+  "nombre_griego": "Κάϋστρος",
+  "imagen": null,
+  "tipos": [
+    "Río"
+  ],
+  "areas": [
+    "asia-jonia"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "asia-jonia",
+      "nombre": "Iōnia"
+    }
+  ],
+  "descripcion": {
+    "texto": "Río de Jonia central que corre entre el Tmolo y el Mesogis hasta desembocar junto a Éfeso (Il. 2.461)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      27.55,
+      38.08
+    ],
+    "precision": "aprox"
+  }
+}

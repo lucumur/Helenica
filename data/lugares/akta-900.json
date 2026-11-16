@@ -25,11 +25,30 @@
   "descripcion": {
     "texto": "El Ática, de dialecto jónico (ático)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo seco y luminoso: inviernos suaves, veranos largos y escasas precipitaciones anuales.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Península triangular cerrada al norte por el [Parnes](lugares:parnes-attike) y el [Citerón](lugares:kithairon-boiotia), y al oeste por el [Pateras](lugares:pateras-megaris); en el centro, el [Pentélico](lugares:pentelikon-attike) y el [Himeto](lugares:hymettos-attike) enmarcan la llanura de Atenas; llanura de Eleusis y colinas metalíferas de Laurión al sudeste; isla de Salamina.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "[Cefiso ático](lugares:kephisos-attike) y el [Iliso](lugares:ilissos-attike) en la llanura ateniense, de caudal modesto y estacional; manantiales de Calírroe y curso del Erídano.",
+      "refs": []
+    }
+  ],
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- *Attikā* es la alternativa más reconocible."
+      "texto": "- *Attikā* es la alternativa más reconocible.\n- Rasgos generales del clima actual; para 900 a.C. se asumen similares. La sequía del colapso (c. 1200–850 en el Mediterráneo oriental) es un debate abierto a escala local."
     }
   ],
   "epoca": {

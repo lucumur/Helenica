@@ -1,0 +1,37 @@
+{
+  "id": "hymettos-attike",
+  "nombre": "Hymēttos, Attikē",
+  "nombre_alt": "Monte Himeto",
+  "nombre_griego": "Ὑμηττός",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "grecia-central"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "grecia-central",
+      "nombre": "Grecia Central"
+    }
+  ],
+  "descripcion": {
+    "texto": "Sierra al este de la llanura de Atenas (1.026 m), célebre por su miel y su mármol en época clásica."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      23.816,
+      37.946
+    ],
+    "precision": "aprox"
+  }
+}

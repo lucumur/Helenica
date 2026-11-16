@@ -1,0 +1,37 @@
+{
+  "id": "olympos-thessalia",
+  "nombre": "Olympos, Thessalia",
+  "nombre_alt": "Monte Olimpo",
+  "nombre_griego": "Ὄλυμπος",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "tesalia"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "tesalia",
+      "nombre": "Thessalia"
+    }
+  ],
+  "descripcion": {
+    "texto": "La cumbre más alta de Grecia (2.917 m), frontera septentrional de Tesalia con Macedonia y morada de los dioses olímpicos."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      22.36,
+      40.09
+    ],
+    "precision": "aprox"
+  }
+}

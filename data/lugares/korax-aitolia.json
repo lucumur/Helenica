@@ -1,0 +1,32 @@
+{
+  "id": "korax-aitolia",
+  "nombre": "Korax, Aitōlia",
+  "nombre_alt": "Monte Córax (Vardusia)",
+  "nombre_griego": "Κόραξ",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "grecia-central",
+    "grecia-occidental"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Macizo entre la Dóride, la Lócride ozolia y Etolia oriental (2.495 m, Estrabón 10.2.4)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      22.12,
+      38.7
+    ],
+    "precision": "aprox"
+  }
+}

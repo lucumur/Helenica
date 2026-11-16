@@ -1,0 +1,37 @@
+{
+  "id": "pelion-thessalia",
+  "nombre": "Pēlion, Thessalia",
+  "nombre_alt": "Monte Pelión",
+  "nombre_griego": "Πήλιον",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "tesalia"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "tesalia",
+      "nombre": "Thessalia"
+    }
+  ],
+  "descripcion": {
+    "texto": "Cordillera costera de Magnesia sobre el golfo Pagasético y el Egeo (1.624 m); morada de Quirón (Il. 2.744)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      23.01,
+      39.4
+    ],
+    "precision": "aprox"
+  }
+}

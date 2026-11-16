@@ -1,0 +1,37 @@
+{
+  "id": "keryneia-kypros",
+  "nombre": "Keryneia Orē, Kypros",
+  "nombre_alt": "Montes de Cerinea (Pentadáctilo)",
+  "nombre_griego": "Κερύνεια ὄρη",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "chipre"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "chipre",
+      "nombre": "Kypros"
+    }
+  ],
+  "descripcion": {
+    "texto": "Cordillera estrecha paralela a la costa septentrional de Chipre, sobre la llanura de Mesaoria."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      33.36,
+      35.3
+    ],
+    "precision": "aprox"
+  }
+}

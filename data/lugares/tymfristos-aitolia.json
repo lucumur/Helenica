@@ -1,0 +1,37 @@
+{
+  "id": "tymfristos-aitolia",
+  "nombre": "Tymphrēstos, Aitōlia",
+  "nombre_alt": "Monte Timfresto",
+  "nombre_griego": "Τυμφρηστός",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "grecia-occidental"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "grecia-occidental",
+      "nombre": "Grecia Occidental"
+    }
+  ],
+  "descripcion": {
+    "texto": "Macizo de unión entre el Pindo meridional y Etolia septentrional (2.315 m), donde nace el Esperqueo."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      21.85,
+      39.0
+    ],
+    "precision": "aprox"
+  }
+}

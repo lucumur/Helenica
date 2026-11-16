@@ -1,0 +1,37 @@
+{
+  "id": "inakhos-argolis",
+  "nombre": "Inakhos, Argolis",
+  "nombre_alt": "Río Ínaco",
+  "nombre_griego": "Ἴναχος",
+  "imagen": null,
+  "tipos": [
+    "Río"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "peloponeso",
+      "nombre": "Peloponnēsos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Río estacional de la llanura argiva que desciende del Artemisio por Argos hasta el golfo Argólico."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      22.7,
+      37.64
+    ],
+    "precision": "aprox"
+  }
+}

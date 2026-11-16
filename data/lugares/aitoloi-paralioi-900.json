@@ -65,13 +65,13 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Llanura costera del Eveno; cuenca de los lagos Triconide y Lisimaquia.",
+      "texto": "Llanura costera del [Eveno](lugares:euenos-aitolia); cuenca de los lagos Triconide y Lisimaquia.",
       "refs": []
     },
     {
       "clave": "hidrografia",
       "etiqueta": "Hidrografía",
-      "texto": "Eveno; Aqueloo (orilla izquierda); lago Triconide.",
+      "texto": "[Eveno](lugares:euenos-aitolia); [Aqueloo](lugares:akheloos-aitolia) (orilla izquierda); lago Triconide.",
       "refs": []
     },
     {

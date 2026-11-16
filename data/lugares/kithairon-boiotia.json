@@ -1,0 +1,37 @@
+{
+  "id": "kithairon-boiotia",
+  "nombre": "Kithairōn, Boiōtia",
+  "nombre_alt": "Monte Citerón",
+  "nombre_griego": "Κιθαιρών",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "grecia-central"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "grecia-central",
+      "nombre": "Grecia Central"
+    }
+  ],
+  "descripcion": {
+    "texto": "Cadena montañosa entre Beocia, el Ática y la Megáride (1.409 m); escenario del ciclo tebano y dionisíaco."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      23.25,
+      38.18
+    ],
+    "precision": "aprox"
+  }
+}

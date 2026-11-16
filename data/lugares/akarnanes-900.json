@@ -65,13 +65,13 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Montes de Acarnania; costa jónica recortada; lagunas del bajo Aqueloo.",
+      "texto": "[Montes de Acarnania](lugares:akarnanika-ore); costa jónica recortada; lagunas del bajo Aqueloo.",
       "refs": []
     },
     {
       "clave": "hidrografia",
       "etiqueta": "Hidrografía",
-      "texto": "Aqueloo como frontera oriental, el río mayor de Grecia.",
+      "texto": "[Aqueloo](lugares:akheloos-aitolia) como frontera oriental, el río mayor de Grecia.",
       "refs": []
     },
     {

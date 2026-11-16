@@ -1,0 +1,37 @@
+{
+  "id": "kouris-kypros",
+  "nombre": "Kouris, Kypros",
+  "nombre_alt": "Río Curis",
+  "nombre_griego": "Κούρης",
+  "imagen": null,
+  "tipos": [
+    "Río"
+  ],
+  "areas": [
+    "chipre"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "chipre",
+      "nombre": "Kypros"
+    }
+  ],
+  "descripcion": {
+    "texto": "Río de la vertiente meridional del Troodos que desemboca junto a Curio en la costa sur de Chipre."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      32.89,
+      34.72
+    ],
+    "precision": "aprox"
+  }
+}

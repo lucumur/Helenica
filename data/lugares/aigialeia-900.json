@@ -72,13 +72,13 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Franja costera estrecha entre el golfo de Corinto y montañas altas (Panaqueo, [Aroania](lugares:ore-aroania-arkadia), [Erimanto](lugares:oros-erymanthos-arkadia)); se ensancha al oeste en las llanuras de Dime y Patras. Costa sísmica y de hundimientos: Hélice desaparece bajo el mar en 373 a.C.",
+      "texto": "Franja costera estrecha entre el golfo de Corinto y montañas altas ([Panaqueo](lugares:panakhaikon-achaia), [Aroania](lugares:ore-aroania-arkadia), [Erimanto](lugares:oros-erymanthos-arkadia)); se ensancha al oeste en las llanuras de Dime y Patras. Costa sísmica y de hundimientos: Hélice desaparece bajo el mar en 373 a.C.",
       "refs": []
     },
     {
       "clave": "hidrografia",
       "etiqueta": "Hidrografía",
-      "texto": "Torrentes cortos que bajan de la montaña: Cratis (Hdt. 1.145), Selinunte, [Cerinites](lugares:cerynitis-achaia), Buraico, Píero, Glauco.",
+      "texto": "Torrentes cortos que bajan de la montaña: [Cratis](lugares:krathis-achaia) (Hdt. 1.145), Selinunte, [Cerinites](lugares:cerynitis-achaia), Buraico, [Píero](lugares:peiros-achaia), Glauco.",
       "refs": []
     },
     {

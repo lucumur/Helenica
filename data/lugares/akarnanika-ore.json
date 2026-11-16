@@ -1,0 +1,37 @@
+{
+  "id": "akarnanika-ore",
+  "nombre": "Akarnānika Orē",
+  "nombre_alt": "Montes Acarnanios",
+  "nombre_griego": "Ἀκαρνανικὰ ὄρη",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "grecia-occidental"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "grecia-occidental",
+      "nombre": "Grecia Occidental"
+    }
+  ],
+  "descripcion": {
+    "texto": "Cadena calcárea paralela a la costa occidental de Acarnania frente a Léucade."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      21.06,
+      38.71
+    ],
+    "precision": "aprox"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "thyamis-epeiros",
+  "nombre": "Thyamis, Ēpeiros",
+  "nombre_alt": "Río Tíamis (Kalamas)",
+  "nombre_griego": "Θύαμις",
+  "imagen": null,
+  "tipos": [
+    "Río"
+  ],
+  "areas": [
+    "epiro"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "epiro",
+      "nombre": "Ēpeiros"
+    }
+  ],
+  "descripcion": {
+    "texto": "Río mayor de Tesprotia y frontera entre Tesprotia y Caonia frente a Corcira (Tucídides 1.46.4)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      20.38,
+      39.62
+    ],
+    "precision": "aprox"
+  }
+}

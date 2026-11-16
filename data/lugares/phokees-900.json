@@ -65,13 +65,13 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Parnaso (2.457 m), valle del Cefiso, llanura de Crisa.",
+      "texto": "[Parnaso](lugares:parnassos-phokis) (2.457 m), valle del [Cefiso](lugares:kephisos-boiotia), llanura de Crisa.",
       "refs": []
     },
     {
       "clave": "hidrografia",
       "etiqueta": "Hidrografía",
-      "texto": "Cefiso; fuente Castalia en Delfos; el Plisto.",
+      "texto": "[Cefiso](lugares:kephisos-boiotia); fuente Castalia en Delfos; el Plisto.",
       "refs": []
     },
     {

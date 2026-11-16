@@ -1,0 +1,37 @@
+{
+  "id": "kephisos-boiotia",
+  "nombre": "Kēphisos, Boiōtia",
+  "nombre_alt": "Río Cefiso (Beocia y Fócide)",
+  "nombre_griego": "Κηφισός",
+  "imagen": null,
+  "tipos": [
+    "Río"
+  ],
+  "areas": [
+    "grecia-central"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "grecia-central",
+      "nombre": "Grecia Central"
+    }
+  ],
+  "descripcion": {
+    "texto": "Río principal de Fócide y Beocia septentrional: nace en Lilea bajo el Parnaso y desagua en la cuenca del Copaide (Il. 2.522)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      22.85,
+      38.55
+    ],
+    "precision": "aprox"
+  }
+}

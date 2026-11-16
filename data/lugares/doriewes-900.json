@@ -25,11 +25,30 @@
   "descripcion": {
     "texto": "Rodas, Cos, Cnido y Halicarnaso."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo cálido y muy seco en verano, con inviernos suaves en Rodas, Cos y la costa caria.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Grandes islas de Rodas —con el macizo central del [Atabirio](lugares:atabyrion-rhodos) (1.215 m)— y Cos, junto con las penínsulas escarpadas de Halicarnaso y Cnido.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "Torrentes cortos estacionales en Rodas y Cos; manantiales kársticos y fuentes costeras como [Salmacis](lugares:salmakis-halikarnassos) en Halicarnaso.",
+      "refs": []
+    }
+  ],
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- La Hexápolis doria es posterior."
+      "texto": "- La Hexápolis doria es posterior.\n- Rasgos generales del clima actual; para 900 a.C. se asumen similares. La sequía del colapso (c. 1200–850 en el Mediterráneo oriental) es un debate abierto a escala local."
     }
   ],
   "epoca": {

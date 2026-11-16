@@ -65,13 +65,13 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Llanura tebana; el Citerón como frontera con el Ática.",
+      "texto": "Llanura tebana; el [Citerón](lugares:kithairon-boiotia) como frontera con el Ática.",
       "refs": []
     },
     {
       "clave": "hidrografia",
       "etiqueta": "Hidrografía",
-      "texto": "Ismeno, fuente Dirce, Asopo.",
+      "texto": "[Ismeno](lugares:ismenos), fuente Dirce, [Asopo](lugares:asopos-thebai).",
       "refs": []
     },
     {

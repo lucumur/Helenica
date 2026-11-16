@@ -25,11 +25,30 @@
   "descripcion": {
     "texto": "Cícladas: jonias en el centro; Thera y Melos, dorias."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo insular seco, ventoso bajo los etesios (meltemi) estivales y de inviernos suaves.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Archipiélago de crestas sumergidas en círculo en torno a Delos y su monte [Cinto](lugares:oros-kynthos); cumbres mayores en Naxos (monte [Zas](lugares:zas-naxos), 1.004 m) y Andros ([Courión](lugares:kourion-andros)); islas volcánicas al sur (Melos, Tera).",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "Sin ríos permanentes; arroyos torrenciales estacionales como el [Inopo](lugares:inopos-inopo-delos) en Delos, fuentes escasas y aprovechamiento de aguas de lluvia.",
+      "refs": []
+    }
+  ],
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Lemnos e Imbros (Sintiēs, tirsénicos), Samotracia y Tasos (tracias) quedan fuera de Akhaiwiā en 900 a.C."
+      "texto": "- Lemnos e Imbros (Sintiēs, tirsénicos), Samotracia y Tasos (tracias) quedan fuera de Akhaiwiā en 900 a.C.\n- Rasgos generales del clima actual; para 900 a.C. se asumen similares. La sequía del colapso (c. 1200–850 en el Mediterráneo oriental) es un debate abierto a escala local."
     }
   ],
   "epoca": {

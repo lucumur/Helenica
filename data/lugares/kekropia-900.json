@@ -65,13 +65,13 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Llanura ateniense; Acrópolis y Areópago; Egaleo, Parnes, Pentélico e Himeto.",
+      "texto": "Llanura ateniense; Acrópolis y Areópago; Egaleo, [Parnes](lugares:parnes-attike), [Pentélico](lugares:pentelikon-attike) e [Himeto](lugares:hymettos-attike).",
       "refs": []
     },
     {
       "clave": "hidrografia",
       "etiqueta": "Hidrografía",
-      "texto": "Cefiso e Iliso; fuente Calírroe.",
+      "texto": "[Cefiso](lugares:kephisos-attike) e [Iliso](lugares:ilissos-attike); fuente Calírroe.",
       "refs": []
     },
     {

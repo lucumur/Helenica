@@ -1,0 +1,32 @@
+{
+  "id": "maiandros-ionia",
+  "nombre": "Maiandros, Iōnia",
+  "nombre_alt": "Río Meandro",
+  "nombre_griego": "Μαίανδρος",
+  "imagen": null,
+  "tipos": [
+    "Río"
+  ],
+  "areas": [
+    "asia-jonia",
+    "anatolia"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Gran río de curso sinuoso que atraviesa Frigia y Caria y forma una amplia llanura aluvial entre Priene y Mileto (Il. 2.869; Hdt. 2.29)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      27.55,
+      37.7
+    ],
+    "precision": "aprox"
+  }
+}

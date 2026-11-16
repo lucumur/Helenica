@@ -25,8 +25,32 @@
   "descripcion": {
     "texto": "Etolia y Acarnania (Akarnānes, Ἀκαρνᾶνες). Griego noroccidental."
   },
-  "campos": [],
-  "secciones": [],
+  "campos": [
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo húmedo en el oeste y lluvioso de montaña en el interior etolio.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Valles interiores y altos macizos del [Panetólico](lugares:panaitolikon-aitolia), el [Timfresto](lugares:tymfristos-aitolia) y el [Aracinto](lugares:arakynthos-aitolia) en Etolia; [Montes Acarnanios](lugares:akarnanika-ore) al oeste; llanuras aluviales y lagunas costeras de Calidón y del delta del Aqueloo.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "El [Aqueloo](lugares:akheloos-aitolia), el río mayor de Grecia, frontera entre Etolia y Acarnania (Il. 21.194); el [Eveno](lugares:euenos-aitolia) por Calidón y el [Ínaco](lugares:inakhos-akarnania) hacia el golfo de Ambracia; lagos Tricónide y Lisimaquia.",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Rasgos generales del clima actual; para 900 a.C. se asumen similares. La sequía del colapso (c. 1200–850 en el Mediterráneo oriental) es un debate abierto a escala local."
+    }
+  ],
   "epoca": {
     "anio": -900,
     "nota": null

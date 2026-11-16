@@ -65,7 +65,7 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Costa sur al pie del Troodos.",
+      "texto": "Costa sur al pie del [Troodos](lugares:troodos-kypros).",
       "refs": []
     },
     {

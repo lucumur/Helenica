@@ -1,0 +1,37 @@
+{
+  "id": "pelineon-khios",
+  "nombre": "Pelinnaion, Khios",
+  "nombre_alt": "Monte Pelineo",
+  "nombre_griego": "Πελινναῖον",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "asia-jonia"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "asia-jonia",
+      "nombre": "Iōnia"
+    }
+  ],
+  "descripcion": {
+    "texto": "Macizo calcáreo septentrional de Quíos (1.297 m), con santuario de Zeus Pelineo."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      26.01,
+      38.55
+    ],
+    "precision": "aprox"
+  }
+}

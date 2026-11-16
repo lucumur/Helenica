@@ -65,13 +65,13 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Valle del Esperqueo entre el Eta y el Otris; las Termópilas entre el Eta y la costa.",
+      "texto": "Valle del Esperqueo entre el [Eta](lugares:oite-phokis) y el [Otris](lugares:othrys-thessalia); las Termópilas entre el [Eta](lugares:oite-phokis) y la costa.",
       "refs": []
     },
     {
       "clave": "hidrografia",
       "etiqueta": "Hidrografía",
-      "texto": "Esperqueo; aguas termales de las Termópilas.",
+      "texto": "[Esperqueo](lugares:sperkheios-malis); aguas termales de las Termópilas.",
       "refs": []
     },
     {

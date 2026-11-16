@@ -1,0 +1,37 @@
+{
+  "id": "pamisos-thessalia",
+  "nombre": "Pamisos, Thessalia",
+  "nombre_alt": "Río Pamiso (Tesalia)",
+  "nombre_griego": "Πάμισος",
+  "imagen": null,
+  "tipos": [
+    "Río"
+  ],
+  "areas": [
+    "tesalia"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "tesalia",
+      "nombre": "Thessalia"
+    }
+  ],
+  "descripcion": {
+    "texto": "Afluente occidental del Peneo en Hestieótide, mencionado por Heródoto entre los grandes ríos de Tesalia (Hdt. 7.129)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      21.72,
+      39.42
+    ],
+    "precision": "aprox"
+  }
+}

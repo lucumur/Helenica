@@ -1,0 +1,37 @@
+{
+  "id": "enipeus-thessalia",
+  "nombre": "Enipeus, Thessalia",
+  "nombre_alt": "Río Enipeo",
+  "nombre_griego": "Ἐνιπεύς",
+  "imagen": null,
+  "tipos": [
+    "Río"
+  ],
+  "areas": [
+    "tesalia"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "tesalia",
+      "nombre": "Thessalia"
+    }
+  ],
+  "descripcion": {
+    "texto": "Afluente meridional del Peneo que nace en el Otris y recorre Farsalo y la llanura central tesalia (Od. 11.238–240)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      22.3,
+      39.35
+    ],
+    "precision": "aprox"
+  }
+}

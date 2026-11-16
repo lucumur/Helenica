@@ -1,0 +1,37 @@
+{
+  "id": "mimas-ionia",
+  "nombre": "Mimas, Iōnia",
+  "nombre_alt": "Monte Mimas (Karaburun)",
+  "nombre_griego": "Μίμας",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "asia-jonia"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "asia-jonia",
+      "nombre": "Iōnia"
+    }
+  ],
+  "descripcion": {
+    "texto": "Macizo de la península de Eritras frente a Quíos (Od. 3.172; Estrabón 14.1.33)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      26.5,
+      38.55
+    ],
+    "precision": "aprox"
+  }
+}

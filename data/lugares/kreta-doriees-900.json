@@ -65,13 +65,13 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Ida (2.456 m); llanura de la Mesará; Dicte y la meseta del Lasithi.",
+      "texto": "[Ida](lugares:ida-creta) (2.456 m); llanura de la Mesará; [Dicte](lugares:dikte-kreta) y la meseta del Lasithi.",
       "refs": []
     },
     {
       "clave": "hidrografia",
       "etiqueta": "Hidrografía",
-      "texto": "Leteo de Gortina; el río de la Mesará.",
+      "texto": "[Leteo](lugares:lethaios-kreta) de Gortina; el río de la Mesará.",
       "refs": []
     },
     {

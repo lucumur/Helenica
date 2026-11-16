@@ -160,7 +160,10 @@ ${physicalSVG(D, opts.selectedId)}
   </svg>
   <div class="ui tl">
     <div class="search"><input id="q" type="search" placeholder="Buscar área o lugar…" autocomplete="off" aria-label="Buscar en el mapa"><div id="qr" class="qr" hidden></div></div>
-    <div class="layers"><label><input type="checkbox" id="l-rv" checked> Ríos</label><label><input type="checkbox" id="l-mt" checked> Montes</label><label><input type="checkbox" id="l-pt" checked> Lugares</label><label><input type="checkbox" id="l-lb" checked> Nombres</label></div>
+    <div class="top-controls">
+      <div class="mode" role="group" aria-label="Modo de mapa"><button type="button" data-m="pol" class="on">Político</button><button type="button" data-m="geo">Geográfico</button></div>
+      <div class="layers"><label><input type="checkbox" id="l-rv" checked> Ríos</label><label><input type="checkbox" id="l-mt" checked> Montes</label><label><input type="checkbox" id="l-pt" checked> Lugares</label><label><input type="checkbox" id="l-lb" checked> Nombres</label></div>
+    </div>
     <div id="era" class="era" hidden></div>
   </div>
   <div class="ui tc"><div class="when" role="group" aria-label="Fecha">${D.per.periodos.map(p => [p.id, p.etiqueta]).map(([v, l]) => `<button type="button" data-t="${v}">${l}</button>`).join('')}</div></div>
@@ -172,10 +175,10 @@ ${physicalSVG(D, opts.selectedId)}
   <aside id="panel" class="panel" hidden></aside>
   <div id="tip" class="tip" hidden></div>
 </div>
-<p class="atlas-src">Costa y agua de base: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>. Trazados fluviales: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL). Macizos: <a href="https://doi.org/10.48601/earthenv-t9k2-1407" target="_blank" rel="noopener">GMBA Mountain Inventory v2</a> (CC BY 4.0). Las extensiones son cartográficas y aproximadas; los cauces modernos no reconstruyen sus cambios antiguos. Las fronteras regionales son convencionales. Subregiones desde el nivel 3; choras, ethne, cauces y extensiones montañosas desde el nivel 4; asentamientos, cada isla del Egeo e iconos y nombres de ríos y montes, desde el nivel 5. En el nivel 1, las fechas con zonas continentales (tier 0) las muestran en lugar de las áreas; en los niveles 2 y 3, las fechas con regiones (tier 1) las muestran en lugar de las áreas.</p>`;
+<p class="atlas-src">Costa y agua de base: <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>. Trazados fluviales: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL). Macizos: <a href="https://doi.org/10.48601/earthenv-t9k2-1407" target="_blank" rel="noopener">GMBA Mountain Inventory v2</a> (CC BY 4.0). Las extensiones son cartográficas y aproximadas; los cauces modernos no reconstruyen sus cambios antiguos. Las fronteras regionales son convencionales. Subregiones, cauces y extensiones montañosas desde el nivel 3 (en modo geográfico, desde el nivel 1); choras, ethne e iconos y nombres de ríos y montes desde el nivel 4 (en modo geográfico, desde el nivel 3); asentamientos y cada isla del Egeo, desde el nivel 5. En el nivel 1, las fechas con zonas continentales (tier 0) las muestran en lugar de las áreas; en los niveles 2 y 3, las fechas con regiones (tier 1) las muestran en lugar de las áreas.</p>`;
     const svg = main.querySelector('#map'), panel = main.querySelector('#panel'), tip = main.querySelector('#tip');
     const gSites = svg.querySelector('.sites'), gLab = svg.querySelector('.alabels'), gSeas = svg.querySelector('.seas'), gHl = svg.querySelector('.hl');
-    let view = [0, 0, W, H], selArea = null, selSite = null, T = '-900';
+    let view = [0, 0, W, H], selArea = null, selSite = null, T = '-900', mode = 'pol';
     const gSL = svg.querySelector('.slabels');
     const RFIELDS = ['cultura_primaria', 'cultura_base', 'cultura_sustrato', 'idioma', 'poblacion', 'clima', 'topografia', 'hidrografia', 'santuario', 'grupo_cultual', 'gobierno', 'lider'];
     const OWN = { achaia: 'achaia', elis: 'elis', messenia: 'messenia', lakonia: 'esparta', arkadia: 'arkadia', argolis: 'argos', korinthia: 'corinto' };
@@ -200,7 +203,7 @@ ${physicalSVG(D, opts.selectedId)}
         era.hidden = eraClosed;
       } else era.hidden = true;
       D.sites.forEach((s, k) => { const g = gSites.querySelector(`[data-k="${k}"]`); if (g) g.classList.toggle('gone', !s.items.some(alive)); });
-      const u = new URL(location.href); T ? u.searchParams.set('t', T) : u.searchParams.delete('t'); history.replaceState(null, '', u);
+      const u = new URL(location.href); T ? u.searchParams.set('t', T) : u.searchParams.delete('t'); mode === 'geo' ? u.searchParams.set('m', 'geo') : u.searchParams.delete('m'); history.replaceState(null, '', u);
       apply();
       if (selSite) showSite(selSite, false); else if (selSub) showSub(selSub, false);
       else if (selZone && !BE) {
@@ -210,6 +213,19 @@ ${physicalSVG(D, opts.selectedId)}
       }
     }
     let selSub = null, selZone = null;
+    function applyMode() {
+      main.querySelectorAll('.mode button').forEach(b => b.classList.toggle('on', b.dataset.m === mode));
+      svg.classList.toggle('geo-mode', mode === 'geo');
+      const u = new URL(location.href);
+      mode === 'geo' ? u.searchParams.set('m', 'geo') : u.searchParams.delete('m');
+      history.replaceState(null, '', u);
+      apply();
+    }
+    main.querySelector('.mode').addEventListener('click', e => {
+      const b = e.target.closest('button'); if (!b || b.dataset.m === mode) return;
+      mode = b.dataset.m === 'geo' ? 'geo' : 'pol';
+      applyMode();
+    });
     const anyZone = id => zone0(id) || zone1(id) || zone2(id);
     const fmtY = a => a < 0 ? `${-a} a.C.` : `${a} d.C.`;
     let eraClosed = false;
@@ -253,7 +269,7 @@ ${physicalSVG(D, opts.selectedId)}
     function apply() {
       svg.setAttribute('viewBox', view.join(' '));
       const u = unitsPerPx(), k = W / view[2], scale = scaleBar(u);
-      const lvl = zlevel(k), naturalVisible = lvl >= 4, naturalSitesVisible = lvl >= MAX_ZOOM;
+      const lvl = zlevel(k), naturalVisible = mode === 'geo' || lvl >= 3, naturalSitesVisible = mode === 'geo' ? lvl >= 3 : lvl >= 4;
       const t0on = lvl === 1 && !!(T && D.t0[T]), t1on = (lvl === 2 || lvl === 3) && !!(T && D.t1[T]);
       svg.classList.toggle('t0-on', t0on);
       const t1part = t1on && !D.t0[T], t1areas = new Set(t1part ? D.t1[T].flatMap(z => z.areas) : []);
@@ -332,7 +348,7 @@ ${physicalSVG(D, opts.selectedId)}
         g.classList.remove('lab');
       }
       if (!svg.classList.contains('no-lb')) {
-        nodes.filter(([g, s]) => g.style.display !== 'none' && (g.classList.contains('on') || s.capital || k >= zk(siteLevel(s))))
+        nodes.filter(([g, s]) => g.style.display !== 'none' && (g.classList.contains('on') || s.capital || (s.kind === 'monte' || s.kind === 'rio' ? naturalSitesVisible : k >= zk(siteLevel(s)))))
           .sort((a, b) => (b[0].classList.contains('on') - a[0].classList.contains('on')) || a[1].rank - b[1].rank)
           .forEach(([g, s]) => { const [x, y] = P(s.pt), X = sx(x), Y = sy(y); if (X < -50 || Y < -20 || X > svg.clientWidth + 50 || Y > svg.clientHeight + 20) return; if (fits([X - 6, Y - 8, X + 10 + s.label.length * 6.6, Y + 8])) g.classList.add('lab'); });
       }
@@ -459,8 +475,18 @@ ${z.cobertura != null ? `<p class="edit-only cob${z.cobertura < 0.995 ? ' warn' 
       // Ficha de región (tiers 0–2): cultura, idioma, población, culto, gobierno y líder, leídos de la ficha.
       window.HEL.getJSON(`data/lugares/${id}.json`).then(rec => {
         const el = panel.querySelector('.rf'); if (selZone !== id || !el) return;
-        const plain = t => String(t || '').replace(/\[([^\]]+)\]\([^)]*\)/g, '$1').replace(/[*_]/g, '');
-        el.innerHTML = RFIELDS.map(k => (rec.campos || []).find(c => c.clave === k && c.texto)).filter(Boolean).map(c => row(esc(c.etiqueta), plain(c.texto))).join('');
+        const rich = t => {
+          const s = String(t || '').replace(/[*_]/g, '');
+          let out = '', last = 0;
+          for (const m of s.matchAll(/\[([^\]]+)\]\(([^)]+)\)/g)) {
+            out += esc(s.slice(last, m.index));
+            const [, label, target] = m, lm = target.match(/^lugares:([a-z0-9-]+)$/);
+            out += lm && byId(lm[1]) ? `<button type="button" class="lnk" data-go="${esc(lm[1])}">${esc(label)}</button>` : esc(label);
+            last = m.index + m[0].length;
+          }
+          return out + esc(s.slice(last));
+        };
+        el.innerHTML = RFIELDS.map(k => (rec.campos || []).find(c => c.clave === k && c.texto)).filter(Boolean).map(c => `<p class="kv"><b>${esc(c.etiqueta)}</b> ${rich(c.texto)}</p>`).join('');
       }).catch(() => {});
       svg.classList.add('has-sel');
       svg.querySelectorAll('.z0').forEach(n => n.classList.toggle('sel', n.dataset.z0 === id));
@@ -533,7 +559,7 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
       svg.classList.remove('has-sel'); svg.querySelectorAll('.ar.sel,.z0.sel,.z1.sel,.z2.sel,.site.on').forEach(n => n.classList.remove('sel', 'on'));
       url({});
     }
-    function url(q) { const u = new URL(location.href); ['area', 'lugar', 'region', 'sub'].forEach(k => u.searchParams.delete(k)); Object.entries(q).forEach(([k, v]) => u.searchParams.set(k, v)); history.replaceState(null, '', u); }
+    function url(q) { const u = new URL(location.href); ['area', 'lugar', 'region', 'sub'].forEach(k => u.searchParams.delete(k)); Object.entries(q).forEach(([k, v]) => u.searchParams.set(k, v)); mode === 'geo' ? u.searchParams.set('m', 'geo') : u.searchParams.delete('m'); history.replaceState(null, '', u); }
     const byId = id => D.lugares.find(i => i.id === id);
     panel.addEventListener('click', e => {
       if (e.target.closest('.x')) return clear();
@@ -817,6 +843,8 @@ ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</
     const sp = new URLSearchParams(location.search);
     const reg = sp.get('region'), ar = sp.get('area'), lg = sp.get('lugar'), sbq = sp.get('sub');
     if (sp.get('t') && D.per.periodos.some(p => p.id === sp.get('t'))) T = sp.get('t');
+    if (sp.get('m') === 'geo') mode = 'geo';
+    applyMode();
     applyTime();
     if (sbq && D.subs[sbq]) { showSub(sbq); return; }
     if (sp.get('t') === T && !D.t0[T] && !lg && !ar && !reg) fitBox(D.geo.peloponeso.bbox, 0.08, false);

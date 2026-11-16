@@ -1,0 +1,37 @@
+{
+  "id": "dikte-kreta",
+  "nombre": "Diktē, Krētē",
+  "nombre_alt": "Monte Dicte",
+  "nombre_griego": "Δίκτη",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "creta"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "creta",
+      "nombre": "Krētē"
+    }
+  ],
+  "descripcion": {
+    "texto": "Macizo de Creta oriental (2.148 m), vinculado en la tradición mítica a la crianza de Zeus (Hesíodo, Teogonía 477–484)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      25.49,
+      35.12
+    ],
+    "precision": "aprox"
+  }
+}

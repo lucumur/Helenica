@@ -1,0 +1,37 @@
+{
+  "id": "othrys-thessalia",
+  "nombre": "Othrys, Thessalia",
+  "nombre_alt": "Monte Otris",
+  "nombre_griego": "Ὄθρυς",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "tesalia"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "tesalia",
+      "nombre": "Thessalia"
+    }
+  ],
+  "descripcion": {
+    "texto": "Cadena meridional de Tesalia entre Ftiótide y el valle del Esperqueo (1.726 m)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      22.67,
+      39.09
+    ],
+    "precision": "aprox"
+  }
+}

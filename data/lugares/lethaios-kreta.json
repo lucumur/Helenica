@@ -1,0 +1,37 @@
+{
+  "id": "lethaios-kreta",
+  "nombre": "Lēthaios, Krētē",
+  "nombre_alt": "Río Leteo (Mesará)",
+  "nombre_griego": "Ληθαῖος",
+  "imagen": null,
+  "tipos": [
+    "Río"
+  ],
+  "areas": [
+    "creta"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "creta",
+      "nombre": "Krētē"
+    }
+  ],
+  "descripcion": {
+    "texto": "Río principal de la llanura de Mesará, que discurre junto a Gortina y Festo hacia el mar de Libia (Estrabón 10.4.11)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      24.9,
+      35.03
+    ],
+    "precision": "aprox"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "mykale-ionia",
+  "nombre": "Mykalē, Iōnia",
+  "nombre_alt": "Monte Mícale",
+  "nombre_griego": "Μυκάλη",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "asia-jonia"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "asia-jonia",
+      "nombre": "Iōnia"
+    }
+  ],
+  "descripcion": {
+    "texto": "Promontorio montañoso frente a Samos (1.237 m), sede del Panionion y del cabo Trogilio (Il. 2.869)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      27.15,
+      37.66
+    ],
+    "precision": "aprox"
+  }
+}

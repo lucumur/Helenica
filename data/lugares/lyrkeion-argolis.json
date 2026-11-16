@@ -1,0 +1,37 @@
+{
+  "id": "lyrkeion-argolis",
+  "nombre": "Lyrkeion, Argolis",
+  "nombre_alt": "Monte Lirceo",
+  "nombre_griego": "Λύρκειον",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "peloponeso",
+      "nombre": "Peloponnēsos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Sierra entre la llanura argiva y Arcadia, al oeste de Argos (Estrabón 8.6.17)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      22.57,
+      37.62
+    ],
+    "precision": "aprox"
+  }
+}

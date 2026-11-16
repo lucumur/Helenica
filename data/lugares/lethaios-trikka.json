@@ -1,0 +1,37 @@
+{
+  "id": "lethaios-trikka",
+  "nombre": "Lēthaios, Trikka",
+  "nombre_alt": "Río Leteo de Trica",
+  "nombre_griego": "Ληθαῖος",
+  "imagen": null,
+  "tipos": [
+    "Río"
+  ],
+  "areas": [
+    "tesalia"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "tesalia",
+      "nombre": "Thessalia"
+    }
+  ],
+  "descripcion": {
+    "texto": "Afluente del Peneo que cruza Trica, santuario antiguo de Asclepio (Estrabón 9.5.17; 14.1.39)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      21.77,
+      39.56
+    ],
+    "precision": "aprox"
+  }
+}

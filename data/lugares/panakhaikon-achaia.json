@@ -1,0 +1,37 @@
+{
+  "id": "panakhaikon-achaia",
+  "nombre": "Panakhaïkon, Achaia",
+  "nombre_alt": "Monte Panaqueo",
+  "nombre_griego": "Παναχαϊκόν",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "peloponeso",
+      "nombre": "Peloponnēsos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Macizo montañoso del noroeste del Peloponeso, sobre Patras y el golfo de Corinto (1.926 m)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      21.89,
+      38.16
+    ],
+    "precision": "aprox"
+  }
+}

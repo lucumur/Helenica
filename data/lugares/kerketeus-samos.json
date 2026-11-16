@@ -1,0 +1,37 @@
+{
+  "id": "kerketeus-samos",
+  "nombre": "Kerketeus, Samos",
+  "nombre_alt": "Monte Cerceteo (Kerkis)",
+  "nombre_griego": "Κερκετεύς",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "asia-jonia"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "asia-jonia",
+      "nombre": "Iōnia"
+    }
+  ],
+  "descripcion": {
+    "texto": "Cumbre occidental de Samos (1.434 m), la más alta de las islas del Egeo oriental."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      26.62,
+      37.72
+    ],
+    "precision": "aprox"
+  }
+}

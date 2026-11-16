@@ -1,0 +1,37 @@
+{
+  "id": "troodos-kypros",
+  "nombre": "Olympos, Kypros",
+  "nombre_alt": "Montes Troodos (Olimpo de Chipre)",
+  "nombre_griego": "Ὄλυμπος Κύπρου",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "chipre"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "chipre",
+      "nombre": "Kypros"
+    }
+  ],
+  "descripcion": {
+    "texto": "Macizo ígneo central de Chipre (1.952 m), fuente de sus depósitos de cobre y bosques de cedro y pino."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      32.86,
+      34.93
+    ],
+    "precision": "aprox"
+  }
+}

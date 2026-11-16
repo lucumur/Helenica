@@ -65,13 +65,13 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Montañas Blancas (2.453 m); llanura de Chaniá.",
+      "texto": "[Montañas Blancas](lugares:leuka-ore-kreta) (2.453 m); llanura de Chaniá.",
       "refs": []
     },
     {
       "clave": "hidrografia",
       "etiqueta": "Hidrografía",
-      "texto": "Iárdano (Od. 3.292).",
+      "texto": "[Iárdano](lugares:iardanos-kreta) (Od. 3.292).",
       "refs": []
     },
     {

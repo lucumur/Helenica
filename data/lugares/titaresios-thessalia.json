@@ -1,0 +1,37 @@
+{
+  "id": "titaresios-thessalia",
+  "nombre": "Titarēsios, Thessalia",
+  "nombre_alt": "Río Titaresio",
+  "nombre_griego": "Τιταρήσιος",
+  "imagen": null,
+  "tipos": [
+    "Río"
+  ],
+  "areas": [
+    "tesalia"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "tesalia",
+      "nombre": "Thessalia"
+    }
+  ],
+  "descripcion": {
+    "texto": "Afluente septentrional del Peneo en Perrebia; Homero dice que sus aguas no se mezclan con las del Peneo (Il. 2.751–755)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      22.2,
+      39.85
+    ],
+    "precision": "aprox"
+  }
+}

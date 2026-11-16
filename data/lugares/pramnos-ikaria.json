@@ -1,0 +1,37 @@
+{
+  "id": "pramnos-ikaria",
+  "nombre": "Pramnos, Ikaria",
+  "nombre_alt": "Monte Pramno (Atheras)",
+  "nombre_griego": "Πράμνος",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "asia-jonia"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "asia-jonia",
+      "nombre": "Iōnia"
+    }
+  ],
+  "descripcion": {
+    "texto": "Cresta axial de Icaria (1.037 m), célebre en la Antigüedad por el vino pramnio."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      26.15,
+      37.59
+    ],
+    "precision": "aprox"
+  }
+}

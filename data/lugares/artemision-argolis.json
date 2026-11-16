@@ -1,0 +1,37 @@
+{
+  "id": "artemision-argolis",
+  "nombre": "Artemision, Argolis",
+  "nombre_alt": "Monte Artemisio",
+  "nombre_griego": "Ἀρτεμίσιον",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "peloponeso",
+      "nombre": "Peloponnēsos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Macizo entre la Argólide y Arcadia (1.771 m), sobre los pasos de Mantinea y las fuentes del Ínaco (Paus. 2.25.3)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      22.52,
+      37.71
+    ],
+    "precision": "aprox"
+  }
+}

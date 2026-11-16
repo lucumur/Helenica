@@ -25,8 +25,32 @@
   "descripcion": {
     "texto": "Beocia, de dialecto eolio con mezcla occidental."
   },
-  "campos": [],
-  "secciones": [],
+  "campos": [
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo de transición interior: inviernos frescos y húmedos con niebla en las cuencas, veranos cálidos y secos.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Llanura central beocia y cuenca endorreica del Copaide; macizos del [Helicón](lugares:helikon-boiotia) al suroeste y [Citerón](lugares:kithairon-boiotia) al sur (límite con Ática y Megáride); pasos hacia el estrecho del Euripo.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "[Cefiso beocio](lugares:kephisos-boiotia), que desagua en el lago Copaide; el [Asopo](lugares:asopos-thebai) al sur y el [Ismeno](lugares:ismenos) junto a Tebas.",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Rasgos generales del clima actual; para 900 a.C. se asumen similares. La sequía del colapso (c. 1200–850 en el Mediterráneo oriental) es un debate abierto a escala local."
+    }
+  ],
   "epoca": {
     "anio": -900,
     "nota": null

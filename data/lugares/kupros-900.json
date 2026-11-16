@@ -25,11 +25,30 @@
   "descripcion": {
     "texto": "Chipre, mayoritariamente de habla griega (arcado-chipriota) desde c. 1100 a.C., con enclaves eteochipriotas (Amathus)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo cálido y semiárido en las llanuras interiores, más fresco y húmedo en el macizo del Troodos.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Dos cadenas paralelas que enmarcan la llanura central de Mesaoria: el macizo volcánico del [Troodos (Olimpo de Chipre)](lugares:troodos-kypros) (1.952 m) en el centro-suroeste y los [Montes de Cerinea](lugares:keryneia-kypros) en la costa norte.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "Ríos estacionales que bajan del Troodos hacia los dos mares: el [Pedieo](lugares:pedieos-kypros) cruza la Mesaoria hacia Salamina y el [Curis](lugares:kouris-kypros) desemboca junto a Curio.",
+      "refs": []
+    }
+  ],
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Estrabón (14.6.3) menciona una *Akhaiōn aktē* en la isla.\n- Kition fenicia es posterior (c. 850–820 a.C.)."
+      "texto": "- Estrabón (14.6.3) menciona una *Akhaiōn aktē* en la isla.\n- Kition fenicia es posterior (c. 850–820 a.C.).\n- Rasgos generales del clima actual; para 900 a.C. se asumen similares. La sequía del colapso (c. 1200–850 en el Mediterráneo oriental) es un debate abierto a escala local."
     }
   ],
   "epoca": {

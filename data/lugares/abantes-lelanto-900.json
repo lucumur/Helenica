@@ -65,13 +65,13 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Llanura del Lelanto entre Calcis y Eretria; monte Dirfis (1.743 m).",
+      "texto": "Llanura del Lelanto entre Calcis y Eretria; monte [Dirfis](lugares:dirphys) (1.743 m).",
       "refs": []
     },
     {
       "clave": "hidrografia",
       "etiqueta": "Hidrografía",
-      "texto": "Lelanto; fuente Aretusa de Calcis.",
+      "texto": "[Lelanto](lugares:lelas); fuente Aretusa de Calcis.",
       "refs": []
     },
     {

@@ -1,0 +1,37 @@
+{
+  "id": "oros-kyllene-arkadia",
+  "nombre": "Oros Kyllēnē, Arkadia",
+  "nombre_alt": "Monte Cilene",
+  "nombre_griego": "Κυλλήνη",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "peloponeso",
+      "nombre": "Peloponnēsos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Segunda cumbre del Peloponeso (2.374 m), entre Arcadia, Acaya y Corintia; lugar de nacimiento de Hermes (Il. 2.603; Himn. Hom. Herm.)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      22.4,
+      37.94
+    ],
+    "precision": "aprox"
+  }
+}

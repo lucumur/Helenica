@@ -1,0 +1,37 @@
+{
+  "id": "kairatos-kreta",
+  "nombre": "Kairatos, Krētē",
+  "nombre_alt": "Río Cérato",
+  "nombre_griego": "Καίρατος",
+  "imagen": null,
+  "tipos": [
+    "Río"
+  ],
+  "areas": [
+    "creta"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "creta",
+      "nombre": "Krētē"
+    }
+  ],
+  "descripcion": {
+    "texto": "Río que pasa al pie de Cnosos hacia el mar de Creta (Estrabón 10.4.8; antiguo nombre de Cnosos)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      25.17,
+      35.31
+    ],
+    "precision": "aprox"
+  }
+}

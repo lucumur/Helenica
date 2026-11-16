@@ -1,0 +1,37 @@
+{
+  "id": "zas-naxos",
+  "nombre": "Zas, Naxos",
+  "nombre_alt": "Monte Zas",
+  "nombre_griego": "Ζάς",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "naxos-kyklades",
+      "nombre": "Naxos"
+    }
+  ],
+  "descripcion": {
+    "texto": "La cumbre más alta de las Cícladas (1.004 m), en el centro de Naxos, consagrada a Zeus."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      25.5,
+      37.03
+    ],
+    "precision": "aprox"
+  }
+}

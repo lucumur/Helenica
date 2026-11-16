@@ -1,0 +1,37 @@
+{
+  "id": "ossa-thessalia",
+  "nombre": "Ossa, Thessalia",
+  "nombre_alt": "Monte Osa",
+  "nombre_griego": "Ὄσσα",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "tesalia"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "tesalia",
+      "nombre": "Thessalia"
+    }
+  ],
+  "descripcion": {
+    "texto": "Macizo cónico de Magnesia al sur del desfiladero de Tempe (1.978 m), frente al Olimpo."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      22.69,
+      39.79
+    ],
+    "precision": "aprox"
+  }
+}

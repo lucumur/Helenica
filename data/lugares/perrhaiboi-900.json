@@ -65,13 +65,13 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Olimpo (2.918 m); valle del Tempe entre el Olimpo y el Osa; llanura de Elasona.",
+      "texto": "[Olimpo](lugares:olympos-thessalia) (2.918 m); valle del Tempe entre el [Olimpo](lugares:olympos-thessalia) y el [Osa](lugares:ossa-thessalia); llanura de Elasona.",
       "refs": []
     },
     {
       "clave": "hidrografia",
       "etiqueta": "Hidrografía",
-      "texto": "Titaresio (Europo), afluente del Peneo (Il. 2.751–755).",
+      "texto": "[Titaresio](lugares:titaresios-thessalia) (Europo), afluente del [Peneo](lugares:peneios-thessalia) (Il. 2.751–755).",
       "refs": []
     },
     {

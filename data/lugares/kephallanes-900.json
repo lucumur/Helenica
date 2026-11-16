@@ -25,11 +25,30 @@
   "descripcion": {
     "texto": "Cefalonia, Ítaca y Zacinto."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo marítimo húmedo en invierno y suave en verano, expuesto a los vientos del mar Jónico.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Islas abruptas del mar Jónico: Cefalonia, dominada por la cresta del [Eno](lugares:ainos-kephallenia) (1.628 m), la escarpada Ítaca con el monte [Nérito](lugares:neriton-ithake) (Od. 9.22) y Zacinto con sierra occidental y llanura oriental.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "Sin ríos permanentes de largo curso; torrentes estacionales kársticos y manantiales costeros.",
+      "refs": []
+    }
+  ],
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- Corfú (Kerkyra) aún no es griega: la colonia corintia es de 733 a.C."
+      "texto": "- Corfú (Kerkyra) aún no es griega: la colonia corintia es de 733 a.C.\n- Rasgos generales del clima actual; para 900 a.C. se asumen similares. La sequía del colapso (c. 1200–850 en el Mediterráneo oriental) es un debate abierto a escala local."
     }
   ],
   "epoca": {

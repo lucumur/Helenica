@@ -65,13 +65,13 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Dos grandes llanuras (Larisa al este; Fársalo y Trica al oeste), cerradas por el Olimpo, el Pindo, el Otris, el Osa y el Pelio.",
+      "texto": "Dos grandes llanuras (Larisa al este; Fársalo y Trica al oeste), cerradas por el [Olimpo](lugares:olympos-thessalia), el [Pindo](lugares:pindos-thessalia), el [Otris](lugares:othrys-thessalia), el [Osa](lugares:ossa-thessalia) y el [Pelio](lugares:pelion-thessalia).",
       "refs": []
     },
     {
       "clave": "hidrografia",
       "etiqueta": "Hidrografía",
-      "texto": "Peneo y su afluente el Enipeo; lago Bebeide.",
+      "texto": "[Peneo](lugares:peneios-thessalia) y su afluente el [Enipeo](lugares:enipeus-thessalia); lago Bebeide.",
       "refs": []
     },
     {

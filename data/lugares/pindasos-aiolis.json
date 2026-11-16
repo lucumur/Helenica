@@ -1,0 +1,37 @@
+{
+  "id": "pindasos-aiolis",
+  "nombre": "Pindasos, Aiolis",
+  "nombre_alt": "Monte Píndaso (Madra)",
+  "nombre_griego": "Πίνδασος",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "asia-eolia"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "asia-eolia",
+      "nombre": "Aiolis"
+    }
+  ],
+  "descripcion": {
+    "texto": "Macizo entre la costa eolia, el valle del Caico y Misia (1.344 m)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      27.11,
+      39.29
+    ],
+    "precision": "aprox"
+  }
+}

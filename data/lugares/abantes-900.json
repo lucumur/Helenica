@@ -25,11 +25,30 @@
   "descripcion": {
     "texto": "Eubea, de dialecto jónico. Lefkandi es el sitio más importante de Grecia en los siglos X–IX a.C."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo templado en las vegas costeras, húmedo en la vertiente egea y fresco en las cumbres centrales.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Isla montañosa separada de Beocia por el estrecho del Euripo; espinazo del [Telétrio](lugares:telethrion) al norte, el [Dirfis](lugares:dirphys) (1.743 m), el [Olimpo eubeo](lugares:olympos-euboias), el [Cotileo](lugares:kotylaion) y el [Caneto](lugares:kanethos) en el centro, y el [Oque](lugares:oche) al sur; llanura Lelantina entre Calcis y Eretria.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "El [Lelas](lugares:lelas) en la llanura Lelantina, el [Boudoros](lugares:boudoros) en el centro-norte y el [Kallas](lugares:kallas) en Histiea.",
+      "refs": []
+    }
+  ],
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- La isla ya se llama Εὔβοια en Homero."
+      "texto": "- La isla ya se llama Εὔβοια en Homero.\n- Rasgos generales del clima actual; para 900 a.C. se asumen similares. La sequía del colapso (c. 1200–850 en el Mediterráneo oriental) es un debate abierto a escala local."
     }
   ],
   "epoca": {

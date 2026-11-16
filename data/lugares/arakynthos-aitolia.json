@@ -1,0 +1,37 @@
+{
+  "id": "arakynthos-aitolia",
+  "nombre": "Arakynthos, Aitōlia",
+  "nombre_alt": "Monte Aracinto",
+  "nombre_griego": "Ἀράκυνθος",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "grecia-occidental"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "grecia-occidental",
+      "nombre": "Grecia Occidental"
+    }
+  ],
+  "descripcion": {
+    "texto": "Sierra meridional de Etolia entre la llanura de Calidón–Pleurón y el lago Tricónide."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      21.54,
+      38.45
+    ],
+    "precision": "aprox"
+  }
+}

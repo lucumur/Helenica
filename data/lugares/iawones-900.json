@@ -25,11 +25,30 @@
   "descripcion": {
     "texto": "Quíos, Samos y la costa jonia de Asia."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo suave y luminoso en la costa e islas, con veranos cálidos y brisas marinas constantes.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Islas montañosas de Quíos ([Pelineo](lugares:pelineon-khios)), Samos ([Cerceteo](lugares:kerketeus-samos)) e Icaria ([Pramno](lugares:pramnos-ikaria)), frente a las penínsulas de [Mimas](lugares:mimas-ionia) y [Mícale](lugares:mykale-ionia); en el interior anatolio, el [Tmolo](lugares:tmolos-ionia), el [Mesogis](lugares:messogis-ionia) y el [Latmo](lugares:latmos-ionia) enmarcan los valles costeros.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "Llanuras aluviales de los dos grandes ríos jónicos: el [Caístro](lugares:kaystros-ionia) junto a Éfeso (Il. 2.461) y el sinuoso [Meandro](lugares:maiandros-ionia) frente a Priene y Mileto.",
+      "refs": []
+    }
+  ],
   "secciones": [
     {
       "titulo": "Notas",
-      "texto": "- La Dodecápolis y el Panionion son posteriores."
+      "texto": "- La Dodecápolis y el Panionion son posteriores.\n- Rasgos generales del clima actual; para 900 a.C. se asumen similares. La sequía del colapso (c. 1200–850 en el Mediterráneo oriental) es un debate abierto a escala local."
     }
   ],
   "epoca": {

@@ -1,0 +1,37 @@
+{
+  "id": "aspordenos-aiolis",
+  "nombre": "Aspordēnos, Aiolis",
+  "nombre_alt": "Monte Aspordeno (Yunt)",
+  "nombre_griego": "Ἀσπορδηνόν",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "asia-eolia"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "asia-eolia",
+      "nombre": "Aiolis"
+    }
+  ],
+  "descripcion": {
+    "texto": "Meseta y sierra volcánica entre el Caico y el Hermo, al este de Pitane y Cime (Estrabón 13.2.6)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      27.2,
+      38.88
+    ],
+    "precision": "aprox"
+  }
+}

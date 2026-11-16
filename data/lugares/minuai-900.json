@@ -65,13 +65,13 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Cuenca cerrada del Copais; el Helicón al sur.",
+      "texto": "Cuenca cerrada del Copais; el [Helicón](lugares:helikon-boiotia) al sur.",
       "refs": []
     },
     {
       "clave": "hidrografia",
       "etiqueta": "Hidrografía",
-      "texto": "Lago Copais, alimentado por el Cefiso beocio y drenado por sumideros kársticos; las obras micénicas de drenaje (Gla) ya están en ruinas.",
+      "texto": "Lago Copais, alimentado por el [Cefiso beocio](lugares:kephisos-boiotia) y drenado por sumideros kársticos; las obras micénicas de drenaje (Gla) ya están en ruinas.",
       "refs": []
     },
     {

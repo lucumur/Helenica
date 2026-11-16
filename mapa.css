@@ -14,7 +14,7 @@ main.atlas-main{width:100%;max-width:none;padding:0}
 .lakes path{fill:#b9d0cd;stroke:#7d9c98;stroke-width:.5;vector-effect:non-scaling-stroke;pointer-events:none}
 .rivers path{fill:none;stroke:#6f98a6;stroke-width:.7;stroke-opacity:.55;vector-effect:non-scaling-stroke;pointer-events:none;stroke-linecap:round}
 .rivers path.major{stroke-width:1.1;stroke-opacity:.75}
-#map:not(.z-hi) .rivers path:not(.major){display:none}
+#map:not(.z-hi):not(.geo-mode) .rivers path:not(.major){display:none}
 #map:not(.natural-detail) .rivers{display:none}
 #map.no-rv .rivers,#map.no-rv .lakes{display:none}
 #map.no-rv .feature.rio,#map.no-rv .site.k-rio{display:none!important}
@@ -89,6 +89,11 @@ main.atlas-main{width:100%;max-width:none;padding:0}
 .qr{position:absolute;top:calc(100% + 4px);left:0;right:0;background:var(--paper);border:1px solid var(--line);border-radius:10px;box-shadow:0 10px 30px #2a1a1030;max-height:360px;overflow:auto}
 .qr button{display:flex;justify-content:space-between;gap:10px;width:100%;text-align:left;border:0;border-bottom:1px solid var(--line);background:none;padding:9px 12px;font:inherit;font-size:.88rem;cursor:pointer}
 .qr button:hover{background:#efe6d6}.qr button span{color:var(--muted);font-size:.78rem;white-space:nowrap}.qr p{margin:10px 12px;color:var(--muted);font-size:.85rem}
+.top-controls{display:grid;gap:6px;justify-items:start}
+.mode{display:flex;background:rgba(255,252,245,.97);border:1px solid #c9bfae;border-radius:9px;box-shadow:0 2px 10px #2a1a1015;overflow:hidden;width:fit-content}
+.mode button{border:0;background:none;font:600 .78rem var(--serif);padding:6px 12px;cursor:pointer;color:var(--muted);white-space:nowrap}
+.mode button+button{border-left:1px solid #e3d9c6}
+.mode button.on{background:var(--ink);color:var(--paper)}
 .layers{display:flex;flex-wrap:wrap;gap:6px 10px;font-size:.78rem;background:rgba(255,252,245,.9);border:1px solid #d8cdb9;border-radius:9px;padding:6px 11px;width:fit-content;max-width:100%;box-sizing:border-box}
 .layers label{display:flex;gap:5px;align-items:center;cursor:pointer;color:var(--muted)}
 .ui.tr{top:14px;right:14px;display:grid;gap:4px}
@@ -178,7 +183,7 @@ main.atlas-main{width:100%;max-width:none;padding:0}
 .panel .tl .tt{border:0;background:none;font:700 .8rem var(--serif);color:var(--accent);cursor:pointer;text-align:left;padding:0}
 .panel .tl i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
 @media(max-width:1100px){.ui.tc{top:auto;bottom:14px;left:auto;right:14px;transform:none;justify-items:end;width:min(460px,calc(100% - 28px))}.ui.bl .legend{display:none}}
-@media(max-width:760px){.ui.tc{bottom:auto;top:118px;left:14px;right:14px;justify-items:start}.when button{padding:7px 9px;font-size:.74rem}.era{display:none}}
+@media(max-width:760px){.ui.tc{bottom:auto;top:154px;left:14px;right:14px;justify-items:start}.when button{padding:7px 9px;font-size:.74rem}.era{display:none}}
 @media(min-width:761px) and (max-width:1100px){.atlas:has(> .panel:not([hidden])) .ui.tc{right:calc(min(380px,100% - 90px) + 14px)}}
 
 /* Editor de fronteras */
@@ -193,3 +198,11 @@ main.atlas-main{width:100%;max-width:none;padding:0}
 .panel .cob{display:none;font-size:.8rem;color:var(--muted)}
 .panel .cob.warn{color:#9c3b1a}
 .panel .btn[disabled]{opacity:.45;cursor:default}
+
+/* Modo geográfico: divisiones sin relleno, solo bordes y relieve/hidrografía visibles */
+#map.geo-mode .ar,#map.geo-mode .z0,#map.geo-mode .z1,#map.geo-mode .z2,#map.geo-mode .subs .sb,#map.geo-mode.has-sel .ar:not(.sel),#map.geo-mode.has-sel .z0:not(.sel),#map.geo-mode.has-sel .z1:not(.sel),#map.geo-mode.has-sel .z2:not(.sel),#map.geo-mode.has-sel.subs-on .subs .sb:not(.sel){fill-opacity:0;stroke:#6e5a44;stroke-opacity:.78;stroke-width:1.25;pointer-events:all}
+#map.geo-mode .subs .sbh,#map.geo-mode.subs-on .subs .sbh.on{display:none}
+#map.geo-mode .ar:hover,#map.geo-mode .ar.hov,#map.geo-mode .z0:hover,#map.geo-mode .z1:hover,#map.geo-mode .z2:hover,#map.geo-mode.subs-on .subs .sb.hov,#map.geo-mode .subs .sb:hover{fill:#6e5a44;fill-opacity:.1;stroke:#2a1a10;stroke-opacity:1;stroke-width:1.7}
+#map.geo-mode .ar.sel,#map.geo-mode .z0.sel,#map.geo-mode .z1.sel,#map.geo-mode .z2.sel,#map.geo-mode.subs-on .subs .sb.sel,#map.geo-mode .subs .sb.sel{fill:#6e5a44;fill-opacity:.12;stroke:#2a1a10;stroke-opacity:1;stroke-width:2.4}
+#map.geo-mode .physical .monte .extent{fill-opacity:.24;stroke-opacity:.8}
+#map.geo-mode .physical .rio .extent{stroke-width:1.9;stroke-opacity:.92}

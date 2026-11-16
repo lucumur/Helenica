@@ -65,13 +65,13 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Costa de Parga; valle de Dodona bajo el Tómaro.",
+      "texto": "Costa de Parga; valle de Dodona bajo el [Tómaro](lugares:tomaros-epeiros).",
       "refs": []
     },
     {
       "clave": "hidrografia",
       "etiqueta": "Hidrografía",
-      "texto": "Aqueronte y lago Aquerusio; Cocito; Tiamis.",
+      "texto": "[Aqueronte](lugares:akheron-epeiros) y lago Aquerusio; Cocito; [Tíamis](lugares:thyamis-epeiros).",
       "refs": []
     },
     {

@@ -65,13 +65,13 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Valle alto del Cefiso entre el Eta y el Parnaso.",
+      "texto": "Valle alto del Cefiso entre el [Eta](lugares:oite-phokis) y el [Parnaso](lugares:parnassos-phokis).",
       "refs": []
     },
     {
       "clave": "hidrografia",
       "etiqueta": "Hidrografía",
-      "texto": "Cefiso (curso alto) y su afluente el Pindo.",
+      "texto": "[Cefiso](lugares:kephisos-boiotia) (curso alto) y su afluente el Pindo.",
       "refs": []
     },
     {

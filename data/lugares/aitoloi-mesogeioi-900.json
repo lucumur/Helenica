@@ -65,13 +65,13 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Montes de Euritania y Panetolio.",
+      "texto": "Montes de Euritania y [Panetolio](lugares:panaitolikon-aitolia).",
       "refs": []
     },
     {
       "clave": "hidrografia",
       "etiqueta": "Hidrografía",
-      "texto": "Aqueloo (curso medio); alto Eveno.",
+      "texto": "[Aqueloo](lugares:akheloos-aitolia) (curso medio); alto [Eveno](lugares:euenos-aitolia).",
       "refs": []
     },
     {

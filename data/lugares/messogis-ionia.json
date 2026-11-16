@@ -1,0 +1,32 @@
+{
+  "id": "messogis-ionia",
+  "nombre": "Messōgis, Lydia–Karia",
+  "nombre_alt": "Monte Mesogis",
+  "nombre_griego": "Μεσσωγίς",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "anatolia",
+    "asia-jonia"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Cordillera longitudinal que divide los valles del Caístro y el Meandro hasta la costa de Magnesia y Éfeso (Estrabón 14.1.15)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      28.1,
+      37.98
+    ],
+    "precision": "aprox"
+  }
+}

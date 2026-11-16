@@ -1,0 +1,37 @@
+{
+  "id": "atabyrion-rhodos",
+  "nombre": "Atabyrion, Rhodos",
+  "nombre_alt": "Monte Atabirio",
+  "nombre_griego": "Ἀταβύριον",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "asia-doria"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "asia-doria",
+      "nombre": "Dōris asiática"
+    }
+  ],
+  "descripcion": {
+    "texto": "La cumbre más alta de Rodas (1.215 m), sede de un antiguo santuario de Zeus Atabirio en la vertiente occidental."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      27.86,
+      36.21
+    ],
+    "precision": "aprox"
+  }
+}

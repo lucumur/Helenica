@@ -1,0 +1,37 @@
+{
+  "id": "sperkheios-malis",
+  "nombre": "Sperkheios, Malis",
+  "nombre_alt": "Río Esperqueo",
+  "nombre_griego": "Σπερχειός",
+  "imagen": null,
+  "tipos": [
+    "Río"
+  ],
+  "areas": [
+    "grecia-central"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "grecia-central",
+      "nombre": "Grecia Central"
+    }
+  ],
+  "descripcion": {
+    "texto": "Río de Malis y de la Ftiótide homérica: nace en el Timfresto y forma una amplia llanura aluvial en el golfo Maliaco (Il. 23.141–149)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      22.25,
+      38.89
+    ],
+    "precision": "aprox"
+  }
+}

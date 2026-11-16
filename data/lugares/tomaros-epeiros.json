@@ -1,0 +1,37 @@
+{
+  "id": "tomaros-epeiros",
+  "nombre": "Tomaros, Ēpeiros",
+  "nombre_alt": "Monte Tómaro (Dodona)",
+  "nombre_griego": "Τόμαρος",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "epiro"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "epiro",
+      "nombre": "Ēpeiros"
+    }
+  ],
+  "descripcion": {
+    "texto": "Sierra que domina el valle y santuario oracular de Dodona (1.974 m; Estrabón 7.7.11)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      20.79,
+      39.45
+    ],
+    "precision": "aprox"
+  }
+}

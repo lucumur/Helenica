@@ -1,0 +1,37 @@
+{
+  "id": "krathis-achaia",
+  "nombre": "Krāthis, Achaia",
+  "nombre_alt": "Río Cratis",
+  "nombre_griego": "Κρᾶθις",
+  "imagen": null,
+  "tipos": [
+    "Río"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "peloponeso",
+      "nombre": "Peloponnēsos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Torrente perenne de Acaya que baja de los montes Aroania, alimentado por la Estigia, y desemboca junto a Egas y Hélice (Hdt. 1.145)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      22.28,
+      38.11
+    ],
+    "precision": "aprox"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "asopos-trakhis",
+  "nombre": "Asōpos, Trakhis",
+  "nombre_alt": "Río Asopo de Traquis",
+  "nombre_griego": "Ἀσωπός",
+  "imagen": null,
+  "tipos": [
+    "Río"
+  ],
+  "areas": [
+    "grecia-central"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "grecia-central",
+      "nombre": "Grecia Central"
+    }
+  ],
+  "descripcion": {
+    "texto": "Río que brota del Eta por una profunda garganta junto a Traquis y las Termópilas (Hdt. 7.199, 216)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      22.45,
+      38.79
+    ],
+    "precision": "aprox"
+  }
+}

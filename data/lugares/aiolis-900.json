@@ -65,13 +65,13 @@
     {
       "clave": "topografia",
       "etiqueta": "Topografía",
-      "texto": "Llanuras del bajo Hermo y del Caico; monte Sípilo.",
+      "texto": "Llanuras del bajo Hermo y del Caico; monte [Sípilo](lugares:sipylos-aiolis).",
       "refs": []
     },
     {
       "clave": "hidrografia",
       "etiqueta": "Hidrografía",
-      "texto": "Hermo; Caico.",
+      "texto": "[Hermo](lugares:hermos-aiolis); [Caico](lugares:kaikos-aiolis).",
       "refs": []
     },
     {

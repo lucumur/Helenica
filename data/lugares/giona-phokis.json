@@ -1,0 +1,37 @@
+{
+  "id": "giona-phokis",
+  "nombre": "Aselēnon, Phōkis",
+  "nombre_alt": "Monte Giona",
+  "nombre_griego": "Ἀσέληνον ὄρος",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "grecia-central"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "grecia-central",
+      "nombre": "Grecia Central"
+    }
+  ],
+  "descripcion": {
+    "texto": "La cumbre más alta de Grecia Central (2.510 m), entre la Fócide y la Lócride ozolia."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      22.25,
+      38.65
+    ],
+    "precision": "aprox"
+  }
+}

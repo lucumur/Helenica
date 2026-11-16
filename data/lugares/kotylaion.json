@@ -27,5 +27,12 @@
       "id": "euboia",
       "nombre": "Euboia"
     }
-  ]
+  ],
+  "geo": {
+    "punto": [
+      23.98,
+      38.52
+    ],
+    "precision": "aprox"
+  }
 }

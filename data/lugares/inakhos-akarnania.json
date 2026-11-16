@@ -1,0 +1,37 @@
+{
+  "id": "inakhos-akarnania",
+  "nombre": "Inakhos, Akarnania",
+  "nombre_alt": "Río Ínaco de Acarnania",
+  "nombre_griego": "Ἴναχος",
+  "imagen": null,
+  "tipos": [
+    "Río"
+  ],
+  "areas": [
+    "grecia-occidental"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "grecia-occidental",
+      "nombre": "Grecia Occidental"
+    }
+  ],
+  "descripcion": {
+    "texto": "Río de Anfiloquía que desemboca en el golfo de Ambracia junto a Argos Anfilóquica."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      21.3,
+      38.95
+    ],
+    "precision": "aprox"
+  }
+}

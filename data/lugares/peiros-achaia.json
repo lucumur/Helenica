@@ -1,0 +1,37 @@
+{
+  "id": "peiros-achaia",
+  "nombre": "Peiros, Achaia",
+  "nombre_alt": "Río Píero",
+  "nombre_griego": "Πεῖρος",
+  "imagen": null,
+  "tipos": [
+    "Río"
+  ],
+  "areas": [
+    "peloponeso"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "peloponeso",
+      "nombre": "Peloponnēsos"
+    }
+  ],
+  "descripcion": {
+    "texto": "Principal río de Acaya occidental: desciende del Erimanto por Fara hacia Oleno y Dime (Hdt. 1.145; Paus. 7.22.1)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      21.72,
+      38.09
+    ],
+    "precision": "aprox"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "pateras-megaris",
+  "nombre": "Patēras, Megaris",
+  "nombre_alt": "Monte Pateras",
+  "nombre_griego": "Πατέρας",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "grecia-central"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "grecia-central",
+      "nombre": "Grecia Central"
+    }
+  ],
+  "descripcion": {
+    "texto": "Sierra entre la llanura de Eleusis y la Megáride, prolongación occidental del Citerón hacia el golfo de Corinto."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      23.36,
+      38.1
+    ],
+    "precision": "aprox"
+  }
+}

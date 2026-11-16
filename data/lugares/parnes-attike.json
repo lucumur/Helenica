@@ -1,0 +1,37 @@
+{
+  "id": "parnes-attike",
+  "nombre": "Parnēs, Attikē",
+  "nombre_alt": "Monte Parnes",
+  "nombre_griego": "Πάρνης",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "grecia-central"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "grecia-central",
+      "nombre": "Grecia Central"
+    }
+  ],
+  "descripcion": {
+    "texto": "Macizo septentrional del Ática en la frontera con Beocia (1.413 m), con pasos fortificados hacia Decelea y File."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      23.72,
+      38.17
+    ],
+    "precision": "aprox"
+  }
+}

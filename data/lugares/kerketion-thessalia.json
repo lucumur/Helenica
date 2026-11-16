@@ -1,0 +1,37 @@
+{
+  "id": "kerketion-thessalia",
+  "nombre": "Kerketion, Thessalia",
+  "nombre_alt": "Monte Cercetio (Koziakas)",
+  "nombre_griego": "Κερκέτιον",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "tesalia"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "tesalia",
+      "nombre": "Thessalia"
+    }
+  ],
+  "descripcion": {
+    "texto": "Macizo occidental de Tesalia sobre Trica y la entrada del Peneo en la llanura."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      21.55,
+      39.58
+    ],
+    "precision": "aprox"
+  }
+}

@@ -1,7 +1,7 @@
 # Geometrías de ríos y macizos
 
-`fisico.json` vincula 19 geometrías cartográficas con 23 fichas existentes:
-12 ríos y 7 macizos. Las fichas conservan sus coordenadas originales. El marcador
+`fisico.json` vincula 101 geometrías cartográficas con 105 fichas existentes:
+42 ríos y 59 macizos. Las fichas conservan sus coordenadas originales. El marcador
 del atlas se coloca sobre el cauce o dentro del macizo para no separarlo del trazado.
 
 ## Ríos
@@ -13,17 +13,20 @@ Cada entrada conserva los identificadores de las vías y relaciones utilizadas;
 restringen a miembros `main_stream` o sin rol; no se dibujan los afluentes de
 una relación como si fueran el cauce principal.
 
-Se incluyen Alfeo, Asopo fliasio, Asopo beocio, Cerinites, Erimanto, Ladón,
-Lelas, Pamiso de Mesenia, Peneo de Élide, Pontino, Estrimón y Hebro.
+Se incluyen:
+- **Peloponeso:** Alfeo, Asopo fliasio, Cerinites, Cratis, Erimanto, Eurotas, Ínaco, Ladón, Neda, Pamiso de Mesenia, Peneo de Élide, Píero y Pontino.
+- **Grecia Central y Eubea:** Asopo beocio, Asopo de Traquis, Boudoros (Níleas y Kíreas), Cefiso ático, Cefiso beocio, Esperqueo, Hileto (Mornos), Iliso y Lelas.
+- **Grecia Occidental:** Aqueloo, Eveno e Ínaco de Acarnania.
+- **Tesalia y Epiro:** Enipeo, Leteo de Trica, Pamiso tesalio, Peneo tesalio y Titaresio; Aoo, Aqueronte, Aracto y Tíamis (Kalamas).
+- **Creta, Chipre, Asia y Tracia:** Leteo de Mesará (Geropótamos), Pedieo, Caico (Bakırçay), Hermo (Gediz), Caístro (Küçük Menderes), Meandro (Büyük Menderes), Estrimón y Hebro.
+
 Las variantes de Ladón y Asopo beocio comparten geometría.
 
-La consulta inicial de vías en Overpass usó `waterway=river|stream`, nombres
-griegos y el ámbito `[34,19,42,28]`. El importador separa los ríos homónimos
-mediante cajas geográficas explícitas. Las relaciones completas se obtuvieron con:
+La consulta de vías en Overpass usó `waterway=river` (y `stream` en cauces menores insulares o locales), nombres griegos o turcos y el ámbito `[34.0,19.0,43.5,35.0]`. El importador separa los ríos homónimos mediante cajas geográficas explícitas. Las relaciones completas se obtuvieron con:
 
 ```overpass
 [out:json][timeout:90];
-relation(id:721969,2515446,8056594,10183192,10483287,11809892,17499528,19221105,19275777);
+relation(id:569717,721969,911089,911095,911096,911103,1245609,1263781,1273141,1668534,2237514,2515446,3803746,6191678,8056594,8097935,9196971,10183192,10483287,11241309,11641416,11809891,11809892,11821028,13058293,14006299,14006313,15629080,17499528,17890880,17987331,18008045,19185458,19187395,19221105,19275777);
 out body geom;
 ```
 
@@ -40,15 +43,67 @@ GMBA–EarthEnv. [Datos y referencia](https://doi.org/10.48601/earthenv-t9k2-140
 Descarga original:
 `https://data.earthenv.org/mountains/standard/GMBA_Inventory_v2.0_standard.zip`.
 
-| Macizo | GMBA_V2_ID |
-| --- | --- |
-| Parnón | 11710 |
-| Taigeto | 11973 |
-| Ida frigio / Kaz Mountains | 14617 |
-| Geraneia | 19898 |
-| Erimanto | 19962 |
-| Aroania | 19964 |
-| Ménalo | 19966 |
+| Macizo | Unidad GMBA v2.0 | GMBA_V2_ID |
+| --- | --- | --- |
+| Mesogis | Aydin Mountains | 11142 |
+| Latmo | Beşparmak Mountains | 11164 |
+| Tmolo | Boz Mountains | 11188 |
+| Egaleo (Mesenia) | Kontovounia | 11535 |
+| Píndaso | Madra Mountains | 11594 |
+| Troodos (Olimpo de Chipre) | Troödos Mountains | 11651 |
+| Olimpo (Tesalia) | Mount Olympus | 11685 |
+| Otris | Mount Othrys | 11693 |
+| Parnón | Parnon Oros | 11710 |
+| Taigeto | Taiyetos Oros | 11973 |
+| Sípilo | Mount Yamanlar | 12081 |
+| Montes Blancos (Creta) | White Mountains | 12705 |
+| Aspordeno | Yunt Mountains | 12778 |
+| Montes Ceraunios | Ceraunian Mountains | 12959 |
+| Ida frigio / Kaz | Kaz Mountains | 14617 |
+| Mimas | Nif Mountains | 14711 |
+| Montes Acarnanios | Acarnanian Mountains | 14787 |
+| Asterusia | Arethousia Mountains | 14790 |
+| Eno (Cefalonia) | Agia Dinati | 14800 |
+| Atamanios | Tzoumerka | 18100 |
+| Timfe | Zagori Mountains | 18413 |
+| Pindo (Ágrafa) | Agrafa Mountains | 18416 |
+| Lepetimno (Lesbos) | Lesvos | 18680 |
+| Cerceteo (Samos) | Samos | 18681 |
+| Atabirio (Rodas) | Rhodos | 18682 |
+| Pelineo (Quíos) | Chios | 18683 |
+| Zas (Naxos) | Naxos | 18684 |
+| Courión (Andros) | Andros | 18687 |
+| Montes de Cerinea | Pentadactylos | 18709 |
+| Mícale | Dilek Peninsula | 18710 |
+| Dicte (Creta) | Dikti | 18946 |
+| Pramno (Icaria) | Icaria | 19289 |
+| Ida (Creta) | Crete (nn) | 19456 |
+| Camvunios | Kamvounia Mountains | 19882 |
+| Cercetio | Kerketion | 19883 |
+| Córax | Vardousia Mountains | 19886 |
+| Osa | Mount Ossa | 19889 |
+| Pelión | Pelion | 19891 |
+| Aséleno (Giona) | Giona | 19894 |
+| Parnaso | Parnassos | 19895 |
+| Eta | Oeta Mountains | 19896 |
+| Cnemis y Calídromo | Kallidhromon | 19897 |
+| Geraneia | Geranela Mountains | 19898 |
+| Aracinto | Arakinthos Mountains | 19899 |
+| Panetólico | Panaitolikon Mountains | 19901 |
+| Timfresto | Timfristos Mountains | 19903 |
+| Helicón | Helikon Mountains | 19904 |
+| Parnes | Parnitha | 19905 |
+| Citerón | Kithairon | 19906 |
+| Pateras | Mount Pateras | 19907 |
+| Erimanto | Erimanthos | 19962 |
+| Panaqueo | Panakhaikon Mountains | 19963 |
+| Aroania | Aroania Mountains | 19964 |
+| Cilene | Kyllini Mountains | 19965 |
+| Ménalo | Mainalon Mountains | 19966 |
+| Artemisio | Trakhi Mountains | 19967 |
+| Lirceo | Lirkion Mountains | 19968 |
+| Tómaro (Dodona) | Tomaros | 20356 |
+| Montes Tesprotos | Thesprotika Mountains | 20777 |
 
 Son extensiones generalizadas de macizos, no curvas de nivel ni límites antiguos.
 Se simplificaron a 0.00035 grados conservando topología y huecos; se redondearon

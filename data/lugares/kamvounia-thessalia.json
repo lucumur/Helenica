@@ -1,0 +1,37 @@
+{
+  "id": "kamvounia-thessalia",
+  "nombre": "Kamvounia, Thessalia",
+  "nombre_alt": "Montes Camvunios",
+  "nombre_griego": "Καμβούνια",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "tesalia"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "tesalia",
+      "nombre": "Thessalia"
+    }
+  ],
+  "descripcion": {
+    "texto": "Cadena septentrional de Tesalia al oeste del Olimpo, entre la cuenca del Peneo y el Haliacmón."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      21.93,
+      39.99
+    ],
+    "precision": "aprox"
+  }
+}

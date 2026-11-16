@@ -24,7 +24,7 @@ except Exception as e:
     ESC = FOR = FUN = PER = set(); errors.append(f'data/tipologia.json: no se pudo leer ({e})')
 for col in COLS:
     for path in glob.glob(os.path.join(DATA, col, '*.json')):
-        rel = os.path.relpath(path, ROOT)
+        rel = os.path.relpath(path, ROOT).replace('\\', '/')
         try:
             rec = json.load(open(path, encoding='utf-8'))
         except Exception as e:

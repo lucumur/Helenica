@@ -25,8 +25,32 @@
   "descripcion": {
     "texto": "Creta: dorios, con eteocretenses y cidonios (Od. 19.175–177)."
   },
-  "campos": [],
-  "secciones": [],
+  "campos": [
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo cálido y más seco en el sur y oriente; lluvias abundantes y nieve invernal en los altos macizos.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Eje montañoso longitudinal de oeste a este: [Montes Blancos (Leuka Orē)](lugares:leuka-ore-kreta), el macizo central del [Ida](lugares:ida-creta) (2.456 m), los [Montes Asterusios](lugares:asterousia-kreta) cerrando al sur la llanura de Mesará, y el [Dicte](lugares:dikte-kreta) en el oriente.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "Cursos cortos hacia el norte, como el [Cérato](lugares:kairatos-kreta) en Cnosos y el [Yárdano](lugares:iardanos-kreta) en Cidonia (Od. 3.292); en el sur, el [Leteo](lugares:lethaios-kreta) recorre la llanura de Mesará.",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Rasgos generales del clima actual; para 900 a.C. se asumen similares. La sequía del colapso (c. 1200–850 en el Mediterráneo oriental) es un debate abierto a escala local."
+    }
+  ],
   "epoca": {
     "anio": -900,
     "nota": null

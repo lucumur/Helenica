@@ -1,0 +1,37 @@
+{
+  "id": "keraunia-epeiros",
+  "nombre": "Keraunia Orē, Ēpeiros",
+  "nombre_alt": "Montes Ceraunios",
+  "nombre_griego": "Κεραύνια ὄρη",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "epiro"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "epiro",
+      "nombre": "Ēpeiros"
+    }
+  ],
+  "descripcion": {
+    "texto": "Cordillera costera abrupta de Caonia sobre el canal de Otranto (2.044 m)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      19.56,
+      40.26
+    ],
+    "precision": "aprox"
+  }
+}

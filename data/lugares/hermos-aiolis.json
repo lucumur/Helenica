@@ -1,0 +1,32 @@
+{
+  "id": "hermos-aiolis",
+  "nombre": "Hermos, Aiolis",
+  "nombre_alt": "Río Hermo",
+  "nombre_griego": "Ἕρμος",
+  "imagen": null,
+  "tipos": [
+    "Río"
+  ],
+  "areas": [
+    "asia-eolia",
+    "anatolia"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Gran río de Lidia y Eólide meridional que nace en Frigia, pasa junto a Sardis y desemboca en el golfo de Esmirna entre Cime y Focea (Il. 20.392)."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      27.3,
+      38.65
+    ],
+    "precision": "aprox"
+  }
+}

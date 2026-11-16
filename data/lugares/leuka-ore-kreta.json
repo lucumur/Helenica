@@ -1,0 +1,37 @@
+{
+  "id": "leuka-ore-kreta",
+  "nombre": "Leuka Orē, Krētē",
+  "nombre_alt": "Montes Blancos",
+  "nombre_griego": "Λευκὰ Ὄρη",
+  "imagen": null,
+  "tipos": [
+    "Monte"
+  ],
+  "areas": [
+    "creta"
+  ],
+  "escala": "chora",
+  "forma": [],
+  "funciones": [
+    "natural"
+  ],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "creta",
+      "nombre": "Krētē"
+    }
+  ],
+  "descripcion": {
+    "texto": "Gran macizo calcáreo de Creta occidental (2.453 m), territorio de los cidonios."
+  },
+  "campos": [],
+  "secciones": [],
+  "geo": {
+    "punto": [
+      24.03,
+      35.29
+    ],
+    "precision": "aprox"
+  }
+}

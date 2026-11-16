@@ -201,3 +201,17 @@ body.peek-docked{padding-right:var(--peek-w)}
 .linaje a{text-decoration:none;color:var(--accent-2)}.linaje .cur{font-weight:700}
 .linaje .ar{color:var(--muted)}
 .hered{font:500 .72rem system-ui;color:var(--muted);margin-left:6px;white-space:nowrap}
+
+/* Homero */
+.cantos{columns:2;column-gap:32px;padding-left:1.4em}
+.cantos li{margin:.2em 0;break-inside:avoid}
+.versos{margin-top:16px}
+.verso{border-bottom:1px solid var(--line);padding:6px 0}
+.verso summary{cursor:pointer;display:grid;grid-template-columns:5.5em 1fr 1fr;gap:12px;align-items:baseline}
+.verso .vn{color:var(--muted);font-size:.85rem}
+.verso .hex{font-size:1.05rem}
+.verso-body{padding:6px 0 10px 5.5em}
+.verso-body h4{margin:.6em 0 .2em;font:600 .72rem Inter,sans-serif;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
+.verso-body ul{margin:.2em 0;padding-left:1.2em}
+@media (max-width:700px){.cantos{columns:1}.verso summary{grid-template-columns:1fr}.verso-body{padding-left:0}}
+.serie-nav{display:flex;justify-content:space-between;margin-top:20px}

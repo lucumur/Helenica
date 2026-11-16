@@ -1,0 +1,160 @@
+{
+ "id": "odisea",
+ "nombre": "Odysseia",
+ "nombre_alt": "Odisea",
+ "nombre_griego": "Ὀδύσσεια",
+ "abrev": "Od.",
+ "autor": {
+  "col": "entes",
+  "id": "homeros",
+  "nombre": "Homēros"
+ },
+ "descripcion": "",
+ "tana": "kqwYFJfjSNyn",
+ "cantos": [
+  {
+   "n": 1,
+   "id": "odisea-01",
+   "romano": "I",
+   "titulo": "Concilio de los dioses"
+  },
+  {
+   "n": 2,
+   "id": "odisea-02",
+   "romano": "II",
+   "titulo": "Asamblea en Ítaca"
+  },
+  {
+   "n": 3,
+   "id": "odisea-03",
+   "romano": "III",
+   "titulo": "En Pilos"
+  },
+  {
+   "n": 4,
+   "id": "odisea-04",
+   "romano": "IV",
+   "titulo": "En Esparta"
+  },
+  {
+   "n": 5,
+   "id": "odisea-05",
+   "romano": "V",
+   "titulo": "La isla de Calipso"
+  },
+  {
+   "n": 6,
+   "id": "odisea-06",
+   "romano": "VI",
+   "titulo": "Nausícaa"
+  },
+  {
+   "n": 7,
+   "id": "odisea-07",
+   "romano": "VII",
+   "titulo": "Llegada al palacio de Alcínoo"
+  },
+  {
+   "n": 8,
+   "id": "odisea-08",
+   "romano": "VIII",
+   "titulo": "El aedo Demódoco"
+  },
+  {
+   "n": 9,
+   "id": "odisea-09",
+   "romano": "IX",
+   "titulo": "El Cíclope"
+  },
+  {
+   "n": 10,
+   "id": "odisea-10",
+   "romano": "X",
+   "titulo": "Eolo, los Lestrigones y Circe"
+  },
+  {
+   "n": 11,
+   "id": "odisea-11",
+   "romano": "XI",
+   "titulo": "Nékyia (el mundo de los muertos)"
+  },
+  {
+   "n": 12,
+   "id": "odisea-12",
+   "romano": "XII",
+   "titulo": "Sirenas, Escila y Caribdis"
+  },
+  {
+   "n": 13,
+   "id": "odisea-13",
+   "romano": "XIII",
+   "titulo": "Llegada a Ítaca"
+  },
+  {
+   "n": 14,
+   "id": "odisea-14",
+   "romano": "XIV",
+   "titulo": "La cabaña de Eumeo"
+  },
+  {
+   "n": 15,
+   "id": "odisea-15",
+   "romano": "XV",
+   "titulo": "Regreso de Telémaco"
+  },
+  {
+   "n": 16,
+   "id": "odisea-16",
+   "romano": "XVI",
+   "titulo": "Reconocimiento de Telémaco"
+  },
+  {
+   "n": 17,
+   "id": "odisea-17",
+   "romano": "XVII",
+   "titulo": "Regreso al palacio"
+  },
+  {
+   "n": 18,
+   "id": "odisea-18",
+   "romano": "XVIII",
+   "titulo": "El mendigo Iro"
+  },
+  {
+   "n": 19,
+   "id": "odisea-19",
+   "romano": "XIX",
+   "titulo": "Reconocimiento de Euriclea"
+  },
+  {
+   "n": 20,
+   "id": "odisea-20",
+   "romano": "XX",
+   "titulo": "Vísperas de la matanza"
+  },
+  {
+   "n": 21,
+   "id": "odisea-21",
+   "romano": "XXI",
+   "titulo": "La prueba del arco"
+  },
+  {
+   "n": 22,
+   "id": "odisea-22",
+   "romano": "XXII",
+   "titulo": "La matanza de los pretendientes"
+  },
+  {
+   "n": 23,
+   "id": "odisea-23",
+   "romano": "XXIII",
+   "titulo": "Reconocimiento de Penélope"
+  },
+  {
+   "n": 24,
+   "id": "odisea-24",
+   "romano": "XXIV",
+   "titulo": "Paz en Ítaca"
+  }
+ ]
+}

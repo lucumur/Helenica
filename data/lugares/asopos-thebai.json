@@ -13,31 +13,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Cabeceras de la vertiente septentrional de Kithairōn y pequeños cursos de la Parasōpia beocia (Estrabón 9.2.23–24).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Estrecho de Eubea, en el sector de Ōrōpos, después de la llanura de Tanagra.",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Asōpos beocio, padre mítico de Plataia y otras ninfas epónimas (C). Pausanias conserva una interpretación como antiguo rey y distingue la tradición beocia de la fliasia (9.1.1–2; 2.5.2).",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "La Ōeroē aparece como curso próximo e hija mítica de Asōpos (C; Paus. 9.4.4); la filiación no prueba por sí sola una confluencia. Los textos citados no enumeran todos los tributarios físicos.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Atraviesa la Parasōpia, separa los territorios de Thēbai y Plataiai y sigue hacia Tanagra y Ōrōpos. Se trata del Asopo beocio, distinto de los ríos homónimos de Phlious y Trachis (Estrabón 9.2.23–24; Paus. 9.4.4).",
       "refs": []
     }
   ],
@@ -67,5 +67,19 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Pausanias, Descripción de Grecia 2.1–14",
+      "url": "https://www.theoi.com/Text/Pausanias2A.html"
+    },
+    {
+      "titulo": "Pausanias, Descripción de Grecia 9.1–22",
+      "url": "https://www.theoi.com/Text/Pausanias9A.html"
+    },
+    {
+      "titulo": "Estrabón, Geografía 9.2: ríos de Beocia",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/9B*.html"
+    }
+  ]
 }

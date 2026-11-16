@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Territorio de los Bōmioi, dentro del país de los Ophieis en Etolia montañosa, según Estrabón 10.2.5; no se fija su origen en Oitē por mera proximidad regional.",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Mar Jónico, costa septentrional del golfo de Patras, en el sector de Kalydōn (Estrabón 10.2.5).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Euēnos figura entre los hijos fluviales de Océano y Tetis (C; Hes. Th. 337–345). Se distingue esta personificación del rey mítico Eveno y de las diversas explicaciones del cambio de nombre desde Lykormas.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Estrabón no individualiza sus tributarios en el pasaje usado; se describe la cuenca sin asignar nombres modernos a cursos antiguos no identificados.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Desde el país ophieo baja por Etolia, pasa por los territorios de Chalkis y Kalydōn, gira ante la llanura de la antigua Pleurōn y alcanza el mar. Estrabón lo llama antiguamente Lykormas y sitúa aquí el episodio de Nessos (C; 10.2.5).",
       "refs": []
     }
   ],
@@ -65,5 +65,15 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Estrabón, Geografía 10.2: Etolia y Acarnania",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/10B*.html"
+    },
+    {
+      "titulo": "Hesíodo, Teogonía 337–370: ríos y Oceánides",
+      "url": "https://chs.harvard.edu/primary-source/hesiod-theogony-sb/"
+    }
+  ]
 }

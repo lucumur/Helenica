@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Monte Tymphrēstos, según Estrabón 9.5.9 y la investigación geomorfológica moderna.",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Golfo Maliaco, junto a la llanura de Lamia y las antiguas Termópilas (Estrabón 9.5.9). La costa ha avanzado por sedimentación.",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Sperkheios, dios fluvial: padre de Menesthios en la tradición (C; Il. 16.173–176). Aquiles menciona el voto de dedicarle su cabello y sacrificios en su altar (Il. 23.141–149).",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "En la red moderna, Gorgopotamos, Inakhos y el [Asōpos tracinio](lugares:asopos-trakhis), además de otros torrentes. Heródoto describe algunos cursos como desembocaduras independientes en la costa antigua (7.198–200).",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Corre de oeste a este por el valle entre Oitē y las estribaciones de Othrys, cruza la llanura de Malis al sur de Lamia y forma el sistema aluvial del golfo Maliaco (Estrabón 9.5.9).",
       "refs": []
     }
   ],
@@ -65,5 +65,23 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Estrabón, Geografía 9.5: ríos de Tesalia y Malis",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/9E*.html"
+    },
+    {
+      "titulo": "Heródoto, Historias 7.198–200 y 216–217: ríos y costa de las Termópilas",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Herodotus/7d*.html"
+    },
+    {
+      "titulo": "Sperkheios: Homero, Ilíada 16.173–176 y 23.141–149",
+      "url": "https://www.theoi.com/Potamos/PotamosSperkheios.html"
+    },
+    {
+      "titulo": "Psomiadis y colaboradores (2020), estudio de la cuenca del Sperchios",
+      "url": "https://www.mdpi.com/2076-3263/10/9/377"
+    }
+  ]
 }

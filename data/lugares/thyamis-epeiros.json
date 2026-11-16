@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Cuenca de Kalpaki y red superior del Gormos, que recoge las aguas de Pogoni. El organismo de gestión distingue las surgencias del curso principal de las de sus afluentes.",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Mar Jónico, al norte de Igoumenitsa, frente al sector meridional de Corcira; el delta incluye cauces antiguos y modernos.",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "No se ha verificado una imagen o una genealogía individual del Thyamis en las fuentes consultadas. La importancia del río como frontera no demuestra por sí sola un culto personificado.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Gormos, Tyria, Smolitsa, Veltsistikos, Lagkavitsa y otros cursos menores, con sus nombres del inventario moderno del organismo Kalamas–Acheron.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Desde el alto valle de Kalpaki recorre Ioannina y Tesprotia, atraviesa las gargantas del Kalamas y desciende al delta del Jónico. Es el Kalamas moderno; la reconstrucción antigua debe distinguir los cambios del tramo bajo.",
       "refs": []
     }
   ],
@@ -65,5 +65,15 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Organismo de gestión Kalamas–Acheron: cuenca, fuentes y afluentes del Kalamas",
+      "url": "https://www.kalamas-acherontas.gr/wp-content/uploads/2019/05/kalamas_agglika.pdf"
+    },
+    {
+      "titulo": "NECCA, áreas protegidas de Epiro: Aqueronte y sus afluentes",
+      "url": "https://necca.gov.gr/en/mdpp/management-unit-of-the-protected-areas-of-epirus-necca/"
+    }
+  ]
 }

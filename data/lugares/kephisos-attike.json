@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Demos de Trinemeis, al norte de la llanura ateniense (Estrabón 9.1.24).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Golfo de Falero, después de cruzar la llanura y el corredor de las Murallas Largas (Estrabón 9.1.24).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Kēphisos ático: Eliano 2.33 describe una figura humana con cuernos incipientes. Se distingue del Cefiso beocio y del homónimo argivo.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Los pasajes citados no proporcionan una lista de tributarios con nombre. El Ilissos tiene su propia red y no se presenta aquí como un afluente antiguo demostrado.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Desde Trinemeis atraviesa la llanura al oeste de Atenas y pasa entre las Murallas Largas hacia Falero; Estrabón señala su disminución o agotamiento estival (9.1.24).",
       "refs": []
     }
   ],
@@ -65,5 +65,15 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Estrabón, Geografía 9.1.24: ríos de Ática",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/9A*.html"
+    },
+    {
+      "titulo": "Eliano, Historia varia 2.33: formas humanas y taurinas de los dioses fluviales",
+      "url": "https://www.theoi.com/Cult/PotamoiCult.html"
+    }
+  ]
 }

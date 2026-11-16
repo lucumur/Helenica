@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Cabeceras montañosas de Tesprotia y surgencias del desfiladero, en la región de Souli. Las fuentes de la garganta no equivalen por sí solas a la totalidad de la cabecera de la cuenca.",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Mar Jónico, en la costa de Glykýs Limēn, la actual zona de Ammoudia; el lago y los humedales aquerusios pertenecen a su antiguo tramo bajo (Estrabón 7.7.5).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Akherōn, también río divino del inframundo en la literatura (C; Od. 10.513–515). Deben separarse el río epirota y la geografía escatológica; las conexiones míticas no prueban confluencias en el terreno.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Kōkytos y Vouvopotamos, expresamente reconocidos por NECCA. Pyriphlegethōn pertenece al relato homérico del inframundo y no se añade como afluente físico epirota.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Cruza el desfiladero de Tesprotia, recibe los cursos de la llanura y atraviesa la antigua zona lacustre y pantanosa próxima a Ephyra y al Nekromanteion hasta el Jónico (Estrabón 7.7.5; NECCA).",
       "refs": []
     }
   ],
@@ -65,5 +65,19 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Estrabón, Geografía 7.7: hidrografía de Epiro y Anfiloquía",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/7G*.html"
+    },
+    {
+      "titulo": "NECCA, áreas protegidas de Epiro: Aqueronte y sus afluentes",
+      "url": "https://necca.gov.gr/en/mdpp/management-unit-of-the-protected-areas-of-epirus-necca/"
+    },
+    {
+      "titulo": "Aqueronte: testimonios antiguos y distinción del río del inframundo",
+      "url": "https://www.theoi.com/Khthonios/PotamosAkheron.html"
+    }
+  ]
 }

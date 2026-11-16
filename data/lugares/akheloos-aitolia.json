@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Cabeceras del Pindos, al norte de su largo valle de Grecia occidental (Estrabón 7.7.8).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Mar Jónico, en el sector de Oiniadai y las islas Echinades. La formación aluvial de la costa está descrita por Pausanias 8.24.9–11.",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Akhelōios, hijo de Océano y Tetis en la tradición (C; Hes. Th. 337–345). Sófocles, Traquinias 9–17, lo presenta con formas de toro, serpiente y hombre de rostro bovino al pretender a Deianeira (C).",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Agrafiotis, Tavropos/Megdovas, Krikeliotis e Inakhos en la documentación hidrológica actual. Las identificaciones de estos con nombres antiguos requieren comprobación independiente (plan oficial EL04).",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Desde el Pindos desciende hacia el sur por valles montañosos; en el tramo inferior separa Acarnania y Etolia, pasa por el sector de Stratos y alcanza Oiniadai y las Echinades (Estrabón 7.7.8; Paus. 8.24.9–11).",
       "refs": []
     }
   ],
@@ -65,5 +65,27 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Estrabón, Geografía 7.7: hidrografía de Epiro y Anfiloquía",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/7G*.html"
+    },
+    {
+      "titulo": "Pausanias, Descripción de Grecia 8.17–35",
+      "url": "https://www.theoi.com/Text/Pausanias8B.html"
+    },
+    {
+      "titulo": "Hesíodo, Teogonía 337–370: ríos y Oceánides",
+      "url": "https://chs.harvard.edu/primary-source/hesiod-theogony-sb/"
+    },
+    {
+      "titulo": "Akhelōios: testimonios antiguos, incluidas Traquinias de Sófocles",
+      "url": "https://www.theoi.com/Potamos/PotamosAkheloios.html"
+    },
+    {
+      "titulo": "Ministerio de Medio Ambiente de Grecia, red fluvial de Grecia Occidental EL04",
+      "url": "https://floods.ypeka.gr/wp-content/uploads/2025/09/EL04_P19_T1_en.pdf"
+    }
+  ]
 }

@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Identificación controvertida entre cursos de Anfiloquía y de la vertiente occidental del Pindos. Los pasajes de Estrabón citados no permiten señalar un nacimiento único sin resolver esa homonimia.",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Estrabón 7.7.7 habla de un Inakhos que llega al golfo de Ambracia; 7.7.8 dice que el Inakhos desemboca en el Achelōos. La divergencia no se reduce a una desembocadura única supuestamente segura.",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Nombre explicado por analogía con el Inakhos argivo en el relato de la fundación de Argos Anfilóquica (C; Estrabón 7.7.7). No es prueba de una deidad local con la misma genealogía.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "No es posible asignar una lista firme mientras la ficha reúna identificaciones antiguas divergentes. La red moderna del Inachos del Achelōos no se confunde con la de un curso del golfo de Ambracia.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "La descripción previa de esta ficha sigue la versión anfilóquica hacia Ambracia; se conserva, pero se hace explícita la otra versión de Estrabón, hacia el Achelōos (7.7.7–8).",
       "refs": []
     }
   ],
@@ -65,5 +65,15 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Estrabón, Geografía 7.7: hidrografía de Epiro y Anfiloquía",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/7G*.html"
+    },
+    {
+      "titulo": "Ministerio de Medio Ambiente de Grecia, red fluvial de Grecia Occidental EL04",
+      "url": "https://floods.ypeka.gr/wp-content/uploads/2025/09/EL04_P19_T1_en.pdf"
+    }
+  ]
 }

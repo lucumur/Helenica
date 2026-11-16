@@ -6,6 +6,7 @@ Las limitaciones documentales se explican expresamente, sin convertirlas en ause
 """
 import json
 import sys
+sys.dont_write_bytecode = True
 from preparar_fichas_rios import LUGARES, CAMPOS
 
 
@@ -32,6 +33,32 @@ FUENTES = {
     'ELIS': ('W. Smith, Dictionary of Greek and Roman Geography, «Elis»: cabeceras y cambios de desembocadura', 'https://www.gtp.gr/destinations/ancientelis'),
 }
 DATOS = {}
+FUENTES.update({
+    'S7': ('Estrabón, Geografía 7.7: hidrografía de Epiro y Anfiloquía', 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/7G*.html'),
+    'S9A': ('Estrabón, Geografía 9.1.24: ríos de Ática', 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/9A*.html'),
+    'S9B': ('Estrabón, Geografía 9.2: ríos de Beocia', 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/9B*.html'),
+    'S9E': ('Estrabón, Geografía 9.5: ríos de Tesalia y Malis', 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/9E*.html'),
+    'S10B': ('Estrabón, Geografía 10.2: Etolia y Acarnania', 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/10B*.html'),
+    'HDT129': ('Heródoto, Historias 7.129: red fluvial de Tesalia', 'https://lexundria.com/hdt/7.129/mcly'),
+    'HDT200': ('Heródoto, Historias 7.198–200 y 216–217: ríos y costa de las Termópilas', 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Herodotus/7d*.html'),
+    'P1B': ('Pausanias, Descripción de Grecia 1.19.5–6: Ilissos y Eridanos', 'https://www.theoi.com/Text/Pausanias1B.html'),
+    'P10C': ('Pausanias, Descripción de Grecia 10.33.4–7: fuentes y afluente del Cefiso', 'https://www.theoi.com/Text/Pausanias10C.html'),
+    'HYLA': ('RE, «Hylaithos» (1914): testimonio de Dionisio hijo de Calífon y controversia topográfica', 'https://de.wikisource.org/wiki/RE:Hylaithos'),
+    'ISM': ('Testimonios antiguos de Ismenos: Pausanias 9.10.5–6; Calímaco, Himno a Delos 75 ss.', 'https://www.theoi.com/Potamos/PotamosIsmenos.html'),
+    'ENI': ('Enipeus: testimonios de Homero y Estrabón, incluidas las variantes de confluencia', 'https://www.theoi.com/Potamos/PotamosEnipeus.html'),
+    'SPER': ('Sperkheios: Homero, Ilíada 16.173–176 y 23.141–149', 'https://www.theoi.com/Potamos/PotamosSperkheios.html'),
+    'SPERH': ('Psomiadis y colaboradores (2020), estudio de la cuenca del Sperchios', 'https://www.mdpi.com/2076-3263/10/9/377'),
+    'TIT': ('Titaresios: Ilíada 2.751–755 y testimonios geográficos de Estrabón', 'https://www.theoi.com/Potamos/PotamosTitaressos.html'),
+    'LETH': ('Región de Tesalia: fuentes y recorrido del Lethaios', 'https://visitthessaly.gr/en/suggestions/litheos-river-forgetfulness'),
+    'ACHE': ('Akhelōios: testimonios antiguos, incluidas Traquinias de Sófocles', 'https://www.theoi.com/Potamos/PotamosAkheloios.html'),
+    'ACHET': ('Ministerio de Medio Ambiente de Grecia, red fluvial de Grecia Occidental EL04', 'https://floods.ypeka.gr/wp-content/uploads/2025/09/EL04_P19_T1_en.pdf'),
+    'EPIR': ('NECCA, áreas protegidas de Epiro: Aqueronte y sus afluentes', 'https://necca.gov.gr/en/mdpp/management-unit-of-the-protected-areas-of-epirus-necca/'),
+    'ACHER': ('Aqueronte: testimonios antiguos y distinción del río del inframundo', 'https://www.theoi.com/Khthonios/PotamosAkheron.html'),
+    'AOOS': ('N. Jautzy y colaboradores (2023), cuenca y afluentes del Vjosa/Aoos', 'https://esurf.copernicus.org/articles/11/881/2023/esurf-11-881-2023.html'),
+    'AOOSS': ('ZRC SAZU, RiverChange: cabecera y curso del Aoos/Vjosa', 'https://riverchange.zrc-sazu.si/vjosa-01-source/'),
+    'ARA': ('Parque de Tzoumerka: Arachthos, cabeceras, confluencias y desembocadura', 'https://tzoumerka-park.gr/en/arachthos/'),
+    'THY': ('Organismo de gestión Kalamas–Acheron: cuenca, fuentes y afluentes del Kalamas', 'https://www.kalamas-acherontas.gr/wp-content/uploads/2019/05/kalamas_agglika.pdf'),
+})
 
 
 def agregar(ids, nacimientos, desembocadura, forma_potamica, afluentes, recorrido, fuentes):
@@ -152,6 +179,147 @@ agregar('pontinos-lerna-2',
     'La fuente citada describe el río y los santuarios próximos, pero no atestigua una figura divina individual del Pontinos. La existencia de un santuario junto al río no basta para establecerla.',
     'No se individualizan afluentes en Paus. 2.36.8–2.37.1. Amymōnē se describe como otro límite del bosque sagrado, no como afluente del Pontinos.',
     'Curso corto desde el monte Pontinos hasta el litoral de Lerna, junto al bosque sagrado de Deméter y Dioniso (Paus. 2.36.8–2.37.2).', 'P2C')
+
+
+agregar('asopos-thebai rio-asopo',
+    'Cabeceras de la vertiente septentrional de Kithairōn y pequeños cursos de la Parasōpia beocia (Estrabón 9.2.23–24).',
+    'Estrecho de Eubea, en el sector de Ōrōpos, después de la llanura de Tanagra.',
+    'Asōpos beocio, padre mítico de Plataia y otras ninfas epónimas (C). Pausanias conserva una interpretación como antiguo rey y distingue la tradición beocia de la fliasia (9.1.1–2; 2.5.2).',
+    'La Ōeroē aparece como curso próximo e hija mítica de Asōpos (C; Paus. 9.4.4); la filiación no prueba por sí sola una confluencia. Los textos citados no enumeran todos los tributarios físicos.',
+    'Atraviesa la Parasōpia, separa los territorios de Thēbai y Plataiai y sigue hacia Tanagra y Ōrōpos. Se trata del Asopo beocio, distinto de los ríos homónimos de Phlious y Trachis (Estrabón 9.2.23–24; Paus. 9.4.4).', 'P2A P9A S9B')
+
+agregar('asopos-trakhis',
+    'Montañas al sur de Trachis, en el entorno de Oitē: sale por la garganta descrita por Heródoto (7.199; 7.216–217).',
+    'Heródoto lo hace desembocar en el golfo Maliaco junto a Anthēlē (7.200). En la red moderna se incorpora al [Sperkheios](lugares:sperkheios-malis); el avance de la llanura aluvial impide trasladar la costa actual a las Termópilas de 480 a.C.',
+    'No se ha establecido una personificación propia del Asopo tracinio en los textos consultados. No se importa la genealogía del Asōpos de Beocia o de Phlious.',
+    'Phoinix, arroyo que desemboca expresamente en el Asōpos según Heródoto 7.200.',
+    'Sale por la garganta al sur de Trachis, alcanza el piedemonte y pasa junto a Anthēlē hacia la antigua costa de las Termópilas (Hdt. 7.199–200). Su cuenca moderna forma parte de la del Sperkheios.', 'HDT200 SPERH')
+
+agregar('hylaithos-lokris',
+    'Identificación controvertida. Dionisio hijo de Calífon, v. 67, dice que procede de Etolia, pero no da un manantial reconocible. La equivalencia con el Mornos de la descripción previa de esta ficha no es segura.',
+    'Costa de la Lócride ozolia en el golfo de Corinto; el estuario exacto depende de la identificación discutida del río.',
+    'No se documenta una personificación individual en el testimonio geográfico conservado.',
+    'No es posible asignar una red moderna de afluentes mientras no se resuelva su identificación; los del Mornos no se atribuyen automáticamente al Hylaithos.',
+    'Dionisio lo sitúa en su descripción de la costa locria después de Tolophōn. Se han propuesto el Mornos y cursos próximos a Vitrinitsa o Amphissa; la RE, «Hylaithos», expone las dificultades y no considera segura ninguna identificación.', 'HYLA')
+
+agregar('ilissos-attike',
+    'Cabeceras al este/sudeste de Atenas, por encima de Agrai y el Lykeion; Estrabón menciona también el manantial celebrado en el Fedro (9.1.24).',
+    'Estrabón lo lleva a la misma costa de Falero que el Cefiso ático (9.1.24). Se distingue esa descripción antigua de las confluencias y canalizaciones modernas.',
+    'Río sagrado asociado a Boreas, Ōreithyia y las Musas Ilisíades (Paus. 1.19.5). Los pasajes citados documentan su carácter sacro, sin describir una imagen individual del dios del río.',
+    'Ēridanos, nombrado expresamente como tributario del Ilissos por Pausanias (1.19.5).',
+    'Discurre junto a Agrai, el Lykeion y el lado meridional de Atenas hacia Falero; Pausanias sitúa al otro lado el santuario de Artemis Agrotera y el estadio (1.19.5–6; Estrabón 9.1.24).', 'P1B S9A')
+
+agregar('ismenos',
+    'Manantiales y cabeceras del entorno de Thēbai, vinculados a Melia y al Ismēnion en la tradición local (Paus. 9.10.5–6). Los pasajes no fijan un único punto moderno de nacimiento.',
+    'Cuenca del lago Hylikē en la identificación topográfica habitual. Los pasajes antiguos citados se centran en Thēbai y no permiten precisar el último tramo con la misma seguridad que el curso urbano.',
+    'Ismēnos, hijo de Apolo y Melia según Pausanias 9.10.6; otra genealogía lo hace hijo de Asōpos y Metopē (C; Apolodoro 3.12.6). El río tuvo también el nombre Ladōn en la tradición tebana, distinto del arcadio.',
+    'Dirkē y Strophia aparecen como aguas tebanas personificadas e hijas de Ismēnos en Calímaco, Himno a Delos 75 ss. (C). La genealogía no se convierte sin comprobación en un catálogo de confluencias.',
+    'Pasa junto al Ismēnion y el sector oriental de Thēbai; Estrabón lo incluye en la llanura ante la ciudad (9.2.24). Su relación con las aguas y santuarios tebanos está mejor atestiguada que el trazado completo.', 'P9A S9B ISM')
+
+agregar('kephisos-attike',
+    'Demos de Trinemeis, al norte de la llanura ateniense (Estrabón 9.1.24).',
+    'Golfo de Falero, después de cruzar la llanura y el corredor de las Murallas Largas (Estrabón 9.1.24).',
+    'Kēphisos ático: Eliano 2.33 describe una figura humana con cuernos incipientes. Se distingue del Cefiso beocio y del homónimo argivo.',
+    'Los pasajes citados no proporcionan una lista de tributarios con nombre. El Ilissos tiene su propia red y no se presenta aquí como un afluente antiguo demostrado.',
+    'Desde Trinemeis atraviesa la llanura al oeste de Atenas y pasa entre las Murallas Largas hacia Falero; Estrabón señala su disminución o agotamiento estival (9.1.24).', 'S9A EL')
+
+agregar('kephisos-boiotia',
+    'Lilaia, al pie del Parnāssos: Pausanias describe la surgencia y su ruido al brotar (10.33.4–5).',
+    'Lago Kōpais, cuenca cerrada cuyo desagüe antiguo depende de sumideros; no desembocaba directamente en el mar (Paus. 9.24.1; Estrabón 9.2.18–19).',
+    'Kēphisos, padre mítico de la náyade Lilaia (C; Paus. 10.33.4). El testimonio homérico lo llama divino (Il. 2.522, citado por Paus. 10.33.7); no se le asigna la imagen del Cefiso ático sin evidencia.',
+    'Charadros, identificado expresamente como tributario por Pausanias 10.33.6. Permēssos y Olmeios desembocan en el Kōpais y no son por ello afluentes directos del Cefiso (Estrabón 9.2.19).',
+    'De Lilaia pasa por la llanura focidia y los territorios de Elateia, Parapotamioi y Phanoteus; entra en Beocia por Chairōneia y alcanza la cuenca de Orchomenos y el Kōpais (Estrabón 9.2.19).', 'P10C P9B S9B')
+
+agregar('sperkheios-malis',
+    'Monte Tymphrēstos, según Estrabón 9.5.9 y la investigación geomorfológica moderna.',
+    'Golfo Maliaco, junto a la llanura de Lamia y las antiguas Termópilas (Estrabón 9.5.9). La costa ha avanzado por sedimentación.',
+    'Sperkheios, dios fluvial: padre de Menesthios en la tradición (C; Il. 16.173–176). Aquiles menciona el voto de dedicarle su cabello y sacrificios en su altar (Il. 23.141–149).',
+    'En la red moderna, Gorgopotamos, Inakhos y el [Asōpos tracinio](lugares:asopos-trakhis), además de otros torrentes. Heródoto describe algunos cursos como desembocaduras independientes en la costa antigua (7.198–200).',
+    'Corre de oeste a este por el valle entre Oitē y las estribaciones de Othrys, cruza la llanura de Malis al sur de Lamia y forma el sistema aluvial del golfo Maliaco (Estrabón 9.5.9).', 'S9E HDT200 SPER SPERH')
+
+agregar('enipeus-thessalia',
+    'Monte Othrys, según Estrabón 9.5.6; no se confunde con los otros Enipeis de Grecia.',
+    'Sistema del [Pēneios tesalio](lugares:peneios-thessalia). Estrabón 9.5.6 dice que entra en el Apidanos; 8.3.32 invierte la relación y dice que recibe al Apidanos. Se conserva la discrepancia antigua.',
+    'Enipeus, río divino amado por Tyrō; Poseidón toma su aspecto en el relato (C; Od. 11.235–259). La localización del episodio tuvo variantes entre Tesalia y Élide.',
+    'Apidanos en la formulación de Estrabón 8.3.32; la relación se invierte en 9.5.6. No se oculta la discordancia bajo una lista única.',
+    'Desde Othrys pasa por el territorio de Pharsalos y la Tesalia meridional antes de integrarse, junto al Apidanos, en la red del Peneo (Estrabón 9.5.6; Hdt. 7.129).', 'S9E S8 HDT129 ENI')
+
+agregar('lethaios-trikka',
+    'Antichasia; la documentación regional moderna sitúa los manantiales principales en Nea Zoi y otra cabecera cerca de Platanos.',
+    '[Pēneios](lugares:peneios-thessalia), fuera de la ciudad de Trikka/Trikala, según la documentación regional de Tesalia.',
+    'Las fuentes usadas para su hidrografía no bastan para establecer una imagen antigua o una genealogía divina segura. No se deduce un dios del río únicamente por la relación del nombre con lēthē.',
+    'Ramal de cabecera de Platanos y arroyos menores según el inventario regional moderno; los testimonios citados no ofrecen una lista antigua con nombres.',
+    'Desde las Antichasia baja a la llanura y atraviesa Trikka, la actual Trikala, antes de incorporarse al Peneo.', 'LETH')
+
+agregar('pamisos-thessalia',
+    'Cabeceras montañosas de Tesalia occidental. Heródoto explica que el Pamisos recoge aguas de los montes que cierran la llanura, sin fijar un manantial concreto (7.129).',
+    'Sistema del [Pēneios](lugares:peneios-thessalia), que reúne las aguas tesalias antes de salir al mar por Tempē (Hdt. 7.129).',
+    'No se ha verificado una personificación individual del Pamisos tesalio en el pasaje citado; no se le traslada el culto del Pamisos de Mesenia.',
+    'Heródoto no enumera sus tributarios internos; su catálogo es de los grandes ríos de la cuenca, no una lista de afluentes de este Pamisos.',
+    'Desciende desde el borde occidental de Tesalia a la llanura y se incorpora a la red del Peneo. La descripción de Heródoto permite esta relación de cuenca, sin precisar todo el trazado (7.129).', 'HDT129')
+
+agregar('peneios-thessalia',
+    'Cabeceras del Pindos, al oeste de Tesalia; reúne las aguas de la llanura encerrada por Pindos, Othrys, Ossa, Pēlion y Olympos (Hdt. 7.129; Estrabón 9.5.1–2).',
+    'Mar Egeo, después de cruzar Tempē entre Olympos y Ossa (Hdt. 7.129; Estrabón 9.5.2).',
+    'Pēneios, hijo de Océano y Tetis en la tradición (C; Hes. Th. 337–345). Es el Peneo tesalio, no el río homónimo de Élide.',
+    '[Titarēsios](lugares:titaresios-thessalia), [Enipeus](lugares:enipeus-thessalia), Apidanos, Onochōnos, [Pamisos](lugares:pamisos-thessalia) y [Lēthaios](lugares:lethaios-trikka), directamente o a través de sus respectivas redes (Hdt. 7.129; Estrabón 9.5.6, 19–20; documentación regional del Lethaios).',
+    'Atraviesa la llanura tesalia hacia el este, recibe las redes occidentales y meridionales, pasa por el sector de Larisa y sale por el valle de Tempē entre Olympos y Ossa (Estrabón 9.5.1–2, 19–20).', 'HDT129 S9E H LETH')
+
+agregar('titaresios-thessalia',
+    'Monte Titarios, enlazado con Olympos según Estrabón 9.5.20. La derivación de sus aguas desde Styx pertenece a la explicación mítica (C; Il. 2.751–755).',
+    '[Pēneios](lugares:peneios-thessalia), en el sector de Perrhaibia próximo a Tempē (Estrabón 9.5.20).',
+    'Titarēsios/Titarēssos, también llamado Eurōpos. Homero personifica su corriente y la vincula a Styx (C; Il. 2.751–755); el texto no fija una genealogía parental completa.',
+    'Los pasajes citados no individualizan sus tributarios. La conexión mítica con Styx no se registra como afluente físico.',
+    'Desde Titarios y las estribaciones de Olympos recorre Perrhaibia y se reúne con el Peneo. Homero dice que sus aguas flotan sin mezclarse: es descripción poética, no una propiedad hidrológica aquí demostrada.', 'S9E TIT')
+
+agregar('akheloos-aitolia',
+    'Cabeceras del Pindos, al norte de su largo valle de Grecia occidental (Estrabón 7.7.8).',
+    'Mar Jónico, en el sector de Oiniadai y las islas Echinades. La formación aluvial de la costa está descrita por Pausanias 8.24.9–11.',
+    'Akhelōios, hijo de Océano y Tetis en la tradición (C; Hes. Th. 337–345). Sófocles, Traquinias 9–17, lo presenta con formas de toro, serpiente y hombre de rostro bovino al pretender a Deianeira (C).',
+    'Agrafiotis, Tavropos/Megdovas, Krikeliotis e Inakhos en la documentación hidrológica actual. Las identificaciones de estos con nombres antiguos requieren comprobación independiente (plan oficial EL04).',
+    'Desde el Pindos desciende hacia el sur por valles montañosos; en el tramo inferior separa Acarnania y Etolia, pasa por el sector de Stratos y alcanza Oiniadai y las Echinades (Estrabón 7.7.8; Paus. 8.24.9–11).', 'S7 P8B H ACHE ACHET')
+
+agregar('akheron-epeiros',
+    'Cabeceras montañosas de Tesprotia y surgencias del desfiladero, en la región de Souli. Las fuentes de la garganta no equivalen por sí solas a la totalidad de la cabecera de la cuenca.',
+    'Mar Jónico, en la costa de Glykýs Limēn, la actual zona de Ammoudia; el lago y los humedales aquerusios pertenecen a su antiguo tramo bajo (Estrabón 7.7.5).',
+    'Akherōn, también río divino del inframundo en la literatura (C; Od. 10.513–515). Deben separarse el río epirota y la geografía escatológica; las conexiones míticas no prueban confluencias en el terreno.',
+    'Kōkytos y Vouvopotamos, expresamente reconocidos por NECCA. Pyriphlegethōn pertenece al relato homérico del inframundo y no se añade como afluente físico epirota.',
+    'Cruza el desfiladero de Tesprotia, recibe los cursos de la llanura y atraviesa la antigua zona lacustre y pantanosa próxima a Ephyra y al Nekromanteion hasta el Jónico (Estrabón 7.7.5; NECCA).', 'S7 EPIR ACHER')
+
+agregar('aoos-epeiros',
+    'Pindos septentrional, en la cuenca de Vovousa; la cabecera moderna está parcialmente modificada por el embalse de fuentes del Aoos (RiverChange, ZRC SAZU).',
+    'Mar Adriático, en la costa de Albania, como Vjosa; no desemboca en el golfo de Ambracia.',
+    'No se ha establecido una personificación propia de este Aoos epirota en las fuentes consultadas. Los personajes y ríos homónimos de otras regiones no se identifican automáticamente con él.',
+    'Voidomatis, Sarantaporos, Drinos, Bënça y Shushica: principales tributarios del sistema Aoos/Vjosa en el estudio de Jautzy y colaboradores (2023); se emplean nombres modernos.',
+    'Sale del Pindos, recorre el sector de Konitsa, atraviesa el sur de Albania hacia el noroeste y continúa por el valle del Vjosa hasta el Adriático; combina gargantas, tramos trenzados y llanura baja.', 'AOOS AOOSS')
+
+agregar('arakhthos-epeiros',
+    'Red de cabeceras del Pindos cerca de Metsovo: Metsovitikos y Zagoritikos/Vardas. El parque de Tzoumerka las relaciona con Mavrovouni y el bosque de Rona; Estrabón menciona Tymphē y Parōraia (7.7.6).',
+    'Golfo de Ambracia, al sur de la actual Arta (antigua Ambrakia).',
+    'Las fuentes geográficas citadas no permiten fijar una personificación antigua individual con iconografía propia. La relación con el nombre Inakhos tiene variantes y no autoriza a copiar la genealogía argiva.',
+    'Kalarrytikos; en cabecera confluyen Metsovitikos y Zagoritikos/Vardas. Son relaciones hidrográficas documentadas por el parque de Tzoumerka.',
+    'Desde el entorno de Metsovo baja por las montañas epirotas, atraviesa la garganta de Plaka y el territorio de Ambrakia hasta el golfo. El embalse de Pournari es moderno y no forma parte del paisaje antiguo.', 'S7 ARA')
+
+agregar('euenos-aitolia',
+    'Territorio de los Bōmioi, dentro del país de los Ophieis en Etolia montañosa, según Estrabón 10.2.5; no se fija su origen en Oitē por mera proximidad regional.',
+    'Mar Jónico, costa septentrional del golfo de Patras, en el sector de Kalydōn (Estrabón 10.2.5).',
+    'Euēnos figura entre los hijos fluviales de Océano y Tetis (C; Hes. Th. 337–345). Se distingue esta personificación del rey mítico Eveno y de las diversas explicaciones del cambio de nombre desde Lykormas.',
+    'Estrabón no individualiza sus tributarios en el pasaje usado; se describe la cuenca sin asignar nombres modernos a cursos antiguos no identificados.',
+    'Desde el país ophieo baja por Etolia, pasa por los territorios de Chalkis y Kalydōn, gira ante la llanura de la antigua Pleurōn y alcanza el mar. Estrabón lo llama antiguamente Lykormas y sitúa aquí el episodio de Nessos (C; 10.2.5).', 'S10B H')
+
+agregar('inakhos-akarnania',
+    'Identificación controvertida entre cursos de Anfiloquía y de la vertiente occidental del Pindos. Los pasajes de Estrabón citados no permiten señalar un nacimiento único sin resolver esa homonimia.',
+    'Estrabón 7.7.7 habla de un Inakhos que llega al golfo de Ambracia; 7.7.8 dice que el Inakhos desemboca en el Achelōos. La divergencia no se reduce a una desembocadura única supuestamente segura.',
+    'Nombre explicado por analogía con el Inakhos argivo en el relato de la fundación de Argos Anfilóquica (C; Estrabón 7.7.7). No es prueba de una deidad local con la misma genealogía.',
+    'No es posible asignar una lista firme mientras la ficha reúna identificaciones antiguas divergentes. La red moderna del Inachos del Achelōos no se confunde con la de un curso del golfo de Ambracia.',
+    'La descripción previa de esta ficha sigue la versión anfilóquica hacia Ambracia; se conserva, pero se hace explícita la otra versión de Estrabón, hacia el Achelōos (7.7.7–8).', 'S7 ACHET')
+
+agregar('thyamis-epeiros',
+    'Cuenca de Kalpaki y red superior del Gormos, que recoge las aguas de Pogoni. El organismo de gestión distingue las surgencias del curso principal de las de sus afluentes.',
+    'Mar Jónico, al norte de Igoumenitsa, frente al sector meridional de Corcira; el delta incluye cauces antiguos y modernos.',
+    'No se ha verificado una imagen o una genealogía individual del Thyamis en las fuentes consultadas. La importancia del río como frontera no demuestra por sí sola un culto personificado.',
+    'Gormos, Tyria, Smolitsa, Veltsistikos, Lagkavitsa y otros cursos menores, con sus nombres del inventario moderno del organismo Kalamas–Acheron.',
+    'Desde el alto valle de Kalpaki recorre Ioannina y Tesprotia, atraviesa las gargantas del Kalamas y desciende al delta del Jónico. Es el Kalamas moderno; la reconstrucción antigua debe distinguir los cambios del tramo bajo.', 'THY EPIR')
 
 
 def main():

@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Cabeceras montañosas de Tesalia occidental. Heródoto explica que el Pamisos recoge aguas de los montes que cierran la llanura, sin fijar un manantial concreto (7.129).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Sistema del [Pēneios](lugares:peneios-thessalia), que reúne las aguas tesalias antes de salir al mar por Tempē (Hdt. 7.129).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "No se ha verificado una personificación individual del Pamisos tesalio en el pasaje citado; no se le traslada el culto del Pamisos de Mesenia.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Heródoto no enumera sus tributarios internos; su catálogo es de los grandes ríos de la cuenca, no una lista de afluentes de este Pamisos.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Desciende desde el borde occidental de Tesalia a la llanura y se incorpora a la red del Peneo. La descripción de Heródoto permite esta relación de cuenca, sin precisar todo el trazado (7.129).",
       "refs": []
     }
   ],
@@ -65,5 +65,11 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Heródoto, Historias 7.129: red fluvial de Tesalia",
+      "url": "https://lexundria.com/hdt/7.129/mcly"
+    }
+  ]
 }

@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Monte Titarios, enlazado con Olympos según Estrabón 9.5.20. La derivación de sus aguas desde Styx pertenece a la explicación mítica (C; Il. 2.751–755).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "[Pēneios](lugares:peneios-thessalia), en el sector de Perrhaibia próximo a Tempē (Estrabón 9.5.20).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Titarēsios/Titarēssos, también llamado Eurōpos. Homero personifica su corriente y la vincula a Styx (C; Il. 2.751–755); el texto no fija una genealogía parental completa.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Los pasajes citados no individualizan sus tributarios. La conexión mítica con Styx no se registra como afluente físico.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Desde Titarios y las estribaciones de Olympos recorre Perrhaibia y se reúne con el Peneo. Homero dice que sus aguas flotan sin mezclarse: es descripción poética, no una propiedad hidrológica aquí demostrada.",
       "refs": []
     }
   ],
@@ -65,5 +65,15 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Estrabón, Geografía 9.5: ríos de Tesalia y Malis",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/9E*.html"
+    },
+    {
+      "titulo": "Titaresios: Ilíada 2.751–755 y testimonios geográficos de Estrabón",
+      "url": "https://www.theoi.com/Potamos/PotamosTitaressos.html"
+    }
+  ]
 }

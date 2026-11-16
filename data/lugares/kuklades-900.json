@@ -35,5 +35,28 @@
   "epoca": {
     "anio": -900,
     "nota": null
-  }
+  },
+  "contiene": [
+    {
+      "grupo": null,
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "kuthnos-900",
+          "nombre": "Kuthnos"
+        },
+        {
+          "col": "lugares",
+          "id": "kuklades-doriees-900",
+          "nombre": "Dōriees"
+        },
+        {
+          "col": "lugares",
+          "id": "kuklades-iaones-900",
+          "nombre": "Iāones"
+        }
+      ]
+    }
+  ]
 }

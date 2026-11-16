@@ -32,6 +32,8 @@ En cualquier texto markdown se enlaza otra ficha así:
 
 Los padres, cónyuges, hijos, agentes, lugares y elementos se leen de esos enlaces (y de `refs`). Los hijos de un ente también se **deducen**: si la ficha de Heracles declara a Zeus como padre, Heracles aparece como hijo en la ficha de Zeus aunque Zeus no lo liste.
 
+- Toda mención identificable de un lugar, accidente geográfico o personaje debe enlazar a su ficha. Reutilizar primero los ids existentes; si falta la ficha, documentar su alta en la tanda correspondiente. No enlazar sólo por coincidencia de nombre: un golfo no es la ciudad homónima, ni un potamós es el cauce físico, ni una región genérica equivale al ethnos de 900 a.C. Las denominaciones descriptivas se precisan con un topónimo atestiguado, sin inventar nombres antiguos. La auditoría inicial de las fichas fluviales está en `docs/enlaces-rios-pendientes.md`.
+
 ## Campos con texto y referencias
 
 Casi todos los campos tienen esta forma:

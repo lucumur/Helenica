@@ -87,19 +87,19 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "Territorio de Phlious, en las cabeceras montañosas al sur de su llanura. La conexión subterránea con el Meandro es tradición (C), no nacimiento hidrológico demostrado (Paus. 2.5.2–3).",
+      "texto": "Territorio de Phlious, en las cabeceras montañosas al sur de su llanura. La conexión subterránea con el [Meandro](lugares:maiandros-ionia) es tradición (C), no nacimiento hidrológico demostrado (Paus. 2.5.2–3).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "Golfo de Corinto, tras atravesar el territorio de Sikyōn (Paus. 2.5.2).",
+      "texto": "Golfo de Corinto, tras atravesar el territorio de [Sikyōn](lugares:sikyon-asopia) (Paus. 2.5.2).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "Asōpos de Phlious y Sikyōn, padre mítico de ninfas epónimas (C). Eliano, Historia varia 2.33, atestigua su representación bovina entre fliasios y sicionios. No confundir automáticamente sus genealogías con las del Asopo beocio (Paus. 2.5.2).",
+      "texto": "Asōpos de Phlious y [Sikyōn](lugares:sikyon-asopia), padre mítico de ninfas epónimas (C). Eliano, Historia varia 2.33, atestigua su representación bovina entre fliasios y sicionios. No confundir automáticamente sus genealogías con las del Asopo beocio (Paus. 2.5.2).",
       "refs": []
     },
     {
@@ -111,7 +111,7 @@
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "Recorre la llanura de Phlious y desciende hacia el norte por Sikyonia hasta su costa en el golfo de Corinto (Paus. 2.5.2).",
+      "texto": "Recorre la llanura de Phlious y desciende hacia el norte por [Sikyonia](lugares:sikyon-asopia) hasta su costa en el golfo de Corinto (Paus. 2.5.2).",
       "refs": []
     }
   ],

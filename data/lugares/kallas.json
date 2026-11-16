@@ -12,13 +12,13 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "Cabeceras de Eubea septentrional. Estrabón sitúa Ōreos al pie de Telēthrion, sobre el Kallas, pero no identifica un manantial concreto (10.1.4).",
+      "texto": "Cabeceras de [Eubea](lugares:euboia) septentrional. Estrabón sitúa [Ōreos](lugares:oreos) al pie de [Telēthrion](lugares:telethrion), sobre el Kallas, pero no identifica un manantial concreto (10.1.4).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "Costa septentrional de Eubea, en el sector de Histiaia/Ōreos; el detalle del delta no se fija exclusivamente a partir del texto de Estrabón.",
+      "texto": "Costa septentrional de [Eubea](lugares:euboia), en el sector de Histiaia/[Ōreos](lugares:oreos); el detalle del delta no se fija exclusivamente a partir del texto de Estrabón.",
       "refs": []
     },
     {
@@ -36,7 +36,7 @@
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "Curso de Eubea septentrional ligado a Histiaia/Ōreos. Estrabón lo emplea como referencia para la ubicación de la ciudad junto a Telēthrion (10.1.4).",
+      "texto": "Curso de [Eubea](lugares:euboia) septentrional ligado a Histiaia/[Ōreos](lugares:oreos). Estrabón lo emplea como referencia para la ubicación de la ciudad junto a [Telēthrion](lugares:telethrion) (10.1.4).",
       "refs": []
     }
   ],

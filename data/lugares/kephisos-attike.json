@@ -23,7 +23,7 @@
     }
   ],
   "descripcion": {
-    "texto": "Corriente principal de la llanura de Atenas: desciende entre el Parnes y el Pentélico hasta la bahía de Falero."
+    "texto": "Corriente principal de la llanura de [Atenas](lugares:athenai): desciende entre el Parnes y el Pentélico hasta la bahía de Falero."
   },
   "campos": [
     {
@@ -47,13 +47,13 @@
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "Los pasajes citados no proporcionan una lista de tributarios con nombre. El Ilissos tiene su propia red y no se presenta aquí como un afluente antiguo demostrado.",
+      "texto": "Los pasajes citados no proporcionan una lista de tributarios con nombre. El [Ilissos](lugares:ilissos-attike) tiene su propia red y no se presenta aquí como un afluente antiguo demostrado.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "Desde Trinemeis atraviesa la llanura al oeste de Atenas y pasa entre las Murallas Largas hacia Falero; Estrabón señala su disminución o agotamiento estival (9.1.24).",
+      "texto": "Desde Trinemeis atraviesa la llanura al oeste de [Atenas](lugares:athenai) y pasa entre las Murallas Largas hacia Falero; Estrabón señala su disminución o agotamiento estival (9.1.24).",
       "refs": []
     }
   ],

@@ -23,19 +23,19 @@
     }
   ],
   "descripcion": {
-    "texto": "Arroyo meridional de Atenas que nace en el Himeto y discurre junto a la ciudad hacia el Cefiso ático."
+    "texto": "Arroyo meridional de [Atenas](lugares:athenai) que nace en el Himeto y discurre junto a la ciudad hacia el [Cefiso ático](lugares:kephisos-attike)."
   },
   "campos": [
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "Cabeceras al este/sudeste de Atenas, por encima de Agrai y el Lykeion; Estrabón menciona también el manantial celebrado en el Fedro (9.1.24).",
+      "texto": "Cabeceras al este/sudeste de [Atenas](lugares:athenai), por encima de Agrai y el Lykeion; Estrabón menciona también el manantial celebrado en el Fedro (9.1.24).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "Estrabón lo lleva a la misma costa de Falero que el Cefiso ático (9.1.24). Se distingue esa descripción antigua de las confluencias y canalizaciones modernas.",
+      "texto": "Estrabón lo lleva a la misma costa de Falero que el [Cefiso ático](lugares:kephisos-attike) (9.1.24). Se distingue esa descripción antigua de las confluencias y canalizaciones modernas.",
       "refs": []
     },
     {
@@ -53,7 +53,7 @@
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "Discurre junto a Agrai, el Lykeion y el lado meridional de Atenas hacia Falero; Pausanias sitúa al otro lado el santuario de Artemis Agrotera y el estadio (1.19.5–6; Estrabón 9.1.24).",
+      "texto": "Discurre junto a Agrai, el Lykeion y el lado meridional de [Atenas](lugares:athenai) hacia Falero; Pausanias sitúa al otro lado el santuario de [Artemis](entes:artemis) Agrotera y el estadio (1.19.5–6; Estrabón 9.1.24).",
       "refs": []
     }
   ],

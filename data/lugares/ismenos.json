@@ -12,7 +12,7 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "Manantiales y cabeceras del entorno de Thēbai, vinculados a Melia y al Ismēnion en la tradición local (Paus. 9.10.5–6). Los pasajes no fijan un único punto moderno de nacimiento.",
+      "texto": "Manantiales y cabeceras del entorno de Thēbai, vinculados a [Melia](entes:melia) y al Ismēnion en la tradición local (Paus. 9.10.5–6). Los pasajes no fijan un único punto moderno de nacimiento.",
       "refs": []
     },
     {
@@ -24,7 +24,7 @@
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "Ismēnos, hijo de Apolo y Melia según Pausanias 9.10.6; otra genealogía lo hace hijo de Asōpos y Metopē (C; Apolodoro 3.12.6). El río tuvo también el nombre Ladōn en la tradición tebana, distinto del arcadio.",
+      "texto": "Ismēnos, hijo de [Apolo](entes:apollon) y [Melia](entes:melia) según Pausanias 9.10.6; otra genealogía lo hace hijo de Asōpos y [Metopē](entes:metope) (C; Apolodoro 3.12.6). El río tuvo también el nombre Ladōn en la tradición tebana, distinto del arcadio.",
       "refs": []
     },
     {

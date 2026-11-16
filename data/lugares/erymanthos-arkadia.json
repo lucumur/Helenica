@@ -12,13 +12,13 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "Monte Lampeia, parte del macizo del Erimanto según Pausanias (8.24.4).",
+      "texto": "Monte Lampeia, parte del [macizo del Erimanto](lugares:oros-erymanthos-arkadia) según Pausanias (8.24.4).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "[Alpheios](lugares:alpheios-elis), en el límite occidental de Arcadia (Paus. 8.24.4).",
+      "texto": "[Alpheios](lugares:alpheios-elis), en el límite occidental de [Arcadia](lugares:arkadia-peloponnesos) (Paus. 8.24.4).",
       "refs": []
     },
     {
@@ -36,7 +36,7 @@
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "Desde Lampeia pasa por Psōphis y baja hacia el Alfeo, dejando Pholoē a la derecha y el territorio de Thelpousa a la izquierda (Paus. 8.24.3–4).",
+      "texto": "Desde Lampeia pasa por Psōphis y baja hacia el [Alfeo](lugares:alpheios-elis), dejando Pholoē a la derecha y el territorio de Thelpousa a la izquierda (Paus. 8.24.3–4).",
       "refs": []
     }
   ],

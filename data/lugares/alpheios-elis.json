@@ -12,19 +12,19 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "Cabeceras de Arcadia. Pausanias sitúa unas fuentes junto a Asea y describe también el tramo de Phylakē/Symbola y sus pérdidas subterráneas; son descripciones antiguas, no una comprobación moderna de todas las conexiones kársticas (Paus. 8.44.3–4; 8.54.1–3).",
+      "texto": "Cabeceras de [Arcadia](lugares:arkadia-peloponnesos). Pausanias sitúa unas fuentes junto a [Asea](lugares:asea-arkadia) y describe también el tramo de [Phylakē](lugares:phylake-arkadia)/Symbola y sus pérdidas subterráneas; son descripciones antiguas, no una comprobación moderna de todas las conexiones kársticas (Paus. 8.44.3–4; 8.54.1–3).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "Mar Jónico, en el sector de Epitalion, al oeste de Olimpia. La prolongación hasta Aretusa de Siracusa pertenece al relato mítico (C), no al cauce físico (Estrabón 8.3.12; Paus. 5.7.2–3).",
+      "texto": "Mar Jónico, en el sector de Epitalion, al oeste de Olimpia. La prolongación hasta [Aretusa](entes:arethousa) de Siracusa pertenece al relato mítico (C), no al cauce físico (Estrabón 8.3.12; Paus. 5.7.2–3).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "Alpheios, dios fluvial, hijo de Océano y Tetis en la tradición (C; Hes. Th. 337–345). Representación humana atestiguada por Eliano 2.33 y figura en el frontón oriental del templo de Zeus de Olimpia (Paus. 5.10.7).",
+      "texto": "Alpheios, dios fluvial, hijo de Océano y Tetis en la tradición (C; Hes. Th. 337–345). Representación humana atestiguada por Eliano 2.33 y figura en el frontón oriental del templo de [Zeus](entes:zeus) de Olimpia (Paus. 5.10.7).",
       "refs": []
     },
     {
@@ -36,7 +36,7 @@
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "Desde Arcadia y el entorno de Megalópolis avanza hacia el oeste, recibe los cursos arcadios, pasa por el territorio de Heraia y por Olimpia y cruza la llanura de Élide hasta el mar (Paus. 5.7.1; Estrabón 8.3.12).",
+      "texto": "Desde [Arcadia](lugares:arkadia-peloponnesos) y el entorno de Megalópolis avanza hacia el oeste, recibe los cursos arcadios, pasa por el territorio de Heraia y por Olimpia y cruza la llanura de Élide hasta el mar (Paus. 5.7.1; Estrabón 8.3.12).",
       "refs": []
     }
   ],

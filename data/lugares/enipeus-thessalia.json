@@ -23,13 +23,13 @@
     }
   ],
   "descripcion": {
-    "texto": "Afluente meridional del Peneo que nace en el Otris y recorre Farsalo y la llanura central tesalia (Od. 11.238–240)."
+    "texto": "Afluente meridional del [Peneo](lugares:peneios-thessalia) que nace en el Otris y recorre Farsalo y la llanura central [tesalia](lugares:tesalia) (Od. 11.238–240)."
   },
   "campos": [
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "Monte Othrys, según Estrabón 9.5.6; no se confunde con los otros Enipeis de Grecia.",
+      "texto": "Monte [Othrys](lugares:othrys-thessalia), según Estrabón 9.5.6; no se confunde con los otros Enipeis de Grecia.",
       "refs": []
     },
     {
@@ -41,7 +41,7 @@
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "Enipeus, río divino amado por Tyrō; Poseidón toma su aspecto en el relato (C; Od. 11.235–259). La localización del episodio tuvo variantes entre Tesalia y Élide.",
+      "texto": "Enipeus, río divino amado por Tyrō; [Poseidón](entes:poseidaon) toma su aspecto en el relato (C; Od. 11.235–259). La localización del episodio tuvo variantes entre [Tesalia](lugares:tesalia) y Élide.",
       "refs": []
     },
     {
@@ -53,7 +53,7 @@
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "Desde Othrys pasa por el territorio de Pharsalos y la Tesalia meridional antes de integrarse, junto al Apidanos, en la red del Peneo (Estrabón 9.5.6; Hdt. 7.129).",
+      "texto": "Desde [Othrys](lugares:othrys-thessalia) pasa por el territorio de Pharsalos y la [Tesalia](lugares:tesalia) meridional antes de integrarse, junto al Apidanos, en la red del [Peneo](lugares:peneios-thessalia) (Estrabón 9.5.6; Hdt. 7.129).",
       "refs": []
     }
   ],

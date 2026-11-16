@@ -12,13 +12,13 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "Fuentes en el territorio de Kleitōr, a unos cincuenta estadios de Lykouria. Pausanias presenta como noticia no comprobada la alimentación subterránea desde la cuenca de Pheneos (8.20.1).",
+      "texto": "Fuentes en el territorio de Kleitōr, a unos cincuenta estadios de Lykouria. Pausanias presenta como noticia no comprobada la alimentación subterránea desde la cuenca de [Pheneos](lugares:pheneos-arkadia) (8.20.1).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "[Alpheios](lugares:alpheios-elis), tras recorrer Arcadia occidental (Paus. 5.7.1; Estrabón 8.3.12).",
+      "texto": "[Alpheios](lugares:alpheios-elis), tras recorrer [Arcadia](lugares:arkadia-peloponnesos) occidental (Paus. 5.7.1; Estrabón 8.3.12).",
       "refs": []
     },
     {
@@ -36,7 +36,7 @@
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "Por Leukasion, Mesoboa, Nasoi, Oryx/Halous y Thaliades; pasa junto a Thelpousa y el santuario de Deméter en Onkeion antes de alcanzar el Alfeo (Paus. 8.25.2–4).",
+      "texto": "Por Leukasion, Mesoboa, Nasoi, Oryx/Halous y Thaliades; pasa junto a Thelpousa y el santuario de [Deméter](entes:demeter) en Onkeion antes de alcanzar el [Alfeo](lugares:alpheios-elis) (Paus. 8.25.2–4).",
       "refs": []
     }
   ],

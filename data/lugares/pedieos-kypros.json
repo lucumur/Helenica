@@ -23,13 +23,13 @@
     }
   ],
   "descripcion": {
-    "texto": "El río más largo de Chipre: nace en el Troodos y atraviesa la llanura de Mesaoria hasta la bahía de Salamina."
+    "texto": "El río más largo de [Chipre](lugares:chipre): nace en el [Troodos](lugares:troodos-kypros) y atraviesa la llanura de Mesaoria hasta la bahía de Salamina."
   },
   "campos": [
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "Bosque de Machairas, en las laderas nororientales del Troodos; cuenca alta de Kionia (Cyprus Institute, proyecto ACTIVATE).",
+      "texto": "Bosque de Machairas, en las laderas nororientales del [Troodos](lugares:troodos-kypros); cuenca alta de Kionia (Cyprus Institute, proyecto ACTIVATE).",
       "refs": []
     },
     {

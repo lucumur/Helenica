@@ -29,7 +29,7 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "Cabeceras al norte de Gortyna, en la vertiente meridional de la región del Ida. La precisión depende de si el nombre antiguo se restringe al ramal de Gortyna o se extiende al sistema del Geropotamos.",
+      "texto": "Cabeceras al norte de Gortyna, en la vertiente meridional de la región del [Ida](lugares:ida-creta). La precisión depende de si el nombre antiguo se restringe al ramal de Gortyna o se extiende al sistema del Geropotamos.",
       "refs": []
     },
     {
@@ -41,7 +41,7 @@
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "No se ha fijado una personificación individual segura en los testimonios consultados. La tradición de Zeus y Europa en Gortyna no convierte por sí sola al río en un dios con genealogía propia.",
+      "texto": "No se ha fijado una personificación individual segura en los testimonios consultados. La tradición de [Zeus](entes:zeus) y Europa en Gortyna no convierte por sí sola al río en un dios con genealogía propia.",
       "refs": []
     },
     {

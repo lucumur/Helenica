@@ -23,25 +23,25 @@
     }
   ],
   "descripcion": {
-    "texto": "Río de Creta occidental en territorio de los cidonios (Od. 3.292)."
+    "texto": "Río de [Creta](lugares:creta) occidental en territorio de los cidonios (Od. 3.292)."
   },
   "campos": [
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "En la identificación con el Keritis, manantiales de Meskla en el pie de las Montañas Blancas; ésta es la equivalencia adoptada por la documentación regional de Creta.",
+      "texto": "En la identificación con el Keritis, manantiales de Meskla en el pie de las [Montañas Blancas](lugares:leuka-ore-kreta); ésta es la equivalencia adoptada por la documentación regional de [Creta](lugares:creta).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "Costa norte de Creta, junto a Platanias, al oeste de Kydōnia/Chania, en la identificación moderna con el Keritis.",
+      "texto": "Costa norte de [Creta](lugares:creta), junto a Platanias, al oeste de Kydōnia/Chania, en la identificación moderna con el Keritis.",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "Homero sitúa a los kydōnes junto a sus corrientes (Od. 3.292–293), pero ese pasaje no fija una personificación. No se le atribuye al río cretense la genealogía del Iardanos lidio.",
+      "texto": "[Homero](entes:homeros) sitúa a los kydōnes junto a sus corrientes (Od. 3.292–293), pero ese pasaje no fija una personificación. No se le atribuye al río cretense la genealogía del Iardanos lidio.",
       "refs": []
     },
     {
@@ -53,7 +53,7 @@
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "Desde Meskla atraviesa el valle de Alikianos y llega a la playa de Platanias como Keritis/Platanias. Homero sólo permite situar el Iardanos en el ámbito de los kydōnes; la equivalencia moderna debe distinguirse de esa mención antigua.",
+      "texto": "Desde Meskla atraviesa el valle de Alikianos y llega a la playa de Platanias como Keritis/Platanias. [Homero](entes:homeros) sólo permite situar el Iardanos en el ámbito de los kydōnes; la equivalencia moderna debe distinguirse de esa mención antigua.",
       "refs": []
     }
   ],

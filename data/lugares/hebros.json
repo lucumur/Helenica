@@ -18,7 +18,7 @@
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "Egeo septentrional o mar Tracio, junto a Ainos, frente a Samothrakē (Alceo, fr. 45a–b; documentación INTERREG).",
+      "texto": "Egeo septentrional o mar Tracio, junto a Ainos, frente a [Samothrakē](lugares:samothrake-egeo) (Alceo, fr. 45a–b; documentación INTERREG).",
       "refs": []
     },
     {
@@ -36,7 +36,7 @@
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "Cruza Tracia desde Rila hacia el sudeste, recibe las redes del Arda y el Tundzha en el sector de la actual Edirne y gira al sur hacia Ainos y el delta del mar Tracio.",
+      "texto": "Cruza [Tracia](lugares:tracia) desde Rila hacia el sudeste, recibe las redes del Arda y el Tundzha en el sector de la actual Edirne y gira al sur hacia Ainos y el delta del mar Tracio.",
       "refs": []
     }
   ],

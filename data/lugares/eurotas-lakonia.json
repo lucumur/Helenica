@@ -23,13 +23,13 @@
     }
   ],
   "descripcion": {
-    "texto": "Río principal de Laconia: nace entre Arcadia y Laconia, cruza el valle de Esparta y Amiclas y desagua en el golfo Laconio junto a Helos."
+    "texto": "Río principal de [Laconia](lugares:laconia-peloponeso): nace entre [Arcadia](lugares:arkadia-peloponnesos) y [Laconia](lugares:laconia-peloponeso), cruza el valle de [Esparta](lugares:esparta-laconia) y Amiclas y desagua en el golfo Laconio junto a Helos."
   },
   "campos": [
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "Pausanias sitúa sus fuentes junto a Asea, próximas a las del Alfeo; relata que reaparece en Laconia tras un trayecto subterráneo compartido. Esta conexión es la explicación antigua y no se toma como hidrología moderna comprobada (8.44.3–4).",
+      "texto": "Pausanias sitúa sus fuentes junto a [Asea](lugares:asea-arkadia), próximas a las del [Alfeo](lugares:alpheios-elis); relata que reaparece en [Laconia](lugares:laconia-peloponeso) tras un trayecto subterráneo compartido. Esta conexión es la explicación antigua y no se toma como hidrología moderna comprobada (8.44.3–4).",
       "refs": []
     },
     {
@@ -53,7 +53,7 @@
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "Desciende por el valle entre los macizos del Taÿgetos y el Parnōn, pasa por Spartē y el territorio de Amyklai y alcanza la llanura de Helos y el golfo Lacónico (Estrabón 8.3.12).",
+      "texto": "Desciende por el valle entre los macizos del [Taÿgetos](lugares:taygetos-lakonia) y el [Parnōn](lugares:parnon-lakonia), pasa por [Spartē](lugares:esparta-laconia) y el territorio de Amyklai y alcanza la llanura de Helos y el golfo Lacónico (Estrabón 8.3.12).",
       "refs": []
     }
   ],

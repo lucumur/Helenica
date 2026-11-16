@@ -13,13 +13,13 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "Monte Pontinos, que absorbe el agua de lluvia y la devuelve en este río según la descripción de Pausanias (2.36.8).",
+      "texto": "[Monte Pontinos](lugares:pontinos-lerna), que absorbe el agua de lluvia y la devuelve en este río según la descripción de Pausanias (2.36.8).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "Costa de Lerna, en el golfo Argólico; constituye uno de los límites del bosque sagrado que llega al mar (Paus. 2.37.1).",
+      "texto": "Costa de [Lerna](lugares:lerna-argolis-2), en el golfo Argólico; constituye uno de los límites del bosque sagrado que llega al mar (Paus. 2.37.1).",
       "refs": []
     },
     {
@@ -37,7 +37,7 @@
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "Curso corto desde el monte Pontinos hasta el litoral de Lerna, junto al bosque sagrado de Deméter y Dioniso (Paus. 2.36.8–2.37.2).",
+      "texto": "Curso corto desde el [monte Pontinos](lugares:pontinos-lerna) hasta el litoral de [Lerna](lugares:lerna-argolis-2), junto al bosque sagrado de [Deméter](entes:demeter) y [Dioniso](entes:dionysos) (Paus. 2.36.8–2.37.2).",
       "refs": []
     }
   ],

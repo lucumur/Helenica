@@ -12,13 +12,13 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "Pequeña cuenca de la isla de Dēlos, con aguas pluviales y obras de captación. La alimentación subterránea desde el Nilo es tradición antigua (C), no una conexión física demostrada (Paus. 2.5.3; Calímaco, Himno a Delos 206–208).",
+      "texto": "Pequeña cuenca de la isla de [Dēlos](lugares:delos-nesos), con aguas pluviales y obras de captación. La alimentación subterránea desde el Nilo es tradición antigua (C), no una conexión física demostrada (Paus. 2.5.3; Calímaco, Himno a [Delos](lugares:delos-nesos) 206–208).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "Costa de Dēlos. La documentación hidráulica describe una conducción al puerto y la relación antigua con el Lago Sagrado; esas obras no permiten fijar sin matiz una única desembocadura natural para todas las épocas.",
+      "texto": "Costa de [Dēlos](lugares:delos-nesos). La documentación hidráulica describe una conducción al puerto y la relación antigua con el [Lago Sagrado](lugares:limne-hiera); esas obras no permiten fijar sin matiz una única desembocadura natural para todas las épocas.",
       "refs": []
     },
     {
@@ -36,7 +36,7 @@
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "Estrabón 10.5.2 describe un pequeño río que recorre Dēlos. Las cisternas y conducciones estudiadas por ITIA muestran su integración en el abastecimiento y el drenaje de la isla.",
+      "texto": "Estrabón 10.5.2 describe un pequeño río que recorre [Dēlos](lugares:delos-nesos). Las cisternas y conducciones estudiadas por ITIA muestran su integración en el abastecimiento y el drenaje de la isla.",
       "refs": []
     }
   ],

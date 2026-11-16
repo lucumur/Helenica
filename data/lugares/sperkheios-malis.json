@@ -29,7 +29,7 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "Monte Tymphrēstos, según Estrabón 9.5.9 y la investigación geomorfológica moderna.",
+      "texto": "Monte [Tymphrēstos](lugares:tymfristos-aitolia), según Estrabón 9.5.9 y la investigación geomorfológica moderna.",
       "refs": []
     },
     {
@@ -41,7 +41,7 @@
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "Sperkheios, dios fluvial: padre de Menesthios en la tradición (C; Il. 16.173–176). Aquiles menciona el voto de dedicarle su cabello y sacrificios en su altar (Il. 23.141–149).",
+      "texto": "Sperkheios, dios fluvial: padre de Menesthios en la tradición (C; Il. 16.173–176). [Aquiles](entes:achilleus) menciona el voto de dedicarle su cabello y sacrificios en su altar (Il. 23.141–149).",
       "refs": []
     },
     {
@@ -53,7 +53,7 @@
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "Corre de oeste a este por el valle entre Oitē y las estribaciones de Othrys, cruza la llanura de Malis al sur de Lamia y forma el sistema aluvial del golfo Maliaco (Estrabón 9.5.9).",
+      "texto": "Corre de oeste a este por el valle entre [Oitē](lugares:oite-phokis) y las estribaciones de [Othrys](lugares:othrys-thessalia), cruza la llanura de Malis al sur de Lamia y forma el sistema aluvial del golfo Maliaco (Estrabón 9.5.9).",
       "refs": []
     }
   ],

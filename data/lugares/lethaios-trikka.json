@@ -23,7 +23,7 @@
     }
   ],
   "descripcion": {
-    "texto": "Afluente del Peneo que cruza Trica, santuario antiguo de Asclepio (Estrabón 9.5.17; 14.1.39)."
+    "texto": "Afluente del [Peneo](lugares:peneios-thessalia) que cruza [Trica](lugares:trikka-thessalia), santuario antiguo de Asclepio (Estrabón 9.5.17; 14.1.39)."
   },
   "campos": [
     {
@@ -35,7 +35,7 @@
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "[Pēneios](lugares:peneios-thessalia), fuera de la ciudad de Trikka/Trikala, según la documentación regional de Tesalia.",
+      "texto": "[Pēneios](lugares:peneios-thessalia), fuera de la ciudad de [Trikka](lugares:trikka-thessalia)/Trikala, según la documentación regional de [Tesalia](lugares:tesalia).",
       "refs": []
     },
     {
@@ -53,7 +53,7 @@
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "Desde las Antichasia baja a la llanura y atraviesa Trikka, la actual Trikala, antes de incorporarse al Peneo.",
+      "texto": "Desde las Antichasia baja a la llanura y atraviesa [Trikka](lugares:trikka-thessalia), la actual Trikala, antes de incorporarse al [Peneo](lugares:peneios-thessalia).",
       "refs": []
     }
   ],

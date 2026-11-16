@@ -12,7 +12,7 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "No procede como dato fluvial: Ephyra es el topónimo tradicional de Corinto; la clasificación importada como Río necesita revisión (Paus. 2.1.1).",
+      "texto": "No procede como dato fluvial: Ephyra es el topónimo tradicional de [Corinto](lugares:qorinthos-korinthia); la clasificación importada como Río necesita revisión (Paus. 2.1.1).",
       "refs": []
     },
     {
@@ -24,19 +24,19 @@
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "La figura asociada es Ephyra, hija de Océano y epónima de la tierra de Corinto, según Eumelo transmitido por Pausanias (C; 2.1.1); no es prueba de un río llamado Ephyra.",
+      "texto": "La figura asociada es [Ephyra](entes:ephyra), hija de Océano y epónima de la tierra de [Corinto](lugares:qorinthos-korinthia), según Eumelo transmitido por Pausanias (C; 2.1.1); no es prueba de un río llamado [Ephyra](entes:ephyra).",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "No procede mientras la ficha corresponda al topónimo de Corinto.",
+      "texto": "No procede mientras la ficha corresponda al topónimo de [Corinto](lugares:qorinthos-korinthia).",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "Pausanias vincula Ephyra/Ephyraia con Corinto; no describe un recorrido fluvial (2.1.1). Se conserva el identificador y el contenido importado, sin inventar un río.",
+      "texto": "Pausanias vincula Ephyra/Ephyraia con [Corinto](lugares:qorinthos-korinthia); no describe un recorrido fluvial (2.1.1). Se conserva el identificador y el contenido importado, sin inventar un río.",
       "refs": []
     }
   ],

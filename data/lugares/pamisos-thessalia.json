@@ -23,13 +23,13 @@
     }
   ],
   "descripcion": {
-    "texto": "Afluente occidental del Peneo en Hestieótide, mencionado por Heródoto entre los grandes ríos de Tesalia (Hdt. 7.129)."
+    "texto": "Afluente occidental del [Peneo](lugares:peneios-thessalia) en Hestieótide, mencionado por Heródoto entre los grandes ríos de [Tesalia](lugares:tesalia) (Hdt. 7.129)."
   },
   "campos": [
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "Cabeceras montañosas de Tesalia occidental. Heródoto explica que el Pamisos recoge aguas de los montes que cierran la llanura, sin fijar un manantial concreto (7.129).",
+      "texto": "Cabeceras montañosas de [Tesalia](lugares:tesalia) occidental. Heródoto explica que el Pamisos recoge aguas de los montes que cierran la llanura, sin fijar un manantial concreto (7.129).",
       "refs": []
     },
     {
@@ -41,7 +41,7 @@
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "No se ha verificado una personificación individual del Pamisos tesalio en el pasaje citado; no se le traslada el culto del Pamisos de Mesenia.",
+      "texto": "No se ha verificado una personificación individual del Pamisos tesalio en el pasaje citado; no se le traslada el culto del Pamisos de [Mesenia](lugares:messenia-peloponnesos).",
       "refs": []
     },
     {
@@ -53,7 +53,7 @@
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "Desciende desde el borde occidental de Tesalia a la llanura y se incorpora a la red del Peneo. La descripción de Heródoto permite esta relación de cuenca, sin precisar todo el trazado (7.129).",
+      "texto": "Desciende desde el borde occidental de [Tesalia](lugares:tesalia) a la llanura y se incorpora a la red del [Peneo](lugares:peneios-thessalia). La descripción de Heródoto permite esta relación de cuenca, sin precisar todo el trazado (7.129).",
       "refs": []
     }
   ],

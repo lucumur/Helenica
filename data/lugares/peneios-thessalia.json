@@ -23,19 +23,19 @@
     }
   ],
   "descripcion": {
-    "texto": "Arteria mayor de Tesalia: recoge las aguas de toda la cuenca y atraviesa el valle de Tempe entre el Olimpo y el Osa hacia el golfo Termaico."
+    "texto": "Arteria mayor de [Tesalia](lugares:tesalia): recoge las aguas de toda la cuenca y atraviesa el valle de Tempe entre el Olimpo y el Osa hacia el golfo Termaico."
   },
   "campos": [
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "Cabeceras del Pindos, al oeste de Tesalia; reúne las aguas de la llanura encerrada por Pindos, Othrys, Ossa, Pēlion y Olympos (Hdt. 7.129; Estrabón 9.5.1–2).",
+      "texto": "Cabeceras del Pindos, al oeste de [Tesalia](lugares:tesalia); reúne las aguas de la llanura encerrada por Pindos, [Othrys](lugares:othrys-thessalia), [Ossa](lugares:ossa-thessalia), [Pēlion](lugares:pelion-thessalia) y [Olympos](lugares:olympos-thessalia) (Hdt. 7.129; Estrabón 9.5.1–2).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "Mar Egeo, después de cruzar Tempē entre Olympos y Ossa (Hdt. 7.129; Estrabón 9.5.2).",
+      "texto": "Mar Egeo, después de cruzar Tempē entre [Olympos](lugares:olympos-thessalia) y [Ossa](lugares:ossa-thessalia) (Hdt. 7.129; Estrabón 9.5.2).",
       "refs": []
     },
     {
@@ -53,7 +53,7 @@
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "Atraviesa la llanura tesalia hacia el este, recibe las redes occidentales y meridionales, pasa por el sector de Larisa y sale por el valle de Tempē entre Olympos y Ossa (Estrabón 9.5.1–2, 19–20).",
+      "texto": "Atraviesa la llanura [tesalia](lugares:tesalia) hacia el este, recibe las redes occidentales y meridionales, pasa por el sector de Larisa y sale por el valle de Tempē entre [Olympos](lugares:olympos-thessalia) y [Ossa](lugares:ossa-thessalia) (Estrabón 9.5.1–2, 19–20).",
       "refs": []
     }
   ],

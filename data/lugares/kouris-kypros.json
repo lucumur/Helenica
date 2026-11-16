@@ -23,19 +23,19 @@
     }
   ],
   "descripcion": {
-    "texto": "Río de la vertiente meridional del Troodos que desemboca junto a Curio en la costa sur de Chipre."
+    "texto": "Río de la vertiente meridional del [Troodos](lugares:troodos-kypros) que desemboca junto a Curio en la costa sur de [Chipre](lugares:chipre)."
   },
   "campos": [
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "Vertientes meridionales del macizo del Troodos; la cuenca moderna alcanza las zonas altas del macizo (estudio de la Universidad Tecnológica de Chipre).",
+      "texto": "Vertientes meridionales del macizo del [Troodos](lugares:troodos-kypros); la cuenca moderna alcanza las zonas altas del macizo (estudio de la Universidad Tecnológica de [Chipre](lugares:chipre)).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "Costa meridional de Chipre, en el sector de Kourion/Episkopi. La presa de Kouris y los trasvases actuales no se proyectan sobre la hidrografía antigua.",
+      "texto": "Costa meridional de [Chipre](lugares:chipre), en el sector de Kourion/Episkopi. La presa de Kouris y los trasvases actuales no se proyectan sobre la hidrografía antigua.",
       "refs": []
     },
     {
@@ -53,7 +53,7 @@
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "Desciende desde el Troodos hacia el sur, reúne las redes del Limnatis y el Kryos y continúa hacia la costa del entorno de Kourion. El inventario moderno registra la fuerte intervención hidráulica reciente.",
+      "texto": "Desciende desde el [Troodos](lugares:troodos-kypros) hacia el sur, reúne las redes del Limnatis y el Kryos y continúa hacia la costa del entorno de Kourion. El inventario moderno registra la fuerte intervención hidráulica reciente.",
       "refs": []
     }
   ],

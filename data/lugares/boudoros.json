@@ -18,7 +18,7 @@
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "Mar Egeo, en la costa de Kērinthos, al nordeste de la población moderna de Kirinthos (Estrabón 10.1.5; WWF).",
+      "texto": "Mar Egeo, en la costa de [Kērinthos](lugares:kerinthos), al nordeste de la población moderna de Kirinthos (Estrabón 10.1.5; WWF).",
       "refs": []
     },
     {
@@ -36,7 +36,7 @@
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "El Budōros antiguo pasa junto a Kērinthos. La identificación con el Voudoros moderno lo sitúa desde la confluencia de Mantoudi hasta el estuario de la costa oriental de Eubea (Estrabón 10.1.5; WWF).",
+      "texto": "El Budōros antiguo pasa junto a [Kērinthos](lugares:kerinthos). La identificación con el Voudoros moderno lo sitúa desde la confluencia de Mantoudi hasta el estuario de la costa oriental de [Eubea](lugares:euboia) (Estrabón 10.1.5; WWF).",
       "refs": []
     }
   ],

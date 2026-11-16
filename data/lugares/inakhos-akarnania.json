@@ -35,7 +35,7 @@
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "Estrabón 7.7.7 habla de un Inakhos que llega al golfo de Ambracia; 7.7.8 dice que el Inakhos desemboca en el Achelōos. La divergencia no se reduce a una desembocadura única supuestamente segura.",
+      "texto": "Estrabón 7.7.7 habla de un Inakhos que llega al golfo de Ambracia; 7.7.8 dice que el Inakhos desemboca en el [Achelōos](lugares:akheloos-aitolia). La divergencia no se reduce a una desembocadura única supuestamente segura.",
       "refs": []
     },
     {
@@ -47,13 +47,13 @@
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "No es posible asignar una lista firme mientras la ficha reúna identificaciones antiguas divergentes. La red moderna del Inachos del Achelōos no se confunde con la de un curso del golfo de Ambracia.",
+      "texto": "No es posible asignar una lista firme mientras la ficha reúna identificaciones antiguas divergentes. La red moderna del Inachos del [Achelōos](lugares:akheloos-aitolia) no se confunde con la de un curso del golfo de Ambracia.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "La descripción previa de esta ficha sigue la versión anfilóquica hacia Ambracia; se conserva, pero se hace explícita la otra versión de Estrabón, hacia el Achelōos (7.7.7–8).",
+      "texto": "La descripción previa de esta ficha sigue la versión anfilóquica hacia Ambracia; se conserva, pero se hace explícita la otra versión de Estrabón, hacia el [Achelōos](lugares:akheloos-aitolia) (7.7.7–8).",
       "refs": []
     }
   ],

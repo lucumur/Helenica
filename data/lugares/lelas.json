@@ -12,13 +12,13 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "Cuenca montañosa de Dirphys/Xirovouni, en Eubea central, con aportes de la depresión interior de Gides (Ghilardi y colaboradores, 2022).",
+      "texto": "Cuenca montañosa de [Dirphys](lugares:dirphys)/Xirovouni, en [Eubea](lugares:euboia) central, con aportes de la depresión interior de Gides (Ghilardi y colaboradores, 2022).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "Golfo de Eubea meridional, en el delta de la llanura Lelantina, próximo a Lefkandi; la línea de costa y los brazos de desembocadura han cambiado desde la Antigüedad.",
+      "texto": "Golfo de Eubea meridional, en el delta de la [llanura Lelantina](lugares:lelantion), próximo a Lefkandi; la línea de costa y los brazos de desembocadura han cambiado desde la Antigüedad.",
       "refs": []
     },
     {
@@ -30,13 +30,13 @@
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "Red de arroyos de las vertientes de Dirphys/Xirovouni y de la cuenca de Gides; el estudio citado no se usa para atribuir nombres antiguos no identificados a cada ramal.",
+      "texto": "Red de arroyos de las vertientes de [Dirphys](lugares:dirphys)/Xirovouni y de la cuenca de Gides; el estudio citado no se usa para atribuir nombres antiguos no identificados a cada ramal.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "De las montañas centrales pasa por la cuenca de Gides, atraviesa los relieves intermedios y forma el delta y la llanura Lelantina entre el entorno de Chalkis y Eretria. El estudio documenta migraciones laterales de la desembocadura.",
+      "texto": "De las montañas centrales pasa por la cuenca de Gides, atraviesa los relieves intermedios y forma el delta y la [llanura Lelantina](lugares:lelantion) entre el entorno de [Chalkis](lugares:chalkis-euboia) y Eretria. El estudio documenta migraciones laterales de la desembocadura.",
       "refs": []
     }
   ],

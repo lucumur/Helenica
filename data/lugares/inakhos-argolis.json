@@ -23,7 +23,7 @@
     }
   ],
   "descripcion": {
-    "texto": "Río estacional de la llanura argiva que desciende del Artemisio por Argos hasta el golfo Argólico."
+    "texto": "Río estacional de la llanura argiva que desciende del Artemisio por [Argos](lugares:argos-argolis) hasta el golfo Argólico."
   },
   "campos": [
     {
@@ -41,7 +41,7 @@
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "Inakhos, río y padre mítico de Iō (C); participa con Kephisos y Asteriōn en el juicio entre Hera y Poseidón por Argos (Paus. 2.15.4–5).",
+      "texto": "[Inakhos](entes:inachos), río y padre mítico de Iō (C); participa con Kephisos y Asteriōn en el juicio entre [Hera](entes:hera) y [Poseidón](entes:poseidaon) por [Argos](lugares:argos-argolis) (Paus. 2.15.4–5).",
       "refs": []
     },
     {
@@ -53,7 +53,7 @@
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "Baja de Artemision por Oinoē hacia Argos y su llanura. Pausanias insiste en la escasez de agua superficial y en los cursos secos de la Argólide (2.15.4–5; 2.25.3).",
+      "texto": "Baja de [Artemision](lugares:artemision-argolis) por Oinoē hacia [Argos](lugares:argos-argolis) y su llanura. Pausanias insiste en la escasez de agua superficial y en los cursos secos de la Argólide (2.15.4–5; 2.25.3).",
       "refs": []
     }
   ],

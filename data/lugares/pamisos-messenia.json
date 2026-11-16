@@ -12,13 +12,13 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "Manantiales en el camino de Thouria hacia Arcadia, vinculados a curaciones infantiles según Pausanias (4.31.4); la documentación hidrológica moderna identifica las fuentes de Agios Phloros.",
+      "texto": "Manantiales en el camino de [Thouria](lugares:thouria-messenia) hacia [Arcadia](lugares:arkadia-peloponnesos), vinculados a curaciones infantiles según Pausanias (4.31.4); la documentación hidrológica moderna identifica las fuentes de Agios Phloros.",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "Golfo Mesénico, en la llanura al sur de Messēnē (Paus. 4.34.1–2).",
+      "texto": "[Golfo Mesénico](lugares:kolpos-messeniakos), en la llanura al sur de [Messēnē](lugares:messene-messenia) (Paus. 4.34.1–2).",
       "refs": []
     },
     {
@@ -36,7 +36,7 @@
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "Desde los manantiales septentrionales recorre hacia el sur la llanura mesenia hasta el golfo. Pausanias describe aguas limpias y navegación desde el mar por unos diez estadios (4.34.1–2).",
+      "texto": "Desde los manantiales septentrionales recorre hacia el sur la llanura [mesenia](lugares:messenia-peloponnesos) hasta el golfo. Pausanias describe aguas limpias y navegación desde el mar por unos diez estadios (4.34.1–2).",
       "refs": []
     }
   ],

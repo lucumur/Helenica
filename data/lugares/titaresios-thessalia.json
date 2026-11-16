@@ -23,13 +23,13 @@
     }
   ],
   "descripcion": {
-    "texto": "Afluente septentrional del Peneo en Perrebia; Homero dice que sus aguas no se mezclan con las del Peneo (Il. 2.751–755)."
+    "texto": "Afluente septentrional del [Peneo](lugares:peneios-thessalia) en Perrebia; [Homero](entes:homeros) dice que sus aguas no se mezclan con las del [Peneo](lugares:peneios-thessalia) (Il. 2.751–755)."
   },
   "campos": [
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "Monte Titarios, enlazado con Olympos según Estrabón 9.5.20. La derivación de sus aguas desde Styx pertenece a la explicación mítica (C; Il. 2.751–755).",
+      "texto": "Monte Titarios, enlazado con [Olympos](lugares:olympos-thessalia) según Estrabón 9.5.20. La derivación de sus aguas desde Styx pertenece a la explicación mítica (C; Il. 2.751–755).",
       "refs": []
     },
     {
@@ -41,7 +41,7 @@
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "Titarēsios/Titarēssos, también llamado Eurōpos. Homero personifica su corriente y la vincula a Styx (C; Il. 2.751–755); el texto no fija una genealogía parental completa.",
+      "texto": "Titarēsios/Titarēssos, también llamado Eurōpos. [Homero](entes:homeros) personifica su corriente y la vincula a Styx (C; Il. 2.751–755); el texto no fija una genealogía parental completa.",
       "refs": []
     },
     {
@@ -53,7 +53,7 @@
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "Desde Titarios y las estribaciones de Olympos recorre Perrhaibia y se reúne con el Peneo. Homero dice que sus aguas flotan sin mezclarse: es descripción poética, no una propiedad hidrológica aquí demostrada.",
+      "texto": "Desde Titarios y las estribaciones de [Olympos](lugares:olympos-thessalia) recorre Perrhaibia y se reúne con el [Peneo](lugares:peneios-thessalia). [Homero](entes:homeros) dice que sus aguas flotan sin mezclarse: es descripción poética, no una propiedad hidrológica aquí demostrada.",
       "refs": []
     }
   ],

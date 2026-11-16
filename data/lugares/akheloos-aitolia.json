@@ -29,7 +29,7 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "Cabeceras del Pindos, al norte de su largo valle de Grecia occidental (Estrabón 7.7.8).",
+      "texto": "Cabeceras del Pindos, al norte de su largo valle de [Grecia occidental](lugares:grecia-occidental) (Estrabón 7.7.8).",
       "refs": []
     },
     {
@@ -41,7 +41,7 @@
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "Akhelōios, hijo de Océano y Tetis en la tradición (C; Hes. Th. 337–345). Sófocles, Traquinias 9–17, lo presenta con formas de toro, serpiente y hombre de rostro bovino al pretender a Deianeira (C).",
+      "texto": "Akhelōios, hijo de Océano y Tetis en la tradición (C; Hes. Th. 337–345). Sófocles, Traquinias 9–17, lo presenta con formas de toro, serpiente y hombre de rostro bovino al pretender a [Deianeira](entes:deianeira) (C).",
       "refs": []
     },
     {

@@ -12,7 +12,7 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "Agua que rezuma y cae por el alto escarpe junto a Nónacris, en el macizo de los Aroania. Pausanias describe la caída, no un manantial puntual en la cumbre (8.17.6).",
+      "texto": "Agua que rezuma y cae por el alto escarpe junto a [Nónacris](lugares:nonakris-arkadia), en el [macizo de los Aroania](lugares:ore-aroania-arkadia). Pausanias describe la caída, no un manantial puntual en la cumbre (8.17.6).",
       "refs": []
     },
     {
@@ -24,19 +24,19 @@
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "Asociada a Styx, Oceánide y garante del juramento de los dioses (C; Hes. Th. 361, 775–806). La cascada arcadia y el río del inframundo son niveles geográfico y mítico distintos.",
+      "texto": "Asociada a Styx, Oceánide y garante del juramento de los dioses (C; Hes. Th. 361, 775–806). La cascada [arcadia](lugares:arkadia-peloponnesos) y el río del inframundo son niveles geográfico y mítico distintos.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "El pasaje describe una caída de agua que alimenta al Krāthis, sin individualizar afluentes de la propia cascada (Paus. 8.18.4).",
+      "texto": "El pasaje describe una caída de agua que alimenta al [Krāthis](lugares:krathis-achaia), sin individualizar afluentes de la propia cascada (Paus. 8.18.4).",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "Desciende por el escarpe próximo a Nónacris, pasa por la roca inferior y alcanza el Krāthis. Sus supuestas propiedades mortíferas pertenecen a la tradición antigua (C; Paus. 8.18.4–6).",
+      "texto": "Desciende por el escarpe próximo a [Nónacris](lugares:nonakris-arkadia), pasa por la roca inferior y alcanza el [Krāthis](lugares:krathis-achaia). Sus supuestas propiedades mortíferas pertenecen a la tradición antigua (C; Paus. 8.18.4–6).",
       "refs": []
     }
   ],

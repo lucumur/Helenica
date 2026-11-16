@@ -23,13 +23,13 @@
     }
   ],
   "descripcion": {
-    "texto": "Torrente perenne de Acaya que baja de los montes Aroania, alimentado por la Estigia, y desemboca junto a Egas y Hélice (Hdt. 1.145)."
+    "texto": "Torrente perenne de Acaya que baja de los [montes Aroania](lugares:ore-aroania-arkadia), alimentado por la Estigia, y desemboca junto a Egas y Hélice (Hdt. 1.145)."
   },
   "campos": [
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "Montaña arcadia del mismo nombre según Pausanias; recibe las aguas de la cascada de [Styx](lugares:cascada-de-styx-de-nonakris-arkadia) en el macizo de los Aroania (7.25.11; 8.18.4).",
+      "texto": "Montaña [arcadia](lugares:arkadia-peloponnesos) del mismo nombre según Pausanias; recibe las aguas de la cascada de [Styx](lugares:cascada-de-styx-de-nonakris-arkadia) en el [macizo de los Aroania](lugares:ore-aroania-arkadia) (7.25.11; 8.18.4).",
       "refs": []
     },
     {
@@ -53,7 +53,7 @@
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "Desde las montañas arcadias y el entorno de Nónacris desciende hacia el norte por Acaya hasta el golfo de Corinto. Pausanias lo describe como un curso que no se seca (7.25.11).",
+      "texto": "Desde las montañas arcadias y el entorno de [Nónacris](lugares:nonakris-arkadia) desciende hacia el norte por Acaya hasta el golfo de Corinto. Pausanias lo describe como un curso que no se seca (7.25.11).",
       "refs": []
     }
   ],

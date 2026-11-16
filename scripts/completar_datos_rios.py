@@ -8,6 +8,7 @@ import json
 import sys
 sys.dont_write_bytecode = True
 from preparar_fichas_rios import LUGARES, CAMPOS
+from enlazar_fichas_rios import enlazar_texto
 
 
 FUENTES = {
@@ -470,8 +471,9 @@ def main():
             encontrados = [c for c in ficha['campos'] if c.get('clave') == clave]
             assert len(encontrados) == 1, (rid, clave)
             campo = encontrados[0]
-            if campo.get('texto') != registro['campos'][clave]:
-                campo.update(texto=registro['campos'][clave], refs=[])
+            texto = enlazar_texto(registro['campos'][clave], rid, clave)
+            if campo.get('texto') != texto:
+                campo.update(texto=texto, refs=[])
         fuentes = ficha.setdefault('fuentes', [])
         for codigo in registro['fuentes']:
             titulo, url = FUENTES[codigo]

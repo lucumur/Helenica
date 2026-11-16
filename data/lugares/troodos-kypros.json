@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Macizo ígneo central de Chipre (1.952 m), fuente de sus depósitos de cobre y bosques de cedro y pino."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.952 m s. n. m. (pico Chionistra / Olimpo de Chipre; 1.937 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "3.503.650.290 m² (3.503,65 km²) de superficie · 352.909 m (352,91 km) de perímetro del macizo (GMBA v2.0 #11651).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Tamaso y Solos en el piedemonte metalífero septentrional (cuenca del [Pedieo](lugares:pedieos-kypros)), Pafos al suroeste, Curio ([Curis](lugares:kouris-kypros)) y Amatunte al sur.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Santuario de Afrodita Acrea en la cima del Olimpo chipriota (Estrabón 14.6.3, vedado a las mujeres) y vastos distritos mineros antiguos de cobre (Tamaso, Solos, Kalavasos) y fundiciones boscosas en las estribaciones.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Único macizo con el **cedro de Chipre** (*Cedrus brevifolia*, valle de los Cedros), el pino negro de Troodos y el roble dorado chipriota endémico (*Quercus alnifolia*); hogar del **muflón chipriota** (*Ovis gmelini ophion*) y víboras endémicas.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

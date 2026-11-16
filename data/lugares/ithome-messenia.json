@@ -8,7 +8,38 @@
     "oros"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "802 m s. n. m. (cumbre del monte Ítome / Voulkano).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "Aprox. 18.000.000 m² (18 km²) de superficie · aprox. 16.500 m (16,5 km) de perímetro del macizo aislado (estimación cartográfica aprox., sin polígono independiente en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Messenē](lugares:messene-messenia) fundada en 369 a.C. directamente al pie sudoccidental dentro del recinto fortificado; Esteniclaro al norte y [Thouria](lugares:thouria-messenia) al sudeste.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Recinto fortificado arcaico-clásico y helenístico de las guerras mesenias en las laderas, [Cumbre del Ithômē](lugares:cumbre-del-ithome-messenia) con el santuario de Zeus Itomatas (cuya estatua custodiaban sacerdotes anuales, Paus. 4.33.1–2) y la [Fuente de Klepsydra](lugares:fuente-de-klepsydra-messenia) a media altura.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Célebre en el mito por el bosque sagrado de olivos silvestres y encinas del Zeus Itomatas y el manantial Clepsidra donde las ninfas Neda e Ítome bañaron al niño [Zeus](entes:zeus) (Paus. 4.33.1); garriga caliza con jaras y esparto.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -34,5 +65,8 @@
       37.19
     ],
     "precision": "aprox"
+  },
+  "descripcion": {
+    "texto": "Acrópolis natural y montaña sagrada de Mesenia (802 m), bastión inexpugnable de la resistencia mesenia ante Esparta (Paus. 4.9–33)."
   }
 }

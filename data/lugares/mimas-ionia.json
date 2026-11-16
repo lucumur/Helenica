@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Macizo de la península de Eritras frente a Quíos (Od. 3.172; Estrabón 14.1.33)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.212 m s. n. m. (pico Akdağ / Karaburun; 1.198 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "1.687.159.510 m² (1.687,16 km²) de superficie · 447.950 m (447,95 km) de perímetro del macizo (GMBA v2.0 #14711).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Eritras al oeste frente a Quíos, Teos al sur y Clazómenas al este en la península de Eritras.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Atalayas costeras y fortalezas jonias sobre el cabo Mimas, y el santuario oracular de la Sibila Eritrea junto a Eritras (Estrabón 14.1.33).",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "En el mito, asociado a la Gigantomaquia (tumba del gigante Mimante bajo las piedras). Homero señala «el ventoso Mimas» (*Od.* 3.172); pinares costeros, alcaparra y ganado menor.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

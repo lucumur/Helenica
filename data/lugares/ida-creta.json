@@ -8,7 +8,38 @@
     "Monte"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "2.456 m s. n. m. (pico Timios Stavros / Psiloritis; 2.421 m en GMBA v2.0). Cumbre más alta de Creta.",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "1.867.571.930 m² (1.867,57 km²) de superficie · 308.358 m (308,36 km) de perímetro del macizo (GMBA v2.0 #19456).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Cnosos al nordeste, Axos y Eleuterna en el flanco noroeste; Festo, Gortina (sobre el [Leteo](lugares:lethaios-kreta)) y Agia Triada en la llanura de Mesará al sur.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "La gruta sagrada del **Idaion Antron** (~1.495 m sobre la meseta de Nida), santuario pancretense donde según la tradición creció [Zeus](entes:zeus) custodiado por los Curetes entre ofrendas de bronces geométricos y arcaicos (Paus. 5.7.6); el complejo santuario palacial de Zóminthos (~1.187 m) al norte.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Teofrasto (*HP* 3.2.6, 4.1.3) elogia el ciprés cretense (*Cupressus sempervirens var. horizontalis*), los cedros y la encina de hoja perenne del Ida; también crecían plantas curativas como el díctamo de Creta y vivía la cabra montés cretense (*agrimi* / kri-kri).",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -34,5 +65,8 @@
       35.23
     ],
     "precision": "aprox"
+  },
+  "descripcion": {
+    "texto": "El gran macizo central de Creta (2.456 m, hoy Psiloritis), sede del santuario rupestre de Zeus Ideo y eje entre Cnosos y Mesará."
   }
 }

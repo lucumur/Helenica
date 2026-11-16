@@ -8,7 +8,38 @@
     "oros"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "442 m s. n. m. (pico Pyrgos en el norte de Siros, punto culminante de la isla).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "Aprox. 14.000.000 m² (14 km²) de superficie · aprox. 16.000 m (16 km) de perímetro del bloque norte de Siros (estimación cartográfica aprox., dentro de GMBA #18685 *Cyclades*).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Palaeo-Hermoupolis](lugares:palaeo-hermoupolis), [Palaeo-Alithini](lugares:palaeo-alithini) y [Palaeo-Galissas](lugares:palaeo-galissas) al sur en [Syros, Kyklades](lugares:syros-kyklades), y el promontorio de [Grammata](lugares:grammata) al noroeste.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Yacimientos prehistóricos cicládicos fortificados de Kastri (en el sector nororiental de Chalandriani-Kastri), atalayas de piedra y canteras de mármol gris y blanco en la isla.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Matorral cicládico de *phrygana* aromática (salvia, tomillo, orégano salvaje) e higuera silvestre en las hondonadas rocosas.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -27,5 +58,8 @@
       "id": "syros-kyklades",
       "nombre": "Syros, Kyklades"
     }
-  ]
+  ],
+  "descripcion": {
+    "texto": "Cumbre más alta de la isla de Siros (442 m), con canteras antiguas de mármol y las defensas cicládicas cercanas de Kastri."
+  }
 }

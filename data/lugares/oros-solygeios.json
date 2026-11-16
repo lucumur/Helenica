@@ -8,7 +8,38 @@
     "oros"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "235 m s. n. m. (colina costera fortificada junto a Soligia / Galataki).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "Aprox. 9.000.000 m² (9 km²) de superficie · aprox. 12.500 m (12,5 km) de perímetro de la loma (estimación cartográfica aprox.).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Solygeia](lugares:solygeia) y [Kenchreái](lugares:kenchreai-korinthos) al noroeste, [Qórinthos](lugares:qorinthos-korinthia) al oeste.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Antiguo puesto fortificado dórico construido sobre la colina desde el cual los invasores dorios atacaron Corinto, ocupado después en la batalla de Soligia por Nicias en 425 a.C. (Tucídides 4.42.2–4).",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Matorral costero seco de pino de Alepo, tomillo y olivos de secano en las terrazas inferiores.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -34,5 +65,8 @@
       37.822
     ],
     "precision": "aprox"
+  },
+  "descripcion": {
+    "texto": "Colina estratégica de Corintia sobre el golfo Sarónico donde los dorios establecieron su base frente a Corinto y se libró la batalla del 425 a.C. (Tucídides 4.42)."
   }
 }

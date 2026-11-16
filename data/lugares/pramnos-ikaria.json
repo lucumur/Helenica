@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Cresta axial de Icaria (1.037 m), célebre en la Antigüedad por el vino pramnio."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.037 m s. n. m. (pico Melissa / Atheras en Icaria; 1.011 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "280.946.000 m² (280,95 km²) de superficie · 83.801 m (83,80 km) de perímetro del macizo (GMBA v2.0 #19289).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Enoe, Terma y Drácano en los extremos costeros de Icaria ([Ionia](lugares:iawones-900)).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Templo de Ártemis Taurópolo (*Tauropolion*) en Nas sobre la vertiente noroeste y torre costera clásica de Drácano en el extremo oriental.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Célebre en Homero (*Il.* 11.639; *Od.* 10.235) por el **vino pramnio** procedente de las terrazas de esta montaña y consagrado a [Dioniso](entes:dionysos); encinas arcaicas y el único bosquete relicto de roble de Randi.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

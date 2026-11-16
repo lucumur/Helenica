@@ -8,7 +8,38 @@
     "oros"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "112 m s. n. m. (cumbre rocosa granítica del monte Cinto en Delos).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "Aprox. 450.000 m² (0,45 km²) de superficie · aprox. 2.600 m (2,6 km) de perímetro de la colina granítica de Delos (estimación cartográfica aprox.).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Dēlos (ciudad)](lugares:delos) al pie norte y occidental en torno al [Hierós Limên](lugares:hieros-limen), al [Hierã Odós](lugares:hiera-odos) y al santuario central de Apolo y Artemisa, junto al río [Inōpos](lugares:inopos-inopo-delos).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Santuario de Zeus Cintio y Atenea Cintia en la terraza de la cumbre (*Kynthion*, accesible por escalinata sagrada), la gruta sagrada de Heracles en el flanco occidental, el Hiereion de los dioses orientales y los santuarios extranjeros en las terrazas inferiores.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "En el mito, Leto se apoyó en el monte Cinto y abrazó la [Palmera sagrada (Phoinix Lētoûs)](lugares:phoinix-letous) junto al [Lago Sagrado](lugares:limne-hiera) al dar a luz a [Apolo](entes:apollon) y [Artemisa](entes:artemis) (*Himn. Hom. Ap.* 16–28, 117). Flora seca de *phrygana* insular, alcaparras y tomillo.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -34,5 +65,8 @@
       37.393
     ],
     "precision": "aprox"
+  },
+  "descripcion": {
+    "texto": "Monte granítico sagrado en el centro de la isla de Delos (112 m), cima del santuario apolíneo desde donde Leto dio a luz a Apolo y Artemisa (*Himn. Hom. Ap.*)."
   }
 }

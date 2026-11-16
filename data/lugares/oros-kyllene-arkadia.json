@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Segunda cumbre del Peloponeso (2.374 m), entre Arcadia, Acaya y Corintia; lugar de nacimiento de Hermes (Il. 2.603; Himn. Hom. Herm.)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "2.374 m s. n. m. (cumbre principal; 2.339 m en GMBA v2.0). Segunda cima del Peloponeso.",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "292.769.610 m² (292,77 km²) de superficie · 69.580 m (69,58 km) de perímetro del macizo (GMBA v2.0 #19965).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Pheneós](lugares:pheneos-arkadia) al suroeste, [Stymphalos](lugares:stymphalos-arkadia) al sur, Pélene y Trikala al norte hacia el golfo de Corinto, y [Kyllēnē](lugares:kyllene-arkadia) en sus faldas arcadias.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Ruinas del templo y gruta sagrada de [Hermes](entes:hermes) Cilenio en la cumbre (Paus. 8.17.1–2; *Himn. Hom. Herm.* 1–20), donde la tradición situaba el nacimiento del dios y una estatua de madera de cidro; recinto de caza en la meseta alta de Ziria.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Pausanias (8.17.3–4) señala mirlos completamente blancos (*κόττυφοι λευκοί*) propios del Cilene, y relata que Hermes fabricó su primera lira con el caparazón de una tortuga hallada en el monte. Bosques subalpinos de abeto cefalonio y pino laricio.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

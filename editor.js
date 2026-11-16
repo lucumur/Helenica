@@ -158,6 +158,12 @@ ${txt('fe-stxt', x.texto, 4, 'Texto')}${linkBtn}</div>`;
     ['topografia', 'Topografía', 'Montañas, llanuras, desiertos de importancia'], ['hidrografia', 'Hidrografía', 'Ríos, lagos, fuentes'], ['santuario', 'Santuario principal', 'Lugar y evidencia'],
     ['grupo_cultual', 'Grupo cultual', 'Linaje religioso: olímpica dórica, jonia, eolia, noroccidental, aquea…; después, cultos locales'], ['lider', 'Nombre del líder', 'Cómo se llama al gobernante: wanax, basileus, archagetas…']];
   const RORDER = ['cultura_primaria', 'cultura_base', 'cultura_sustrato', 'idioma', 'poblacion', 'clima', 'topografia', 'hidrografia', 'santuario', 'grupo_cultual', 'gobierno', 'lider'];
+  // Ficha de montaña: datos físicos y relaciones topográficas en «campos».
+  const MCAMP = [['altitud', 'Altitud máxima', 'Cumbre principal en metros (p. ej. 2.407 m, pico Taletón)'],
+    ['perimetro', 'Superficie y perímetro', 'Superficie en m² (y km²) y perímetro del macizo'],
+    ['ciudades_pie', 'Ciudades al pie', 'Poleis, komai y choras en las faldas o piedemonte'],
+    ['en_la_montana', 'Asentamientos y estructuras sobre la montaña', 'Santuarios de cumbre, cuevas, fortalezas, aldeas de altura…'],
+    ['fauna_flora', 'Fauna y flora especial', 'Bestias míticas, fauna silvestre, bosques, plantas medicinales o endémicas…']];
   // Filiación: phylai (entes con tipo «Phylai») elegidas como chips, más una nota libre a la derecha.
   const phylai = () => REF.I.items.filter(i => i.c === 'entes' && (i.t || []).includes('Phylai')).sort((a, b) => a.n.localeCompare(b.n));
   let NEW_PH = [];
@@ -203,6 +209,9 @@ ${CARAC.map(([k, l, ph]) => k === 'filiacion' ? filRow(rec) : `<label>${E(l)}${t
 </section>
 <section><h4>Ficha de región <small>— regiones, ethne y dominios (tiers 0–2); el gobierno se escribe arriba, en Características; vacío = no se guarda</small></h4>
 ${RCAMP.map(([k, l, ph]) => `<label>${E(l)}${txt('f-r-' + k, ((rec.campos || []).find(c => c.clave === k) || {}).texto || '', 2, ph)}</label>`).join('')}
+</section>
+<section><h4>Ficha de montaña <small>— montes y macizos; markdown, vacío = no se guarda</small></h4>
+${MCAMP.map(([k, l, ph]) => `<label>${E(l)}${txt('f-m-' + k, ((rec.campos || []).find(c => c.clave === k) || {}).texto || '', 2, ph)}</label>`).join('')}
 </section>
 <section><h4>Contiene <small>— sub-regiones del tier inferior, en grupos</small></h4>
 <p class="hint">Al guardar, cada lugar añadido pasa a «pertenecer a» esta ficha, y cada lugar quitado deja de hacerlo.</p>
@@ -297,13 +306,14 @@ ${RCAMP.map(([k, l, ph]) => `<label>${E(l)}${txt('f-r-' + k, ((rec.campos || [])
         contiene: $$('.fe-grupo').map(g => ({ grupo: g.querySelector('.fe-gname').value.trim(), nota: g.querySelector('.fe-gnota').value.trim() || null,
           lugares: [...g.querySelectorAll('.fe-li')].filter(r => r.dataset.id).map(r => ({ col: 'lugares', id: r.dataset.id, nombre: name(r.dataset.id), ...(r.querySelector('.fe-nota').value.trim() ? { nota: r.querySelector('.fe-nota').value.trim() } : {}) })) }))
           .filter(g => g.grupo || g.lugares.length) };
-      const keep = (rec.campos || []).filter(c => !CARAC.some(([k]) => k === c.clave) && !RCAMP.some(([k]) => k === c.clave));
+      const keep = (rec.campos || []).filter(c => !CARAC.some(([k]) => k === c.clave) && !RCAMP.some(([k]) => k === c.clave) && !MCAMP.some(([k]) => k === c.clave));
       const phSel = $$('.fe-ph .fe-chip').map(ch => ({ col: 'entes', id: ch.dataset.v, nombre: ch.firstChild.textContent.trim() }));
       const phNota = $('.f-fil-nota').value.trim(), phLinks = phSel.map(r => `[${r.nombre}](entes:${r.id})`).join(', ');
       const fil = phSel.length || phNota ? [{ clave: 'filiacion', etiqueta: 'Filiación', texto: phLinks && phNota ? `${phLinks} — ${phNota}` : phLinks || phNota, refs: phSel, nota: phNota }] : [];
       const prev = k => (rec.campos || []).find(c => c.clave === k) || {};
       const nuevos = [...CARAC.filter(([k]) => k !== 'filiacion').map(([k, l]) => ({ clave: k, etiqueta: l, texto: $('.f-c-' + k).value.trim() })),
-        ...RCAMP.map(([k, l]) => ({ clave: k, etiqueta: l, texto: $('.f-r-' + k).value.trim() }))]
+        ...RCAMP.map(([k, l]) => ({ clave: k, etiqueta: l, texto: $('.f-r-' + k).value.trim() })),
+        ...MCAMP.map(([k, l]) => ({ clave: k, etiqueta: l, texto: $('.f-m-' + k).value.trim() }))]
         .filter(c => c.texto).map(c => ({ ...c, refs: prev(c.clave).texto === c.texto ? prev(c.clave).refs || [] : [] }));
       const esRegion = nuevos.some(c => RCAMP.some(([k]) => k === c.clave));
       const rank = c => esRegion && RORDER.includes(c.clave) ? RORDER.indexOf(c.clave) : 100;

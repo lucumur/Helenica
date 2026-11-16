@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Cadena meridional de Tesalia entre Ftiótide y el valle del Esperqueo (1.726 m)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.726 m s. n. m. (pico Gerakovouni; 1.703 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "1.572.213.770 m² (1.572,21 km²) de superficie · 295.110 m (295,11 km) de perímetro del macizo (GMBA v2.0 #11693).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Halos, Farsalo y Tebas de Ftiótide al norte ([Enipeo](lugares:enipeus-thessalia)); Lamía y el valle del [Esperqueo](lugares:sperkheios-malis) al sur.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Recinto fortificado de Melitea y Halos en sus faldas septentrionales y atalayas fronterizas entre Tesalia y Malis.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "En Hesíodo (*Teogonía* 632), bastión de los Titanes frente a los Olímpicos situados en el Olimpo. Bosques de encina, abeto cefalonio en las cimas, tortugas y pastos de invierno.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

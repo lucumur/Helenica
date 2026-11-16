@@ -8,7 +8,38 @@
     "oros"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.220 m s. n. m. (sector Mallia / Kyparissia; 1.184 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "553.477.920 m² (553,48 km²) de superficie · 104.214 m (104,21 km) de perímetro del macizo (GMBA v2.0 #11535).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Pilo micénica (Ano Englianos) y [Pylos](lugares:pylos-messenia) clásica en la fachada jónica occidental; Cipariso al norte y Esteniclaro / [Messenē](lugares:messene-messenia) al este (Estrabón 8.4.1–2).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "El palacio micénico de Ano Englianos (Pilo) se asienta en la estribación suroccidental del macizo; necrópolis micénicas de colina y pequeñas atalayas sobre la llanura de Esteniclaro.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Olivares antiguos documentados en las tablillas en lineal B de Pilo, coscoja, lentisco, brezo arbóreo y caza de liebre y jabalí.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -34,5 +65,8 @@
       37.05
     ],
     "precision": "aprox"
+  },
+  "descripcion": {
+    "texto": "Cadena occidental de Mesenia que dividía las dos provincias del reino micénico de Pilo (1.220 m; Estrabón 8.4.1–2)."
   }
 }

@@ -8,7 +8,38 @@
     "Monte"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.109 m s. n. m. (pico Pyrgari).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "Aprox. 68.000.000 m² (68 km²) de superficie · aprox. 36.000 m (36 km) de perímetro del macizo (estimación cartográfica aprox., dentro de GMBA v2.0 #19908–19909).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Athēnai](lugares:athenai) y su [Akrópolis](lugares:akropolis-athenai) al suroeste (en el valle del [Cefiso ático](lugares:kephisos-attike)), Maratón al nordeste y Cefisia al oeste.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Antiguas canteras de mármol pentélico en la vertiente sur (de donde se extrajo la piedra del [Partenón](lugares:parthenon-akropolis-atenea), el [Erecteo](lugares:erechtheion-erecteo-421-406ac) y los Propileos), estatua de Atenea en la cumbre citada por Pausanias (1.32.2) y cueva de los Amomon (Davelis) con santuario rupestre de [Pan](entes:pan) y las Ninfas.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Originalmente densos bosques de encina y pino mediterráneo y maquia con abejas; pausado por pastoreo y extracción marmórea desde el s. V a.C.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -34,5 +65,8 @@
       38.08
     ],
     "precision": "aprox"
+  },
+  "descripcion": {
+    "texto": "Macizo al nordeste de Atenas (1.109 m), famoso por sus canteras de mármol blanco empleado en los monumentos de la Acrópolis (Paus. 1.32.1–2)."
   }
 }

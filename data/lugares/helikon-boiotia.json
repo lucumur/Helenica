@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Macizo occidental de Beocia sobre el golfo de Corinto (1.748 m); morada de las Musas en Hesíodo (Teogonía 1–24)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.748 m s. n. m. (pico Palaiovouna; 1.720 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "842.349.250 m² (842,35 km²) de superficie · 155.610 m (155,61 km) de perímetro del macizo (GMBA v2.0 #19904).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Tespias y Ascra (aldea de Hesíodo) al este, Lebadea y Queronea al norte, Tisbe y Creusis al sur sobre el golfo de Corinto, Orcómeno al nordeste en la cuenca del Copaide.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "El santuario y Valle de las [Musas](entes:mousai) en Tespias, la fuente Aganipe y la fuente Hipocrene cerca de la cumbre abierta por la coz de [Pegaso](entes:pegasos) (Hesíodo, *Teog.* 1–24; Paus. 9.28–31); santuario de Zeus Heliconio en las alturas.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Teofrasto (*Historia Plantarum* 9.10) y Pausanias (9.28.1) elogian la extraordinaria abundancia de hierbas medicinales del Helicón y aseguran que ninguna de sus raíces ni pastos produce serpientes venenosas; en él crecían eléboro negro, adelfilla y abeto cefalonio.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

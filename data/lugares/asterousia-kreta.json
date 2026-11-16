@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Cordillera costera meridional que separa la llanura de Mesará del mar de Libia."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.231 m s. n. m. (pico Kofinas; 1.156 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "575.039.250 m² (575,04 km²) de superficie · 170.596 m (170,60 km) de perímetro del macizo (GMBA v2.0 #14790).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Gortina y Festo en la llanura de Mesará al norte (regada por el [Leteo](lugares:lethaios-kreta)); Lasaia y Lebena (santuario de Asclepio) en la costa sur del mar de Libia.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Santuario minoico de cumbre en Kofinas (con figurillas votivas de bronce y terracota) y puerto/santuario de Lebena al pie meridional.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Garriga árida de tomillo, algarrobo (*Ceratonia siliqua*), adelfas en los barrancos y quebrantahuesos y buitres leonados anidando en los acantilados.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

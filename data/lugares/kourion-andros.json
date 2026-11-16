@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Espinazo montañoso central de Andros (995 m)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "995 m s. n. m. (pico Kouvara / Profitis Ilias en Andros; 989 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "386.228.440 m² (386,23 km²) de superficie · 107.984 m (107,98 km) de perímetro del macizo (GMBA v2.0 #18687).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Paleópolis ([Andros](lugares:andros-polis)) al oeste y Zagora / Ipsili en los promontorios occidentales de [Andros](lugares:andros-kyklades).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Asentamiento geométrico fortificado de Zagora en la meseta costera occidental y torres circulares de vigía helenísticas repartidas por la isla.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Manantiales permanentes más abundantes que en otras Cícladas, con robles, adelfas y cultivos en bancales.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

@@ -8,7 +8,38 @@
     "oros"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.421 m s. n. m. (pico Diaforti / cumbre meridional del altar de Zeus; 1.382 m pico norte Ágios Ilías).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "Aprox. 195.000.000 m² (195 km²) de superficie · aprox. 58.000 m (58 km) de perímetro del macizo (estimación cartográfica aprox., dentro de la unidad mayor del Peloponeso en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Lykosoura](lugares:lykosoura-arkadia), Trapezunte y Megalópolis al sudeste y este en la cuenca del Alfeo; [Phigaleia](lugares:phigaleia-arcadia) al suroeste en el valle del Neda.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Altar de cenizas de [Zeus](entes:zeus) Liceo y témene sin acceso en la cumbre meridional (Paus. 8.38.6–7); hipódromo y estadio de los Juegos Liceos en la pradera de altura (Kata Pedion); santuario de [Pan](entes:pan) Nomio en las faldas y santuario de Despoina en Lykosoura al pie oriental.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Sede del mito de Licaón y de la transformación en lobo (Paus. 8.2.3; Platón, *Rep.* 565d); según Pausanias (8.38.6), hombres y animales perdían la sombra al entrar en el témenos de la cima. Robledales antiguos (*Quercus frainetto*), helechos y lobos.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -34,5 +65,8 @@
       37.46
     ],
     "precision": "aprox"
+  },
+  "descripcion": {
+    "texto": "Montaña sagrada del suroeste de Arcadia (1.421 m), célebre por el antiquísimo altar de cenizas de Zeus Liceo y los Juegos Liceos (Paus. 8.38)."
   }
 }

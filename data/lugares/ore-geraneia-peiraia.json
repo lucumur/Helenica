@@ -8,7 +8,38 @@
     "oros"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.351 m s. n. m. (pico Makryplagi; 1.320 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "399.798.950 m² (399,80 km²) de superficie · 97.874 m (97,87 km) de perímetro del macizo (GMBA v2.0 #19898).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Peiraia](lugares:peiraia-peiraion), [Thermai](lugares:thermai-peiraion), [Krómmyōn](lugares:krommyon-cromion-krommyonia), [Sidous](lugares:sidous-krommyonia), [Skhoinoûs](lugares:skhoinous) y Megara en los flancos norte y sur.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Fortaleza de [Oinóē](lugares:oinoe-peiraion), faro de señales de [Aigiplanktos](lugares:aigiplanktos-pico-del-faro-peiraion), distrito agrícola de [Distrito Agricola, Peiraion](lugares:distrito-agricola-peiraion) y el cercano [Bosque de Pinos](lugares:bosque-de-pinos).",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Guarida mítica de [Hys Krommyonia](entes:hys-krommyonia) en el paso hacia el Istmo; extensos pinares costeros de *Pinus halepensis* y matorral resinero.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -34,5 +65,8 @@
       38.04
     ],
     "precision": "aprox"
+  },
+  "descripcion": {
+    "texto": "Vertiente corintia de la cordillera de Gerania hacia el cabo Heraion y el golfo de Corinto (1.351 m)."
   }
 }

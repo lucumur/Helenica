@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Cumbre occidental de Samos (1.434 m), la más alta de las islas del Egeo oriental."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.434 m s. n. m. (pico Vigla / Kerkis en Samos occidental; 1.408 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "430.083.450 m² (430,08 km²) de superficie · 133.051 m (133,05 km) de perímetro del macizo (GMBA v2.0 #18681).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Samos (Pitagoreo, al este junto al Hereo y el río Ímbraso) y Marathokambos al pie sudoriental en [Miletos–Samos](lugares:miletos-900).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Grutas de ermitaño / culto de altura en las escarpas orientales (cueva de Pitágoras según la tradición tardía samia) y canteras antiguas en la isla.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Pino de Calabria (*Pinus brutia*), cipreses y notable flora endémica calcárea del Kerkis (campanillas y *Centaurium* locales); abundancia de cabras y perdices chucar.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

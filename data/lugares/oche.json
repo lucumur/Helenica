@@ -8,7 +8,38 @@
     "oros"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.398 m s. n. m. (pico Profitis Ilias sobre Caristo).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "Aprox. 145.000.000 m² (145 km²) de superficie · aprox. 56.000 m (56 km) de perímetro del macizo meridional de Caristia (estimación cartográfica aprox.; incluido en GMBA #14796 *Euboean Mountains*: 2.797.016.790 m²).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Karystia](lugares:karystia-euboia), [Marmarion](lugares:marmarion-2) y [Geraistós](lugares:geraistos) al sur y oeste; hacia el nordeste desciende al temido cabo [Kaphēreus](lugares:kaphereus).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "En la cima se conserva el monumental templo o edificio megalítico de piedra (*Drakospito*, «Casa del Dragón») identificado tradicionalmente como sitio nupcial o santuario de cumbre de [Zeus](entes:zeus) y [Hera](entes:hera) (Estéfano de Bizancio s.v. *Karystos*); en las laderas, las antiguas canteras de mármol cipolino verde de [Marmarion](lugares:marmarion) y santuario de [Apollōn Marmarinos](lugares:apollon-marmarinos).",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Castañares antiguos en la vertiente septentrional, matorral ventoso de *Phrygana* azotado por los vientos etesios del Egeo, rapaces migratorias y ganadería caprina.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -34,5 +65,8 @@
       38.06
     ],
     "precision": "aprox"
+  },
+  "descripcion": {
+    "texto": "Macizo meridional de Eubea (1.398 m) sobre Caristo, célebre por sus canteras de mármol cipolino y el recinto megalítico de la cumbre dedicado a la hierogamia de Zeus y Hera."
   }
 }

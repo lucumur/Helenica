@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Meseta y sierra volcánica entre el Caico y el Hermo, al este de Pitane y Cime (Estrabón 13.2.6)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.074 m s. n. m. (meseta de Yunt Dağ; 1.203 m en GMBA v2.0 en la estribación nordeste).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "1.694.168.950 m² (1.694,17 km²) de superficie · 380.144 m (380,14 km) de perímetro del macizo (GMBA v2.0 #12778).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Mirina, Grinio, Elea y Pitane en la costa del golfo Elaítico ([Aiolis](lugares:aiolis-900)), entre las cuencas del [Caico](lugares:kaikos-aiolis) y el [Hermo](lugares:hermos-aiolis).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Santuario de Egas (*Aigai*) de Eólide en la meseta interior —con santuario de Apolo Crineo en la garganta del río y enorme stoa helenística— y el santuario oracular de Apolo en Grinio en la costa.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Bosques de roble valonea (*Quercus ithaburensis*, célebre fuente antigua de agallas curtientes), pastoreo caprino y terpentino.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

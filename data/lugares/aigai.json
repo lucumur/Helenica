@@ -8,7 +8,38 @@
     "oros"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.209 m s. n. m. (macizo de Kandili / Aigas sobre la costa norte del Euripo).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "Aprox. 110.000.000 m² (110 km²) de superficie · aprox. 48.000 m (48 km) de perímetro (estimación cartográfica aprox.; incluido en GMBA #14796: 2.797.016.790 m²).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Aigai, Chalkis](lugares:aigai-chalkis), [Argoura](lugares:argoura-chalkis), [Orobiai](lugares:orobiai) y [Kērinthos](lugares:kerinthos) en las faldas occidentales y septentrionales sobre el río [Boudoros](lugares:boudoros).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Sobre o al pie de las escarpas costeras estaban la población desaparecida de [Aigai](lugares:aigai-chalkis) y los templos de [Poseidôn Aigeus](lugares:poseidon-aigeus) (Estrabón 9.2.13) y [Aigaion](lugares:aigaion-naos-a-egeo) (Briareo).",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Denso pinar de *Pinus halepensis* rico en resina, barrancos húmedos de plátanos y matorral costero.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -21,5 +52,8 @@
   "funciones": [
     "natural"
   ],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Monte escarpado del noroeste de Eubea frente a Beocia (c. 1.209 m), asociado a Aigas de Eubea y el culto a Poseidón Egeo (Estrabón 9.2.13)."
+  }
 }

@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Macizo entre la Argólide y Arcadia (1.771 m), sobre los pasos de Mantinea y las fuentes del Ínaco (Paus. 2.25.3)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.771 m s. n. m. (cumbre principal / Malevos; 1.757 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "513.194.590 m² (513,19 km²) de superficie · 114.129 m (114,13 km) de perímetro del macizo (GMBA v2.0 #19967).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Argos](lugares:argos-argolis) y Oínoe al este (cabecera del [Ínaco](lugares:inakhos-argolis)); [Mantinéa](lugares:mantinea-arkadia) y Nestane al oeste en la llanura arcadia.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Templo de [Artemisa](entes:artemis) Artemisia cerca de la cumbre sobre el paso de Klimax / Prinos entre la Argólide y Mantinea (Paus. 2.25.3; 8.6.6), con fuente junto al santuario.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Escenario atribuido a la captura de la cierva de cuernos de oro en el relato argivo-arcadio; rebecos/cabras, jabalíes, matorral mediterráneo de coscoja y bosques de encina y abeto en las cumbres.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

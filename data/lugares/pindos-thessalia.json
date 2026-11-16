@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Espinazo montañoso que separa Tesalia de Epiro y Etolia; sector meridional en Ágrafa."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "2.153 m s. n. m. en GMBA v2.0 (cumbres de Ágrafa / Lakmos hasta 2.295 m en Peristeri y 2.154 m en Voutsikaki).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "3.881.225.640 m² (3.881,23 km²) de superficie · 513.453 m (513,45 km) de perímetro del macizo (GMBA v2.0 #18416).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Trica ([Trikka](lugares:trikka-thessalia)) y Pelina en la orilla del [Peneo](lugares:peneios-thessalia) al nordeste; [Athamania](lugares:athamanes-900) al oeste y [Dolopia](lugares:dolopes-900) al sur.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Aldeas pastoriles de montaña, pasos fortificados trans-píndicos entre Tesalia y Epiro, y restos helenísticos en el alto valle del Aqueloo.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Grandes bosques de abeto híbrido, haya y pino negro; refugio de oso pardo, lobo, rebeco y nutria en las cabeceras del [Peneo](lugares:peneios-thessalia) y el [Aqueloo](lugares:akheloos-aitolia).",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

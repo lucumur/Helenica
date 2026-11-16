@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Cordillera estrecha paralela a la costa septentrional de Chipre, sobre la llanura de Mesaoria."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.024 m s. n. m. (pico Kyparissovouno; 996 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "432.387.330 m² (432,39 km²) de superficie · 136.477 m (136,48 km) de perímetro del macizo (GMBA v2.0 #18709).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Cerinea y Lapeto ([Lapēthos](lugares:lapethos-900)) en la estrecha costa norte; Quitrí, Ledra y la llanura de Mesaoria al sur.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Fortalezas y puestos vigía estratégicos en los tres collados de montaña que cruzan hacia Mesaoria, además de canteras y santuarios locales entre Cerinea y Lapeto.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Bosquetes de ciprés mediterráneo (*Cupressus sempervirens*), pino de Calabria (*Pinus brutia*), olivos silvestres y endemismos rupícolas de las paredes calizas.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

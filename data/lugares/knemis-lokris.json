@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Cadena costera de Lócride que desciende hacia las Termópilas y el canal de Eubea (Calídromo y Cnemis)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.419 m s. n. m. (Calídromo / Saromata; 938 m monte Cnemis; 1.377 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "743.228.120 m² (743,23 km²) de superficie · 136.227 m (136,23 km) de perímetro del macizo (GMBA v2.0 #19897).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Opunte, Cino, Alpono, Nicea y Escarfea al norte en Lócride epicnemidia; Elatea e Hiámpolis al sur en el valle del [Cefiso](lugares:kephisos-boiotia); Antela junto al paso de las Termópilas.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "El desfiladero de las Termópilas y el sendero de montaña de Anopea descrito por Heródoto (7.216), fortalezas focidias y locrias de paso sobre la dorsal y santuarios de frontera sobre el paso de Elatea.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Matorral denso de robles (*Quercus*), madroños y pinos; lobos y jabalíes en las gargantas sobre el paso de Anopea.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

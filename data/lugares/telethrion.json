@@ -8,7 +8,38 @@
     "oros"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "970 m s. n. m. (monte Telethrio en Eubea septentrional sobre Edepso).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "Aprox. 120.000.000 m² (120 km²) de superficie · aprox. 52.000 m (52 km) de perímetro (estimación cartográfica aprox.; incluido en GMBA #14796: 2.797.016.790 m²).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Aidēpsos](lugares:aidepsos) (con sus termas), [Ōreos](lugares:oreos), [Histiaia](lugares:histiaia-2), [Dîon](lugares:dion) y [Orobiai](lugares:orobiai) en torno a sus laderas y la llanura de [Histiaia](lugares:histiaia-3).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Santuario de [Artemis Proseoia](lugares:artemis-proseoia) hacia el cabo [Artemision](lugares:artemision-2) y antiguo santuario de [Apolo](entes:apollon) Selinuntio en Orobiai (Estrabón 10.1.3).",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "El Telétrio es citado explícitamente por Teofrasto (*Historia Plantarum* 9.15.4, 9.15.8) entre las montañas de Grecia más ricas en plantas medicinales, raíces farmacéuticas y eléboro negro.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -34,5 +65,8 @@
       38.88
     ],
     "precision": "aprox"
+  },
+  "descripcion": {
+    "texto": "Macizo boscoso del norte de Eubea sobre Edepso e Histiea (970 m), célebre por sus hierbas medicinales en Teofrasto (*HP* 9.15)."
   }
 }

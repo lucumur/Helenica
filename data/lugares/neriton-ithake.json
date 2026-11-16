@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Monte principal de Ítaca en Homero (Od. 9.22; 13.351)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "809 m s. n. m. (pico Anogi / Neritos).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "Aprox. 35.000.000 m² (35 km²) de superficie · aprox. 28.000 m (28 km) de perímetro del bloque montañoso septentrional de Ítaca (estimación cartográfica aprox.; parte de GMBA #14799 *Ionian Islands*).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Polis (Stavros), Alalkomenai (Aetos en el istmo) y las ensenadas de Phorcys y Vathy en [Ithakē](lugares:ithake-900).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Asentamientos de altura en Pelikata y Aetos, cueva sagrada de las Ninfas en la vertiente sobre la bahía (cf. *Od.* 13.103–104) y santuario en Polis.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Homero llama al Nérito «de trémulo follaje» (*εἰνοσίφυλλον*, *Il.* 2.632; *Od.* 9.22): bosquetes de encinas, olivos silvestres, lentiscos y cipreses sobre calizas kársticas.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Macizo entre Eólide meridional, Esmirna y el valle del Hermo (1.513 m); ligado al mito de Tántalo y Níobe (Il. 24.615)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.513 m s. n. m. (monte Sípilo / Spil Dağı y Yamanlar; 1.477 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "888.781.260 m² (888,78 km²) de superficie · 182.317 m (182,32 km) de perímetro del macizo (GMBA v2.0 #12081).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Smyrna](lugares:smyrna-ionia) en la costa suroccidental, Magnesia del Sípilo al norte y Temno al noroeste sobre el valle del [Hermo](lugares:hermos-aiolis).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Relieve monumental hitita-arcaico de la Gran Diosa (llamado por Pausanias 3.22.4 el «Trono de Pélope» y «estatua más antigua de la Madre de los Dioses»), la «Roca que llora» de Níobe (Paus. 1.21.3; *Il.* 24.615) y la fortificada ciudad antigua de Tantalis / Esmirna arcaica al pie.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Hogar en el s. XX–XXI hasta el presente de los **tulipanes salvajes del Sípilo** (*Tulipa orphanidea / sp.*), pinares de altura, caballos salvajes en tiempos modernos y jabalíes.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "La cumbre más alta de Grecia Central (2.510 m), entre la Fócide y la Lócride ozolia."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "2.510 m s. n. m. (pico Pyramida; 2.442 m en GMBA v2.0). Cumbre más alta de Grecia Central.",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "711.082.430 m² (711,08 km²) de superficie · 151.251 m (151,25 km) de perímetro del macizo (GMBA v2.0 #19894).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Ánfisa al sudeste en la llanura de Crisa y Delfos ([Delphoi](lugares:delphoi)), Lidóriki al oeste en Etolia–Lócride.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Puestos pastoriles estacionales en altura y tumbas/refugios rupestres en los collados que comunican la Lócride ozolia con Dóride y Fócide.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Rebecos balcánicos (*Rupicapra rupicapra balcanica*), águila real, buitre leonado, pinos negros y bosques de abeto cefalonio en las vertientes orientales.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

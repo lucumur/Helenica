@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Sierra entre la llanura de Eleusis y la Megáride, prolongación occidental del Citerón hacia el golfo de Corinto."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.131 m s. n. m. (pico Liontari; 1.101 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "368.259.620 m² (368,26 km²) de superficie · 93.900 m (93,90 km) de perímetro del macizo (GMBA v2.0 #19907).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Eleusis](lugares:eleusis-atica) al este en la llanura triasia, Megara y Nisea al sur y Erénia al noroeste en el golfo de Corinto.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Torres de vigía y puestos militares de la Megáride que controlaban los pasos interiores entre el Ática y el territorio megarense.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Bosques secos de pino de Alepo, lentisco, enebros y plantas aromáticas de garriga.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

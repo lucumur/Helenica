@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Macizo entre la costa eolia, el valle del Caico y Misia (1.344 m)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.344 m s. n. m. (pico Maya Tepe en los montes Madra; 1.330 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "1.807.710.040 m² (1.807,71 km²) de superficie · 339.362 m (339,36 km) de perímetro del macizo (GMBA v2.0 #11594).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Pitane, Atarneo, Perperene y Pérgamo (sede del [Asklēpeion de Pergamon](lugares:asklepeion-de-pergamon)) en las cuencas que rodean al río [Caico](lugares:kaikos-aiolis).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Explotaciones mineras antiguas de cobre y plata en Perperene en sus laderas meridionales y puestos fronterizos entre Misia y la Eólide costera.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Extensos pinares piñoneros (*Pinus pinea*) y pino negro anatolio en las cimas, jabalíes, lobos y corzos.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

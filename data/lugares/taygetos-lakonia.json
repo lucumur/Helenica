@@ -8,7 +8,38 @@
     "oros"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "2.407 m s. n. m. (pico Taletón / Profitis Ilias; 2.341 m en GMBA v2.0). Cumbre más alta del Peloponeso.",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "1.955.538.410 m² (1.955,54 km²) de superficie · 292.483 m (292,48 km) de perímetro del macizo (GMBA v2.0 #11973).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Esparta](lugares:sparta-lakonia), [Therapnē](lugares:therapne-lakonia) y Amiclas al este (valle del [Eurotas](lugares:eurotas-lakonia)); [Gition](lugares:gition-lakonia) al sudeste; [Phārai](lugares:pharai-messenia), [Thouria](lugares:thouria-messenia) y Ábía / Cardamila al oeste en la vertiente mesenia; Étilo en Mani.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Altares y área sacrificial al aire libre a Helios y caballo en la [Cumbre del Taleton](lugares:cumbre-del-taleton-lakonia) (Paus. 3.20.4); sima del [Kaiadas](lugares:kaiadas-lakonia) en el paso hacia Mesenia; santuario de Ártemis Limnatis en Volimos y bosques de caza (Teras) en los pasos montanos.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Célebres jabalíes, cabras monteses (*agrimi* / íbice), ciervos y osos en Pausanias (3.20.5); cría de los reputados perros de caza laconios. Abeto cefalonio (*Abies cephalonica*), pino laricio (*Pinus nigra*) y castaños; heléboro y hierbas aromáticas.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -34,5 +65,8 @@
       36.95
     ],
     "precision": "aprox"
+  },
+  "descripcion": {
+    "texto": "Gran cordillera axial que separa Laconia de Mesenia (2.407 m), célebre por sus bosques de caza y pasos escarpados (Paus. 3.20.4–5)."
   }
 }

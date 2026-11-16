@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Macizo del Pindo septentrional en Epiro (2.497 m), sobre la garganta del Vikos y el alto Aoo."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "2.497 m s. n. m. (pico Gamila; 2.562 m en GMBA v2.0 con Smolikas oriental).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "2.503.292.570 m² (2.503,29 km²) de superficie · 268.517 m (268,52 km) de perímetro del macizo (GMBA v2.0 #18413).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Papingo y las aldeas de Zagori y Paravaia sobre el [Aoo](lugares:aoos-epeiros) y el Voidomatis.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Pasos elevados de pastoreo transhumante de los paravaeos y molosos septentrionales entre Epiro, Macedonia y Orestia.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Rebecos balcánicos en los farallones de Astraka, pino bosnio (*Pinus heldreichii*), tritones alpinos en los lagos glaciares (*Drakolimni*), osos pardos y lobos.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

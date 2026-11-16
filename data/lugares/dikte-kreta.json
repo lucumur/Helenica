@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Macizo de Creta oriental (2.148 m), vinculado en la tradición mítica a la crianza de Zeus (Hesíodo, Teogonía 477–484)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "2.148 m s. n. m. (pico Spathi en el macizo de Lasithi; 2.105 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "2.003.370.610 m² (2.003,37 km²) de superficie · 297.316 m (297,32 km) de perímetro del macizo (GMBA v2.0 #18946).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Licto en el flanco noroeste, Malia en la costa norte, Lato al este, Hierapitna y Praso en el sudeste y el sector de los [Dorieis de Creta](lugares:kreta-doriees-900) / [Eteocretenses](lugares:eteokretes-900).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "La cueva dictea (*Psichro* / monte Dicte en la meseta de Lasithi, ~1.025 m), célebre lugar de crianza de [Zeus](entes:zeus) (Hesíodo, *Teogonía* 477–484) con santuario minoico-arcaico; asentamientos de altura y necrópolis como Karfi (Refugio del Hierro Temprano, s. XII–XI a.C.) en las cimas sobre Lasithi.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Famosa en Teofrasto (*HP* 9.16.1–3) y Dioscórides por el **díctamo de Creta** (*Origanum dictamnus*), hierba endémica que según Aristóteles y Plinio las cabras monteses comían para expulsar las flechas de sus heridas; cipreses y encinas cretenses.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

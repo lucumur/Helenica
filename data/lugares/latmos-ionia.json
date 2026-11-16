@@ -20,7 +20,38 @@
   "descripcion": {
     "texto": "Macizo granítico sobre el golfo de Mileto y la desembocadura del Meandro (1.375 m), ligado al mito de Endimión."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.375 m s. n. m. (pico Tekerlekdağ / Beşparmak; 1.404 m en GMBA v2.0 incluyendo el macizo norte).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "2.461.657.510 m² (2.461,66 km²) de superficie · 308.173 m (308,17 km) de perímetro del macizo (GMBA v2.0 #11164).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Heraclea del Latmo al pie sobre la antigua bahía marina del [Meandro](lugares:maiandros-ionia) (lago Bafa), Mileto y Miunte al oeste frente al golfo.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "La gruta sagrada de Endimión (Paus. 5.1.5; Estrabón 14.1.8) donde el joven dormía visitado por Selene, pinturas rupestres prehistóricas en las rocas graníticas y el santuario de altura del dios tormenta local en las cumbres.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Pino piñonero (*Pinus pinea*) característico del paisaje granítico de Heraclea, olivos silvestres, tortugas de marismas y águilas culebreras.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

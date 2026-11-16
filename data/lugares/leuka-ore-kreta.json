@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Gran macizo calcáreo de Creta occidental (2.453 m), territorio de los cidonios."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "2.453 m s. n. m. (pico Pachnes; 2.420 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "2.534.650.950 m² (2.534,65 km²) de superficie · 414.852 m (414,85 km) de perímetro del macizo (GMBA v2.0 #12705).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Cidonia (con el río [Yárdano](lugares:iardanos-kreta)) al norte, Aptera al nordeste, Liso, Tarrha y Eliro al sur sobre el mar de Libia ([Kudones](lugares:kudones-900)).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Asentamientos de altura en las cuencas interiores (Omalos) y santuarios de cumbre minoicos y pasos hacia la costa sur por la garganta de Samaria; fortaleza helenística de Polirrenia al oeste.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Último refugio natural de la cabra salvaje cretense (*Capra aegagrus cretica*, el *agrimi* o *kri-kri* famoso en los cuernos de arco de Pándaro, *Il.* 4.105–109); bosques de ciprés cretense, arces cretenses endémicos (*Acer sempervirens*) y pinos de Calabria.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

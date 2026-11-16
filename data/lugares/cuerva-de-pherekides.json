@@ -8,7 +8,38 @@
     "oros"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "c. 280 m s. n. m. (gruta en la vertiente nordeste de Siros, bajo Ano Syros / Platy Vouni).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "Aprox. 200.000 m² (0,20 km²) de superficie del espolón circundante · aprox. 1.800 m (1,8 km) de perímetro del sector rupestre (estimación cartográfica aprox.).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Palaeo-Hermoupolis](lugares:palaeo-hermoupolis) al sudeste y [Palaeo-Alithini](lugares:palaeo-alithini) al sur en [Syros](lugares:syros-kyklades).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Gruta natural modificada vinculada por la tradición local al pensador arcaico Ferécides de Siros (s. VI a.C., maestro de Pitágoras según Diógenes Laercio), posible lugar de retiro o culto rupestre.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Flora rupestre de grieta calcárea, higuera silvestre (*Ficus carica*) y alcaparra en la boca de la cueva.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -27,5 +58,8 @@
       "id": "syros-kyklades",
       "nombre": "Syros, Kyklades"
     }
-  ]
+  ],
+  "descripcion": {
+    "texto": "Cueva rupestre de Siros asociada por la tradición local al pensador presocrático Ferécides (s. VI a.C.)."
+  }
 }

@@ -8,7 +8,38 @@
     "oros"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "c. 100–180 m s. n. m. (promontorio costero de la cala de Grámmata en el norte de Siros).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "Aprox. 2.500.000 m² (2,5 km²) de superficie · aprox. 7.000 m (7 km) de perímetro del promontorio costero (estimación cartográfica aprox.).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Syros](lugares:syros) ([Syros, Kyklades](lugares:syros-kyklades)), [Palaeo-Galissas](lugares:palaeo-galissas) y [Palaeo-Hermoupolis](lugares:palaeo-hermoupolis) al sur de la isla.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "El santuario rupestre costero [Area de Grammata de marineros](lugares:area-de-grammata-de-marineros), donde navegantes desde época helenística hasta tiempos tardoantiguos grabaron inscripciones votivas pidiendo travesías seguras.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Roquedo mármol-esquistoso costero con esparto, tomillo y hinojo marino (*Crithmum maritimum*) batido por los vientos del norte.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -21,5 +52,8 @@
   "funciones": [
     "natural"
   ],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Promontorio rocoso al norte de Siros célebre por sus inscripciones votivas grabadas en la roca por marineros."
+  }
 }

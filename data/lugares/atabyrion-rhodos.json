@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "La cumbre más alta de Rodas (1.215 m), sede de un antiguo santuario de Zeus Atabirio en la vertiente occidental."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.215 m s. n. m. (pico Atavyros; 1.206 m en GMBA v2.0). Cumbre más alta de Rodas.",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "619.456.120 m² (619,46 km²) de superficie · 251.316 m (251,32 km) de perímetro del macizo (GMBA v2.0 #18682).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Camiro al noroeste y Yaliso al norte; Lindo en la costa oriental de [Rhodos](lugares:rhodos-900).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Famoso santuario arcaico-clásico de **Zeus Atabirio** en la cima (Píndaro, *Ol.* 7.87; Polibio 9.27), fundado según el mito por Altémenes cretense con toros de bronce que mugían ante los peligros de la isla.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Pino de Calabria, ciprés horizontal y el raro **ciervo gamo de Rodas** (*Dama dama*); además de las famosas vides e higos rodios y abejas de montaña.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

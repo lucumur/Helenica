@@ -8,7 +8,38 @@
     "oros"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.935 m s. n. m. (pico Megali Tourla / Kronion; 1.899 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "3.013.956.880 m² (3.013,96 km²) de superficie · 466.769 m (466,77 km) de perímetro del macizo (GMBA v2.0 #11710).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "En la vertiente occidental (valle del Eurotas): [Esparta](lugares:sparta-lakonia), [Therapnē](lugares:therapne-lakonia) y Selasia; al norte, [Tegea](lugares:tegea-arkadia) y Astros en la Tireátide; al sur y este, Prasiai, Zarax, [Epidauro Limera](lugares:epidauro-limera-lakonia) y Monemvasía.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Santuario fronterizo de [Zeus](entes:zeus) Escotitas, aldeas serranas de [Karyai](lugares:karyai-arkadia) (santuario de Ártemis Cariátide) y santuario de Apolo Maleatas en Kosmás / Prasiai; torres y atalayas fronterizas entre Esparta y Argos.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Enébros griegos monumentales (*Juniperus drupacea* / bosques de Maleví, reliquia terciaria única en Europa dentro de Grecia), abeto cefalonio, encinas y castaños; jabalíes, zorros, chacales y águilas reales en las quebradas.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -34,5 +65,8 @@
       37.25
     ],
     "precision": "aprox"
+  },
+  "descripcion": {
+    "texto": "Cordillera oriental del Peloponeso entre Laconia, Cinuria y Arcadia (1.935 m), que desciende abruptamente al golfo Argólico."
   }
 }

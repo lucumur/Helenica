@@ -8,7 +8,38 @@
     "Monte"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.774 m s. n. m. (pico Karataş / Gárgara; 1.752 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "1.919.088.980 m² (1.919,09 km²) de superficie · 296.624 m (296,62 km) de perímetro del macizo (GMBA v2.0 #14617).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Troya](lugares:troya-troade) y Cebrene en la Tróade occidental; Escépsis en el interior del Escamandro; Antandro, Gargara y Asos en la costa meridional sobre el golfo de Adramitio.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "En el mito y en el culto arcaico, el altar y témenos de **Zeus Gárgaro** en la cumbre (citado en la *Ilíada* 8.48 y 14.292: «Ida de muchas fuentes, madre de fieras»), además del santuario de la Madre Idea (Cibeles); aserraderos y minas de plata en sus faldas.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Homero llama repetidamente al Ida «madre de fieras» (*μήτηρ θηρῶν*, *Il.* 8.47, 14.283): osos, lobos, leones anatolios arcaicos, jabalíes y águilas. Sus densos bosques de pino laricio (*Pinus nigra*), abeto de Troya (*Abies nordmanniana subsp. equi-trojani*, endémico del Ida) y roble suministraron la madera para las flotas antiguas.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -28,5 +59,8 @@
       39.7
     ],
     "precision": "aprox"
+  },
+  "descripcion": {
+    "texto": "Gran macizo de la Tróade en el noroeste de Anatolia (1.774 m), consagrado a Zeus y la Madre Idea en la Ilíada («madre de fieras», Il. 8.47)."
   }
 }

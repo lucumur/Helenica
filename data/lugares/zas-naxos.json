@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "La cumbre más alta de las Cícladas (1.004 m), en el centro de Naxos, consagrada a Zeus."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.004 m s. n. m. (cumbre del monte Zas / Oxia; 973 m en GMBA v2.0). Cumbre más alta de las Cícladas.",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "350.675.700 m² (350,68 km²) de superficie · 82.380 m (82,38 km) de perímetro del macizo (GMBA v2.0 #18684).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Naxos (capital)](lugares:naxos-polis), Filoti, Apiranthos y Sangrí en las vegas de [Naxos](lugares:naxos-kyklades).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Inscripción rupestre en la cumbre («Ὄρος Διὸς Μηλωσίου», *Monte de Zeus protector de los rebaños*), cueva de Zas en la vertiente occidental (ocupada desde el Neolítico y dedicada al mito de la infancia de Zeus) y santuarios de Dioniso/Deméter en las estribaciones.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Pastos altos de cabras y ovejas consagradas a Zeus Melosio; jaras, tomillo, higueras y viñedos antiguos de Naxos en las terrazas inferiores.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Macizo calcáreo de la Fócide (2.457 m), consagrado a Apolo y las Musas sobre Delfos y el valle del Cefiso."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "2.457 m s. n. m. (pico Liakoura / Licoreo; 2.377 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "817.744.360 m² (817,74 km²) de superficie · 144.443 m (144,44 km) de perímetro del macizo (GMBA v2.0 #19895).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Delphoi](lugares:delphoi) en la terraza sudoccidental, Crisa y Cirra al sur hacia el golfo de Corinto; Arácova al sur; Lilea, Titorea y Elatea al norte en la cuenca del [Cefiso](lugares:kephisos-boiotia).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "El gran santuario oracular de [Apolo](entes:apollon) en [Delphoi](lugares:delphoi) en las rocas Fedríades; la Cueva Coricia en el altiplano (~1.360 m) consagrada a [Pan](entes:pan) y las ninfas; las antorchas báquicas de las tíades para [Dioniso](entes:dionysos) en las cumbres (Paus. 10.32.7).",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "En el mito, guarida del jabalí del Parnaso que hirió en el muslo al joven Odiseo (*Od.* 19.394–466) y el dragón Pitón en Delfos. Laurel sagrado de Apolo (*Laurus nobilis*), bosques de abeto cefalonio y pino negro; pastoreo de invierno y verano.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

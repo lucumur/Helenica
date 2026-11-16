@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Macizo al sur del Esperqueo y el golfo Maliaco (2.152 m), ligado a la pira de Heracles."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "2.152 m s. n. m. (pico Pyrgos; 2.124 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "409.844.090 m² (409,84 km²) de superficie · 92.776 m (92,78 km) de perímetro del macizo (GMBA v2.0 #19896).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Traquis y Heraclea Traquinia al nordeste en la boca del [Asopo de Traquis](lugares:asopos-trakhis), las Termópilas al este y las ciudades de la Tetrápolis dórica al sur.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Recinto sacrificial de la Pira de [Heracles](entes:herakles) en las alturas de Marmara (~1.800 m, excavado con exvotos de bronce geométricos y clásicos), donde según el mito el héroe fue consumido en la pira antes de su apoteosis (Sófocles, *Traquinias*; Hdt. 7.176).",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Famoso en toda la Antigüedad por el mejor eléboro blanco y negro de Grecia (*Veratrum* / *Helleborus*, medicina clásica de la demencia según Teofrasto *HP* 9.10.2 y Estrabón 9.3.3); osos, jabalíes y pinares subalpinos.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

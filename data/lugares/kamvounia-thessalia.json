@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Cadena septentrional de Tesalia al oeste del Olimpo, entre la cuenca del Peneo y el Haliacmón."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.615 m s. n. m. (pico Vounasa; 1.575 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "554.247.990 m² (554,25 km²) de superficie · 135.827 m (135,83 km) de perímetro del macizo (GMBA v2.0 #19882).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Elimea en el alto Haliacmón al norte, Elasona al sur y Azoro / Dólico al este.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Pasos montanos fronterizos (Voloustana) entre Macedonia superior y Perrebia, vigilados por guarniciones macedonias y tesalias.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Bosques mixtos de roble y pino negro (*Pinus nigra*), águilas y lobos.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

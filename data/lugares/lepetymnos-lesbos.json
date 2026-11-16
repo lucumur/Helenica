@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Relieves volcánicos de Lesbos (Lepetimno al norte, 968 m, y el Olimpo lésbico al sur)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "968 m s. n. m. (pico Lepetimno al norte; 967 m Olimpo de Lesbos al sur; 923 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "1.111.817.790 m² (1.111,82 km²) de superficie · 293.434 m (293,43 km) de perímetro del macizo (GMBA v2.0 #18680).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Metimna al norte, Mitilene al sudeste, Antisa al oeste y Ereso al suroeste en [Lesbos](lugares:lesbos-900).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Santuario de Apolo y Heroon de Palamedes en la cumbre del Lepetimno (Filóstrato, *Heroicus*), y el santuario federal de Mesa al pie del Olimpo lésbico entre los dos golfos.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Bosques de pino negro en el Olimpo lésbico, extensos olivares antiguos, pino de Calabria y castaños.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

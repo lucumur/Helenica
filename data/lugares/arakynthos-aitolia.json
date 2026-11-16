@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Sierra meridional de Etolia entre la llanura de Calidón–Pleurón y el lago Tricónide."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "984 m s. n. m. (pico Zygos; 1.004 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "583.260.310 m² (583,26 km²) de superficie · 125.919 m (125,92 km) de perímetro del macizo (GMBA v2.0 #19899).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Pleurón y Calidón en la vertiente meridional (cerca del bajo [Eveno](lugares:euenos-aitolia)); [Aitoloi paralioi](lugares:aitoloi-paralioi-900) y el lago Tricónide al norte.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Ciudad fortificada de Nueva Pleurón sobre una estribación occidental del Aracinto (con cisternas monumentales y teatro tallado en la roca), además del santuario de Ártemis Lafría en Calidón al pie sudeste.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Matorral mediterráneo alto, encinares y coscoja con poblaciones de tortugas, liebres y jabalíes.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

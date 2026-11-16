@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Macizo occidental de Tesalia sobre Trica y la entrada del Peneo en la llanura."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.901 m s. n. m. (pico Koziakas / Chatzis; 1.855 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "260.217.080 m² (260,22 km²) de superficie · 75.940 m (75,94 km) de perímetro del macizo (GMBA v2.0 #19883).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Trikka](lugares:trikka-thessalia) (con su célebre [Asklēpeion](lugares:asklepeion-de-tricca)), Itome de Tesalia y Gomfoi al pie oriental en la llanura alta del [Peneo](lugares:peneios-thessalia).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Fortaleza de Gomfoi cerrando la entrada occidental de Tesalia bajo el macizo y santuarios locales en las quebradas sobre Trica.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Bosques de roble y abeto en altura, afamado desde antiguo por las hierbas medicinales del Cercetio vinculadas al cercano culto sanador de Asclepio en Trica.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

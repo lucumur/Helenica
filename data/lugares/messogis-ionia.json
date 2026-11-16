@@ -20,7 +20,38 @@
   "descripcion": {
     "texto": "Cordillera longitudinal que divide los valles del Caístro y el Meandro hasta la costa de Magnesia y Éfeso (Estrabón 14.1.15)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.829 m s. n. m. (cumbres de Aydin Dağları / Mesogis; 1.805 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "3.135.628.940 m² (3.135,63 km²) de superficie · 398.584 m (398,58 km) de perímetro del macizo (GMBA v2.0 #11142).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Éfeso y Metrópolis hacia el oeste ([Caístro](lugares:kaystros-ionia)), Trales, Nisa y Magnesia del Meandro al pie meridional sobre el río [Meandro](lugares:maiandros-ionia).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "El santuario de Plutón y Core (*Ploutonion / Charonion*) de Acaraca entre Nisa y Trales en las laderas sobre el Meandro (Estrabón 14.1.44), citado por sus exhalaciones subterráneas curativas.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Célebre según Estrabón (14.1.15) por la fertilidad de sus valles y por el vino de Mesogis cultivado en sus laderas; pinares de Anatolia, encinas y pastos.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

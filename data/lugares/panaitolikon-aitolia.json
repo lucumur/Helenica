@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Gran macizo interior de Etolia al norte del lago Tricónide (1.924 m)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.924 m s. n. m. (pico Kyra Vgena; 2.037 m en GMBA v2.0 incluyendo el bloque oriental).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "1.728.480.270 m² (1.728,48 km²) de superficie · 196.305 m (196,31 km) de perímetro del macizo (GMBA v2.0 #19901).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Termo (santuario federal etolio al pie suroccidental sobre el lago Tricónide), Agrinio / Estrato al oeste sobre el [Aqueloo](lugares:akheloos-aitolia), y las aldeas de los etolos mesogeios en las quebradas.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Recinto panetolio de Termo (*Thermon*) en la meseta meridional bajo las escarpas del macizo, y fortalezas etolias de altura en los accesos desde Euritania.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Bosques de abeto griego y robles caducifolios; presencia histórica de oso pardo, jabalí y rebecos en los peñascos calcáreos.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

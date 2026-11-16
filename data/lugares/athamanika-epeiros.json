@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Alta cadena del sureste de Epiro entre el Aracto y el Aqueloo (2.393 m)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "2.429 m s. n. m. (pico Kakarditsa / Tzoumerka; 2.383 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "1.910.031.850 m² (1.910,03 km²) de superficie · 204.318 m (204,32 km) de perímetro del macizo (GMBA v2.0 #18100).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Argithea y Teodoria en las cuencas altas del [Aracto](lugares:arakhthos-epeiros) y el [Aqueloo](lugares:akheloos-aitolia), territorio de [Athamania](lugares:athamanes-900).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Fortalezas y aldeas de altura de los atamanes (como Argithea) encaramadas sobre los cañones fluviales (Tito Livio 38.1–2).",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Abeto griego, haya, águila real, buitre y trucha de río en los rápidos del Aracto y el Aqueloo.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

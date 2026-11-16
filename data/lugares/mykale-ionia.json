@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Promontorio montañoso frente a Samos (1.237 m), sede del Panionion y del cabo Trogilio (Il. 2.869)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.237 m s. n. m. (pico Dilek Dağı; 1.215 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "427.211.740 m² (427,21 km²) de superficie · 121.790 m (121,79 km) de perímetro del macizo (GMBA v2.0 #18710).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Priene en la falda sur sobre el valle del [Meandro](lugares:maiandros-ionia), Melie al pie norte y Samos directamente al otro lado del estrecho.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "El **Panionion** (santuario federal de las doce ciudades jonias en honor a Poseidón Heliconio, cerca de melia en la ladera norte, Heródoto 1.148), además del santuario de Atenea en Priene al sur.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Denso bosque costero de pino de Calabria, roble y adelfas, con una célebre población histórica de caballos salvajes, jabalíes y chacales; antiguo bosque sacro mencionado en la batalla de Mícale (479 a.C.).",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

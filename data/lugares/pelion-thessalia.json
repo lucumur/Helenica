@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Cordillera costera de Magnesia sobre el golfo Pagasético y el Egeo (1.624 m); morada de Quirón (Il. 2.744)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.624 m s. n. m. (pico Pourianos Stavros; 1.596 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "1.082.535.670 m² (1.082,54 km²) de superficie · 370.106 m (370,11 km) de perímetro del macizo (GMBA v2.0 #19891).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Yolco, Pagasas, Demetríade y [Lakereia](lugares:lakereia-thessalia) en el lado del golfo Pagasético; Melibea, Casthanea y Corope en la fachada egea.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Cueva y santuario de [Quirón](entes:kheiron) junto a la cima, donde según Heráclides Crético y Dicearco se alzaba el templo de Zeus Acteo al que subían en procesión estival los ciudadanos envueltos en pieles de carnero; santuario de Apolo Coropeo al pie.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "En el mito, hogar de los Centauros y del sabio [Quirón](entes:kheiron), maestro de medicina y botánica (*Il.* 2.744, 16.143); madera de fresno de su cumbre formó la lanza de Aquiles (*Il.* 16.143) y pinos para la nave *Argo*. Teofrasto y Dicearco ponderan su riqueza única en árboles y hierbas medicinales (hayas, castaños, tilos, manzanos silvestres).",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

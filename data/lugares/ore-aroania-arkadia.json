@@ -8,7 +8,38 @@
     "oros"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "2.355 m s. n. m. (cumbre Helmos / Psili Koryfi; 2.308 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "973.636.040 m² (973,64 km²) de superficie · 152.838 m (152,84 km) de perímetro del macizo (GMBA v2.0 #19964).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Lousi y Clítor al oeste y suroeste, [Pheneós](lugares:pheneos-arkadia) al sudeste, Nonacris ([Nonakris](lugares:nonakris-arkadia)) y [Kerýneia](lugares:keryneia-achaia) al norte hacia Acaya.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Santuario federal arcadio de Ártemis Hemerasia en Lousi (en alto valle a ~1.200 m, Polibio 4.18) y la cascada sagrada de la [Estigia](lugares:cascada-de-styx-de-nonakris-arkadia) en el barranco oriental junto a Nonacris (Paus. 8.17.6–18.6).",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Pausanias (8.18.4–6) describe las aguas heladas y corrosivas de la Estigia (que disuelven todo recipiente salvo la pezuña de caballo) y la trucha salvaje en los torrentes del Aroania; tejos, hayas, abetos cefalonios y flora alpina endémica de Helmos.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -34,5 +65,8 @@
       37.95
     ],
     "precision": "aprox"
+  },
+  "descripcion": {
+    "texto": "Alto macizo kárstico entre Arcadia septentrional y Acaya (2.355 m), donde nace el río Cratis y se despeña la Estigia (Paus. 8.17–18)."
   }
 }

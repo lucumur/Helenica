@@ -14,17 +14,50 @@
       "url": "https://www.maicar.com/GML/Arcadia.html\""
     }
   ],
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.929 m s. n. m. (estribación septentrional del conjunto Kyllene–Aroania sobre Nonacris).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "Aprox. 75.000.000 m² (75 km²) de superficie · aprox. 36.000 m (36 km) de perímetro local (estimación cartográfica aprox.; adyacente a GMBA v2.0 #19964–19965).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Pheneós](lugares:pheneos-arkadia) al sur y Egas / Eguira al norte sobre el golfo de Corinto en Acaya, a lo largo del curso del río [Cratis](lugares:krathis-achaia).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Santuario de [Artemisa Pyronia](entes:artemisa-pyronia) en la montaña, de donde los habitantes de Feneo obtenían antiguamente el fuego sagrado para las fiestas Lerneias (Paus. 8.15.8–9); [Nonakris](lugares:nonakris-arkadia) al pie.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Pastos de altura y bosques de abeto cefalonio en las vertientes que alimentan las fuentes perennes del [Krathis](lugares:krathis-achaia) (Paus. 8.15.8).",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
-    "Lugar"
+    "Monte"
   ],
   "areas": [
     "peloponeso"
   ],
   "escala": "chora",
   "forma": [],
-  "funciones": [],
+  "funciones": [
+    "natural"
+  ],
   "pertenece_a": [
     {
       "col": "lugares",
@@ -38,5 +71,8 @@
       37.98
     ],
     "precision": "aprox"
+  },
+  "descripcion": {
+    "texto": "Monte de Arcadia septentrional junto a Feneo donde nace el río Cratis y se alzaba el santuario de Artemisa Pironia (Paus. 8.15.8–9)."
   }
 }

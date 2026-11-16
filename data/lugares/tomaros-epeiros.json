@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Sierra que domina el valle y santuario oracular de Dodona (1.974 m; Estrabón 7.7.11)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.974 m s. n. m. (pico Olytsika / Tomaro; 1.922 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "890.403.760 m² (890,40 km²) de superficie · 211.691 m (211,69 km) de perímetro del macizo (GMBA v2.0 #20356).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "El valle y gran santuario oracular de **Dodona** al pie oriental (santuario más antiguo de Zeus en el mundo helénico, *Il.* 16.233), y Pasaron al norte.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Santuario oracular de Zeus Dodoneo y Dione en el valle oriental inmediato (Estrabón 7.7.11), con teatro, buleuterio y templo rodeando la encina sagrada.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Las célebres encinas proféticas (*φηγός*, roble albar / quejigo sagrado) cuyas hojas susurraban los oráculos de Zeus (*Od.* 14.327–328; Estrabón 7.7.11), además de palomas sagradas y abundantes manantiales al pie (Teopompo menciona cien fuentes).",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

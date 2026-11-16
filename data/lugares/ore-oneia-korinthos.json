@@ -8,7 +8,38 @@
     "oros"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "582 m s. n. m. (cresta principal al sureste de Corinto).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "Aprox. 65.000.000 m² (65 km²) de superficie · aprox. 42.000 m (42 km) de perímetro de la sierra transversal (estimación cartográfica aprox.).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Qórinthos](lugares:qorinthos-korinthia) y su ciudadela [Akrokórinthos](lugares:akrokorinthos-korinthia) al noroeste, [Kenchreái](lugares:kenchreai-korinthos) en el golfo Sarónico al nordeste, y [Ténea](lugares:tenea-korinthos) y [Solygeia](lugares:solygeia) al sur.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Pasos fortificados defendidos en época clásica por los ejércitos aliados para bloquear la entrada al Peloponeso (Tucídides 4.44; Jenofonte, *Helénicas* 7.1.41–42) y atalayas militares que vigilaban el paso entre Corinto y [Kenchreái](lugares:kenchreai-korinthos).",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Ladera caliza cubierta de maquia baja de lentisco, pino de Alepo (*Pinus halepensis*) y pastos secos para rebaños de cabras.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -34,5 +65,8 @@
       37.86
     ],
     "precision": "aprox"
+  },
+  "descripcion": {
+    "texto": "Cadena transversal al sudeste de Corinto que cierra el acceso hacia la Argólide y el golfo Sarónico (582 m; Tucídides 4.42–44)."
   }
 }

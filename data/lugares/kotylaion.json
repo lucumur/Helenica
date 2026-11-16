@@ -8,7 +8,38 @@
     "oros"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "c. 900–1.070 m s. n. m. (macizo oriental entre Tamynai, Dystos y la costa egea).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "Aprox. 90.000.000 m² (90 km²) de superficie · aprox. 42.000 m (42 km) de perímetro aproximado (estimación cartográfica aprox.; incluido en GMBA #14796: 2.797.016.790 m²).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Tamynai](lugares:tamynai), [Dystos](lugares:dystos), [Zarēx](lugares:zarex) y [Eretria](lugares:eretria) al oeste y sur.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Según Antíoco y la tradición arcaica, estaba consagrado a Artemisa; cerca se hallaba el santuario de [Apóllōn en Támynais](lugares:apollon-en-tamynais) y las fortificaciones de la batalla de Táminas (348 a.C., Esquines 3.86–88).",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Matorral mediterráneo de lentisco y coscoja con bosquetes de robles en las laderas húmedas orientales.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -34,5 +65,8 @@
       38.52
     ],
     "precision": "aprox"
+  },
+  "descripcion": {
+    "texto": "Sierra de Eubea centro-oriental consagrada a Artemisa, sobre el distrito de Táminas y el lago de Distos."
   }
 }

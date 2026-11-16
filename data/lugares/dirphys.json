@@ -8,7 +8,38 @@
     "oros"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.743 m s. n. m. (pico Delfi, punto culminante de toda la isla de Eubea; GMBA unidad #14796 *Euboean Mountains*: 1.714 m).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "Aprox. 240.000.000 m² (240 km²) de superficie · aprox. 72.000 m (72 km) de perímetro del macizo central de Dirfis (estimación cartográfica aprox.; conjunto GMBA #14796 *Euboean Mountains*: 2.797.016.790 m² / 2.797,02 km², perímetro 631.917 m).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Chalkis](lugares:chalkis-euboia) y la [llanura Lelantina](lugares:lelantion) al oeste (recorrida por el río [Lēlas](lugares:lelas)); [Diakreis](lugares:diakreis) y [Eretria](lugares:eretria) hacia el sur y sudoeste.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "En sus alturas o estribaciones se alzaba el [Santuario de Hēra Dirphya](lugares:santuario-de-hera-dirphya), consagrado a [Hēra Dirphya](entes:hera-dirphya), junto con atalayas de paso hacia la costa oriental egea.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Notables bosques endémicos de castaños, abeto cefalonio (*Abies cephalonica*) en las cotas altas y plátanos orientales en las gargantas del río Lelas; jabalíes y flora endémica de Eubea (como *Sideritis euboea*, «té de montaña de Dirfis»).",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -34,5 +65,8 @@
       38.6
     ],
     "precision": "aprox"
+  },
+  "descripcion": {
+    "texto": "La montaña más alta de Eubea (1.743 m), que domina Calcis y la llanura Lelantina, sede del culto a Hera Dirfia."
   }
 }

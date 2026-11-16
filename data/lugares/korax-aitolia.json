@@ -20,7 +20,38 @@
   "descripcion": {
     "texto": "Macizo entre la Dóride, la Lócride ozolia y Etolia oriental (2.495 m, Estrabón 10.2.4)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "2.495 m s. n. m. (pico Korakas en el macizo del Vardusia; 2.429 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "463.557.590 m² (463,56 km²) de superficie · 108.558 m (108,56 km) de perímetro del macizo (GMBA v2.0 #19886).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Kallipolis en Etolia oriental al oeste y las aldeas de la Dóride en el alto valle del [Cefiso](lugares:kephisos-boiotia) al nordeste; Naupacto hacia el sudoeste en el curso bajo del [Hileto (Mornos)](lugares:hylaithos-lokris).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Pasos montanos defensivos entre Etolia, Fócide y Lócride ozolia descritos por Estrabón (10.2.4) y Tito Livio.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Grandes abetales (*Abies cephalonica*), hayas y tejos; osos pardos balcánicos, lobos y corzos; bandadas de cuervos (*κόρακες*) que originan el orónimo.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

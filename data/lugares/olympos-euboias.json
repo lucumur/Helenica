@@ -8,7 +8,38 @@
     "oros"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.172 m s. n. m. (cumbre central de Eretria sobre la costa de Amarynthos).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "Aprox. 85.000.000 m² (85 km²) de superficie · aprox. 40.000 m (40 km) de perímetro del macizo (estimación cartográfica aprox.; incluido en GMBA #14796: 2.797.016.790 m²).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Eretria](lugares:eretria) ([Eretria, Euboia](lugares:eretria-euboia)), [Vega Costera Amarynthia](lugares:vega-costera-amarynthia) con el santuario de [Artemis Amarysia](lugares:artemis-amarysia), y [Tamynai](lugares:tamynai) al este.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Puestos fortificados eretrios en los pasos hacia la isla interior y santuarios rurales de altura vinculados a la chora de Eretria.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Pinares de pino de Alepo, encinares y praderas de pastoreo lanar documentadas en la cercana [Tamynai](lugares:tamynai).",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -34,5 +65,8 @@
       38.47
     ],
     "precision": "aprox"
+  },
+  "descripcion": {
+    "texto": "Monte central de Eubea al nordeste de Eretria y Amarynthos (1.172 m)."
   }
 }

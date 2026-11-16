@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Macizo de unión entre el Pindo meridional y Etolia septentrional (2.315 m), donde nace el Esperqueo."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "2.315 m s. n. m. (pico Velouchi; 2.286 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "423.571.000 m² (423,57 km²) de superficie · 98.244 m (98,24 km) de perímetro del macizo (GMBA v2.0 #19903).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Karpenisi y las aldeas de los euritanos y dólopes en las faldas occidentales y orientales; cabecera del [Esperqueo](lugares:sperkheios-malis).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Pasos de montaña que comunicaban Ftiótide y Tesalia con Etolia y Euritania (donde habitaban pueblos de santuarios pastoriles como el oráculo de Odiseo entre los euritanos, Aristóteles fr. 508).",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Bosques densos de abeto cefalonio, haya y pastos alpinos; lobo gris, corzo, jabalí y águila real.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

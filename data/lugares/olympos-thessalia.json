@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "La cumbre más alta de Grecia (2.917 m), frontera septentrional de Tesalia con Macedonia y morada de los dioses olímpicos."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "2.917 m s. n. m. (pico Mytikas / Panteón; 2.860 m en GMBA v2.0). La montaña más alta de Grecia.",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "561.226.400 m² (561,23 km²) de superficie · 95.502 m (95,50 km) de perímetro del macizo (GMBA v2.0 #11685).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Dion en la fachada macedonia nordoriental; Pition, Dólico, Azoro y Elasona (en Perrebia, sobre el [Titaresio](lugares:titaresios-thessalia)) al oeste; Gonnos y Tempe (en el [Peneo](lugares:peneios-thessalia)) al sur.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Gran santuario federal de [Zeus](entes:zeus) Olímpico en Dion en el piedemonte septentrional y altar sacrificial helenístico-romano de Zeus en la cima de Agios Antonios (2.817 m, con inscripciones y monedas); paso fortificado de Petra entre Macedonia y Tesalia.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "En el mito, morada suprema de los dioses olímpicos y de las [Musas Olímpicas](entes:mousai-olympiades) (*Il.* 1.497, *Od.* 6.42). Más de 1.700 especies vegetales descritas (incluidas decenas de endemismos como *Jankaea heldreichii*); rebecos balcánicos (*Rupicapra rupicapra*), pinos bosnios (*Pinus heldreichii*) y águila real.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

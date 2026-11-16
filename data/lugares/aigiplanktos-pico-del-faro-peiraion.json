@@ -8,7 +8,38 @@
     "oros"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.058 m s. n. m. (pico occidental de la cadena Gerania–Loutraki).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "Aprox. 24.000.000 m² (24 km²) de superficie · aprox. 21.000 m (21 km) de perímetro del espolón (estimación cartográfica aprox., integrado en GMBA v2.0 #19898).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Thermai](lugares:thermai-peiraion), [Peiraia](lugares:peiraia-peiraion), [Perachōra](lugares:perachora) y [Oinóē](lugares:oinoe-peiraion) al oeste y sur sobre la península del Peiraion.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Cumbre señalera (pico del Faro / *phryktōria*) citada en la cadena de hogueras desde Troya hasta Argos en Esquilo (*Agamenón* 303), desde donde las señales saltaban sobre la laguna [Limnē Gorgôpis](lugares:limne-gorgopis-peiraion) hacia el Aracneo.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Nombre alusivo a las cabras monteses y rebaños errantes (*αἰγίπλαγκτος*, «donde yerran las cabras»); pinares de Alepo y roquedo calizo.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -34,5 +65,8 @@
       38.031
     ],
     "precision": "aprox"
+  },
+  "descripcion": {
+    "texto": "Espolón occidental del macizo de Gerania sobre el lago Gorgopis, mencionado por Esquilo (*Agam.* 303) como estación de señales ígneas hacia Micenas."
   }
 }

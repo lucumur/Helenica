@@ -8,7 +8,38 @@
     "oros"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "2.224 m s. n. m. (pico Olonos; 2.169 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "480.611.870 m² (480,61 km²) de superficie · 99.513 m (99,51 km) de perímetro del macizo (GMBA v2.0 #19962).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Psofis al sur en la confluencia con el Aroanio y el [Erimanto](lugares:erymanthos-arkadia), Lasión y Tritaia al oeste en la frontera con Élide, Fara y Dime al noroeste en Acaya.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Santuario de [Artemisa](entes:artemis) en las alturas de Lampea y pasos fortificados que comunicaban Arcadia noroccidental con Élide y Acaya (Polibio 4.70).",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Escenario del cuarto trabajo de [Heracles](entes:herakles): guarida del monstruoso [Jabalí de Erimanto](entes:jabali-de-erymanthos) que devastaba los campos de Psofis (Apolodoro 2.5.4; Paus. 8.24.5); ciervos, lobos y extensos bosques de abeto cefalonio y roble.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -34,5 +65,8 @@
       37.98
     ],
     "precision": "aprox"
+  },
+  "descripcion": {
+    "texto": "Escarpado macizo de Arcadia noroccidental en los confines de Acaya y Élide (2.224 m), célebre por los jabalíes y bosques del mito de Heracles."
   }
 }

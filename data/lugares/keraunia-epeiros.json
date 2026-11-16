@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Cordillera costera abrupta de Caonia sobre el canal de Otranto (2.044 m)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "2.044 m s. n. m. (pico Çika; 1.982 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "812.527.010 m² (812,53 km²) de superficie · 196.258 m (196,26 km) de perímetro del macizo (GMBA v2.0 #12959).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Orico al norte en el golfo de Valona, Fénice y [Butroto](lugares:khaones-900) al sur, y Chimera en la costa jónica de Caonia.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Acantilados y atalayas costeras sobre el peligroso cabo Acroceraunio (citado por Estrabón 7.7.5 y Virgilio por sus tempestades), además de puertos fortificados como Panormo y Onchesmos.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Robledales costeros, cipreses, cabras monteses y rebaños caonios famosos en Aristóteles y Estrabón por su tamaño y fecundidad.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

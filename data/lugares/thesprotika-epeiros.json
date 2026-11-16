@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Sierras interiores de Tesprotia que enmarcan el desfiladero del Aqueronte y la cuenca del Luro."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.274 m s. n. m. (sierras interiores de Suli / Paramythia; 1.922 m en GMBA v2.0 en unidad compuesta).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "630.353.270 m² (630,35 km²) de superficie · 143.755 m (143,76 km) de perímetro del macizo (GMBA v2.0 #20777).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Elea, Ephyra (Necromanteion del [Aqueronte](lugares:akheron-epeiros)) y Casope al sur y suroeste hacia el mar Jónico.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Acrópolis fortificada de Elea sobre las laderas occidentales y las murallas de montaña de las comunidades tesprotas sobre el desfiladero del Aqueronte.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Encinares sombríos, matorral de coscoja y adelfas en los cauces del Aqueronte y el Cocito.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

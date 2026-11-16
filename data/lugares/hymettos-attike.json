@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Sierra al este de la llanura de Atenas (1.026 m), célebre por su miel y su mármol en época clásica."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.026 m s. n. m. (pico Evzonas).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "Aprox. 82.000.000 m² (82 km²) de superficie · aprox. 46.000 m (46 km) de perímetro de la sierra alargada (estimación cartográfica aprox.).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Athēnai](lugares:athenai) y los demos de la Mesogea y Paralia (Paeania, Alopeke, Aixone y Braurón en las laderas occidental y oriental), sobre el valle del [Iliso](lugares:ilissos-attike).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Santuario de cima de [Zeus](entes:zeus) Ombrio («de la lluvia») y altar de Apolo Proopsios (Paus. 1.32.2); antiguos pozos de cantera de mármol gris-azulado del Himeto y la cueva sagrada de Vari (con inscripciones de Archedemo de Tera a las Ninfas, [Pan](entes:pan) y [Apolo](entes:apollon)).",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Afamado en todo el mundo clásico por el tomillo melífero (*Thymbra capitata*) que alimentaba las colmenas productoras de la miel del Himeto (Estrabón 9.1.23; Paus. 1.32.1); tortugas griegas, pino de Alepo y cipreses.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

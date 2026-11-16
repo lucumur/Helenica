@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Macizo cónico de Magnesia al sur del desfiladero de Tempe (1.978 m), frente al Olimpo."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.978 m s. n. m. (pico Profitis Ilias; 1.920 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "464.333.440 m² (464,33 km²) de superficie · 89.067 m (89,07 km) de perímetro del macizo (GMBA v2.0 #19889).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Tempe y Gonnos al noroeste en el desfiladero del [Peneo](lugares:peneios-thessalia), Larisa al oeste, Melibea y Homolión en la costa egea oriental.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Fortaleza de Homolión en la ladera norte sobre Tempe, santuarios pastoriles de altura y torres de vigilancia costeras sobre la costa magnesia.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "En el mito, los Aloades intentaron apilar el Osa sobre el Olimpo para escalar el cielo (*Od.* 11.313–316). Hayedos excepcionales en la vertiente norte, castaños, hayas y ciervos.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

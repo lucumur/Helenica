@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Cadena calcárea paralela a la costa occidental de Acarnania frente a Léucade."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.589 m s. n. m. (pico Psili Koryfi / Boumistos; 1.527 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "1.012.193.460 m² (1.012,19 km²) de superficie · 223.577 m (223,58 km) de perímetro del macizo (GMBA v2.0 #14787).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Tirio, Paleros, Alizia, Astaco y Medión en los valles costeros y pasos de Acarnania ([Akarnanes](lugares:akarnanes-900)).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Fortalezas acarnanias encastilladas (Paleros, Alizia) y santuarios campestres en las vertientes que dominan el canal de Léucade y el mar Jónico.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Robledales valonea (*Quercus ithaburensis*), bosques de pino y castaño; pastoreo intenso y aves rapaces marinas y rupícolas.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

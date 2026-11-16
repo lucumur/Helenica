@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Macizo septentrional del Ática en la frontera con Beocia (1.413 m), con pasos fortificados hacia Decelea y File."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.413 m s. n. m. (pico Karavola; 1.382 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "507.445.550 m² (507,45 km²) de superficie · 100.754 m (100,75 km) de perímetro del macizo (GMBA v2.0 #19905).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Acarnas y Decelia en las faldas meridionales hacia [Athēnai](lugares:athenai); Maratón al sudeste; Tanagra y Oropo al norte en Beocia.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Fortalezas atenienses fronterizas de Filé (*Phylē*), Panakton y Decelia; santuario de Zeus Parnesio con altares en la cumbre (Paus. 1.32.2) y la Cueva de [Pan](entes:pan) y las Ninfas en el barranco del Kelaidonas.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Célebre en Pausanias (1.32.1) por la caza de jabalíes y osos, y por los robledales de carbón vegetal explotados por los carboneros de Acarnas (Aristófanes, *Acarnienses*). Abeto cefalonio y pino de Alepo en el parque montano.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

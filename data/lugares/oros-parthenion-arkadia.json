@@ -8,7 +8,38 @@
     "oros"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.215 m s. n. m. (cumbre del Roino / Partenio).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "Aprox. 85.000.000 m² (85 km²) de superficie · aprox. 39.000 m (39 km) de perímetro del macizo fronterizo (estimación cartográfica aprox., dentro del sector norte del Parnón).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Tegea](lugares:tegea-arkadia) y [Korytheia](lugares:korytheia-arkadia) al oeste en la llanura arcadia; [Hysiai](lugares:hysiai-argos) y [Lerna](lugares:lerna-argolis-2) al este en la Argólide.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Fortaleza fronteriza de [Parthenion](lugares:parthenion) en el puerto de montaña, santuario de Télefo (abandonado allí de niño según Paus. 8.54.6) y temenos de [Pan](entes:pan) en el lugar donde el dios se apareció al correo ateniense Filípides antes de Maratón (Heródoto 6.105).",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Pausanias (8.54.7) destaca la abundancia de grandes tortugas terrestres en los bosques del Partenio, consideradas sagradas para Pan y aptas para fabricar liras, que los habitantes no osaban capturar; encinares y pino negro.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -35,5 +66,8 @@
       37.5
     ],
     "precision": "aprox"
+  },
+  "descripcion": {
+    "texto": "Monte fronterizo entre Tegea y la Argólide (1.215 m), paso clave de Arcadia hacia el golfo Argólico y santuario de Pan y Télefo (Hdt. 6.105; Paus. 8.54.6–7)."
   }
 }

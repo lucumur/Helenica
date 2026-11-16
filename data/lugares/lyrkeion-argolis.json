@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Sierra entre la llanura argiva y Arcadia, al oeste de Argos (Estrabón 8.6.17)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.755 m s. n. m. (sector Goupata / Armeniá; 1.693 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "489.945.390 m² (489,95 km²) de superficie · 97.104 m (97,10 km) de perímetro del macizo (GMBA v2.0 #19968).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Lirceia y Orneas al nordeste, [Argos](lugares:argos-argolis) al sudeste y [Mantinéa](lugares:mantinea-arkadia) al suroeste en la vertiente arcadia.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Pequeña fortaleza y aldea de Lirceia en el valle oriental bajo los pasos hacia Arcadia (Paus. 2.25.4–5; Estrabón 8.6.17).",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Pastos altos estacionales, maquia caliza con salvia y tomillo, perdices griegas (*Alectoris graeca*) y aves de presa sobre el alto Ínaco.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

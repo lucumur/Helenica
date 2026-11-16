@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Macizo montañoso del noroeste del Peloponeso, sobre Patras y el golfo de Corinto (1.926 m)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.926 m s. n. m. (pico Pyrgaki / Vodias; 1.900 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "807.537.490 m² (807,54 km²) de superficie · 126.096 m (126,10 km) de perímetro del macizo (GMBA v2.0 #19963).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Patras ([Aroē](lugares:aroe-achaia)) y Mesatis en el piedemonte occidental sobre el golfo de Patras; Egio, Ripes y Léontion al nordeste y sudeste en el valle del [Píero](lugares:peiros-achaia) / Glaukos.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Aldeas pre-sinecistas de Patras (Aroe, Antea y Mesatis) en las laderas occidentales y santuario de Ártemis Laphria en las estribaciones sobre la ciudad; torres de vigilancia helenísticas en las crestas.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Encinares y castañares en las laderas húmedas, abeto cefalonio en las cotas altas; abundante caza menor, rapaces y rebaños de pastoreo estival trashumante.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

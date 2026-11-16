@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Macizo principal de Cefalonia (1.628 m), con santuario de Zeus Enesio en la cumbre (Estrabón 10.2.15)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.628 m s. n. m. (pico Megas Soros; 1.600 m en GMBA v2.0). Cumbre más alta de las islas Jónicas.",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "608.271.810 m² (608,27 km²) de superficie · 133.794 m (133,79 km) de perímetro del macizo (GMBA v2.0 #14800).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Cranii, Same, Pronni y Pale en los cuatro distritos costeros alrededor de [Kephallenia](lugares:kephallenia-900).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Antiguo templo y altar de [Zeus](entes:zeus) Enesio en la cumbre (Estrabón 10.2.15; Hesíodo fr. 150) y santuarios rurales de pasos.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Terra typica del endémico **abeto de Cefalonia** (*Abies cephalonica*, cuyo bosque negro originó el epíteto medieval *Monte Nero*) y hogar de una pequeña población de caballos semi-salvajes locales de montaña.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

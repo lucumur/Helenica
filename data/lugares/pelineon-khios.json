@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Macizo calcáreo septentrional de Quíos (1.297 m), con santuario de Zeus Pelineo."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.297 m s. n. m. (pico Profitis Ilias en Quíos septentrional; 1.252 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "609.113.050 m² (609,11 km²) de superficie · 123.350 m (123,35 km) de perímetro del macizo (GMBA v2.0 #18683).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Quíos ciudad al sudeste, Volissos al oeste y Kardamyla al nordeste en la isla de [Quíos](lugares:khios-900).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Santuario de cumbre de Zeus Pelineo (Estrabón 14.1.35; Estesícoro / Heródoto) y atalayas costeras sobre el estrecho hacia Asia.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "La isla alberga los exclusivos bosquetes de **lentisco productor de almáciga / mástique** (*Pistacia lentiscus var. chia*) en el sur de Quíos, además de pinos de Calabria, víboras y célebre viticultura arcaica en Ariusia en las faldas occidentales.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

@@ -8,7 +8,38 @@
     "oros"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "c. 135 m s. n. m. (colina de Karambaba frente al estrecho del Euripo).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "Aprox. 1.800.000 m² (1,8 km²) de superficie · aprox. 5.500 m (5,5 km) de perímetro de la colina urbana (estimación cartográfica aprox.).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Barrio y puerto de embarque de [Chalkis](lugares:chalkis-euboia) junto al [Puerto del Euripo](lugares:puerto-del-euripo), frente a [Aulís](lugares:aulis-boiotia) en la costa beocia.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Colina fortificada integrada en las defensas calcídicas del Euripo (Estrabón 10.1.8) y enlazada con las vías hacia el estrecho; Estrabón menciona la posible relación con el héroe epónimo Cáneto.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Vegetación ruderal y matorral mediterráneo seco en las laderas calcáreas sobre el estrecho.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -28,5 +59,8 @@
       38.465
     ],
     "precision": "aprox"
+  },
+  "descripcion": {
+    "texto": "Colina estratégica en el extremo beocio de Calcis que domina el puente y estrecho del Euripo (Estrabón 10.1.8)."
   }
 }

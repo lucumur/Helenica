@@ -21,6 +21,36 @@
       "etiqueta": "Historia y mito",
       "texto": "- Posibles Localizaciones\n  - Asia Menor, donde los Hittitas se hacian llamar \"Nesi\"\n    - Cilicia, Lidia\n  - Mundo Griego\n    - Macedonia, Tracia, Tesalia, Naxos\n  - Medio Oriente\n    - Siria, Arabia, Babilonia\n  - Nordafrica\n    - Etiopia, Egipto, Libia\n  - India",
       "refs": []
+    },
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "Altura mítica indeterminada (orónimo peregrino localizado por las fuentes antiguas en múltiples montañas: Tracia, Beocia, Eubea, Naxos, Cilicia, Asia Menor, Arabia, Etiopía o la India).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "Sin perímetro mensurable: montaña de geografía mítica (*Himn. Hom. Dion.* 1.8–9; Diodoro 3.66–67).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Asociado en la tradición clásica a Nisa de Beocia (Helicón), Nisa de Eubea (Egas/Atenas Diades), Nisa de Tracia (monte Pangeo) o Nisa del Meandro en Asia Menor (Estrabón 14.1.43–44).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Grutas de las Ninfas Nisíades y santuarios dionisíacos donde, según el mito, las ninfas criaron en secreto al infante [Dioniso](entes:dionysos) lejos de la cólera de [Hera](entes:hera).",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "En el relato dionisíaco, vides milagrosas que florecían y daban racimos en un solo día (como referían los eubeos para su vid de Nisa en Sófocles fr. 255), hiedra (*Hedera helix*) y manantiales de vino junto a corzos, linces y panteras míticas.",
+      "refs": []
     }
   ],
   "secciones": [],
@@ -35,5 +65,8 @@
   "funciones": [
     "natural"
   ],
-  "pertenece_a": []
+  "pertenece_a": [],
+  "descripcion": {
+    "texto": "Montaña mítica donde las ninfas criaron a Dioniso, ubicada por los autores antiguos en diversos territorios desde Eubea y Tracia hasta Asia Menor e India (*Himn. Hom. Dion.*)."
+  }
 }

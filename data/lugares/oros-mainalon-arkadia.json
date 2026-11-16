@@ -8,7 +8,38 @@
     "oros"
   ],
   "imagen": null,
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.981 m s. n. m. (pico Ostrakina; 1.937 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "329.609.830 m² (329,61 km²) de superficie · 81.957 m (81,96 km) de perímetro del macizo (GMBA v2.0 #19966).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "[Mantinéa](lugares:mantinea-arkadia), Palantio, [Aséa](lugares:asea-arkadia), [Tegea](lugares:tegea-arkadia), [Górtys](lugares:gortys-arkadia), Dipea, Helisonte y Megalópolis rodeando la meseta central arcadia.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Ruinas de la antigua aldea de Ménalo, santuario de [Pan](entes:pan) (donde Pausanias 8.36.7–8 recoge que se oía tocar su siringa), santuario de Atenea en las faldas y el cercano [Asklēpeion de Gortys](lugares:asklepeion-de-gortys) en el cañón del Lousios.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "En el mito, guarida de la cierva de Cerinia / Menalia (Paus. 8.22; Apolodoro 2.5.3) y morada predilecta de [Pan](entes:pan); jabalíes, lobos y grandes masas de abeto cefalonio en el macizo central.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "tipos": [
     "Monte"
@@ -34,5 +65,8 @@
       37.65
     ],
     "precision": "aprox"
+  },
+  "descripcion": {
+    "texto": "Macizo boscoso del centro de Arcadia (1.981 m), consagrado a Pan y rodeado por las ciudades de Mantinea, Tegea y Megalópolis (Paus. 8.36.7–8)."
   }
 }

@@ -19,7 +19,38 @@
   "descripcion": {
     "texto": "Cordillera lidia sobre Sardis (2.157 m) que separa las cuencas del Hermo y el Caístro (Il. 2.866)."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "2.157 m s. n. m. (pico Bozdag / Kislak; 2.122 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "4.964.010.970 m² (4.964,01 km²) de superficie · 847.226 m (847,23 km) de perímetro del macizo (GMBA v2.0 #11188).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Sardes al pie septentrional sobre el río Pactolo y el [Hermo](lugares:hermos-aiolis); Hipaipa y Tira en la vertiente meridional hacia el [Caístro](lugares:kaystros-ionia).",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Santuarios rupestres lidios de Cibeles, santuario de Ártemis Persa en Hipaipa y puestos de vigilancia antiguos en el collado sobre Sardes; Estrabón (13.4.5) describe en la cumbre un mirador de piedra blanca persa desde donde se dominaba toda la llanura del Caístro.",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "Célebre en el mito por el concurso musical de [Apolo](entes:apollon) y Pan ante el dios del monte Tmolo (Ovidio, *Met.* 11.150–179); afamado por su azafrán silvestre (*Crocus*), el vino del Tmolo y sus minas/arenas auríferas arrastradas hacia el Pactolo (Heródoto 5.101); robles y castaños.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

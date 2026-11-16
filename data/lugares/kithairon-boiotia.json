@@ -25,7 +25,38 @@
   "descripcion": {
     "texto": "Cadena montañosa entre Beocia, el Ática y la Megáride (1.409 m); escenario del ciclo tebano y dionisíaco."
   },
-  "campos": [],
+  "campos": [
+    {
+      "clave": "altitud",
+      "etiqueta": "Altitud máxima",
+      "texto": "1.409 m s. n. m. (pico Profitis Ilias; 1.386 m en GMBA v2.0).",
+      "refs": []
+    },
+    {
+      "clave": "perimetro",
+      "etiqueta": "Superficie y perímetro",
+      "texto": "370.171.150 m² (370,17 km²) de superficie · 118.060 m (118,06 km) de perímetro del macizo (GMBA v2.0 #19906).",
+      "refs": []
+    },
+    {
+      "clave": "ciudades_pie",
+      "etiqueta": "Ciudades al pie",
+      "texto": "Platea, Hisias y Eritras en la vertiente norte beocia ([Asopo](lugares:asopos-thebai)); [Eleusis](lugares:eleusis-atica) y Énoe al sur hacia el Ática; Megara al sudoeste.",
+      "refs": []
+    },
+    {
+      "clave": "en_la_montana",
+      "etiqueta": "Asentamientos y estructuras sobre la montaña",
+      "texto": "Fortalezas de Eléuteras (*Eleutherai*) y Énoe guardando el paso entre Atenas y Tebas; altares de la fiesta beocia de las Dédalas (Paus. 9.3.1–8) para [Hera](entes:hera) Citeronia y cueva de las Ninfas Esfragítides donde los coros de bacantes celebraban a [Dioniso](entes:dionysos) (Eurípides, *Bacantes*).",
+      "refs": []
+    },
+    {
+      "clave": "fauna_flora",
+      "etiqueta": "Fauna y flora especial",
+      "texto": "En el mito, monte donde habitaba el fiero león del Citerón abatido por el joven [Heracles](entes:herakles) (Apolodoro 2.4.9–10) y donde Acteón fue despedazado por sus perros; robledales y encinares antiguos usados para tallar los *daidala* de Hera.",
+      "refs": []
+    }
+  ],
   "secciones": [],
   "geo": {
     "punto": [

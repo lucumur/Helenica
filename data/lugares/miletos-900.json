@@ -1,0 +1,112 @@
+{
+  "id": "miletos-900",
+  "nombre": "Mīlētos",
+  "nombre_alt": "Jonia del sur (Mileto, Samos, Priene, Miunte)",
+  "nombre_griego": "Μίλητος",
+  "endonimo": "Millawanda",
+  "endonimo_nota": "Hitita Millawanda / Milawata (s. XIV–XIII); en Il. 2.868 la ciudad es caria.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "asia-jonia"
+  ],
+  "escala": "ethnos",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "iawones-900",
+      "nombre": "Iāwones"
+    }
+  ],
+  "descripcion": {
+    "texto": "Desembocadura del Meandro con Mileto, Priene y Miunte, y la isla de Samos con Icaria."
+  },
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "Iāones: Neleo, hijo de Codro, en la tradición (Hdt. 9.97) (C)",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Iāones",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "Kāres: los colonos tomaron mujeres carias (Hdt. 1.146) (B)",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Jónico: Mileto, Miunte y Priene forman una variante; Samos otra (Hdt. 1.142)",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Media",
+      "refs": []
+    },
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Llanura aluvial del Meandro; monte Mícale; en Samos, el Kerketeus.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "Meandro; Ímbraso de Samos.",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "Hereo de Samos: culto desde el s. X, primer hecatómpedo hacia 800 (B)",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "Hera samia; Apolo de Dídima (C para 900)",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Aristocracias",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "Basileus (inferido)",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Clima: rasgos generales del actual; para 900 a.C. se asumen similares.\n- (C): dato de tradición sin respaldo independiente. Los nombres de gobernantes concretos salen de la tradición o de la épica: son memoria, no historia comprobada."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

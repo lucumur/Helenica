@@ -35,5 +35,33 @@
   "epoca": {
     "anio": -900,
     "nota": null
-  }
+  },
+  "contiene": [
+    {
+      "grupo": null,
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "rhodos-900",
+          "nombre": "Rhodos"
+        },
+        {
+          "col": "lugares",
+          "id": "kos-900",
+          "nombre": "Kōs"
+        },
+        {
+          "col": "lugares",
+          "id": "halikarnassos-900",
+          "nombre": "Halikarnāssos"
+        },
+        {
+          "col": "lugares",
+          "id": "knidia-900",
+          "nombre": "Knidiā"
+        }
+      ]
+    }
+  ]
 }

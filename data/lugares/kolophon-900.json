@@ -1,0 +1,112 @@
+{
+  "id": "kolophon-900",
+  "nombre": "Kolophōn",
+  "nombre_alt": "Jonia central (Colofón, Éfeso, Teos, Lebedos)",
+  "nombre_griego": "Κολοφών",
+  "endonimo": "Kolophōn",
+  "endonimo_nota": "Mimnermo, fr. 9 West: fundada desde la «Pilo neleia».",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "asia-jonia"
+  ],
+  "escala": "ethnos",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "iawones-900",
+      "nombre": "Iāwones"
+    }
+  ],
+  "descripcion": {
+    "texto": "Valle del Caístro y costa central jonia: Éfeso, Colofón con Claros, Teos y Lebedos."
+  },
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "Iāones: Codridas y Neleidas, con Andróclo en Éfeso (Paus. 7.2.8) (C)",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Iāones",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "Kāres, Leleges y Lydioi (Paus. 7.2.8) (C)",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Jónico: Éfeso, Colofón, Lebedos, Teos, Clazómenas y Focea forman una variante (Hdt. 1.142)",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Media",
+      "refs": []
+    },
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Valle del Caístro; monte Coreso de Éfeso.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "Caístro (Il. 2.461); Halesos.",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "Claros: zona sagrada desde el s. IX (B); Artemision de Éfeso, con depósitos desde el s. VIII (B)",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "Ártemis de Éfeso, diosa anatolia helenizada; Apolo de Claros (B)",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Aristocracias; en Éfeso, los Basílidas conservan el título real (Estrabón 14.1.3)",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "Basileus (C)",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Clima: rasgos generales del actual; para 900 a.C. se asumen similares.\n- (C): dato de tradición sin respaldo independiente. Los nombres de gobernantes concretos salen de la tradición o de la épica: son memoria, no historia comprobada."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

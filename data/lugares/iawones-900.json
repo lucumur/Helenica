@@ -35,5 +35,28 @@
   "epoca": {
     "anio": -900,
     "nota": null
-  }
+  },
+  "contiene": [
+    {
+      "grupo": null,
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "khios-900",
+          "nombre": "Khios"
+        },
+        {
+          "col": "lugares",
+          "id": "miletos-900",
+          "nombre": "Mīlētos"
+        },
+        {
+          "col": "lugares",
+          "id": "kolophon-900",
+          "nombre": "Kolophōn"
+        }
+      ]
+    }
+  ]
 }

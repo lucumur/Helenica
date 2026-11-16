@@ -30,5 +30,23 @@
   "epoca": {
     "anio": -900,
     "nota": null
-  }
+  },
+  "contiene": [
+    {
+      "grupo": null,
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "lesbos-900",
+          "nombre": "Lesbos"
+        },
+        {
+          "col": "lugares",
+          "id": "aiolis-900",
+          "nombre": "Aiolis"
+        }
+      ]
+    }
+  ]
 }

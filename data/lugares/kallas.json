@@ -12,31 +12,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Cabeceras de Eubea septentrional. Estrabón sitúa Ōreos al pie de Telēthrion, sobre el Kallas, pero no identifica un manantial concreto (10.1.4).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Costa septentrional de Eubea, en el sector de Histiaia/Ōreos; el detalle del delta no se fija exclusivamente a partir del texto de Estrabón.",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "No se ha verificado una personificación individual en el pasaje geográfico consultado.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "El texto de Estrabón usado para la identificación no enumera sus tributarios; no se adjudican nombres por conjetura.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Curso de Eubea septentrional ligado a Histiaia/Ōreos. Estrabón lo emplea como referencia para la ubicación de la ciudad junto a Telēthrion (10.1.4).",
       "refs": []
     }
   ],
@@ -66,5 +66,11 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Estrabón, Geografía 10.1: ríos y ciudades de Eubea",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/10A*.html"
+    }
+  ]
 }

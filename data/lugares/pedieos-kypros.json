@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Bosque de Machairas, en las laderas nororientales del Troodos; cuenca alta de Kionia (Cyprus Institute, proyecto ACTIVATE).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Históricamente, bahía de Salamis/Famagusta. Actualmente parte del drenaje termina en embalses de riego al oeste de Famagusta; se distingue el destino natural antiguo de las derivaciones modernas.",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "No se ha establecido una personificación individual del Pediaios en las fuentes consultadas. El inventario hidrográfico moderno no aporta por sí solo evidencia de culto antiguo.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "La red moderna incluye los cursos Almyros y Kalogyros, identificados en el catálogo oficial de presas como pertenecientes al sistema Pediaios.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Desde Machairas avanza al nordeste por el entorno de Tamassos hacia Nicosia y luego al este por Mesaoria hacia Salamis. El desvío del cauce urbano de Nicosia en época veneciana y las presas modernas alteraron su recorrido.",
       "refs": []
     }
   ],
@@ -65,5 +65,15 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Proyecto ACTIVATE / Cyprus Institute: cuenca, recorrido y cambios del Pedieos",
+      "url": "https://activate.zone/about-the-river"
+    },
+    {
+      "titulo": "Departamento de Desarrollo del Agua de Chipre: catálogo de presas y redes fluviales",
+      "url": "https://www.gov.cy/moa-wdd/en/documents/dams-and-off-stream-ponds/catalogue-of-reservoirs/"
+    }
+  ]
 }

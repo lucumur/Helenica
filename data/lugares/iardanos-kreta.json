@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "En la identificación con el Keritis, manantiales de Meskla en el pie de las Montañas Blancas; ésta es la equivalencia adoptada por la documentación regional de Creta.",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Costa norte de Creta, junto a Platanias, al oeste de Kydōnia/Chania, en la identificación moderna con el Keritis.",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Homero sitúa a los kydōnes junto a sus corrientes (Od. 3.292–293), pero ese pasaje no fija una personificación. No se le atribuye al río cretense la genealogía del Iardanos lidio.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "La ficha regional del Keritis describe sus fuentes y valle, sin dar una lista antigua de afluentes identificados; no se completa por analogía con otros ríos.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Desde Meskla atraviesa el valle de Alikianos y llega a la playa de Platanias como Keritis/Platanias. Homero sólo permite situar el Iardanos en el ámbito de los kydōnes; la equivalencia moderna debe distinguirse de esa mención antigua.",
       "refs": []
     }
   ],
@@ -65,5 +65,11 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Región de Creta, Discover Crete: Keritis/Iardanos, fuentes y recorrido",
+      "url": "https://www.discovercrete.com/places-to-go/keritis"
+    }
+  ]
 }

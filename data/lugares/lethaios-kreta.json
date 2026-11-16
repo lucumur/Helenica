@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Cabeceras al norte de Gortyna, en la vertiente meridional de la región del Ida. La precisión depende de si el nombre antiguo se restringe al ramal de Gortyna o se extiende al sistema del Geropotamos.",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Sistema de Mesara que sale al mar de Libia por el Geropotamos. En la identificación restringida con el Mitropolianos, éste se incorpora primero al Geropotamos; los catálogos no usan siempre Lethaios con la misma extensión.",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "No se ha fijado una personificación individual segura en los testimonios consultados. La tradición de Zeus y Europa en Gortyna no convierte por sí sola al río en un dios con genealogía propia.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "No se ofrece una lista única porque la extensión del nombre es discutida: lo que sería afluente del Geropotamos puede ser el propio Lethaios en la identificación restringida.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Estrabón 10.4.11 lo hace atravesar el territorio de Gortyna. Barrington y ToposText lo equiparan al Geropotamos; otra propuesta lo identifica con el Mitropolianos que cruza la ciudad. Se conserva la distinción entre ambas escalas de identificación.",
       "refs": []
     }
   ],
@@ -65,5 +65,23 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Estrabón, Geografía 10.4: Kairatos, Cnoso y Lethaios",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/10D*.html"
+    },
+    {
+      "titulo": "Barrington Atlas, mapa 60 Creta: identificación del Lethaios con el Geropotamos",
+      "url": "https://assets.press.princeton.edu/B_ATLAS/BATL060_.pdf"
+    },
+    {
+      "titulo": "ToposText, Lethaios de Creta: localización y testimonios",
+      "url": "https://topostext.org/place/353248WLet"
+    },
+    {
+      "titulo": "Gortyn: propuesta de identificación del Lethaios con el Mitropolianos",
+      "url": "https://www.interkriti.org/crete/iraklion/gortyn.html"
+    }
+  ]
 }

@@ -12,31 +12,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Macizo de Vitosha, al sur de Sofia, según la documentación hidrográfica de la cuenca transfronteriza Struma/Strymon (UNESCO/INWEB).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Golfo Estrimónico del Egeo septentrional, después del sector de Amphipolis.",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Strymōn, hijo de Océano y Tetis en la tradición (C; Hes. Th. 337–345). Es la personificación del río, no el nombre de un rey histórico identificado.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Angitēs, tributario de la cuenca baja cuya cabecera kárstica está documentada en Piges tou Angiti; la red completa incluye otros cursos transfronterizos, que no se enumeran sin identificación antigua segura.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Desde Vitosha recorre hacia el sur la Bulgaria occidental, entra en la cuenca de Serrai y continúa por Amphipolis hasta el Egeo. El embalse actual de Kerkini y las obras de regulación no se proyectan sobre el paisaje antiguo.",
       "refs": []
     }
   ],
@@ -66,5 +66,19 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Hesíodo, Teogonía 337–370: ríos y Oceánides",
+      "url": "https://chs.harvard.edu/primary-source/hesiod-theogony-sb/"
+    },
+    {
+      "titulo": "UNESCO/INWEB: cuenca transfronteriza del Struma/Strymon",
+      "url": "https://www.inweb.gr/workshops2/sub_basins/11_Strymon.html"
+    },
+    {
+      "titulo": "Escuela Francesa de Atenas, Chronique: manantiales y relación del Angitis con el Strymon",
+      "url": "https://chronique.efa.gr/?id=830&r=report"
+    }
+  ]
 }

@@ -47,7 +47,7 @@
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "Voidomatis, Sarantaporos, Drinos, Bënça y Shushica: principales tributarios del sistema Aoos/Vjosa en el estudio de Jautzy y colaboradores (2023); se emplean nombres modernos.",
+      "texto": "Voidomatis, Sarantaporos, Drinos, Bënça y Shushica: principales tributarios del sistema Aoos/Vjosa en el estudio de Droujko y colaboradores (2023); se emplean nombres modernos.",
       "refs": []
     },
     {
@@ -68,7 +68,7 @@
   "icono": "🌊",
   "fuentes": [
     {
-      "titulo": "N. Jautzy y colaboradores (2023), cuenca y afluentes del Vjosa/Aoos",
+      "titulo": "J. Droujko y colaboradores (2023), cuenca y afluentes del Vjosa/Aoos",
       "url": "https://esurf.copernicus.org/articles/11/881/2023/esurf-11-881-2023.html"
     },
     {

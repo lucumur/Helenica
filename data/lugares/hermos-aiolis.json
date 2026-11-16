@@ -24,31 +24,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Montaña sagrada Dindymēnē en Misia, según Estrabón 13.4.5; se conserva la localización antigua como tal, sin equipararla por mera semejanza a todos los montes llamados Dindymos.",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Egeo, en el litoral del golfo de Smyrna al sur del sector de Phōkaia; Estrabón sitúa la salida cerca de Phōkaia (13.4.5). La desembocadura del Gediz moderno ha sido modificada.",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Hermos, dios fluvial incluido entre los hijos de Océano y Tetis en la tradición (C; Hes. Th. 337–345).",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Paktōlos y Hyllos/Phrygios, nombrados por Estrabón 13.4.5. Se mantiene su nomenclatura y no se fuerza una equivalencia moderna para cada hidrónimo.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Desde las cabeceras del interior atraviesa Katakekaumenē y las llanuras del territorio de Sardeis, recibe el Paktōlos y otras aguas lidias y continúa al Egeo (Estrabón 13.4.5).",
       "refs": []
     }
   ],
@@ -60,5 +60,15 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Estrabón, Geografía 13.4.5: Hermos, Paktolos e Hyllos",
+      "url": "https://beta.perseus.tufts.edu/urn%3Acts%3AgreekLit%3Atlg0099.tlg001.perseus-eng3%3A13.4/"
+    },
+    {
+      "titulo": "Hesíodo, Teogonía 337–370: ríos y Oceánides",
+      "url": "https://chs.harvard.edu/primary-source/hesiod-theogony-sb/"
+    }
+  ]
 }

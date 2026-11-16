@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Vertientes meridionales del macizo del Troodos; la cuenca moderna alcanza las zonas altas del macizo (estudio de la Universidad Tecnológica de Chipre).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Costa meridional de Chipre, en el sector de Kourion/Episkopi. La presa de Kouris y los trasvases actuales no se proyectan sobre la hidrografía antigua.",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "No se ha documentado una personificación antigua individual con el nombre Kouris en las fuentes usadas. El nombre moderno de la cuenca y la proximidad de Kourion no bastan para establecerla.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Limnatis y Kryos, que confluyen con el Kouris por encima de la presa actual; el trasvase desde Arminou no es un afluente natural (estudio de la cuenca del Kouris).",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Desciende desde el Troodos hacia el sur, reúne las redes del Limnatis y el Kryos y continúa hacia la costa del entorno de Kourion. El inventario moderno registra la fuerte intervención hidráulica reciente.",
       "refs": []
     }
   ],
@@ -65,5 +65,15 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Universidad Tecnológica de Chipre: cuenca del Kouris, cabeceras y confluencias",
+      "url": "https://ktisis.cut.ac.cy/server/api/core/bitstreams/439203fa-0e25-40a9-87d9-006e36f23945/content"
+    },
+    {
+      "titulo": "Departamento de Desarrollo del Agua de Chipre: catálogo de presas y redes fluviales",
+      "url": "https://www.gov.cy/moa-wdd/en/documents/dams-and-off-stream-ponds/catalogue-of-reservoirs/"
+    }
+  ]
 }

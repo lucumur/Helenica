@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Cabeceras del Pindos, al oeste de Tesalia; reúne las aguas de la llanura encerrada por Pindos, Othrys, Ossa, Pēlion y Olympos (Hdt. 7.129; Estrabón 9.5.1–2).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Mar Egeo, después de cruzar Tempē entre Olympos y Ossa (Hdt. 7.129; Estrabón 9.5.2).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Pēneios, hijo de Océano y Tetis en la tradición (C; Hes. Th. 337–345). Es el Peneo tesalio, no el río homónimo de Élide.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "[Titarēsios](lugares:titaresios-thessalia), [Enipeus](lugares:enipeus-thessalia), Apidanos, Onochōnos, [Pamisos](lugares:pamisos-thessalia) y [Lēthaios](lugares:lethaios-trikka), directamente o a través de sus respectivas redes (Hdt. 7.129; Estrabón 9.5.6, 19–20; documentación regional del Lethaios).",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Atraviesa la llanura tesalia hacia el este, recibe las redes occidentales y meridionales, pasa por el sector de Larisa y sale por el valle de Tempē entre Olympos y Ossa (Estrabón 9.5.1–2, 19–20).",
       "refs": []
     }
   ],
@@ -65,5 +65,23 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Heródoto, Historias 7.129: red fluvial de Tesalia",
+      "url": "https://lexundria.com/hdt/7.129/mcly"
+    },
+    {
+      "titulo": "Estrabón, Geografía 9.5: ríos de Tesalia y Malis",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/9E*.html"
+    },
+    {
+      "titulo": "Hesíodo, Teogonía 337–370: ríos y Oceánides",
+      "url": "https://chs.harvard.edu/primary-source/hesiod-theogony-sb/"
+    },
+    {
+      "titulo": "Región de Tesalia: fuentes y recorrido del Lethaios",
+      "url": "https://visitthessaly.gr/en/suggestions/litheos-river-forgetfulness"
+    }
+  ]
 }

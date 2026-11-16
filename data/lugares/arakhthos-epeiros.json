@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Red de cabeceras del Pindos cerca de Metsovo: Metsovitikos y Zagoritikos/Vardas. El parque de Tzoumerka las relaciona con Mavrovouni y el bosque de Rona; Estrabón menciona Tymphē y Parōraia (7.7.6).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Golfo de Ambracia, al sur de la actual Arta (antigua Ambrakia).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Las fuentes geográficas citadas no permiten fijar una personificación antigua individual con iconografía propia. La relación con el nombre Inakhos tiene variantes y no autoriza a copiar la genealogía argiva.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Kalarrytikos; en cabecera confluyen Metsovitikos y Zagoritikos/Vardas. Son relaciones hidrográficas documentadas por el parque de Tzoumerka.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Desde el entorno de Metsovo baja por las montañas epirotas, atraviesa la garganta de Plaka y el territorio de Ambrakia hasta el golfo. El embalse de Pournari es moderno y no forma parte del paisaje antiguo.",
       "refs": []
     }
   ],
@@ -65,5 +65,15 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Estrabón, Geografía 7.7: hidrografía de Epiro y Anfiloquía",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/7G*.html"
+    },
+    {
+      "titulo": "Parque de Tzoumerka: Arachthos, cabeceras, confluencias y desembocadura",
+      "url": "https://tzoumerka-park.gr/en/arachthos/"
+    }
+  ]
 }

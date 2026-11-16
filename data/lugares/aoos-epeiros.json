@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Pindos septentrional, en la cuenca de Vovousa; la cabecera moderna está parcialmente modificada por el embalse de fuentes del Aoos (RiverChange, ZRC SAZU).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Mar Adriático, en la costa de Albania, como Vjosa; no desemboca en el golfo de Ambracia.",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "No se ha establecido una personificación propia de este Aoos epirota en las fuentes consultadas. Los personajes y ríos homónimos de otras regiones no se identifican automáticamente con él.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Voidomatis, Sarantaporos, Drinos, Bënça y Shushica: principales tributarios del sistema Aoos/Vjosa en el estudio de Jautzy y colaboradores (2023); se emplean nombres modernos.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Sale del Pindos, recorre el sector de Konitsa, atraviesa el sur de Albania hacia el noroeste y continúa por el valle del Vjosa hasta el Adriático; combina gargantas, tramos trenzados y llanura baja.",
       "refs": []
     }
   ],
@@ -65,5 +65,15 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "N. Jautzy y colaboradores (2023), cuenca y afluentes del Vjosa/Aoos",
+      "url": "https://esurf.copernicus.org/articles/11/881/2023/esurf-11-881-2023.html"
+    },
+    {
+      "titulo": "ZRC SAZU, RiverChange: cabecera y curso del Aoos/Vjosa",
+      "url": "https://riverchange.zrc-sazu.si/vjosa-01-source/"
+    }
+  ]
 }

@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Monte Othrys, según Estrabón 9.5.6; no se confunde con los otros Enipeis de Grecia.",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Sistema del [Pēneios tesalio](lugares:peneios-thessalia). Estrabón 9.5.6 dice que entra en el Apidanos; 8.3.32 invierte la relación y dice que recibe al Apidanos. Se conserva la discrepancia antigua.",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Enipeus, río divino amado por Tyrō; Poseidón toma su aspecto en el relato (C; Od. 11.235–259). La localización del episodio tuvo variantes entre Tesalia y Élide.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Apidanos en la formulación de Estrabón 8.3.32; la relación se invierte en 9.5.6. No se oculta la discordancia bajo una lista única.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Desde Othrys pasa por el territorio de Pharsalos y la Tesalia meridional antes de integrarse, junto al Apidanos, en la red del Peneo (Estrabón 9.5.6; Hdt. 7.129).",
       "refs": []
     }
   ],
@@ -65,5 +65,23 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Estrabón, Geografía 9.5: ríos de Tesalia y Malis",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/9E*.html"
+    },
+    {
+      "titulo": "Estrabón, Geografía 8.3: Élide y ríos del Peloponeso",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/8C*.html"
+    },
+    {
+      "titulo": "Heródoto, Historias 7.129: red fluvial de Tesalia",
+      "url": "https://lexundria.com/hdt/7.129/mcly"
+    },
+    {
+      "titulo": "Enipeus: testimonios de Homero y Estrabón, incluidas las variantes de confluencia",
+      "url": "https://www.theoi.com/Potamos/PotamosEnipeus.html"
+    }
+  ]
 }

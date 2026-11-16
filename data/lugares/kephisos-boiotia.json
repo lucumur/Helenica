@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Lilaia, al pie del Parnāssos: Pausanias describe la surgencia y su ruido al brotar (10.33.4–5).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Lago Kōpais, cuenca cerrada cuyo desagüe antiguo depende de sumideros; no desembocaba directamente en el mar (Paus. 9.24.1; Estrabón 9.2.18–19).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Kēphisos, padre mítico de la náyade Lilaia (C; Paus. 10.33.4). El testimonio homérico lo llama divino (Il. 2.522, citado por Paus. 10.33.7); no se le asigna la imagen del Cefiso ático sin evidencia.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Charadros, identificado expresamente como tributario por Pausanias 10.33.6. Permēssos y Olmeios desembocan en el Kōpais y no son por ello afluentes directos del Cefiso (Estrabón 9.2.19).",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "De Lilaia pasa por la llanura focidia y los territorios de Elateia, Parapotamioi y Phanoteus; entra en Beocia por Chairōneia y alcanza la cuenca de Orchomenos y el Kōpais (Estrabón 9.2.19).",
       "refs": []
     }
   ],
@@ -65,5 +65,19 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Pausanias, Descripción de Grecia 10.33.4–7: fuentes y afluente del Cefiso",
+      "url": "https://www.theoi.com/Text/Pausanias10C.html"
+    },
+    {
+      "titulo": "Pausanias, Descripción de Grecia 9.23–40",
+      "url": "https://www.theoi.com/Text/Pausanias9B.html"
+    },
+    {
+      "titulo": "Estrabón, Geografía 9.2: ríos de Beocia",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/9B*.html"
+    }
+  ]
 }

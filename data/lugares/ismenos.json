@@ -12,31 +12,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Manantiales y cabeceras del entorno de Thēbai, vinculados a Melia y al Ismēnion en la tradición local (Paus. 9.10.5–6). Los pasajes no fijan un único punto moderno de nacimiento.",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Cuenca del lago Hylikē en la identificación topográfica habitual. Los pasajes antiguos citados se centran en Thēbai y no permiten precisar el último tramo con la misma seguridad que el curso urbano.",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Ismēnos, hijo de Apolo y Melia según Pausanias 9.10.6; otra genealogía lo hace hijo de Asōpos y Metopē (C; Apolodoro 3.12.6). El río tuvo también el nombre Ladōn en la tradición tebana, distinto del arcadio.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Dirkē y Strophia aparecen como aguas tebanas personificadas e hijas de Ismēnos en Calímaco, Himno a Delos 75 ss. (C). La genealogía no se convierte sin comprobación en un catálogo de confluencias.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Pasa junto al Ismēnion y el sector oriental de Thēbai; Estrabón lo incluye en la llanura ante la ciudad (9.2.24). Su relación con las aguas y santuarios tebanos está mejor atestiguada que el trazado completo.",
       "refs": []
     }
   ],
@@ -66,5 +66,19 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Pausanias, Descripción de Grecia 9.1–22",
+      "url": "https://www.theoi.com/Text/Pausanias9A.html"
+    },
+    {
+      "titulo": "Estrabón, Geografía 9.2: ríos de Beocia",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/9B*.html"
+    },
+    {
+      "titulo": "Testimonios antiguos de Ismenos: Pausanias 9.10.5–6; Calímaco, Himno a Delos 75 ss.",
+      "url": "https://www.theoi.com/Potamos/PotamosIsmenos.html"
+    }
+  ]
 }

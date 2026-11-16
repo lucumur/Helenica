@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Cabeceras al este/sudeste de Atenas, por encima de Agrai y el Lykeion; Estrabón menciona también el manantial celebrado en el Fedro (9.1.24).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Estrabón lo lleva a la misma costa de Falero que el Cefiso ático (9.1.24). Se distingue esa descripción antigua de las confluencias y canalizaciones modernas.",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Río sagrado asociado a Boreas, Ōreithyia y las Musas Ilisíades (Paus. 1.19.5). Los pasajes citados documentan su carácter sacro, sin describir una imagen individual del dios del río.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Ēridanos, nombrado expresamente como tributario del Ilissos por Pausanias (1.19.5).",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Discurre junto a Agrai, el Lykeion y el lado meridional de Atenas hacia Falero; Pausanias sitúa al otro lado el santuario de Artemis Agrotera y el estadio (1.19.5–6; Estrabón 9.1.24).",
       "refs": []
     }
   ],
@@ -65,5 +65,15 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Pausanias, Descripción de Grecia 1.19.5–6: Ilissos y Eridanos",
+      "url": "https://www.theoi.com/Text/Pausanias1B.html"
+    },
+    {
+      "titulo": "Estrabón, Geografía 9.1.24: ríos de Ática",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/9A*.html"
+    }
+  ]
 }

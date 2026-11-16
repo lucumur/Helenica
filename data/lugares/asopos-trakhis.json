@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Montañas al sur de Trachis, en el entorno de Oitē: sale por la garganta descrita por Heródoto (7.199; 7.216–217).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Heródoto lo hace desembocar en el golfo Maliaco junto a Anthēlē (7.200). En la red moderna se incorpora al [Sperkheios](lugares:sperkheios-malis); el avance de la llanura aluvial impide trasladar la costa actual a las Termópilas de 480 a.C.",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "No se ha establecido una personificación propia del Asopo tracinio en los textos consultados. No se importa la genealogía del Asōpos de Beocia o de Phlious.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Phoinix, arroyo que desemboca expresamente en el Asōpos según Heródoto 7.200.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Sale por la garganta al sur de Trachis, alcanza el piedemonte y pasa junto a Anthēlē hacia la antigua costa de las Termópilas (Hdt. 7.199–200). Su cuenca moderna forma parte de la del Sperkheios.",
       "refs": []
     }
   ],
@@ -65,5 +65,15 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Heródoto, Historias 7.198–200 y 216–217: ríos y costa de las Termópilas",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Herodotus/7d*.html"
+    },
+    {
+      "titulo": "Psomiadis y colaboradores (2020), estudio de la cuenca del Sperchios",
+      "url": "https://www.mdpi.com/2076-3263/10/9/377"
+    }
+  ]
 }

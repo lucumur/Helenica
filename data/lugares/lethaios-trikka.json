@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Antichasia; la documentación regional moderna sitúa los manantiales principales en Nea Zoi y otra cabecera cerca de Platanos.",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "[Pēneios](lugares:peneios-thessalia), fuera de la ciudad de Trikka/Trikala, según la documentación regional de Tesalia.",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Las fuentes usadas para su hidrografía no bastan para establecer una imagen antigua o una genealogía divina segura. No se deduce un dios del río únicamente por la relación del nombre con lēthē.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Ramal de cabecera de Platanos y arroyos menores según el inventario regional moderno; los testimonios citados no ofrecen una lista antigua con nombres.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Desde las Antichasia baja a la llanura y atraviesa Trikka, la actual Trikala, antes de incorporarse al Peneo.",
       "refs": []
     }
   ],
@@ -65,5 +65,11 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Región de Tesalia: fuentes y recorrido del Lethaios",
+      "url": "https://visitthessaly.gr/en/suggestions/litheos-river-forgetfulness"
+    }
+  ]
 }

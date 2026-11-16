@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Identificación controvertida. Dionisio hijo de Calífon, v. 67, dice que procede de Etolia, pero no da un manantial reconocible. La equivalencia con el Mornos de la descripción previa de esta ficha no es segura.",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Costa de la Lócride ozolia en el golfo de Corinto; el estuario exacto depende de la identificación discutida del río.",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "No se documenta una personificación individual en el testimonio geográfico conservado.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "No es posible asignar una red moderna de afluentes mientras no se resuelva su identificación; los del Mornos no se atribuyen automáticamente al Hylaithos.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Dionisio lo sitúa en su descripción de la costa locria después de Tolophōn. Se han propuesto el Mornos y cursos próximos a Vitrinitsa o Amphissa; la RE, «Hylaithos», expone las dificultades y no considera segura ninguna identificación.",
       "refs": []
     }
   ],
@@ -65,5 +65,11 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "RE, «Hylaithos» (1914): testimonio de Dionisio hijo de Calífon y controversia topográfica",
+      "url": "https://de.wikisource.org/wiki/RE:Hylaithos"
+    }
+  ]
 }

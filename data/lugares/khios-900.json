@@ -1,0 +1,112 @@
+{
+  "id": "khios-900",
+  "nombre": "Khios",
+  "nombre_alt": "Jonia del norte (Quíos, Eritras, Clazómenas)",
+  "nombre_griego": "Χίος",
+  "endonimo": "Khios",
+  "endonimo_nota": "Hdt. 1.142.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "asia-jonia"
+  ],
+  "escala": "ethnos",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "iawones-900",
+      "nombre": "Iāwones"
+    }
+  ],
+  "descripcion": {
+    "texto": "Quíos y la península de Eritras, con Clazómenas."
+  },
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "Iāones",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Iāones",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "Kāres y Leleges; en Quíos, carios y abantes de Eubea (Paus. 7.4.8–9) (C)",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Jónico: Quíos y Eritras forman una de las cuatro variantes de Heródoto (1.142); Focea y Clazómenas van con Éfeso",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Baja–media",
+      "refs": []
+    },
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Quíos montañosa; península de Eritras (Mimante); golfo de Esmirna al norte.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "El Hermo al norte, frontera con la Eólide.",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "Emporio en Quíos: asentamiento y santuario desde el s. VIII (C para 900)",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "Atenea; Apolo (C)",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Aristocracias",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "Basileus (inferido)",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Focea, jonia, queda en el mapa dentro del contorno de tier 1 de la Eólide; habría que mover esa frontera.\n- Clima: rasgos generales del actual; para 900 a.C. se asumen similares.\n- (C): dato de tradición sin respaldo independiente. Los nombres de gobernantes concretos salen de la tradición o de la épica: son memoria, no historia comprobada."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

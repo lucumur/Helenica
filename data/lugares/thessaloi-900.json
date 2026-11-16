@@ -1,0 +1,112 @@
+{
+  "id": "thessaloi-900",
+  "nombre": "Thessaloi",
+  "nombre_alt": "Tesalios (llanura tesalia)",
+  "nombre_griego": "Θεσσαλοί",
+  "endonimo": "Petthaloi",
+  "endonimo_nota": "Forma tesalia epigráfica (Πετθαλοί, Φετθαλοί); Θεσσαλοί es la común.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "tesalia"
+  ],
+  "escala": "ethnos",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "thessalia-900",
+      "nombre": "Thessaliā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Las dos llanuras de Tesalia (las futuras Pelasgiótide, Tesaliótide e Hestieótide): tesalios llegados del oeste sobre población eolia."
+  },
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "Thessaloi, llegados desde Tesprotia (Hdt. 7.176) (B)",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Aioleis: los beocios de Arne habrían emigrado al sur (Thuc. 1.12)",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "Pelasgoi: el «Argos pelásgico» (Il. 2.681) (C)",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Eolio tesalio, con rasgos noroccidentales en la élite",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Media",
+      "refs": []
+    },
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo continental: veranos muy calurosos en la llanura e inviernos fríos.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Dos grandes llanuras (Larisa al este; Fársalo y Trica al oeste), cerradas por el Olimpo, el Pindo, el Otris, el Osa y el Pelio.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "Peneo y su afluente el Enipeo; lago Bebeide.",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "Desconocido para 900",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "Poseidón Petraios (la apertura del Tempe) y Atenea Itonia en la tradición tesalia (C)",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Aristocracias de linaje; sin unidad política (el tagós federal es posterior)",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "Basileus de linaje; los Aleuadas de Larisa se dicen Heráclidas (C)",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Las cuatro tétradas tesalias son una reorganización del s. VI; no se usan para 900.\n- Clima: rasgos generales del actual; para 900 a.C. se asumen similares.\n- (C): dato de tradición sin respaldo independiente. Los nombres de gobernantes concretos salen de la tradición o de la épica: son memoria, no historia comprobada."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

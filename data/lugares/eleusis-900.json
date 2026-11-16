@@ -1,0 +1,112 @@
+{
+  "id": "eleusis-900",
+  "nombre": "Eleusis",
+  "nombre_alt": "Eleusis (llanura triasia)",
+  "nombre_griego": "Ἐλευσίς",
+  "endonimo": "Eleusis",
+  "endonimo_nota": "Himno homérico a Deméter.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "grecia-central"
+  ],
+  "escala": "ethnos",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "akta-900",
+      "nombre": "Aktā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Llanura triasia y Eleusis; Salamina queda incluida provisionalmente."
+  },
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "Linajes eleusinos (Eumólpidas y Cérices en la tradición) (C)",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Iāones del Ática",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "—",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Jónico ático",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Baja",
+      "refs": []
+    },
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo seco.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Llanura triasia entre el Egaleo y el Citerón; bahía de Eleusis.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "Cefiso eleusinio; los Rheitoi.",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "Eleusis: terrazas y construcciones geométricas bajo el Telesterio arcaico (B)",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "Deméter y Core (B)",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Linajes sacerdotales con basileis locales (Himno a Deméter 473–476)",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "Basileus: el Himno a Deméter nombra a Triptólemo, Diocles, Eumolpo y Céleo (C)",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- La absorción por Atenas es tradicional (guerra de Erecteo con Eleusis) y se fecha probablemente en el s. VII.\n- Salamina: adscripción de 900 desconocida; disputada después entre Mégara y Atenas.\n- Clima: rasgos generales del actual; para 900 a.C. se asumen similares.\n- (C): dato de tradición sin respaldo independiente. Los nombres de gobernantes concretos salen de la tradición o de la épica: son memoria, no historia comprobada."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

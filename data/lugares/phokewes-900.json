@@ -30,5 +30,33 @@
   "epoca": {
     "anio": -900,
     "nota": null
-  }
+  },
+  "contiene": [
+    {
+      "grupo": null,
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "lokroi-ozolai-900",
+          "nombre": "Lokroi Ozolai"
+        },
+        {
+          "col": "lugares",
+          "id": "doris-900",
+          "nombre": "Dōris"
+        },
+        {
+          "col": "lugares",
+          "id": "lokroi-900",
+          "nombre": "Lokroi"
+        },
+        {
+          "col": "lugares",
+          "id": "phokees-900",
+          "nombre": "Phōkēes"
+        }
+      ]
+    }
+  ]
 }

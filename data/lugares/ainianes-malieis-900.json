@@ -1,0 +1,112 @@
+{
+  "id": "ainianes-malieis-900",
+  "nombre": "Ainiānes kai Mālieis",
+  "nombre_alt": "Enianes y malios (valle del Esperqueo)",
+  "nombre_griego": "Αἰνιᾶνες καὶ Μαλιεῖς",
+  "endonimo": "Ainiānes",
+  "endonimo_nota": "Il. 2.749 (Ἐνιῆνες); Μηλιεῖς / Μαλιεῖς en Hdt. 7.198.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "tesalia"
+  ],
+  "escala": "ethnos",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "thessalia-900",
+      "nombre": "Thessaliā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Valle del Esperqueo y golfo Malíaco, hasta las Termópilas: enianes en el alto valle, malios en la costa."
+  },
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "Ainiānes y Mālieis",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Ainiānes y Mālieis",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "—",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Noroccidental con rasgos eolios (C)",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Baja",
+      "refs": []
+    },
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo de valle cerrado, cálido en verano.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Valle del Esperqueo entre el Eta y el Otris; las Termópilas entre el Eta y la costa.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "Esperqueo; aguas termales de las Termópilas.",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "Antela: Deméter Anfictiónide, sede antigua de la anfictionía (Hdt. 7.200) (C para 900)",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "Deméter de Antela",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Jefaturas",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "Basileus local (inferido)",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Clima: rasgos generales del actual; para 900 a.C. se asumen similares.\n- (C): dato de tradición sin respaldo independiente. Los nombres de gobernantes concretos salen de la tradición o de la épica: son memoria, no historia comprobada."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

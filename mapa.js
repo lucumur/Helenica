@@ -263,8 +263,12 @@ ${physicalSVG(D, opts.selectedId)}
       svg.style.setProperty('--u', u);
       const placed = [], sx = x => (x - view[0]) / u, sy = y => (y - view[1]) / u;
       const fits = b => { for (const p of placed) if (!(b[2] < p[0] || b[0] > p[2] || b[3] < p[1] || b[1] > p[3])) return false; placed.push(b); return true; };
-      const t2areas = new Set(lvl >= 3 && T && D.t2[T] ? D.t2[T].flatMap(z => z.areas) : []);
-      const subVisible = s => k + 1e-9 >= zk(s.nivel ?? 3) && !t2areas.has(s.padre);
+      const t2z = lvl >= 3 && T && D.t2[T] ? D.t2[T] : [];
+      const t2areas = new Set(t2z.flatMap(z => z.areas));
+      // Una subregión clásica solo cede ante el tier 2 si una zona de tier 2 cubre su punto de etiqueta (las Cícladas no ocultan Lemnos).
+      const inR = ([x, y], r) => { let c = false; for (let a = 0, b = r.length - 1; a < r.length; b = a++) { const [xi, yi] = r[a], [xj, yj] = r[b]; if ((yi > y) !== (yj > y) && x < (xj - xi) * (y - yi) / (yj - yi) + xi) c = !c; } return c; };
+      const t2cov = s => s.etiqueta && t2z.some(z => z.areas.includes(s.padre) && (!z.bbox || (s.etiqueta[0] >= z.bbox[0] && s.etiqueta[0] <= z.bbox[2] && s.etiqueta[1] >= z.bbox[1] && s.etiqueta[1] <= z.bbox[3])) && z.poligonos.some(p => inR(s.etiqueta, p[0])));
+      const subVisible = s => k + 1e-9 >= zk(s.nivel ?? 3) && !t2cov(s);
       svg.querySelectorAll('.z0').forEach(p => { p.style.display = t0on && p.dataset.t0 === T ? 'inline' : 'none'; });
       gZ0.querySelectorAll('.z0l').forEach(g => {
         if (!t0on || g.dataset.t0 !== T) { g.style.display = 'none'; return; }

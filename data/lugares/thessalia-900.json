@@ -35,5 +35,43 @@
   "epoca": {
     "anio": -900,
     "nota": null
-  }
+  },
+  "contiene": [
+    {
+      "grupo": null,
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "magnetes-900",
+          "nombre": "Magnētes"
+        },
+        {
+          "col": "lugares",
+          "id": "perrhaiboi-900",
+          "nombre": "Perrhaiboi"
+        },
+        {
+          "col": "lugares",
+          "id": "akhaioi-phthiotai-900",
+          "nombre": "Akhaioi Phthiōtai"
+        },
+        {
+          "col": "lugares",
+          "id": "ainianes-malieis-900",
+          "nombre": "Ainiānes kai Mālieis"
+        },
+        {
+          "col": "lugares",
+          "id": "dolopes-900",
+          "nombre": "Dolopes"
+        },
+        {
+          "col": "lugares",
+          "id": "thessaloi-900",
+          "nombre": "Thessaloi"
+        }
+      ]
+    }
+  ]
 }

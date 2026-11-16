@@ -1,0 +1,112 @@
+{
+  "id": "kekropia-900",
+  "nombre": "Kekropiā",
+  "nombre_alt": "Cecropia (Atenas y su llanura)",
+  "nombre_griego": "Κεκροπίᾱ",
+  "endonimo": "Athēnai",
+  "endonimo_nota": "Ἀθῆναι; Κεκροπία como nombre antiguo del Ática (C).",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "grecia-central"
+  ],
+  "escala": "ethnos",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "akta-900",
+      "nombre": "Aktā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Atenas y la llanura del Cefiso, entre el Egaleo, el Parnes, el Pentélico y el Himeto."
+  },
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "Iāones: linajes atenienses",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Iāones",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "Pelasgoi y la autoctonía ateniense (Hdt. 1.56–57; 8.44) (C)",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Jónico ático",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Media (la mayor del Ática)",
+      "refs": []
+    },
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo seco.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Llanura ateniense; Acrópolis y Areópago; Egaleo, Parnes, Pentélico e Himeto.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "Cefiso e Iliso; fuente Calírroe.",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "Acrópolis: Atenea, con depósitos geométricos (B)",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "Atenea Polias; Erecteo y Poseidón en la tradición (C)",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Basileus con poder en retroceso; el arcontado anual empieza en 683 (C)",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "Basileus (después, el arconte basileus); Medóntidas en la tradición (C)",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Las necrópolis protogeométricas y geométricas del Cerámico son la mejor serie cerámica de Grecia para estas fechas.\n- Clima: rasgos generales del actual; para 900 a.C. se asumen similares.\n- (C): dato de tradición sin respaldo independiente. Los nombres de gobernantes concretos salen de la tradición o de la épica: son memoria, no historia comprobada."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

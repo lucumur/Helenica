@@ -1,0 +1,112 @@
+{
+  "id": "magnetes-900",
+  "nombre": "Magnētes",
+  "nombre_alt": "Magnesia (Pelio, Osa y Espóradas)",
+  "nombre_griego": "Μάγνητες",
+  "endonimo": "Magnētes",
+  "endonimo_nota": "Il. 2.756–759.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "tesalia"
+  ],
+  "escala": "ethnos",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "thessalia-900",
+      "nombre": "Thessaliā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Pelio, Osa y la orilla oriental del golfo Pagasético, con Yolco y las Espóradas del norte."
+  },
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "Magnētes",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Magnētes",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "Minuai de Yolco, en el ciclo de los Argonautas (C)",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Eolio",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Baja",
+      "refs": []
+    },
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo húmedo en la fachada egea del Pelio; más templado y seco en el golfo.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Pelio (1.624 m) y Osa (1.978 m), costa abrupta al Egeo; golfo Pagasético; islas de Esciatos, Peparetos e Icos.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "Torrentes cortos; el Anauro de Yolco.",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "Yolco (Volos): asentamiento y necrópolis con continuidad desde el micénico (B)",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "Zeus Akraios en la cumbre del Pelio; Quirón en su cueva (C)",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Jefaturas",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "Basileus local (inferido); épico: Pelias y Jasón en Yolco (C)",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- En el Catálogo (Il. 2.756–759) los magnetes de Prótoo viven «en torno al Peneo y el Pelio».\n- Clima: rasgos generales del actual; para 900 a.C. se asumen similares.\n- (C): dato de tradición sin respaldo independiente. Los nombres de gobernantes concretos salen de la tradición o de la épica: son memoria, no historia comprobada."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

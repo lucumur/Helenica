@@ -35,5 +35,33 @@
   "epoca": {
     "anio": -900,
     "nota": null
-  }
+  },
+  "contiene": [
+    {
+      "grupo": null,
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "eleusis-900",
+          "nombre": "Eleusis"
+        },
+        {
+          "col": "lugares",
+          "id": "tetrapolis-900",
+          "nombre": "Tetrapolis"
+        },
+        {
+          "col": "lugares",
+          "id": "mesogaia-900",
+          "nombre": "Mesogaia"
+        },
+        {
+          "col": "lugares",
+          "id": "kekropia-900",
+          "nombre": "Kekropiā"
+        }
+      ]
+    }
+  ]
 }

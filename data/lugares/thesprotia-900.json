@@ -1,0 +1,112 @@
+{
+  "id": "thesprotia-900",
+  "nombre": "Thesprōtoi",
+  "nombre_alt": "Tesprotia (Aqueronte y Dodona)",
+  "nombre_griego": "Θεσπρωτοί",
+  "endonimo": "Thesprōtoi",
+  "endonimo_nota": "Od. 14.315–316; Hdt. 2.56.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "epiro"
+  ],
+  "escala": "ethnos",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "thesprotoi-900",
+      "nombre": "Thesprōtoi"
+    }
+  ],
+  "descripcion": {
+    "texto": "Costa sur del Epiro: el Aqueronte, Éfira y Dodona."
+  },
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "Thesprōtoi",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Thesprōtoi",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "Selloi, los sacerdotes de Dodona (Il. 16.233–235) (C)",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Noroccidental",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Baja",
+      "refs": []
+    },
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo; en la montaña, el sector más lluvioso de Grecia.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Costa de Parga; valle de Dodona bajo el Tómaro.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "Aqueronte y lago Aquerusio; Cocito; Tiamis.",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "Dodona: culto con depósitos de la Edad del Bronce y continuidad (B)",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "Zeus de Dodona y Dione; la encina oracular (Il. 16.233; Od. 14.327) (B)",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Jefaturas",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "Basileus; épico: Fidón, rey de los tesprotos (Od. 14.316) (C)",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Heródoto (2.56) sitúa Dodona en Tesprotia; los molosos la controlan más tarde.\n- Clima: rasgos generales del actual; para 900 a.C. se asumen similares.\n- (C): dato de tradición sin respaldo independiente. Los nombres de gobernantes concretos salen de la tradición o de la épica: son memoria, no historia comprobada."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

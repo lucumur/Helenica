@@ -30,5 +30,33 @@
   "epoca": {
     "anio": -900,
     "nota": null
-  }
+  },
+  "contiene": [
+    {
+      "grupo": null,
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "amphilokhoi-900",
+          "nombre": "Amphilokhoi"
+        },
+        {
+          "col": "lugares",
+          "id": "akarnanes-900",
+          "nombre": "Akarnānes"
+        },
+        {
+          "col": "lugares",
+          "id": "aitoloi-paralioi-900",
+          "nombre": "Aitōloi"
+        },
+        {
+          "col": "lugares",
+          "id": "aitoloi-mesogeioi-900",
+          "nombre": "Eurutānes"
+        }
+      ]
+    }
+  ]
 }

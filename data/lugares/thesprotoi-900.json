@@ -35,5 +35,33 @@
   "epoca": {
     "anio": -900,
     "nota": null
-  }
+  },
+  "contiene": [
+    {
+      "grupo": null,
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "khaones-900",
+          "nombre": "Khāones"
+        },
+        {
+          "col": "lugares",
+          "id": "athamanes-900",
+          "nombre": "Athamānes"
+        },
+        {
+          "col": "lugares",
+          "id": "thesprotia-900",
+          "nombre": "Thesprōtoi"
+        },
+        {
+          "col": "lugares",
+          "id": "molossoi-900",
+          "nombre": "Molossoi"
+        }
+      ]
+    }
+  ]
 }

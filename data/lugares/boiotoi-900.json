@@ -30,5 +30,33 @@
   "epoca": {
     "anio": -900,
     "nota": null
-  }
+  },
+  "contiene": [
+    {
+      "grupo": null,
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "minuai-900",
+          "nombre": "Minuai"
+        },
+        {
+          "col": "lugares",
+          "id": "thespike-900",
+          "nombre": "Thespikē"
+        },
+        {
+          "col": "lugares",
+          "id": "tanagrike-900",
+          "nombre": "Tanagrikē"
+        },
+        {
+          "col": "lugares",
+          "id": "kadmeis-900",
+          "nombre": "Kadmēis"
+        }
+      ]
+    }
+  ]
 }

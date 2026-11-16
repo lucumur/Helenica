@@ -182,6 +182,7 @@ ${physicalSVG(D, opts.selectedId)}
     const gSL = svg.querySelector('.slabels');
     const RFIELDS = ['cultura_primaria', 'cultura_base', 'cultura_sustrato', 'idioma', 'poblacion', 'clima', 'topografia', 'hidrografia', 'santuario', 'grupo_cultual', 'gobierno', 'lider'];
     const MFIELDS = ['altitud', 'perimetro', 'ciudades_pie', 'en_la_montana', 'fauna_flora'];
+    const FFIELDS = ['nacimientos', 'desembocadura', 'forma_potamica', 'afluentes', 'recorrido'];
     const fmtSpan = u => esc(u).replace(/\*\*([^*]+?)\*\*/g, '<strong>$1</strong>').replace(/\*([^*]+?)\*/g, '<em>$1</em>');
     const rich = t => {
       const s = String(t || '');
@@ -196,10 +197,10 @@ ${physicalSVG(D, opts.selectedId)}
       }
       return out + fmtSpan(s.slice(last));
     };
-    const fillFields = (sel, fid, keys, isCurrent) => {
+    const fillFields = (sel, fid, keys, isCurrent, showEmpty = false) => {
       window.HEL.getJSON(`data/lugares/${fid}.json`).then(rec => {
         const el = panel.querySelector(sel); if (!isCurrent() || !el) return;
-        el.innerHTML = keys.map(k => (rec.campos || []).find(c => c.clave === k && c.texto)).filter(Boolean).map(c => `<p class="kv"><b>${esc(c.etiqueta)}</b> ${rich(c.texto)}</p>`).join('');
+        el.innerHTML = keys.map(k => (rec.campos || []).find(c => c.clave === k && (showEmpty || c.texto))).filter(Boolean).map(c => `<p class="kv"><b>${esc(c.etiqueta)}</b> ${c.texto ? rich(c.texto) : '<span class="muted">Sin datos</span>'}</p>`).join('');
       }).catch(() => {});
     };
     const OWN = { achaia: 'achaia', elis: 'elis', messenia: 'messenia', lakonia: 'esparta', arkadia: 'arkadia', argolis: 'argos', korinthia: 'corinto' };
@@ -544,12 +545,14 @@ ${i.r ? `<p>${esc(i.r)}</p>` : ''}
 ${fo.length ? `<p class="kv"><b>Forma</b> ${esc(fo.join(' → '))}</p>` : ''}${fu.length ? `<p class="kv"><b>Función</b> ${esc(fu.join(', '))}</p>` : ''}
 <div class="acts"><a class="btn" href="${ficha('lugares', i.id)}">Abrir ficha ↗</a>${editBtn(i.id)}</div>
 ${naturalKind(i) === 'monte' ? '<div class="mf"></div>' : ''}
+${naturalKind(i) === 'rio' ? '<div class="ff"></div>' : ''}
 ${geometry ? `<p class="small">${geometry.tipo === 'rio' ? 'Trazado del cauce' : 'Extensión del macizo'} · <a href="${esc(D.fisico.fuentes[geometry.fuente].url)}" target="_blank" rel="noopener">${esc(D.fisico.fuentes[geometry.fuente].nombre)}</a>. ${esc(geometry.nota || '')}</p>` : naturalKind(i) ? '<p class="muted small">Extensión pendiente de documentar; se muestra el punto de referencia.</p>' : ''}
 ${site && site.items.length > 1 ? `<h3>En este mismo punto</h3><ul>${site.items.filter(x => x !== i).map(x => listLink(x)).join('')}</ul>` : ''}
 ${near.length ? `<h3>Cerca</h3><ul>${near.map(s => listLink(s.main)).join('')}</ul>` : ''}
 <p class="muted small">${pt ? `${pt[1].toFixed(3)}° N, ${pt[0].toFixed(3)}° E · ubicación aproximada` : 'Sin coordenadas'}</p>`;
       panel.hidden = false; selSub = null; selZone = null;
       if (naturalKind(i) === 'monte') fillFields('.mf', i.id, MFIELDS, () => selSite === i);
+      if (naturalKind(i) === 'rio') fillFields('.ff', i.id, FFIELDS, () => selSite === i, true);
       svg.querySelectorAll('.sb').forEach(p => p.classList.remove('sel'));
       svg.querySelectorAll('.ar').forEach(p => p.classList.toggle('sel', p.dataset.area === a));
       svg.classList.add('has-sel');

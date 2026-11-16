@@ -12,31 +12,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Cabeceras de Arcadia. Pausanias sitúa unas fuentes junto a Asea y describe también el tramo de Phylakē/Symbola y sus pérdidas subterráneas; son descripciones antiguas, no una comprobación moderna de todas las conexiones kársticas (Paus. 8.44.3–4; 8.54.1–3).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Mar Jónico, en el sector de Epitalion, al oeste de Olimpia. La prolongación hasta Aretusa de Siracusa pertenece al relato mítico (C), no al cauce físico (Estrabón 8.3.12; Paus. 5.7.2–3).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Alpheios, dios fluvial, hijo de Océano y Tetis en la tradición (C; Hes. Th. 337–345). Representación humana atestiguada por Eliano 2.33 y figura en el frontón oriental del templo de Zeus de Olimpia (Paus. 5.10.7).",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "[Ladōn](lugares:ladon-arkadia), [Erymanthos](lugares:erymanthos-arkadia), Helissōn, Brentheatēs, Gortynios, Bouphagos y Kladeos: los siete principales que enumera Pausanias (5.7.1).",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Desde Arcadia y el entorno de Megalópolis avanza hacia el oeste, recibe los cursos arcadios, pasa por el territorio de Heraia y por Olimpia y cruza la llanura de Élide hasta el mar (Paus. 5.7.1; Estrabón 8.3.12).",
       "refs": []
     }
   ],
@@ -66,5 +66,27 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Pausanias, Descripción de Grecia 8.36–54",
+      "url": "https://www.theoi.com/Text/Pausanias8C.html"
+    },
+    {
+      "titulo": "Pausanias, Descripción de Grecia 5.1–15",
+      "url": "https://www.theoi.com/Text/Pausanias5A.html"
+    },
+    {
+      "titulo": "Hesíodo, Teogonía 337–370: ríos y Oceánides",
+      "url": "https://chs.harvard.edu/primary-source/hesiod-theogony-sb/"
+    },
+    {
+      "titulo": "Eliano, Historia varia 2.33: formas humanas y taurinas de los dioses fluviales",
+      "url": "https://www.theoi.com/Cult/PotamoiCult.html"
+    },
+    {
+      "titulo": "Estrabón, Geografía 8.3: Élide y ríos del Peloponeso",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/8C*.html"
+    }
+  ]
 }

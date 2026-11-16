@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Vertiente norte/nordeste del [Erymanthos](lugares:oros-erymanthos-arkadia), según la documentación del municipio de Erimanto.",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Golfo de Patras, en la costa de Alissos, en el sector de la antigua Ōlenos.",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "No se ha verificado una personificación individual en Paus. 7.22.1. No se atribuye a este Peiros la genealogía de otros ríos homónimos.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Parapeiros; también Serdinē y Vorilas/Megas Melas en la nomenclatura moderna documentada por el municipio de Erimanto.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Baja de Erimanto a la llanura de Pharai y de allí a Ōlenos y el golfo de Patras. Pausanias identifica tentativamente el Pieros de Pharai con el Peiros de la costa (7.22.1).",
       "refs": []
     }
   ],
@@ -65,5 +65,15 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Pausanias, Descripción de Grecia 7.17–27",
+      "url": "https://www.theoi.com/Text/Pausanias7B.html"
+    },
+    {
+      "titulo": "Municipio de Erimanto: río Peiros y sus afluentes",
+      "url": "https://www.visit-erymanthos.gr/frontend/points/view/155"
+    }
+  ]
 }

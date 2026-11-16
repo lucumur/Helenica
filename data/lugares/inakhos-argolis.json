@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "[Artemision](lugares:artemision-argolis), por encima de Oinoē: Pausanias afirma expresamente que tiene fuentes, aunque el agua no corre lejos (2.25.3).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Llanura litoral del golfo Argólico; su continuidad hasta el mar es estacional y no debe representarse como un río permanentemente caudaloso.",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Inakhos, río y padre mítico de Iō (C); participa con Kephisos y Asteriōn en el juicio entre Hera y Poseidón por Argos (Paus. 2.15.4–5).",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "La hidrografía argiva menciona otros cursos, como Charadros, pero los pasajes aquí citados no permiten convertirlos sin más en una lista segura de afluentes del Inakhos.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Baja de Artemision por Oinoē hacia Argos y su llanura. Pausanias insiste en la escasez de agua superficial y en los cursos secos de la Argólide (2.15.4–5; 2.25.3).",
       "refs": []
     }
   ],
@@ -65,5 +65,11 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Pausanias, Descripción de Grecia 2.15–28",
+      "url": "https://www.theoi.com/Text/Pausanias2B.html"
+    }
+  ]
 }

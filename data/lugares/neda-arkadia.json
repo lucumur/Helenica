@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "[Monte Lykaion](lugares:oros-lykaion) (Paus. 4.20.2). La apertura de la fuente por Rea pertenece al relato mítico (C; Estrabón 8.3.22).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Mar Jónico, en la frontera litoral entre Mesenia y Trifilia/Élide (Paus. 4.20.2; Estrabón 8.3.22).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Neda, ninfa nodriza de Zeus y epónima del río (C; Paus. 8.38.3; 4.33.1). Es una figura femenina; no se sustituye por un potamós masculino genérico.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Lymax, que pasa junto a Phigalia y desemboca expresamente en el Neda (Paus. 8.41.2).",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Desde Lykaion atraviesa el oeste de Arcadia, pasa bajo el territorio de Phigalia y marca la separación de Mesenia y Trifilia hasta el mar (Paus. 4.20.2; 8.41.2).",
       "refs": []
     }
   ],
@@ -65,5 +65,19 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Pausanias, Descripción de Grecia 4.20–36",
+      "url": "https://www.theoi.com/Text/Pausanias4B.html"
+    },
+    {
+      "titulo": "Pausanias, Descripción de Grecia 8.36–54",
+      "url": "https://www.theoi.com/Text/Pausanias8C.html"
+    },
+    {
+      "titulo": "Estrabón, Geografía 8.3: Élide y ríos del Peloponeso",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/8C*.html"
+    }
+  ]
 }

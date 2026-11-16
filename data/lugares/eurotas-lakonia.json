@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Pausanias sitúa sus fuentes junto a Asea, próximas a las del Alfeo; relata que reaparece en Laconia tras un trayecto subterráneo compartido. Esta conexión es la explicación antigua y no se toma como hidrología moderna comprobada (8.44.3–4).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Golfo Lacónico, en la llanura de Helos (Estrabón 8.3.12).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Eurōtās, personificado como dios fluvial; Eliano 2.33 registra una imagen bovina entre los espartanos. Pausanias ofrece además una versión de rey epónimo que drena las aguas hacia el mar (C; 3.1.1–2).",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Oinous y los torrentes de la llanura espartana; Tiasa y Phellia aparecen en la topografía de Pausanias (3.18.6; 3.20.3). La equivalencia de Knakiōn con Oinous es discutida.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Desciende por el valle entre los macizos del Taÿgetos y el Parnōn, pasa por Spartē y el territorio de Amyklai y alcanza la llanura de Helos y el golfo Lacónico (Estrabón 8.3.12).",
       "refs": []
     }
   ],
@@ -65,5 +65,27 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Pausanias, Descripción de Grecia 3.1–13",
+      "url": "https://www.theoi.com/Text/Pausanias3A.html"
+    },
+    {
+      "titulo": "Pausanias, Descripción de Grecia 3.14–26",
+      "url": "https://www.theoi.com/Text/Pausanias3B.html"
+    },
+    {
+      "titulo": "Pausanias, Descripción de Grecia 8.36–54",
+      "url": "https://www.theoi.com/Text/Pausanias8C.html"
+    },
+    {
+      "titulo": "Eliano, Historia varia 2.33: formas humanas y taurinas de los dioses fluviales",
+      "url": "https://www.theoi.com/Cult/PotamoiCult.html"
+    },
+    {
+      "titulo": "Estrabón, Geografía 8.3: Élide y ríos del Peloponeso",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/8C*.html"
+    }
+  ]
 }

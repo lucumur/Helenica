@@ -12,31 +12,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Manantiales en el camino de Thouria hacia Arcadia, vinculados a curaciones infantiles según Pausanias (4.31.4); la documentación hidrológica moderna identifica las fuentes de Agios Phloros.",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Golfo Mesénico, en la llanura al sur de Messēnē (Paus. 4.34.1–2).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Pamisos, receptor de un sacrificio anual atribuido al rey Sybotas (C; Paus. 4.3.10). El culto al río está atestiguado; ese pasaje no describe la forma de su imagen.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "En la red moderna: Mavrozoumena, Tzamis/Charadros, Megalo Potami y Serilas. Son nombres del inventario hidrológico actual, no una restitución automática de los nombres antiguos (plan oficial EL01).",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Desde los manantiales septentrionales recorre hacia el sur la llanura mesenia hasta el golfo. Pausanias describe aguas limpias y navegación desde el mar por unos diez estadios (4.34.1–2).",
       "refs": []
     }
   ],
@@ -66,5 +66,19 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Pausanias, Descripción de Grecia 4.1–19",
+      "url": "https://www.theoi.com/Text/Pausanias4A.html"
+    },
+    {
+      "titulo": "Pausanias, Descripción de Grecia 4.20–36",
+      "url": "https://www.theoi.com/Text/Pausanias4B.html"
+    },
+    {
+      "titulo": "Ministerio de Medio Ambiente de Grecia: cuenca y afluentes del Pámiso (EL01)",
+      "url": "https://floods.ypeka.gr/wp-content/uploads/2023/11/EL01_P01-T1_analisi_char.pdf"
+    }
+  ]
 }

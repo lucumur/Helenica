@@ -13,31 +13,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Monte Pontinos, que absorbe el agua de lluvia y la devuelve en este río según la descripción de Pausanias (2.36.8).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Costa de Lerna, en el golfo Argólico; constituye uno de los límites del bosque sagrado que llega al mar (Paus. 2.37.1).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "La fuente citada describe el río y los santuarios próximos, pero no atestigua una figura divina individual del Pontinos. La existencia de un santuario junto al río no basta para establecerla.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "No se individualizan afluentes en Paus. 2.36.8–2.37.1. Amymōnē se describe como otro límite del bosque sagrado, no como afluente del Pontinos.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Curso corto desde el monte Pontinos hasta el litoral de Lerna, junto al bosque sagrado de Deméter y Dioniso (Paus. 2.36.8–2.37.2).",
       "refs": []
     }
   ],
@@ -73,5 +73,11 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Pausanias, Descripción de Grecia 2.29–38",
+      "url": "https://www.theoi.com/Text/Pausanias2C.html"
+    }
+  ]
 }

@@ -12,31 +12,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Agua que rezuma y cae por el alto escarpe junto a Nónacris, en el macizo de los Aroania. Pausanias describe la caída, no un manantial puntual en la cumbre (8.17.6).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Se incorpora al [Krāthis](lugares:krathis-achaia); no desemboca por sí sola en el mar (Paus. 8.18.4).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Asociada a Styx, Oceánide y garante del juramento de los dioses (C; Hes. Th. 361, 775–806). La cascada arcadia y el río del inframundo son niveles geográfico y mítico distintos.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "El pasaje describe una caída de agua que alimenta al Krāthis, sin individualizar afluentes de la propia cascada (Paus. 8.18.4).",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Desciende por el escarpe próximo a Nónacris, pasa por la roca inferior y alcanza el Krāthis. Sus supuestas propiedades mortíferas pertenecen a la tradición antigua (C; Paus. 8.18.4–6).",
       "refs": []
     }
   ],
@@ -60,5 +60,15 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Pausanias, Descripción de Grecia 8.17–35",
+      "url": "https://www.theoi.com/Text/Pausanias8B.html"
+    },
+    {
+      "titulo": "Hesíodo, Teogonía 337–370: ríos y Oceánides",
+      "url": "https://chs.harvard.edu/primary-source/hesiod-theogony-sb/"
+    }
+  ]
 }

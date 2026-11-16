@@ -12,31 +12,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "No procede para Nónacris como población: Pausanias la llama expresamente una antigua ciudad arcadia (8.17.6). La fuente/cascada próxima corresponde a la ficha de Styx.",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "No procede como desembocadura de una ciudad. El agua de Styx cercana alcanza el [Krāthis](lugares:krathis-achaia) (Paus. 8.18.4).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Nónacris se explica como nombre de la esposa de Lykaōn (C; Paus. 8.17.6), no como dios fluvial. La divinidad del agua próxima es Styx.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "No procede: el topónimo de una población no tiene afluentes.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Población arcadia situada en la ruta hacia las aguas de Styx. Se conserva la clasificación importada y el identificador; el curso de agua se desarrolla en [Cascada de Styx](lugares:cascada-de-styx-de-nonakris-arkadia) (Paus. 8.17.6–8.18.4).",
       "refs": []
     }
   ],
@@ -60,5 +60,11 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Pausanias, Descripción de Grecia 8.17–35",
+      "url": "https://www.theoi.com/Text/Pausanias8B.html"
+    }
+  ]
 }

@@ -35,5 +35,28 @@
   "epoca": {
     "anio": -900,
     "nota": null
-  }
+  },
+  "contiene": [
+    {
+      "grupo": null,
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "hellopes-900",
+          "nombre": "Hellopes"
+        },
+        {
+          "col": "lugares",
+          "id": "dryopes-karystos-900",
+          "nombre": "Druopes"
+        },
+        {
+          "col": "lugares",
+          "id": "abantes-lelanto-900",
+          "nombre": "Abantes"
+        }
+      ]
+    }
+  ]
 }

@@ -1,0 +1,112 @@
+{
+  "id": "abantes-lelanto-900",
+  "nombre": "Abantes",
+  "nombre_alt": "Abantes del Lelanto (Calcis y Lefkandi)",
+  "nombre_griego": "Ἄβαντες",
+  "endonimo": "Abantes",
+  "endonimo_nota": "Il. 2.536–545.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "eubea"
+  ],
+  "escala": "ethnos",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "abantes-900",
+      "nombre": "Abantes"
+    }
+  ],
+  "descripcion": {
+    "texto": "Centro de Eubea: la llanura del Lelanto con Lefkandi y Calcis; Esciros queda incluida provisionalmente."
+  },
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "Abantes",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Abantes",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "Kourētes en Calcis (Estrabón 10.3.6) (C)",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Jónico",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Media: Lefkandi es el sitio más rico de Grecia en los s. X–IX",
+      "refs": []
+    },
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Llanura del Lelanto entre Calcis y Eretria; monte Dirfis (1.743 m).",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "Lelanto; fuente Aretusa de Calcis.",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "Heroon de Toumba en Lefkandi (c. 950): enterramiento de élite con culto (B)",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "Culto funerario heroico; [Hera del Dirfis](entes:hera-dirphya) (C)",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Élite con contactos fenicios y chipriotas",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "Basileus (inferido por el enterramiento principesco de Toumba)",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Esciros: según Tucídides (1.98), de dólopes; queda aquí provisionalmente.\n- Eretria como ciudad es posterior; Lefkandi (quizá la «Eretria vieja») se abandona c. 700.\n- Clima: rasgos generales del actual; para 900 a.C. se asumen similares.\n- (C): dato de tradición sin respaldo independiente. Los nombres de gobernantes concretos salen de la tradición o de la épica: son memoria, no historia comprobada."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

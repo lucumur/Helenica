@@ -1,0 +1,112 @@
+{
+  "id": "kuklades-iaones-900",
+  "nombre": "Iāones",
+  "nombre_alt": "Cícladas jonias",
+  "nombre_griego": "Ἰάονες",
+  "endonimo": "Iāones",
+  "endonimo_nota": "Il. 13.685; Himno homérico a Apolo 147.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "islas-egeo"
+  ],
+  "escala": "ethnos",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "kuklades-900",
+      "nombre": "Kuklades"
+    }
+  ],
+  "descripcion": {
+    "texto": "Cícladas centrales y del norte: Naxos, Paros, Delos, Andros, Tenos, Ceos, Sérifos y Sifnos."
+  },
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "Iāones",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Iāones",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "Kāres: las tumbas carias de Delos (Thuc. 1.8) (C)",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Jónico",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Baja–media (Naxos, la mayor)",
+      "refs": []
+    },
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo árido, con el meltemi en verano.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Islas montañosas: Naxos (Zas, 1.004 m), Andros; el mármol de Paros.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "Sin ríos importantes; fuentes en Naxos y Andros.",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "[Delos](lugares:delos-nesos): depósitos micénicos y geométricos (B)",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "Apolo Delio y Ártemis (Himno a Apolo 146–164) (B)",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Aristocracias insulares",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "Basileus (inferido)",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Clima: rasgos generales del actual; para 900 a.C. se asumen similares.\n- (C): dato de tradición sin respaldo independiente. Los nombres de gobernantes concretos salen de la tradición o de la épica: son memoria, no historia comprobada."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

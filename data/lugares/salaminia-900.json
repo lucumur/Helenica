@@ -1,0 +1,112 @@
+{
+  "id": "salaminia-900",
+  "nombre": "Salamis",
+  "nombre_alt": "Salaminia (este de Chipre)",
+  "nombre_griego": "Σαλαμίς",
+  "endonimo": "Salamis",
+  "endonimo_nota": "Silabario chipriota sa-la-mi-ni; fundación de Teucro según la tradición (C).",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "chipre"
+  ],
+  "escala": "ethnos",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "kupros-900",
+      "nombre": "Kupros"
+    }
+  ],
+  "descripcion": {
+    "texto": "Este de Chipre: Salamina y la península de Karpas."
+  },
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "Teucro y los salaminios en la tradición (C)",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Grecochipriotas",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "—",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Arcado-chipriota",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Media",
+      "refs": []
+    },
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo semiárido.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Llanura oriental de la Mesaoria; península de Karpas.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "Pedieo, que desemboca junto a Salamina.",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "Desconocido",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "Zeus Salaminio (C)",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Reino",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "Basileus (pa-si-le-u-se)",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Salamina sucede a Enkomi, abandonada en el s. XI.\n- Clima: rasgos generales del actual; para 900 a.C. se asumen similares.\n- (C): dato de tradición sin respaldo independiente. Los nombres de gobernantes concretos salen de la tradición o de la épica: son memoria, no historia comprobada."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

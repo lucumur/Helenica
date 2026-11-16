@@ -1,0 +1,112 @@
+{
+  "id": "kreta-doriees-900",
+  "nombre": "Dōriees trikhaïkes",
+  "nombre_alt": "Creta central (dorios y aqueos)",
+  "nombre_griego": "Δωριέες τριχάϊκες",
+  "endonimo": null,
+  "endonimo_nota": "Od. 19.177.",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "creta"
+  ],
+  "escala": "ethnos",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "kreta-900",
+      "nombre": "Krētā"
+    }
+  ],
+  "descripcion": {
+    "texto": "Centro de Creta: Cnosos, Gortina, Festo, Lito y el Lasithi."
+  },
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "Dōriees; Lito, colonia lacedemonia (Arist. Pol. 1271b) (C)",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Akhaioi (Od. 19.175)",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "Minoicos: eteocretenses y pelasgos en la épica (C)",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Dórico cretense",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Media–alta (la mayor de Creta)",
+      "refs": []
+    },
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Ida (2.456 m); llanura de la Mesará; Dicte y la meseta del Lasithi.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "Leteo de Gortina; el río de la Mesará.",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "Cueva del Ida: exvotos de bronce desde el s. IX (B)",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "Zeus cretense (Ideo, Dicteo) y los Curetes (B)",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Comunidades con andreia y aristocracias en formación (C)",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "Kosmos (κόσμος) en la Creta arcaica (ley de Dreros, s. VII); en 900, desconocido",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Clima: rasgos generales del actual; para 900 a.C. se asumen similares.\n- (C): dato de tradición sin respaldo independiente. Los nombres de gobernantes concretos salen de la tradición o de la épica: son memoria, no historia comprobada."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

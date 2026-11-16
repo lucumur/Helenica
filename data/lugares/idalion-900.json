@@ -1,0 +1,112 @@
+{
+  "id": "idalion-900",
+  "nombre": "Idalion",
+  "nombre_alt": "Chipre central (Idalion y Tamaso)",
+  "nombre_griego": "Ἰδάλιον",
+  "endonimo": "Edalion",
+  "endonimo_nota": "Silabario chipriota e-ta-li-o-ne (tablilla de Idalion, s. V).",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "chipre"
+  ],
+  "escala": "ethnos",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "kupros-900",
+      "nombre": "Kupros"
+    }
+  ],
+  "descripcion": {
+    "texto": "Centro de Chipre: Idalion, Tamaso y el Troodos."
+  },
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "Grecochipriotas",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Grecochipriotas",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "Eteochipriotas (C)",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Arcado-chipriota",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Media",
+      "refs": []
+    },
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Semiárido: la Mesaoria es la llanura más calurosa de la isla.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Llanura de la Mesaoria y piedemonte del Troodos, con el cobre de Tamaso.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "Yalias; Pedieo (curso alto).",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "Desconocido",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "La diosa y Apolo en Idalion (C)",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Reino",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "Basileus",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Citio pasa a ser fenicia hacia 850, después de esta fecha.\n- Clima: rasgos generales del actual; para 900 a.C. se asumen similares.\n- (C): dato de tradición sin respaldo independiente. Los nombres de gobernantes concretos salen de la tradición o de la épica: son memoria, no historia comprobada."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

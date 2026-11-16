@@ -1,0 +1,112 @@
+{
+  "id": "hellopes-900",
+  "nombre": "Hellopes",
+  "nombre_alt": "Elopia (norte de Eubea)",
+  "nombre_griego": "Ἑλλοπιεῖς",
+  "endonimo": "Histiaia",
+  "endonimo_nota": "Il. 2.537 (Histiea «rica en vides»); Ἑλλοπίη como distrito de Histiea (Hdt. 8.23).",
+  "imagen": null,
+  "tipos": [
+    "Pro-tribu"
+  ],
+  "areas": [
+    "eubea"
+  ],
+  "escala": "ethnos",
+  "forma": [],
+  "funciones": [],
+  "pertenece_a": [
+    {
+      "col": "lugares",
+      "id": "abantes-900",
+      "nombre": "Abantes"
+    }
+  ],
+  "descripcion": {
+    "texto": "Norte de Eubea: Histiea, el monte Telethrion y el cabo Artemisio."
+  },
+  "campos": [
+    {
+      "clave": "cultura_primaria",
+      "etiqueta": "Cultura primaria",
+      "texto": "Hellopes / Histiaieis",
+      "refs": []
+    },
+    {
+      "clave": "cultura_base",
+      "etiqueta": "Cultura base",
+      "texto": "Hellopes",
+      "refs": []
+    },
+    {
+      "clave": "cultura_sustrato",
+      "etiqueta": "Cultura sustrato",
+      "texto": "Perrhaiboi venidos de Tesalia según la tradición (Estrabón 10.1.3) (C)",
+      "refs": []
+    },
+    {
+      "clave": "idioma",
+      "etiqueta": "Idioma",
+      "texto": "Jónico",
+      "refs": []
+    },
+    {
+      "clave": "poblacion",
+      "etiqueta": "Población",
+      "texto": "Baja",
+      "refs": []
+    },
+    {
+      "clave": "clima",
+      "etiqueta": "Clima",
+      "texto": "Mediterráneo.",
+      "refs": []
+    },
+    {
+      "clave": "topografia",
+      "etiqueta": "Topografía",
+      "texto": "Montes del norte (Telethrion); llanura de Histiea; cabo Artemisio.",
+      "refs": []
+    },
+    {
+      "clave": "hidrografia",
+      "etiqueta": "Hidrografía",
+      "texto": "Torrentes cortos.",
+      "refs": []
+    },
+    {
+      "clave": "santuario",
+      "etiqueta": "Santuario principal",
+      "texto": "Ártemis Proseoia en el Artemisio (Plut. Them. 8) (C para 900)",
+      "refs": []
+    },
+    {
+      "clave": "grupo_cultual",
+      "etiqueta": "Grupo cultual",
+      "texto": "[Ártemis Proseoia](lugares:artemis-proseoia)",
+      "refs": []
+    },
+    {
+      "clave": "gobierno",
+      "etiqueta": "Gobierno",
+      "texto": "Jefaturas",
+      "refs": []
+    },
+    {
+      "clave": "lider",
+      "etiqueta": "Nombre del líder",
+      "texto": "Basileus local (inferido)",
+      "refs": []
+    }
+  ],
+  "secciones": [
+    {
+      "titulo": "Notas",
+      "texto": "- Clima: rasgos generales del actual; para 900 a.C. se asumen similares.\n- (C): dato de tradición sin respaldo independiente. Los nombres de gobernantes concretos salen de la tradición o de la épica: son memoria, no historia comprobada."
+    }
+  ],
+  "epoca": {
+    "anio": -900,
+    "nota": null
+  }
+}

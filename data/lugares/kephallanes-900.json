@@ -35,5 +35,28 @@
   "epoca": {
     "anio": -900,
     "nota": null
-  }
+  },
+  "contiene": [
+    {
+      "grupo": null,
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "ithake-900",
+          "nombre": "Ithakē"
+        },
+        {
+          "col": "lugares",
+          "id": "zakunthos-900",
+          "nombre": "Zakunthos"
+        },
+        {
+          "col": "lugares",
+          "id": "kephallenia-900",
+          "nombre": "Kephallēniā"
+        }
+      ]
+    }
+  ]
 }

@@ -35,5 +35,38 @@
   "epoca": {
     "anio": -900,
     "nota": null
-  }
+  },
+  "contiene": [
+    {
+      "grupo": null,
+      "nota": null,
+      "lugares": [
+        {
+          "col": "lugares",
+          "id": "paphia-900",
+          "nombre": "Paphos"
+        },
+        {
+          "col": "lugares",
+          "id": "amathousia-900",
+          "nombre": "Amathous"
+        },
+        {
+          "col": "lugares",
+          "id": "lapethos-900",
+          "nombre": "Lapēthos"
+        },
+        {
+          "col": "lugares",
+          "id": "salaminia-900",
+          "nombre": "Salamis"
+        },
+        {
+          "col": "lugares",
+          "id": "idalion-900",
+          "nombre": "Idalion"
+        }
+      ]
+    }
+  ]
 }

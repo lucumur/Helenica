@@ -1,0 +1,37 @@
+{
+ "id": "iliada-01",
+ "obra": "iliada",
+ "canto": 1,
+ "titulo": "La cólera",
+ "resumen": "Agamenón se niega a devolver a Criseida, hija del sacerdote Crises. Apolo envía una peste al campamento aqueo. Aquiles exige que se devuelva la cautiva, pero Agamenón acepta solo si recibe a Briseida a cambio. Aquiles se retira de la guerra y pide a su madre Tetis que convenza a Zeus para que favorezca a los troyanos.",
+ "versos": [
+  {
+   "n": 1,
+   "tana": "7sHbBqQyN7GS",
+   "hexametro": "Μῆνιν ἄ/ειδε θε/ὰ # Πη/ληϊά/δεω Ἀχι/λῆος",
+   "traduccion": "Canta Diosa, sobre la Ira del Peleida Aquiles",
+   "data": "- el tema central: no es la guerra de Troya en su totalidad, sino un episodio concreto dentro de ella (la cólera de Aquiles en el año décimo del asedio).\n- La invocación a la Musa es tópica en la épica griega: el poeta no se atribuye la autoría, sino que se presenta como mero transmisor de lo que la diosa le dicta.",
+   "sustantivos": [
+    {
+     "lema": "μῆνις \"mēnis\" = ira destructiva",
+     "registro": "Epico-Alto",
+     "nota": "en Griego Cotidiano suele ser un rencor mas leve, pero Homero lo ensalza como pasión destructiva."
+    },
+    {
+     "lema": "θεά (theá): «diosa».",
+     "registro": "",
+     "nota": "Aquí sin epíteto ni nombre propio; en la Ilíada la Musa suele ser anónima o plural (Μοῦσαι)."
+    }
+   ],
+   "verbos": [
+    {
+     "lema": "ἄειδε imp.de ἀείδω «cantar»",
+     "registro": "Epico-Tradicional",
+     "nota": "asi comienzan las invocaciones a las musas"
+    }
+   ],
+   "prosopa": "- Hablando: [Homēros / Homero (Chios)](entes:homeros)\n- Se invoca a la Musa\n- [Achilléus Peleidēs](entes:achilleus-peleides)"
+  }
+ ],
+ "tana": "0Ly4kguJp0SB"
+}

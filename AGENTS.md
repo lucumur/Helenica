@@ -144,3 +144,19 @@ Para agregar un tipo nuevo de cualquier eje, añádelo primero a `data/tipologia
 - **Accidentes físicos:** `data/mapa/fisico.json` contiene cauces (listas de líneas) y extensiones de macizos (polígonos con huecos) vinculados a fichas mediante `lugares`. Fuentes, licencias y limitaciones en `data/mapa/FUENTES_FISICAS.md`; regeneración con `scripts/build_fisico.py`. No sustituir una geometría faltante por un círculo, una cuenca hidrográfica o un macizo distinto. Las fichas conservan sus puntos originales.
 - **Zoom de accidentes:** cauces de ríos y extensiones de macizos aparecen desde el **nivel 5**. Sus iconos y nombres, incluidos los de tier 4 (`polis-kome`), aparecen desde el **nivel 6** (máximo acercamiento). Usar el nivel numérico mostrado por el mapa (`zlevel`), independientemente de la barra de escala y del tamaño de la ventana; al seleccionar una ficha con geometría se resalta y encuadra su extensión completa, aunque necesite una vista más alejada. Los controles Ríos y Montes también ocultan sus respectivos contornos e iconos.
 
+
+## Homero
+
+`homero.html` muestra la lectura comentada verso a verso de los poemas homéricos. Los datos están en `data/homero/` y no son fichas del índice:
+
+```
+data/homero/obras.json         {"obras": ["iliada", "odisea"]}: orden de las obras
+data/homero/<obra>.json        nombre (griego transliterado), nombre_alt, nombre_griego, abrev (Il., Od.), autor (ref), descripcion, tana, cantos[{n, id, romano, titulo}]
+data/homero/<obra>-NN.json     un archivo por canto (libro): id, obra, canto, titulo, resumen, tana, versos[]
+```
+
+- Cada verso es un objeto desplegable: `n` (número de verso), `tana`, `hexametro` (escansión con `/` entre pies y `#` en la cesura cuando exista), `traduccion`, `data` (markdown), `sustantivos` y `verbos` (listas de `{lema, registro, nota}`; `registro` es por ahora texto libre: Épico-Alto, Épico-Común, Panhelénico…), `prosopa` (markdown con los papeles en escena: 1P, 2P, 3P… y enlaces `[Aquiles](entes:achilleus-peleides)`) y `notas` opcionales.
+- En Tana los cantos están partidos en tramos de 100 versos por límite de la aplicación; aquí se unen en un archivo por canto. Las notas homéricas de otros lugares de Tana van dentro de las notas del verso correspondiente.
+- La cita se forma con `abrev` + canto + verso (*Il.* 1.1); el ancla del verso es `homero.html?obra=iliada&canto=1#v1`.
+- Los enlaces a personajes se resuelven con el id `tana` guardado en los `refs` de las fichas de `entes`.
+- `scripts/crear_esqueleto_homero.py` crea las obras y los cantos vacíos sin sobrescribir lo existente. `validate.py` comprueba que cada canto listado exista, que coincidan obra y número, que no se repitan versos y que los enlaces apunten a fichas existentes.

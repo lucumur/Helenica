@@ -1,0 +1,160 @@
+{
+ "id": "iliada",
+ "nombre": "Ilias",
+ "nombre_alt": "Ilíada",
+ "nombre_griego": "Ἰλιάς",
+ "abrev": "Il.",
+ "autor": {
+  "col": "entes",
+  "id": "homeros",
+  "nombre": "Homēros"
+ },
+ "descripcion": "",
+ "tana": "0i160yNM24ze",
+ "cantos": [
+  {
+   "n": 1,
+   "id": "iliada-01",
+   "romano": "I",
+   "titulo": "La cólera"
+  },
+  {
+   "n": 2,
+   "id": "iliada-02",
+   "romano": "II",
+   "titulo": "El sueño y la Beocia"
+  },
+  {
+   "n": 3,
+   "id": "iliada-03",
+   "romano": "III",
+   "titulo": "Los juramentos y Helena en la muralla"
+  },
+  {
+   "n": 4,
+   "id": "iliada-04",
+   "romano": "IV",
+   "titulo": "Violación de los juramentos"
+  },
+  {
+   "n": 5,
+   "id": "iliada-05",
+   "romano": "V",
+   "titulo": "Las aristías de Diomedes"
+  },
+  {
+   "n": 6,
+   "id": "iliada-06",
+   "romano": "VI",
+   "titulo": "Héctor y Andrómaca"
+  },
+  {
+   "n": 7,
+   "id": "iliada-07",
+   "romano": "VII",
+   "titulo": "Duelo de Héctor y Áyax"
+  },
+  {
+   "n": 8,
+   "id": "iliada-08",
+   "romano": "VIII",
+   "titulo": "Batalla interrumpida"
+  },
+  {
+   "n": 9,
+   "id": "iliada-09",
+   "romano": "IX",
+   "titulo": "La embajada a Aquiles"
+  },
+  {
+   "n": 10,
+   "id": "iliada-10",
+   "romano": "X",
+   "titulo": "La Dolonía"
+  },
+  {
+   "n": 11,
+   "id": "iliada-11",
+   "romano": "XI",
+   "titulo": "Aristía de Agamenón"
+  },
+  {
+   "n": 12,
+   "id": "iliada-12",
+   "romano": "XII",
+   "titulo": "Combate en la muralla"
+  },
+  {
+   "n": 13,
+   "id": "iliada-13",
+   "romano": "XIII",
+   "titulo": "Batalla junto a las naves"
+  },
+  {
+   "n": 14,
+   "id": "iliada-14",
+   "romano": "XIV",
+   "titulo": "Seducción de Zeus"
+  },
+  {
+   "n": 15,
+   "id": "iliada-15",
+   "romano": "XV",
+   "titulo": "Nueva arremetida desde las naves"
+  },
+  {
+   "n": 16,
+   "id": "iliada-16",
+   "romano": "XVI",
+   "titulo": "Patroclea"
+  },
+  {
+   "n": 17,
+   "id": "iliada-17",
+   "romano": "XVII",
+   "titulo": "Aristía de Menelao"
+  },
+  {
+   "n": 18,
+   "id": "iliada-18",
+   "romano": "XVIII",
+   "titulo": "Fabricación de las armas"
+  },
+  {
+   "n": 19,
+   "id": "iliada-19",
+   "romano": "XIX",
+   "titulo": "Renuncia a la cólera"
+  },
+  {
+   "n": 20,
+   "id": "iliada-20",
+   "romano": "XX",
+   "titulo": "Combate de los dioses"
+  },
+  {
+   "n": 21,
+   "id": "iliada-21",
+   "romano": "XXI",
+   "titulo": "Batalla junto al río"
+  },
+  {
+   "n": 22,
+   "id": "iliada-22",
+   "romano": "XXII",
+   "titulo": "Muerte de Héctor"
+  },
+  {
+   "n": 23,
+   "id": "iliada-23",
+   "romano": "XXIII",
+   "titulo": "Funerales de Patroclo"
+  },
+  {
+   "n": 24,
+   "id": "iliada-24",
+   "romano": "XXIV",
+   "titulo": "Rescate de Héctor"
+  }
+ ]
+}

@@ -114,7 +114,7 @@
     document.body.insertAdjacentHTML('afterbegin', `
 <header class="page-header"><div class="wrap">
   <div class="brand"><a href="index.html">ΕΛΛΗΝΙΚΑ</a></div>
-  <nav class="site-nav" aria-label="Navegación principal"><a href="index.html"${active === 'home' ? ' class="on"' : ''}>Inicio</a>${nav}<a href="mapa.html"${active === 'mapa' ? ' class="on"' : ''}>Mapa</a>
+  <nav class="site-nav" aria-label="Navegación principal"><a href="index.html"${active === 'home' ? ' class="on"' : ''}>Inicio</a>${nav}<a href="mapa.html"${active === 'mapa' ? ' class="on"' : ''}>Mapa</a><a href="homero.html"${active === 'homero' ? ' class="on"' : ''}>Homero</a>
     <button type="button" id="edit-toggle" title="Modo edición (token de GitHub)">✎ Editar</button></nav>
 </div></header>`);
     document.body.insertAdjacentHTML('beforeend', `<footer class="page-footer"><div class="wrap">Helénica · mitología y cultura griega. Contenido importado de Tana y editable en <a href="https://github.com/${REPO}">GitHub</a>.</div></footer>`);
@@ -429,6 +429,40 @@ ${desc ? `<div style="font-size:1.06rem;max-width:780px">${md(desc)}${r._h && r.
 ${L('Hijos', [...new Set(hi)])}${L('Hermanos', he.slice(0, 30))}</div></div>`;
   }
 
+  // ---- Homero: data/homero/<obra>.json (cantos) y <obra>-NN.json (versos) ----
+  async function homero() {
+    header('homero');
+    await loadIndex();
+    const q = new URLSearchParams(location.search), obra = q.get('obra'), canto = +q.get('canto') || 0;
+    const H = (o, c) => `homero.html?obra=${o}${c ? `&canto=${c}` : ''}`;
+    const { obras } = await getJSON('data/homero/obras.json');
+    const O = {};
+    for (const id of obras) O[id] = await getJSON(`data/homero/${id}.json`);
+    const nav = `<p class="muted"><a href="homero.html">Homero</a>${obra && O[obra] ? ` › <a href="${H(obra)}">${esc(O[obra].nombre_alt)}</a>` : ''}${canto ? ` › Canto ${esc((O[obra].cantos[canto - 1] || {}).romano || canto)}` : ''}</p>`;
+    if (!obra || !O[obra]) {
+      $('main').innerHTML = `<section class="hero"><p class="eyebrow">Textos</p><h1>Homero</h1><p>Lectura comentada verso a verso: hexámetro escandido, traducción, léxico y personajes en escena.</p></section>
+<section class="cards">${obras.map(id => `<a class="card" href="${H(id)}"><span class="count">${O[id].cantos.length}</span><h2>${esc(O[id].nombre_alt)}</h2><p>${esc(O[id].nombre_griego)} · ${esc(O[id].nombre)}</p></a>`).join('')}</section>`;
+      return;
+    }
+    const o = O[obra];
+    if (!canto) {
+      $('main').innerHTML = `${nav}<h1>${esc(o.nombre_alt)} <span class="muted">${esc(o.nombre_griego)}</span></h1>${md(o.descripcion)}
+<ol class="cantos">${o.cantos.map(c => `<li><a href="${H(obra, c.n)}">Canto ${esc(c.romano)} — ${esc(c.titulo)}</a></li>`).join('')}</ol>`;
+      return;
+    }
+    const C = await getJSON(`data/homero/${obra}-${String(canto).padStart(2, '0')}.json`);
+    const lex = (t, xs) => (xs || []).length ? `<h4>${t}</h4><ul>${xs.map(x => `<li>${inline(x.lema)}${x.registro ? ` <span class="tag">${esc(x.registro)}</span>` : ''}${x.nota ? `<br><span class="muted">${inline(x.nota)}</span>` : ''}</li>`).join('')}</ul>` : '';
+    const verso = v => `<details class="verso" id="v${v.n}"><summary><span class="vn">${esc(o.abrev)} ${canto}.${v.n}</span><span class="hex" lang="grc">${esc(v.hexametro)}</span><span class="tr">${esc(v.traduccion)}</span></summary>
+<div class="verso-body">${v.data ? `<h4>Data</h4>${md(v.data)}` : ''}${lex('Sustantivos', v.sustantivos)}${lex('Verbos', v.verbos)}${v.prosopa ? `<h4>Prosopa</h4>${md(v.prosopa)}` : ''}${v.notas ? `<h4>Notas</h4>${md(v.notas)}` : ''}</div></details>`;
+    const prev = canto > 1 ? `<a href="${H(obra, canto - 1)}">← Canto ${o.cantos[canto - 2].romano}</a>` : '<span></span>';
+    const next = canto < o.cantos.length ? `<a href="${H(obra, canto + 1)}">Canto ${o.cantos[canto].romano} →</a>` : '<span></span>';
+    $('main').innerHTML = `${nav}<h1>Canto ${esc(o.cantos[canto - 1].romano)} — ${esc(C.titulo)}</h1>
+${C.resumen ? `<div class="box">${md(C.resumen)}</div>` : ''}
+<div class="versos">${C.versos.length ? C.versos.map(verso).join('') : '<p class="muted">Sin versos todavía.</p>'}</div>
+<p class="serie-nav">${prev}${next}</p>`;
+    if (location.hash) { const d = document.querySelector(location.hash); if (d) { d.open = true; d.scrollIntoView(); } }
+  }
+
   window.HEL = { COLS, REPO, loadIndex, md, getJSON, iconHTML };
   const page = document.body.dataset.page;
   if (new URLSearchParams(location.search).has('embed')) {
@@ -441,7 +475,7 @@ ${L('Hijos', [...new Set(hi)])}${L('Hermanos', he.slice(0, 30))}</div></div>`;
       if (/\/ficha\.html$/.test(u.pathname)) { u.searchParams.set('embed', '1'); location.href = u.href; } else window.top.location.href = u.href;
     });
   }
-  const run = page === 'home' ? home : page === 'ficha' ? ficha : page === 'mapa' ? async () => { header('mapa'); await window.HEL_MAP.init(); } : () => list(page);
+  const run = page === 'home' ? home : page === 'ficha' ? ficha : page === 'homero' ? homero : page === 'mapa' ? async () => { header('mapa'); await window.HEL_MAP.init(); } : () => list(page);
   const go = () => run().catch(e => { $('main').innerHTML = `<p class="notice">Error: ${esc(e.message)}</p>`; console.error(e); });
   document.readyState === 'loading' ? document.addEventListener('DOMContentLoaded', go) : go();
 })();

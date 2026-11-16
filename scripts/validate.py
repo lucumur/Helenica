@@ -67,6 +67,36 @@ def scan(obj, rel):
 for rel, rec in recs:
     scan(rec, rel)
 
+# Homero: obras listadas en obras.json, un archivo por canto, versos numerados sin repetir, enlaces existentes.
+HOM = os.path.join(DATA, 'homero')
+if os.path.isdir(HOM):
+    try:
+        obras = json.load(open(os.path.join(HOM, 'obras.json'), encoding='utf-8'))['obras']
+    except Exception as e:
+        obras = []; errors.append(f'data/homero/obras.json: no se pudo leer ({e})')
+    for oid in obras:
+        rel = f'data/homero/{oid}.json'
+        try:
+            o = json.load(open(os.path.join(HOM, oid + '.json'), encoding='utf-8'))
+        except Exception as e:
+            errors.append(f'{rel}: no se pudo leer ({e})'); continue
+        scan(o, rel)
+        for c in o.get('cantos', []):
+            crel = f"data/homero/{c.get('id')}.json"
+            try:
+                cd = json.load(open(os.path.join(HOM, f"{c.get('id')}.json"), encoding='utf-8'))
+            except Exception as e:
+                errors.append(f'{crel}: no se pudo leer ({e})'); continue
+            if cd.get('obra') != oid or cd.get('canto') != c.get('n'):
+                errors.append(f'{crel}: obra/canto no coinciden con {rel}')
+            ns = [v.get('n') for v in cd.get('versos', [])]
+            if any(not isinstance(n, int) or n < 1 for n in ns):
+                errors.append(f'{crel}: número de verso inválido')
+            dup = sorted({n for n in ns if ns.count(n) > 1})
+            if dup:
+                errors.append(f'{crel}: versos repetidos {dup}')
+            scan(cd, crel)
+
 # Mapa: puntos de las fichas y zonas de áreas.
 for rel, r in recs:
     g = r.get('geo')

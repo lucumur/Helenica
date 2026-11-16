@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Cabeceras de Lidia en el entorno de Tmōlos y la llanura del Kaÿstros. Estrabón relaciona el curso con el sector de Leimōn y el santuario del héroe Kaystros (14.1.44).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Egeo junto a Ephesos. Las aportaciones aluviales hicieron avanzar la costa y alteraron la relación entre la ciudad, el puerto y el mar (Estrabón 14.1.24).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Kaystros, padre mítico del epónimo Ephesos (C; Paus. 7.2.8); Estrabón menciona un heroon de Kaystros (14.1.44). El testimonio es más preciso que suponer una genealogía oceánica no expresada en esos pasajes.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Las fuentes citadas no dan un catálogo seguro de tributarios con nombres antiguos. Hermos y Maiandros pertenecen a cuencas vecinas y no son afluentes del Kaÿstros.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Atraviesa la llanura lidia entre los sistemas de Tmōlos y Mesōgis y desciende hacia Ephesos y su antigua costa portuaria (Estrabón 14.1.24, 44).",
       "refs": []
     }
   ],
@@ -65,5 +65,15 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Estrabón, Geografía 14.1: Jonia, Meandro y Caístro",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/14A*.html"
+    },
+    {
+      "titulo": "Kaystros: Pausanias 7.2.8 y Estrabón 14.1.44, testimonios del dios y su heroon",
+      "url": "https://www.theoi.com/Potamos/PotamosKaystros.html"
+    }
+  ]
 }

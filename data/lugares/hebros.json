@@ -12,31 +12,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Cabecera moderna del Maritsa/Evros en los montes Rila. La tradición transmitida en torno a Alceo lo hace descender del Rhodopē; se distinguen la descripción poética antigua y la identificación hidrográfica actual.",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Egeo septentrional o mar Tracio, junto a Ainos, frente a Samothrakē (Alceo, fr. 45a–b; documentación INTERREG).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Hebros, río sagrado interpelado por Alceo (fr. 45a–b); la tradición lo trata como figura fluvial divina. Los testimonios usados no fijan una representación escultórica concreta ni una filiación parental segura.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Arda/Ardas y Tundzha/Tunca, afluentes principales documentados por FAO. No se confunde el Arda con el propio Maritsa/Hebros.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Cruza Tracia desde Rila hacia el sudeste, recibe las redes del Arda y el Tundzha en el sector de la actual Edirne y gira al sur hacia Ainos y el delta del mar Tracio.",
       "refs": []
     }
   ],
@@ -66,5 +66,19 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Hebros: Alceo, fragmentos 45a–b, y otros testimonios antiguos",
+      "url": "https://www.theoi.com/Potamos/PotamosHebros.html"
+    },
+    {
+      "titulo": "Ministerio de Desarrollo Regional de Bulgaria, evaluación INTERREG Grecia–Bulgaria: ríos transfronterizos",
+      "url": "https://www.mrrb.bg/static/media/ups/articles/attachments/SEA_GR-BL_INTERREG_EN9525370a82c644cf20e622ad7f6cdc92.pdf"
+    },
+    {
+      "titulo": "FAO, Inland Fisheries of Europe: Maritsa y sus afluentes Arda y Tundzha",
+      "url": "https://www.fao.org/4/t0798e/T0798E02.htm"
+    }
+  ]
 }

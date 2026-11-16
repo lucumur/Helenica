@@ -12,31 +12,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Pequeña cuenca de la isla de Dēlos, con aguas pluviales y obras de captación. La alimentación subterránea desde el Nilo es tradición antigua (C), no una conexión física demostrada (Paus. 2.5.3; Calímaco, Himno a Delos 206–208).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Costa de Dēlos. La documentación hidráulica describe una conducción al puerto y la relación antigua con el Lago Sagrado; esas obras no permiten fijar sin matiz una única desembocadura natural para todas las épocas.",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Inōpos, padre de las ninfas delias en la poesía de Calímaco (C; Himno a Delos 252–263). Su conexión con el Nilo forma parte del lenguaje mítico y religioso de la isla.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "No se documentan afluentes individuales con nombre en los testimonios citados; es una red insular pequeña, con escorrentía y captación de agua.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Estrabón 10.5.2 describe un pequeño río que recorre Dēlos. Las cisternas y conducciones estudiadas por ITIA muestran su integración en el abastecimiento y el drenaje de la isla.",
       "refs": []
     }
   ],
@@ -66,5 +66,19 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Pausanias, Descripción de Grecia 2.1–14",
+      "url": "https://www.theoi.com/Text/Pausanias2A.html"
+    },
+    {
+      "titulo": "Calímaco y Estrabón: testimonios del Inopos y las ninfas delias",
+      "url": "https://www.theoi.com/Potamos/PotamosInopos.html"
+    },
+    {
+      "titulo": "Universidad Politécnica Nacional de Atenas, ITIA: obras hidráulicas del Inopos",
+      "url": "https://www.itia.ntua.gr/ahw/work/27/"
+    }
+  ]
 }

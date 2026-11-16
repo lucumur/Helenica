@@ -34,6 +34,32 @@ FUENTES = {
 }
 DATOS = {}
 FUENTES.update({
+    'S10A': ('Estrabón, Geografía 10.1: ríos y ciudades de Eubea', 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/10A*.html'),
+    'S10D': ('Estrabón, Geografía 10.4: Kairatos, Cnoso y Lethaios', 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/10D*.html'),
+    'S13': ('Estrabón, Geografía 13.1.69–70: Teutrania, fuentes y afluentes del Kaikos', 'https://www.greekmythology.com/sources/strabo/geography/13-teuthrania-telephus-auge'),
+    'S13H': ('Estrabón, Geografía 13.4.5: Hermos, Paktolos e Hyllos', 'https://beta.perseus.tufts.edu/urn%3Acts%3AgreekLit%3Atlg0099.tlg001.perseus-eng3%3A13.4/'),
+    'S14': ('Estrabón, Geografía 14.1: Jonia, Meandro y Caístro', 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/14A*.html'),
+    'XEN': ('Jenofonte, Anábasis 1.2.7–8: fuentes del Meandro y confluencia del Marsias', 'https://beta.perseus.tufts.edu/urn%3Acts%3AgreekLit%3Atlg0032.tlg006.perseus-eng2%3A1.2/'),
+    'BOU': ('WWF Grecia, inventario de campo GR242EUB005: estuario del Voudoros', 'https://www.ygrotopio.gr/general/report.php?code=EUB005&lang=en'),
+    'LIL': ('Ghilardi y colaboradores (2022), historia fluvial del Lilas desde época micénica', 'https://doi.org/10.3390/geosciences12050204'),
+    'KAI': ('UNESCO, expediente de los centros palaciales minoicos: Kairatos y Vlychia', 'https://whc.unesco.org/document/208870'),
+    'IAR': ('Región de Creta, Discover Crete: Keritis/Iardanos, fuentes y recorrido', 'https://www.discovercrete.com/places-to-go/keritis'),
+    'LETC': ('Barrington Atlas, mapa 60 Creta: identificación del Lethaios con el Geropotamos', 'https://assets.press.princeton.edu/B_ATLAS/BATL060_.pdf'),
+    'LETT': ('ToposText, Lethaios de Creta: localización y testimonios', 'https://topostext.org/place/353248WLet'),
+    'LETM': ('Gortyn: propuesta de identificación del Lethaios con el Mitropolianos', 'https://www.interkriti.org/crete/iraklion/gortyn.html'),
+    'INO': ('Calímaco y Estrabón: testimonios del Inopos y las ninfas delias', 'https://www.theoi.com/Potamos/PotamosInopos.html'),
+    'INOH': ('Universidad Politécnica Nacional de Atenas, ITIA: obras hidráulicas del Inopos', 'https://www.itia.ntua.gr/ahw/work/27/'),
+    'KOU': ('Universidad Tecnológica de Chipre: cuenca del Kouris, cabeceras y confluencias', 'https://ktisis.cut.ac.cy/server/api/core/bitstreams/439203fa-0e25-40a9-87d9-006e36f23945/content'),
+    'PED': ('Proyecto ACTIVATE / Cyprus Institute: cuenca, recorrido y cambios del Pedieos', 'https://activate.zone/about-the-river'),
+    'CYD': ('Departamento de Desarrollo del Agua de Chipre: catálogo de presas y redes fluviales', 'https://www.gov.cy/moa-wdd/en/documents/dams-and-off-stream-ponds/catalogue-of-reservoirs/'),
+    'KAY': ('Kaystros: Pausanias 7.2.8 y Estrabón 14.1.44, testimonios del dios y su heroon', 'https://www.theoi.com/Potamos/PotamosKaystros.html'),
+    'HEB': ('Hebros: Alceo, fragmentos 45a–b, y otros testimonios antiguos', 'https://www.theoi.com/Potamos/PotamosHebros.html'),
+    'HEBH': ('Ministerio de Desarrollo Regional de Bulgaria, evaluación INTERREG Grecia–Bulgaria: ríos transfronterizos', 'https://www.mrrb.bg/static/media/ups/articles/attachments/SEA_GR-BL_INTERREG_EN9525370a82c644cf20e622ad7f6cdc92.pdf'),
+    'HEBT': ('FAO, Inland Fisheries of Europe: Maritsa y sus afluentes Arda y Tundzha', 'https://www.fao.org/4/t0798e/T0798E02.htm'),
+    'STRH': ('UNESCO/INWEB: cuenca transfronteriza del Struma/Strymon', 'https://www.inweb.gr/workshops2/sub_basins/11_Strymon.html'),
+    'STRA': ('Escuela Francesa de Atenas, Chronique: manantiales y relación del Angitis con el Strymon', 'https://chronique.efa.gr/?id=830&r=report'),
+})
+FUENTES.update({
     'S7': ('Estrabón, Geografía 7.7: hidrografía de Epiro y Anfiloquía', 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/7G*.html'),
     'S9A': ('Estrabón, Geografía 9.1.24: ríos de Ática', 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/9A*.html'),
     'S9B': ('Estrabón, Geografía 9.2: ríos de Beocia', 'https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/9B*.html'),
@@ -54,7 +80,7 @@ FUENTES.update({
     'ACHET': ('Ministerio de Medio Ambiente de Grecia, red fluvial de Grecia Occidental EL04', 'https://floods.ypeka.gr/wp-content/uploads/2025/09/EL04_P19_T1_en.pdf'),
     'EPIR': ('NECCA, áreas protegidas de Epiro: Aqueronte y sus afluentes', 'https://necca.gov.gr/en/mdpp/management-unit-of-the-protected-areas-of-epirus-necca/'),
     'ACHER': ('Aqueronte: testimonios antiguos y distinción del río del inframundo', 'https://www.theoi.com/Khthonios/PotamosAkheron.html'),
-    'AOOS': ('N. Jautzy y colaboradores (2023), cuenca y afluentes del Vjosa/Aoos', 'https://esurf.copernicus.org/articles/11/881/2023/esurf-11-881-2023.html'),
+    'AOOS': ('J. Droujko y colaboradores (2023), cuenca y afluentes del Vjosa/Aoos', 'https://esurf.copernicus.org/articles/11/881/2023/esurf-11-881-2023.html'),
     'AOOSS': ('ZRC SAZU, RiverChange: cabecera y curso del Aoos/Vjosa', 'https://riverchange.zrc-sazu.si/vjosa-01-source/'),
     'ARA': ('Parque de Tzoumerka: Arachthos, cabeceras, confluencias y desembocadura', 'https://tzoumerka-park.gr/en/arachthos/'),
     'THY': ('Organismo de gestión Kalamas–Acheron: cuenca, fuentes y afluentes del Kalamas', 'https://www.kalamas-acherontas.gr/wp-content/uploads/2019/05/kalamas_agglika.pdf'),
@@ -168,7 +194,7 @@ agregar('peiros-achaia',
 
 agregar('peneios-elis',
     'Macizo del Erymanthos, en Élide oriental; identificación topográfica recogida por el Dictionary of Greek and Roman Geography, «Elis».',
-    'Mar Jónico. Estrabón lo sitúa entre Chelōnatas y Kyllēnē; el cauce moderno sale al sur de Chelōnatas. Deben distinguirse las posiciones antiguas y actuales (Estrabón 8.3.4; Smith, «Elis»).',
+    'Mar Jónico. Estrabón lo sitúa entre Chelōnatas y Kyllēnē; el cauce moderno sale al sur de Chelōnatas. Deben distinguirse las posiciones antiguas y actuales (Estrabón 8.3.5; Smith, «Elis»).',
     'No se identifica automáticamente con Pēneios de Tesalia. Las fuentes geográficas aquí citadas no fijan una personificación local con genealogía propia.',
     'Ladōn de Élide, documentado junto a Pylos eleo (Paus. 6.22.5): es distinto del [Ladōn arcadio](lugares:ladon-arkadia), que pertenece a la cuenca del Alfeo.',
     'De los barrancos orientales avanza por el valle y la llanura de Ēlis; Estrabón lo hace pasar por la ciudad junto al gimnasio (8.3.2). Su desembocadura y canales históricos no coinciden necesariamente con los actuales.', 'P6B S8 ELIS')
@@ -290,7 +316,7 @@ agregar('aoos-epeiros',
     'Pindos septentrional, en la cuenca de Vovousa; la cabecera moderna está parcialmente modificada por el embalse de fuentes del Aoos (RiverChange, ZRC SAZU).',
     'Mar Adriático, en la costa de Albania, como Vjosa; no desemboca en el golfo de Ambracia.',
     'No se ha establecido una personificación propia de este Aoos epirota en las fuentes consultadas. Los personajes y ríos homónimos de otras regiones no se identifican automáticamente con él.',
-    'Voidomatis, Sarantaporos, Drinos, Bënça y Shushica: principales tributarios del sistema Aoos/Vjosa en el estudio de Jautzy y colaboradores (2023); se emplean nombres modernos.',
+    'Voidomatis, Sarantaporos, Drinos, Bënça y Shushica: principales tributarios del sistema Aoos/Vjosa en el estudio de Droujko y colaboradores (2023); se emplean nombres modernos.',
     'Sale del Pindos, recorre el sector de Konitsa, atraviesa el sur de Albania hacia el noroeste y continúa por el valle del Vjosa hasta el Adriático; combina gargantas, tramos trenzados y llanura baja.', 'AOOS AOOSS')
 
 agregar('arakhthos-epeiros',
@@ -322,6 +348,112 @@ agregar('thyamis-epeiros',
     'Desde el alto valle de Kalpaki recorre Ioannina y Tesprotia, atraviesa las gargantas del Kalamas y desciende al delta del Jónico. Es el Kalamas moderno; la reconstrucción antigua debe distinguir los cambios del tramo bajo.', 'THY EPIR')
 
 
+agregar('boudoros',
+    'El curso moderno Voudoros se forma por la reunión del Nileas y el Kireas en el entorno de Mantoudi; no se reduce su origen a un manantial único (inventario WWF GR242EUB005).',
+    'Mar Egeo, en la costa de Kērinthos, al nordeste de la población moderna de Kirinthos (Estrabón 10.1.5; WWF).',
+    'No se documenta una personificación individual en el pasaje de Estrabón ni en el inventario usado; no se supone un dios sólo por existir el hidrónimo.',
+    'Nileas y Kireas, que forman el Voudoros moderno al reunirse cerca de Mantoudi (WWF, inventario de campo).',
+    'El Budōros antiguo pasa junto a Kērinthos. La identificación con el Voudoros moderno lo sitúa desde la confluencia de Mantoudi hasta el estuario de la costa oriental de Eubea (Estrabón 10.1.5; WWF).', 'S10A BOU')
+
+agregar('lelas',
+    'Cuenca montañosa de Dirphys/Xirovouni, en Eubea central, con aportes de la depresión interior de Gides (Ghilardi y colaboradores, 2022).',
+    'Golfo de Eubea meridional, en el delta de la llanura Lelantina, próximo a Lefkandi; la línea de costa y los brazos de desembocadura han cambiado desde la Antigüedad.',
+    'No se ha verificado una personificación antigua individual del Lēlas/Lēlantos en las fuentes usadas. Se mantiene separada la descripción física de una supuesta genealogía divina.',
+    'Red de arroyos de las vertientes de Dirphys/Xirovouni y de la cuenca de Gides; el estudio citado no se usa para atribuir nombres antiguos no identificados a cada ramal.',
+    'De las montañas centrales pasa por la cuenca de Gides, atraviesa los relieves intermedios y forma el delta y la llanura Lelantina entre el entorno de Chalkis y Eretria. El estudio documenta migraciones laterales de la desembocadura.', 'LIL')
+
+agregar('kallas',
+    'Cabeceras de Eubea septentrional. Estrabón sitúa Ōreos al pie de Telēthrion, sobre el Kallas, pero no identifica un manantial concreto (10.1.4).',
+    'Costa septentrional de Eubea, en el sector de Histiaia/Ōreos; el detalle del delta no se fija exclusivamente a partir del texto de Estrabón.',
+    'No se ha verificado una personificación individual en el pasaje geográfico consultado.',
+    'El texto de Estrabón usado para la identificación no enumera sus tributarios; no se adjudican nombres por conjetura.',
+    'Curso de Eubea septentrional ligado a Histiaia/Ōreos. Estrabón lo emplea como referencia para la ubicación de la ciudad junto a Telēthrion (10.1.4).', 'S10A')
+
+agregar('iardanos-kreta',
+    'En la identificación con el Keritis, manantiales de Meskla en el pie de las Montañas Blancas; ésta es la equivalencia adoptada por la documentación regional de Creta.',
+    'Costa norte de Creta, junto a Platanias, al oeste de Kydōnia/Chania, en la identificación moderna con el Keritis.',
+    'Homero sitúa a los kydōnes junto a sus corrientes (Od. 3.292–293), pero ese pasaje no fija una personificación. No se le atribuye al río cretense la genealogía del Iardanos lidio.',
+    'La ficha regional del Keritis describe sus fuentes y valle, sin dar una lista antigua de afluentes identificados; no se completa por analogía con otros ríos.',
+    'Desde Meskla atraviesa el valle de Alikianos y llega a la playa de Platanias como Keritis/Platanias. Homero sólo permite situar el Iardanos en el ámbito de los kydōnes; la equivalencia moderna debe distinguirse de esa mención antigua.', 'IAR')
+
+agregar('kairatos-kreta',
+    'Manantiales próximos a Archanes, al sur de Knōsos, en el entorno de Giouchtas; el expediente arqueológico de UNESCO distingue la cabecera del cauce que pasa junto al palacio.',
+    'Costa norte de Creta, al este del entorno de Heraklion, en el sector de Katsambas/Nea Alikarnassos.',
+    'La documentación geográfica y arqueológica citada no establece una imagen o genealogía individual del Kairatos. Su relación con Knōsos no basta para atribuirle un dios específico.',
+    'Vlychia, que confluye con el Kairatos al sudeste del yacimiento de Knōsos (expediente UNESCO).',
+    'Fluye hacia el norte desde Archanes, pasa por el lado oriental del palacio de Knōsos y continúa hacia el litoral. El Vlychia delimita el sector meridional del yacimiento.', 'KAI S10D')
+
+agregar('lethaios-kreta',
+    'Cabeceras al norte de Gortyna, en la vertiente meridional de la región del Ida. La precisión depende de si el nombre antiguo se restringe al ramal de Gortyna o se extiende al sistema del Geropotamos.',
+    'Sistema de Mesara que sale al mar de Libia por el Geropotamos. En la identificación restringida con el Mitropolianos, éste se incorpora primero al Geropotamos; los catálogos no usan siempre Lethaios con la misma extensión.',
+    'No se ha fijado una personificación individual segura en los testimonios consultados. La tradición de Zeus y Europa en Gortyna no convierte por sí sola al río en un dios con genealogía propia.',
+    'No se ofrece una lista única porque la extensión del nombre es discutida: lo que sería afluente del Geropotamos puede ser el propio Lethaios en la identificación restringida.',
+    'Estrabón 10.4.11 lo hace atravesar el territorio de Gortyna. Barrington y ToposText lo equiparan al Geropotamos; otra propuesta lo identifica con el Mitropolianos que cruza la ciudad. Se conserva la distinción entre ambas escalas de identificación.', 'S10D LETC LETT LETM')
+
+agregar('inopos-inopo-delos',
+    'Pequeña cuenca de la isla de Dēlos, con aguas pluviales y obras de captación. La alimentación subterránea desde el Nilo es tradición antigua (C), no una conexión física demostrada (Paus. 2.5.3; Calímaco, Himno a Delos 206–208).',
+    'Costa de Dēlos. La documentación hidráulica describe una conducción al puerto y la relación antigua con el Lago Sagrado; esas obras no permiten fijar sin matiz una única desembocadura natural para todas las épocas.',
+    'Inōpos, padre de las ninfas delias en la poesía de Calímaco (C; Himno a Delos 252–263). Su conexión con el Nilo forma parte del lenguaje mítico y religioso de la isla.',
+    'No se documentan afluentes individuales con nombre en los testimonios citados; es una red insular pequeña, con escorrentía y captación de agua.',
+    'Estrabón 10.5.2 describe un pequeño río que recorre Dēlos. Las cisternas y conducciones estudiadas por ITIA muestran su integración en el abastecimiento y el drenaje de la isla.', 'P2A INO INOH')
+
+agregar('kouris-kypros',
+    'Vertientes meridionales del macizo del Troodos; la cuenca moderna alcanza las zonas altas del macizo (estudio de la Universidad Tecnológica de Chipre).',
+    'Costa meridional de Chipre, en el sector de Kourion/Episkopi. La presa de Kouris y los trasvases actuales no se proyectan sobre la hidrografía antigua.',
+    'No se ha documentado una personificación antigua individual con el nombre Kouris en las fuentes usadas. El nombre moderno de la cuenca y la proximidad de Kourion no bastan para establecerla.',
+    'Limnatis y Kryos, que confluyen con el Kouris por encima de la presa actual; el trasvase desde Arminou no es un afluente natural (estudio de la cuenca del Kouris).',
+    'Desciende desde el Troodos hacia el sur, reúne las redes del Limnatis y el Kryos y continúa hacia la costa del entorno de Kourion. El inventario moderno registra la fuerte intervención hidráulica reciente.', 'KOU CYD')
+
+agregar('pedieos-kypros',
+    'Bosque de Machairas, en las laderas nororientales del Troodos; cuenca alta de Kionia (Cyprus Institute, proyecto ACTIVATE).',
+    'Históricamente, bahía de Salamis/Famagusta. Actualmente parte del drenaje termina en embalses de riego al oeste de Famagusta; se distingue el destino natural antiguo de las derivaciones modernas.',
+    'No se ha establecido una personificación individual del Pediaios en las fuentes consultadas. El inventario hidrográfico moderno no aporta por sí solo evidencia de culto antiguo.',
+    'La red moderna incluye los cursos Almyros y Kalogyros, identificados en el catálogo oficial de presas como pertenecientes al sistema Pediaios.',
+    'Desde Machairas avanza al nordeste por el entorno de Tamassos hacia Nicosia y luego al este por Mesaoria hacia Salamis. El desvío del cauce urbano de Nicosia en época veneciana y las presas modernas alteraron su recorrido.', 'PED CYD')
+
+agregar('hermos-aiolis',
+    'Montaña sagrada Dindymēnē en Misia, según Estrabón 13.4.5; se conserva la localización antigua como tal, sin equipararla por mera semejanza a todos los montes llamados Dindymos.',
+    'Egeo, en el litoral del golfo de Smyrna al sur del sector de Phōkaia; Estrabón sitúa la salida cerca de Phōkaia (13.4.5). La desembocadura del Gediz moderno ha sido modificada.',
+    'Hermos, dios fluvial incluido entre los hijos de Océano y Tetis en la tradición (C; Hes. Th. 337–345).',
+    'Paktōlos y Hyllos/Phrygios, nombrados por Estrabón 13.4.5. Se mantiene su nomenclatura y no se fuerza una equivalencia moderna para cada hidrónimo.',
+    'Desde las cabeceras del interior atraviesa Katakekaumenē y las llanuras del territorio de Sardeis, recibe el Paktōlos y otras aguas lidias y continúa al Egeo (Estrabón 13.4.5).', 'S13H H')
+
+agregar('kaikos-aiolis',
+    'Estrabón sitúa las fuentes en una llanura cercana a Gergitha y niega que nazca en el Ida (13.1.70). El Temnos aporta el Mysios; no se confunde el nacimiento de ese afluente con el del Kaïkos.',
+    'Golfo Elaítico, en la costa de Teuthrania, en el ámbito de Elaia y Pitane (Estrabón 13.1.69–70).',
+    'Kaïkos, hijo de Océano y Tetis en la tradición (C; Hes. Th. 337–345). Los testimonios trágicos lo invocan como río de Misia.',
+    'Mysios, procedente del Temnos, y la red de torrentes en la que Estrabón incluye el Kēteios; éste llega al Kaïkos a través de otros cursos, no necesariamente como afluente directo (13.1.70).',
+    'Recorre la cuenca de Teuthrania y el ámbito de Pérgamo antes de salir al golfo Elaítico. La descripción de Estrabón permite separar el cauce principal de los tributarios del Temnos (13.1.69–70).', 'S13 H')
+
+agregar('kaystros-ionia',
+    'Cabeceras de Lidia en el entorno de Tmōlos y la llanura del Kaÿstros. Estrabón relaciona el curso con el sector de Leimōn y el santuario del héroe Kaystros (14.1.44).',
+    'Egeo junto a Ephesos. Las aportaciones aluviales hicieron avanzar la costa y alteraron la relación entre la ciudad, el puerto y el mar (Estrabón 14.1.24).',
+    'Kaystros, padre mítico del epónimo Ephesos (C; Paus. 7.2.8); Estrabón menciona un heroon de Kaystros (14.1.44). El testimonio es más preciso que suponer una genealogía oceánica no expresada en esos pasajes.',
+    'Las fuentes citadas no dan un catálogo seguro de tributarios con nombres antiguos. Hermos y Maiandros pertenecen a cuencas vecinas y no son afluentes del Kaÿstros.',
+    'Atraviesa la llanura lidia entre los sistemas de Tmōlos y Mesōgis y desciende hacia Ephesos y su antigua costa portuaria (Estrabón 14.1.24, 44).', 'S14 KAY')
+
+agregar('maiandros-ionia',
+    'Kelainai de Frigia: Jenofonte sitúa sus fuentes bajo el palacio de Ciro y describe el río atravesando el parque y la ciudad (An. 1.2.7).',
+    'Egeo, entre el ámbito de Milētos y Priēnē. Las acumulaciones de sedimentos convirtieron antiguas ensenadas en tierra firme; no se reproduce la desembocadura moderna como costa de todas las fechas (Paus. 8.24.11; Estrabón 14.1.10–12).',
+    'Maiandros, hijo de Océano y Tetis en la tradición (C; Hes. Th. 337–345). Se distingue la personificación del río del motivo geométrico que recibió su nombre.',
+    'Marsyas, cuya confluencia en Kelainai describe expresamente Jenofonte (An. 1.2.8). La lista no pretende agotar la extensa red del Meandro.',
+    'Desde Kelainai atraviesa el interior de Frigia y las tierras de Caria hasta la llanura de Jonia meridional; su tramo bajo pasa por el ámbito de Magnesia, Myous, Milētos y Priēnē (Paus. 2.5.3; Estrabón 14.1.10–12).', 'XEN S14 P8B P2A H')
+
+agregar('hebros',
+    'Cabecera moderna del Maritsa/Evros en los montes Rila. La tradición transmitida en torno a Alceo lo hace descender del Rhodopē; se distinguen la descripción poética antigua y la identificación hidrográfica actual.',
+    'Egeo septentrional o mar Tracio, junto a Ainos, frente a Samothrakē (Alceo, fr. 45a–b; documentación INTERREG).',
+    'Hebros, río sagrado interpelado por Alceo (fr. 45a–b); la tradición lo trata como figura fluvial divina. Los testimonios usados no fijan una representación escultórica concreta ni una filiación parental segura.',
+    'Arda/Ardas y Tundzha/Tunca, afluentes principales documentados por FAO. No se confunde el Arda con el propio Maritsa/Hebros.',
+    'Cruza Tracia desde Rila hacia el sudeste, recibe las redes del Arda y el Tundzha en el sector de la actual Edirne y gira al sur hacia Ainos y el delta del mar Tracio.', 'HEB HEBH HEBT')
+
+agregar('strymon',
+    'Macizo de Vitosha, al sur de Sofia, según la documentación hidrográfica de la cuenca transfronteriza Struma/Strymon (UNESCO/INWEB).',
+    'Golfo Estrimónico del Egeo septentrional, después del sector de Amphipolis.',
+    'Strymōn, hijo de Océano y Tetis en la tradición (C; Hes. Th. 337–345). Es la personificación del río, no el nombre de un rey histórico identificado.',
+    'Angitēs, tributario de la cuenca baja cuya cabecera kárstica está documentada en Piges tou Angiti; la red completa incluye otros cursos transfronterizos, que no se enumeran sin identificación antigua segura.',
+    'Desde Vitosha recorre hacia el sur la Bulgaria occidental, entra en la cuenca de Serrai y continúa por Amphipolis hasta el Egeo. El embalse actual de Kerkini y las obras de regulación no se proyectan sobre el paisaje antiguo.', 'H STRH STRA')
+
+
 def main():
     elegidos = sys.argv[1:] or list(DATOS)
     desconocidos = set(elegidos) - DATOS.keys()
@@ -343,8 +475,11 @@ def main():
         fuentes = ficha.setdefault('fuentes', [])
         for codigo in registro['fuentes']:
             titulo, url = FUENTES[codigo]
-            if not any(f.get('url') == url for f in fuentes):
+            existente = next((f for f in fuentes if f.get('url') == url), None)
+            if existente is None:
                 fuentes.append({'titulo': titulo, 'url': url})
+            elif 'Jautzy' in existente.get('titulo', ''):
+                existente['titulo'] = titulo
         salida = json.dumps(ficha, ensure_ascii=False, indent=2) + ('\n' if original.endswith('\n') else '')
         if salida != original:
             path.write_text(salida, encoding='utf-8')

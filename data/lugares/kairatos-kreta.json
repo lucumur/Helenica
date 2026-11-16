@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Manantiales próximos a Archanes, al sur de Knōsos, en el entorno de Giouchtas; el expediente arqueológico de UNESCO distingue la cabecera del cauce que pasa junto al palacio.",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Costa norte de Creta, al este del entorno de Heraklion, en el sector de Katsambas/Nea Alikarnassos.",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "La documentación geográfica y arqueológica citada no establece una imagen o genealogía individual del Kairatos. Su relación con Knōsos no basta para atribuirle un dios específico.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Vlychia, que confluye con el Kairatos al sudeste del yacimiento de Knōsos (expediente UNESCO).",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Fluye hacia el norte desde Archanes, pasa por el lado oriental del palacio de Knōsos y continúa hacia el litoral. El Vlychia delimita el sector meridional del yacimiento.",
       "refs": []
     }
   ],
@@ -65,5 +65,15 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "UNESCO, expediente de los centros palaciales minoicos: Kairatos y Vlychia",
+      "url": "https://whc.unesco.org/document/208870"
+    },
+    {
+      "titulo": "Estrabón, Geografía 10.4: Kairatos, Cnoso y Lethaios",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/10D*.html"
+    }
+  ]
 }

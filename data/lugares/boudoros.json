@@ -12,31 +12,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "El curso moderno Voudoros se forma por la reunión del Nileas y el Kireas en el entorno de Mantoudi; no se reduce su origen a un manantial único (inventario WWF GR242EUB005).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Mar Egeo, en la costa de Kērinthos, al nordeste de la población moderna de Kirinthos (Estrabón 10.1.5; WWF).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "No se documenta una personificación individual en el pasaje de Estrabón ni en el inventario usado; no se supone un dios sólo por existir el hidrónimo.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Nileas y Kireas, que forman el Voudoros moderno al reunirse cerca de Mantoudi (WWF, inventario de campo).",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "El Budōros antiguo pasa junto a Kērinthos. La identificación con el Voudoros moderno lo sitúa desde la confluencia de Mantoudi hasta el estuario de la costa oriental de Eubea (Estrabón 10.1.5; WWF).",
       "refs": []
     }
   ],
@@ -66,5 +66,15 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Estrabón, Geografía 10.1: ríos y ciudades de Eubea",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/10A*.html"
+    },
+    {
+      "titulo": "WWF Grecia, inventario de campo GR242EUB005: estuario del Voudoros",
+      "url": "https://www.ygrotopio.gr/general/report.php?code=EUB005&lang=en"
+    }
+  ]
 }

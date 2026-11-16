@@ -24,31 +24,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Kelainai de Frigia: Jenofonte sitúa sus fuentes bajo el palacio de Ciro y describe el río atravesando el parque y la ciudad (An. 1.2.7).",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Egeo, entre el ámbito de Milētos y Priēnē. Las acumulaciones de sedimentos convirtieron antiguas ensenadas en tierra firme; no se reproduce la desembocadura moderna como costa de todas las fechas (Paus. 8.24.11; Estrabón 14.1.10–12).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Maiandros, hijo de Océano y Tetis en la tradición (C; Hes. Th. 337–345). Se distingue la personificación del río del motivo geométrico que recibió su nombre.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Marsyas, cuya confluencia en Kelainai describe expresamente Jenofonte (An. 1.2.8). La lista no pretende agotar la extensa red del Meandro.",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Desde Kelainai atraviesa el interior de Frigia y las tierras de Caria hasta la llanura de Jonia meridional; su tramo bajo pasa por el ámbito de Magnesia, Myous, Milētos y Priēnē (Paus. 2.5.3; Estrabón 14.1.10–12).",
       "refs": []
     }
   ],
@@ -60,5 +60,27 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Jenofonte, Anábasis 1.2.7–8: fuentes del Meandro y confluencia del Marsias",
+      "url": "https://beta.perseus.tufts.edu/urn%3Acts%3AgreekLit%3Atlg0032.tlg006.perseus-eng2%3A1.2/"
+    },
+    {
+      "titulo": "Estrabón, Geografía 14.1: Jonia, Meandro y Caístro",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/14A*.html"
+    },
+    {
+      "titulo": "Pausanias, Descripción de Grecia 8.17–35",
+      "url": "https://www.theoi.com/Text/Pausanias8B.html"
+    },
+    {
+      "titulo": "Pausanias, Descripción de Grecia 2.1–14",
+      "url": "https://www.theoi.com/Text/Pausanias2A.html"
+    },
+    {
+      "titulo": "Hesíodo, Teogonía 337–370: ríos y Oceánides",
+      "url": "https://chs.harvard.edu/primary-source/hesiod-theogony-sb/"
+    }
+  ]
 }

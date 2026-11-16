@@ -29,31 +29,31 @@
     {
       "clave": "nacimientos",
       "etiqueta": "Nacimientos",
-      "texto": "",
+      "texto": "Estrabón sitúa las fuentes en una llanura cercana a Gergitha y niega que nazca en el Ida (13.1.70). El Temnos aporta el Mysios; no se confunde el nacimiento de ese afluente con el del Kaïkos.",
       "refs": []
     },
     {
       "clave": "desembocadura",
       "etiqueta": "Desembocadura",
-      "texto": "",
+      "texto": "Golfo Elaítico, en la costa de Teuthrania, en el ámbito de Elaia y Pitane (Estrabón 13.1.69–70).",
       "refs": []
     },
     {
       "clave": "forma_potamica",
       "etiqueta": "Forma potámica",
-      "texto": "",
+      "texto": "Kaïkos, hijo de Océano y Tetis en la tradición (C; Hes. Th. 337–345). Los testimonios trágicos lo invocan como río de Misia.",
       "refs": []
     },
     {
       "clave": "afluentes",
       "etiqueta": "Afluentes",
-      "texto": "",
+      "texto": "Mysios, procedente del Temnos, y la red de torrentes en la que Estrabón incluye el Kēteios; éste llega al Kaïkos a través de otros cursos, no necesariamente como afluente directo (13.1.70).",
       "refs": []
     },
     {
       "clave": "recorrido",
       "etiqueta": "Recorrido",
-      "texto": "",
+      "texto": "Recorre la cuenca de Teuthrania y el ámbito de Pérgamo antes de salir al golfo Elaítico. La descripción de Estrabón permite separar el cauce principal de los tributarios del Temnos (13.1.69–70).",
       "refs": []
     }
   ],
@@ -65,5 +65,15 @@
     ],
     "precision": "aprox"
   },
-  "icono": "🌊"
+  "icono": "🌊",
+  "fuentes": [
+    {
+      "titulo": "Estrabón, Geografía 13.1.69–70: Teutrania, fuentes y afluentes del Kaikos",
+      "url": "https://www.greekmythology.com/sources/strabo/geography/13-teuthrania-telephus-auge"
+    },
+    {
+      "titulo": "Hesíodo, Teogonía 337–370: ríos y Oceánides",
+      "url": "https://chs.harvard.edu/primary-source/hesiod-theogony-sb/"
+    }
+  ]
 }
